@@ -199,23 +199,31 @@ final class CaptureEngine: @unchecked Sendable {
     func stop() async -> (transcripts: [String], onset: Double?, confidence: Double?, error: String?) {
         stopAudio()
         await withCheckedContinuation { (c: CheckedContinuation<Void, Never>) in
-            lock.lock()
-            if finished {
-                lock.unlock()
-                c.resume()
-                return
-            }
-            finalContinuation = c
-            lock.unlock()
-            DispatchQueue.global().asyncAfter(deadline: .now() + 3) { self.resumeFinal() }
+            waitForFinal(c)
         }
+        return collectResults()
+    }
+
+    /// 已經有最終結果就立刻繼續；否則登記等待，3 秒後逾時
+    private func waitForFinal(_ c: CheckedContinuation<Void, Never>) {
         lock.lock()
+        if finished {
+            lock.unlock()
+            c.resume()
+            return
+        }
+        finalContinuation = c
+        lock.unlock()
+        DispatchQueue.global().asyncAfter(deadline: .now() + 3) { self.resumeFinal() }
+    }
+
+    private func collectResults() -> (transcripts: [String], onset: Double?, confidence: Double?, error: String?) {
+        lock.lock()
+        defer { lock.unlock() }
         task?.cancel()
         task = nil
         request = nil
-        let out = (transcripts, detector.onset, confidence, errorMessage)
-        lock.unlock()
-        return out
+        return (transcripts, detector.onset, confidence, errorMessage)
     }
 
     func cancel() {
