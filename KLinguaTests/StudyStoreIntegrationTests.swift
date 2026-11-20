@@ -90,6 +90,20 @@ struct StudyStoreIntegrationTests {
         #expect(earlier.allSatisfy { store.status(of: $0) == .skippedByTest })
     }
 
+    @Test func weakGrammarStartsAtUnitFour() throws {
+        // 字母、聽辨、單字全對，文法與閱讀全錯 → 從第 4 單元（自我介紹）開始
+        let d = store.library.diagnostic
+        let known = d.sections.filter { [.hangulRecognition, .phonemeDiscrimination, .vocabulary].contains($0.skill) }
+            .flatMap(\.questions).map(\.id)
+        let scores = QuizScoring.sectionScores(d, correctIDs: Set(known))
+        let result = PlacementEngine.place(scores)
+        #expect(result.startUnitNumber == 4)
+        store.applyPlacement(result, sectionScores: scores)
+        #expect(store.currentLesson?.id == "U04L01")
+        let earlier = store.library.units.prefix(3).flatMap(\.lessons)
+        #expect(earlier.allSatisfy { store.status(of: $0) == .skippedByTest })
+    }
+
     @Test func finishingLastLessonOfUnitOneMovesToUnitTwo() throws {
         placeBeginner()
         let lesson = try #require(store.library.lesson(id: "U01L05"))

@@ -61,6 +61,25 @@ struct ContentTests {
         #expect(words.allSatisfy { !earlier.contains($0.korean) })
     }
 
+    @Test("單元 04 自我介紹：5 課，兼顧正式與日常禮貌語體")
+    func unit04() throws {
+        let lib = try ContentLibrary.loadBundled()
+        let u4 = lib.units[3]
+        #expect(u4.number == 4)
+        #expect(u4.available)
+        #expect(u4.lessons.map(\.id) == ["U04L01", "U04L02", "U04L03", "U04L04", "U04L05"])
+        #expect(u4.lessons.flatMap(\.vocabulary).count >= 50)
+        // 最後一課的情境對話用正式語體，其他課用日常禮貌語體
+        #expect(u4.lessons.last?.speaking.speechLevel == .formal)
+        #expect(u4.lessons.dropLast().allSatisfy { $0.speaking.speechLevel == .polite })
+        // 主題助詞 은/는 依收音選擇
+        let answers = u4.lessons.flatMap(\.drills).flatMap(\.items).flatMap(\.answers)
+        #expect(answers.contains("선생님은 한국 사람이에요."))
+        #expect(answers.contains("언니는 회사원이에요."))
+        let earlier = Set(lib.units.prefix(3).flatMap(\.lessons).flatMap(\.vocabulary).map(\.korean))
+        #expect(u4.lessons.flatMap(\.vocabulary).allSatisfy { !earlier.contains($0.korean) })
+    }
+
     @Test("못 해요／못해요 兩種寫法都接受")
     func spacingVariantsAccepted() throws {
         let lib = try ContentLibrary.loadBundled()
