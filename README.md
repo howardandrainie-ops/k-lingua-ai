@@ -2,7 +2,7 @@
 
 原生 iOS App（Swift 6 / SwiftUI / SwiftData），以 FSI Pattern Drill、五格 SRS、Minimal Pairs 與 AI 情境對話為核心。
 
-> **目前進度：第四階段（AI 服務）完成並通過 CI 編譯。** 尚未在模擬器或 iPhone 上實際操作，語音與 AI 連線必須在實機上測試，見下方「驗證狀態」。
+> **目前進度：第五階段（整合測試）完成。** App 已在 iOS 模擬器上由自動化 UI 測試實際操作通過；語音、麥克風與 AI 真實連線仍需在 iPhone 上用你的 API Key 測試。詳見 [Docs/STAGE5_TEST_REPORT.md](Docs/STAGE5_TEST_REPORT.md)。
 
 ## 第二階段已完成的畫面
 
@@ -52,6 +52,8 @@ k-lingua-ai/
 ├── Packages/KLinguaCore/       純邏輯 Swift Package（只依賴 Foundation，可獨立 swift test）
 │   ├── Sources/KLinguaCore/    Domain、SRS、Curriculum、Drill、Assessment、Analytics、Content
 │   └── Tests/KLinguaCoreTests/
+├── KLinguaTests/               App 整合測試（swift-testing）
+├── KLinguaUITests/             模擬器 UI 測試（XCUITest）
 ├── Tools/validate_project.py   不需 Xcode 的結構檢查
 └── Docs/                       階段報告與架構說明
 ```
@@ -93,9 +95,11 @@ swift test
 | 項目 | 狀態 |
 |---|---|
 | 專案結構 / pbxproj 引用完整性 / JSON | ✅ `Tools/validate_project.py` |
-| KLinguaCore 單元測試（81 項） | ✅ CI 上 `swift test` |
+| KLinguaCore 單元測試（88 項） | ✅ CI 上 `swift test` |
+| App 整合測試（15 項，SwiftData + 教材 + 鑰匙圈） | ✅ CI 上模擬器 `xcodebuild test` |
+| UI 端對端測試（4 個流程，含截圖） | ✅ CI 上模擬器 XCUITest |
 | iOS App 編譯（模擬器 + 實機，未簽章） | ✅ CI 上 `xcodebuild` |
-| App 實際操作 / iPhone 實機 | ⏳ 未測試（CI 只編譯，沒有執行畫面；需要 Mac 或實機） |
+| iPhone 實機操作 | ⏳ 未測試（模擬器已通過；實機需要 Mac 與 Apple ID 安裝） |
 | 麥克風、語音辨識、錄音 | ⏳ 未測試（模擬器沒有真實麥克風，必須在 iPhone 上測） |
 | AI 實際連線（Claude / OpenAI / Gemini） | ⏳ 未測試（請求格式與回應解析有單元測試；真實連線需要你的 API Key，用設定頁的「測試連線」確認） |
 
