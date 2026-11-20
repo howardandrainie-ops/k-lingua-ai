@@ -66,6 +66,11 @@ public struct ListeningItem: Codable, Sendable, Identifiable, Hashable {
     public var options: [String]
     public var answerIndex: Int
     public var explanation: String
+
+    public var asQuizQuestion: QuizQuestion {
+        QuizQuestion(id: id, skill: .listening, kind: .listeningChoice, prompt: question, audioText: audioText,
+                     options: options, answerIndex: answerIndex, explanation: explanation)
+    }
 }
 
 public enum DrillType: String, Codable, Sendable, CaseIterable {
@@ -122,6 +127,25 @@ public struct QuizQuestion: Codable, Sendable, Identifiable, Hashable {
     public var answerIndex: Int?
     public var acceptedAnswers: [String]?
     public var explanation: String
+
+    public init(id: String, skill: SkillDimension, kind: QuestionKind, prompt: String, audioText: String? = nil,
+                options: [String]? = nil, answerIndex: Int? = nil, acceptedAnswers: [String]? = nil, explanation: String) {
+        self.id = id
+        self.skill = skill
+        self.kind = kind
+        self.prompt = prompt
+        self.audioText = audioText
+        self.options = options
+        self.answerIndex = answerIndex
+        self.acceptedAnswers = acceptedAnswers
+        self.explanation = explanation
+    }
+
+    /// 正確答案的顯示文字
+    public var correctAnswerText: String {
+        if let i = answerIndex, let o = options, o.indices.contains(i) { return o[i] }
+        return acceptedAnswers?.first ?? ""
+    }
 }
 
 public struct SpeakingTask: Codable, Sendable, Hashable {

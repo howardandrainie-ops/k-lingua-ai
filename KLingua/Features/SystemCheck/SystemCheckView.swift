@@ -14,7 +14,7 @@ struct SystemCheckView: View {
         List {
             Section("專案") {
                 LabeledContent("核心版本", value: KLinguaCoreInfo.version)
-                LabeledContent("開發階段", value: "第 \(KLinguaCoreInfo.developmentStage) 階段：架構與環境")
+                LabeledContent("開發階段", value: "第 \(KLinguaCoreInfo.developmentStage) 階段")
             }
 
             Section {

@@ -117,6 +117,11 @@ public enum DrillGrader {
         return found
     }
 
+    /// 兩個韓文字串在字母（자모）層級的編輯距離
+    public static func jamoDistance(_ a: String, _ b: String) -> Int {
+        editDistance(Hangul.jamo(a), Hangul.jamo(b))
+    }
+
     static func editDistance(_ a: [Character], _ b: [Character]) -> Int {
         if a.isEmpty { return b.count }
         if b.isEmpty { return a.count }

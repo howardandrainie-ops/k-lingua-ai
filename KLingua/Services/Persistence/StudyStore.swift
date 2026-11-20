@@ -8,16 +8,22 @@ import KLinguaCore
 @MainActor
 @Observable
 final class StudyStore {
+    let container: ModelContainer
     let context: ModelContext
     let library: ContentLibrary
     let scheduler: SRSScheduler
     /// 第四階段由 AI 設定頁更新
     var aiAvailable = false
+    /// 每次寫入資料庫就加一。畫面讀取這個值，資料變動時會自動重新整理。
+    private(set) var revision = 0
 
-    init(context: ModelContext, library: ContentLibrary, scheduler: SRSScheduler = SRSScheduler()) {
-        self.context = context
+    init(container: ModelContainer, library: ContentLibrary, scheduler: SRSScheduler = SRSScheduler()) {
+        self.container = container
+        self.context = container.mainContext
         self.library = library
         self.scheduler = scheduler
+        // 先建立使用者資料，畫面讀取時就不會在繪製途中寫入資料庫
+        _ = profile()
     }
 
     // MARK: - 使用者
@@ -67,6 +73,44 @@ final class StudyStore {
         return lp
     }
 
+    /// 只讀取、不建立（給畫面顯示用）
+    func existingProgress(for lessonID: String) -> LessonProgress? {
+        let d = FetchDescriptor<LessonProgress>(predicate: #Predicate { $0.lessonID == lessonID })
+        return try? context.fetch(d).first
+    }
+
+    enum LessonStatus { case notStarted, inProgress, completed, skippedByTest }
+
+    func status(of lesson: Lesson) -> LessonStatus {
+        guard let lp = existingProgress(for: lesson.id) else { return .notStarted }
+        if lp.skippedByTest { return .skippedByTest }
+        if lp.completedAt != nil { return .completed }
+        return .inProgress
+    }
+
+    /// 已開放（有教材）的課程
+    var availableLessons: [Lesson] { library.units.filter(\.available).flatMap(\.lessons) }
+
+    /// 從第一課到目前課程（每日測驗、發音辨識的出題範圍）
+    var lessonsUpToCurrent: [Lesson] {
+        let all = availableLessons
+        guard let current = currentLesson, let i = all.firstIndex(where: { $0.id == current.id }) else {
+            return Array(all.prefix(1))
+        }
+        return Array(all[...i])
+    }
+
+    func recordVocabularyQuiz(lesson: Lesson, at now: Date = Date()) {
+        progress(for: lesson.id).vocabularyQuizDone = true
+        addCards(for: lesson.vocabulary, at: now)
+    }
+
+    func recordPostTest(lesson: Lesson, correct: Int, total: Int) {
+        let lp = progress(for: lesson.id)
+        lp.postTestBestRatio = max(lp.postTestBestRatio ?? 0, QuizScoring.ratio(correct: correct, total: total))
+        save()
+    }
+
     var currentLesson: Lesson? {
         profile().currentLessonID.flatMap(library.lesson(id:)) ?? library.allLessons.first
     }
@@ -87,6 +131,31 @@ final class StudyStore {
     // MARK: - 單字卡與 SRS
 
     func cards() -> [Flashcard] { (try? context.fetch(FetchDescriptor<Flashcard>())) ?? [] }
+
+    func cardsByVocabulary() -> [String: Flashcard] {
+        Dictionary(cards().map { ($0.vocabularyID, $0) }, uniquingKeysWith: { first, _ in first })
+    }
+
+    /// 把指定單字加入單字卡（已存在的略過），回傳新增數量
+    @discardableResult
+    func addCards(for words: [VocabularyItem], at now: Date = Date()) -> Int {
+        var existing = Set(cards().map(\.vocabularyID))
+        var added = 0
+        for w in words where !existing.contains(w.id) {
+            context.insert(Flashcard(vocabularyID: w.id, now: now))
+            existing.insert(w.id)
+            added += 1
+        }
+        save()
+        return added
+    }
+
+    /// 各箱子的面向數量
+    func boxCounts(facet: CardFacet? = nil) -> [LeitnerBox: Int] {
+        let all = (try? context.fetch(FetchDescriptor<FacetSchedule>())) ?? []
+        let filtered = facet.map { f in all.filter { $0.facetRaw == f.rawValue } } ?? all
+        return Dictionary(grouping: filtered, by: { LeitnerBox(rawValue: $0.boxRaw) ?? .box1 }).mapValues(\.count)
+    }
 
     func box1Count() -> Int {
         let raw = LeitnerBox.box1.rawValue
@@ -134,11 +203,12 @@ final class StudyStore {
 
     // MARK: - Drill 與測驗
 
-    func recordDrill(drillID: String, grade: DrillGrade, lessonID: String?, at now: Date = Date()) {
-        context.insert(AttemptRecord(skill: .grammar, activity: .patternDrill, sourceID: drillID,
+    func recordDrill(drillID: String, grade: DrillGrade, userAnswer: String, lessonID: String?,
+                     skill: SkillDimension = .grammar, activity: TrainingActivity = .patternDrill, at now: Date = Date()) {
+        context.insert(AttemptRecord(skill: skill, activity: activity, sourceID: drillID,
                                      correct: grade.verdict.isAcceptable, responseSeconds: grade.responseSeconds, at: now))
         if !grade.verdict.isAcceptable {
-            context.insert(MistakeRecord(sourceID: drillID, category: grade.verdict, userAnswer: "",
+            context.insert(MistakeRecord(sourceID: drillID, category: grade.verdict, userAnswer: userAnswer,
                                          expected: grade.expected, explanation: grade.feedback))
         }
         if let lessonID {
@@ -149,9 +219,37 @@ final class StudyStore {
         save()
     }
 
-    func recordQuiz(_ q: QuizQuestion, correct: Bool, responseSeconds: Double, at now: Date = Date()) {
-        context.insert(AttemptRecord(skill: q.skill, activity: .dailyCheck, sourceID: q.id,
+    func recordQuiz(_ q: QuizQuestion, correct: Bool, responseSeconds: Double,
+                    activity: TrainingActivity = .dailyCheck, at now: Date = Date()) {
+        context.insert(AttemptRecord(skill: q.skill, activity: activity, sourceID: q.id,
                                      correct: correct, responseSeconds: responseSeconds, at: now))
+        save()
+    }
+
+    func recordAttempt(skill: SkillDimension, activity: TrainingActivity, sourceID: String,
+                       correct: Bool, responseSeconds: Double, at now: Date = Date()) {
+        context.insert(AttemptRecord(skill: skill, activity: activity, sourceID: sourceID,
+                                     correct: correct, responseSeconds: responseSeconds, at: now))
+        save()
+    }
+
+    /// 某組 Drill 最近連續「答對且在初始思考時間內開始作答」的次數（用來縮短思考時間）
+    func drillFluentStreak(for set: DrillSet) -> Int {
+        let id = set.id
+        var d = FetchDescriptor<AttemptRecord>(predicate: #Predicate { $0.sourceID == id },
+                                               sortBy: [SortDescriptor(\.timestamp, order: .reverse)])
+        d.fetchLimit = 40
+        let recent = (try? context.fetch(d)) ?? []
+        var streak = 0
+        for a in recent {
+            guard a.correct && a.responseSeconds <= set.thinkSeconds else { break }
+            streak += 1
+        }
+        return streak
+    }
+
+    func resolveMistake(_ m: MistakeRecord, at now: Date = Date()) {
+        m.resolvedAt = now
         save()
     }
 
@@ -184,7 +282,56 @@ final class StudyStore {
                                               aiAvailable: aiAvailable))
     }
 
+    // MARK: - 每日紀錄
+
+    func todayRecord(at now: Date = Date()) -> DailyLearningRecord? {
+        let start = Calendar.current.startOfDay(for: now)
+        let d = FetchDescriptor<DailyLearningRecord>(predicate: #Predicate { $0.day == start })
+        return try? context.fetch(d).first
+    }
+
+    /// 完成一段訓練：累計時間並標記今日課表項目完成
+    func logActivity(_ activity: TrainingActivity, seconds: Double, newWords: Int = 0, reviews: Int = 0, at now: Date = Date()) {
+        let record: DailyLearningRecord
+        if let existing = todayRecord(at: now) {
+            record = existing
+        } else {
+            record = DailyLearningRecord(day: Calendar.current.startOfDay(for: now), plannedMinutes: profile().dailyMinutes)
+            context.insert(record)
+        }
+        record.studiedSeconds += max(0, seconds)
+        if !record.completedActivitiesRaw.contains(activity.rawValue) {
+            record.completedActivitiesRaw.append(activity.rawValue)
+        }
+        record.newWords += newWords
+        record.reviews += reviews
+        save()
+    }
+
+    func completedToday(at now: Date = Date()) -> Set<TrainingActivity> {
+        Set((todayRecord(at: now)?.completedActivitiesRaw ?? []).compactMap(TrainingActivity.init(rawValue:)))
+    }
+
+    // MARK: - 設定
+
+    func setDailyMinutes(_ minutes: Int) {
+        profile().dailyMinutes = minutes
+        save()
+    }
+
+    func setShowRomanization(_ on: Bool) {
+        profile().showRomanization = on
+        save()
+    }
+
+    /// 重新做診斷測驗（保留所有作答紀錄）
+    func restartDiagnostic() {
+        profile().diagnosticCompletedAt = nil
+        save()
+    }
+
     func save() {
+        revision += 1
         do { try context.save() } catch { assertionFailure("SwiftData save failed: \(error)") }
     }
 }

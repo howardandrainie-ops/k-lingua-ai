@@ -1,15 +1,32 @@
 import SwiftUI
 
-/// 第一階段的根畫面只有「系統自檢」，用於在實機上確認韓語 TTS 與語音辨識是否可用。
-/// 第二階段起改為 TabView（首頁 / 今日訓練 / 課程 / 單字庫 / 設定）。
+/// 首次啟動先做診斷測驗；完成後進入主畫面。
 struct RootView: View {
+    @Environment(StudyStore.self) private var store
+
     var body: some View {
-        NavigationStack {
-            SystemCheckView()
+        let _ = store.revision
+        if store.needsDiagnostic {
+            NavigationStack { DiagnosticIntroView() }
+        } else {
+            MainTabView()
         }
     }
 }
 
-#Preview {
-    RootView()
+struct MainTabView: View {
+    var body: some View {
+        TabView {
+            NavigationStack { DashboardView() }
+                .tabItem { Label("首頁", systemImage: "house") }
+            NavigationStack { TodayView() }
+                .tabItem { Label("今日訓練", systemImage: "checklist") }
+            NavigationStack { CoursesView() }
+                .tabItem { Label("課程", systemImage: "book") }
+            NavigationStack { VocabularyLibraryView() }
+                .tabItem { Label("單字庫", systemImage: "character.book.closed") }
+            NavigationStack { SettingsView() }
+                .tabItem { Label("設定", systemImage: "gearshape") }
+        }
+    }
 }
