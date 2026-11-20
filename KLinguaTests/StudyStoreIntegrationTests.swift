@@ -76,6 +76,20 @@ struct StudyStoreIntegrationTests {
         #expect(unit2.allSatisfy { store.status(of: $0) == .notStarted })
     }
 
+    @Test func weakVocabularyStartsAtUnitThree() throws {
+        // 字母、聽辨全對，單字以後全錯 → 從第 3 單元（生活單字）開始
+        let d = store.library.diagnostic
+        let known = d.sections.filter { [.hangulRecognition, .phonemeDiscrimination].contains($0.skill) }
+            .flatMap(\.questions).map(\.id)
+        let scores = QuizScoring.sectionScores(d, correctIDs: Set(known))
+        let result = PlacementEngine.place(scores)
+        #expect(result.startUnitNumber == 3)
+        store.applyPlacement(result, sectionScores: scores)
+        #expect(store.currentLesson?.id == "U03L01")
+        let earlier = store.library.units.prefix(2).flatMap(\.lessons)
+        #expect(earlier.allSatisfy { store.status(of: $0) == .skippedByTest })
+    }
+
     @Test func finishingLastLessonOfUnitOneMovesToUnitTwo() throws {
         placeBeginner()
         let lesson = try #require(store.library.lesson(id: "U01L05"))

@@ -45,6 +45,33 @@ struct ContentTests {
         #expect(Set(all).count == all.count)
     }
 
+    @Test("單元 03 有 5 課生活單字，以 S 級為主")
+    func unit03() throws {
+        let lib = try ContentLibrary.loadBundled()
+        let u3 = lib.units[2]
+        #expect(u3.number == 3)
+        #expect(u3.available)
+        #expect(u3.stage == .coreVocabulary)
+        #expect(u3.lessons.map(\.id) == ["U03L01", "U03L02", "U03L03", "U03L04", "U03L05"])
+        let words = u3.lessons.flatMap(\.vocabulary)
+        #expect(words.count >= 55)
+        #expect(words.filter { $0.tier == .s }.count * 2 > words.count, "S 級應佔多數")
+        // 不重複教前面單元已經教過的單字
+        let earlier = Set(lib.units.prefix(2).flatMap(\.lessons).flatMap(\.vocabulary).map(\.korean))
+        #expect(words.allSatisfy { !earlier.contains($0.korean) })
+    }
+
+    @Test("못 해요／못해요 兩種寫法都接受")
+    func spacingVariantsAccepted() throws {
+        let lib = try ContentLibrary.loadBundled()
+        let set = try #require(lib.lesson(id: "U02L04")?.drills.first { $0.id == "D0901" })
+        for item in set.items {
+            let joined = item.answers[0].replacingOccurrences(of: "못 해요", with: "못해요")
+            let g = DrillGrader.grade(response: joined, answers: item.answers, responseSeconds: 2, timeLimit: 8)
+            #expect(g.verdict == .correct, "\(joined)")
+        }
+    }
+
     @Test("診斷測驗涵蓋七項能力，約 10 分鐘")
     func diagnostic() throws {
         let lib = try ContentLibrary.loadBundled()

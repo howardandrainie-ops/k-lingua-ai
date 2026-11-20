@@ -3,7 +3,3541 @@
   "number": 3,
   "title": "基礎生活單字",
   "stage": 2,
-  "summary": "S 級高頻生活詞彙：食物、地點、家人、物品、常用動詞與形容詞。",
-  "available": false,
-  "lessons": []
+  "summary": "S 級高頻生活詞彙：家人、食物、隨身物品、生活地點、常用形容詞，搭配 제／우리、좋아해요、이거／그거／저거、에서、形容詞해요體等句型。",
+  "available": true,
+  "lessons": [
+    {
+      "id": "U03L01",
+      "title": "家人與「我的、我家的」",
+      "estimatedMinutes": 45,
+      "objectives": [
+        "說出家人的稱呼，分清楚男生和女生的叫法（형／오빠、누나／언니）",
+        "用「제 N」說「我的 N」",
+        "用「우리 N」說自己的家人、家",
+        "用「N이/가 있어요?／없어요」問答有沒有兄弟姊妹"
+      ],
+      "vocabulary": [
+        {
+          "id": "V0104",
+          "korean": "가족",
+          "chinese": "家人",
+          "romanization": "ga-jok",
+          "pronunciation": "가족이에요 → [가조기에요]",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 55,
+          "example": {
+            "korean": "제 가족이에요.",
+            "chinese": "這是我的家人。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0105",
+          "korean": "엄마",
+          "chinese": "媽媽",
+          "romanization": "eom-ma",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 56,
+          "example": {
+            "korean": "우리 엄마예요.",
+            "chinese": "這是我媽媽。",
+            "speechLevel": "polite"
+          },
+          "usage": "어머니 的口語，比較親暱。對別人的媽媽要說 어머니（更尊敬：어머님）。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0106",
+          "korean": "형",
+          "chinese": "哥哥（男生稱呼）",
+          "romanization": "hyeong",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 57,
+          "example": {
+            "korean": "제 형이에요.",
+            "chinese": "這是我哥哥。",
+            "speechLevel": "polite"
+          },
+          "usage": "只有男生叫哥哥 형；女生叫 오빠。",
+          "commonMistake": "ㅕ 不要唸成 ㅛ（hyong）。"
+        },
+        {
+          "id": "V0107",
+          "korean": "누나",
+          "chinese": "姊姊（男生稱呼）",
+          "romanization": "nu-na",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 58,
+          "example": {
+            "korean": "누나가 있어요.",
+            "chinese": "我有姊姊。",
+            "speechLevel": "polite"
+          },
+          "usage": "只有男生叫姊姊 누나；女生叫 언니。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0108",
+          "korean": "언니",
+          "chinese": "姊姊（女生稱呼）",
+          "romanization": "eon-ni",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 59,
+          "example": {
+            "korean": "우리 언니예요.",
+            "chinese": "這是我姊姊。",
+            "speechLevel": "polite"
+          },
+          "usage": "女生也用 언니 稱呼年紀稍長的女店員或朋友。",
+          "commonMistake": "언 的 ㅓ 不圓唇，不要唸成「歐尼」。"
+        },
+        {
+          "id": "V0109",
+          "korean": "동생",
+          "chinese": "弟弟；妹妹",
+          "romanization": "dong-saeng",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 60,
+          "example": {
+            "korean": "동생이 있어요?",
+            "chinese": "你有弟弟妹妹嗎？",
+            "speechLevel": "polite"
+          },
+          "usage": "남동생＝弟弟，여동생＝妹妹；不分男女說話者。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0110",
+          "korean": "할머니",
+          "chinese": "奶奶；外婆",
+          "romanization": "hal-meo-ni",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 35,
+          "example": {
+            "korean": "할머니가 집에 있어요.",
+            "chinese": "奶奶在家。",
+            "speechLevel": "polite"
+          },
+          "usage": "不分父系母系。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0111",
+          "korean": "할아버지",
+          "chinese": "爺爺；外公",
+          "romanization": "ha-ra-beo-ji",
+          "pronunciation": "[하라버지]",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 36,
+          "example": {
+            "korean": "우리 할아버지예요.",
+            "chinese": "這是我爺爺。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0112",
+          "korean": "친구",
+          "chinese": "朋友",
+          "romanization": "chin-gu",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 61,
+          "example": {
+            "korean": "제 친구예요.",
+            "chinese": "這是我的朋友。",
+            "speechLevel": "polite"
+          },
+          "usage": "韓語的 친구 通常指同年齡的朋友。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0113",
+          "korean": "남편",
+          "chinese": "丈夫",
+          "romanization": "nam-pyeon",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 37,
+          "example": {
+            "korean": "제 남편이에요.",
+            "chinese": "這是我丈夫。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0114",
+          "korean": "아내",
+          "chinese": "妻子",
+          "romanization": "a-nae",
+          "partOfSpeech": "noun",
+          "tier": "B",
+          "frequencyRank": 15,
+          "example": {
+            "korean": "제 아내예요.",
+            "chinese": "這是我妻子。",
+            "speechLevel": "polite"
+          },
+          "usage": "口語也常說 와이프。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0115",
+          "korean": "우리",
+          "chinese": "我們；我家的",
+          "romanization": "u-ri",
+          "partOfSpeech": "pronoun",
+          "tier": "S",
+          "frequencyRank": 62,
+          "example": {
+            "korean": "우리 집이에요.",
+            "chinese": "這是我家。",
+            "speechLevel": "polite"
+          },
+          "usage": "說自己的家人、家、公司、國家時，韓國人習慣用 우리。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0116",
+          "korean": "제",
+          "chinese": "我的（謙虛）",
+          "romanization": "je",
+          "partOfSpeech": "pronoun",
+          "tier": "S",
+          "frequencyRank": 63,
+          "example": {
+            "korean": "제 책이에요.",
+            "chinese": "這是我的書。",
+            "speechLevel": "polite"
+          },
+          "usage": "저의 的縮寫。朋友之間用 내（我的）。",
+          "commonMistake": "不要說 *저 책（那本書）來表示「我的書」。"
+        }
+      ],
+      "pronunciation": [
+        {
+          "id": "P1101",
+          "title": "ㅓ 和 ㅗ 的分別",
+          "explanation": "家人稱呼裡有很多 ㅓ：엄마、언니、어머니。台灣學習者常把 ㅓ 唸得太圓，變成 ㅗ。ㅕ 也一樣，형 不要唸成 [횽]。",
+          "articulation": "ㅓ 嘴巴張開、嘴唇放鬆不圓；ㅗ 嘴唇圓起來往前。可以對著鏡子確認嘴唇形狀。",
+          "chineseSpeakerPitfall": "언니 唸成「歐尼」、엄마 唸成「歐媽」，韓國人聽起來像別的字。",
+          "samples": [
+            "엄마",
+            "언니",
+            "어머니",
+            "형"
+          ],
+          "minimalPairs": [
+            {
+              "a": "서",
+              "b": "소",
+              "contrast": "ㅓ／ㅗ"
+            },
+            {
+              "a": "거기",
+              "b": "고기",
+              "contrast": "ㅓ／ㅗ"
+            }
+          ]
+        },
+        {
+          "id": "P1102",
+          "title": "連音與收音 ㅇ",
+          "explanation": "收音接母音時會移到下一個字：할아버지 → [하라버지]、가족이에요 → [가조기에요]、남편이에요 → [남펴니에요]。但收音 ㅇ 不會移動：동생이에요 → [동생이에요]。",
+          "articulation": "收音 ㅇ 是鼻音 -ng，舌根停住，下一個母音直接接上去。",
+          "chineseSpeakerPitfall": "동생이에요 不要唸成 [동새기에요] 或 [동새이에요]。",
+          "samples": [
+            "할아버지",
+            "가족이에요",
+            "남편이에요",
+            "동생이에요"
+          ],
+          "minimalPairs": []
+        }
+      ],
+      "grammar": [
+        {
+          "id": "G1101",
+          "title": "제 N（我的 N）",
+          "pattern": "제 ＋ 名詞",
+          "explanation": "제 是「我的」的謙虛說法（저의 的縮寫）：제 친구、제 책。介紹時說「제 N이에요/예요」＝這是我的 N。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "제 친구예요.",
+              "chinese": "這是我的朋友。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "제 형이에요.",
+              "chinese": "這是我哥哥。",
+              "speechLevel": "polite"
+            }
+          ]
+        },
+        {
+          "id": "G1102",
+          "title": "우리 N（我們的 N＝我家的）",
+          "pattern": "우리 ＋ 家人／家／公司",
+          "explanation": "韓語說自己的家人、家、學校、國家時，習慣用「우리（我們的）」：우리 엄마（我媽媽）、우리 집（我家）、우리 회사（我們公司）。就算是獨生子女也說 우리 엄마。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "우리 엄마예요.",
+              "chinese": "這是我媽媽。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "우리 집에 가요.",
+              "chinese": "回我家。",
+              "speechLevel": "polite"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "korean": "제 가족이에요.",
+          "chinese": "這是我的家人。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "우리 엄마예요.",
+          "chinese": "這是我媽媽。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "동생이 있어요?",
+          "chinese": "你有弟弟妹妹嗎？",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "저는 누나가 있어요.",
+          "chinese": "我有姊姊。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "제 친구예요.",
+          "chinese": "這是我的朋友。",
+          "speechLevel": "polite"
+        }
+      ],
+      "listening": [
+        {
+          "id": "L1101",
+          "audioText": "우리 언니예요.",
+          "question": "意思是？",
+          "options": [
+            "這是我姊姊。",
+            "這是我媽媽。",
+            "這是我妹妹。"
+          ],
+          "answerIndex": 0,
+          "explanation": "언니＝姊姊（女生稱呼）。"
+        },
+        {
+          "id": "L1102",
+          "audioText": "할아버지",
+          "question": "意思是？",
+          "options": [
+            "爺爺",
+            "奶奶",
+            "爸爸"
+          ],
+          "answerIndex": 0,
+          "explanation": "할아버지 唸 [하라버지]。"
+        },
+        {
+          "id": "L1103",
+          "audioText": "동생이 있어요?",
+          "question": "對方在問什麼？",
+          "options": [
+            "有弟弟妹妹嗎？",
+            "有哥哥嗎？",
+            "有朋友嗎？"
+          ],
+          "answerIndex": 0,
+          "explanation": "동생＝弟弟或妹妹。"
+        },
+        {
+          "id": "L1104",
+          "audioText": "제 남편이에요.",
+          "question": "意思是？",
+          "options": [
+            "這是我丈夫。",
+            "這是我妻子。",
+            "這是我哥哥。"
+          ],
+          "answerIndex": 0,
+          "explanation": "남편＝丈夫。"
+        }
+      ],
+      "drills": [
+        {
+          "id": "D1101",
+          "type": "substitution",
+          "instruction": "介紹家人或朋友：把稱呼換成提示詞（注意 이에요／예요）。",
+          "model": {
+            "korean": "제 친구예요.",
+            "chinese": "這是我的朋友。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 8,
+          "items": [
+            {
+              "cue": "형",
+              "answers": [
+                "제 형이에요.",
+                "우리 형이에요."
+              ],
+              "chinese": "這是我哥哥。"
+            },
+            {
+              "cue": "동생",
+              "answers": [
+                "제 동생이에요.",
+                "우리 동생이에요."
+              ],
+              "chinese": "這是我弟弟／妹妹。"
+            },
+            {
+              "cue": "남편",
+              "answers": [
+                "제 남편이에요.",
+                "우리 남편이에요."
+              ],
+              "chinese": "這是我丈夫。"
+            },
+            {
+              "cue": "아내",
+              "answers": [
+                "제 아내예요.",
+                "우리 아내예요."
+              ],
+              "chinese": "這是我妻子。"
+            },
+            {
+              "cue": "누나",
+              "answers": [
+                "제 누나예요.",
+                "우리 누나예요."
+              ],
+              "chinese": "這是我姊姊。"
+            }
+          ]
+        },
+        {
+          "id": "D1102",
+          "type": "transformation",
+          "instruction": "肯定 → 否定：있어요 → 없어요。",
+          "model": {
+            "korean": "형이 있어요. → 형이 없어요.",
+            "chinese": "有哥哥。→ 沒有哥哥。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "누나가 있어요.",
+              "answers": [
+                "누나가 없어요."
+              ],
+              "chinese": "沒有姊姊。"
+            },
+            {
+              "cue": "동생이 있어요.",
+              "answers": [
+                "동생이 없어요."
+              ],
+              "chinese": "沒有弟弟妹妹。"
+            },
+            {
+              "cue": "언니가 있어요.",
+              "answers": [
+                "언니가 없어요."
+              ],
+              "chinese": "沒有姊姊。"
+            },
+            {
+              "cue": "남편이 있어요.",
+              "answers": [
+                "남편이 없어요."
+              ],
+              "chinese": "沒有丈夫。"
+            },
+            {
+              "cue": "친구가 있어요.",
+              "answers": [
+                "친구가 없어요."
+              ],
+              "chinese": "沒有朋友。"
+            }
+          ]
+        },
+        {
+          "id": "D1103",
+          "type": "questionAnswer",
+          "instruction": "聽韓語問題，依提示回答。",
+          "model": {
+            "korean": "누구예요? — 우리 엄마예요.",
+            "chinese": "是誰？——是我媽媽。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 8,
+          "items": [
+            {
+              "cue": "누구예요?（我媽媽）",
+              "cueIsAudio": true,
+              "answers": [
+                "우리 엄마예요.",
+                "엄마예요."
+              ],
+              "chinese": "是我媽媽。"
+            },
+            {
+              "cue": "동생이 있어요?（有）",
+              "cueIsAudio": true,
+              "answers": [
+                "네, 동생이 있어요.",
+                "네, 있어요."
+              ],
+              "chinese": "有，我有弟弟妹妹。"
+            },
+            {
+              "cue": "형이 있어요?（沒有）",
+              "cueIsAudio": true,
+              "answers": [
+                "아니요, 형이 없어요.",
+                "아니요, 없어요."
+              ],
+              "chinese": "沒有，我沒有哥哥。"
+            },
+            {
+              "cue": "이 사람은 누구예요?（我的朋友）",
+              "cueIsAudio": true,
+              "answers": [
+                "제 친구예요.",
+                "친구예요."
+              ],
+              "chinese": "是我的朋友。"
+            },
+            {
+              "cue": "가족이 많아요?（是，很多）",
+              "cueIsAudio": true,
+              "answers": [
+                "네, 가족이 많아요.",
+                "네, 많아요."
+              ],
+              "chinese": "對，家人很多。"
+            }
+          ]
+        },
+        {
+          "id": "D1104",
+          "type": "freeProduction",
+          "instruction": "介紹兩位家人或朋友。",
+          "model": {
+            "korean": "우리 엄마예요. 제 친구예요.",
+            "chinese": "這是我媽媽。這是我的朋友。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 10,
+          "items": [
+            {
+              "cue": "自由回答",
+              "answers": [
+                "우리 엄마예요.",
+                "제 친구예요."
+              ],
+              "chinese": "（參考答案）"
+            }
+          ]
+        }
+      ],
+      "speaking": {
+        "scenario": "給韓國朋友看手機裡的家人照片。AI 扮演朋友，會問照片裡是誰、有沒有兄弟姊妹。使用者會：제／우리 N이에요、있어요／없어요。",
+        "speechLevel": "polite",
+        "offlineScript": [
+          {
+            "cue": "이 사람은 누구예요?（提示：我姊姊，你是女生）",
+            "cueIsAudio": true,
+            "answers": [
+              "우리 언니예요.",
+              "제 언니예요."
+            ],
+            "chinese": "是我姊姊。"
+          },
+          {
+            "cue": "동생이 있어요?（提示：有）",
+            "cueIsAudio": true,
+            "answers": [
+              "네, 동생이 있어요.",
+              "네, 있어요."
+            ],
+            "chinese": "有，我有弟弟妹妹。"
+          },
+          {
+            "cue": "할머니예요?（提示：不，是我媽媽）",
+            "cueIsAudio": true,
+            "answers": [
+              "아니요, 우리 엄마예요.",
+              "아니요, 엄마예요."
+            ],
+            "chinese": "不，是我媽媽。"
+          }
+        ]
+      },
+      "postTest": [
+        {
+          "id": "Q1101",
+          "skill": "vocabulary",
+          "kind": "choice",
+          "prompt": "男生稱呼「姊姊」用哪一個？",
+          "audioText": null,
+          "options": [
+            "누나",
+            "언니",
+            "오빠"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "男生叫姊姊 누나，女生叫 언니。"
+        },
+        {
+          "id": "Q1102",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「這是我媽媽。」最自然的說法是？",
+          "audioText": null,
+          "options": [
+            "우리 엄마예요.",
+            "저 엄마예요.",
+            "우리 엄마이에요."
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "說家人習慣用 우리；엄마 沒有收音，接 예요。"
+        },
+        {
+          "id": "Q1103",
+          "skill": "listening",
+          "kind": "listeningChoice",
+          "prompt": "聽句子選意思",
+          "audioText": "누나가 있어요.",
+          "options": [
+            "有姊姊。",
+            "有妹妹。",
+            "沒有姊姊。"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "누나＝姊姊（男生稱呼）。"
+        },
+        {
+          "id": "Q1104",
+          "skill": "phonemeDiscrimination",
+          "kind": "choice",
+          "prompt": "「할아버지」實際怎麼唸？",
+          "audioText": null,
+          "options": [
+            "[하라버지]",
+            "[할라버지]",
+            "[하라보지]"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "收音 ㄹ 移到下一個字。"
+        },
+        {
+          "id": "Q1105",
+          "skill": "grammar",
+          "kind": "typing",
+          "prompt": "用韓文寫（男生說）：我沒有哥哥。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "형이 없어요.",
+            "저는 형이 없어요."
+          ],
+          "explanation": "형＋이 없어요。"
+        },
+        {
+          "id": "Q1106",
+          "skill": "speaking",
+          "kind": "speaking",
+          "prompt": "說出：這是我的朋友。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "제 친구예요."
+          ],
+          "explanation": "제 친구예요."
+        }
+      ],
+      "completion": {
+        "postTestPassRatio": 0.8,
+        "drillAccuracy": 0.8,
+        "requireVocabularyQuiz": true
+      }
+    },
+    {
+      "id": "U03L02",
+      "title": "食物與「喜歡、好吃」",
+      "estimatedMinutes": 50,
+      "objectives": [
+        "說出常見的韓國食物與食材",
+        "用「N을/를 좋아해요／싫어해요」說喜歡和討厭",
+        "用「맛있어요／맛없어요」評論食物，唸對 [마시써요]、[마덥써요]",
+        "認識複合詞的緊音：비빔밥 → [비빔빱]"
+      ],
+      "vocabulary": [
+        {
+          "id": "V0117",
+          "korean": "김치",
+          "chinese": "泡菜",
+          "romanization": "gim-chi",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 64,
+          "example": {
+            "korean": "김치가 맛있어요.",
+            "chinese": "泡菜很好吃。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0118",
+          "korean": "라면",
+          "chinese": "泡麵",
+          "romanization": "ra-myeon",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 65,
+          "example": {
+            "korean": "저는 라면을 좋아해요.",
+            "chinese": "我喜歡泡麵。",
+            "speechLevel": "polite"
+          },
+          "usage": "韓國的 라면 通常指泡麵。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0119",
+          "korean": "비빔밥",
+          "chinese": "拌飯",
+          "romanization": "bi-bim-bap",
+          "pronunciation": "[비빔빱]",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 38,
+          "example": {
+            "korean": "비빔밥 주세요.",
+            "chinese": "請給我拌飯。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0120",
+          "korean": "김밥",
+          "chinese": "飯捲",
+          "romanization": "gim-bap",
+          "pronunciation": "[김밥] 或 [김빱]",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 39,
+          "example": {
+            "korean": "김밥이 싸요.",
+            "chinese": "飯捲很便宜。",
+            "speechLevel": "polite"
+          },
+          "usage": "便利商店、小吃店都買得到。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0121",
+          "korean": "고기",
+          "chinese": "肉",
+          "romanization": "go-gi",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 66,
+          "example": {
+            "korean": "고기를 좋아해요.",
+            "chinese": "我喜歡吃肉。",
+            "speechLevel": "polite"
+          },
+          "usage": "소고기＝牛肉，돼지고기＝豬肉。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0122",
+          "korean": "과일",
+          "chinese": "水果",
+          "romanization": "gwa-il",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 40,
+          "example": {
+            "korean": "과일을 먹어요.",
+            "chinese": "吃水果。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0123",
+          "korean": "계란",
+          "chinese": "雞蛋",
+          "romanization": "gye-ran",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 41,
+          "example": {
+            "korean": "계란을 싫어해요.",
+            "chinese": "我討厭雞蛋。",
+            "speechLevel": "polite"
+          },
+          "usage": "也說 달걀。",
+          "commonMistake": "ㅖ 口語常唸 [ㅔ]：[게란]。"
+        },
+        {
+          "id": "V0124",
+          "korean": "맛있어요",
+          "chinese": "好吃",
+          "romanization": "ma-si-sseo-yo",
+          "pronunciation": "[마시써요]（標準也可唸 [마딛써요]）",
+          "partOfSpeech": "adjective",
+          "tier": "S",
+          "frequencyRank": 67,
+          "example": {
+            "korean": "진짜 맛있어요.",
+            "chinese": "真的很好吃。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 맛있다。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0125",
+          "korean": "맛없어요",
+          "chinese": "不好吃",
+          "romanization": "ma-deop-seo-yo",
+          "pronunciation": "[마덥써요]",
+          "partOfSpeech": "adjective",
+          "tier": "A",
+          "frequencyRank": 42,
+          "example": {
+            "korean": "라면이 맛없어요.",
+            "chinese": "泡麵不好吃。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 맛없다。",
+          "commonMistake": "只能唸 [마덥써요]，不能唸 [마섭써요]。"
+        },
+        {
+          "id": "V0126",
+          "korean": "좋아해요",
+          "chinese": "喜歡",
+          "romanization": "jo-a-hae-yo",
+          "pronunciation": "[조아해요]",
+          "partOfSpeech": "verb",
+          "tier": "S",
+          "frequencyRank": 68,
+          "example": {
+            "korean": "저는 김치를 좋아해요.",
+            "chinese": "我喜歡泡菜。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 좋아하다。對象用 을/를。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0127",
+          "korean": "싫어해요",
+          "chinese": "討厭；不喜歡",
+          "romanization": "si-reo-hae-yo",
+          "pronunciation": "[시러해요]",
+          "partOfSpeech": "verb",
+          "tier": "A",
+          "frequencyRank": 43,
+          "example": {
+            "korean": "동생이 고기를 싫어해요.",
+            "chinese": "弟弟不喜歡吃肉。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 싫어하다。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0128",
+          "korean": "매워요",
+          "chinese": "辣",
+          "romanization": "mae-wo-yo",
+          "partOfSpeech": "adjective",
+          "tier": "A",
+          "frequencyRank": 44,
+          "example": {
+            "korean": "김치가 매워요.",
+            "chinese": "泡菜很辣。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 맵다（ㅂ 不規則，第 5 課會學）。",
+          "commonMistake": null
+        }
+      ],
+      "pronunciation": [
+        {
+          "id": "P1201",
+          "title": "맛있어요 與 맛없어요",
+          "explanation": "맛있어요 的標準發音是 [마딛써요] 或 [마싣써요]，日常最常聽到 [마시써요]。맛없어요 只有一種唸法：[마덥써요]。",
+          "articulation": "맛없어요：맛 的收音先變成代表音 [ㄷ]，再移到 없 前面，後面是 없어요 的 [업써요]。",
+          "chineseSpeakerPitfall": "照 맛있어요 的感覺把 맛없어요 唸成 [마섭써요]，這是錯的。",
+          "samples": [
+            "맛있어요",
+            "맛없어요",
+            "멋있어요"
+          ],
+          "minimalPairs": []
+        },
+        {
+          "id": "P1202",
+          "title": "複合詞的緊音：비빔밥",
+          "explanation": "兩個詞組成的複合詞，第二個字的開頭常變緊音：비빔밥 → [비빔빱]、김밥 → [김밥] 或 [김빱]。這種緊音沒有固定規則，要一個一個記。",
+          "articulation": "밥 的 ㅂ 繃緊、不送氣，像在嘴唇後面憋一下再放開。",
+          "chineseSpeakerPitfall": "唸成 [비빔밥] 也聽得懂，但韓國人會覺得不自然。",
+          "samples": [
+            "비빔밥",
+            "김밥"
+          ],
+          "minimalPairs": []
+        }
+      ],
+      "grammar": [
+        {
+          "id": "G1201",
+          "title": "N을/를 좋아해요／싫어해요",
+          "pattern": "N을/를 좋아해요（喜歡 N）；N을/를 싫어해요（討厭 N）",
+          "explanation": "좋아해요 是動詞「喜歡」，對象用 을/를：김치를 좋아해요。第 2 單元的「N이/가 좋아요」意思接近，但說別人的喜好時要用 좋아해요：동생이 라면을 좋아해요（弟弟喜歡泡麵）。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "저는 김치를 좋아해요.",
+              "chinese": "我喜歡泡菜。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "동생이 고기를 싫어해요.",
+              "chinese": "弟弟不喜歡吃肉。",
+              "speechLevel": "polite"
+            }
+          ]
+        },
+        {
+          "id": "G1202",
+          "title": "맛있어요／맛없어요",
+          "pattern": "N이/가 맛있어요（N 好吃）",
+          "explanation": "맛（味道）＋있어요＝好吃；맛＋없어요＝不好吃。評論食物時很常用，可以加 진짜：진짜 맛있어요!（真的很好吃！）",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "김치가 맛있어요.",
+              "chinese": "泡菜很好吃。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "라면이 진짜 맛있어요.",
+              "chinese": "泡麵真的很好吃。",
+              "speechLevel": "polite"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "korean": "저는 김치를 좋아해요.",
+          "chinese": "我喜歡泡菜。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "비빔밥이 맛있어요.",
+          "chinese": "拌飯很好吃。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "고기를 안 먹어요.",
+          "chinese": "我不吃肉。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "과일을 좋아해요?",
+          "chinese": "你喜歡水果嗎？",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "김치가 매워요.",
+          "chinese": "泡菜很辣。",
+          "speechLevel": "polite"
+        }
+      ],
+      "listening": [
+        {
+          "id": "L1201",
+          "audioText": "맛없어요",
+          "question": "實際發音最接近哪一個？",
+          "options": [
+            "[마덥써요]",
+            "[마섭써요]",
+            "[마덥서요]"
+          ],
+          "answerIndex": 0,
+          "explanation": "맛없어요 只唸 [마덥써요]。"
+        },
+        {
+          "id": "L1202",
+          "audioText": "비빔밥 주세요.",
+          "question": "意思是？",
+          "options": [
+            "請給我拌飯。",
+            "請給我飯捲。",
+            "請給我泡麵。"
+          ],
+          "answerIndex": 0,
+          "explanation": "비빔밥＝拌飯。"
+        },
+        {
+          "id": "L1203",
+          "audioText": "저는 고기를 싫어해요.",
+          "question": "意思是？",
+          "options": [
+            "我不喜歡吃肉。",
+            "我喜歡吃肉。",
+            "我不吃魚。"
+          ],
+          "answerIndex": 0,
+          "explanation": "싫어해요＝討厭、不喜歡。"
+        },
+        {
+          "id": "L1204",
+          "audioText": "김치가 매워요.",
+          "question": "意思是？",
+          "options": [
+            "泡菜很辣。",
+            "泡菜很好吃。",
+            "泡菜很貴。"
+          ],
+          "answerIndex": 0,
+          "explanation": "매워요＝辣。"
+        }
+      ],
+      "drills": [
+        {
+          "id": "D1201",
+          "type": "substitution",
+          "instruction": "把食物換成提示詞（注意 을／를）。",
+          "model": {
+            "korean": "저는 김치를 좋아해요.",
+            "chinese": "我喜歡泡菜。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 8,
+          "items": [
+            {
+              "cue": "라면",
+              "answers": [
+                "저는 라면을 좋아해요."
+              ],
+              "chinese": "我喜歡泡麵。"
+            },
+            {
+              "cue": "고기",
+              "answers": [
+                "저는 고기를 좋아해요."
+              ],
+              "chinese": "我喜歡吃肉。"
+            },
+            {
+              "cue": "과일",
+              "answers": [
+                "저는 과일을 좋아해요."
+              ],
+              "chinese": "我喜歡水果。"
+            },
+            {
+              "cue": "비빔밥",
+              "answers": [
+                "저는 비빔밥을 좋아해요."
+              ],
+              "chinese": "我喜歡拌飯。"
+            },
+            {
+              "cue": "김밥",
+              "answers": [
+                "저는 김밥을 좋아해요."
+              ],
+              "chinese": "我喜歡飯捲。"
+            }
+          ]
+        },
+        {
+          "id": "D1202",
+          "type": "transformation",
+          "instruction": "좋아해요 → 싫어해요。",
+          "model": {
+            "korean": "저는 라면을 좋아해요. → 저는 라면을 싫어해요.",
+            "chinese": "我喜歡泡麵。→ 我不喜歡泡麵。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "동생이 고기를 좋아해요.",
+              "answers": [
+                "동생이 고기를 싫어해요."
+              ],
+              "chinese": "弟弟不喜歡吃肉。"
+            },
+            {
+              "cue": "저는 계란을 좋아해요.",
+              "answers": [
+                "저는 계란을 싫어해요."
+              ],
+              "chinese": "我不喜歡雞蛋。"
+            },
+            {
+              "cue": "언니가 김치를 좋아해요.",
+              "answers": [
+                "언니가 김치를 싫어해요."
+              ],
+              "chinese": "姊姊不喜歡泡菜。"
+            },
+            {
+              "cue": "저는 과일을 좋아해요.",
+              "answers": [
+                "저는 과일을 싫어해요."
+              ],
+              "chinese": "我不喜歡水果。"
+            },
+            {
+              "cue": "형이 라면을 좋아해요.",
+              "answers": [
+                "형이 라면을 싫어해요."
+              ],
+              "chinese": "哥哥不喜歡泡麵。"
+            }
+          ]
+        },
+        {
+          "id": "D1203",
+          "type": "transformation",
+          "instruction": "說出相反的意思：맛있어요 ↔ 맛없어요。",
+          "model": {
+            "korean": "김치가 맛있어요. → 김치가 맛없어요.",
+            "chinese": "泡菜好吃。→ 泡菜不好吃。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 6,
+          "items": [
+            {
+              "cue": "라면이 맛없어요.",
+              "answers": [
+                "라면이 맛있어요."
+              ],
+              "chinese": "泡麵好吃。"
+            },
+            {
+              "cue": "김밥이 맛있어요.",
+              "answers": [
+                "김밥이 맛없어요."
+              ],
+              "chinese": "飯捲不好吃。"
+            },
+            {
+              "cue": "고기가 맛있어요.",
+              "answers": [
+                "고기가 맛없어요."
+              ],
+              "chinese": "肉不好吃。"
+            },
+            {
+              "cue": "비빔밥이 맛없어요.",
+              "answers": [
+                "비빔밥이 맛있어요."
+              ],
+              "chinese": "拌飯好吃。"
+            },
+            {
+              "cue": "과일이 맛있어요.",
+              "answers": [
+                "과일이 맛없어요."
+              ],
+              "chinese": "水果不好吃。"
+            }
+          ]
+        },
+        {
+          "id": "D1204",
+          "type": "questionAnswer",
+          "instruction": "聽韓語問題，依提示回答。",
+          "model": {
+            "korean": "뭘 좋아해요? — 라면을 좋아해요.",
+            "chinese": "你喜歡什麼？——我喜歡泡麵。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 8,
+          "items": [
+            {
+              "cue": "뭘 좋아해요?（泡麵）",
+              "cueIsAudio": true,
+              "answers": [
+                "라면을 좋아해요.",
+                "저는 라면을 좋아해요."
+              ],
+              "chinese": "我喜歡泡麵。"
+            },
+            {
+              "cue": "김치를 좋아해요?（是）",
+              "cueIsAudio": true,
+              "answers": [
+                "네, 김치를 좋아해요.",
+                "네, 좋아해요."
+              ],
+              "chinese": "對，我喜歡泡菜。"
+            },
+            {
+              "cue": "고기를 먹어요?（不吃）",
+              "cueIsAudio": true,
+              "answers": [
+                "아니요, 고기를 안 먹어요.",
+                "아니요, 안 먹어요."
+              ],
+              "chinese": "不，我不吃肉。"
+            },
+            {
+              "cue": "비빔밥 맛있어요?（真的很好吃）",
+              "cueIsAudio": true,
+              "answers": [
+                "네, 진짜 맛있어요.",
+                "진짜 맛있어요."
+              ],
+              "chinese": "對，真的很好吃。"
+            },
+            {
+              "cue": "김치가 매워요?（是，很辣）",
+              "cueIsAudio": true,
+              "answers": [
+                "네, 매워요.",
+                "네, 김치가 매워요."
+              ],
+              "chinese": "對，很辣。"
+            }
+          ]
+        },
+        {
+          "id": "D1205",
+          "type": "freeProduction",
+          "instruction": "說一樣你喜歡和一樣你不喜歡的食物。",
+          "model": {
+            "korean": "저는 김밥을 좋아해요. 계란을 싫어해요.",
+            "chinese": "我喜歡飯捲。不喜歡雞蛋。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 10,
+          "items": [
+            {
+              "cue": "自由回答",
+              "answers": [
+                "저는 김밥을 좋아해요.",
+                "저는 계란을 싫어해요."
+              ],
+              "chinese": "（參考答案）"
+            }
+          ]
+        }
+      ],
+      "speaking": {
+        "scenario": "在韓國餐廳和朋友聊喜歡吃什麼。AI 扮演朋友。使用者會：좋아해요／싫어해요、맛있어요、매워요、주세요。",
+        "speechLevel": "polite",
+        "offlineScript": [
+          {
+            "cue": "뭐 좋아해요?（提示：拌飯）",
+            "cueIsAudio": true,
+            "answers": [
+              "비빔밥을 좋아해요.",
+              "저는 비빔밥을 좋아해요."
+            ],
+            "chinese": "我喜歡拌飯。"
+          },
+          {
+            "cue": "김치 괜찮아요? 매워요.（提示：沒關係，我喜歡泡菜）",
+            "cueIsAudio": true,
+            "answers": [
+              "괜찮아요. 김치를 좋아해요.",
+              "괜찮아요. 저는 김치를 좋아해요.",
+              "네, 김치를 좋아해요."
+            ],
+            "chinese": "沒關係，我喜歡泡菜。"
+          },
+          {
+            "cue": "맛있어요?（提示：真的很好吃）",
+            "cueIsAudio": true,
+            "answers": [
+              "네, 진짜 맛있어요.",
+              "진짜 맛있어요."
+            ],
+            "chinese": "對，真的很好吃。"
+          }
+        ]
+      },
+      "postTest": [
+        {
+          "id": "Q1201",
+          "skill": "phonemeDiscrimination",
+          "kind": "listeningChoice",
+          "prompt": "聽音選出實際發音",
+          "audioText": "비빔밥",
+          "options": [
+            "[비빔빱]",
+            "[비빔밥]",
+            "[비빈밥]"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "複合詞的緊音：밥 → [빱]。"
+        },
+        {
+          "id": "Q1202",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「我喜歡泡麵。」哪一句正確？",
+          "audioText": null,
+          "options": [
+            "저는 라면을 좋아해요.",
+            "저는 라면를 좋아해요.",
+            "저는 라면을 좋아요."
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "라면 有收音接 을；좋아해요 是動詞。"
+        },
+        {
+          "id": "Q1203",
+          "skill": "vocabulary",
+          "kind": "choice",
+          "prompt": "「不好吃」怎麼說？",
+          "audioText": null,
+          "options": [
+            "맛없어요",
+            "맛있어요",
+            "매워요"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "맛＋없어요＝不好吃。"
+        },
+        {
+          "id": "Q1204",
+          "skill": "listening",
+          "kind": "listeningChoice",
+          "prompt": "聽句子選意思",
+          "audioText": "동생이 과일을 좋아해요.",
+          "options": [
+            "弟弟／妹妹喜歡水果。",
+            "弟弟／妹妹不喜歡水果。",
+            "我喜歡水果。"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "동생＝弟弟或妹妹；좋아해요＝喜歡。"
+        },
+        {
+          "id": "Q1205",
+          "skill": "grammar",
+          "kind": "typing",
+          "prompt": "用韓文寫：泡菜很好吃。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "김치가 맛있어요.",
+            "김치가 진짜 맛있어요."
+          ],
+          "explanation": "김치가 맛있어요。"
+        },
+        {
+          "id": "Q1206",
+          "skill": "speaking",
+          "kind": "speaking",
+          "prompt": "說出：我不喜歡吃肉。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "저는 고기를 싫어해요.",
+            "고기를 싫어해요."
+          ],
+          "explanation": "고기를 싫어해요."
+        }
+      ],
+      "completion": {
+        "postTestPassRatio": 0.8,
+        "drillAccuracy": 0.8,
+        "requireVocabularyQuiz": true
+      }
+    },
+    {
+      "id": "U03L03",
+      "title": "隨身物品與「這個、那個、誰的」",
+      "estimatedMinutes": 50,
+      "objectives": [
+        "說出常見的隨身物品",
+        "分清楚 이거（這個）／그거（那個，靠近你）／저거（那個，遠處）",
+        "用「누구 거예요?」問是誰的，用「제 거예요」回答",
+        "唸對 ㅚ 和外來語"
+      ],
+      "vocabulary": [
+        {
+          "id": "V0129",
+          "korean": "휴대폰",
+          "chinese": "手機",
+          "romanization": "hyu-dae-pon",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 69,
+          "example": {
+            "korean": "이거 제 휴대폰이에요.",
+            "chinese": "這是我的手機。",
+            "speechLevel": "polite"
+          },
+          "usage": "也說 핸드폰。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0130",
+          "korean": "가방",
+          "chinese": "包包",
+          "romanization": "ga-bang",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 70,
+          "example": {
+            "korean": "가방이 커요.",
+            "chinese": "包包很大。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0131",
+          "korean": "우산",
+          "chinese": "雨傘",
+          "romanization": "u-san",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 45,
+          "example": {
+            "korean": "우산이 없어요.",
+            "chinese": "沒有雨傘。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0132",
+          "korean": "지갑",
+          "chinese": "錢包",
+          "romanization": "ji-gap",
+          "pronunciation": "지갑이 → [지가비]",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 46,
+          "example": {
+            "korean": "가방에 지갑이 있어요.",
+            "chinese": "包包裡有錢包。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0133",
+          "korean": "열쇠",
+          "chinese": "鑰匙",
+          "romanization": "yeol-soe",
+          "pronunciation": "[열쐬]，口語常聽到 [열쒜]",
+          "partOfSpeech": "noun",
+          "tier": "B",
+          "frequencyRank": 16,
+          "example": {
+            "korean": "열쇠가 어디에 있어요?",
+            "chinese": "鑰匙在哪裡？",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0134",
+          "korean": "안경",
+          "chinese": "眼鏡",
+          "romanization": "an-gyeong",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 47,
+          "example": {
+            "korean": "제 안경이에요.",
+            "chinese": "這是我的眼鏡。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0135",
+          "korean": "컴퓨터",
+          "chinese": "電腦",
+          "romanization": "keom-pyu-teo",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 48,
+          "example": {
+            "korean": "회사에 컴퓨터가 있어요.",
+            "chinese": "公司有電腦。",
+            "speechLevel": "polite"
+          },
+          "usage": "筆電叫 노트북。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0136",
+          "korean": "볼펜",
+          "chinese": "原子筆",
+          "romanization": "bol-pen",
+          "partOfSpeech": "noun",
+          "tier": "B",
+          "frequencyRank": 17,
+          "example": {
+            "korean": "볼펜 있어요?",
+            "chinese": "有原子筆嗎？",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0137",
+          "korean": "그거",
+          "chinese": "那個（靠近對方）",
+          "romanization": "geu-geo",
+          "partOfSpeech": "pronoun",
+          "tier": "S",
+          "frequencyRank": 71,
+          "example": {
+            "korean": "그거 뭐예요?",
+            "chinese": "那是什麼？",
+            "speechLevel": "polite"
+          },
+          "usage": "그것 的口語。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0138",
+          "korean": "저거",
+          "chinese": "那個（遠處）",
+          "romanization": "jeo-geo",
+          "partOfSpeech": "pronoun",
+          "tier": "S",
+          "frequencyRank": 72,
+          "example": {
+            "korean": "저거 우산이에요.",
+            "chinese": "那個是雨傘。",
+            "speechLevel": "polite"
+          },
+          "usage": "저것 的口語。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0139",
+          "korean": "거",
+          "chinese": "東西；…的",
+          "romanization": "geo",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 73,
+          "example": {
+            "korean": "누구 거예요?",
+            "chinese": "是誰的？",
+            "speechLevel": "polite"
+          },
+          "usage": "것 的口語。「N 거」＝N 的東西。",
+          "commonMistake": null
+        }
+      ],
+      "pronunciation": [
+        {
+          "id": "P1301",
+          "title": "ㅚ 的實際發音與 열쇠",
+          "explanation": "ㅚ 在現代首爾口語幾乎都唸成 [ㅞ]：열쇠 → [열쒜]、회사 → [훼사]、죄송합니다 → [줴송함니다]。열쇠 的 ㅅ 在 ㄹ 後面也變成緊音 [쐬]。",
+          "articulation": "唸 ㅞ：嘴唇先微圓（ㅜ），馬上滑到 ㅔ。",
+          "chineseSpeakerPitfall": "照字面硬唸成「歐伊」兩個音，聽起來會很生硬。",
+          "samples": [
+            "열쇠",
+            "회사",
+            "죄송합니다"
+          ],
+          "minimalPairs": []
+        },
+        {
+          "id": "P1302",
+          "title": "外來語的韓式發音",
+          "explanation": "外來語照韓文字母唸，不照英文：컴퓨터 是 [컴퓨터]（keom-pyu-teo），不是 computer；볼펜 來自 ball pen；휴대폰 的 폰 是 phone。ㅍ、ㅌ 都要送氣。",
+          "articulation": "每個音節長度平均，不用英文的重音節奏。",
+          "chineseSpeakerPitfall": "用英文發音說 computer 韓國人聽得懂，但句子會突然變調。練習用韓文的節奏唸。",
+          "samples": [
+            "컴퓨터",
+            "볼펜",
+            "휴대폰",
+            "커피"
+          ],
+          "minimalPairs": []
+        }
+      ],
+      "grammar": [
+        {
+          "id": "G1301",
+          "title": "이거／그거／저거",
+          "pattern": "이거（這個）；그거（那個，靠近對方或剛提過）；저거（那個，離雙方都遠）",
+          "explanation": "이거 是靠近自己的東西；그거 是靠近對方的東西，或剛才提過的東西；저거 是離雙方都遠的東西。三個都是口語，書面語是 이것／그것／저것。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "그거 뭐예요?",
+              "chinese": "那是什麼？",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "저거 우산이에요.",
+              "chinese": "那個是雨傘。",
+              "speechLevel": "polite"
+            }
+          ]
+        },
+        {
+          "id": "G1302",
+          "title": "누구 거예요?／제 거예요",
+          "pattern": "N 거예요（是 N 的東西）",
+          "explanation": "거 是「東西」，接在人後面表示「…的」：누구 거예요?（是誰的？）、제 거예요（是我的）、친구 거예요（是朋友的）。거 沒有收音，所以接 예요。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "이거 누구 거예요?",
+              "chinese": "這是誰的？",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "제 거예요.",
+              "chinese": "是我的。",
+              "speechLevel": "polite"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "korean": "이거 제 휴대폰이에요.",
+          "chinese": "這是我的手機。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "그거 뭐예요?",
+          "chinese": "那是什麼？",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "저거 누구 거예요?",
+          "chinese": "那個是誰的？",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "우산이 없어요.",
+          "chinese": "沒有雨傘。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "가방에 지갑이 있어요.",
+          "chinese": "包包裡有錢包。",
+          "speechLevel": "polite"
+        }
+      ],
+      "listening": [
+        {
+          "id": "L1301",
+          "audioText": "이거 누구 거예요?",
+          "question": "對方在問什麼？",
+          "options": [
+            "這是誰的？",
+            "這是什麼？",
+            "那是誰？"
+          ],
+          "answerIndex": 0,
+          "explanation": "누구 거예요?＝是誰的？"
+        },
+        {
+          "id": "L1302",
+          "audioText": "저거 우산이에요.",
+          "question": "意思是？",
+          "options": [
+            "那個（遠處）是雨傘。",
+            "這個是雨傘。",
+            "沒有雨傘。"
+          ],
+          "answerIndex": 0,
+          "explanation": "저거＝遠處的那個。"
+        },
+        {
+          "id": "L1303",
+          "audioText": "열쇠",
+          "question": "你聽到的是什麼東西？",
+          "options": [
+            "鑰匙",
+            "錢包",
+            "眼鏡"
+          ],
+          "answerIndex": 0,
+          "explanation": "열쇠＝鑰匙。"
+        },
+        {
+          "id": "L1304",
+          "audioText": "가방에 휴대폰이 있어요.",
+          "question": "意思是？",
+          "options": [
+            "包包裡有手機。",
+            "手機在桌上。",
+            "沒有包包。"
+          ],
+          "answerIndex": 0,
+          "explanation": "가방에 있어요＝在包包裡。"
+        }
+      ],
+      "drills": [
+        {
+          "id": "D1301",
+          "type": "substitution",
+          "instruction": "把物品換成提示詞：이거 제 N이에요/예요。",
+          "model": {
+            "korean": "이거 제 가방이에요.",
+            "chinese": "這是我的包包。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 8,
+          "items": [
+            {
+              "cue": "휴대폰",
+              "answers": [
+                "이거 제 휴대폰이에요."
+              ],
+              "chinese": "這是我的手機。"
+            },
+            {
+              "cue": "우산",
+              "answers": [
+                "이거 제 우산이에요."
+              ],
+              "chinese": "這是我的雨傘。"
+            },
+            {
+              "cue": "지갑",
+              "answers": [
+                "이거 제 지갑이에요."
+              ],
+              "chinese": "這是我的錢包。"
+            },
+            {
+              "cue": "안경",
+              "answers": [
+                "이거 제 안경이에요."
+              ],
+              "chinese": "這是我的眼鏡。"
+            },
+            {
+              "cue": "컴퓨터",
+              "answers": [
+                "이거 제 컴퓨터예요."
+              ],
+              "chinese": "這是我的電腦。"
+            }
+          ]
+        },
+        {
+          "id": "D1302",
+          "type": "substitution",
+          "instruction": "回答是誰的東西：N 거예요。",
+          "model": {
+            "korean": "제 거예요.",
+            "chinese": "是我的。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 6,
+          "items": [
+            {
+              "cue": "친구",
+              "answers": [
+                "친구 거예요."
+              ],
+              "chinese": "是朋友的。"
+            },
+            {
+              "cue": "동생",
+              "answers": [
+                "동생 거예요."
+              ],
+              "chinese": "是弟弟／妹妹的。"
+            },
+            {
+              "cue": "선생님",
+              "answers": [
+                "선생님 거예요."
+              ],
+              "chinese": "是老師的。"
+            },
+            {
+              "cue": "언니",
+              "answers": [
+                "언니 거예요."
+              ],
+              "chinese": "是姊姊的。"
+            },
+            {
+              "cue": "형",
+              "answers": [
+                "형 거예요."
+              ],
+              "chinese": "是哥哥的。"
+            }
+          ]
+        },
+        {
+          "id": "D1303",
+          "type": "transformation",
+          "instruction": "이거 → 저거：把「這個」改成遠處的「那個」。",
+          "model": {
+            "korean": "이거 뭐예요? → 저거 뭐예요?",
+            "chinese": "這是什麼？→ 那是什麼？",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 6,
+          "items": [
+            {
+              "cue": "이거 누구 거예요?",
+              "answers": [
+                "저거 누구 거예요?"
+              ],
+              "chinese": "那個是誰的？"
+            },
+            {
+              "cue": "이거 우산이에요.",
+              "answers": [
+                "저거 우산이에요."
+              ],
+              "chinese": "那個是雨傘。"
+            },
+            {
+              "cue": "이거 제 가방이에요.",
+              "answers": [
+                "저거 제 가방이에요."
+              ],
+              "chinese": "那個是我的包包。"
+            },
+            {
+              "cue": "이거 맛있어요.",
+              "answers": [
+                "저거 맛있어요."
+              ],
+              "chinese": "那個好吃。"
+            },
+            {
+              "cue": "이거 친구 거예요.",
+              "answers": [
+                "저거 친구 거예요."
+              ],
+              "chinese": "那個是朋友的。"
+            }
+          ]
+        },
+        {
+          "id": "D1304",
+          "type": "questionAnswer",
+          "instruction": "聽韓語問題，依提示回答。",
+          "model": {
+            "korean": "이거 누구 거예요? — 제 거예요.",
+            "chinese": "這是誰的？——是我的。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "이거 누구 거예요?（我的）",
+              "cueIsAudio": true,
+              "answers": [
+                "제 거예요."
+              ],
+              "chinese": "是我的。"
+            },
+            {
+              "cue": "그거 뭐예요?（錢包）",
+              "cueIsAudio": true,
+              "answers": [
+                "지갑이에요.",
+                "이거 지갑이에요."
+              ],
+              "chinese": "是錢包。"
+            },
+            {
+              "cue": "우산 있어요?（沒有）",
+              "cueIsAudio": true,
+              "answers": [
+                "아니요, 없어요.",
+                "아니요, 우산이 없어요."
+              ],
+              "chinese": "沒有，我沒有雨傘。"
+            },
+            {
+              "cue": "저거 누구 거예요?（朋友的）",
+              "cueIsAudio": true,
+              "answers": [
+                "친구 거예요.",
+                "제 친구 거예요."
+              ],
+              "chinese": "是朋友的。"
+            },
+            {
+              "cue": "휴대폰이 어디에 있어요?（包包裡）",
+              "cueIsAudio": true,
+              "answers": [
+                "가방에 있어요.",
+                "휴대폰이 가방에 있어요."
+              ],
+              "chinese": "在包包裡。"
+            }
+          ]
+        },
+        {
+          "id": "D1305",
+          "type": "freeProduction",
+          "instruction": "看看身邊的兩樣東西，說出是什麼、是誰的。",
+          "model": {
+            "korean": "이거 제 휴대폰이에요. 저거 친구 거예요.",
+            "chinese": "這是我的手機。那個是朋友的。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 10,
+          "items": [
+            {
+              "cue": "自由回答",
+              "answers": [
+                "이거 제 휴대폰이에요.",
+                "저거 친구 거예요."
+              ],
+              "chinese": "（參考答案）"
+            }
+          ]
+        }
+      ],
+      "speaking": {
+        "scenario": "在咖啡廳，朋友發現桌上有幾樣東西。AI 扮演朋友，問東西是誰的。使用者會：이거／저거、누구 거예요、제 거예요、있어요／없어요。",
+        "speechLevel": "polite",
+        "offlineScript": [
+          {
+            "cue": "이거 누구 거예요?（提示：我的）",
+            "cueIsAudio": true,
+            "answers": [
+              "제 거예요."
+            ],
+            "chinese": "是我的。"
+          },
+          {
+            "cue": "그럼 저거는요?（提示：朋友的）",
+            "cueIsAudio": true,
+            "answers": [
+              "친구 거예요.",
+              "제 친구 거예요."
+            ],
+            "chinese": "是朋友的。"
+          },
+          {
+            "cue": "우산 있어요?（提示：沒有）",
+            "cueIsAudio": true,
+            "answers": [
+              "아니요, 없어요.",
+              "아니요, 우산이 없어요."
+            ],
+            "chinese": "沒有。"
+          }
+        ]
+      },
+      "postTest": [
+        {
+          "id": "Q1301",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "指著對方手上的東西問「那是什麼？」，用哪一句？",
+          "audioText": null,
+          "options": [
+            "그거 뭐예요?",
+            "이거 뭐예요?",
+            "저거 뭐예요?"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "靠近對方的東西用 그거。"
+        },
+        {
+          "id": "Q1302",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「是我的。」怎麼說？",
+          "audioText": null,
+          "options": [
+            "제 거예요.",
+            "제 거이에요.",
+            "저 거예요."
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "제＋거예요。"
+        },
+        {
+          "id": "Q1303",
+          "skill": "vocabulary",
+          "kind": "listeningChoice",
+          "prompt": "聽音選意思",
+          "audioText": "안경",
+          "options": [
+            "眼鏡",
+            "雨傘",
+            "鑰匙"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "안경＝眼鏡。"
+        },
+        {
+          "id": "Q1304",
+          "skill": "phonemeDiscrimination",
+          "kind": "choice",
+          "prompt": "「열쇠」在口語中最常聽到哪一種唸法？",
+          "audioText": null,
+          "options": [
+            "[열쒜]",
+            "[열세]",
+            "[여뢰]"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "ㄹ 後的 ㅅ 變緊音，ㅚ 口語唸 [ㅞ]。"
+        },
+        {
+          "id": "Q1305",
+          "skill": "grammar",
+          "kind": "typing",
+          "prompt": "用韓文寫：這是誰的？",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "이거 누구 거예요?"
+          ],
+          "explanation": "이거 누구 거예요?"
+        },
+        {
+          "id": "Q1306",
+          "skill": "speaking",
+          "kind": "speaking",
+          "prompt": "說出：那個（遠處）是我的雨傘。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "저거 제 우산이에요."
+          ],
+          "explanation": "저거 제 우산이에요."
+        }
+      ],
+      "completion": {
+        "postTestPassRatio": 0.8,
+        "drillAccuracy": 0.8,
+        "requireVocabularyQuiz": true
+      }
+    },
+    {
+      "id": "U03L04",
+      "title": "生活地點與「在 N 做…」",
+      "estimatedMinutes": 50,
+      "objectives": [
+        "說出生活中常去的地點",
+        "用「N에서 ＋ 動作」說在哪裡做什麼",
+        "分清楚 에（在、去）和 에서（在…做）",
+        "問路：화장실이 어디에 있어요?"
+      ],
+      "vocabulary": [
+        {
+          "id": "V0140",
+          "korean": "병원",
+          "chinese": "醫院",
+          "romanization": "byeong-won",
+          "pronunciation": "병원에 → [병워네]",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 74,
+          "example": {
+            "korean": "병원에 가요.",
+            "chinese": "去醫院。",
+            "speechLevel": "polite"
+          },
+          "usage": "小診所也叫 병원。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0141",
+          "korean": "약국",
+          "chinese": "藥局",
+          "romanization": "yak-guk",
+          "pronunciation": "[약꾹]",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 49,
+          "example": {
+            "korean": "약국에서 일해요.",
+            "chinese": "在藥局工作。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0142",
+          "korean": "공항",
+          "chinese": "機場",
+          "romanization": "gong-hang",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 50,
+          "example": {
+            "korean": "공항에 가요.",
+            "chinese": "去機場。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0143",
+          "korean": "역",
+          "chinese": "車站",
+          "romanization": "yeok",
+          "pronunciation": "역에서 → [여게서]",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 75,
+          "example": {
+            "korean": "역이 어디에 있어요?",
+            "chinese": "車站在哪裡？",
+            "speechLevel": "polite"
+          },
+          "usage": "지하철역＝地鐵站。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0144",
+          "korean": "지하철",
+          "chinese": "地鐵",
+          "romanization": "ji-ha-cheol",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 76,
+          "example": {
+            "korean": "지하철이 편리해요.",
+            "chinese": "地鐵很方便。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0145",
+          "korean": "화장실",
+          "chinese": "洗手間",
+          "romanization": "hwa-jang-sil",
+          "pronunciation": "화장실이 → [화장시리]",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 77,
+          "example": {
+            "korean": "화장실이 어디에 있어요?",
+            "chinese": "洗手間在哪裡？",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0146",
+          "korean": "마트",
+          "chinese": "超市",
+          "romanization": "ma-teu",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 51,
+          "example": {
+            "korean": "마트에서 과일을 사요.",
+            "chinese": "在超市買水果。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0147",
+          "korean": "카페",
+          "chinese": "咖啡廳",
+          "romanization": "ka-pe",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 78,
+          "example": {
+            "korean": "카페에서 커피를 마셔요.",
+            "chinese": "在咖啡廳喝咖啡。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0148",
+          "korean": "공원",
+          "chinese": "公園",
+          "romanization": "gong-won",
+          "partOfSpeech": "noun",
+          "tier": "B",
+          "frequencyRank": 18,
+          "example": {
+            "korean": "공원에 사람이 많아요.",
+            "chinese": "公園裡人很多。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0149",
+          "korean": "도서관",
+          "chinese": "圖書館",
+          "romanization": "do-seo-gwan",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 52,
+          "example": {
+            "korean": "도서관에서 공부해요.",
+            "chinese": "在圖書館讀書。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0150",
+          "korean": "일해요",
+          "chinese": "工作",
+          "romanization": "il-hae-yo",
+          "pronunciation": "[일해요]，口語常唸 [이래요]",
+          "partOfSpeech": "verb",
+          "tier": "S",
+          "frequencyRank": 79,
+          "example": {
+            "korean": "회사에서 일해요.",
+            "chinese": "在公司工作。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 일하다。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0151",
+          "korean": "사요",
+          "chinese": "買",
+          "romanization": "sa-yo",
+          "partOfSpeech": "verb",
+          "tier": "S",
+          "frequencyRank": 80,
+          "example": {
+            "korean": "마트에서 과일을 사요.",
+            "chinese": "在超市買水果。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 사다。",
+          "commonMistake": null
+        }
+      ],
+      "pronunciation": [
+        {
+          "id": "P1401",
+          "title": "緊音化與連音複習：약국、역",
+          "explanation": "약국 → [약꾹]（緊音化），和 학교 [학꾜]、식당 [식땅] 同一個規則。역에서 → [여게서]、약국에서 → [약꾸게서]（連音）。",
+          "articulation": "先找收音，再看下一個字：子音 ㄱ ㄷ ㅂ ㅅ ㅈ → 緊音；母音 → 連音。",
+          "chineseSpeakerPitfall": "약국 唸成 [야국]，少了收音，韓國人會聽不懂。",
+          "samples": [
+            "약국",
+            "역에서",
+            "학교",
+            "식당"
+          ],
+          "minimalPairs": []
+        },
+        {
+          "id": "P1402",
+          "title": "收音 ㄹ 接母音",
+          "explanation": "收音 ㄹ 接母音時，移到下一個字變成彈舌的 [r]：화장실이 → [화장시리]、지하철에서 → [지하처레서]、일해요 口語常唸 [이래요]。",
+          "articulation": "舌尖輕輕彈一下上齒齦，像中文的「ㄌ」但更輕、更快。",
+          "chineseSpeakerPitfall": "收音 ㄹ 唸成英文的捲舌 r，或吞掉不唸。",
+          "samples": [
+            "화장실이",
+            "지하철에서",
+            "일해요"
+          ],
+          "minimalPairs": []
+        }
+      ],
+      "grammar": [
+        {
+          "id": "G1401",
+          "title": "N에서 ＋ 動作（在 N 做…）",
+          "pattern": "地點＋에서 ＋ 動詞",
+          "explanation": "에서 表示動作發生的地點：카페에서 커피를 마셔요（在咖啡廳喝咖啡）、도서관에서 공부해요（在圖書館讀書）。不看收音。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "회사에서 일해요.",
+              "chinese": "在公司工作。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "도서관에서 공부해요.",
+              "chinese": "在圖書館讀書。",
+              "speechLevel": "polite"
+            }
+          ]
+        },
+        {
+          "id": "G1402",
+          "title": "에 和 에서 的差別",
+          "pattern": "에：在（存在）、去（目的地）；에서：在（做動作）",
+          "explanation": "있어요／없어요 和 가요 用 에：화장실이 어디에 있어요?、병원에 가요。做其他動作的地點用 에서：병원에서 일해요。中文都說「在」，所以台灣學習者常一律用 에。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "약국에 가요.",
+              "chinese": "去藥局。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "약국에서 일해요.",
+              "chinese": "在藥局工作。",
+              "speechLevel": "polite"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "korean": "화장실이 어디에 있어요?",
+          "chinese": "洗手間在哪裡？",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "카페에서 커피를 마셔요.",
+          "chinese": "在咖啡廳喝咖啡。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "병원에 가요.",
+          "chinese": "去醫院。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "도서관에서 책을 읽어요.",
+          "chinese": "在圖書館看書。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "마트에서 과일을 사요.",
+          "chinese": "在超市買水果。",
+          "speechLevel": "polite"
+        }
+      ],
+      "listening": [
+        {
+          "id": "L1401",
+          "audioText": "화장실이 어디에 있어요?",
+          "question": "對方在找什麼？",
+          "options": [
+            "洗手間",
+            "藥局",
+            "車站"
+          ],
+          "answerIndex": 0,
+          "explanation": "화장실＝洗手間。"
+        },
+        {
+          "id": "L1402",
+          "audioText": "약국",
+          "question": "實際發音最接近哪一個？",
+          "options": [
+            "[약꾹]",
+            "[야국]",
+            "[약쿡]"
+          ],
+          "answerIndex": 0,
+          "explanation": "收音 ㄱ 後的 ㄱ 變緊音。"
+        },
+        {
+          "id": "L1403",
+          "audioText": "도서관에서 공부해요.",
+          "question": "意思是？",
+          "options": [
+            "在圖書館讀書。",
+            "去圖書館。",
+            "在公園讀書。"
+          ],
+          "answerIndex": 0,
+          "explanation": "에서＝在（做動作的地點）。"
+        },
+        {
+          "id": "L1404",
+          "audioText": "마트에서 과일을 사요.",
+          "question": "意思是？",
+          "options": [
+            "在超市買水果。",
+            "在超市吃水果。",
+            "去超市。"
+          ],
+          "answerIndex": 0,
+          "explanation": "사요＝買。"
+        }
+      ],
+      "drills": [
+        {
+          "id": "D1401",
+          "type": "substitution",
+          "instruction": "把地點換成提示詞：N에서 공부해요。",
+          "model": {
+            "korean": "도서관에서 공부해요.",
+            "chinese": "在圖書館讀書。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "카페",
+              "answers": [
+                "카페에서 공부해요."
+              ],
+              "chinese": "在咖啡廳讀書。"
+            },
+            {
+              "cue": "집",
+              "answers": [
+                "집에서 공부해요."
+              ],
+              "chinese": "在家讀書。"
+            },
+            {
+              "cue": "학교",
+              "answers": [
+                "학교에서 공부해요."
+              ],
+              "chinese": "在學校讀書。"
+            },
+            {
+              "cue": "회사",
+              "answers": [
+                "회사에서 공부해요."
+              ],
+              "chinese": "在公司讀書。"
+            },
+            {
+              "cue": "공원",
+              "answers": [
+                "공원에서 공부해요."
+              ],
+              "chinese": "在公園讀書。"
+            }
+          ]
+        },
+        {
+          "id": "D1402",
+          "type": "substitution",
+          "instruction": "依提示說在哪裡做什麼。",
+          "model": {
+            "korean": "카페에서 커피를 마셔요.",
+            "chinese": "在咖啡廳喝咖啡。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 9,
+          "items": [
+            {
+              "cue": "마트（買水果）",
+              "answers": [
+                "마트에서 과일을 사요."
+              ],
+              "chinese": "在超市買水果。"
+            },
+            {
+              "cue": "회사（工作）",
+              "answers": [
+                "회사에서 일해요."
+              ],
+              "chinese": "在公司工作。"
+            },
+            {
+              "cue": "식당（吃飯）",
+              "answers": [
+                "식당에서 밥을 먹어요."
+              ],
+              "chinese": "在餐廳吃飯。"
+            },
+            {
+              "cue": "도서관（看書）",
+              "answers": [
+                "도서관에서 책을 읽어요."
+              ],
+              "chinese": "在圖書館看書。"
+            },
+            {
+              "cue": "집（看電影）",
+              "answers": [
+                "집에서 영화를 봐요."
+              ],
+              "chinese": "在家看電影。"
+            }
+          ]
+        },
+        {
+          "id": "D1403",
+          "type": "transformation",
+          "instruction": "去 → 在那裡工作：N에 가요 → N에서 일해요。",
+          "model": {
+            "korean": "병원에 가요. → 병원에서 일해요.",
+            "chinese": "去醫院。→ 在醫院工作。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "약국에 가요.",
+              "answers": [
+                "약국에서 일해요."
+              ],
+              "chinese": "在藥局工作。"
+            },
+            {
+              "cue": "공항에 가요.",
+              "answers": [
+                "공항에서 일해요."
+              ],
+              "chinese": "在機場工作。"
+            },
+            {
+              "cue": "마트에 가요.",
+              "answers": [
+                "마트에서 일해요."
+              ],
+              "chinese": "在超市工作。"
+            },
+            {
+              "cue": "카페에 가요.",
+              "answers": [
+                "카페에서 일해요."
+              ],
+              "chinese": "在咖啡廳工作。"
+            },
+            {
+              "cue": "은행에 가요.",
+              "answers": [
+                "은행에서 일해요."
+              ],
+              "chinese": "在銀行工作。"
+            }
+          ]
+        },
+        {
+          "id": "D1404",
+          "type": "questionAnswer",
+          "instruction": "聽韓語問題，依提示回答（注意 에／에서）。",
+          "model": {
+            "korean": "어디에서 일해요? — 병원에서 일해요.",
+            "chinese": "在哪裡工作？——在醫院工作。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 8,
+          "items": [
+            {
+              "cue": "화장실이 어디에 있어요?（咖啡廳裡）",
+              "cueIsAudio": true,
+              "answers": [
+                "카페에 있어요.",
+                "화장실이 카페에 있어요."
+              ],
+              "chinese": "在咖啡廳。"
+            },
+            {
+              "cue": "어디에서 일해요?（醫院）",
+              "cueIsAudio": true,
+              "answers": [
+                "병원에서 일해요.",
+                "저는 병원에서 일해요."
+              ],
+              "chinese": "在醫院工作。"
+            },
+            {
+              "cue": "어디 가요?（機場）",
+              "cueIsAudio": true,
+              "answers": [
+                "공항에 가요.",
+                "저는 공항에 가요."
+              ],
+              "chinese": "去機場。"
+            },
+            {
+              "cue": "도서관에서 뭐 해요?（看書）",
+              "cueIsAudio": true,
+              "answers": [
+                "책을 읽어요.",
+                "도서관에서 책을 읽어요."
+              ],
+              "chinese": "看書。"
+            },
+            {
+              "cue": "마트에서 뭐 사요?（水果）",
+              "cueIsAudio": true,
+              "answers": [
+                "과일을 사요.",
+                "마트에서 과일을 사요."
+              ],
+              "chinese": "買水果。"
+            }
+          ]
+        },
+        {
+          "id": "D1405",
+          "type": "freeProduction",
+          "instruction": "說你平常在哪裡做什麼（兩句）。",
+          "model": {
+            "korean": "회사에서 일해요. 카페에서 커피를 마셔요.",
+            "chinese": "在公司工作。在咖啡廳喝咖啡。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 10,
+          "items": [
+            {
+              "cue": "自由回答",
+              "answers": [
+                "회사에서 일해요.",
+                "카페에서 커피를 마셔요."
+              ],
+              "chinese": "（參考答案）"
+            }
+          ]
+        }
+      ],
+      "speaking": {
+        "scenario": "剛到首爾，在車站和韓國人聊天、問路。AI 扮演親切的路人。使用者會：어디에 있어요?、N에 가요、N에서 ＋ 動作。",
+        "speechLevel": "polite",
+        "offlineScript": [
+          {
+            "cue": "어디 가요?（提示：去藥局）",
+            "cueIsAudio": true,
+            "answers": [
+              "약국에 가요.",
+              "저는 약국에 가요."
+            ],
+            "chinese": "去藥局。"
+          },
+          {
+            "cue": "약국은 역에 있어요.（提示：問洗手間在哪裡）",
+            "cueIsAudio": true,
+            "answers": [
+              "화장실이 어디에 있어요?",
+              "화장실은 어디에 있어요?"
+            ],
+            "chinese": "洗手間在哪裡？"
+          },
+          {
+            "cue": "어디에서 일해요?（提示：在公司）",
+            "cueIsAudio": true,
+            "answers": [
+              "회사에서 일해요.",
+              "저는 회사에서 일해요."
+            ],
+            "chinese": "在公司工作。"
+          }
+        ]
+      },
+      "postTest": [
+        {
+          "id": "Q1401",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「在咖啡廳喝咖啡。」哪一句正確？",
+          "audioText": null,
+          "options": [
+            "카페에서 커피를 마셔요.",
+            "카페에 커피를 마셔요.",
+            "카페를 커피를 마셔요."
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "做動作的地點用 에서。"
+        },
+        {
+          "id": "Q1402",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「洗手間在哪裡？」哪一句正確？",
+          "audioText": null,
+          "options": [
+            "화장실이 어디에 있어요?",
+            "화장실이 어디에서 있어요?",
+            "화장실을 어디에 있어요?"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "있어요 用 에。"
+        },
+        {
+          "id": "Q1403",
+          "skill": "vocabulary",
+          "kind": "listeningChoice",
+          "prompt": "聽音選意思",
+          "audioText": "병원",
+          "options": [
+            "醫院",
+            "銀行",
+            "藥局"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "병원＝醫院。"
+        },
+        {
+          "id": "Q1404",
+          "skill": "phonemeDiscrimination",
+          "kind": "choice",
+          "prompt": "「화장실이」實際怎麼唸？",
+          "audioText": null,
+          "options": [
+            "[화장시리]",
+            "[화장신이]",
+            "[화장시디]"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "收音 ㄹ 接母音，移到下一個字。"
+        },
+        {
+          "id": "Q1405",
+          "skill": "grammar",
+          "kind": "typing",
+          "prompt": "用韓文寫：在公司工作。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "회사에서 일해요.",
+            "저는 회사에서 일해요."
+          ],
+          "explanation": "회사에서 일해요。"
+        },
+        {
+          "id": "Q1406",
+          "skill": "speaking",
+          "kind": "speaking",
+          "prompt": "說出：去機場。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "공항에 가요.",
+            "저는 공항에 가요."
+          ],
+          "explanation": "공항에 가요."
+        }
+      ],
+      "completion": {
+        "postTestPassRatio": 0.8,
+        "drillAccuracy": 0.8,
+        "requireVocabularyQuiz": true
+      }
+    },
+    {
+      "id": "U03L05",
+      "title": "常用形容詞與「很、有點、而且」",
+      "estimatedMinutes": 55,
+      "objectives": [
+        "說出大小、價錢、天氣、感受的常用形容詞",
+        "把形容詞變成해요體：작다 → 작아요、크다 → 커요、덥다 → 더워요",
+        "用「너무／조금」表達程度",
+        "用「그리고」連接兩個句子"
+      ],
+      "vocabulary": [
+        {
+          "id": "V0152",
+          "korean": "커요",
+          "chinese": "大",
+          "romanization": "keo-yo",
+          "partOfSpeech": "adjective",
+          "tier": "S",
+          "frequencyRank": 81,
+          "example": {
+            "korean": "가방이 커요.",
+            "chinese": "包包很大。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 크다（ㅡ 脫落）。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0153",
+          "korean": "작아요",
+          "chinese": "小",
+          "romanization": "ja-ga-yo",
+          "pronunciation": "[자가요]",
+          "partOfSpeech": "adjective",
+          "tier": "S",
+          "frequencyRank": 82,
+          "example": {
+            "korean": "휴대폰이 작아요.",
+            "chinese": "手機很小。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 작다。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0154",
+          "korean": "비싸요",
+          "chinese": "貴",
+          "romanization": "bi-ssa-yo",
+          "partOfSpeech": "adjective",
+          "tier": "S",
+          "frequencyRank": 83,
+          "example": {
+            "korean": "커피가 비싸요.",
+            "chinese": "咖啡很貴。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 비싸다。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0155",
+          "korean": "싸요",
+          "chinese": "便宜",
+          "romanization": "ssa-yo",
+          "partOfSpeech": "adjective",
+          "tier": "S",
+          "frequencyRank": 84,
+          "example": {
+            "korean": "김밥이 싸요.",
+            "chinese": "飯捲很便宜。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 싸다。",
+          "commonMistake": "ㅆ 是緊音，不要唸成 [사요]（買）。"
+        },
+        {
+          "id": "V0156",
+          "korean": "날씨",
+          "chinese": "天氣",
+          "romanization": "nal-ssi",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 85,
+          "example": {
+            "korean": "오늘 날씨가 좋아요.",
+            "chinese": "今天天氣很好。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0157",
+          "korean": "더워요",
+          "chinese": "熱",
+          "romanization": "deo-wo-yo",
+          "partOfSpeech": "adjective",
+          "tier": "A",
+          "frequencyRank": 53,
+          "example": {
+            "korean": "날씨가 더워요.",
+            "chinese": "天氣很熱。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 덥다（ㅂ 不規則）。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0158",
+          "korean": "추워요",
+          "chinese": "冷",
+          "romanization": "chu-wo-yo",
+          "partOfSpeech": "adjective",
+          "tier": "A",
+          "frequencyRank": 54,
+          "example": {
+            "korean": "날씨가 추워요.",
+            "chinese": "天氣很冷。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 춥다（ㅂ 不規則）。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0159",
+          "korean": "재미있어요",
+          "chinese": "有趣",
+          "romanization": "jae-mi-i-sseo-yo",
+          "pronunciation": "[재미이써요]",
+          "partOfSpeech": "adjective",
+          "tier": "S",
+          "frequencyRank": 86,
+          "example": {
+            "korean": "영화가 재미있어요.",
+            "chinese": "電影很有趣。",
+            "speechLevel": "polite"
+          },
+          "usage": "相反是 재미없어요（無聊）。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0160",
+          "korean": "바빠요",
+          "chinese": "忙",
+          "romanization": "ba-ppa-yo",
+          "partOfSpeech": "adjective",
+          "tier": "A",
+          "frequencyRank": 55,
+          "example": {
+            "korean": "오늘 바빠요.",
+            "chinese": "今天很忙。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 바쁘다（ㅡ 脫落）。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0161",
+          "korean": "피곤해요",
+          "chinese": "累",
+          "romanization": "pi-gon-hae-yo",
+          "pronunciation": "[피곤해요]，口語常唸 [피고내요]",
+          "partOfSpeech": "adjective",
+          "tier": "A",
+          "frequencyRank": 56,
+          "example": {
+            "korean": "너무 피곤해요.",
+            "chinese": "好累。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 피곤하다。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0162",
+          "korean": "너무",
+          "chinese": "太；非常",
+          "romanization": "neo-mu",
+          "partOfSpeech": "adverb",
+          "tier": "S",
+          "frequencyRank": 87,
+          "example": {
+            "korean": "너무 비싸요.",
+            "chinese": "太貴了。",
+            "speechLevel": "polite"
+          },
+          "usage": "原本是「太」，口語也常當「非常」：너무 좋아요。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0163",
+          "korean": "조금",
+          "chinese": "一點；有點",
+          "romanization": "jo-geum",
+          "partOfSpeech": "adverb",
+          "tier": "S",
+          "frequencyRank": 88,
+          "example": {
+            "korean": "조금 비싸요.",
+            "chinese": "有點貴。",
+            "speechLevel": "polite"
+          },
+          "usage": "口語常縮成 좀。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0164",
+          "korean": "그리고",
+          "chinese": "還有；而且",
+          "romanization": "geu-ri-go",
+          "partOfSpeech": "adverb",
+          "tier": "S",
+          "frequencyRank": 89,
+          "example": {
+            "korean": "싸요. 그리고 맛있어요.",
+            "chinese": "便宜。而且好吃。",
+            "speechLevel": "polite"
+          },
+          "usage": "放在第二句的開頭。",
+          "commonMistake": null
+        }
+      ],
+      "pronunciation": [
+        {
+          "id": "P1501",
+          "title": "ㅝ：더워요、추워요",
+          "explanation": "ㅝ 是 ㅜ 快速滑到 ㅓ：추워요、더워요、뭐。不要唸成 [추어요]，也不要把 ㅓ 唸成 ㅗ（變成 [추오요]）。",
+          "articulation": "嘴唇先圓（ㅜ），馬上張開成不圓唇的 ㅓ，一拍完成。",
+          "chineseSpeakerPitfall": "ㅝ 唸成中文的「我」，嘴唇太圓。結尾要張開、放鬆嘴唇。",
+          "samples": [
+            "더워요",
+            "추워요",
+            "뭐"
+          ],
+          "minimalPairs": []
+        },
+        {
+          "id": "P1502",
+          "title": "平音、緊音對比：사요／싸요",
+          "explanation": "싸요（便宜）的 ㅆ 是緊音，사요（買）的 ㅅ 是平音。兩個字只差在這裡，意思完全不同。비싸요、바빠요 也是緊音。",
+          "articulation": "緊音：喉嚨繃緊、沒有氣流，聲音比較高；平音：放鬆，帶一點氣。",
+          "chineseSpeakerPitfall": "台灣學習者常把 ㅆ 唸得跟 ㅅ 一樣，結果「很便宜」聽起來像「買」。",
+          "samples": [
+            "싸요",
+            "사요",
+            "비싸요",
+            "바빠요"
+          ],
+          "minimalPairs": [
+            {
+              "a": "사요",
+              "b": "싸요",
+              "contrast": "平音 ㅅ／緊音 ㅆ"
+            }
+          ]
+        }
+      ],
+      "grammar": [
+        {
+          "id": "G1501",
+          "title": "形容詞的해요體",
+          "pattern": "語幹最後的母音是 ㅏ ㅗ → -아요；其他 → -어요；하다 → 해요",
+          "explanation": "작다 → 작아요；비싸다 → 비싸요（ㅏ＋아 合併）；크다 → 커요、바쁘다 → 바빠요（ㅡ 脫落）；피곤하다 → 피곤해요。덥다、춥다 是 ㅂ 不規則：ㅂ 變成 우 → 더워요、추워요。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "가방이 커요.",
+              "chinese": "包包很大。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "날씨가 추워요.",
+              "chinese": "天氣很冷。",
+              "speechLevel": "polite"
+            }
+          ]
+        },
+        {
+          "id": "G1502",
+          "title": "너무／조금／그리고",
+          "pattern": "너무＋形容詞（太、很）；조금＋形容詞（有點）；그리고（還有、而且）",
+          "explanation": "너무 原本是「太」，口語也常當「非常」：너무 맛있어요。조금＝有點：조금 비싸요。그리고 放在第二句的開頭，連接兩個句子：싸요. 그리고 맛있어요.",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "너무 비싸요.",
+              "chinese": "太貴了。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "싸요. 그리고 맛있어요.",
+              "chinese": "便宜。而且好吃。",
+              "speechLevel": "polite"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "korean": "오늘 날씨가 너무 더워요.",
+          "chinese": "今天天氣好熱。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "가방이 조금 비싸요.",
+          "chinese": "包包有點貴。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "영화가 재미있어요.",
+          "chinese": "電影很有趣。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "저는 너무 피곤해요.",
+          "chinese": "我好累。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "김밥이 싸요. 그리고 맛있어요.",
+          "chinese": "飯捲便宜。而且好吃。",
+          "speechLevel": "polite"
+        }
+      ],
+      "listening": [
+        {
+          "id": "L1501",
+          "audioText": "오늘 날씨가 추워요.",
+          "question": "意思是？",
+          "options": [
+            "今天天氣冷。",
+            "今天天氣熱。",
+            "今天很忙。"
+          ],
+          "answerIndex": 0,
+          "explanation": "추워요＝冷。"
+        },
+        {
+          "id": "L1502",
+          "audioText": "너무 비싸요.",
+          "question": "意思是？",
+          "options": [
+            "太貴了。",
+            "很便宜。",
+            "有點貴。"
+          ],
+          "answerIndex": 0,
+          "explanation": "너무＝太；비싸요＝貴。"
+        },
+        {
+          "id": "L1503",
+          "audioText": "싸요",
+          "question": "你聽到的是哪一個？",
+          "options": [
+            "싸요（便宜）",
+            "사요（買）",
+            "자요（睡）"
+          ],
+          "answerIndex": 0,
+          "explanation": "ㅆ 是緊音。"
+        },
+        {
+          "id": "L1504",
+          "audioText": "조금 피곤해요.",
+          "question": "意思是？",
+          "options": [
+            "有點累。",
+            "非常忙。",
+            "有點冷。"
+          ],
+          "answerIndex": 0,
+          "explanation": "조금＝有點；피곤해요＝累。"
+        }
+      ],
+      "drills": [
+        {
+          "id": "D1501",
+          "type": "transformation",
+          "instruction": "原形 → 해요體。",
+          "model": {
+            "korean": "작다 → 작아요",
+            "chinese": "小",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "크다",
+              "answers": [
+                "커요."
+              ],
+              "chinese": "大"
+            },
+            {
+              "cue": "비싸다",
+              "answers": [
+                "비싸요."
+              ],
+              "chinese": "貴"
+            },
+            {
+              "cue": "바쁘다",
+              "answers": [
+                "바빠요."
+              ],
+              "chinese": "忙"
+            },
+            {
+              "cue": "피곤하다",
+              "answers": [
+                "피곤해요."
+              ],
+              "chinese": "累"
+            },
+            {
+              "cue": "덥다",
+              "answers": [
+                "더워요."
+              ],
+              "chinese": "熱"
+            },
+            {
+              "cue": "춥다",
+              "answers": [
+                "추워요."
+              ],
+              "chinese": "冷"
+            }
+          ]
+        },
+        {
+          "id": "D1502",
+          "type": "substitution",
+          "instruction": "用「너무」加提示詞說感受。",
+          "model": {
+            "korean": "너무 맛있어요.",
+            "chinese": "太好吃了。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 6,
+          "items": [
+            {
+              "cue": "덥다",
+              "answers": [
+                "너무 더워요."
+              ],
+              "chinese": "好熱。"
+            },
+            {
+              "cue": "춥다",
+              "answers": [
+                "너무 추워요."
+              ],
+              "chinese": "好冷。"
+            },
+            {
+              "cue": "비싸다",
+              "answers": [
+                "너무 비싸요."
+              ],
+              "chinese": "太貴了。"
+            },
+            {
+              "cue": "피곤하다",
+              "answers": [
+                "너무 피곤해요."
+              ],
+              "chinese": "好累。"
+            },
+            {
+              "cue": "재미있다",
+              "answers": [
+                "너무 재미있어요."
+              ],
+              "chinese": "好有趣。"
+            }
+          ]
+        },
+        {
+          "id": "D1503",
+          "type": "transformation",
+          "instruction": "說出相反的意思。",
+          "model": {
+            "korean": "가방이 커요. → 가방이 작아요.",
+            "chinese": "包包大。→ 包包小。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "커피가 비싸요.",
+              "answers": [
+                "커피가 싸요."
+              ],
+              "chinese": "咖啡便宜。"
+            },
+            {
+              "cue": "날씨가 더워요.",
+              "answers": [
+                "날씨가 추워요."
+              ],
+              "chinese": "天氣冷。"
+            },
+            {
+              "cue": "휴대폰이 작아요.",
+              "answers": [
+                "휴대폰이 커요."
+              ],
+              "chinese": "手機大。"
+            },
+            {
+              "cue": "김치가 맛있어요.",
+              "answers": [
+                "김치가 맛없어요."
+              ],
+              "chinese": "泡菜不好吃。"
+            },
+            {
+              "cue": "영화가 재미있어요.",
+              "answers": [
+                "영화가 재미없어요."
+              ],
+              "chinese": "電影很無聊。"
+            }
+          ]
+        },
+        {
+          "id": "D1504",
+          "type": "questionAnswer",
+          "instruction": "聽韓語問題，依提示回答。",
+          "model": {
+            "korean": "날씨가 어때요? — 추워요.",
+            "chinese": "天氣怎麼樣？——很冷。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 8,
+          "items": [
+            {
+              "cue": "날씨가 어때요?（很冷）",
+              "cueIsAudio": true,
+              "answers": [
+                "날씨가 추워요.",
+                "추워요.",
+                "너무 추워요."
+              ],
+              "chinese": "很冷。"
+            },
+            {
+              "cue": "이거 비싸요?（有點）",
+              "cueIsAudio": true,
+              "answers": [
+                "네, 조금 비싸요.",
+                "조금 비싸요."
+              ],
+              "chinese": "有點貴。"
+            },
+            {
+              "cue": "영화가 재미있어요?（非常）",
+              "cueIsAudio": true,
+              "answers": [
+                "네, 너무 재미있어요.",
+                "너무 재미있어요.",
+                "네, 진짜 재미있어요."
+              ],
+              "chinese": "非常有趣。"
+            },
+            {
+              "cue": "오늘 바빠요?（是，而且很累）",
+              "cueIsAudio": true,
+              "answers": [
+                "네, 바빠요. 그리고 피곤해요.",
+                "네, 바빠요. 그리고 너무 피곤해요."
+              ],
+              "chinese": "對，很忙。而且很累。"
+            },
+            {
+              "cue": "가방이 커요?（不，很小）",
+              "cueIsAudio": true,
+              "answers": [
+                "아니요, 작아요.",
+                "아니요, 가방이 작아요."
+              ],
+              "chinese": "不，很小。"
+            }
+          ]
+        },
+        {
+          "id": "D1505",
+          "type": "freeProduction",
+          "instruction": "描述今天的天氣和你的狀態（兩句）。",
+          "model": {
+            "korean": "오늘 날씨가 조금 추워요. 그리고 저는 피곤해요.",
+            "chinese": "今天天氣有點冷。而且我很累。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 10,
+          "items": [
+            {
+              "cue": "自由回答",
+              "answers": [
+                "오늘 날씨가 조금 추워요.",
+                "저는 너무 피곤해요."
+              ],
+              "chinese": "（參考答案）"
+            }
+          ]
+        }
+      ],
+      "speaking": {
+        "scenario": "和韓國朋友逛街，一起評論看到的東西。AI 扮演朋友。使用者會：커요／작아요、비싸요／싸요、너무／조금、그리고。",
+        "speechLevel": "polite",
+        "offlineScript": [
+          {
+            "cue": "이 가방 어때요?（提示：有點貴）",
+            "cueIsAudio": true,
+            "answers": [
+              "조금 비싸요.",
+              "좀 비싸요.",
+              "가방이 조금 비싸요."
+            ],
+            "chinese": "有點貴。"
+          },
+          {
+            "cue": "이거는요? 싸요.（提示：便宜，而且很大）",
+            "cueIsAudio": true,
+            "answers": [
+              "싸요. 그리고 커요.",
+              "네, 싸요. 그리고 커요."
+            ],
+            "chinese": "便宜。而且很大。"
+          },
+          {
+            "cue": "오늘 너무 덥죠?（提示：對，好熱，而且很累）",
+            "cueIsAudio": true,
+            "answers": [
+              "네, 너무 더워요. 그리고 피곤해요.",
+              "네, 더워요. 그리고 피곤해요."
+            ],
+            "chinese": "對，好熱。而且很累。"
+          }
+        ]
+      },
+      "postTest": [
+        {
+          "id": "Q1501",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「크다」的해요體是？",
+          "audioText": null,
+          "options": [
+            "커요",
+            "크어요",
+            "카요"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "ㅡ 脫落：크다 → 커요。"
+        },
+        {
+          "id": "Q1502",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「춥다」的해요體是？",
+          "audioText": null,
+          "options": [
+            "추워요",
+            "춥어요",
+            "추어요"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "ㅂ 不規則：ㅂ 變成 우。"
+        },
+        {
+          "id": "Q1503",
+          "skill": "listening",
+          "kind": "listeningChoice",
+          "prompt": "聽句子選意思",
+          "audioText": "김밥이 싸요. 그리고 맛있어요.",
+          "options": [
+            "飯捲便宜，而且好吃。",
+            "飯捲很貴，但是好吃。",
+            "飯捲便宜，但是不好吃。"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "그리고＝而且。"
+        },
+        {
+          "id": "Q1504",
+          "skill": "phonemeDiscrimination",
+          "kind": "listeningChoice",
+          "prompt": "聽音選字",
+          "audioText": "싸요",
+          "options": [
+            "싸요",
+            "사요"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "ㅆ 緊音＝便宜；ㅅ 平音＝買。"
+        },
+        {
+          "id": "Q1505",
+          "skill": "grammar",
+          "kind": "typing",
+          "prompt": "用韓文寫：今天天氣很熱。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "오늘 날씨가 너무 더워요.",
+            "오늘 날씨가 더워요.",
+            "날씨가 더워요."
+          ],
+          "explanation": "날씨가 더워요。"
+        },
+        {
+          "id": "Q1506",
+          "skill": "speaking",
+          "kind": "speaking",
+          "prompt": "說出：電影很有趣。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "영화가 재미있어요.",
+            "영화가 너무 재미있어요."
+          ],
+          "explanation": "영화가 재미있어요."
+        }
+      ],
+      "completion": {
+        "postTestPassRatio": 0.8,
+        "drillAccuracy": 0.8,
+        "requireVocabularyQuiz": true
+      }
+    }
+  ]
 }
