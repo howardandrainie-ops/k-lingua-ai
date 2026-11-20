@@ -3,7 +3,3348 @@
   "number": 2,
   "title": "韓語發音及收音",
   "stage": 1,
-  "summary": "連音、鼻音化、緊音化、激音化、ㅎ 弱化、口蓋音化等音變規則，以及韓語自然語流。",
-  "available": false,
-  "lessons": []
+  "summary": "雙收音、ㅎ 脫落、鼻音化、緊音化、激音化、ㅎ 弱化、口蓋音化、流音化等音變規則，搭配正式語體、去哪裡、不會做、邀約等日常句型。",
+  "available": true,
+  "lessons": [
+    {
+      "id": "U02L01",
+      "title": "雙收音、ㅎ 脫落與「我喜歡 N」",
+      "estimatedMinutes": 50,
+      "objectives": [
+        "雙收音接母音時拆開唸：읽어요 → [일거요]、앉아요 → [안자요]",
+        "收音 ㅎ 接母音時不發音：좋아요 → [조아요]、많아요 → [마나요]",
+        "用「N이/가 좋아요」說喜歡什麼",
+        "用「도」說「也」：저도 좋아요"
+      ],
+      "vocabulary": [
+        {
+          "id": "V0050",
+          "korean": "한국어",
+          "chinese": "韓語",
+          "romanization": "han-gu-geo",
+          "pronunciation": "[한구거]",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 27,
+          "example": {
+            "korean": "한국어가 좋아요.",
+            "chinese": "我喜歡韓語。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": "連音：한국어 唸 [한구거]，不要在 국 後面停頓。"
+        },
+        {
+          "id": "V0051",
+          "korean": "음악",
+          "chinese": "音樂",
+          "romanization": "eu-mak",
+          "pronunciation": "[으막]，음악이 → [으마기]",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 18,
+          "example": {
+            "korean": "음악이 좋아요.",
+            "chinese": "我喜歡音樂。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0052",
+          "korean": "좋아요",
+          "chinese": "好；喜歡",
+          "romanization": "jo-a-yo",
+          "pronunciation": "[조아요]",
+          "partOfSpeech": "adjective",
+          "tier": "S",
+          "frequencyRank": 28,
+          "example": {
+            "korean": "커피가 좋아요.",
+            "chinese": "我喜歡咖啡。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 좋다。「N이/가 좋아요」可以是「N 很好」或「我喜歡 N」。",
+          "commonMistake": "ㅎ 不發音，不要唸成「仇哈喲」。"
+        },
+        {
+          "id": "V0053",
+          "korean": "사람",
+          "chinese": "人",
+          "romanization": "sa-ram",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 29,
+          "example": {
+            "korean": "사람이 많아요.",
+            "chinese": "人很多。",
+            "speechLevel": "polite"
+          },
+          "usage": "「대만 사람」＝台灣人。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0054",
+          "korean": "많아요",
+          "chinese": "多",
+          "romanization": "ma-na-yo",
+          "pronunciation": "[마나요]",
+          "partOfSpeech": "adjective",
+          "tier": "S",
+          "frequencyRank": 30,
+          "example": {
+            "korean": "사람이 많아요.",
+            "chinese": "人很多。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 많다。",
+          "commonMistake": "ㄶ 接母音：ㅎ 不發音，ㄴ 移到下一個字。"
+        },
+        {
+          "id": "V0055",
+          "korean": "읽어요",
+          "chinese": "讀；唸",
+          "romanization": "il-geo-yo",
+          "pronunciation": "[일거요]",
+          "partOfSpeech": "verb",
+          "tier": "A",
+          "frequencyRank": 19,
+          "example": {
+            "korean": "책을 읽어요.",
+            "chinese": "讀書。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 읽다（[익따]）。",
+          "commonMistake": "ㄺ 接母音時拆開：ㄹ 留下、ㄱ 移到下一個字。"
+        },
+        {
+          "id": "V0056",
+          "korean": "앉아요",
+          "chinese": "坐",
+          "romanization": "an-ja-yo",
+          "pronunciation": "[안자요]",
+          "partOfSpeech": "verb",
+          "tier": "A",
+          "frequencyRank": 20,
+          "example": {
+            "korean": "여기 앉아요.",
+            "chinese": "坐這裡。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 앉다（[안따]）。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0057",
+          "korean": "여기",
+          "chinese": "這裡",
+          "romanization": "yeo-gi",
+          "partOfSpeech": "pronoun",
+          "tier": "S",
+          "frequencyRank": 31,
+          "example": {
+            "korean": "여기 앉아요.",
+            "chinese": "坐這裡。",
+            "speechLevel": "polite"
+          },
+          "usage": "거기＝那裡，저기＝那邊（遠處）。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0058",
+          "korean": "괜찮아요",
+          "chinese": "沒關係；還好",
+          "romanization": "gwaen-cha-na-yo",
+          "pronunciation": "[괜차나요]",
+          "partOfSpeech": "expression",
+          "tier": "S",
+          "frequencyRank": 32,
+          "example": {
+            "korean": "네, 괜찮아요.",
+            "chinese": "好，沒關係。",
+            "speechLevel": "polite"
+          },
+          "usage": "回應道歉、被問「還好嗎？」、婉拒「不用了」都可以用。",
+          "commonMistake": "ㄶ 的 ㅎ 不發音：[괜차나요]。"
+        },
+        {
+          "id": "V0059",
+          "korean": "영화",
+          "chinese": "電影",
+          "romanization": "yeong-hwa",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 21,
+          "example": {
+            "korean": "영화가 좋아요.",
+            "chinese": "我喜歡電影。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0060",
+          "korean": "저도",
+          "chinese": "我也",
+          "romanization": "jeo-do",
+          "partOfSpeech": "expression",
+          "tier": "S",
+          "frequencyRank": 33,
+          "example": {
+            "korean": "저도 음악이 좋아요.",
+            "chinese": "我也喜歡音樂。",
+            "speechLevel": "polite"
+          },
+          "usage": "저는 的 는 換成 도。",
+          "commonMistake": "不要說 *저는도。"
+        }
+      ],
+      "pronunciation": [
+        {
+          "id": "P0601",
+          "title": "雙收音（겹받침）",
+          "explanation": "有些字的收音位置有兩個子音（ㄺ ㄵ ㄶ ㅄ…）。單獨唸或後面接子音時只唸其中一個：읽다 [익따]、앉다 [안따]、값 [갑]。後面接母音時，第二個子音移到下一個字當初聲：읽어요 → [일거요]、앉아요 → [안자요]、없어요 → [업써요]。",
+          "articulation": "先把第一個子音當收音唸出來，再把第二個子音放到下一個音節的開頭。",
+          "chineseSpeakerPitfall": "把兩個子音都塞在同一個字裡會唸不出來。記住：接母音就拆開。",
+          "samples": [
+            "읽어요",
+            "앉아요",
+            "없어요",
+            "값이"
+          ],
+          "minimalPairs": []
+        },
+        {
+          "id": "P0602",
+          "title": "收音 ㅎ 脫落",
+          "explanation": "收音 ㅎ（包括 ㄶ、ㅀ 裡的 ㅎ）後面接母音時完全不發音：좋아요 → [조아요]、많아요 → [마나요]、괜찮아요 → [괜차나요]、싫어요 → [시러요]。",
+          "articulation": "ㅎ 消失後，前面剩下的收音（ㄴ、ㄹ）直接連到下一個母音。",
+          "chineseSpeakerPitfall": "看到 ㅎ 就想送氣，結果唸成「仇哈喲」。這裡的 ㅎ 是無聲的。",
+          "samples": [
+            "좋아요",
+            "많아요",
+            "괜찮아요",
+            "싫어요"
+          ],
+          "minimalPairs": []
+        }
+      ],
+      "grammar": [
+        {
+          "id": "G0601",
+          "title": "N이/가 좋아요",
+          "pattern": "有收音＋이 좋아요；無收音＋가 좋아요",
+          "explanation": "좋아요 是形容詞「好」。「N이/가 좋아요」可以表示「N 很好」，也常用來說「我喜歡 N」。助詞和 이에요／예요 一樣看收音：음악이 좋아요、커피가 좋아요。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "음악이 좋아요.",
+              "chinese": "我喜歡音樂。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "한국어가 좋아요.",
+              "chinese": "我喜歡韓語。",
+              "speechLevel": "polite"
+            }
+          ]
+        },
+        {
+          "id": "G0602",
+          "title": "N도（也）",
+          "pattern": "N도：取代 은/는、이/가、을/를",
+          "explanation": "도 直接接在名詞後面，並且取代原本的助詞：저는 커피가 좋아요 → 저도 커피가 좋아요（我也喜歡咖啡）；물을 마셔요 → 물도 마셔요（也喝水）。不能疊在一起，例如 *커피가도、*저는도。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "저도 음악이 좋아요.",
+              "chinese": "我也喜歡音樂。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "물도 마셔요.",
+              "chinese": "也喝水。",
+              "speechLevel": "polite"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "korean": "한국어가 좋아요.",
+          "chinese": "我喜歡韓語。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "사람이 많아요.",
+          "chinese": "人很多。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "저는 책을 읽어요.",
+          "chinese": "我讀書。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "여기 앉아요.",
+          "chinese": "坐這裡。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "저도 괜찮아요.",
+          "chinese": "我也沒關係。",
+          "speechLevel": "polite"
+        }
+      ],
+      "listening": [
+        {
+          "id": "L0601",
+          "audioText": "좋아요",
+          "question": "實際發音最接近哪一個？",
+          "options": [
+            "[조아요]",
+            "[조하요]",
+            "[졷아요]"
+          ],
+          "answerIndex": 0,
+          "explanation": "收音 ㅎ 接母音時不發音。"
+        },
+        {
+          "id": "L0602",
+          "audioText": "읽어요",
+          "question": "實際發音最接近哪一個？",
+          "options": [
+            "[이거요]",
+            "[일거요]",
+            "[일러요]"
+          ],
+          "answerIndex": 1,
+          "explanation": "ㄺ 接母音：ㄹ 留下，ㄱ 移到下一個字。"
+        },
+        {
+          "id": "L0603",
+          "audioText": "사람이 많아요.",
+          "question": "意思是？",
+          "options": [
+            "人很多。",
+            "人很少。",
+            "錢很多。"
+          ],
+          "answerIndex": 0,
+          "explanation": "많아요＝多，唸 [마나요]。"
+        },
+        {
+          "id": "L0604",
+          "audioText": "저도 음악이 좋아요.",
+          "question": "意思是？",
+          "options": [
+            "我也喜歡音樂。",
+            "我喜歡電影。",
+            "我也喜歡韓語。"
+          ],
+          "answerIndex": 0,
+          "explanation": "저도＝我也；음악＝音樂。"
+        }
+      ],
+      "drills": [
+        {
+          "id": "D0601",
+          "type": "substitution",
+          "instruction": "把喜歡的東西換成提示詞（注意 이／가）。",
+          "model": {
+            "korean": "커피가 좋아요.",
+            "chinese": "我喜歡咖啡。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 8,
+          "items": [
+            {
+              "cue": "음악",
+              "answers": [
+                "음악이 좋아요."
+              ],
+              "chinese": "我喜歡音樂。"
+            },
+            {
+              "cue": "한국어",
+              "answers": [
+                "한국어가 좋아요."
+              ],
+              "chinese": "我喜歡韓語。"
+            },
+            {
+              "cue": "영화",
+              "answers": [
+                "영화가 좋아요."
+              ],
+              "chinese": "我喜歡電影。"
+            },
+            {
+              "cue": "책",
+              "answers": [
+                "책이 좋아요."
+              ],
+              "chinese": "我喜歡書。"
+            },
+            {
+              "cue": "빵",
+              "answers": [
+                "빵이 좋아요."
+              ],
+              "chinese": "我喜歡麵包。"
+            },
+            {
+              "cue": "우유",
+              "answers": [
+                "우유가 좋아요."
+              ],
+              "chinese": "我喜歡牛奶。"
+            }
+          ]
+        },
+        {
+          "id": "D0602",
+          "type": "transformation",
+          "instruction": "改成「我也…」：저는 → 저도。",
+          "model": {
+            "korean": "저는 커피가 좋아요. → 저도 커피가 좋아요.",
+            "chinese": "我喜歡咖啡。→ 我也喜歡咖啡。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "저는 음악이 좋아요.",
+              "answers": [
+                "저도 음악이 좋아요."
+              ],
+              "chinese": "我也喜歡音樂。"
+            },
+            {
+              "cue": "저는 한국어가 좋아요.",
+              "answers": [
+                "저도 한국어가 좋아요."
+              ],
+              "chinese": "我也喜歡韓語。"
+            },
+            {
+              "cue": "저는 괜찮아요.",
+              "answers": [
+                "저도 괜찮아요."
+              ],
+              "chinese": "我也沒關係。"
+            },
+            {
+              "cue": "저는 책을 읽어요.",
+              "answers": [
+                "저도 책을 읽어요."
+              ],
+              "chinese": "我也讀書。"
+            },
+            {
+              "cue": "저는 물을 마셔요.",
+              "answers": [
+                "저도 물을 마셔요."
+              ],
+              "chinese": "我也喝水。"
+            }
+          ]
+        },
+        {
+          "id": "D0603",
+          "type": "questionAnswer",
+          "instruction": "聽韓語問題，依提示直接回答。",
+          "model": {
+            "korean": "뭐가 좋아요? — 음악이 좋아요.",
+            "chinese": "你喜歡什麼？——我喜歡音樂。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 8,
+          "items": [
+            {
+              "cue": "뭐가 좋아요?（音樂）",
+              "cueIsAudio": true,
+              "answers": [
+                "음악이 좋아요.",
+                "저는 음악이 좋아요."
+              ],
+              "chinese": "我喜歡音樂。"
+            },
+            {
+              "cue": "한국어가 좋아요?（是）",
+              "cueIsAudio": true,
+              "answers": [
+                "네, 한국어가 좋아요.",
+                "네, 좋아요."
+              ],
+              "chinese": "對，我喜歡韓語。"
+            },
+            {
+              "cue": "사람이 많아요?（是）",
+              "cueIsAudio": true,
+              "answers": [
+                "네, 사람이 많아요.",
+                "네, 많아요."
+              ],
+              "chinese": "對，人很多。"
+            },
+            {
+              "cue": "뭐 읽어요?（書）",
+              "cueIsAudio": true,
+              "answers": [
+                "책을 읽어요.",
+                "저는 책을 읽어요."
+              ],
+              "chinese": "讀書。"
+            },
+            {
+              "cue": "괜찮아요?（沒問題）",
+              "cueIsAudio": true,
+              "answers": [
+                "네, 괜찮아요.",
+                "괜찮아요."
+              ],
+              "chinese": "嗯，沒關係。"
+            },
+            {
+              "cue": "저는 커피가 좋아요.（我也是）",
+              "cueIsAudio": true,
+              "answers": [
+                "저도 커피가 좋아요.",
+                "저도 좋아요."
+              ],
+              "chinese": "我也喜歡咖啡。"
+            }
+          ]
+        },
+        {
+          "id": "D0604",
+          "type": "freeProduction",
+          "instruction": "說出兩樣你喜歡的東西，第二句用「도」。",
+          "model": {
+            "korean": "저는 음악이 좋아요. 영화도 좋아요.",
+            "chinese": "我喜歡音樂。也喜歡電影。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 10,
+          "items": [
+            {
+              "cue": "自由回答",
+              "answers": [
+                "저는 음악이 좋아요.",
+                "영화도 좋아요."
+              ],
+              "chinese": "（參考答案）"
+            }
+          ]
+        }
+      ],
+      "speaking": {
+        "scenario": "語言交換第一次見面，聊彼此喜歡的東西。AI 扮演韓國朋友。使用者會：이/가 좋아요、도、괜찮아요、네／아니요。",
+        "speechLevel": "polite",
+        "offlineScript": [
+          {
+            "cue": "뭐가 좋아요?（提示：音樂）",
+            "cueIsAudio": true,
+            "answers": [
+              "음악이 좋아요.",
+              "저는 음악이 좋아요."
+            ],
+            "chinese": "我喜歡音樂。"
+          },
+          {
+            "cue": "저도 음악이 좋아요. 영화도 좋아요?（提示：對，也喜歡）",
+            "cueIsAudio": true,
+            "answers": [
+              "네, 영화도 좋아요.",
+              "네, 좋아요."
+            ],
+            "chinese": "對，也喜歡電影。"
+          },
+          {
+            "cue": "커피 괜찮아요?（提示：好，沒問題）",
+            "cueIsAudio": true,
+            "answers": [
+              "네, 괜찮아요.",
+              "괜찮아요."
+            ],
+            "chinese": "好，沒問題。"
+          }
+        ]
+      },
+      "postTest": [
+        {
+          "id": "Q0601",
+          "skill": "phonemeDiscrimination",
+          "kind": "listeningChoice",
+          "prompt": "聽音選出實際發音",
+          "audioText": "많아요",
+          "options": [
+            "[마나요]",
+            "[만하요]",
+            "[마하요]"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "ㄶ 接母音：ㅎ 不發音，ㄴ 移到下一個字。"
+        },
+        {
+          "id": "Q0602",
+          "skill": "phonemeDiscrimination",
+          "kind": "choice",
+          "prompt": "「앉아요」實際怎麼唸？",
+          "audioText": null,
+          "options": [
+            "[안자요]",
+            "[아나요]",
+            "[안아요]"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "ㄵ 接母音：ㄴ 留下，ㅈ 移到下一個字。"
+        },
+        {
+          "id": "Q0603",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「我喜歡韓語。」哪一句正確？",
+          "audioText": null,
+          "options": [
+            "한국어가 좋아요.",
+            "한국어이 좋아요.",
+            "한국어도가 좋아요."
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "한국어 的最後一個字沒有收音，接 가。"
+        },
+        {
+          "id": "Q0604",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「我也喝水。」哪一句正確？",
+          "audioText": null,
+          "options": [
+            "저도 물을 마셔요.",
+            "저는도 물을 마셔요.",
+            "저가도 물을 마셔요."
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "도 直接取代 는。"
+        },
+        {
+          "id": "Q0605",
+          "skill": "grammar",
+          "kind": "typing",
+          "prompt": "用韓文寫：人很多。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "사람이 많아요."
+          ],
+          "explanation": "사람（有收音）＋이 많아요。"
+        },
+        {
+          "id": "Q0606",
+          "skill": "speaking",
+          "kind": "speaking",
+          "prompt": "說出：我喜歡音樂。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "음악이 좋아요.",
+            "저는 음악이 좋아요."
+          ],
+          "explanation": "음악이 좋아요."
+        }
+      ],
+      "completion": {
+        "postTestPassRatio": 0.8,
+        "drillAccuracy": 0.8,
+        "requireVocabularyQuiz": true
+      }
+    },
+    {
+      "id": "U02L02",
+      "title": "鼻音化與正式語體「입니다」",
+      "estimatedMinutes": 50,
+      "objectives": [
+        "鼻音化：收音 ㄱ ㄷ ㅂ 遇到 ㄴ ㅁ 變成 ㅇ ㄴ ㅁ（합니다 → [함니다]、한국말 → [한궁말]）",
+        "用正式語體自我介紹：「저는 N입니다.」",
+        "正式問句「N입니까?」與否定「N이/가 아닙니다」",
+        "會說 감사합니다、죄송합니다、만나서 반갑습니다"
+      ],
+      "vocabulary": [
+        {
+          "id": "V0061",
+          "korean": "감사합니다",
+          "chinese": "謝謝（正式）",
+          "romanization": "gam-sa-ham-ni-da",
+          "pronunciation": "[감사함니다]",
+          "partOfSpeech": "expression",
+          "tier": "S",
+          "frequencyRank": 34,
+          "example": {
+            "korean": "네, 감사합니다.",
+            "chinese": "好的，謝謝。",
+            "speechLevel": "formal"
+          },
+          "usage": "比 고마워요 正式，對陌生人、店員、長輩都適用。",
+          "commonMistake": "ㅂ 遇到 ㄴ 鼻音化，唸 [함니다]，不要唸「哈普尼達」。"
+        },
+        {
+          "id": "V0062",
+          "korean": "죄송합니다",
+          "chinese": "對不起（正式）",
+          "romanization": "joe-song-ham-ni-da",
+          "pronunciation": "[죄송함니다]",
+          "partOfSpeech": "expression",
+          "tier": "S",
+          "frequencyRank": 35,
+          "example": {
+            "korean": "죄송합니다, 선생님.",
+            "chinese": "對不起，老師。",
+            "speechLevel": "formal"
+          },
+          "usage": "比 미안해요 正式、更有歉意。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0063",
+          "korean": "회사원",
+          "chinese": "上班族",
+          "romanization": "hoe-sa-won",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 22,
+          "example": {
+            "korean": "저는 회사원입니다.",
+            "chinese": "我是上班族。",
+            "speechLevel": "formal"
+          },
+          "usage": "",
+          "commonMistake": "회사원입니다 連音＋鼻音化：[회사워님니다]。"
+        },
+        {
+          "id": "V0064",
+          "korean": "대만",
+          "chinese": "台灣",
+          "romanization": "dae-man",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 36,
+          "example": {
+            "korean": "저는 대만 사람입니다.",
+            "chinese": "我是台灣人。",
+            "speechLevel": "formal"
+          },
+          "usage": "「대만 사람」＝台灣人。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0065",
+          "korean": "한국",
+          "chinese": "韓國",
+          "romanization": "han-guk",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 37,
+          "example": {
+            "korean": "한국 사람입니까?",
+            "chinese": "是韓國人嗎？",
+            "speechLevel": "formal"
+          },
+          "usage": "한국 사람＝韓國人。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0066",
+          "korean": "이름",
+          "chinese": "名字",
+          "romanization": "i-reum",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 38,
+          "example": {
+            "korean": "이름이 뭐예요?",
+            "chinese": "你叫什麼名字？",
+            "speechLevel": "polite"
+          },
+          "usage": "正式場合可以問「성함이 어떻게 되세요?」，之後會學到。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0067",
+          "korean": "한국말",
+          "chinese": "韓國話",
+          "romanization": "han-gung-mal",
+          "pronunciation": "[한궁말]",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 23,
+          "example": {
+            "korean": "한국말이 좋아요.",
+            "chinese": "我喜歡韓國話。",
+            "speechLevel": "polite"
+          },
+          "usage": "口語常用，和 한국어 意思相同。",
+          "commonMistake": "ㄱ 遇到 ㅁ 變 ㅇ：[한궁말]。"
+        },
+        {
+          "id": "V0068",
+          "korean": "입니다",
+          "chinese": "是（正式）",
+          "romanization": "im-ni-da",
+          "pronunciation": "[임니다]",
+          "partOfSpeech": "expression",
+          "tier": "S",
+          "frequencyRank": 39,
+          "example": {
+            "korean": "저는 회사원입니다.",
+            "chinese": "我是上班族。",
+            "speechLevel": "formal"
+          },
+          "usage": "이에요／예요 的正式說法，不分有無收音。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0069",
+          "korean": "만나서 반갑습니다",
+          "chinese": "很高興認識你",
+          "romanization": "man-na-seo ban-gap-seum-ni-da",
+          "pronunciation": "[만나서 반갑씀니다]",
+          "partOfSpeech": "expression",
+          "tier": "S",
+          "frequencyRank": 40,
+          "example": {
+            "korean": "만나서 반갑습니다.",
+            "chinese": "很高興認識你。",
+            "speechLevel": "formal"
+          },
+          "usage": "初次見面的固定說法；回應可說「저도 반갑습니다」。",
+          "commonMistake": "습니다 先緊音再鼻音化：[반갑씀니다]。"
+        },
+        {
+          "id": "V0070",
+          "korean": "국물",
+          "chinese": "湯（湯汁）",
+          "romanization": "gung-mul",
+          "pronunciation": "[궁물]",
+          "partOfSpeech": "noun",
+          "tier": "B",
+          "frequencyRank": 7,
+          "example": {
+            "korean": "국물이 좋아요.",
+            "chinese": "我喜歡湯。",
+            "speechLevel": "polite"
+          },
+          "usage": "韓國人很重視湯頭。",
+          "commonMistake": null
+        }
+      ],
+      "pronunciation": [
+        {
+          "id": "P0701",
+          "title": "鼻音化（ㄱ ㄷ ㅂ ＋ ㄴ ㅁ）",
+          "explanation": "收音 [ㄱ] [ㄷ] [ㅂ] 後面遇到 ㄴ 或 ㅁ 時，會變成同部位的鼻音：[ㄱ]→[ㅇ]、[ㄷ]→[ㄴ]、[ㅂ]→[ㅁ]。例：합니다 → [함니다]、한국말 → [한궁말]、국물 → [궁물]、있는 → [인는]。",
+          "articulation": "嘴型和舌位不變，只是讓氣流改從鼻子出去：ㅂ→ㅁ 雙唇閉著哼出聲；ㄱ→ㅇ 舌根抵住哼出聲。",
+          "chineseSpeakerPitfall": "照字唸成「哈普尼達」是最明顯的外國口音。看到 -ㅂ니다、-습니다，一律唸 [-ㅁ니다]、[-씀니다]。",
+          "samples": [
+            "합니다",
+            "감사합니다",
+            "한국말",
+            "국물",
+            "입니다"
+          ],
+          "minimalPairs": []
+        },
+        {
+          "id": "P0702",
+          "title": "正式語體的句尾語調",
+          "explanation": "-ㅂ니다／-습니다 是陳述，語調平穩下降；-ㅂ니까?／-습니까? 是問句，句尾上揚。正式語體用在簡報、新聞、服務業、第一次見面的正式場合。",
+          "articulation": "니다 的「다」短而輕，不要拖長；니까 的「까」是緊音，語調往上。",
+          "chineseSpeakerPitfall": "까 是緊音 ㄲ，不要唸成送氣的「咖」。",
+          "samples": [
+            "입니다",
+            "입니까",
+            "감사합니다",
+            "반갑습니다"
+          ],
+          "minimalPairs": [
+            {
+              "a": "입니다",
+              "b": "입니까",
+              "contrast": "陳述／疑問"
+            }
+          ]
+        }
+      ],
+      "grammar": [
+        {
+          "id": "G0701",
+          "title": "N입니다（是 N，正式）",
+          "pattern": "N입니다",
+          "explanation": "입니다 是 이에요／예요 的正式說法。不論名詞有沒有收音都用 입니다：저는 회사원입니다、저는 대만 사람입니다。입 的收音 ㅂ 遇到 니 會鼻音化，唸 [임니다]。",
+          "speechLevel": "formal",
+          "examples": [
+            {
+              "korean": "저는 대만 사람입니다.",
+              "chinese": "我是台灣人。",
+              "speechLevel": "formal"
+            },
+            {
+              "korean": "저는 회사원입니다.",
+              "chinese": "我是上班族。",
+              "speechLevel": "formal"
+            }
+          ]
+        },
+        {
+          "id": "G0702",
+          "title": "N입니까?／N이/가 아닙니다",
+          "pattern": "N입니까?（是 N 嗎？）；N이/가 아닙니다（不是 N）",
+          "explanation": "問句把 다 換成 까：입니다 → 입니까?。否定用 아닙니다，是 아니에요 的正式說法，前面的 이／가 照樣看收音：한국 사람이 아닙니다、커피가 아닙니다。",
+          "speechLevel": "formal",
+          "examples": [
+            {
+              "korean": "한국 사람입니까?",
+              "chinese": "是韓國人嗎？",
+              "speechLevel": "formal"
+            },
+            {
+              "korean": "아니요, 한국 사람이 아닙니다.",
+              "chinese": "不，不是韓國人。",
+              "speechLevel": "formal"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "korean": "저는 대만 사람입니다.",
+          "chinese": "我是台灣人。",
+          "speechLevel": "formal"
+        },
+        {
+          "korean": "만나서 반갑습니다.",
+          "chinese": "很高興認識你。",
+          "speechLevel": "formal"
+        },
+        {
+          "korean": "이름이 뭐예요?",
+          "chinese": "你叫什麼名字？",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "감사합니다.",
+          "chinese": "謝謝。",
+          "speechLevel": "formal"
+        },
+        {
+          "korean": "한국 사람입니까?",
+          "chinese": "是韓國人嗎？",
+          "speechLevel": "formal"
+        }
+      ],
+      "listening": [
+        {
+          "id": "L0701",
+          "audioText": "합니다",
+          "question": "實際發音最接近哪一個？",
+          "options": [
+            "[함니다]",
+            "[합니다]",
+            "[한니다]"
+          ],
+          "answerIndex": 0,
+          "explanation": "收音 ㅂ 遇到 ㄴ 變成 ㅁ。"
+        },
+        {
+          "id": "L0702",
+          "audioText": "한국말",
+          "question": "實際發音最接近哪一個？",
+          "options": [
+            "[한궁말]",
+            "[한국말]",
+            "[한군말]"
+          ],
+          "answerIndex": 0,
+          "explanation": "收音 ㄱ 遇到 ㅁ 變成 ㅇ。"
+        },
+        {
+          "id": "L0703",
+          "audioText": "저는 대만 사람입니다.",
+          "question": "意思是？",
+          "options": [
+            "我是台灣人。",
+            "我是韓國人。",
+            "我是上班族。"
+          ],
+          "answerIndex": 0,
+          "explanation": "대만 사람＝台灣人。"
+        },
+        {
+          "id": "L0704",
+          "audioText": "한국 사람입니까?",
+          "question": "這句話是？",
+          "options": [
+            "問句：是韓國人嗎？",
+            "陳述：我是韓國人。",
+            "否定：不是韓國人。"
+          ],
+          "answerIndex": 0,
+          "explanation": "입니까? 是正式問句，句尾上揚。"
+        }
+      ],
+      "drills": [
+        {
+          "id": "D0701",
+          "type": "substitution",
+          "instruction": "用正式語體說自己的身分，把提示詞放進句子。",
+          "model": {
+            "korean": "저는 회사원입니다.",
+            "chinese": "我是上班族。",
+            "speechLevel": "formal"
+          },
+          "thinkSeconds": 8,
+          "items": [
+            {
+              "cue": "대만 사람",
+              "answers": [
+                "저는 대만 사람입니다."
+              ],
+              "chinese": "我是台灣人。"
+            },
+            {
+              "cue": "학생（學生）",
+              "answers": [
+                "저는 학생입니다."
+              ],
+              "chinese": "我是學生。"
+            },
+            {
+              "cue": "가수",
+              "answers": [
+                "저는 가수입니다."
+              ],
+              "chinese": "我是歌手。"
+            },
+            {
+              "cue": "한국 사람",
+              "answers": [
+                "저는 한국 사람입니다."
+              ],
+              "chinese": "我是韓國人。"
+            },
+            {
+              "cue": "의사（醫生）",
+              "answers": [
+                "저는 의사입니다."
+              ],
+              "chinese": "我是醫生。"
+            }
+          ]
+        },
+        {
+          "id": "D0702",
+          "type": "transformation",
+          "instruction": "禮貌語體 → 正式語體：이에요／예요 → 입니다。",
+          "model": {
+            "korean": "회사원이에요. → 회사원입니다.",
+            "chinese": "是上班族。",
+            "speechLevel": "formal"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "학생이에요.",
+              "answers": [
+                "학생입니다."
+              ],
+              "chinese": "是學生。"
+            },
+            {
+              "cue": "커피예요.",
+              "answers": [
+                "커피입니다."
+              ],
+              "chinese": "是咖啡。"
+            },
+            {
+              "cue": "대만 사람이에요.",
+              "answers": [
+                "대만 사람입니다."
+              ],
+              "chinese": "是台灣人。"
+            },
+            {
+              "cue": "책이에요.",
+              "answers": [
+                "책입니다."
+              ],
+              "chinese": "是書。"
+            },
+            {
+              "cue": "우유예요.",
+              "answers": [
+                "우유입니다."
+              ],
+              "chinese": "是牛奶。"
+            }
+          ]
+        },
+        {
+          "id": "D0703",
+          "type": "transformation",
+          "instruction": "陳述 → 正式問句：입니다 → 입니까?",
+          "model": {
+            "korean": "학생입니다. → 학생입니까?",
+            "chinese": "是學生。→ 是學生嗎？",
+            "speechLevel": "formal"
+          },
+          "thinkSeconds": 6,
+          "items": [
+            {
+              "cue": "한국 사람입니다.",
+              "answers": [
+                "한국 사람입니까?"
+              ],
+              "chinese": "是韓國人嗎？"
+            },
+            {
+              "cue": "회사원입니다.",
+              "answers": [
+                "회사원입니까?"
+              ],
+              "chinese": "是上班族嗎？"
+            },
+            {
+              "cue": "커피입니다.",
+              "answers": [
+                "커피입니까?"
+              ],
+              "chinese": "是咖啡嗎？"
+            },
+            {
+              "cue": "대만 사람입니다.",
+              "answers": [
+                "대만 사람입니까?"
+              ],
+              "chinese": "是台灣人嗎？"
+            },
+            {
+              "cue": "선생님입니다.",
+              "answers": [
+                "선생님입니까?"
+              ],
+              "chinese": "是老師嗎？"
+            }
+          ]
+        },
+        {
+          "id": "D0704",
+          "type": "questionAnswer",
+          "instruction": "聽正式語體的問題，用正式語體回答。",
+          "model": {
+            "korean": "대만 사람입니까? — 네, 대만 사람입니다.",
+            "chinese": "是台灣人嗎？——是，我是台灣人。",
+            "speechLevel": "formal"
+          },
+          "thinkSeconds": 8,
+          "items": [
+            {
+              "cue": "대만 사람입니까?（是）",
+              "cueIsAudio": true,
+              "answers": [
+                "네, 대만 사람입니다.",
+                "네, 저는 대만 사람입니다."
+              ],
+              "chinese": "是，我是台灣人。"
+            },
+            {
+              "cue": "학생입니까?（不是，上班族）",
+              "cueIsAudio": true,
+              "answers": [
+                "아니요, 회사원입니다.",
+                "아니요, 저는 회사원입니다."
+              ],
+              "chinese": "不，我是上班族。"
+            },
+            {
+              "cue": "이름이 뭐예요?（名字：민수）",
+              "cueIsAudio": true,
+              "answers": [
+                "민수예요.",
+                "저는 민수예요.",
+                "민수입니다.",
+                "저는 민수입니다."
+              ],
+              "chinese": "我叫民秀。"
+            },
+            {
+              "cue": "한국 사람입니까?（不是）",
+              "cueIsAudio": true,
+              "answers": [
+                "아니요, 한국 사람이 아닙니다.",
+                "아니요, 한국 사람이 아니에요."
+              ],
+              "chinese": "不，不是韓國人。"
+            },
+            {
+              "cue": "만나서 반갑습니다.（回應：我也很高興）",
+              "cueIsAudio": true,
+              "answers": [
+                "저도 반갑습니다.",
+                "만나서 반갑습니다.",
+                "저도 만나서 반갑습니다."
+              ],
+              "chinese": "我也很高興認識你。"
+            }
+          ]
+        },
+        {
+          "id": "D0705",
+          "type": "freeProduction",
+          "instruction": "用正式語體做三句自我介紹：問候、國籍、身分。",
+          "model": {
+            "korean": "만나서 반갑습니다. 저는 대만 사람입니다. 회사원입니다.",
+            "chinese": "很高興認識你。我是台灣人。我是上班族。",
+            "speechLevel": "formal"
+          },
+          "thinkSeconds": 10,
+          "items": [
+            {
+              "cue": "自由回答",
+              "answers": [
+                "만나서 반갑습니다.",
+                "저는 대만 사람입니다.",
+                "저는 회사원입니다."
+              ],
+              "chinese": "（參考答案）"
+            }
+          ]
+        }
+      ],
+      "speaking": {
+        "scenario": "在公司第一次和韓國同事見面。AI 扮演韓國同事，全程使用正式語體（합쇼체）。使用者會：입니다／입니까、아닙니다、반갑습니다、감사합니다。",
+        "speechLevel": "formal",
+        "offlineScript": [
+          {
+            "cue": "안녕하십니까? 대만 사람입니까?（提示：是）",
+            "cueIsAudio": true,
+            "answers": [
+              "네, 대만 사람입니다.",
+              "네, 저는 대만 사람입니다."
+            ],
+            "chinese": "是，我是台灣人。"
+          },
+          {
+            "cue": "학생입니까?（提示：不是，上班族）",
+            "cueIsAudio": true,
+            "answers": [
+              "아니요, 회사원입니다.",
+              "아니요, 저는 회사원입니다."
+            ],
+            "chinese": "不，我是上班族。"
+          },
+          {
+            "cue": "만나서 반갑습니다.（提示：我也很高興）",
+            "cueIsAudio": true,
+            "answers": [
+              "저도 반갑습니다.",
+              "만나서 반갑습니다.",
+              "저도 만나서 반갑습니다."
+            ],
+            "chinese": "我也很高興認識你。"
+          }
+        ]
+      },
+      "postTest": [
+        {
+          "id": "Q0701",
+          "skill": "phonemeDiscrimination",
+          "kind": "listeningChoice",
+          "prompt": "聽音選出實際發音",
+          "audioText": "감사합니다",
+          "options": [
+            "[감사함니다]",
+            "[감사합니다]",
+            "[감사한니다]"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "-합니다 一律唸 [-함니다]。"
+        },
+        {
+          "id": "Q0702",
+          "skill": "phonemeDiscrimination",
+          "kind": "choice",
+          "prompt": "「국물」實際怎麼唸？",
+          "audioText": null,
+          "options": [
+            "[궁물]",
+            "[국물]",
+            "[구물]"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "收音 ㄱ 遇到 ㅁ 變成 ㅇ。"
+        },
+        {
+          "id": "Q0703",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「我是上班族。」的正式說法是？",
+          "audioText": null,
+          "options": [
+            "저는 회사원입니다.",
+            "저는 회사원이니다.",
+            "저는 회사원입니까?"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "입니다 不分有無收音。"
+        },
+        {
+          "id": "Q0704",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「是學生嗎？」的正式說法是？",
+          "audioText": null,
+          "options": [
+            "학생입니까?",
+            "학생입니다.",
+            "학생이에요."
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "正式問句用 입니까?；학생이에요 是禮貌語體的陳述。"
+        },
+        {
+          "id": "Q0705",
+          "skill": "grammar",
+          "kind": "typing",
+          "prompt": "用韓文寫（正式語體）：我是台灣人。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "저는 대만 사람입니다.",
+            "대만 사람입니다."
+          ],
+          "explanation": "저는 대만 사람입니다."
+        },
+        {
+          "id": "Q0706",
+          "skill": "speaking",
+          "kind": "speaking",
+          "prompt": "說出（正式語體）：謝謝。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "감사합니다."
+          ],
+          "explanation": "감사합니다 [감사함니다]。"
+        }
+      ],
+      "completion": {
+        "postTestPassRatio": 0.8,
+        "drillAccuracy": 0.8,
+        "requireVocabularyQuiz": true
+      }
+    },
+    {
+      "id": "U02L03",
+      "title": "緊音化與「去 N」",
+      "estimatedMinutes": 50,
+      "objectives": [
+        "緊音化：收音 [ㄱ ㄷ ㅂ] 後面的 ㄱ ㄷ ㅂ ㅅ ㅈ 唸成緊音（학교 → [학꾜]、식당 → [식땅]）",
+        "-습니다 的完整音變：있습니다 → [읻씀니다]",
+        "用「N에 가요」說去哪裡，用「안 가요」否定",
+        "用「어디 가요?」問對方去哪裡"
+      ],
+      "vocabulary": [
+        {
+          "id": "V0071",
+          "korean": "학교",
+          "chinese": "學校",
+          "romanization": "hak-gyo",
+          "pronunciation": "[학꾜]",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 41,
+          "example": {
+            "korean": "학교에 가요.",
+            "chinese": "去學校。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": "唸 [학꾜]，不要唸成送氣的 [학쿄]。"
+        },
+        {
+          "id": "V0072",
+          "korean": "학생",
+          "chinese": "學生",
+          "romanization": "hak-saeng",
+          "pronunciation": "[학쌩]",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 42,
+          "example": {
+            "korean": "저는 학생이에요.",
+            "chinese": "我是學生。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0073",
+          "korean": "식당",
+          "chinese": "餐廳",
+          "romanization": "sik-dang",
+          "pronunciation": "[식땅]",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 43,
+          "example": {
+            "korean": "식당에 가요.",
+            "chinese": "去餐廳。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0074",
+          "korean": "어디",
+          "chinese": "哪裡",
+          "romanization": "eo-di",
+          "partOfSpeech": "pronoun",
+          "tier": "S",
+          "frequencyRank": 44,
+          "example": {
+            "korean": "어디 가요?",
+            "chinese": "去哪裡？",
+            "speechLevel": "polite"
+          },
+          "usage": "「어디 가요?」也是熟人之間打招呼的方式，不一定真的要知道答案。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0075",
+          "korean": "가요",
+          "chinese": "去",
+          "romanization": "ga-yo",
+          "partOfSpeech": "verb",
+          "tier": "S",
+          "frequencyRank": 45,
+          "example": {
+            "korean": "집에 가요.",
+            "chinese": "回家。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 가다。「N에 가요」＝去 N。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0076",
+          "korean": "숙제",
+          "chinese": "作業",
+          "romanization": "suk-je",
+          "pronunciation": "[숙쩨]",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 24,
+          "example": {
+            "korean": "숙제가 많아요.",
+            "chinese": "作業很多。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0077",
+          "korean": "맥주",
+          "chinese": "啤酒",
+          "romanization": "maek-ju",
+          "pronunciation": "[맥쭈]",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 25,
+          "example": {
+            "korean": "맥주를 마셔요.",
+            "chinese": "喝啤酒。",
+            "speechLevel": "polite"
+          },
+          "usage": "炸雞配啤酒叫 치맥。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0078",
+          "korean": "책상",
+          "chinese": "書桌",
+          "romanization": "chaek-sang",
+          "pronunciation": "[책쌍]",
+          "partOfSpeech": "noun",
+          "tier": "B",
+          "frequencyRank": 8,
+          "example": {
+            "korean": "책상 위에 책이 있어요.",
+            "chinese": "書桌上有書。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0079",
+          "korean": "잡지",
+          "chinese": "雜誌",
+          "romanization": "jap-ji",
+          "pronunciation": "[잡찌]",
+          "partOfSpeech": "noun",
+          "tier": "B",
+          "frequencyRank": 9,
+          "example": {
+            "korean": "잡지를 읽어요.",
+            "chinese": "看雜誌。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0080",
+          "korean": "편의점",
+          "chinese": "便利商店",
+          "romanization": "pyeo-ni-jeom",
+          "pronunciation": "[펴니점]",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 26,
+          "example": {
+            "korean": "편의점에 가요.",
+            "chinese": "去便利商店。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": "의 在第一個字以外常唸 [이]：[펴니점]。"
+        },
+        {
+          "id": "V0081",
+          "korean": "오늘",
+          "chinese": "今天",
+          "romanization": "o-neul",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 46,
+          "example": {
+            "korean": "오늘 학교에 가요.",
+            "chinese": "今天去學校。",
+            "speechLevel": "polite"
+          },
+          "usage": "내일＝明天。",
+          "commonMistake": null
+        }
+      ],
+      "pronunciation": [
+        {
+          "id": "P0801",
+          "title": "緊音化",
+          "explanation": "收音 [ㄱ] [ㄷ] [ㅂ] 後面的 ㄱ ㄷ ㅂ ㅅ ㅈ 會唸成緊音 ㄲ ㄸ ㅃ ㅆ ㅉ：학교 → [학꾜]、식당 → [식땅]、학생 → [학쌩]、잡지 → [잡찌]、숙제 → [숙쩨]、맥주 → [맥쭈]。",
+          "articulation": "前一個收音停住時喉嚨已經繃緊，下一個子音自然變緊。不要送氣，中間也不要加母音。",
+          "chineseSpeakerPitfall": "容易唸成送氣音（[학쿄]），或在收音後多加「ㄜ」（[하그교]）。緊音沒有氣流：在嘴前放一張紙，紙不動才對。",
+          "samples": [
+            "학교",
+            "식당",
+            "학생",
+            "잡지",
+            "맥주"
+          ],
+          "minimalPairs": []
+        },
+        {
+          "id": "P0802",
+          "title": "-습니다 的兩步音變",
+          "explanation": "-습니다 的 ㅅ 前面是收音 [ㄷ] 或 [ㅂ]，所以先變緊音，再加上鼻音化：있습니다 → [읻씀니다]、없습니다 → [업씀니다]、반갑습니다 → [반갑씀니다]。",
+          "articulation": "分兩步：先緊音（ㅅ→ㅆ），再鼻音化（ㅂ→ㅁ），最後一律唸 [씀니다]。",
+          "chineseSpeakerPitfall": "唸成 [습니다] 會很生硬，要唸 [씀니다]。",
+          "samples": [
+            "있습니다",
+            "없습니다",
+            "반갑습니다"
+          ],
+          "minimalPairs": [
+            {
+              "a": "있습니다",
+              "b": "없습니다",
+              "contrast": "有／沒有"
+            }
+          ]
+        }
+      ],
+      "grammar": [
+        {
+          "id": "G0801",
+          "title": "N에 가요（去 N）",
+          "pattern": "地點＋에 가요",
+          "explanation": "에 接在地點後面表示目的地，不看收音：학교에 가요、집에 가요。注意連音：집에 → [지베]、식당에 → [식땅에]。否定和上一單元一樣在動詞前加 안：학교에 안 가요。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "학교에 가요.",
+              "chinese": "去學校。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "오늘 회사에 안 가요.",
+              "chinese": "今天不去公司。",
+              "speechLevel": "polite"
+            }
+          ]
+        },
+        {
+          "id": "G0802",
+          "title": "어디 가요?（去哪裡？）",
+          "pattern": "어디（에） 가요?",
+          "explanation": "問「去哪裡？」口語常省略 에：어디 가요?。回答時把地點放進「N에 가요」。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "어디 가요?",
+              "chinese": "去哪裡？",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "식당에 가요.",
+              "chinese": "去餐廳。",
+              "speechLevel": "polite"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "korean": "오늘 학교에 가요.",
+          "chinese": "今天去學校。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "저는 학생이에요.",
+          "chinese": "我是學生。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "식당에 가요.",
+          "chinese": "去餐廳。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "숙제가 많아요.",
+          "chinese": "作業很多。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "편의점에 가요.",
+          "chinese": "去便利商店。",
+          "speechLevel": "polite"
+        }
+      ],
+      "listening": [
+        {
+          "id": "L0801",
+          "audioText": "학교",
+          "question": "實際發音最接近哪一個？",
+          "options": [
+            "[학꾜]",
+            "[학쿄]",
+            "[하교]"
+          ],
+          "answerIndex": 0,
+          "explanation": "收音 ㄱ 後的 ㄱ 變緊音。"
+        },
+        {
+          "id": "L0802",
+          "audioText": "식당",
+          "question": "實際發音最接近哪一個？",
+          "options": [
+            "[식땅]",
+            "[식탕]",
+            "[시당]"
+          ],
+          "answerIndex": 0,
+          "explanation": "收音 ㄱ 後的 ㄷ 變緊音。"
+        },
+        {
+          "id": "L0803",
+          "audioText": "어디 가요? 식당에 가요.",
+          "question": "對方要去哪裡？",
+          "options": [
+            "餐廳",
+            "學校",
+            "便利商店"
+          ],
+          "answerIndex": 0,
+          "explanation": "식당＝餐廳。"
+        },
+        {
+          "id": "L0804",
+          "audioText": "오늘 숙제가 많아요.",
+          "question": "意思是？",
+          "options": [
+            "今天作業很多。",
+            "今天人很多。",
+            "今天去學校。"
+          ],
+          "answerIndex": 0,
+          "explanation": "숙제＝作業。"
+        }
+      ],
+      "drills": [
+        {
+          "id": "D0801",
+          "type": "substitution",
+          "instruction": "把地點換成提示詞：N에 가요。",
+          "model": {
+            "korean": "학교에 가요.",
+            "chinese": "去學校。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "식당",
+              "answers": [
+                "식당에 가요."
+              ],
+              "chinese": "去餐廳。"
+            },
+            {
+              "cue": "집",
+              "answers": [
+                "집에 가요."
+              ],
+              "chinese": "回家。"
+            },
+            {
+              "cue": "편의점",
+              "answers": [
+                "편의점에 가요."
+              ],
+              "chinese": "去便利商店。"
+            },
+            {
+              "cue": "회사",
+              "answers": [
+                "회사에 가요."
+              ],
+              "chinese": "去公司。"
+            },
+            {
+              "cue": "한국",
+              "answers": [
+                "한국에 가요."
+              ],
+              "chinese": "去韓國。"
+            }
+          ]
+        },
+        {
+          "id": "D0802",
+          "type": "transformation",
+          "instruction": "肯定 → 否定：在 가요 前加「안」。",
+          "model": {
+            "korean": "학교에 가요. → 학교에 안 가요.",
+            "chinese": "去學校。→ 不去學校。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "식당에 가요.",
+              "answers": [
+                "식당에 안 가요."
+              ],
+              "chinese": "不去餐廳。"
+            },
+            {
+              "cue": "집에 가요.",
+              "answers": [
+                "집에 안 가요."
+              ],
+              "chinese": "不回家。"
+            },
+            {
+              "cue": "회사에 가요.",
+              "answers": [
+                "회사에 안 가요."
+              ],
+              "chinese": "不去公司。"
+            },
+            {
+              "cue": "오늘 학교에 가요.",
+              "answers": [
+                "오늘 학교에 안 가요."
+              ],
+              "chinese": "今天不去學校。"
+            },
+            {
+              "cue": "편의점에 가요.",
+              "answers": [
+                "편의점에 안 가요."
+              ],
+              "chinese": "不去便利商店。"
+            }
+          ]
+        },
+        {
+          "id": "D0803",
+          "type": "questionAnswer",
+          "instruction": "聽韓語問題，依提示直接回答。",
+          "model": {
+            "korean": "어디 가요? — 학교에 가요.",
+            "chinese": "去哪裡？——去學校。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 8,
+          "items": [
+            {
+              "cue": "어디 가요?（學校）",
+              "cueIsAudio": true,
+              "answers": [
+                "학교에 가요.",
+                "저는 학교에 가요."
+              ],
+              "chinese": "去學校。"
+            },
+            {
+              "cue": "어디 가요?（便利商店）",
+              "cueIsAudio": true,
+              "answers": [
+                "편의점에 가요.",
+                "저는 편의점에 가요."
+              ],
+              "chinese": "去便利商店。"
+            },
+            {
+              "cue": "식당에 가요?（是）",
+              "cueIsAudio": true,
+              "answers": [
+                "네, 식당에 가요.",
+                "네, 가요."
+              ],
+              "chinese": "對，去餐廳。"
+            },
+            {
+              "cue": "오늘 회사에 가요?（不去）",
+              "cueIsAudio": true,
+              "answers": [
+                "아니요, 오늘 회사에 안 가요.",
+                "아니요, 안 가요."
+              ],
+              "chinese": "不，今天不去公司。"
+            },
+            {
+              "cue": "학생이에요?（是）",
+              "cueIsAudio": true,
+              "answers": [
+                "네, 학생이에요.",
+                "네, 저는 학생이에요."
+              ],
+              "chinese": "對，我是學生。"
+            },
+            {
+              "cue": "뭐 마셔요?（啤酒）",
+              "cueIsAudio": true,
+              "answers": [
+                "맥주를 마셔요.",
+                "저는 맥주를 마셔요."
+              ],
+              "chinese": "喝啤酒。"
+            }
+          ]
+        },
+        {
+          "id": "D0804",
+          "type": "freeProduction",
+          "instruction": "說出你今天要去的兩個地方。",
+          "model": {
+            "korean": "오늘 회사에 가요. 식당에 가요.",
+            "chinese": "今天去公司。去餐廳。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 10,
+          "items": [
+            {
+              "cue": "自由回答",
+              "answers": [
+                "오늘 회사에 가요.",
+                "식당에 가요."
+              ],
+              "chinese": "（參考答案）"
+            }
+          ]
+        }
+      ],
+      "speaking": {
+        "scenario": "在路上遇到韓國同學，聊要去哪裡。AI 扮演同學。使用者會：N에 가요、안 가요、어디 가요?、많아요。",
+        "speechLevel": "polite",
+        "offlineScript": [
+          {
+            "cue": "어디 가요?（提示：去學校）",
+            "cueIsAudio": true,
+            "answers": [
+              "학교에 가요.",
+              "저는 학교에 가요."
+            ],
+            "chinese": "去學校。"
+          },
+          {
+            "cue": "오늘 숙제가 많아요?（提示：對，很多）",
+            "cueIsAudio": true,
+            "answers": [
+              "네, 많아요.",
+              "네, 숙제가 많아요."
+            ],
+            "chinese": "對，作業很多。"
+          },
+          {
+            "cue": "식당에 가요?（提示：不，去便利商店）",
+            "cueIsAudio": true,
+            "answers": [
+              "아니요, 편의점에 가요.",
+              "아니요, 저는 편의점에 가요."
+            ],
+            "chinese": "不，去便利商店。"
+          }
+        ]
+      },
+      "postTest": [
+        {
+          "id": "Q0801",
+          "skill": "phonemeDiscrimination",
+          "kind": "listeningChoice",
+          "prompt": "聽音選出實際發音",
+          "audioText": "학생",
+          "options": [
+            "[학쌩]",
+            "[학생]",
+            "[하생]"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "收音 ㄱ 後的 ㅅ 變緊音 ㅆ。"
+        },
+        {
+          "id": "Q0802",
+          "skill": "phonemeDiscrimination",
+          "kind": "choice",
+          "prompt": "「잡지」實際怎麼唸？",
+          "audioText": null,
+          "options": [
+            "[잡찌]",
+            "[잡치]",
+            "[자비]"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "收音 ㅂ 後的 ㅈ 變緊音 ㅉ。"
+        },
+        {
+          "id": "Q0803",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「去餐廳。」哪一句正確？",
+          "audioText": null,
+          "options": [
+            "식당에 가요.",
+            "식당이 가요.",
+            "식당에 있어요."
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "目的地用 에；식당에 있어요 是「在餐廳」。"
+        },
+        {
+          "id": "Q0804",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「要去哪裡？」怎麼說？",
+          "audioText": null,
+          "options": [
+            "어디 가요?",
+            "뭐 가요?",
+            "누구 가요?"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "어디＝哪裡。"
+        },
+        {
+          "id": "Q0805",
+          "skill": "grammar",
+          "kind": "typing",
+          "prompt": "用韓文寫：今天不去學校。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "오늘 학교에 안 가요.",
+            "학교에 안 가요."
+          ],
+          "explanation": "안 放在 가요 前面。"
+        },
+        {
+          "id": "Q0806",
+          "skill": "speaking",
+          "kind": "speaking",
+          "prompt": "說出：我去便利商店。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "편의점에 가요.",
+            "저는 편의점에 가요."
+          ],
+          "explanation": "편의점에 가요."
+        }
+      ],
+      "completion": {
+        "postTestPassRatio": 0.8,
+        "drillAccuracy": 0.8,
+        "requireVocabularyQuiz": true
+      }
+    },
+    {
+      "id": "U02L04",
+      "title": "激音化、ㅎ 弱化與「不會 V」",
+      "estimatedMinutes": 55,
+      "objectives": [
+        "激音化：ㄱ ㄷ ㅂ ㅈ 和 ㅎ 相遇變成 ㅋ ㅌ ㅍ ㅊ（축하해요 → [추카해요]、못해요 → [모태요]）",
+        "聽懂 ㅎ 弱化：전화 → [저놔]、은행 → [으냉]",
+        "用「못 ＋ 動詞」說「不會、不能」，並和「안」區分",
+        "用「잘해요」稱讚，用「잘 못해요」謙虛回應"
+      ],
+      "vocabulary": [
+        {
+          "id": "V0082",
+          "korean": "축하해요",
+          "chinese": "恭喜",
+          "romanization": "chu-ka-hae-yo",
+          "pronunciation": "[추카해요]",
+          "partOfSpeech": "expression",
+          "tier": "S",
+          "frequencyRank": 47,
+          "example": {
+            "korean": "생일 축하해요.",
+            "chinese": "生日快樂。",
+            "speechLevel": "polite"
+          },
+          "usage": "正式場合說 축하합니다。",
+          "commonMistake": "ㄱ＋ㅎ 合成 ㅋ：[추카해요]。"
+        },
+        {
+          "id": "V0083",
+          "korean": "생일",
+          "chinese": "生日",
+          "romanization": "saeng-il",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 27,
+          "example": {
+            "korean": "생일 축하해요.",
+            "chinese": "生日快樂。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0084",
+          "korean": "전화",
+          "chinese": "電話",
+          "romanization": "jeon-hwa",
+          "pronunciation": "[전화]，口語常唸 [저놔]",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 48,
+          "example": {
+            "korean": "집에 전화해요.",
+            "chinese": "打電話回家。",
+            "speechLevel": "polite"
+          },
+          "usage": "전화해요＝打電話。",
+          "commonMistake": "慢慢說唸 [전화]；說快時 ㅎ 弱化成 [저놔]，兩種都對。"
+        },
+        {
+          "id": "V0085",
+          "korean": "해요",
+          "chinese": "做",
+          "romanization": "hae-yo",
+          "partOfSpeech": "verb",
+          "tier": "S",
+          "frequencyRank": 49,
+          "example": {
+            "korean": "숙제를 해요.",
+            "chinese": "寫作業。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 하다。很多名詞加 해요 就變成動詞：전화해요、공부해요。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0086",
+          "korean": "은행",
+          "chinese": "銀行",
+          "romanization": "eun-haeng",
+          "pronunciation": "[은행]，口語常唸 [으냉]",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 28,
+          "example": {
+            "korean": "은행에 가요.",
+            "chinese": "去銀行。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0087",
+          "korean": "공부해요",
+          "chinese": "讀書；學習",
+          "romanization": "gong-bu-hae-yo",
+          "partOfSpeech": "verb",
+          "tier": "S",
+          "frequencyRank": 50,
+          "example": {
+            "korean": "한국어를 공부해요.",
+            "chinese": "學韓語。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 공부하다。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0088",
+          "korean": "잘해요",
+          "chinese": "很會；做得好",
+          "romanization": "jal-hae-yo",
+          "pronunciation": "[잘해요]，口語常唸 [자래요]",
+          "partOfSpeech": "verb",
+          "tier": "A",
+          "frequencyRank": 29,
+          "example": {
+            "korean": "한국어를 잘해요.",
+            "chinese": "韓語很好。",
+            "speechLevel": "polite"
+          },
+          "usage": "稱讚別人時常用；謙虛回答「아니요, 잘 못해요.」。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0089",
+          "korean": "못해요",
+          "chinese": "不會；做不到",
+          "romanization": "mo-tae-yo",
+          "pronunciation": "[모태요]",
+          "partOfSpeech": "verb",
+          "tier": "A",
+          "frequencyRank": 30,
+          "example": {
+            "korean": "수영을 못해요.",
+            "chinese": "不會游泳。",
+            "speechLevel": "polite"
+          },
+          "usage": "表示能力不足。「잘 못해요」＝不太會。",
+          "commonMistake": "ㄷ（못 的收音）＋ㅎ 合成 ㅌ：[모태요]。"
+        },
+        {
+          "id": "V0090",
+          "korean": "수영",
+          "chinese": "游泳",
+          "romanization": "su-yeong",
+          "partOfSpeech": "noun",
+          "tier": "B",
+          "frequencyRank": 10,
+          "example": {
+            "korean": "수영을 못해요.",
+            "chinese": "不會游泳。",
+            "speechLevel": "polite"
+          },
+          "usage": "수영해요＝游泳。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0091",
+          "korean": "백화점",
+          "chinese": "百貨公司",
+          "romanization": "bae-kwa-jeom",
+          "pronunciation": "[배콰점]",
+          "partOfSpeech": "noun",
+          "tier": "B",
+          "frequencyRank": 11,
+          "example": {
+            "korean": "백화점에 가요.",
+            "chinese": "去百貨公司。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0092",
+          "korean": "따뜻해요",
+          "chinese": "溫暖",
+          "romanization": "tta-tteu-tae-yo",
+          "pronunciation": "[따뜨태요]",
+          "partOfSpeech": "adjective",
+          "tier": "B",
+          "frequencyRank": 12,
+          "example": {
+            "korean": "커피가 따뜻해요.",
+            "chinese": "咖啡是熱的。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 따뜻하다。",
+          "commonMistake": null
+        }
+      ],
+      "pronunciation": [
+        {
+          "id": "P0901",
+          "title": "激音化",
+          "explanation": "[ㄱ] [ㄷ] [ㅂ] [ㅈ] 和 ㅎ 相鄰時，不論誰在前，都合併成送氣音 ㅋ ㅌ ㅍ ㅊ：축하해요 → [추카해요]、못해요 → [모태요]、백화점 → [배콰점]、따뜻해요 → [따뜨태요]、좋다 → [조타]。",
+          "articulation": "把 ㅎ 的氣流加到前面的子音上，變成一個強送氣音，不要把 ㅎ 單獨唸出來。",
+          "chineseSpeakerPitfall": "照字唸 [축하] 會聽起來像兩個字分開。把 ㄱ＋ㅎ 想成一個送氣的「k」。",
+          "samples": [
+            "축하해요",
+            "못해요",
+            "백화점",
+            "따뜻해요",
+            "입학"
+          ],
+          "minimalPairs": []
+        },
+        {
+          "id": "P0902",
+          "title": "ㅎ 弱化（聽辨用）",
+          "explanation": "在 ㄴ ㄹ ㅁ ㅇ 收音或母音後面，ㅎ 在自然口語中常弱化到幾乎聽不見：전화 → [저놔]、은행 → [으냉]、잘해요 → [자래요]、결혼 → [겨론]。標準發音仍保留 ㅎ，慢慢說時把 ㅎ 唸出來也正確。",
+          "articulation": "說快時 ㅎ 只剩一點氣息，前面的收音直接連到後面的母音。",
+          "chineseSpeakerPitfall": "聽到 [저놔]、[으냉] 要能認出是 전화、은행。自己說時把 ㅎ 唸清楚也不算錯。",
+          "samples": [
+            "전화",
+            "은행",
+            "잘해요",
+            "결혼"
+          ],
+          "minimalPairs": []
+        }
+      ],
+      "grammar": [
+        {
+          "id": "G0901",
+          "title": "못 ＋ 動詞（不會、不能）",
+          "pattern": "못 ＋ 動詞；名詞＋하다類：N을/를 못 해요",
+          "explanation": "안 是「不（不想、不做）」，못 是「不會、不能（能力或客觀狀況）」：수영을 안 해요＝不游泳；수영을 못 해요＝不會游泳。못 後面接 ㅎ 會激音化：못 해요 → [모태요]；接 ㅁ 或 ㄴ 會鼻音化：못 먹어요 → [몬머거요]。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "저는 수영을 못 해요.",
+              "chinese": "我不會游泳。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "커피를 못 마셔요.",
+              "chinese": "我不能喝咖啡。",
+              "speechLevel": "polite"
+            }
+          ]
+        },
+        {
+          "id": "G0902",
+          "title": "N을/를 잘해요（很會 N）",
+          "pattern": "N을/를 잘해요；謙虛：잘 못해요",
+          "explanation": "잘 是「好好地、很」，잘해요＝做得很好。稱讚別人：한국어를 잘해요!（你韓語很好！）。被稱讚時謙虛地說：아니요, 잘 못해요.（不，我不太行。）",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "한국어를 잘해요.",
+              "chinese": "韓語很好。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "아니요, 잘 못해요.",
+              "chinese": "不，我不太行。",
+              "speechLevel": "polite"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "korean": "생일 축하해요.",
+          "chinese": "生日快樂。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "한국어를 공부해요.",
+          "chinese": "學韓語。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "저는 수영을 못 해요.",
+          "chinese": "我不會游泳。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "은행에 가요.",
+          "chinese": "去銀行。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "커피가 따뜻해요.",
+          "chinese": "咖啡是熱的。",
+          "speechLevel": "polite"
+        }
+      ],
+      "listening": [
+        {
+          "id": "L0901",
+          "audioText": "축하해요",
+          "question": "實際發音最接近哪一個？",
+          "options": [
+            "[추카해요]",
+            "[축하해요]",
+            "[추가해요]"
+          ],
+          "answerIndex": 0,
+          "explanation": "ㄱ＋ㅎ 合成 ㅋ。"
+        },
+        {
+          "id": "L0902",
+          "audioText": "전화",
+          "question": "這個字在快速口語中常聽起來像？",
+          "options": [
+            "[저놔]",
+            "[전과]",
+            "[정화]"
+          ],
+          "answerIndex": 0,
+          "explanation": "ㄴ 後的 ㅎ 弱化，ㄴ 連到下一個字。"
+        },
+        {
+          "id": "L0903",
+          "audioText": "저는 수영을 못 해요.",
+          "question": "意思是？",
+          "options": [
+            "我不會游泳。",
+            "我不想游泳。",
+            "我很會游泳。"
+          ],
+          "answerIndex": 0,
+          "explanation": "못＝不會、不能。"
+        },
+        {
+          "id": "L0904",
+          "audioText": "한국어를 잘해요.",
+          "question": "意思是？",
+          "options": [
+            "韓語很好。",
+            "正在學韓語。",
+            "喜歡韓語。"
+          ],
+          "answerIndex": 0,
+          "explanation": "잘해요＝做得很好。"
+        }
+      ],
+      "drills": [
+        {
+          "id": "D0901",
+          "type": "substitution",
+          "instruction": "說自己不會的事：把活動換成提示詞（注意 을／를）。",
+          "model": {
+            "korean": "저는 수영을 못 해요.",
+            "chinese": "我不會游泳。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 8,
+          "items": [
+            {
+              "cue": "운전（開車）",
+              "answers": [
+                "저는 운전을 못 해요."
+              ],
+              "chinese": "我不會開車。"
+            },
+            {
+              "cue": "요리（做菜）",
+              "answers": [
+                "저는 요리를 못 해요."
+              ],
+              "chinese": "我不會做菜。"
+            },
+            {
+              "cue": "한국어",
+              "answers": [
+                "저는 한국어를 못 해요."
+              ],
+              "chinese": "我不會韓語。"
+            },
+            {
+              "cue": "노래（唱歌）",
+              "answers": [
+                "저는 노래를 못 해요."
+              ],
+              "chinese": "我不會唱歌。"
+            },
+            {
+              "cue": "숙제",
+              "answers": [
+                "저는 숙제를 못 해요."
+              ],
+              "chinese": "我沒辦法寫作業。"
+            }
+          ]
+        },
+        {
+          "id": "D0902",
+          "type": "transformation",
+          "instruction": "안 → 못：把「不（想）」改成「不能、不會」。",
+          "model": {
+            "korean": "커피를 안 마셔요. → 커피를 못 마셔요.",
+            "chinese": "不喝咖啡。→ 不能喝咖啡。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "밥을 안 먹어요.",
+              "answers": [
+                "밥을 못 먹어요."
+              ],
+              "chinese": "不能吃飯。"
+            },
+            {
+              "cue": "맥주를 안 마셔요.",
+              "answers": [
+                "맥주를 못 마셔요."
+              ],
+              "chinese": "不能喝啤酒。"
+            },
+            {
+              "cue": "학교에 안 가요.",
+              "answers": [
+                "학교에 못 가요."
+              ],
+              "chinese": "不能去學校。"
+            },
+            {
+              "cue": "수영을 안 해요.",
+              "answers": [
+                "수영을 못 해요."
+              ],
+              "chinese": "不會游泳。"
+            },
+            {
+              "cue": "책을 안 읽어요.",
+              "answers": [
+                "책을 못 읽어요."
+              ],
+              "chinese": "不能讀書。"
+            },
+            {
+              "cue": "전화를 안 해요.",
+              "answers": [
+                "전화를 못 해요."
+              ],
+              "chinese": "沒辦法打電話。"
+            }
+          ]
+        },
+        {
+          "id": "D0903",
+          "type": "questionAnswer",
+          "instruction": "聽韓語問題，依提示直接回答。",
+          "model": {
+            "korean": "수영을 잘해요? — 아니요, 못 해요.",
+            "chinese": "很會游泳嗎？——不，我不會。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 8,
+          "items": [
+            {
+              "cue": "수영을 잘해요?（不會）",
+              "cueIsAudio": true,
+              "answers": [
+                "아니요, 수영을 못 해요.",
+                "아니요, 못 해요.",
+                "아니요, 잘 못해요."
+              ],
+              "chinese": "不，我不會游泳。"
+            },
+            {
+              "cue": "한국어를 잘해요!（謙虛回答）",
+              "cueIsAudio": true,
+              "answers": [
+                "아니요, 잘 못해요.",
+                "아니요, 잘 못 해요."
+              ],
+              "chinese": "不，我不太行。"
+            },
+            {
+              "cue": "뭐 공부해요?（韓語）",
+              "cueIsAudio": true,
+              "answers": [
+                "한국어를 공부해요.",
+                "저는 한국어를 공부해요."
+              ],
+              "chinese": "學韓語。"
+            },
+            {
+              "cue": "어디 가요?（銀行）",
+              "cueIsAudio": true,
+              "answers": [
+                "은행에 가요.",
+                "저는 은행에 가요."
+              ],
+              "chinese": "去銀行。"
+            },
+            {
+              "cue": "오늘 제 생일이에요.（祝賀）",
+              "cueIsAudio": true,
+              "answers": [
+                "생일 축하해요.",
+                "축하해요."
+              ],
+              "chinese": "生日快樂。"
+            }
+          ]
+        },
+        {
+          "id": "D0904",
+          "type": "freeProduction",
+          "instruction": "說一件你很會的事和一件你不會的事。",
+          "model": {
+            "korean": "저는 요리를 잘해요. 저는 수영을 못 해요.",
+            "chinese": "我很會做菜。我不會游泳。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 10,
+          "items": [
+            {
+              "cue": "自由回答",
+              "answers": [
+                "저는 요리를 잘해요.",
+                "저는 수영을 못 해요."
+              ],
+              "chinese": "（參考答案）"
+            }
+          ]
+        }
+      ],
+      "speaking": {
+        "scenario": "朋友的生日聚會，聊彼此會做和不會做的事。AI 扮演韓國朋友。使用者會：축하해요、잘해요、못 해요、공부해요。",
+        "speechLevel": "polite",
+        "offlineScript": [
+          {
+            "cue": "오늘 제 생일이에요.（提示：祝生日快樂）",
+            "cueIsAudio": true,
+            "answers": [
+              "생일 축하해요.",
+              "축하해요."
+            ],
+            "chinese": "生日快樂。"
+          },
+          {
+            "cue": "한국어를 잘해요!（提示：謙虛回答）",
+            "cueIsAudio": true,
+            "answers": [
+              "아니요, 잘 못해요.",
+              "아니요, 잘 못 해요."
+            ],
+            "chinese": "不，我不太行。"
+          },
+          {
+            "cue": "수영을 잘해요?（提示：不會游泳）",
+            "cueIsAudio": true,
+            "answers": [
+              "아니요, 수영을 못 해요.",
+              "아니요, 못 해요."
+            ],
+            "chinese": "不，我不會游泳。"
+          }
+        ]
+      },
+      "postTest": [
+        {
+          "id": "Q0901",
+          "skill": "phonemeDiscrimination",
+          "kind": "listeningChoice",
+          "prompt": "聽音選出實際發音",
+          "audioText": "못해요",
+          "options": [
+            "[모태요]",
+            "[못해요]",
+            "[모해요]"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "못 的收音 [ㄷ]＋ㅎ 合成 ㅌ。"
+        },
+        {
+          "id": "Q0902",
+          "skill": "phonemeDiscrimination",
+          "kind": "choice",
+          "prompt": "「축하해요」實際怎麼唸？",
+          "audioText": null,
+          "options": [
+            "[추카해요]",
+            "[축하해요]",
+            "[추가해요]"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "ㄱ＋ㅎ 合成 ㅋ。"
+        },
+        {
+          "id": "Q0903",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「我不會游泳。」哪一句正確？",
+          "audioText": null,
+          "options": [
+            "저는 수영을 못 해요.",
+            "저는 수영을 안 해요.",
+            "저는 수영이 못 해요."
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "能力做不到用 못；안 해요 是「不游（不想）」。"
+        },
+        {
+          "id": "Q0904",
+          "skill": "listening",
+          "kind": "listeningChoice",
+          "prompt": "聽句子選意思",
+          "audioText": "은행에 가요.",
+          "options": [
+            "去銀行。",
+            "去餐廳。",
+            "去百貨公司。"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "은행 口語常唸 [으냉]。"
+        },
+        {
+          "id": "Q0905",
+          "skill": "grammar",
+          "kind": "typing",
+          "prompt": "用韓文寫：我學韓語。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "저는 한국어를 공부해요.",
+            "한국어를 공부해요."
+          ],
+          "explanation": "한국어를 공부해요。"
+        },
+        {
+          "id": "Q0906",
+          "skill": "speaking",
+          "kind": "speaking",
+          "prompt": "說出：生日快樂。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "생일 축하해요."
+          ],
+          "explanation": "생일 축하해요 [생일 추카해요]。"
+        }
+      ],
+      "completion": {
+        "postTestPassRatio": 0.8,
+        "drillAccuracy": 0.8,
+        "requireVocabularyQuiz": true
+      }
+    },
+    {
+      "id": "U02L05",
+      "title": "口蓋音化、流音化與「一起 V 吧」",
+      "estimatedMinutes": 55,
+      "objectives": [
+        "口蓋音化：收音 ㄷ ㅌ 接 이 變成 [ㅈ] [ㅊ]（같이 → [가치]、해돋이 → [해도지]）",
+        "流音化：ㄴ 和 ㄹ 相鄰都唸 [ㄹ]（연락 → [열락]、설날 → [설랄]）",
+        "用「같이 ＋ 動詞」邀約，並接受或婉拒",
+        "綜合複習第 2 單元的七種音變"
+      ],
+      "vocabulary": [
+        {
+          "id": "V0093",
+          "korean": "같이",
+          "chinese": "一起",
+          "romanization": "ga-chi",
+          "pronunciation": "[가치]",
+          "partOfSpeech": "adverb",
+          "tier": "S",
+          "frequencyRank": 51,
+          "example": {
+            "korean": "같이 가요.",
+            "chinese": "一起去吧。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": "不唸 [가티]，口蓋音化唸 [가치]。"
+        },
+        {
+          "id": "V0094",
+          "korean": "연락해요",
+          "chinese": "聯絡",
+          "romanization": "yeol-la-kae-yo",
+          "pronunciation": "[열라캐요]",
+          "partOfSpeech": "verb",
+          "tier": "A",
+          "frequencyRank": 31,
+          "example": {
+            "korean": "내일 연락해요.",
+            "chinese": "明天聯絡。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 연락하다。",
+          "commonMistake": "流音化＋激音化：[열라캐요]。"
+        },
+        {
+          "id": "V0095",
+          "korean": "내일",
+          "chinese": "明天",
+          "romanization": "nae-il",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 52,
+          "example": {
+            "korean": "내일 같이 가요.",
+            "chinese": "明天一起去吧。",
+            "speechLevel": "polite"
+          },
+          "usage": "오늘＝今天。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0096",
+          "korean": "설날",
+          "chinese": "春節（農曆新年）",
+          "romanization": "seol-lal",
+          "pronunciation": "[설랄]",
+          "partOfSpeech": "noun",
+          "tier": "B",
+          "frequencyRank": 13,
+          "example": {
+            "korean": "설날에 집에 가요.",
+            "chinese": "過年回家。",
+            "speechLevel": "polite"
+          },
+          "usage": "韓國的農曆新年，和台灣一樣是大節日。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0097",
+          "korean": "편리해요",
+          "chinese": "方便",
+          "romanization": "pyeol-li-hae-yo",
+          "pronunciation": "[펼리해요]",
+          "partOfSpeech": "adjective",
+          "tier": "A",
+          "frequencyRank": 32,
+          "example": {
+            "korean": "편의점이 편리해요.",
+            "chinese": "便利商店很方便。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 편리하다。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0098",
+          "korean": "끝",
+          "chinese": "結束；最後",
+          "romanization": "kkeut",
+          "pronunciation": "[끋]，끝이 → [끄치]",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 33,
+          "example": {
+            "korean": "이게 끝이에요.",
+            "chinese": "這是最後了。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0099",
+          "korean": "해돋이",
+          "chinese": "日出",
+          "romanization": "hae-do-ji",
+          "pronunciation": "[해도지]",
+          "partOfSpeech": "noun",
+          "tier": "C",
+          "frequencyRank": 1,
+          "example": {
+            "korean": "같이 해돋이를 봐요.",
+            "chinese": "一起看日出吧。",
+            "speechLevel": "polite"
+          },
+          "usage": "新年看日出是韓國的習俗。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0100",
+          "korean": "봐요",
+          "chinese": "看",
+          "romanization": "bwa-yo",
+          "partOfSpeech": "verb",
+          "tier": "S",
+          "frequencyRank": 53,
+          "example": {
+            "korean": "영화를 봐요.",
+            "chinese": "看電影。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 보다。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0101",
+          "korean": "진짜",
+          "chinese": "真的",
+          "romanization": "jin-jja",
+          "partOfSpeech": "adverb",
+          "tier": "S",
+          "frequencyRank": 54,
+          "example": {
+            "korean": "진짜 좋아요.",
+            "chinese": "真的很好。",
+            "speechLevel": "polite"
+          },
+          "usage": "口語；正式一點說 정말。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0102",
+          "korean": "물론이에요",
+          "chinese": "當然",
+          "romanization": "mul-lo-ni-e-yo",
+          "pronunciation": "[물로니에요]",
+          "partOfSpeech": "expression",
+          "tier": "A",
+          "frequencyRank": 34,
+          "example": {
+            "korean": "네, 물론이에요.",
+            "chinese": "是的，當然。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0103",
+          "korean": "칼국수",
+          "chinese": "刀切麵",
+          "romanization": "kal-guk-su",
+          "pronunciation": "[칼국쑤]",
+          "partOfSpeech": "noun",
+          "tier": "B",
+          "frequencyRank": 14,
+          "example": {
+            "korean": "같이 칼국수를 먹어요.",
+            "chinese": "一起吃刀切麵吧。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": "국 後面的 ㅅ 緊音化：[칼국쑤]。"
+        }
+      ],
+      "pronunciation": [
+        {
+          "id": "P1001",
+          "title": "口蓋音化",
+          "explanation": "收音 ㄷ、ㅌ 後面接「이」時，不唸 [디] [티]，而變成 [지] [치]：같이 → [가치]、굳이 → [구지]、해돋이 → [해도지]、끝이 → [끄치]。",
+          "articulation": "舌面往上貼到硬顎（ㅈ ㅊ 的位置），比 ㄷ ㅌ 的位置更後面。",
+          "chineseSpeakerPitfall": "只套用連音規則會唸成 [가티]，這是錯的。看到 ㅌ／ㄷ ＋ 이，就換成 ㅊ／ㅈ。",
+          "samples": [
+            "같이",
+            "굳이",
+            "해돋이",
+            "끝이"
+          ],
+          "minimalPairs": []
+        },
+        {
+          "id": "P1002",
+          "title": "流音化",
+          "explanation": "ㄴ 和 ㄹ 相鄰時（ㄴ＋ㄹ 或 ㄹ＋ㄴ），兩個都唸成 [ㄹ]：연락 → [열락]、설날 → [설랄]、편리 → [펼리]、신라 → [실라]。",
+          "articulation": "舌尖貼在上齒齦久一點，兩個 ㄹ 連成一個長的「l」。",
+          "chineseSpeakerPitfall": "不要唸成 [연낙]，也不要在中間斷開。",
+          "samples": [
+            "연락",
+            "설날",
+            "편리해요",
+            "신라"
+          ],
+          "minimalPairs": []
+        },
+        {
+          "id": "P1003",
+          "title": "第 2 單元音變總整理",
+          "explanation": "連音（먹어요 [머거요]）、ㅎ 脫落（좋아요 [조아요]）、鼻音化（합니다 [함니다]）、緊音化（학교 [학꾜]）、激音化（축하해요 [추카해요]）、口蓋音化（같이 [가치]）、流音化（연락 [열락]）。",
+          "articulation": "先看收音，再看下一個字的開頭：母音 → 連音；ㄴ ㅁ → 鼻音化；ㄱ ㄷ ㅂ ㅅ ㅈ → 緊音化；ㅎ → 激音化；이（前面是 ㄷ ㅌ）→ 口蓋音化；ㄹ → 流音化。",
+          "chineseSpeakerPitfall": "規則不必背成公式。多聽、多跟讀，讓耳朵先習慣，說的時候自然就會。",
+          "samples": [
+            "먹어요",
+            "좋아요",
+            "감사합니다",
+            "학교",
+            "축하해요",
+            "같이",
+            "연락"
+          ],
+          "minimalPairs": []
+        }
+      ],
+      "grammar": [
+        {
+          "id": "G1001",
+          "title": "같이 ＋ 動詞（一起…吧／要一起…嗎？）",
+          "pattern": "같이 ＋ 動詞（해요體）",
+          "explanation": "해요體同一個句子，靠句尾語調區分意思：같이 가요.（一起去吧。）句尾下降是邀約；같이 가요?（要一起去嗎？）句尾上揚是詢問。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "내일 같이 가요.",
+              "chinese": "明天一起去吧。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "같이 영화를 봐요?",
+              "chinese": "要一起看電影嗎？",
+              "speechLevel": "polite"
+            }
+          ]
+        },
+        {
+          "id": "G1002",
+          "title": "接受與婉拒邀約",
+          "pattern": "좋아요／물론이에요；미안해요, 못 가요",
+          "explanation": "接受：좋아요!、물론이에요.。婉拒：미안해요, 내일 못 가요.（抱歉，明天沒辦法去。）婉拒時用 못 比 안 委婉，因為 안 가요 聽起來像「我不想去」。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "좋아요, 같이 가요.",
+              "chinese": "好啊，一起去吧。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "미안해요, 내일 못 가요.",
+              "chinese": "抱歉，明天沒辦法去。",
+              "speechLevel": "polite"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "korean": "내일 같이 가요.",
+          "chinese": "明天一起去吧。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "같이 영화를 봐요.",
+          "chinese": "一起看電影吧。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "설날에 집에 가요.",
+          "chinese": "過年回家。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "진짜 편리해요.",
+          "chinese": "真的很方便。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "내일 연락해요.",
+          "chinese": "明天聯絡。",
+          "speechLevel": "polite"
+        }
+      ],
+      "listening": [
+        {
+          "id": "L1001",
+          "audioText": "같이",
+          "question": "實際發音最接近哪一個？",
+          "options": [
+            "[가치]",
+            "[가티]",
+            "[가시]"
+          ],
+          "answerIndex": 0,
+          "explanation": "ㅌ＋이 → [치]。"
+        },
+        {
+          "id": "L1002",
+          "audioText": "연락",
+          "question": "實際發音最接近哪一個？",
+          "options": [
+            "[열락]",
+            "[연낙]",
+            "[여낙]"
+          ],
+          "answerIndex": 0,
+          "explanation": "ㄴ＋ㄹ → [ㄹㄹ]。"
+        },
+        {
+          "id": "L1003",
+          "audioText": "내일 같이 영화를 봐요.",
+          "question": "意思是？",
+          "options": [
+            "明天一起看電影吧。",
+            "今天一起吃飯吧。",
+            "明天一起去學校吧。"
+          ],
+          "answerIndex": 0,
+          "explanation": "내일＝明天；영화를 봐요＝看電影。"
+        },
+        {
+          "id": "L1004",
+          "audioText": "미안해요, 내일 못 가요.",
+          "question": "對方的意思是？",
+          "options": [
+            "婉拒：明天沒辦法去。",
+            "答應：明天一起去。",
+            "詢問：明天要去嗎？"
+          ],
+          "answerIndex": 0,
+          "explanation": "미안해요＋못 가요＝委婉拒絕。"
+        }
+      ],
+      "drills": [
+        {
+          "id": "D1001",
+          "type": "substitution",
+          "instruction": "邀約：依提示換成要一起做的事。",
+          "model": {
+            "korean": "같이 영화를 봐요.",
+            "chinese": "一起看電影吧。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 8,
+          "items": [
+            {
+              "cue": "밥（吃）",
+              "answers": [
+                "같이 밥을 먹어요."
+              ],
+              "chinese": "一起吃飯吧。"
+            },
+            {
+              "cue": "커피（喝）",
+              "answers": [
+                "같이 커피를 마셔요."
+              ],
+              "chinese": "一起喝咖啡吧。"
+            },
+            {
+              "cue": "학교（去）",
+              "answers": [
+                "같이 학교에 가요."
+              ],
+              "chinese": "一起去學校吧。"
+            },
+            {
+              "cue": "한국어（學）",
+              "answers": [
+                "같이 한국어를 공부해요."
+              ],
+              "chinese": "一起學韓語吧。"
+            },
+            {
+              "cue": "칼국수（吃）",
+              "answers": [
+                "같이 칼국수를 먹어요."
+              ],
+              "chinese": "一起吃刀切麵吧。"
+            }
+          ]
+        },
+        {
+          "id": "D1002",
+          "type": "transformation",
+          "instruction": "陳述 → 邀約：加上「같이」。",
+          "model": {
+            "korean": "식당에 가요. → 같이 식당에 가요.",
+            "chinese": "去餐廳。→ 一起去餐廳吧。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 6,
+          "items": [
+            {
+              "cue": "영화를 봐요.",
+              "answers": [
+                "같이 영화를 봐요."
+              ],
+              "chinese": "一起看電影吧。"
+            },
+            {
+              "cue": "밥을 먹어요.",
+              "answers": [
+                "같이 밥을 먹어요."
+              ],
+              "chinese": "一起吃飯吧。"
+            },
+            {
+              "cue": "집에 가요.",
+              "answers": [
+                "같이 집에 가요."
+              ],
+              "chinese": "一起回家吧。"
+            },
+            {
+              "cue": "맥주를 마셔요.",
+              "answers": [
+                "같이 맥주를 마셔요."
+              ],
+              "chinese": "一起喝啤酒吧。"
+            },
+            {
+              "cue": "숙제를 해요.",
+              "answers": [
+                "같이 숙제를 해요."
+              ],
+              "chinese": "一起寫作業吧。"
+            }
+          ]
+        },
+        {
+          "id": "D1003",
+          "type": "questionAnswer",
+          "instruction": "聽邀約或問題，依提示回答。",
+          "model": {
+            "korean": "같이 영화를 봐요? — 좋아요.",
+            "chinese": "要一起看電影嗎？——好啊。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 8,
+          "items": [
+            {
+              "cue": "내일 같이 영화를 봐요?（好）",
+              "cueIsAudio": true,
+              "answers": [
+                "좋아요.",
+                "네, 좋아요.",
+                "좋아요, 같이 봐요."
+              ],
+              "chinese": "好啊。"
+            },
+            {
+              "cue": "같이 밥을 먹어요?（當然）",
+              "cueIsAudio": true,
+              "answers": [
+                "물론이에요.",
+                "네, 물론이에요."
+              ],
+              "chinese": "當然。"
+            },
+            {
+              "cue": "오늘 같이 가요?（抱歉，今天沒辦法去）",
+              "cueIsAudio": true,
+              "answers": [
+                "미안해요, 오늘 못 가요.",
+                "미안해요, 못 가요."
+              ],
+              "chinese": "抱歉，今天沒辦法去。"
+            },
+            {
+              "cue": "설날에 어디 가요?（回家）",
+              "cueIsAudio": true,
+              "answers": [
+                "집에 가요.",
+                "설날에 집에 가요."
+              ],
+              "chinese": "回家。"
+            },
+            {
+              "cue": "편의점이 편리해요?（真的很方便）",
+              "cueIsAudio": true,
+              "answers": [
+                "네, 진짜 편리해요.",
+                "진짜 편리해요."
+              ],
+              "chinese": "對，真的很方便。"
+            }
+          ]
+        },
+        {
+          "id": "D1004",
+          "type": "freeProduction",
+          "instruction": "邀請朋友明天一起做一件事。",
+          "model": {
+            "korean": "내일 같이 칼국수를 먹어요.",
+            "chinese": "明天一起吃刀切麵吧。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 10,
+          "items": [
+            {
+              "cue": "自由回答",
+              "answers": [
+                "내일 같이 칼국수를 먹어요.",
+                "내일 같이 영화를 봐요."
+              ],
+              "chinese": "（參考答案）"
+            }
+          ]
+        }
+      ],
+      "speaking": {
+        "scenario": "約韓國朋友一起出去。AI 扮演朋友，會先婉拒一個時間，再提出另一個時間。使用者會：같이 ＋ 動詞、좋아요、못 가요、연락해요。",
+        "speechLevel": "polite",
+        "offlineScript": [
+          {
+            "cue": "내일 뭐 해요?（提示：約他一起看電影）",
+            "cueIsAudio": true,
+            "answers": [
+              "같이 영화를 봐요.",
+              "내일 같이 영화를 봐요."
+            ],
+            "chinese": "一起看電影吧。"
+          },
+          {
+            "cue": "미안해요, 내일 못 가요. 오늘 같이 가요?（提示：好啊）",
+            "cueIsAudio": true,
+            "answers": [
+              "좋아요.",
+              "네, 좋아요.",
+              "좋아요, 같이 가요."
+            ],
+            "chinese": "好啊，一起去吧。"
+          },
+          {
+            "cue": "그럼 이따 연락해요.（提示：好，聯絡）",
+            "cueIsAudio": true,
+            "answers": [
+              "네, 연락해요.",
+              "좋아요, 연락해요."
+            ],
+            "chinese": "好，再聯絡。"
+          }
+        ]
+      },
+      "postTest": [
+        {
+          "id": "Q1001",
+          "skill": "phonemeDiscrimination",
+          "kind": "listeningChoice",
+          "prompt": "聽音選出實際發音",
+          "audioText": "해돋이",
+          "options": [
+            "[해도지]",
+            "[해도디]",
+            "[해도치]"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "ㄷ＋이 → [지]。"
+        },
+        {
+          "id": "Q1002",
+          "skill": "phonemeDiscrimination",
+          "kind": "choice",
+          "prompt": "「설날」實際怎麼唸？",
+          "audioText": null,
+          "options": [
+            "[설랄]",
+            "[선날]",
+            "[서날]"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "ㄹ＋ㄴ → [ㄹㄹ]。"
+        },
+        {
+          "id": "Q1003",
+          "skill": "phonemeDiscrimination",
+          "kind": "choice",
+          "prompt": "「감사합니다」唸成 [감사함니다]，是哪一種音變？",
+          "audioText": null,
+          "options": [
+            "鼻音化",
+            "口蓋音化",
+            "流音化"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "ㅂ 遇到 ㄴ 變成 ㅁ。"
+        },
+        {
+          "id": "Q1004",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "朋友約你，但你明天沒辦法去。怎麼說最自然？",
+          "audioText": null,
+          "options": [
+            "미안해요, 내일 못 가요.",
+            "미안해요, 내일 안 가요.",
+            "내일 같이 가요."
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "婉拒用 못 比較委婉；안 가요 聽起來像「不想去」。"
+        },
+        {
+          "id": "Q1005",
+          "skill": "grammar",
+          "kind": "typing",
+          "prompt": "用韓文寫：明天一起去吧。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "내일 같이 가요."
+          ],
+          "explanation": "내일 같이 가요."
+        },
+        {
+          "id": "Q1006",
+          "skill": "speaking",
+          "kind": "speaking",
+          "prompt": "說出：一起吃飯吧。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "같이 밥을 먹어요.",
+            "같이 밥 먹어요."
+          ],
+          "explanation": "같이 밥을 먹어요 [가치 바블 머거요]。"
+        }
+      ],
+      "completion": {
+        "postTestPassRatio": 0.8,
+        "drillAccuracy": 0.8,
+        "requireVocabularyQuiz": true
+      }
+    }
+  ]
 }

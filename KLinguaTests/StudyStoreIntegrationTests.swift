@@ -44,19 +44,53 @@ struct StudyStoreIntegrationTests {
         #expect(store.availableLessons.allSatisfy { store.status(of: $0) == .notStarted })
     }
 
-    @Test func placementBeyondAvailableContentDoesNotSkipCurrentLesson() {
-        // 前四部分全對 → 建議第 4 單元以後，但目前只開放第 1 單元
+    @Test func placementBeyondAvailableContentDoesNotSkipCurrentLesson() throws {
+        // 全部答對 → 建議的單元超過目前已開放的教材，停在最後一個已開放的課
         let d = store.library.diagnostic
         let ids = Set(d.sections.flatMap(\.questions).map(\.id))
         let scores = QuizScoring.sectionScores(d, correctIDs: ids)
         let result = PlacementEngine.place(scores)
-        #expect(result.startUnitNumber > 1)
+        let lastOpenUnit = try #require(store.library.units.last { $0.available })
+        #expect(result.startUnitNumber > lastOpenUnit.number)
         store.applyPlacement(result, sectionScores: scores)
-        let current = try? #require(store.currentLesson)
-        #expect(current?.id == "U01L05")
-        #expect(store.status(of: current!) == .notStarted)
-        let earlier = store.availableLessons.filter { $0.id != "U01L05" }
+        let last = try #require(store.availableLessons.last)
+        let current = try #require(store.currentLesson)
+        #expect(current.id == last.id)
+        #expect(store.status(of: current) == .notStarted)
+        let earlier = store.availableLessons.filter { $0.id != last.id }
         #expect(earlier.allSatisfy { store.status(of: $0) == .skippedByTest })
+    }
+
+    @Test func weakPhonemeDiscriminationStartsAtUnitTwo() throws {
+        // 字母全對、聽辨全錯 → 從第 2 單元（發音及收音）開始，第 1 單元標為已跳過
+        let d = store.library.diagnostic
+        let hangul = d.sections.filter { $0.skill == .hangulRecognition }.flatMap(\.questions).map(\.id)
+        let scores = QuizScoring.sectionScores(d, correctIDs: Set(hangul))
+        let result = PlacementEngine.place(scores)
+        #expect(result.startUnitNumber == 2)
+        store.applyPlacement(result, sectionScores: scores)
+        #expect(store.currentLesson?.id == "U02L01")
+        let unit1 = try #require(store.library.units.first).lessons
+        #expect(unit1.allSatisfy { store.status(of: $0) == .skippedByTest })
+        let unit2 = store.library.units[1].lessons
+        #expect(unit2.allSatisfy { store.status(of: $0) == .notStarted })
+    }
+
+    @Test func finishingLastLessonOfUnitOneMovesToUnitTwo() throws {
+        placeBeginner()
+        let lesson = try #require(store.library.lesson(id: "U01L05"))
+        for set in lesson.drills {
+            for item in set.items {
+                let g = DrillGrader.grade(response: item.answers[0], answers: item.answers, responseSeconds: 2, timeLimit: set.thinkSeconds)
+                store.recordDrill(drillID: set.id, grade: g, userAnswer: item.answers[0], lessonID: lesson.id)
+            }
+        }
+        store.recordPostTest(lesson: lesson, correct: 6, total: 6)
+        store.recordVocabularyQuiz(lesson: lesson)
+        #expect(store.completeLessonIfEligible(lesson))
+        #expect(store.currentLesson?.id == "U02L01")
+        // 第 2 單元的單字會進入新單字挑選範圍
+        #expect(store.lessonsUpToCurrent.map(\.id).contains("U02L01"))
     }
 
     // MARK: - 單字卡與 SRS

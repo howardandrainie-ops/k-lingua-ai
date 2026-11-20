@@ -26,6 +26,25 @@ struct ContentTests {
         #expect(lib.allVocabulary.count >= 40)
     }
 
+    @Test("單元 02 有 5 課完整教材，涵蓋各種音變")
+    func unit02() throws {
+        let lib = try ContentLibrary.loadBundled()
+        let u2 = lib.units[1]
+        #expect(u2.number == 2)
+        #expect(u2.available)
+        #expect(u2.lessons.map(\.id) == ["U02L01", "U02L02", "U02L03", "U02L04", "U02L05"])
+        #expect(u2.lessons.flatMap(\.vocabulary).count >= 50)
+        let titles = u2.lessons.flatMap(\.pronunciation).map(\.title).joined()
+        for rule in ["雙收音", "脫落", "鼻音化", "緊音化", "激音化", "弱化", "口蓋音化", "流音化"] {
+            #expect(titles.contains(rule), "缺少 \(rule)")
+        }
+        // 第 2 課使用正式語體
+        #expect(u2.lessons[1].grammar.allSatisfy { $0.speechLevel == .formal })
+        // 單字 ID 接續第 1 單元、不重複
+        let all = lib.allVocabulary.map(\.id)
+        #expect(Set(all).count == all.count)
+    }
+
     @Test("診斷測驗涵蓋七項能力，約 10 分鐘")
     func diagnostic() throws {
         let lib = try ContentLibrary.loadBundled()

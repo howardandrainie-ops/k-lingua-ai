@@ -2,7 +2,7 @@
 
 原生 iOS App（Swift 6 / SwiftUI / SwiftData），以 FSI Pattern Drill、五格 SRS、Minimal Pairs 與 AI 情境對話為核心。
 
-> **版本 1.0（第六階段：交付）。** 程式在 GitHub Actions 上編譯，並在 iOS 模擬器通過 88 項單元測試、15 項整合測試與 4 個 UI 流程。**教材目前只有第 1 單元**；尚未在 iPhone 實機執行，麥克風、語音辨識與 AI 真實連線也還沒測過。完整現況見 [Docs/DELIVERY.md](Docs/DELIVERY.md)。
+> **版本 1.0（第六階段：交付）。** 程式在 GitHub Actions 上編譯，並在 iOS 模擬器通過 88 項單元測試、15 項整合測試與 4 個 UI 流程。**教材目前開放第 1–2 單元（10 課）**；尚未在 iPhone 實機執行，麥克風、語音辨識與 AI 真實連線也還沒測過。完整現況見 [Docs/DELIVERY.md](Docs/DELIVERY.md)。
 
 <img src="Docs/screenshots/04-首頁.png" width="200"> <img src="Docs/screenshots/08-Drill回饋.png" width="200"> <img src="Docs/screenshots/15-能力報告.png" width="200">
 
@@ -20,7 +20,7 @@
 | 區塊 | 內容 |
 |---|---|
 | 能力診斷 | 首次啟動 33 題，決定起始課程 |
-| 課程 | 12 單元、8 階段的架構；**目前開放第 1 單元（5 課）**，其餘標示「尚未開放」 |
+| 課程 | 12 單元、8 階段的架構；**目前開放第 1 單元（字母及拼讀）與第 2 單元（發音及收音），共 10 課**，其餘標示「尚未開放」 |
 | 每課內容 | 目標、單字、發音、文法、例句、聽力、Pattern Drill、口說、單字測驗、課後測驗、完成條件 |
 | Pattern Drill | 替換／轉換／問答／自由造句；思考時間隨流暢度從 5–8 秒縮到 3 秒；錯誤分類說明 |
 | SRS | 五格 Leitner；每個單字分「中文理解、韓文辨識、聽力、口語」四面向排程 |
