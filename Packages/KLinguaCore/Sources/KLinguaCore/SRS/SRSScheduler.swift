@@ -158,7 +158,8 @@ public struct ReviewCandidate: Sendable, Equatable {
 }
 
 public enum ReviewQueue {
-    /// 取出到期項目：逾期越久、格位越低越優先。
+    /// 取出到期項目：格位越低越優先；從未複習過的新面向先易後難
+    /// （中文理解 → 韓文辨識 → 聽力辨識 → 口語輸出）；其餘依逾期程度。
     public static func due(_ candidates: [ReviewCandidate], at now: Date, limit: Int) -> [ReviewCandidate] {
         candidates
             .filter { $0.state.isDue(at: now) }
@@ -166,6 +167,9 @@ public enum ReviewQueue {
                 let oa = now.timeIntervalSince(a.state.nextDue) / Double(a.state.box.defaultIntervalDays)
                 let ob = now.timeIntervalSince(b.state.nextDue) / Double(b.state.box.defaultIntervalDays)
                 if a.state.box != b.state.box { return a.state.box < b.state.box }
+                if a.state.reviewCount == 0, b.state.reviewCount == 0, a.facet != b.facet {
+                    return a.facet.difficultyRank < b.facet.difficultyRank
+                }
                 if oa != ob { return oa > ob }
                 return a.itemID < b.itemID
             }

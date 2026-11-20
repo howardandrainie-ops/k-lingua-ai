@@ -113,4 +113,14 @@ struct SRSTests {
         #expect(due.map(\.itemID) == ["b1-late", "b1"])
         #expect(ReviewQueue.due(items, at: now, limit: 10).count == 3)
     }
+
+    @Test func newFacetsComeEasiestFirst() {
+        let now = Date()
+        let state = MemoryState(dueImmediately: now)
+        let candidates = [CardFacet.production, .listening, .meaning, .recognition].enumerated().map {
+            ReviewCandidate(itemID: "w\($0.offset)", facet: $0.element, state: state)
+        }
+        let order = ReviewQueue.due(candidates, at: now, limit: 10).map(\.facet)
+        #expect(order == [.meaning, .recognition, .listening, .production])
+    }
 }

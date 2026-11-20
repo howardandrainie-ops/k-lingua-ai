@@ -37,6 +37,16 @@ public enum CardFacet: String, Codable, Sendable, CaseIterable, Identifiable {
 
     public var id: String { rawValue }
 
+    /// 由易到難：先認得意思，最後才要求說出來
+    public var difficultyRank: Int {
+        switch self {
+        case .meaning: 0
+        case .recognition: 1
+        case .listening: 2
+        case .production: 3
+        }
+    }
+
     public var title: String {
         switch self {
         case .meaning: "中文理解"

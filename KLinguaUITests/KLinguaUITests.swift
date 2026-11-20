@@ -131,6 +131,9 @@ final class KLinguaUITests: XCTestCase {
         tapText(app, "SRS 複習中心")
         tapText(app, "開始複習（24 個到期）")
         XCTAssertTrue(app.navigationBars["複習 1 / 24"].waitForExistence(timeout: 5))
+        // 新單字第一張應該是最簡單的「中文理解」，不是口語輸出
+        XCTAssertTrue(find(app, "中文理解").exists)
+        XCTAssertTrue(app.buttons["顯示答案"].exists)
         screenshot("12-SRS複習")
     }
 
