@@ -55,12 +55,14 @@ final class StudyStore {
         let startLesson = library.units.first { $0.number >= result.startUnitNumber && $0.available }?.lessons.first
             ?? library.units.last { $0.available }?.lessons.last
         p.currentLessonID = startLesson?.id
-        for unit in library.units where result.skippedUnitNumbers.contains(unit.number) {
-            for lesson in unit.lessons {
-                let lp = progress(for: lesson.id)
-                lp.skippedByTest = true
-                lp.completedAt = now
-            }
+        // 只跳過「起始課程之前」的課；起始單元尚未開放時，停留的那一課不能被標成已跳過
+        let all = library.allLessons
+        let startIndex = startLesson.flatMap { s in all.firstIndex { $0.id == s.id } } ?? all.count
+        for (i, lesson) in all.enumerated() where i < startIndex {
+            guard let unit = library.unit(containing: lesson.id), result.skippedUnitNumbers.contains(unit.number) else { continue }
+            let lp = progress(for: lesson.id)
+            lp.skippedByTest = true
+            lp.completedAt = lp.completedAt ?? now
         }
         save()
     }
@@ -352,7 +354,9 @@ final class StudyStore {
     func appendMessage(to session: ConversationSession, role: String, text: String,
                        translation: String? = nil, correction: String? = nil, at now: Date = Date()) -> ConversationMessage {
         let m = ConversationMessage(role: role, text: text)
-        m.timestamp = now
+        // 保證排序穩定：時間一定晚於前一則
+        let last = (session.messages ?? []).map(\.timestamp).max() ?? .distantPast
+        m.timestamp = max(now, last.addingTimeInterval(0.001))
         m.translation = translation
         m.correction = correction
         m.session = session
@@ -376,6 +380,34 @@ final class StudyStore {
         var d = FetchDescriptor<ConversationSession>(sortBy: [SortDescriptor(\.startedAt, order: .reverse)])
         d.fetchLimit = limit
         return (try? context.fetch(d)) ?? []
+    }
+
+    // MARK: - 報告
+
+    func weeklyReport(weekStart: Date) -> WeeklyReportData {
+        let from = Calendar.current.date(byAdding: .day, value: -7, to: weekStart) ?? weekStart
+        let to = Calendar.current.date(byAdding: .day, value: 7, to: weekStart) ?? weekStart
+        let a = FetchDescriptor<AttemptRecord>(predicate: #Predicate { $0.timestamp >= from && $0.timestamp < to })
+        let d = FetchDescriptor<DailyLearningRecord>(predicate: #Predicate { $0.day >= from && $0.day < to })
+        let m = FetchDescriptor<MistakeRecord>(predicate: #Predicate { $0.timestamp >= from && $0.timestamp < to })
+        let attempts = ((try? context.fetch(a)) ?? []).map { AttemptSample(skill: $0.skill, correct: $0.correct, at: $0.timestamp) }
+        let days = ((try? context.fetch(d)) ?? []).map {
+            StudyDaySample(day: $0.day, seconds: $0.studiedSeconds, newWords: $0.newWords, reviews: $0.reviews)
+        }
+        let mistakes = ((try? context.fetch(m)) ?? []).map { MistakeSample(category: $0.categoryRaw, at: $0.timestamp) }
+        return WeeklyReportBuilder.build(weekStart: weekStart, attempts: attempts, days: days, mistakes: mistakes)
+    }
+
+    /// 上週結束後保存一次週報快照（之後即使紀錄被清理，仍可查看當時的報告）
+    func saveWeeklySnapshotIfNeeded(now: Date = Date()) {
+        let thisWeek = WeeklyReportBuilder.weekStart(for: now)
+        guard let lastWeek = Calendar.current.date(byAdding: .day, value: -7, to: thisWeek) else { return }
+        let existing = FetchDescriptor<WeeklyReport>(predicate: #Predicate { $0.weekStart == lastWeek })
+        guard ((try? context.fetchCount(existing)) ?? 0) == 0 else { return }
+        let report = weeklyReport(weekStart: lastWeek)
+        guard report.attempts > 0, let data = try? JSONEncoder().encode(report) else { return }
+        context.insert(WeeklyReport(weekStart: lastWeek, payload: data))
+        save()
     }
 
     // MARK: - 每日紀錄

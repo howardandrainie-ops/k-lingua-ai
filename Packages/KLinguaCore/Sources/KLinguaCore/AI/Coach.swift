@@ -88,6 +88,12 @@ public struct CoachCorrection: Sendable, Equatable {
     public var original: String
     public var corrected: String
     public var explanation: String
+
+    public init(original: String, corrected: String, explanation: String) {
+        self.original = original
+        self.corrected = corrected
+        self.explanation = explanation
+    }
 }
 
 public struct CoachReply: Sendable, Equatable {

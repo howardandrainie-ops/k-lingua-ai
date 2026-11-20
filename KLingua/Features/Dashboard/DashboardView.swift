@@ -84,6 +84,9 @@ struct DashboardView: View {
 
             Section {
                 ForEach(estimates, id: \.skill) { SkillRow(estimate: $0) }
+                NavigationLink { ReportsView() } label: {
+                    Label("能力報告（雷達圖・週報）", systemImage: "chart.xyaxis.line")
+                }
             } header: {
                 Text("能力概況")
             } footer: {

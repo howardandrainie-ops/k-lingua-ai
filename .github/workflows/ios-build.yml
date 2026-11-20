@@ -69,3 +69,50 @@ jobs:
         with:
           name: ios-build-log
           path: build.log
+
+  app-tests:
+    name: App 整合測試與 UI 測試（模擬器）
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Select Xcode
+        run: |
+          sudo xcode-select -s "$(ls -d /Applications/Xcode_16*.app | sort -V | tail -1)"
+          xcodebuild -version
+      - name: Pick simulator
+        id: sim
+        run: |
+          UDID=$(xcrun simctl list devices available -j | python3 -c '
+          import json, re, sys
+          devices = json.load(sys.stdin)["devices"]
+          def ver(runtime):
+              m = re.search(r"iOS-(\d+)-(\d+)", runtime)
+              return (int(m.group(1)), int(m.group(2))) if m else (0, 0)
+          best = sorted(((ver(k), d) for k, v in devices.items() if "iOS" in k for d in v if d["name"].startswith("iPhone")),
+                        key=lambda t: t[0])[-1][1]
+          print(best["udid"])
+          print(best["name"], file=sys.stderr)
+          ')
+          echo "udid=$UDID" >> "$GITHUB_OUTPUT"
+      - name: Run tests
+        run: |
+          set -o pipefail
+          xcodebuild test \
+            -project KLingua.xcodeproj \
+            -scheme KLingua \
+            -destination "id=${{ steps.sim.outputs.udid }}" \
+            -resultBundlePath TestResults.xcresult \
+            2>&1 | tee app-test.log
+      - name: Export screenshots
+        if: always()
+        run: |
+          mkdir -p screenshots
+          xcrun xcresulttool export attachments --path TestResults.xcresult --output-path screenshots || true
+          ls screenshots | head -50
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: app-test-results
+          path: |
+            app-test.log
+            screenshots
