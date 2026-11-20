@@ -319,6 +319,35 @@ final class StudyStore {
         save()
     }
 
+    func setPreferSpeechInput(_ on: Bool) {
+        profile().preferSpeechInput = on
+        save()
+    }
+
+    /// 發音練習紀錄：錄音檔名、辨識結果與回饋都存下來，並計入「發音」能力
+    func recordPronunciation(target: String, capture: SpeechCapture, check: PronunciationCheck,
+                             activity: TrainingActivity, at now: Date = Date()) {
+        let r = PronunciationRecord(target: target)
+        r.timestamp = now
+        r.recognizedText = capture.transcripts.first
+        r.recognitionConfidence = capture.confidence
+        r.audioFileName = capture.audioURL?.lastPathComponent
+        r.assessor = capture.onDevice ? "ios-speech-on-device-text-compare" : "ios-speech-server-text-compare"
+        r.feedback = ([check.verdict.title] + check.differences.compactMap(\.hint)).joined(separator: "；")
+        context.insert(r)
+        if check.verdict != .nothingRecognized {
+            context.insert(AttemptRecord(skill: .pronunciation, activity: activity, sourceID: target,
+                                         correct: check.verdict == .recognizedAsTarget, responseSeconds: 0, at: now))
+        }
+        save()
+    }
+
+    func recentPronunciation(limit: Int = 30) -> [PronunciationRecord] {
+        var d = FetchDescriptor<PronunciationRecord>(sortBy: [SortDescriptor(\.timestamp, order: .reverse)])
+        d.fetchLimit = limit
+        return (try? context.fetch(d)) ?? []
+    }
+
     func setShowRomanization(_ on: Bool) {
         profile().showRomanization = on
         save()

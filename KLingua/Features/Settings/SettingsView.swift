@@ -7,6 +7,15 @@ struct SettingsView: View {
 
     private let minuteOptions = [10, 15, 20, 30, 45, 60, 90]
 
+    private var permissionText: String {
+        switch SpeechInput.shared.permission {
+        case .granted: "已允許"
+        case .denied: "已拒絕"
+        case .notDetermined: "尚未詢問"
+        case .unavailable: "裝置不支援"
+        }
+    }
+
     var body: some View {
         let _ = store.revision
         let profile = store.profile()
@@ -20,6 +29,21 @@ struct SettingsView: View {
                 Text("學習")
             } footer: {
                 Text("每日課表依這個時間自動調整；時間短時優先保留 SRS 複習、句型練習與新單字。羅馬拼音只建議初期使用。")
+            }
+
+            Section {
+                Toggle("口說題預設用語音作答", isOn: Binding(get: { profile.preferSpeechInput }, set: { store.setPreferSpeechInput($0) }))
+                LabeledContent("麥克風與語音辨識權限", value: permissionText)
+                if SpeechInput.shared.permission == .denied {
+                    Button("到「設定」開啟權限") { openAppSettings() }
+                } else if SpeechInput.shared.permission == .notDetermined {
+                    Button("允許使用麥克風與語音辨識") { Task { await SpeechInput.shared.requestPermissions() } }
+                }
+                LabeledContent("辨識方式", value: SpeechInput.shared.supportsOnDevice ? "裝置端（不上傳）" : "Apple 伺服器（需網路）")
+            } header: {
+                Text("語音")
+            } footer: {
+                Text("發音回饋是「語音辨識比對」：只能知道辨識器把你的聲音聽成什麼字，不是發音評分。錄音只存在這台裝置，最多保留最近 200 個。")
             }
 
             Section("能力診斷") {

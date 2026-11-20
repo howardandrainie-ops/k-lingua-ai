@@ -214,9 +214,14 @@ struct PronunciationPointView: View {
                 }
             }
             Section {
-                Text("示範音由 iOS 合成語音產生，不是真人錄音。錄下自己的發音並比對的功能在第三階段加入。")
-                    .font(.footnote)
-                    .foregroundStyle(.secondary)
+                NavigationLink {
+                    PronunciationPracticeView(title: point.title, focus: point.articulation,
+                                              targets: PronunciationHomeView.targets(for: point))
+                } label: {
+                    Label("錄音練習（語音辨識比對）", systemImage: "mic")
+                }
+            } footer: {
+                Text("示範音由 iOS 合成語音產生，不是真人錄音。")
             }
         }
         .navigationTitle(point.title)

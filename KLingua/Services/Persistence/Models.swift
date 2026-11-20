@@ -19,6 +19,8 @@ final class UserProfile {
     var currentLessonID: String?
     /// 羅馬拼音顯示：熟練後自動關閉
     var showRomanization: Bool = true
+    /// 口說題預設用語音作答（可隨時改用鍵盤）
+    var preferSpeechInput: Bool = true
     var morningReminder: Date?
     var eveningReminder: Date?
 

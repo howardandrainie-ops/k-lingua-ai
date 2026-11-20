@@ -3,8 +3,8 @@ import KLinguaCore
 
 /// 輸出型練習（FSI Pattern Drill、離線口說腳本共用）。
 ///
-/// 思考時間的計算：從提示出現到「開始輸入第一個字」為止，不含打字時間。
-/// 第三階段改為語音作答後，會改成到「開始說話」為止。
+/// 思考時間的計算：從提示出現到「開始說話」（語音，以音量偵測）
+/// 或「開始輸入第一個字」（鍵盤）為止，不含說話或打字本身的時間。
 struct ProductionDrillView: View {
     struct Config {
         var drillID: String
@@ -29,7 +29,8 @@ struct ProductionDrillView: View {
     @State private var sessionStreak = 0
     @State private var shownAt = Date()
     @State private var firstKeyAt: Date?
-    @State private var typed = ""
+    @State private var unscoredAnswer: String?
+    @State private var lastSpeechProblem: String?
     @State private var grade: DrillGrade?
     @State private var unscored = false
     @State private var showCueText = false
@@ -38,7 +39,6 @@ struct ProductionDrillView: View {
     @State private var startedAt = Date()
     @State private var finished = false
     @State private var loaded = false
-    @FocusState private var focused: Bool
 
     private var timeLimit: Double {
         DrillGrader.timeLimit(initial: config.initialThinkSeconds, fluentStreak: (historyStreak + sessionStreak) / 2)
@@ -109,27 +109,16 @@ struct ProductionDrillView: View {
                     countdown
                 }
 
-                TextField("用韓文回答", text: $typed)
-                    .textFieldStyle(.roundedBorder)
-                    .font(.title3)
-                    .textInputAutocapitalization(.never)
-                    .autocorrectionDisabled()
-                    .focused($focused)
-                    .submitLabel(.done)
-                    .onSubmit { submit(item) }
-                    .disabled(grade != nil || unscored)
-                    .onChange(of: typed) { _, newValue in
-                        if firstKeyAt == nil && !newValue.isEmpty { firstKeyAt = Date() }
-                    }
-
                 if grade == nil && !unscored {
-                    HStack {
-                        Button("送出") { submit(item) }
-                            .buttonStyle(.borderedProminent)
-                            .disabled(typed.trimmingCharacters(in: .whitespaces).isEmpty)
-                        Spacer()
-                        Button("不會") { giveUp(item) }
+                    AnswerInputView(onFirstKey: { date in if firstKeyAt == nil { firstKeyAt = date } },
+                                    onText: { submit(item, text: $0) },
+                                    onSpeech: { submitSpeech(item, $0) })
+                        .id(index)
+                    if let lastSpeechProblem {
+                        Text(lastSpeechProblem).font(.caption).foregroundStyle(.orange)
                     }
+                    Button("不會") { giveUp(item) }
+                        .frame(maxWidth: .infinity, alignment: .trailing)
                 } else {
                     result(item)
                 }
@@ -140,12 +129,14 @@ struct ProductionDrillView: View {
 
     private var countdown: some View {
         TimelineView(.periodic(from: shownAt, by: 0.2)) { context in
-            let thinking = (firstKeyAt ?? context.date).timeIntervalSince(shownAt)
+            let speech = SpeechInput.shared
+            let started = firstKeyAt ?? (speech.phase == .listening ? speech.onsetDate : nil)
+            let thinking = (started ?? context.date).timeIntervalSince(shownAt)
             let remaining = timeLimit - thinking
             VStack(alignment: .leading, spacing: 4) {
                 ProgressView(value: max(0, min(timeLimit, remaining)), total: timeLimit)
                     .tint(remaining > 0 ? Color.accentColor : Color.red)
-                Text(firstKeyAt != nil ? "已開始作答（思考 \(String(format: "%.1f", thinking)) 秒）"
+                Text(started != nil ? "已開始作答（思考 \(String(format: "%.1f", thinking)) 秒）"
                      : remaining > 0 ? "剩 \(Int(remaining.rounded(.up))) 秒開始作答" : "超過思考時間，仍可作答")
                     .font(.caption)
                     .foregroundStyle(remaining > 0 ? Color.secondary : Color.red)
@@ -162,7 +153,7 @@ struct ProductionDrillView: View {
                 .foregroundStyle(grade.withinTimeLimit ? Color.secondary : Color.orange)
         } else if unscored {
             FeedbackBanner(correct: true, title: "參考答案",
-                           detail: "自由造句有很多種正確說法，離線無法判斷你的句子，本題不計分。請對照參考答案自行檢查。")
+                           detail: "你的句子：「\(unscoredAnswer ?? "")」。自由造句有很多種正確說法，離線無法判斷你的句子，本題不計分。請對照參考答案自行檢查。")
         }
         VStack(alignment: .leading, spacing: 8) {
             ForEach(item.answers, id: \.self) { answer in
@@ -177,30 +168,49 @@ struct ProductionDrillView: View {
 
     private func present(_ i: Int) {
         index = i
-        typed = ""
         grade = nil
+        unscoredAnswer = nil
+        lastSpeechProblem = nil
         unscored = false
         firstKeyAt = nil
         showCueText = false
         shownAt = Date()
-        focused = true
         let item = config.items[i]
         if item.cueIsAudio == true {
             Speaker.shared.speak(item.cue)
         }
     }
 
-    private func submit(_ item: DrillItem) {
-        let response = typed.trimmingCharacters(in: .whitespacesAndNewlines)
+    private func submit(_ item: DrillItem, text: String) {
+        let response = text.trimmingCharacters(in: .whitespacesAndNewlines)
         guard !response.isEmpty, grade == nil, !unscored else { return }
         let thinking = (firstKeyAt ?? Date()).timeIntervalSince(shownAt)
         let g = DrillGrader.grade(response: response, answers: item.answers, responseSeconds: thinking, timeLimit: timeLimit)
+        conclude(item, grade: g, userAnswer: response)
+    }
+
+    /// 語音作答：思考時間算到「開始說話」為止
+    private func submitSpeech(_ item: DrillItem, _ capture: SpeechCapture) {
+        guard grade == nil, !unscored else { return }
+        let thinking = (capture.onsetDate ?? capture.stoppedAt).timeIntervalSince(shownAt)
+        let g = SpeechAnswerGrader.grade(transcripts: capture.transcripts, answers: item.answers,
+                                         responseSeconds: thinking, timeLimit: timeLimit)
+        if capture.transcripts.isEmpty {
+            // 沒聽到：不記錄成錯誤，讓使用者再說一次
+            lastSpeechProblem = g.feedback
+            return
+        }
+        lastSpeechProblem = nil
+        conclude(item, grade: g, userAnswer: capture.best)
+    }
+
+    private func conclude(_ item: DrillItem, grade g: DrillGrade, userAnswer: String) {
         if config.isFreeProduction && !g.verdict.isAcceptable {
             unscored = true
+            unscoredAnswer = userAnswer
         } else {
-            record(g, userAnswer: response)
+            record(g, userAnswer: userAnswer)
         }
-        focused = false
         Speaker.shared.speak(item.answers.first ?? "")
     }
 
@@ -210,8 +220,8 @@ struct ProductionDrillView: View {
         g.verdict = .incorrect
         g.withinTimeLimit = false
         g.feedback = "先聽正確答案，跟著唸兩次。"
+        SpeechInput.shared.cancel()
         record(g, userAnswer: "")
-        focused = false
         Speaker.shared.speak(item.answers.first ?? "")
     }
 

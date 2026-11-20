@@ -32,7 +32,7 @@ struct DiagnosticIntroView: View {
                     Label("開始診斷測驗", systemImage: "play.fill").font(.headline)
                 }
             } footer: {
-                Text("口說題目前用韓文鍵盤作答（語音作答在第三階段加入）。")
+                Text("口說題用語音作答（需要允許麥克風與語音辨識），也可以改用韓文鍵盤。")
             }
         }
         .navigationTitle("能力診斷")

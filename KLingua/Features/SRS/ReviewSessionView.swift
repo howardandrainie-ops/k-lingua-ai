@@ -5,7 +5,7 @@ import KLinguaCore
 /// - 中文理解：看韓文想意思 → 自評（記得／部分／忘記）
 /// - 韓文辨識：看中文選韓文（客觀評分）
 /// - 聽力辨識：聽語音選中文（客觀評分）
-/// - 口語輸出：看中文打出韓文（客觀評分；第三階段改為說出來）
+/// - 口語輸出：看中文說出韓語（語音辨識比對；也可改用鍵盤）
 struct ReviewSessionView: View {
     @Environment(StudyStore.self) private var store
     @Environment(\.dismiss) private var dismiss
@@ -20,12 +20,11 @@ struct ReviewSessionView: View {
     @State private var options: [VocabularyItem] = []
     @State private var revealed = false
     @State private var chosen: VocabularyItem?
-    @State private var typed = ""
+    @State private var speechProblem: String?
     @State private var outcome: ReviewOutcome?
     @State private var feedbackText: String?
     @State private var correctCount = 0
     @State private var finished = false
-    @FocusState private var focused: Bool
 
     var body: some View {
         Group {
@@ -154,26 +153,20 @@ struct ReviewSessionView: View {
     private func productionCard(_ word: VocabularyItem) -> some View {
         VStack(alignment: .leading, spacing: 12) {
             Text(word.chinese).font(.largeTitle.bold())
-            Text("用韓文寫出來（第三階段改為說出來）").font(.caption).foregroundStyle(.secondary)
-            TextField("輸入韓文", text: $typed)
-                .textFieldStyle(.roundedBorder)
-                .font(.title3)
-                .textInputAutocapitalization(.never)
-                .autocorrectionDisabled()
-                .focused($focused)
-                .onSubmit { submitProduction(word) }
-                .disabled(outcome != nil)
-                .onChange(of: typed) { _, v in if firstKeyAt == nil && !v.isEmpty { firstKeyAt = Date() } }
+            Text("用韓語說出來（也可以改用鍵盤）").font(.caption).foregroundStyle(.secondary)
             if outcome == nil {
-                HStack {
-                    Button("送出") { submitProduction(word) }
-                        .buttonStyle(.borderedProminent)
-                        .disabled(typed.trimmingCharacters(in: .whitespaces).isEmpty)
-                    Spacer()
-                    Button("想不起來") {
-                        selfGrade(.init(correct: false, responseSeconds: thinkingSeconds, error: .forgotten))
-                    }
+                AnswerInputView(onFirstKey: { date in if firstKeyAt == nil { firstKeyAt = date } },
+                                onText: { submitProduction(word, text: $0) },
+                                onSpeech: { submitSpeech(word, $0) })
+                    .id(index)
+                if let speechProblem {
+                    Text(speechProblem).font(.caption).foregroundStyle(.orange)
                 }
+                Button("想不起來") {
+                    SpeechInput.shared.cancel()
+                    selfGrade(.init(correct: false, responseSeconds: thinkingSeconds, error: .forgotten))
+                }
+                .frame(maxWidth: .infinity, alignment: .trailing)
             }
         }
     }
@@ -210,7 +203,7 @@ struct ReviewSessionView: View {
         guard index < queue.count, let word = store.vocabulary(for: queue[index]) else { return }
         revealed = false
         chosen = nil
-        typed = ""
+        speechProblem = nil
         outcome = nil
         feedbackText = nil
         firstKeyAt = nil
@@ -224,7 +217,6 @@ struct ReviewSessionView: View {
             Speaker.shared.speak(word.korean)
         case .production:
             options = []
-            focused = true
         case .meaning:
             options = []
         }
@@ -244,17 +236,29 @@ struct ReviewSessionView: View {
         if queue[index].facet == .recognition { Speaker.shared.speak(target.korean) }
     }
 
-    private func submitProduction(_ word: VocabularyItem) {
-        let response = typed.trimmingCharacters(in: .whitespacesAndNewlines)
+    private func submitProduction(_ word: VocabularyItem, text: String) {
+        let response = text.trimmingCharacters(in: .whitespacesAndNewlines)
         guard outcome == nil, !response.isEmpty else { return }
         let grade = DrillGrader.grade(response: response, answers: [word.korean], responseSeconds: thinkingSeconds, timeLimit: .infinity)
-        focused = false
+        finish(grade.reviewOutcome, feedback: grade.verdict == .correct ? nil : grade.feedback)
+        Speaker.shared.speak(word.korean)
+    }
+
+    private func submitSpeech(_ word: VocabularyItem, _ capture: SpeechCapture) {
+        guard outcome == nil else { return }
+        guard !capture.transcripts.isEmpty else {
+            speechProblem = "沒有辨識到語音，請再說一次，或改用鍵盤。"
+            return
+        }
+        speechProblem = nil
+        let seconds = (capture.onsetDate ?? capture.stoppedAt).timeIntervalSince(shownAt)
+        let grade = SpeechAnswerGrader.grade(transcripts: capture.transcripts, answers: [word.korean],
+                                             responseSeconds: seconds, timeLimit: .infinity)
         finish(grade.reviewOutcome, feedback: grade.verdict == .correct ? nil : grade.feedback)
         Speaker.shared.speak(word.korean)
     }
 
     private func selfGrade(_ o: ReviewOutcome) {
-        focused = false
         finish(o, feedback: nil)
     }
 

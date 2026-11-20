@@ -59,6 +59,12 @@ struct DashboardView: View {
                 LabeledContent("已學單字", value: "\(store.cards().count)")
             }
 
+            Section("練習中心") {
+                NavigationLink { PronunciationHomeView() } label: { Label("發音練習", systemImage: "mic") }
+                NavigationLink { ListeningHomeView() } label: { Label("聽力", systemImage: "ear") }
+                NavigationLink { RapidResponseView() } label: { Label("快速反應", systemImage: "bolt") }
+            }
+
             if mistakes > 0 {
                 Section {
                     NavigationLink {

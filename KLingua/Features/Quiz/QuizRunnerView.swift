@@ -18,11 +18,10 @@ struct QuizRunnerView: View {
     @State private var index = 0
     @State private var logs: [QuizAnswerLog] = []
     @State private var shownAt = Date()
-    @State private var typed = ""
+    @State private var heardText: String?
     @State private var chosen: Int?
     @State private var answeredCorrect: Bool?
     @State private var gradeFeedback: String?
-    @FocusState private var typingFocused: Bool
 
     var body: some View {
         if questions.isEmpty {
@@ -118,29 +117,16 @@ struct QuizRunnerView: View {
         return .gray
     }
 
+    @ViewBuilder
     private func typingInput(_ q: QuizQuestion) -> some View {
-        VStack(alignment: .leading, spacing: 8) {
-            if q.kind == .speaking {
-                Label("語音作答在第三階段加入。目前請用韓文鍵盤輸入你要說的句子。", systemImage: "keyboard")
-                    .font(.footnote)
-                    .foregroundStyle(.secondary)
-            }
-            TextField("輸入韓文", text: $typed)
-                .textFieldStyle(.roundedBorder)
-                .font(.title3)
-                .textInputAutocapitalization(.never)
-                .autocorrectionDisabled()
-                .focused($typingFocused)
-                .submitLabel(.done)
-                .onSubmit { if !typed.isEmpty { answer(q, .text(typed)) } }
-                .disabled(answeredCorrect != nil)
-            if answeredCorrect == nil {
-                Button("送出") { answer(q, .text(typed)) }
-                    .buttonStyle(.borderedProminent)
-                    .disabled(typed.trimmingCharacters(in: .whitespaces).isEmpty)
-            }
+        if answeredCorrect == nil {
+            AnswerInputView(allowsSpeech: q.kind == .speaking,
+                            placeholder: "輸入韓文",
+                            onText: { answer(q, .text($0)) },
+                            onSpeech: { answerSpeech(q, $0) })
+        } else if let heard = heardText {
+            Text("你的回答：\(heard)").font(.subheadline).foregroundStyle(.secondary)
         }
-        .onAppear { typingFocused = true }
     }
 
     @ViewBuilder
@@ -170,15 +156,29 @@ struct QuizRunnerView: View {
             let grade = DrillGrader.grade(response: t, answers: accepted, responseSeconds: seconds, timeLimit: .infinity)
             gradeFeedback = grade.feedback
         }
+        if case .text(let t) = response { heardText = t }
         answeredCorrect = correct
-        typingFocused = false
+        logs.append(QuizAnswerLog(question: q, correct: correct, seconds: seconds))
+        onAnswer(q, correct, seconds)
+        if !showsFeedback { next() }
+    }
+
+    private func answerSpeech(_ q: QuizQuestion, _ capture: SpeechCapture) {
+        guard answeredCorrect == nil else { return }
+        let seconds = (capture.onsetDate ?? capture.stoppedAt).timeIntervalSince(shownAt)
+        let grade = SpeechAnswerGrader.grade(transcripts: capture.transcripts, answers: q.acceptedAnswers ?? [],
+                                             responseSeconds: seconds, timeLimit: .infinity)
+        let correct = grade.verdict.isAcceptable
+        gradeFeedback = grade.feedback
+        heardText = capture.best.isEmpty ? "（沒有辨識到）" : capture.best
+        answeredCorrect = correct
         logs.append(QuizAnswerLog(question: q, correct: correct, seconds: seconds))
         onAnswer(q, correct, seconds)
         if !showsFeedback { next() }
     }
 
     private func next() {
-        typed = ""
+        heardText = nil
         chosen = nil
         answeredCorrect = nil
         gradeFeedback = nil

@@ -5,7 +5,6 @@ extension TrainingActivity {
     /// 尚未能執行的項目與原因（不顯示假的練習）
     var unavailableReason: String? {
         switch self {
-        case .rapidResponse: "快速反應需要語音作答，第三階段開放。"
         case .aiConversation: "AI 口語對話需要設定 AI 服務，第四階段開放。"
         default: nil
         }
@@ -105,7 +104,9 @@ struct TodayView: View {
             MistakesView()
         case .dailyCheck:
             DailyCheckView()
-        case .rapidResponse, .aiConversation:
+        case .rapidResponse:
+            RapidResponseView()
+        case .aiConversation:
             NotYetAvailableView(title: block.activity.title, reason: block.activity.unavailableReason ?? "")
         }
     }
