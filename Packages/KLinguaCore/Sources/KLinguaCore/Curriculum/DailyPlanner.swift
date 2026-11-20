@@ -174,14 +174,25 @@ public enum DailyPlanner {
         if input.openMistakeCount == 0 { weights.removeValue(forKey: .mistakeReview) }
         if input.dueReviewCount == 0 { weights.removeValue(forKey: .srsReview) }
 
-        // 時間不足：從最不重要的項目開始移除，直到每項都達到最少分鐘數
-        var selected = weights.keys.sorted { $0.priority < $1.priority }
+        // 依重要性逐項保證最少分鐘數，放不下的項目今天不排
+        let ranked = weights.keys.sorted { $0.priority < $1.priority }
+        var selected: [TrainingActivity] = []
+        var reserved = 0.0
+        for a in ranked where reserved + a.minimumMinutes <= budget {
+            selected.append(a)
+            reserved += a.minimumMinutes
+        }
+        if selected.isEmpty, let top = ranked.first {
+            selected = [top]
+            reserved = budget
+        }
+        // 剩餘時間依權重分配（弱項加權在此生效）
+        let extra = budget - reserved
+        let weightTotal = selected.reduce(0) { $0 + weights[$1]! }
         var alloc: [TrainingActivity: Double] = [:]
-        while true {
-            let total = selected.reduce(0) { $0 + weights[$1]! }
-            alloc = Dictionary(uniqueKeysWithValues: selected.map { ($0, budget * weights[$0]! / total) })
-            if selected.count <= 1 || selected.allSatisfy({ alloc[$0]! >= $0.minimumMinutes }) { break }
-            selected.removeLast()
+        for a in selected {
+            let base = selected.count == 1 ? budget - extra : a.minimumMinutes
+            alloc[a] = base + extra * weights[a]! / weightTotal
         }
 
         // SRS 時間不超過實際到期量所需
