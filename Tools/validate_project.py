@@ -65,11 +65,58 @@ KEY_PATTERNS = [r"sk-ant-[A-Za-z0-9_-]{10,}", r"sk-[A-Za-z0-9]{20,}", r"AIza[0-9
 
 
 def strip_swift(src: str) -> str:
-    src = re.sub(r'"""(.*?)"""', '""', src, flags=re.S)
-    src = re.sub(r"/\*.*?\*/", "", src, flags=re.S)
-    src = re.sub(r"//[^\n]*", "", src)
-    src = re.sub(r'"(?:[^"\\\n]|\\.)*"', '""', src)
-    return src
+    """移除註解與字串內容，只留下程式碼結構（支援字串插值內的巢狀字串、#"..."# 與多行字串）。"""
+    out: list[str] = []
+    i, n = 0, len(src)
+
+    def skip_string(i: int) -> int:
+        """i 指向開頭的 # 或引號；回傳字串結束後的位置。"""
+        hashes = 0
+        while src[i] == "#":
+            hashes += 1
+            i += 1
+        multi = src.startswith('"""', i)
+        quote = '"""' if multi else '"'
+        i += len(quote)
+        closing = quote + "#" * hashes
+        escape = "\\" + "#" * hashes
+        while i < n:
+            if src.startswith(escape + "(", i):
+                i += len(escape) + 1
+                depth = 1
+                while i < n and depth:
+                    ch = src[i]
+                    if ch == '"' or (ch == "#" and src[i:].lstrip("#").startswith('"')):
+                        i = skip_string(i)
+                        continue
+                    if ch == "(":
+                        depth += 1
+                    elif ch == ")":
+                        depth -= 1
+                    i += 1
+                continue
+            if src.startswith(escape, i):
+                i += len(escape) + 1
+                continue
+            if src.startswith(closing, i):
+                return i + len(closing)
+            i += 1
+        return i
+
+    while i < n:
+        if src.startswith("//", i):
+            j = src.find("\n", i)
+            i = n if j < 0 else j
+        elif src.startswith("/*", i):
+            j = src.find("*/", i + 2)
+            i = n if j < 0 else j + 2
+        elif src[i] == '"' or (src[i] == "#" and src[i:].lstrip("#").startswith('"')):
+            i = skip_string(i)
+            out.append('""')
+        else:
+            out.append(src[i])
+            i += 1
+    return "".join(out)
 
 
 def check_swift() -> None:
