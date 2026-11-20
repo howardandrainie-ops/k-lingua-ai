@@ -24,6 +24,8 @@ final class StudyStore {
         self.scheduler = scheduler
         // 先建立使用者資料，畫面讀取時就不會在繪製途中寫入資料庫
         _ = profile()
+        _ = aiConfiguration()
+        refreshAIAvailability()
     }
 
     // MARK: - 使用者
@@ -280,6 +282,100 @@ final class StudyStore {
                                               openMistakeCount: openMistakes().count,
                                               skillScores: scores,
                                               aiAvailable: aiAvailable))
+    }
+
+    // MARK: - AI
+
+    func aiConfiguration() -> AIConfiguration {
+        if let existing = try? context.fetch(FetchDescriptor<AIConfiguration>()).first { return existing }
+        let c = AIConfiguration()
+        context.insert(c)
+        save()
+        return c
+    }
+
+    var aiProvider: AIProvider? { AIProvider(rawValue: aiConfiguration().providerRaw) }
+
+    var aiModel: String {
+        let m = aiConfiguration().modelName.trimmingCharacters(in: .whitespacesAndNewlines)
+        return m.isEmpty ? (aiProvider?.defaultModel ?? "") : m
+    }
+
+    /// 設定 AI 服務；key 為 nil 表示沿用鑰匙圈中已存的金鑰
+    func setAI(provider: AIProvider?, model: String, key: String?) throws {
+        let c = aiConfiguration()
+        if let provider, let key, !key.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
+            try KeychainStore.save(key.trimmingCharacters(in: .whitespacesAndNewlines), account: provider.rawValue)
+        }
+        c.providerRaw = provider?.rawValue ?? "none"
+        c.modelName = model.trimmingCharacters(in: .whitespacesAndNewlines)
+        c.updatedAt = Date()
+        save()
+        refreshAIAvailability()
+    }
+
+    func deleteAIKey(for provider: AIProvider) {
+        KeychainStore.delete(account: provider.rawValue)
+        refreshAIAvailability()
+        save()
+    }
+
+    func refreshAIAvailability() {
+        aiAvailable = aiClient() != nil
+    }
+
+    /// 目前設定的 AI；沒有設定服務或金鑰時為 nil（App 其他功能照常離線運作）
+    func aiClient() -> AIClient? {
+        guard let provider = aiProvider, let key = KeychainStore.read(account: provider.rawValue), !key.isEmpty else { return nil }
+        return HTTPAIClient(provider: provider, model: aiModel, apiKey: key)
+    }
+
+    // MARK: - AI 對話紀錄
+
+    func startConversation(_ scenario: ConversationScenario) -> ConversationSession {
+        let s = ConversationSession(scenarioID: scenario.id, provider: "\(aiProvider?.rawValue ?? "none"):\(aiModel)")
+        s.speechLevelRaw = scenario.speechLevel.rawValue
+        context.insert(s)
+        let opening = ConversationMessage(role: "assistant", text: scenario.opening)
+        opening.translation = scenario.openingTranslation
+        opening.session = s
+        context.insert(opening)
+        save()
+        return s
+    }
+
+    func messages(of session: ConversationSession) -> [ConversationMessage] {
+        (session.messages ?? []).sorted { $0.timestamp < $1.timestamp }
+    }
+
+    @discardableResult
+    func appendMessage(to session: ConversationSession, role: String, text: String,
+                       translation: String? = nil, correction: String? = nil, at now: Date = Date()) -> ConversationMessage {
+        let m = ConversationMessage(role: role, text: text)
+        m.timestamp = now
+        m.translation = translation
+        m.correction = correction
+        m.session = session
+        context.insert(m)
+        save()
+        return m
+    }
+
+    /// AI 判斷的口說結果也計入能力（標示來源為 AI 對話）；有修正時加入錯誤本
+    func recordConversationTurn(scenario: ConversationScenario, userText: String, correction: CoachCorrection?, at now: Date = Date()) {
+        context.insert(AttemptRecord(skill: .speaking, activity: .aiConversation, sourceID: "ai-\(scenario.id)",
+                                     correct: correction == nil, responseSeconds: 0, at: now))
+        if let c = correction {
+            context.insert(MistakeRecord(sourceID: "ai-\(scenario.id)", category: .incorrect, userAnswer: userText,
+                                         expected: c.corrected, explanation: c.explanation))
+        }
+        save()
+    }
+
+    func recentConversations(limit: Int = 20) -> [ConversationSession] {
+        var d = FetchDescriptor<ConversationSession>(sortBy: [SortDescriptor(\.startedAt, order: .reverse)])
+        d.fetchLimit = limit
+        return (try? context.fetch(d)) ?? []
     }
 
     // MARK: - 每日紀錄

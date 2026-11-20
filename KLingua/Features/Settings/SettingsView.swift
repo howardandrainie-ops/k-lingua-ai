@@ -58,12 +58,15 @@ struct SettingsView: View {
             }
 
             Section {
-                LabeledContent("AI 服務", value: "未設定")
-                Text("AI 對話、作文批改與 API Key 設定在第四階段加入。API Key 只會存在 iOS 鑰匙圈（Keychain），不會寫進程式碼或檔案。沒有 API Key 時，課程、單字卡、SRS 與離線練習都能正常使用。")
-                    .font(.footnote)
-                    .foregroundStyle(.secondary)
+                NavigationLink {
+                    AISettingsView()
+                } label: {
+                    LabeledContent("AI 服務", value: store.aiAvailable ? "\(store.aiProvider?.title ?? "")" : "未設定")
+                }
             } header: {
                 Text("AI 與 API")
+            } footer: {
+                Text("API Key 只存在這台 iPhone 的鑰匙圈（Keychain）。沒有設定時，課程、單字卡、SRS、發音與離線練習都能正常使用。")
             }
 
             Section("裝置") {

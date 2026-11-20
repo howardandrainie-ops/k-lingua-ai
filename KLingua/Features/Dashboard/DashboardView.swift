@@ -63,6 +63,13 @@ struct DashboardView: View {
                 NavigationLink { PronunciationHomeView() } label: { Label("發音練習", systemImage: "mic") }
                 NavigationLink { ListeningHomeView() } label: { Label("聽力", systemImage: "ear") }
                 NavigationLink { RapidResponseView() } label: { Label("快速反應", systemImage: "bolt") }
+                NavigationLink { ScenariosView() } label: {
+                    LabeledContent {
+                        Text(store.aiAvailable ? "" : "需要 AI 設定")
+                    } label: {
+                        Label("AI 情境對話（15 個場景）", systemImage: "bubble.left.and.bubble.right")
+                    }
+                }
             }
 
             if mistakes > 0 {

@@ -2,13 +2,9 @@ import SwiftUI
 import KLinguaCore
 
 extension TrainingActivity {
-    /// 尚未能執行的項目與原因（不顯示假的練習）
-    var unavailableReason: String? {
-        switch self {
-        case .aiConversation: "AI 口語對話需要設定 AI 服務，第四階段開放。"
-        default: nil
-        }
-    }
+    /// 尚未能執行的項目與原因（不顯示假的練習）。
+    /// 第四階段起所有項目都已實作；AI 對話在沒有設定時由課表自動改成離線情境練習。
+    var unavailableReason: String? { nil }
 
     var systemImage: String {
         switch self {
@@ -107,7 +103,7 @@ struct TodayView: View {
         case .rapidResponse:
             RapidResponseView()
         case .aiConversation:
-            NotYetAvailableView(title: block.activity.title, reason: block.activity.unavailableReason ?? "")
+            ScenariosView()
         }
     }
 

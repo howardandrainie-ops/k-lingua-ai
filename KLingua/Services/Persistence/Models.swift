@@ -211,6 +211,8 @@ final class ConversationMessage {
     var roleRaw: String = "user"
     var text: String = ""
     var correction: String?
+    /// AI 回覆的中文翻譯
+    var translation: String?
     var session: ConversationSession?
 
     init(role: String, text: String) {
@@ -222,6 +224,7 @@ final class ConversationMessage {
 /// AI 設定（AIConfiguration）。API Key 不在這裡，只存在 Keychain。
 @Model
 final class AIConfiguration {
+    /// "none" 或 AIProvider.rawValue
     var providerRaw: String = "none"
     var modelName: String = ""
     var updatedAt: Date = Date()
