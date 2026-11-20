@@ -58,12 +58,14 @@ swift test
 
 ## 驗證狀態
 
+每次推送都會由 GitHub Actions（macOS 15、Xcode 16.4）自動編譯與測試，見 `.github/workflows/ios-build.yml`。
+
 | 項目 | 狀態 |
 |---|---|
-| 專案結構 / pbxproj 引用完整性 / JSON | ✅ 已用 `Tools/validate_project.py` 檢查 |
-| Swift 編譯 | ⏳ 未驗證（開發環境為 Windows，無 Xcode） |
-| KLinguaCore 單元測試 | ⏳ 未執行（需 Swift 工具鏈） |
-| iPhone 實機 | ⏳ 未測試 |
+| 專案結構 / pbxproj 引用完整性 / JSON | ✅ `Tools/validate_project.py` |
+| KLinguaCore 單元測試（42 項） | ✅ CI 上 `swift test` |
+| iOS App 編譯（模擬器 + 實機，未簽章） | ✅ CI 上 `xcodebuild` |
+| App 實際操作 / iPhone 實機 | ⏳ 未測試（需要 Mac 或實機） |
 
 ## API 設定
 
