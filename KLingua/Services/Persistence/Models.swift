@@ -257,6 +257,10 @@ enum PersistenceSchema {
     @MainActor
     static func makeContainer(inMemory: Bool = false) throws -> ModelContainer {
         let schema = Schema(models)
+        if !inMemory {
+            // 首次安裝時 Application Support 資料夾還不存在，先建立，避免 Core Data 記錄錯誤
+            try? FileManager.default.createDirectory(at: URL.applicationSupportDirectory, withIntermediateDirectories: true)
+        }
         // cloudKitDatabase: .none —— 日後改成 .automatic 並加上 iCloud capability 即可同步
         let config = ModelConfiguration(schema: schema, isStoredInMemoryOnly: inMemory, cloudKitDatabase: .none)
         return try ModelContainer(for: schema, configurations: [config])

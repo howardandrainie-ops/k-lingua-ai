@@ -45,7 +45,7 @@ final class KLinguaUITests: XCTestCase {
 
     func testDiagnosticFlowPlacesBeginnerAtUnitOne() {
         let app = launch()
-        XCTAssertTrue(find(app, "開始診斷測驗").waitForExistence(timeout: 15))
+        XCTAssertTrue(find(app, "能力診斷").waitForExistence(timeout: 15))
         screenshot("01-診斷說明")
         tapText(app, "開始診斷測驗")
 
@@ -147,7 +147,8 @@ final class KLinguaUITests: XCTestCase {
         tapText(app, "能力報告")
         XCTAssertTrue(find(app, "能力雷達圖").waitForExistence(timeout: 5))
         screenshot("15-能力報告")
-        app.navigationBars.buttons.firstMatch.tap()
+        app.navigationBars.buttons["K-LINGUA"].tap()
+        XCTAssertTrue(app.navigationBars["K-LINGUA"].waitForExistence(timeout: 5))
 
         tapText(app, "AI 情境對話")
         XCTAssertTrue(find(app, "尚未設定 AI 服務").waitForExistence(timeout: 5))
