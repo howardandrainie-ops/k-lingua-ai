@@ -25,6 +25,12 @@ final class KLinguaUITests: XCTestCase {
             app.swipeUp()
             swipes += 1
         }
+        // 可能在目前位置的上方（例如從子頁返回時清單停在底部）
+        swipes = 0
+        while !e.exists && swipes < maxSwipes * 2 {
+            app.swipeDown()
+            swipes += 1
+        }
         return e
     }
 
