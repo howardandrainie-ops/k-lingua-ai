@@ -1,0 +1,13 @@
+.DS_Store
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+.build/
+.swiftpm/
+Packages/KLinguaCore/.build/
+*.ipa
+*.dSYM.zip
+# 絕不提交 API Key（App 內以 Keychain 儲存，不應出現在檔案中）
+*.secrets
+.env

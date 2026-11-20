@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "estimatedMinutes": 10,
+  "sections": [
+    {"id": "DX-H", "skill": "hangulRecognition", "title": "韓文字母辨識", "questions": [
+      {"id": "DX-H1", "skill": "hangulRecognition", "kind": "listeningChoice", "prompt": "聽音選字", "audioText": "가", "options": ["가", "나", "다", "라"], "answerIndex": 0, "acceptedAnswers": null, "explanation": "가 = ㄱ + ㅏ"},
+      {"id": "DX-H2", "skill": "hangulRecognition", "kind": "listeningChoice", "prompt": "聽音選字", "audioText": "머", "options": ["모", "머", "무", "므"], "answerIndex": 1, "explanation": "머 = ㅁ + ㅓ（不圓唇）", "acceptedAnswers": null},
+      {"id": "DX-H3", "skill": "hangulRecognition", "kind": "choice", "prompt": "「사」由哪兩個字母組成？", "audioText": null, "options": ["ㅅ + ㅏ", "ㅈ + ㅏ", "ㅅ + ㅓ", "ㅆ + ㅏ"], "answerIndex": 0, "acceptedAnswers": null, "explanation": "ㅅ（初聲）＋ ㅏ（母音）"},
+      {"id": "DX-H4", "skill": "hangulRecognition", "kind": "listeningChoice", "prompt": "聽音選字", "audioText": "휴", "options": ["후", "휴", "히", "효"], "answerIndex": 1, "acceptedAnswers": null, "explanation": "휴 = ㅎ + ㅠ"},
+      {"id": "DX-H5", "skill": "hangulRecognition", "kind": "listeningChoice", "prompt": "聽音選字", "audioText": "책", "options": ["책", "착", "척", "첵"], "answerIndex": 0, "acceptedAnswers": null, "explanation": "책 = ㅊ + ㅐ + ㄱ"}
+    ]},
+    {"id": "DX-P", "skill": "phonemeDiscrimination", "title": "發音辨識", "questions": [
+      {"id": "DX-P1", "skill": "phonemeDiscrimination", "kind": "listeningChoice", "prompt": "聽音選字", "audioText": "카", "options": ["가", "카", "까"], "answerIndex": 1, "acceptedAnswers": null, "explanation": "激音 ㅋ"},
+      {"id": "DX-P2", "skill": "phonemeDiscrimination", "kind": "listeningChoice", "prompt": "聽音選字", "audioText": "따", "options": ["다", "타", "따"], "answerIndex": 2, "acceptedAnswers": null, "explanation": "緊音 ㄸ"},
+      {"id": "DX-P3", "skill": "phonemeDiscrimination", "kind": "listeningChoice", "prompt": "聽音選字", "audioText": "불", "options": ["불", "풀", "뿔"], "answerIndex": 0, "acceptedAnswers": null, "explanation": "平音 ㅂ"},
+      {"id": "DX-P4", "skill": "phonemeDiscrimination", "kind": "listeningChoice", "prompt": "聽音選字", "audioText": "방", "options": ["반", "방", "밤"], "answerIndex": 1, "acceptedAnswers": null, "explanation": "收音 ㅇ"},
+      {"id": "DX-P5", "skill": "phonemeDiscrimination", "kind": "listeningChoice", "prompt": "聽音選字", "audioText": "짜", "options": ["자", "차", "짜"], "answerIndex": 2, "acceptedAnswers": null, "explanation": "緊音 ㅉ"}
+    ]},
+    {"id": "DX-V", "skill": "vocabulary", "title": "基礎單字", "questions": [
+      {"id": "DX-V1", "skill": "vocabulary", "kind": "choice", "prompt": "「물」的意思是？", "audioText": null, "options": ["水", "火", "門", "書"], "answerIndex": 0, "acceptedAnswers": null, "explanation": "물＝水"},
+      {"id": "DX-V2", "skill": "vocabulary", "kind": "choice", "prompt": "「감사합니다」的意思是？", "audioText": null, "options": ["謝謝", "對不起", "你好", "再見"], "answerIndex": 0, "acceptedAnswers": null, "explanation": "감사합니다＝謝謝（正式）"},
+      {"id": "DX-V3", "skill": "vocabulary", "kind": "choice", "prompt": "「학교」的意思是？", "audioText": null, "options": ["學校", "公司", "醫院", "家"], "answerIndex": 0, "acceptedAnswers": null, "explanation": "학교＝學校"},
+      {"id": "DX-V4", "skill": "vocabulary", "kind": "choice", "prompt": "「먹다」的意思是？", "audioText": null, "options": ["吃", "喝", "看", "去"], "answerIndex": 0, "acceptedAnswers": null, "explanation": "먹다＝吃"},
+      {"id": "DX-V5", "skill": "vocabulary", "kind": "choice", "prompt": "「친구」的意思是？", "audioText": null, "options": ["朋友", "老師", "家人", "學生"], "answerIndex": 0, "acceptedAnswers": null, "explanation": "친구＝朋友"}
+    ]},
+    {"id": "DX-G", "skill": "grammar", "title": "基礎文法", "questions": [
+      {"id": "DX-G1", "skill": "grammar", "kind": "choice", "prompt": "저___ 학생이에요.（我是學生）", "audioText": null, "options": ["는", "은", "를", "가"], "answerIndex": 0, "acceptedAnswers": null, "explanation": "저 沒有收音，主題助詞用 는"},
+      {"id": "DX-G2", "skill": "grammar", "kind": "choice", "prompt": "물___ 마셔요.（喝水）", "audioText": null, "options": ["을", "를", "이", "는"], "answerIndex": 0, "acceptedAnswers": null, "explanation": "물 有收音，受詞助詞用 을"},
+      {"id": "DX-G3", "skill": "grammar", "kind": "choice", "prompt": "사과___ 먹어요.（吃蘋果）", "audioText": null, "options": ["를", "을", "가", "는"], "answerIndex": 0, "acceptedAnswers": null, "explanation": "사과 沒有收音，用 를"},
+      {"id": "DX-G4", "skill": "grammar", "kind": "choice", "prompt": "어제 영화를 ___.（昨天看了電影）", "audioText": null, "options": ["봤어요", "봐요", "볼 거예요", "보세요"], "answerIndex": 0, "acceptedAnswers": null, "explanation": "어제（昨天）用過去式 봤어요"},
+      {"id": "DX-G5", "skill": "grammar", "kind": "choice", "prompt": "저는 학생___.（我是學生）", "audioText": null, "options": ["이에요", "예요", "이다", "있어요"], "answerIndex": 0, "acceptedAnswers": null, "explanation": "학생 有收音，接 이에요"}
+    ]},
+    {"id": "DX-L", "skill": "listening", "title": "聽力理解", "questions": [
+      {"id": "DX-L1", "skill": "listening", "kind": "listeningChoice", "prompt": "聽句子選意思", "audioText": "안녕하세요.", "options": ["你好", "謝謝", "再見", "對不起"], "answerIndex": 0, "acceptedAnswers": null, "explanation": "안녕하세요＝你好"},
+      {"id": "DX-L2", "skill": "listening", "kind": "listeningChoice", "prompt": "聽句子選意思", "audioText": "이거 얼마예요?", "options": ["這個多少錢？", "這是什麼？", "這在哪裡？", "這是誰的？"], "answerIndex": 0, "acceptedAnswers": null, "explanation": "얼마＝多少錢"},
+      {"id": "DX-L3", "skill": "listening", "kind": "listeningChoice", "prompt": "聽句子選意思", "audioText": "화장실이 어디예요?", "options": ["洗手間在哪裡？", "有洗手間嗎？", "洗手間很乾淨。", "我要去洗手間。"], "answerIndex": 0, "acceptedAnswers": null, "explanation": "어디＝哪裡"},
+      {"id": "DX-L4", "skill": "listening", "kind": "listeningChoice", "prompt": "聽句子選意思", "audioText": "저는 대만 사람이에요.", "options": ["我是台灣人。", "我住在台灣。", "我要去台灣。", "我喜歡台灣。"], "answerIndex": 0, "acceptedAnswers": null, "explanation": "대만 사람＝台灣人"},
+      {"id": "DX-L5", "skill": "listening", "kind": "listeningChoice", "prompt": "聽句子選意思", "audioText": "내일 몇 시에 만나요?", "options": ["明天幾點見面？", "今天幾點？", "明天在哪裡見面？", "昨天幾點見面？"], "answerIndex": 0, "acceptedAnswers": null, "explanation": "내일＝明天，몇 시＝幾點"}
+    ]},
+    {"id": "DX-R", "skill": "reading", "title": "簡單句子閱讀", "questions": [
+      {"id": "DX-R1", "skill": "reading", "kind": "choice", "prompt": "「저는 커피를 좋아해요.」的意思是？", "audioText": null, "options": ["我喜歡咖啡。", "我在喝咖啡。", "我不喝咖啡。", "我買咖啡。"], "answerIndex": 0, "acceptedAnswers": null, "explanation": "좋아해요＝喜歡"},
+      {"id": "DX-R2", "skill": "reading", "kind": "choice", "prompt": "「지금 몇 시예요?」的意思是？", "audioText": null, "options": ["現在幾點？", "現在在哪裡？", "這是什麼？", "多少錢？"], "answerIndex": 0, "acceptedAnswers": null, "explanation": "지금＝現在"},
+      {"id": "DX-R3", "skill": "reading", "kind": "choice", "prompt": "「어제 친구를 만났어요.」的意思是？", "audioText": null, "options": ["昨天見了朋友。", "明天要見朋友。", "今天和朋友吃飯。", "朋友昨天來了。"], "answerIndex": 0, "acceptedAnswers": null, "explanation": "만났어요＝見了面（過去）"},
+      {"id": "DX-R4", "skill": "reading", "kind": "choice", "prompt": "「여기서 내려 주세요.」的意思是？（計程車上）", "audioText": null, "options": ["請在這裡讓我下車。", "請在這裡等我。", "請往這邊走。", "請在這裡坐。"], "answerIndex": 0, "acceptedAnswers": null, "explanation": "내리다＝下車"}
+    ]},
+    {"id": "DX-S", "skill": "speaking", "title": "基礎口語反應", "questions": [
+      {"id": "DX-S1", "skill": "speaking", "kind": "speaking", "prompt": "用韓語說：你好", "audioText": null, "options": null, "answerIndex": null, "acceptedAnswers": ["안녕하세요"], "explanation": "안녕하세요"},
+      {"id": "DX-S2", "skill": "speaking", "kind": "speaking", "prompt": "用韓語說：謝謝", "audioText": null, "options": null, "answerIndex": null, "acceptedAnswers": ["감사합니다", "고맙습니다", "고마워요"], "explanation": "감사합니다／고마워요"},
+      {"id": "DX-S3", "skill": "speaking", "kind": "speaking", "prompt": "用韓語說：我是台灣人", "audioText": null, "options": null, "answerIndex": null, "acceptedAnswers": ["저는 대만 사람이에요", "대만 사람이에요"], "explanation": "저는 대만 사람이에요"},
+      {"id": "DX-S4", "skill": "speaking", "kind": "speaking", "prompt": "用韓語說：請給我水", "audioText": null, "options": null, "answerIndex": null, "acceptedAnswers": ["물 주세요", "물 좀 주세요"], "explanation": "물 주세요／물 좀 주세요"}
+    ]}
+  ]
+}

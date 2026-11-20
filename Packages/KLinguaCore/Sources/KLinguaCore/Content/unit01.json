@@ -1,0 +1,789 @@
+{
+  "id": "U01",
+  "number": 1,
+  "title": "韓文字母及拼讀",
+  "stage": 1,
+  "summary": "學會 21 個母音、19 個子音與 7 個代表收音，同時用最基本的句型（예요／이에요、주세요、있어요、을/를）開口說話。",
+  "available": true,
+  "lessons": [
+    {
+      "id": "U01L01",
+      "title": "基本母音與「是 N」",
+      "estimatedMinutes": 40,
+      "objectives": [
+        "分辨並唸出 10 個基本母音：ㅏ ㅑ ㅓ ㅕ ㅗ ㅛ ㅜ ㅠ ㅡ ㅣ",
+        "知道初聲 ㅇ 不發音",
+        "用「N예요.」說「是 N」，用「N가 아니에요.」說「不是 N」",
+        "聽懂並回答「이거 뭐예요?」"
+      ],
+      "vocabulary": [
+        {"id": "V0001", "korean": "아이", "chinese": "孩子", "romanization": "a-i", "partOfSpeech": "noun", "tier": "S", "frequencyRank": 1,
+         "example": {"korean": "아이예요.", "chinese": "是孩子。", "speechLevel": "polite"},
+         "usage": "指小孩。口語常縮成「애」。", "commonMistake": "兩個音節要分開唸清楚 아‧이，不要唸成一個音「愛」。"},
+        {"id": "V0002", "korean": "우유", "chinese": "牛奶", "romanization": "u-yu", "partOfSpeech": "noun", "tier": "S", "frequencyRank": 2,
+         "example": {"korean": "우유예요.", "chinese": "是牛奶。", "speechLevel": "polite"},
+         "usage": "便利商店、咖啡廳常見。拿鐵是「라떼」，不是우유。", "commonMistake": "유 是 y+u，前面有短促的「一」，不要唸成 우우。"},
+        {"id": "V0003", "korean": "오이", "chinese": "小黃瓜", "romanization": "o-i", "partOfSpeech": "noun", "tier": "A", "frequencyRank": 1,
+         "example": {"korean": "오이예요.", "chinese": "是小黃瓜。", "speechLevel": "polite"},
+         "usage": "韓式小菜、紫菜飯捲常見食材。", "commonMistake": "오 要圓唇，不要唸成 어。"},
+        {"id": "V0004", "korean": "이유", "chinese": "理由、原因", "romanization": "i-yu", "partOfSpeech": "noun", "tier": "A", "frequencyRank": 2,
+         "example": {"korean": "이유가 뭐예요?", "chinese": "理由是什麼？", "speechLevel": "polite"},
+         "usage": "詢問原因時使用。", "commonMistake": null},
+        {"id": "V0005", "korean": "여우", "chinese": "狐狸", "romanization": "yeo-u", "partOfSpeech": "noun", "tier": "B", "frequencyRank": 1,
+         "example": {"korean": "여우예요.", "chinese": "是狐狸。", "speechLevel": "polite"},
+         "usage": "也用來形容很會撒嬌、很精明的人。", "commonMistake": "여 是 y+ㅓ，嘴巴不圓，不要唸成 요。"},
+        {"id": "V0006", "korean": "아야", "chinese": "哎呀（痛的時候）", "romanization": "a-ya", "partOfSpeech": "interjection", "tier": "A", "frequencyRank": 3,
+         "example": {"korean": "아야! 아파요.", "chinese": "哎呀！好痛。", "speechLevel": "polite"},
+         "usage": "突然被撞到、被夾到時脫口而出。", "commonMistake": null}
+      ],
+      "pronunciation": [
+        {"id": "P0101", "title": "六個單母音 ㅏ ㅓ ㅗ ㅜ ㅡ ㅣ",
+         "explanation": "韓語母音的關鍵在嘴唇圓不圓、嘴巴張多大。ㅓ 和 ㅗ、ㅜ 和 ㅡ 是兩組最容易混淆的音。",
+         "articulation": "ㅏ：嘴巴張大，像「啊」。ㅓ：嘴巴半開、嘴唇不圓、舌頭稍往後縮。ㅗ：嘴唇圓而小、往前噘。ㅜ：嘴唇比 ㅗ 更圓更突出，像「烏」。ㅡ：嘴唇向兩邊拉平，牙齒幾乎合起，舌頭不動。ㅣ：像「衣」。",
+         "chineseSpeakerPitfall": "台灣學習者常把 ㅓ 唸成圓唇的「喔」，結果聽起來像 ㅗ。唸 ㅓ 時看鏡子確認嘴唇沒有變圓。",
+         "samples": ["아", "어", "오", "우", "으", "이"],
+         "minimalPairs": [
+           {"a": "어", "b": "오", "contrast": "ㅓ 不圓唇／ㅗ 圓唇"},
+           {"a": "우", "b": "으", "contrast": "ㅜ 圓唇／ㅡ 扁唇"}
+         ]},
+        {"id": "P0102", "title": "Y 系母音 ㅑ ㅕ ㅛ ㅠ",
+         "explanation": "在 ㅏ ㅓ ㅗ ㅜ 前面加一個很短的「一」滑音。字形上多一畫。",
+         "articulation": "先把舌頭放在「一」的位置，立刻滑到後面的母音，不要拖長。",
+         "chineseSpeakerPitfall": "ㅕ 容易唸成「優」或「喲」。ㅕ 是 y+ㅓ，嘴唇要保持不圓。",
+         "samples": ["야", "여", "요", "유"],
+         "minimalPairs": [
+           {"a": "여", "b": "요", "contrast": "ㅕ 不圓唇／ㅛ 圓唇"},
+           {"a": "우", "b": "유", "contrast": "ㅜ／ㅠ（有無 y 滑音）"}
+         ]},
+        {"id": "P0103", "title": "初聲 ㅇ 不發音",
+         "explanation": "每個韓文音節一定要有初聲字母。母音開頭的音節用 ㅇ 佔位，這時 ㅇ 不發音。ㅇ 放在收音位置時才唸「ng」。",
+         "articulation": "看到 아 只唸母音 ㅏ。",
+         "chineseSpeakerPitfall": null,
+         "samples": ["아", "이", "오이", "우유"],
+         "minimalPairs": []}
+      ],
+      "grammar": [
+        {"id": "G0101", "title": "N예요.（是 N。）", "pattern": "名詞（無收音）＋예요",
+         "explanation": "日常禮貌語體（해요체），對店員、初次見面的人都適用。名詞最後一個字沒有收音時接「예요」；有收音時接「이에요」（第 5 課學）。疑問句不用改字，只要句尾語調上揚：우유예요?",
+         "speechLevel": "polite",
+         "examples": [
+           {"korean": "우유예요.", "chinese": "是牛奶。", "speechLevel": "polite"},
+           {"korean": "오이예요?", "chinese": "是小黃瓜嗎？", "speechLevel": "polite"}
+         ]},
+        {"id": "G0102", "title": "N가 아니에요.（不是 N。）", "pattern": "名詞（無收音）＋가 아니에요",
+         "explanation": "否定名詞句。名詞沒有收音時接「가」，有收音時接「이」（第 5 課學）。口語中助詞常被省略：우유 아니에요。",
+         "speechLevel": "polite",
+         "examples": [
+           {"korean": "오이가 아니에요.", "chinese": "不是小黃瓜。", "speechLevel": "polite"},
+           {"korean": "아이가 아니에요.", "chinese": "不是小孩。", "speechLevel": "polite"}
+         ]},
+        {"id": "G0103", "title": "이거 뭐예요?（這是什麼？）", "pattern": "이거 뭐예요?",
+         "explanation": "整句當作固定說法記住。이거＝這個，뭐＝什麼。在市場、餐廳指著東西問時最常用。",
+         "speechLevel": "polite",
+         "examples": [
+           {"korean": "이거 뭐예요?", "chinese": "這是什麼？", "speechLevel": "polite"}
+         ]}
+      ],
+      "examples": [
+        {"korean": "이거 뭐예요?", "chinese": "這是什麼？", "speechLevel": "polite"},
+        {"korean": "우유예요.", "chinese": "是牛奶。", "speechLevel": "polite"},
+        {"korean": "오이가 아니에요.", "chinese": "不是小黃瓜。", "speechLevel": "polite"},
+        {"korean": "아야! 아파요.", "chinese": "哎呀！好痛。", "speechLevel": "polite"}
+      ],
+      "listening": [
+        {"id": "L0101", "audioText": "오이", "question": "你聽到的是哪一個？", "options": ["오이", "우유", "아이"], "answerIndex": 0, "explanation": "오이：第一個音節是圓唇的 ㅗ。"},
+        {"id": "L0102", "audioText": "어", "question": "你聽到的是哪一個母音？", "options": ["오", "어", "우"], "answerIndex": 1, "explanation": "ㅓ 嘴唇不圓，聲音比 ㅗ 開闊。"},
+        {"id": "L0103", "audioText": "으", "question": "你聽到的是哪一個母音？", "options": ["우", "으", "이"], "answerIndex": 1, "explanation": "ㅡ 嘴唇扁平，沒有 ㅜ 的圓唇音色。"},
+        {"id": "L0104", "audioText": "우유예요.", "question": "這句話的意思是？", "options": ["是牛奶。", "是孩子。", "是小黃瓜。"], "answerIndex": 0, "explanation": "우유＝牛奶，예요＝是。"}
+      ],
+      "drills": [
+        {"id": "D0101", "type": "substitution", "instruction": "聽示範句，把名詞換成提示詞，盡快說出整句。",
+         "model": {"korean": "아이예요.", "chinese": "是孩子。", "speechLevel": "polite"}, "thinkSeconds": 8,
+         "items": [
+           {"cue": "우유", "answers": ["우유예요."], "chinese": "是牛奶。"},
+           {"cue": "오이", "answers": ["오이예요."], "chinese": "是小黃瓜。"},
+           {"cue": "여우", "answers": ["여우예요."], "chinese": "是狐狸。"},
+           {"cue": "이유", "answers": ["이유예요."], "chinese": "是理由。"},
+           {"cue": "요요", "answers": ["요요예요."], "chinese": "是溜溜球。"}
+         ]},
+        {"id": "D0102", "type": "transformation", "instruction": "把肯定句改成否定句。",
+         "model": {"korean": "우유예요. → 우유가 아니에요.", "chinese": "是牛奶。→ 不是牛奶。", "speechLevel": "polite"}, "thinkSeconds": 8,
+         "items": [
+           {"cue": "우유예요.", "answers": ["우유가 아니에요.", "우유 아니에요."], "chinese": "不是牛奶。"},
+           {"cue": "오이예요.", "answers": ["오이가 아니에요."], "chinese": "不是小黃瓜。"},
+           {"cue": "아이예요.", "answers": ["아이가 아니에요."], "chinese": "不是孩子。"},
+           {"cue": "여우예요.", "answers": ["여우가 아니에요.", "여우 아니에요."], "chinese": "不是狐狸。"},
+           {"cue": "이유예요.", "answers": ["이유가 아니에요."], "chinese": "不是理由。"}
+         ]},
+        {"id": "D0103", "type": "questionAnswer", "instruction": "聽到「이거 뭐예요?」，依中文提示直接用韓語回答。",
+         "model": {"korean": "이거 뭐예요? — 우유예요.", "chinese": "這是什麼？——是牛奶。", "speechLevel": "polite"}, "thinkSeconds": 8,
+         "items": [
+           {"cue": "牛奶", "answers": ["우유예요."], "chinese": "是牛奶。"},
+           {"cue": "小黃瓜", "answers": ["오이예요."], "chinese": "是小黃瓜。"},
+           {"cue": "狐狸", "answers": ["여우예요."], "chinese": "是狐狸。"},
+           {"cue": "孩子", "answers": ["아이예요."], "chinese": "是孩子。"},
+           {"cue": "溜溜球", "answers": ["요요예요."], "chinese": "是溜溜球。"}
+         ]},
+        {"id": "D0104", "type": "freeProduction", "instruction": "只用本課學過的字，說兩句「是…」或「不是…」。",
+         "model": {"korean": "우유예요. 오이가 아니에요.", "chinese": "是牛奶。不是小黃瓜。", "speechLevel": "polite"}, "thinkSeconds": 10,
+         "items": [
+           {"cue": "自由回答", "answers": ["우유예요.", "오이가 아니에요."], "chinese": "（參考答案）"}
+         ]}
+      ],
+      "speaking": {
+        "scenario": "你在韓國朋友家，朋友指著桌上的東西問你。使用者只學過 ㅏㅑㅓㅕㅗㅛㅜㅠㅡㅣ 與 예요／가 아니에요，請只用這些內容對話。",
+        "speechLevel": "polite",
+        "offlineScript": [
+          {"cue": "이거 뭐예요?（提示：牛奶）", "cueIsAudio": true, "answers": ["우유예요."], "chinese": "是牛奶。"},
+          {"cue": "오이예요?（提示：不是）", "cueIsAudio": true, "answers": ["아니요, 오이가 아니에요.", "오이가 아니에요."], "chinese": "不，不是小黃瓜。"},
+          {"cue": "아이예요?（提示：是）", "cueIsAudio": true, "answers": ["네, 아이예요."], "chinese": "對，是孩子。"}
+        ]
+      },
+      "postTest": [
+        {"id": "Q0101", "skill": "hangulRecognition", "kind": "listeningChoice", "prompt": "聽音選字", "audioText": "우", "options": ["우", "으", "오"], "answerIndex": 0, "acceptedAnswers": null, "explanation": "ㅜ 圓唇且突出。"},
+        {"id": "Q0102", "skill": "vocabulary", "kind": "choice", "prompt": "「우유」的意思是？", "audioText": null, "options": ["牛奶", "小黃瓜", "孩子"], "answerIndex": 0, "acceptedAnswers": null, "explanation": "우유＝牛奶。"},
+        {"id": "Q0103", "skill": "grammar", "kind": "choice", "prompt": "「不是小黃瓜。」怎麼說？", "audioText": null, "options": ["오이가 아니에요.", "오이예요.", "오이를 아니에요."], "answerIndex": 0, "acceptedAnswers": null, "explanation": "否定名詞句用「N가 아니에요」。"},
+        {"id": "Q0104", "skill": "grammar", "kind": "typing", "prompt": "用韓文寫：是孩子。", "audioText": null, "options": null, "answerIndex": null, "acceptedAnswers": ["아이예요."], "explanation": "아이＋예요。"},
+        {"id": "Q0105", "skill": "listening", "kind": "listeningChoice", "prompt": "聽句子選意思", "audioText": "여우예요.", "options": ["是狐狸。", "是理由。", "是牛奶。"], "answerIndex": 0, "acceptedAnswers": null, "explanation": "여우＝狐狸。"},
+        {"id": "Q0106", "skill": "speaking", "kind": "speaking", "prompt": "說出：這是什麼？", "audioText": null, "options": null, "answerIndex": null, "acceptedAnswers": ["이거 뭐예요?"], "explanation": "이거 뭐예요?"}
+      ],
+      "completion": {"postTestPassRatio": 0.8, "drillAccuracy": 0.8, "requireVocabularyQuiz": true}
+    },
+    {
+      "id": "U01L02",
+      "title": "基本子音與「這是 N 嗎？」",
+      "estimatedMinutes": 45,
+      "objectives": [
+        "認識 9 個基本子音：ㄱ ㄴ ㄷ ㄹ ㅁ ㅂ ㅅ ㅈ ㅎ",
+        "掌握 ㄹ 的彈舌音與 ㅅ 在 ㅣ 前的變化",
+        "用「이거 N예요?」提問，用「네／아니요」回答",
+        "用「누구예요?」問人，用「저는 N예요.」介紹身分"
+      ],
+      "vocabulary": [
+        {"id": "V0007", "korean": "어머니", "chinese": "母親", "romanization": "eo-meo-ni", "partOfSpeech": "noun", "tier": "S", "frequencyRank": 3,
+         "example": {"korean": "어머니예요.", "chinese": "是我媽媽。", "speechLevel": "polite"},
+         "usage": "比「엄마（媽媽）」正式，對外人介紹自己母親時常用。", "commonMistake": "어 不圓唇，不要唸成 오머니。"},
+        {"id": "V0008", "korean": "아버지", "chinese": "父親", "romanization": "a-beo-ji", "partOfSpeech": "noun", "tier": "S", "frequencyRank": 4,
+         "example": {"korean": "아버지예요.", "chinese": "是我父親。", "speechLevel": "polite"},
+         "usage": "比「아빠（爸爸）」正式。", "commonMistake": "버 的 ㅂ 在母音之間會變濁，聽起來接近 b。"},
+        {"id": "V0009", "korean": "누구", "chinese": "誰", "romanization": "nu-gu", "partOfSpeech": "pronoun", "tier": "S", "frequencyRank": 5,
+         "example": {"korean": "누구예요?", "chinese": "是誰？", "speechLevel": "polite"},
+         "usage": "問人是誰。看照片、聽到敲門聲時常用。", "commonMistake": null},
+        {"id": "V0010", "korean": "저", "chinese": "我（謙稱）", "romanization": "jeo", "partOfSpeech": "pronoun", "tier": "S", "frequencyRank": 6,
+         "example": {"korean": "저는 가수예요.", "chinese": "我是歌手。", "speechLevel": "polite"},
+         "usage": "對長輩、陌生人、店員說話時用「저」。對朋友用「나」。", "commonMistake": "對初次見面的人說「나」會顯得沒禮貌。"},
+        {"id": "V0011", "korean": "버스", "chinese": "公車", "romanization": "beo-seu", "partOfSpeech": "noun", "tier": "S", "frequencyRank": 7,
+         "example": {"korean": "이거 버스예요?", "chinese": "這是公車嗎？", "speechLevel": "polite"},
+         "usage": "首爾交通常用。", "commonMistake": "스 的母音是 ㅡ，不是 ㅜ。"},
+        {"id": "V0012", "korean": "가수", "chinese": "歌手", "romanization": "ga-su", "partOfSpeech": "noun", "tier": "A", "frequencyRank": 4,
+         "example": {"korean": "저는 가수예요.", "chinese": "我是歌手。", "speechLevel": "polite"},
+         "usage": "談論偶像、演唱會時常用。", "commonMistake": null},
+        {"id": "V0013", "korean": "모자", "chinese": "帽子", "romanization": "mo-ja", "partOfSpeech": "noun", "tier": "A", "frequencyRank": 5,
+         "example": {"korean": "이거 모자예요.", "chinese": "這是帽子。", "speechLevel": "polite"},
+         "usage": "購物常用。", "commonMistake": null},
+        {"id": "V0014", "korean": "나무", "chinese": "樹", "romanization": "na-mu", "partOfSpeech": "noun", "tier": "A", "frequencyRank": 6,
+         "example": {"korean": "나무예요.", "chinese": "是樹。", "speechLevel": "polite"},
+         "usage": "", "commonMistake": null},
+        {"id": "V0015", "korean": "바다", "chinese": "海", "romanization": "ba-da", "partOfSpeech": "noun", "tier": "A", "frequencyRank": 7,
+         "example": {"korean": "바다예요.", "chinese": "是海。", "speechLevel": "polite"},
+         "usage": "去釜山旅遊必學。", "commonMistake": "第二個 ㄷ 在母音之間變濁，接近 d。"},
+        {"id": "V0016", "korean": "두부", "chinese": "豆腐", "romanization": "du-bu", "partOfSpeech": "noun", "tier": "B", "frequencyRank": 2,
+         "example": {"korean": "이거 두부예요?", "chinese": "這是豆腐嗎？", "speechLevel": "polite"},
+         "usage": "韓式料理常見：순두부찌개（嫩豆腐鍋）。", "commonMistake": null},
+        {"id": "V0017", "korean": "지도", "chinese": "地圖", "romanization": "ji-do", "partOfSpeech": "noun", "tier": "B", "frequencyRank": 3,
+         "example": {"korean": "지도예요.", "chinese": "是地圖。", "speechLevel": "polite"},
+         "usage": "", "commonMistake": null},
+        {"id": "V0018", "korean": "네 / 아니요", "chinese": "是／不是", "romanization": "ne / a-ni-yo", "partOfSpeech": "interjection", "tier": "S", "frequencyRank": 8,
+         "example": {"korean": "네, 지도예요.", "chinese": "對，是地圖。", "speechLevel": "polite"},
+         "usage": "回答是非題。「네」也常用來表示「我在聽」。", "commonMistake": "「아니요」口語常說成「아뇨」。"}
+      ],
+      "pronunciation": [
+        {"id": "P0201", "title": "平音 ㄱ ㄷ ㅂ ㅈ 的兩種音色",
+         "explanation": "平音在詞首帶一點點氣、音高較低；夾在母音之間會變成濁音（g、d、b、j）。所以 바다 的兩個子音聽起來不一樣。",
+         "articulation": "詞首輕輕送一點氣，不要像 ㅋ 那麼強；母音之間放鬆，讓聲帶自然振動。",
+         "chineseSpeakerPitfall": "中文的 ㄍ/ㄎ 只有兩種，韓語有平、激、緊三種（第 3 課）。平音不要完全不送氣，也不要送太多氣。",
+         "samples": ["가", "다", "바", "자", "바다", "아버지"],
+         "minimalPairs": [
+           {"a": "나", "b": "다", "contrast": "鼻音 ㄴ／口音 ㄷ"},
+           {"a": "마", "b": "바", "contrast": "鼻音 ㅁ／口音 ㅂ"}
+         ]},
+        {"id": "P0202", "title": "ㄹ 與 ㅅ",
+         "explanation": "ㄹ 在母音之間是輕輕彈一下舌尖的音（比中文「ㄌ」更快更輕）。ㅅ 在 ㅣ、ㅑ、ㅕ、ㅛ、ㅠ 前面會變成像「西」的音。",
+         "articulation": "ㄹ：舌尖快速碰一下上齒齦後馬上離開。시：舌面靠近硬顎，像中文「西」。",
+         "chineseSpeakerPitfall": "不要把 ㄹ 唸成英文的捲舌 r，也不要拉長成「ㄌ」。",
+         "samples": ["나라", "머리", "사", "시"],
+         "minimalPairs": [
+           {"a": "다", "b": "라", "contrast": "ㄷ 阻塞／ㄹ 彈舌"}
+         ]}
+      ],
+      "grammar": [
+        {"id": "G0201", "title": "이거 N예요?（這是 N 嗎？）", "pattern": "이거 ＋ 名詞 ＋ 예요?",
+         "explanation": "肯定回答：네, N예요. 否定回答：아니요, N가 아니에요. 韓語回答是非題時，先說「네／아니요」再重複句子是最自然的方式。",
+         "speechLevel": "polite",
+         "examples": [
+           {"korean": "이거 버스예요?", "chinese": "這是公車嗎？", "speechLevel": "polite"},
+           {"korean": "아니요, 버스가 아니에요.", "chinese": "不，不是公車。", "speechLevel": "polite"}
+         ]},
+        {"id": "G0202", "title": "저는 N예요.（我是 N。）", "pattern": "저는 ＋ 名詞 ＋ 예요",
+         "explanation": "「는」是主題助詞，表示「說到我呢……」。저（沒有收音）接 는。正式自我介紹與日常禮貌場合都可以用。",
+         "speechLevel": "polite",
+         "examples": [
+           {"korean": "저는 가수예요.", "chinese": "我是歌手。", "speechLevel": "polite"},
+           {"korean": "누구예요?", "chinese": "是誰？", "speechLevel": "polite"}
+         ]}
+      ],
+      "examples": [
+        {"korean": "저는 가수예요.", "chinese": "我是歌手。", "speechLevel": "polite"},
+        {"korean": "누구예요?", "chinese": "是誰？", "speechLevel": "polite"},
+        {"korean": "어머니예요.", "chinese": "是我母親。", "speechLevel": "polite"},
+        {"korean": "이거 버스예요?", "chinese": "這是公車嗎？", "speechLevel": "polite"},
+        {"korean": "아니요, 버스가 아니에요.", "chinese": "不，不是公車。", "speechLevel": "polite"}
+      ],
+      "listening": [
+        {"id": "L0201", "audioText": "라", "question": "你聽到的是哪一個？", "options": ["나", "라", "다"], "answerIndex": 1, "explanation": "ㄹ 是彈舌音。"},
+        {"id": "L0202", "audioText": "나무", "question": "你聽到的是哪一個？", "options": ["나무", "나라", "모자"], "answerIndex": 0, "explanation": "나무＝樹。"},
+        {"id": "L0203", "audioText": "누구예요?", "question": "意思是？", "options": ["是誰？", "是什麼？", "是哪裡？"], "answerIndex": 0, "explanation": "누구＝誰。"},
+        {"id": "L0204", "audioText": "저는 가수예요.", "question": "意思是？", "options": ["我是歌手。", "我是父親。", "這是公車。"], "answerIndex": 0, "explanation": "저는＝我（主題），가수＝歌手。"}
+      ],
+      "drills": [
+        {"id": "D0201", "type": "substitution", "instruction": "把名詞換成提示詞。",
+         "model": {"korean": "이거 모자예요.", "chinese": "這是帽子。", "speechLevel": "polite"}, "thinkSeconds": 7,
+         "items": [
+           {"cue": "지도", "answers": ["이거 지도예요."], "chinese": "這是地圖。"},
+           {"cue": "버스", "answers": ["이거 버스예요."], "chinese": "這是公車。"},
+           {"cue": "두부", "answers": ["이거 두부예요."], "chinese": "這是豆腐。"},
+           {"cue": "나무", "answers": ["이거 나무예요."], "chinese": "這是樹。"},
+           {"cue": "우유", "answers": ["이거 우유예요."], "chinese": "這是牛奶。"}
+         ]},
+        {"id": "D0202", "type": "transformation", "instruction": "聽到問題，用「아니요」否定回答。",
+         "model": {"korean": "이거 버스예요? → 아니요, 버스가 아니에요.", "chinese": "這是公車嗎？→ 不，不是公車。", "speechLevel": "polite"}, "thinkSeconds": 8,
+         "items": [
+           {"cue": "이거 버스예요?", "cueIsAudio": true, "answers": ["아니요, 버스가 아니에요."], "chinese": "不，不是公車。"},
+           {"cue": "이거 모자예요?", "cueIsAudio": true, "answers": ["아니요, 모자가 아니에요."], "chinese": "不，不是帽子。"},
+           {"cue": "이거 두부예요?", "cueIsAudio": true, "answers": ["아니요, 두부가 아니에요."], "chinese": "不，不是豆腐。"},
+           {"cue": "이거 지도예요?", "cueIsAudio": true, "answers": ["아니요, 지도가 아니에요."], "chinese": "不，不是地圖。"},
+           {"cue": "가수예요?", "cueIsAudio": true, "answers": ["아니요, 가수가 아니에요."], "chinese": "不，不是歌手。"}
+         ]},
+        {"id": "D0203", "type": "questionAnswer", "instruction": "聽到「누구예요?」，依提示回答。",
+         "model": {"korean": "누구예요? — 어머니예요.", "chinese": "是誰？——是我母親。", "speechLevel": "polite"}, "thinkSeconds": 7,
+         "items": [
+           {"cue": "母親", "answers": ["어머니예요."], "chinese": "是我母親。"},
+           {"cue": "父親", "answers": ["아버지예요."], "chinese": "是我父親。"},
+           {"cue": "歌手", "answers": ["가수예요."], "chinese": "是歌手。"},
+           {"cue": "孩子", "answers": ["아이예요."], "chinese": "是孩子。"},
+           {"cue": "我", "answers": ["저예요."], "chinese": "是我。"}
+         ]},
+        {"id": "D0204", "type": "freeProduction", "instruction": "用「저는 …예요.」說一句介紹自己的話（可以假裝自己是歌手）。",
+         "model": {"korean": "저는 가수예요.", "chinese": "我是歌手。", "speechLevel": "polite"}, "thinkSeconds": 10,
+         "items": [
+           {"cue": "自由回答", "answers": ["저는 가수예요."], "chinese": "（參考答案）"}
+         ]}
+      ],
+      "speaking": {
+        "scenario": "韓國朋友拿出手機照片問你照片裡是誰、是什麼。使用者只學過基本母音、9 個基本子音、예요／가 아니에요、누구예요。",
+        "speechLevel": "polite",
+        "offlineScript": [
+          {"cue": "누구예요?（提示：母親）", "cueIsAudio": true, "answers": ["어머니예요."], "chinese": "是我母親。"},
+          {"cue": "이거 지도예요?（提示：是）", "cueIsAudio": true, "answers": ["네, 지도예요."], "chinese": "對，是地圖。"},
+          {"cue": "이거 버스예요?（提示：不是）", "cueIsAudio": true, "answers": ["아니요, 버스가 아니에요."], "chinese": "不，不是公車。"}
+        ]
+      },
+      "postTest": [
+        {"id": "Q0201", "skill": "hangulRecognition", "kind": "listeningChoice", "prompt": "聽音選字", "audioText": "라", "options": ["나", "라", "다"], "answerIndex": 1, "acceptedAnswers": null, "explanation": "ㄹ 彈舌。"},
+        {"id": "Q0202", "skill": "vocabulary", "kind": "choice", "prompt": "「바다」的意思是？", "audioText": null, "options": ["海", "國家", "樹"], "answerIndex": 0, "acceptedAnswers": null, "explanation": "바다＝海。"},
+        {"id": "Q0203", "skill": "grammar", "kind": "choice", "prompt": "「是誰？」怎麼說？", "audioText": null, "options": ["누구예요?", "뭐예요?", "어디예요?"], "answerIndex": 0, "acceptedAnswers": null, "explanation": "누구＝誰。"},
+        {"id": "Q0204", "skill": "grammar", "kind": "typing", "prompt": "用韓文寫：我是歌手。", "audioText": null, "options": null, "answerIndex": null, "acceptedAnswers": ["저는 가수예요."], "explanation": "저는＋가수＋예요。"},
+        {"id": "Q0205", "skill": "listening", "kind": "listeningChoice", "prompt": "聽句子選意思", "audioText": "이거 두부예요?", "options": ["這是豆腐嗎？", "這是地圖嗎？", "這是帽子嗎？"], "answerIndex": 0, "acceptedAnswers": null, "explanation": "두부＝豆腐。"},
+        {"id": "Q0206", "skill": "speaking", "kind": "speaking", "prompt": "說出：不，不是公車。", "audioText": null, "options": null, "answerIndex": null, "acceptedAnswers": ["아니요, 버스가 아니에요."], "explanation": "아니요, 버스가 아니에요."}
+      ],
+      "completion": {"postTestPassRatio": 0.8, "drillAccuracy": 0.8, "requireVocabularyQuiz": true}
+    },
+    {
+      "id": "U01L03",
+      "title": "激音、緊音與點餐「주세요」",
+      "estimatedMinutes": 50,
+      "objectives": [
+        "分辨平音、激音、緊音三組對立：가／카／까、다／타／따、바／파／빠、자／차／짜、사／싸",
+        "用「N 주세요.」點餐、購物",
+        "用「N 있어요?」詢問，並回答「네, 있어요.／아니요, 없어요.」"
+      ],
+      "vocabulary": [
+        {"id": "V0019", "korean": "커피", "chinese": "咖啡", "romanization": "keo-pi", "partOfSpeech": "noun", "tier": "S", "frequencyRank": 9,
+         "example": {"korean": "커피 주세요.", "chinese": "請給我咖啡。", "speechLevel": "polite"},
+         "usage": "咖啡廳點餐。冰美式是「아이스 아메리카노」。", "commonMistake": "커 是激音 ㅋ 加 ㅓ，不是「摳」。"},
+        {"id": "V0020", "korean": "차", "chinese": "茶；車", "romanization": "cha", "partOfSpeech": "noun", "tier": "S", "frequencyRank": 10,
+         "example": {"korean": "차 주세요.", "chinese": "請給我茶。", "speechLevel": "polite"},
+         "usage": "同一個字有「茶」和「車」兩個意思，看情境判斷。", "commonMistake": null},
+        {"id": "V0021", "korean": "주스", "chinese": "果汁", "romanization": "ju-seu", "partOfSpeech": "noun", "tier": "A", "frequencyRank": 8,
+         "example": {"korean": "주스 있어요?", "chinese": "有果汁嗎？", "speechLevel": "polite"},
+         "usage": "", "commonMistake": "스 的母音是 ㅡ。"},
+        {"id": "V0022", "korean": "피자", "chinese": "披薩", "romanization": "pi-ja", "partOfSpeech": "noun", "tier": "A", "frequencyRank": 9,
+         "example": {"korean": "피자 하나 주세요.", "chinese": "請給我一個披薩。", "speechLevel": "polite"},
+         "usage": "", "commonMistake": null},
+        {"id": "V0023", "korean": "아빠", "chinese": "爸爸", "romanization": "a-ppa", "partOfSpeech": "noun", "tier": "S", "frequencyRank": 11,
+         "example": {"korean": "아빠예요.", "chinese": "是爸爸。", "speechLevel": "polite"},
+         "usage": "親暱稱呼，成年人也常用。", "commonMistake": "빠 是緊音，喉嚨收緊、不送氣，不要唸成 바 或 파。"},
+        {"id": "V0024", "korean": "오빠", "chinese": "哥哥（女生用）", "romanization": "o-ppa", "partOfSpeech": "noun", "tier": "S", "frequencyRank": 12,
+         "example": {"korean": "오빠예요.", "chinese": "是哥哥。", "speechLevel": "polite"},
+         "usage": "女生稱呼年長男性（哥哥、男友、男偶像）。男生叫哥哥要用「형」。", "commonMistake": "男生不能用「오빠」稱呼哥哥。"},
+        {"id": "V0025", "korean": "아저씨", "chinese": "大叔", "romanization": "a-jeo-ssi", "partOfSpeech": "noun", "tier": "A", "frequencyRank": 10,
+         "example": {"korean": "아저씨, 커피 주세요.", "chinese": "大叔，請給我咖啡。", "speechLevel": "polite"},
+         "usage": "稱呼中年男性，例如計程車司機。對年輕男性用會失禮。", "commonMistake": "씨 是緊音 ㅆ，舌頭用力，比中文「西」更緊。"},
+        {"id": "V0026", "korean": "코", "chinese": "鼻子", "romanization": "ko", "partOfSpeech": "noun", "tier": "A", "frequencyRank": 11,
+         "example": {"korean": "코예요.", "chinese": "是鼻子。", "speechLevel": "polite"},
+         "usage": "", "commonMistake": null},
+        {"id": "V0027", "korean": "토끼", "chinese": "兔子", "romanization": "to-kki", "partOfSpeech": "noun", "tier": "B", "frequencyRank": 4,
+         "example": {"korean": "토끼예요.", "chinese": "是兔子。", "speechLevel": "polite"},
+         "usage": "一個字同時練習激音 ㅌ 與緊音 ㄲ。", "commonMistake": null},
+        {"id": "V0028", "korean": "있어요 / 없어요", "chinese": "有；在／沒有；不在", "romanization": "i-sseo-yo / eop-sseo-yo", "pronunciation": "[이써요] / [업써요]", "partOfSpeech": "verb", "tier": "S", "frequencyRank": 13,
+         "example": {"korean": "주스 있어요?", "chinese": "有果汁嗎？", "speechLevel": "polite"},
+         "usage": "購物、點餐時詢問店裡有沒有某樣東西。", "commonMistake": "寫成 있어요，唸成 [이써요]：收音 ㅆ 移到下一個字。"}
+      ],
+      "pronunciation": [
+        {"id": "P0301", "title": "激音 ㅋ ㅌ ㅍ ㅊ",
+         "explanation": "強烈送氣的音。音高比平音高。",
+         "articulation": "把一張紙放在嘴前：唸 카 時紙會明顯被吹動。比中文「ㄎ、ㄊ、ㄆ、ㄑ」再多送一點氣。",
+         "chineseSpeakerPitfall": "台灣學習者的平音常常送氣太多，結果 가 聽起來像 카。",
+         "samples": ["카", "타", "파", "차"],
+         "minimalPairs": [
+           {"a": "가", "b": "카", "contrast": "平音 ㄱ／激音 ㅋ"},
+           {"a": "다", "b": "타", "contrast": "平音 ㄷ／激音 ㅌ"},
+           {"a": "바", "b": "파", "contrast": "平音 ㅂ／激音 ㅍ"},
+           {"a": "자", "b": "차", "contrast": "平音 ㅈ／激音 ㅊ"}
+         ]},
+        {"id": "P0302", "title": "緊音 ㄲ ㄸ ㅃ ㅆ ㅉ",
+         "explanation": "喉嚨與發音部位都收緊、幾乎不送氣的音。音高高，聽起來短促有力。",
+         "articulation": "唸之前先憋住氣（像要提重物），再突然放開。紙片幾乎不動。",
+         "chineseSpeakerPitfall": "緊音最容易發得不夠緊，聽起來像平音。可以先用力唸「嘎」，再縮短。",
+         "samples": ["까", "따", "빠", "싸", "짜"],
+         "minimalPairs": [
+           {"a": "가", "b": "까", "contrast": "平音 ㄱ／緊音 ㄲ"},
+           {"a": "달", "b": "딸", "contrast": "平音 ㄷ／緊音 ㄸ（月亮／女兒）"},
+           {"a": "발", "b": "빨", "contrast": "平音 ㅂ／緊音 ㅃ"},
+           {"a": "사", "b": "싸", "contrast": "平音 ㅅ／緊音 ㅆ"}
+         ]},
+        {"id": "P0303", "title": "三向對立總整理",
+         "explanation": "韓語的 ㄱ／ㅋ／ㄲ 是三個不同的音，換一個就變成不同的字：불（火）／풀（草）／뿔（角）。",
+         "articulation": "平音：輕微送氣、音高低。激音：強送氣、音高高。緊音：不送氣、喉嚨緊、音高高。",
+         "chineseSpeakerPitfall": "音高也是重要線索：平音開頭的字音調較低。",
+         "samples": ["불", "풀", "뿔", "달", "탈", "딸"],
+         "minimalPairs": [
+           {"a": "불", "b": "풀", "contrast": "平音 ㅂ／激音 ㅍ（火／草）"},
+           {"a": "풀", "b": "뿔", "contrast": "激音 ㅍ／緊音 ㅃ（草／角）"}
+         ]}
+      ],
+      "grammar": [
+        {"id": "G0301", "title": "N 주세요.（請給我 N。）", "pattern": "名詞 ＋ 주세요",
+         "explanation": "點餐、購物、請別人給你東西時最常用的禮貌說法。加上數量更自然：커피 하나 주세요（請給我一杯咖啡）。",
+         "speechLevel": "polite",
+         "examples": [
+           {"korean": "커피 주세요.", "chinese": "請給我咖啡。", "speechLevel": "polite"},
+           {"korean": "피자 하나 주세요.", "chinese": "請給我一個披薩。", "speechLevel": "polite"}
+         ]},
+        {"id": "G0302", "title": "N 있어요?／없어요.（有／沒有）", "pattern": "名詞 ＋ 있어요? → 네, 있어요.／아니요, 없어요.",
+         "explanation": "있어요＝有、在；없어요＝沒有、不在。在店裡口語常省略助詞，直接說「주스 있어요?」。",
+         "speechLevel": "polite",
+         "examples": [
+           {"korean": "주스 있어요?", "chinese": "有果汁嗎？", "speechLevel": "polite"},
+           {"korean": "아니요, 없어요.", "chinese": "不，沒有。", "speechLevel": "polite"}
+         ]}
+      ],
+      "examples": [
+        {"korean": "커피 주세요.", "chinese": "請給我咖啡。", "speechLevel": "polite"},
+        {"korean": "주스 있어요?", "chinese": "有果汁嗎？", "speechLevel": "polite"},
+        {"korean": "네, 있어요.", "chinese": "有。", "speechLevel": "polite"},
+        {"korean": "아니요, 없어요.", "chinese": "沒有。", "speechLevel": "polite"},
+        {"korean": "피자 하나 주세요.", "chinese": "請給我一個披薩。", "speechLevel": "polite"}
+      ],
+      "listening": [
+        {"id": "L0301", "audioText": "카", "question": "你聽到的是哪一個？", "options": ["가", "카", "까"], "answerIndex": 1, "explanation": "強送氣＝激音 ㅋ。"},
+        {"id": "L0302", "audioText": "딸", "question": "你聽到的是哪一個？", "options": ["달", "탈", "딸"], "answerIndex": 2, "explanation": "不送氣、緊而短促＝緊音 ㄸ。"},
+        {"id": "L0303", "audioText": "빠", "question": "你聽到的是哪一個？", "options": ["바", "파", "빠"], "answerIndex": 2, "explanation": "緊音 ㅃ。"},
+        {"id": "L0304", "audioText": "커피 주세요.", "question": "意思是？", "options": ["請給我咖啡。", "有咖啡嗎？", "不是咖啡。"], "answerIndex": 0, "explanation": "주세요＝請給我。"}
+      ],
+      "drills": [
+        {"id": "D0301", "type": "substitution", "instruction": "在咖啡廳點餐：把品項換成提示詞。",
+         "model": {"korean": "커피 주세요.", "chinese": "請給我咖啡。", "speechLevel": "polite"}, "thinkSeconds": 6,
+         "items": [
+           {"cue": "주스", "answers": ["주스 주세요."], "chinese": "請給我果汁。"},
+           {"cue": "차", "answers": ["차 주세요."], "chinese": "請給我茶。"},
+           {"cue": "피자", "answers": ["피자 주세요."], "chinese": "請給我披薩。"},
+           {"cue": "우유", "answers": ["우유 주세요."], "chinese": "請給我牛奶。"},
+           {"cue": "두부", "answers": ["두부 주세요."], "chinese": "請給我豆腐。"}
+         ]},
+        {"id": "D0302", "type": "transformation", "instruction": "肯定 → 否定：把「有」改成「沒有」。",
+         "model": {"korean": "커피 있어요. → 커피 없어요.", "chinese": "有咖啡。→ 沒有咖啡。", "speechLevel": "polite"}, "thinkSeconds": 6,
+         "items": [
+           {"cue": "커피 있어요.", "answers": ["커피 없어요."], "chinese": "沒有咖啡。"},
+           {"cue": "주스 있어요.", "answers": ["주스 없어요."], "chinese": "沒有果汁。"},
+           {"cue": "차 있어요.", "answers": ["차 없어요."], "chinese": "沒有茶。"},
+           {"cue": "피자 있어요.", "answers": ["피자 없어요."], "chinese": "沒有披薩。"},
+           {"cue": "우유 있어요.", "answers": ["우유 없어요."], "chinese": "沒有牛奶。"}
+         ]},
+        {"id": "D0303", "type": "questionAnswer", "instruction": "店員問「뭐 드릴까요?（要點什麼？）」，依提示點餐。",
+         "model": {"korean": "뭐 드릴까요? — 커피 주세요.", "chinese": "要點什麼？——請給我咖啡。", "speechLevel": "polite"}, "thinkSeconds": 6,
+         "items": [
+           {"cue": "咖啡", "answers": ["커피 주세요.", "커피 하나 주세요."], "chinese": "請給我咖啡。"},
+           {"cue": "果汁", "answers": ["주스 주세요.", "주스 하나 주세요."], "chinese": "請給我果汁。"},
+           {"cue": "茶", "answers": ["차 주세요.", "차 하나 주세요."], "chinese": "請給我茶。"},
+           {"cue": "一個披薩", "answers": ["피자 하나 주세요."], "chinese": "請給我一個披薩。"},
+           {"cue": "牛奶", "answers": ["우유 주세요.", "우유 하나 주세요."], "chinese": "請給我牛奶。"}
+         ]},
+        {"id": "D0304", "type": "questionAnswer", "instruction": "聽韓語問題，依提示回答「有／沒有」。",
+         "model": {"korean": "커피 있어요? — 네, 있어요.", "chinese": "有咖啡嗎？——有。", "speechLevel": "polite"}, "thinkSeconds": 6,
+         "items": [
+           {"cue": "커피 있어요?（有）", "cueIsAudio": true, "answers": ["네, 있어요."], "chinese": "有。"},
+           {"cue": "주스 있어요?（沒有）", "cueIsAudio": true, "answers": ["아니요, 없어요."], "chinese": "沒有。"},
+           {"cue": "피자 있어요?（有）", "cueIsAudio": true, "answers": ["네, 있어요."], "chinese": "有。"}
+         ]},
+        {"id": "D0305", "type": "freeProduction", "instruction": "你在咖啡廳，用「주세요」點兩樣東西。",
+         "model": {"korean": "커피 하나 주세요. 주스 주세요.", "chinese": "請給我一杯咖啡。請給我果汁。", "speechLevel": "polite"}, "thinkSeconds": 10,
+         "items": [
+           {"cue": "自由回答", "answers": ["커피 하나 주세요.", "주스 주세요."], "chinese": "（參考答案）"}
+         ]}
+      ],
+      "speaking": {
+        "scenario": "首爾的咖啡廳。AI 扮演店員，使用者點餐。使用者會：주세요、있어요／없어요、하나、네／아니요。請用短句、正常偏慢語速。",
+        "speechLevel": "polite",
+        "offlineScript": [
+          {"cue": "어서 오세요. 뭐 드릴까요?（提示：咖啡）", "cueIsAudio": true, "answers": ["커피 주세요.", "커피 하나 주세요."], "chinese": "請給我咖啡。"},
+          {"cue": "（你想問有沒有果汁）", "answers": ["주스 있어요?"], "chinese": "有果汁嗎？"},
+          {"cue": "네, 있어요.（提示：請給我一個果汁）", "cueIsAudio": true, "answers": ["주스 하나 주세요."], "chinese": "請給我一個果汁。"}
+        ]
+      },
+      "postTest": [
+        {"id": "Q0301", "skill": "phonemeDiscrimination", "kind": "listeningChoice", "prompt": "聽音選字", "audioText": "타", "options": ["다", "타", "따"], "answerIndex": 1, "acceptedAnswers": null, "explanation": "強送氣＝ㅌ。"},
+        {"id": "Q0302", "skill": "phonemeDiscrimination", "kind": "listeningChoice", "prompt": "聽音選字", "audioText": "뿔", "options": ["불", "풀", "뿔"], "answerIndex": 2, "acceptedAnswers": null, "explanation": "緊音 ㅃ。"},
+        {"id": "Q0303", "skill": "vocabulary", "kind": "choice", "prompt": "「아저씨」的意思是？", "audioText": null, "options": ["大叔", "爸爸", "哥哥"], "answerIndex": 0, "acceptedAnswers": null, "explanation": "아저씨＝大叔。"},
+        {"id": "Q0304", "skill": "grammar", "kind": "choice", "prompt": "「有茶嗎？」怎麼說？", "audioText": null, "options": ["차 있어요?", "차 주세요.", "차 없어요."], "answerIndex": 0, "acceptedAnswers": null, "explanation": "있어요?＝有嗎？"},
+        {"id": "Q0305", "skill": "grammar", "kind": "typing", "prompt": "用韓文寫：請給我咖啡。", "audioText": null, "options": null, "answerIndex": null, "acceptedAnswers": ["커피 주세요.", "커피 하나 주세요."], "explanation": "커피 주세요."},
+        {"id": "Q0306", "skill": "speaking", "kind": "speaking", "prompt": "說出：不，沒有。", "audioText": null, "options": null, "answerIndex": null, "acceptedAnswers": ["아니요, 없어요.", "없어요."], "explanation": "아니요, 없어요."}
+      ],
+      "completion": {"postTestPassRatio": 0.8, "drillAccuracy": 0.8, "requireVocabularyQuiz": true}
+    },
+    {
+      "id": "U01L04",
+      "title": "複合母音與「有什麼、在哪裡」",
+      "estimatedMinutes": 50,
+      "objectives": [
+        "認識複合母音：ㅐ ㅔ ㅒ ㅖ ㅘ ㅙ ㅚ ㅝ ㅞ ㅟ ㅢ",
+        "知道現代首爾口語中 ㅐ／ㅔ、ㅙ／ㅚ／ㅞ 幾乎同音",
+        "用「N가 있어요.」說「有 N」，用「N에 있어요.」說「在 N」"
+      ],
+      "vocabulary": [
+        {"id": "V0029", "korean": "뭐", "chinese": "什麼", "romanization": "mwo", "partOfSpeech": "pronoun", "tier": "S", "frequencyRank": 14,
+         "example": {"korean": "뭐가 있어요?", "chinese": "有什麼？", "speechLevel": "polite"},
+         "usage": "「무엇」的口語形。", "commonMistake": null},
+        {"id": "V0030", "korean": "왜", "chinese": "為什麼", "romanization": "wae", "partOfSpeech": "adverb", "tier": "S", "frequencyRank": 15,
+         "example": {"korean": "왜요?", "chinese": "為什麼？／怎麼了？", "speechLevel": "polite"},
+         "usage": "「왜요?」也可以表示「怎麼了？」。", "commonMistake": "語氣太衝會顯得不耐煩，句尾要柔和上揚。"},
+        {"id": "V0031", "korean": "회사", "chinese": "公司", "romanization": "hoe-sa", "partOfSpeech": "noun", "tier": "S", "frequencyRank": 16,
+         "example": {"korean": "회사에 있어요.", "chinese": "在公司。", "speechLevel": "polite"},
+         "usage": "", "commonMistake": "회 現代多唸成 [훼]。"},
+        {"id": "V0032", "korean": "사과", "chinese": "蘋果；道歉", "romanization": "sa-gwa", "partOfSpeech": "noun", "tier": "A", "frequencyRank": 12,
+         "example": {"korean": "사과가 있어요.", "chinese": "有蘋果。", "speechLevel": "polite"},
+         "usage": "同一個字也有「道歉」的意思。", "commonMistake": null},
+        {"id": "V0033", "korean": "시계", "chinese": "時鐘、手錶", "romanization": "si-gye", "pronunciation": "[시게]", "partOfSpeech": "noun", "tier": "A", "frequencyRank": 13,
+         "example": {"korean": "의자 위에 시계가 있어요.", "chinese": "椅子上面有時鐘。", "speechLevel": "polite"},
+         "usage": "", "commonMistake": "계 在口語中常唸成 [게]。"},
+        {"id": "V0034", "korean": "의자", "chinese": "椅子", "romanization": "ui-ja", "partOfSpeech": "noun", "tier": "A", "frequencyRank": 14,
+         "example": {"korean": "의자 위에 있어요.", "chinese": "在椅子上面。", "speechLevel": "polite"},
+         "usage": "", "commonMistake": "詞首的 의 要唸成 ㅡ 滑到 ㅣ，不要唸成 이자。"},
+        {"id": "V0035", "korean": "위", "chinese": "上面", "romanization": "wi", "partOfSpeech": "noun", "tier": "A", "frequencyRank": 15,
+         "example": {"korean": "나무 위에 있어요.", "chinese": "在樹上面。", "speechLevel": "polite"},
+         "usage": "N 위에＝在 N 上面。", "commonMistake": null},
+        {"id": "V0036", "korean": "개", "chinese": "狗", "romanization": "gae", "partOfSpeech": "noun", "tier": "A", "frequencyRank": 16,
+         "example": {"korean": "개가 있어요.", "chinese": "有狗。", "speechLevel": "polite"},
+         "usage": "「개」也是計算物品的量詞（一個、兩個）。", "commonMistake": null},
+        {"id": "V0037", "korean": "돼지", "chinese": "豬", "romanization": "dwae-ji", "partOfSpeech": "noun", "tier": "B", "frequencyRank": 5,
+         "example": {"korean": "돼지가 있어요.", "chinese": "有豬。", "speechLevel": "polite"},
+         "usage": "돼지고기＝豬肉（烤肉店必學）。", "commonMistake": null},
+        {"id": "V0038", "korean": "귀", "chinese": "耳朵", "romanization": "gwi", "partOfSpeech": "noun", "tier": "B", "frequencyRank": 6,
+         "example": {"korean": "귀예요.", "chinese": "是耳朵。", "speechLevel": "polite"},
+         "usage": "", "commonMistake": "ㅟ 是一個音節，嘴唇從圓快速滑到「衣」。"}
+      ],
+      "pronunciation": [
+        {"id": "P0401", "title": "ㅐ 與 ㅔ（以及 ㅒ／ㅖ）",
+         "explanation": "教科書上 ㅐ 嘴巴較開、ㅔ 較閉，但現代首爾口語中兩者幾乎同音，韓國人也靠拼寫和語境區分（개 狗／게 螃蟹）。因此本 App 不把 ㅐ／ㅔ 列為聽辨考題，只要求拼寫正確。",
+         "articulation": "唸成類似「ㄝ」，嘴角稍微往兩邊拉。",
+         "chineseSpeakerPitfall": null,
+         "samples": ["애", "에", "얘", "예", "개", "게"],
+         "minimalPairs": []},
+        {"id": "P0402", "title": "W 系母音 ㅘ ㅝ ㅙ ㅚ ㅞ ㅟ",
+         "explanation": "由 ㅗ 或 ㅜ 快速滑到後面的母音，唸成一個音節。現代口語中 ㅙ、ㅚ、ㅞ 三個幾乎同音（都像 [we]）。",
+         "articulation": "嘴唇先圓起來，立刻打開。와＝圓唇→ㅏ；워＝圓唇→ㅓ；위＝圓唇→ㅣ。",
+         "chineseSpeakerPitfall": "와 不要拆成兩個音節「歐啊」。",
+         "samples": ["와", "워", "왜", "외", "웨", "위"],
+         "minimalPairs": [
+           {"a": "와", "b": "워", "contrast": "ㅘ（→ㅏ）／ㅝ（→ㅓ）"},
+           {"a": "위", "b": "이", "contrast": "ㅟ 有圓唇滑音／ㅣ 無"}
+         ]},
+        {"id": "P0403", "title": "ㅢ 的三種唸法",
+         "explanation": "詞首唸 [의]（의자）；在子音後唸 [이]（희망 → [히망]）；表示「的」的助詞 의 口語常唸 [에]。",
+         "articulation": "[의]：先扁唇唸 ㅡ，再滑到 ㅣ。",
+         "chineseSpeakerPitfall": null,
+         "samples": ["의", "의자", "희"],
+         "minimalPairs": [
+           {"a": "의", "b": "이", "contrast": "ㅢ／ㅣ（詞首）"}
+         ]}
+      ],
+      "grammar": [
+        {"id": "G0401", "title": "N가 있어요.／없어요.（有 N／沒有 N）", "pattern": "名詞（無收音）＋가 있어요",
+         "explanation": "「가」是主格助詞，標示「什麼東西」存在。名詞沒有收音接「가」，有收音接「이」（第 5 課）。問「有什麼？」說「뭐가 있어요?」。",
+         "speechLevel": "polite",
+         "examples": [
+           {"korean": "사과가 있어요.", "chinese": "有蘋果。", "speechLevel": "polite"},
+           {"korean": "뭐가 있어요?", "chinese": "有什麼？", "speechLevel": "polite"}
+         ]},
+        {"id": "G0402", "title": "N에 있어요.（在 N）", "pattern": "地點名詞 ＋ 에 있어요",
+         "explanation": "「에」表示存在的地點。在某物上面：N 위에 있어요。問在哪裡：어디 있어요?",
+         "speechLevel": "polite",
+         "examples": [
+           {"korean": "회사에 있어요.", "chinese": "在公司。", "speechLevel": "polite"},
+           {"korean": "의자 위에 있어요.", "chinese": "在椅子上面。", "speechLevel": "polite"}
+         ]}
+      ],
+      "examples": [
+        {"korean": "의자 위에 시계가 있어요.", "chinese": "椅子上面有時鐘。", "speechLevel": "polite"},
+        {"korean": "사과가 있어요?", "chinese": "有蘋果嗎？", "speechLevel": "polite"},
+        {"korean": "개가 있어요.", "chinese": "有狗。", "speechLevel": "polite"},
+        {"korean": "왜요?", "chinese": "為什麼？／怎麼了？", "speechLevel": "polite"},
+        {"korean": "시계 어디 있어요?", "chinese": "時鐘在哪裡？", "speechLevel": "polite"}
+      ],
+      "listening": [
+        {"id": "L0401", "audioText": "위", "question": "你聽到的是哪一個？", "options": ["이", "위", "의"], "answerIndex": 1, "explanation": "ㅟ 有圓唇滑音。"},
+        {"id": "L0402", "audioText": "와", "question": "你聽到的是哪一個？", "options": ["아", "와", "워"], "answerIndex": 1, "explanation": "ㅘ：圓唇滑到 ㅏ。"},
+        {"id": "L0403", "audioText": "사과가 있어요.", "question": "意思是？", "options": ["有蘋果。", "有豬。", "有椅子。"], "answerIndex": 0, "explanation": "사과＝蘋果。"},
+        {"id": "L0404", "audioText": "의자 위에 있어요.", "question": "意思是？", "options": ["在椅子上面。", "是椅子。", "沒有椅子。"], "answerIndex": 0, "explanation": "위에 있어요＝在上面。"}
+      ],
+      "drills": [
+        {"id": "D0401", "type": "substitution", "instruction": "把名詞換成提示詞。",
+         "model": {"korean": "개가 있어요.", "chinese": "有狗。", "speechLevel": "polite"}, "thinkSeconds": 6,
+         "items": [
+           {"cue": "사과", "answers": ["사과가 있어요."], "chinese": "有蘋果。"},
+           {"cue": "시계", "answers": ["시계가 있어요."], "chinese": "有時鐘。"},
+           {"cue": "의자", "answers": ["의자가 있어요."], "chinese": "有椅子。"},
+           {"cue": "돼지", "answers": ["돼지가 있어요."], "chinese": "有豬。"},
+           {"cue": "우유", "answers": ["우유가 있어요."], "chinese": "有牛奶。"}
+         ]},
+        {"id": "D0402", "type": "transformation", "instruction": "肯定 → 否定。",
+         "model": {"korean": "사과가 있어요. → 사과가 없어요.", "chinese": "有蘋果。→ 沒有蘋果。", "speechLevel": "polite"}, "thinkSeconds": 6,
+         "items": [
+           {"cue": "사과가 있어요.", "answers": ["사과가 없어요."], "chinese": "沒有蘋果。"},
+           {"cue": "시계가 있어요.", "answers": ["시계가 없어요."], "chinese": "沒有時鐘。"},
+           {"cue": "의자가 있어요.", "answers": ["의자가 없어요."], "chinese": "沒有椅子。"},
+           {"cue": "개가 있어요.", "answers": ["개가 없어요."], "chinese": "沒有狗。"},
+           {"cue": "커피가 있어요.", "answers": ["커피가 없어요."], "chinese": "沒有咖啡。"}
+         ]},
+        {"id": "D0403", "type": "questionAnswer", "instruction": "聽到「어디 있어요?（在哪裡？）」，依提示回答位置。",
+         "model": {"korean": "어디 있어요? — 회사에 있어요.", "chinese": "在哪裡？——在公司。", "speechLevel": "polite"}, "thinkSeconds": 7,
+         "items": [
+           {"cue": "公司", "answers": ["회사에 있어요."], "chinese": "在公司。"},
+           {"cue": "椅子上面", "answers": ["의자 위에 있어요."], "chinese": "在椅子上面。"},
+           {"cue": "公車上", "answers": ["버스에 있어요."], "chinese": "在公車上。"},
+           {"cue": "樹上面", "answers": ["나무 위에 있어요."], "chinese": "在樹上面。"},
+           {"cue": "時鐘上面", "answers": ["시계 위에 있어요."], "chinese": "在時鐘上面。"}
+         ]},
+        {"id": "D0404", "type": "questionAnswer", "instruction": "聽到「뭐가 있어요?」，依提示回答。",
+         "model": {"korean": "뭐가 있어요? — 사과가 있어요.", "chinese": "有什麼？——有蘋果。", "speechLevel": "polite"}, "thinkSeconds": 6,
+         "items": [
+           {"cue": "뭐가 있어요?（蘋果）", "cueIsAudio": true, "answers": ["사과가 있어요."], "chinese": "有蘋果。"},
+           {"cue": "뭐가 있어요?（狗）", "cueIsAudio": true, "answers": ["개가 있어요."], "chinese": "有狗。"},
+           {"cue": "사과가 있어요?（沒有）", "cueIsAudio": true, "answers": ["아니요, 없어요."], "chinese": "沒有。"}
+         ]},
+        {"id": "D0405", "type": "freeProduction", "instruction": "用「…가 있어요」描述你房間裡有的兩樣東西（用學過的字）。",
+         "model": {"korean": "의자가 있어요. 시계가 있어요.", "chinese": "有椅子。有時鐘。", "speechLevel": "polite"}, "thinkSeconds": 10,
+         "items": [
+           {"cue": "自由回答", "answers": ["의자가 있어요.", "시계가 있어요."], "chinese": "（參考答案）"}
+         ]}
+      ],
+      "speaking": {
+        "scenario": "你在韓國朋友家找東西。AI 扮演朋友，問你有什麼、東西在哪裡。使用者會：가 있어요／없어요、에 있어요、위에、뭐、왜요。",
+        "speechLevel": "polite",
+        "offlineScript": [
+          {"cue": "뭐가 있어요?（提示：蘋果）", "cueIsAudio": true, "answers": ["사과가 있어요."], "chinese": "有蘋果。"},
+          {"cue": "시계 어디 있어요?（提示：椅子上面）", "cueIsAudio": true, "answers": ["의자 위에 있어요."], "chinese": "在椅子上面。"},
+          {"cue": "개가 있어요?（提示：沒有）", "cueIsAudio": true, "answers": ["아니요, 없어요.", "아니요, 개가 없어요."], "chinese": "沒有。"}
+        ]
+      },
+      "postTest": [
+        {"id": "Q0401", "skill": "hangulRecognition", "kind": "listeningChoice", "prompt": "聽音選字", "audioText": "워", "options": ["와", "워", "위"], "answerIndex": 1, "acceptedAnswers": null, "explanation": "ㅝ：圓唇滑到 ㅓ。"},
+        {"id": "Q0402", "skill": "vocabulary", "kind": "choice", "prompt": "「회사」的意思是？", "audioText": null, "options": ["公司", "蘋果", "耳朵"], "answerIndex": 0, "acceptedAnswers": null, "explanation": "회사＝公司。"},
+        {"id": "Q0403", "skill": "reading", "kind": "choice", "prompt": "「의자 위에 있어요.」的意思是？", "audioText": null, "options": ["在椅子上面。", "是椅子。", "有椅子。"], "answerIndex": 0, "acceptedAnswers": null, "explanation": "위에 있어요＝在上面。"},
+        {"id": "Q0404", "skill": "phonemeDiscrimination", "kind": "choice", "prompt": "現代首爾口語中，ㅐ 和 ㅔ 的發音？", "audioText": null, "options": ["幾乎相同", "完全不同"], "answerIndex": 0, "acceptedAnswers": null, "explanation": "現代口語幾乎同音，靠拼寫區分。"},
+        {"id": "Q0405", "skill": "grammar", "kind": "typing", "prompt": "用韓文寫：有蘋果。", "audioText": null, "options": null, "answerIndex": null, "acceptedAnswers": ["사과가 있어요.", "사과 있어요."], "explanation": "사과가 있어요."},
+        {"id": "Q0406", "skill": "speaking", "kind": "speaking", "prompt": "說出：為什麼？", "audioText": null, "options": null, "answerIndex": null, "acceptedAnswers": ["왜요?"], "explanation": "왜요?"}
+      ],
+      "completion": {"postTestPassRatio": 0.8, "drillAccuracy": 0.8, "requireVocabularyQuiz": true}
+    },
+    {
+      "id": "U01L05",
+      "title": "收音與「我喝水」",
+      "estimatedMinutes": 55,
+      "objectives": [
+        "掌握 7 個代表收音：ㄱ ㄴ ㄷ ㄹ ㅁ ㅂ ㅇ",
+        "理解連音：옷이 → [오시]、먹어요 → [머거요]",
+        "依收音選擇 이에요／예요、이／가、을／를",
+        "用「저는 N을/를 마셔요/먹어요.」說吃喝，用「안」否定"
+      ],
+      "vocabulary": [
+        {"id": "V0039", "korean": "물", "chinese": "水", "romanization": "mul", "partOfSpeech": "noun", "tier": "S", "frequencyRank": 17,
+         "example": {"korean": "저는 물을 마셔요.", "chinese": "我喝水。", "speechLevel": "polite"},
+         "usage": "餐廳的水通常自助，可以說「물 좀 주세요」。", "commonMistake": "收音 ㄹ 舌尖要碰到上齒齦停住，不要唸成「木」。"},
+        {"id": "V0040", "korean": "밥", "chinese": "飯", "romanization": "bap", "partOfSpeech": "noun", "tier": "S", "frequencyRank": 18,
+         "example": {"korean": "밥을 먹어요.", "chinese": "吃飯。", "speechLevel": "polite"},
+         "usage": "「밥 먹었어요?（吃飯了嗎？）」是韓國人常見的問候。", "commonMistake": "收音 ㅂ 雙唇閉上即停，不爆破。"},
+        {"id": "V0041", "korean": "빵", "chinese": "麵包", "romanization": "ppang", "partOfSpeech": "noun", "tier": "S", "frequencyRank": 19,
+         "example": {"korean": "빵을 먹어요.", "chinese": "吃麵包。", "speechLevel": "polite"},
+         "usage": "", "commonMistake": "ㅃ 緊音＋ㅇ 收音（ng）。"},
+        {"id": "V0042", "korean": "책", "chinese": "書", "romanization": "chaek", "partOfSpeech": "noun", "tier": "S", "frequencyRank": 20,
+         "example": {"korean": "이거 책이에요.", "chinese": "這是書。", "speechLevel": "polite"},
+         "usage": "", "commonMistake": "不要在 ㄱ 收音後加「克」的母音。책이에요 唸 [채기에요]。"},
+        {"id": "V0043", "korean": "집", "chinese": "家", "romanization": "jip", "partOfSpeech": "noun", "tier": "S", "frequencyRank": 21,
+         "example": {"korean": "집이에요.", "chinese": "在家（是家）。", "speechLevel": "polite"},
+         "usage": "", "commonMistake": null},
+        {"id": "V0044", "korean": "돈", "chinese": "錢", "romanization": "don", "partOfSpeech": "noun", "tier": "S", "frequencyRank": 22,
+         "example": {"korean": "돈이 없어요.", "chinese": "沒有錢。", "speechLevel": "polite"},
+         "usage": "", "commonMistake": "收音 ㄴ（-n）和 ㅇ（-ng）要分清楚：돈／동。"},
+        {"id": "V0045", "korean": "옷", "chinese": "衣服", "romanization": "ot", "pronunciation": "[옫]，옷이 → [오시]", "partOfSpeech": "noun", "tier": "S", "frequencyRank": 23,
+         "example": {"korean": "옷이에요.", "chinese": "是衣服。", "speechLevel": "polite"},
+         "usage": "購物必學。", "commonMistake": "單獨唸 [옫]，後接母音時 ㅅ 恢復原音：[오시]。"},
+        {"id": "V0046", "korean": "꽃", "chinese": "花", "romanization": "kkot", "pronunciation": "[꼳]，꽃이 → [꼬치]", "partOfSpeech": "noun", "tier": "A", "frequencyRank": 17,
+         "example": {"korean": "꽃이 있어요.", "chinese": "有花。", "speechLevel": "polite"},
+         "usage": "", "commonMistake": null},
+        {"id": "V0047", "korean": "선생님", "chinese": "老師", "romanization": "seon-saeng-nim", "partOfSpeech": "noun", "tier": "S", "frequencyRank": 24,
+         "example": {"korean": "선생님이에요.", "chinese": "是老師。", "speechLevel": "polite"},
+         "usage": "也用來尊稱醫生、專業人士。", "commonMistake": "三個收音 ㄴ、ㅇ、ㅁ 都要清楚。"},
+        {"id": "V0048", "korean": "마셔요", "chinese": "喝", "romanization": "ma-syeo-yo", "partOfSpeech": "verb", "tier": "S", "frequencyRank": 25,
+         "example": {"korean": "커피를 마셔요.", "chinese": "喝咖啡。", "speechLevel": "polite"},
+         "usage": "原形 마시다。", "commonMistake": null},
+        {"id": "V0049", "korean": "먹어요", "chinese": "吃", "romanization": "meo-geo-yo", "pronunciation": "[머거요]", "partOfSpeech": "verb", "tier": "S", "frequencyRank": 26,
+         "example": {"korean": "밥을 먹어요.", "chinese": "吃飯。", "speechLevel": "polite"},
+         "usage": "原形 먹다。", "commonMistake": "連音：ㄱ 移到下一個字，唸 [머거요]，不要唸成「莫克喔有」。"}
+      ],
+      "pronunciation": [
+        {"id": "P0501", "title": "七個代表收音",
+         "explanation": "收音位置有很多字母，但實際只發 7 個音：ㄱ ㅋ ㄲ → [ㄱ]；ㄴ；ㄷ ㅌ ㅅ ㅆ ㅈ ㅊ ㅎ → [ㄷ]；ㄹ；ㅁ；ㅂ ㅍ → [ㅂ]；ㅇ。",
+         "articulation": "收音 ㄱ ㄷ ㅂ 不爆破：舌根（ㄱ）、舌尖（ㄷ）、雙唇（ㅂ）到位就停住，不要放開發出聲音。",
+         "chineseSpeakerPitfall": "最常見的錯誤是在收音後面多加一個「ㄜ」：책 唸成「切克」、밥 唸成「巴普」。另外台灣口音容易混淆 -n 和 -ng（반／방）。",
+         "samples": ["책", "반", "옷", "물", "밤", "밥", "방"],
+         "minimalPairs": [
+           {"a": "반", "b": "방", "contrast": "收音 ㄴ（-n）／ㅇ（-ng）"},
+           {"a": "밤", "b": "밥", "contrast": "收音 ㅁ（鼻音）／ㅂ（不爆破）"},
+           {"a": "박", "b": "밥", "contrast": "收音 ㄱ／ㅂ"}
+         ]},
+        {"id": "P0502", "title": "連音",
+         "explanation": "收音後面接 ㅇ 開頭的字時，收音會移到下一個音節當初聲，並恢復原本的音。",
+         "articulation": "옷이 → [오시]，꽃이 → [꼬치]，책이에요 → [채기에요]，먹어요 → [머거요]，있어요 → [이써요]。",
+         "chineseSpeakerPitfall": "照字一個一個唸會很不自然，要把收音「推」到下一個字。",
+         "samples": ["옷이", "꽃이", "책이에요", "먹어요", "물을"],
+         "minimalPairs": []}
+      ],
+      "grammar": [
+        {"id": "G0501", "title": "이에요／예요 的選擇", "pattern": "有收音＋이에요；無收音＋예요",
+         "explanation": "名詞最後一個字有收音（책、물、옷）接 이에요；沒有收音（우유、커피）接 예요。否定時同理：책이 아니에요／우유가 아니에요。",
+         "speechLevel": "polite",
+         "examples": [
+           {"korean": "책이에요.", "chinese": "是書。", "speechLevel": "polite"},
+           {"korean": "커피예요.", "chinese": "是咖啡。", "speechLevel": "polite"}
+         ]},
+        {"id": "G0502", "title": "N을/를 ＋ 動詞（受詞）", "pattern": "有收音＋을；無收音＋를",
+         "explanation": "「을/를」標示動作的對象。韓語語序是「主語－受詞－動詞」：저는（我）물을（水）마셔요（喝）。",
+         "speechLevel": "polite",
+         "examples": [
+           {"korean": "저는 물을 마셔요.", "chinese": "我喝水。", "speechLevel": "polite"},
+           {"korean": "저는 커피를 마셔요.", "chinese": "我喝咖啡。", "speechLevel": "polite"}
+         ]},
+        {"id": "G0503", "title": "안 ＋ 動詞（不…）", "pattern": "안 ＋ 動詞",
+         "explanation": "在動詞前面加「안」就變成否定：마셔요 → 안 마셔요（不喝）。",
+         "speechLevel": "polite",
+         "examples": [
+           {"korean": "저는 빵을 안 먹어요.", "chinese": "我不吃麵包。", "speechLevel": "polite"}
+         ]}
+      ],
+      "examples": [
+        {"korean": "저는 커피를 마셔요.", "chinese": "我喝咖啡。", "speechLevel": "polite"},
+        {"korean": "저는 물을 마셔요.", "chinese": "我喝水。", "speechLevel": "polite"},
+        {"korean": "밥을 먹어요.", "chinese": "吃飯。", "speechLevel": "polite"},
+        {"korean": "저는 빵을 안 먹어요.", "chinese": "我不吃麵包。", "speechLevel": "polite"},
+        {"korean": "이거 책이에요.", "chinese": "這是書。", "speechLevel": "polite"}
+      ],
+      "listening": [
+        {"id": "L0501", "audioText": "반", "question": "你聽到的是哪一個？", "options": ["반", "방", "밤"], "answerIndex": 0, "explanation": "收音 ㄴ：舌尖抵上齒齦。"},
+        {"id": "L0502", "audioText": "밥", "question": "你聽到的是哪一個？", "options": ["밤", "밥", "박"], "answerIndex": 1, "explanation": "收音 ㅂ：雙唇閉合不爆破。"},
+        {"id": "L0503", "audioText": "저는 물을 마셔요.", "question": "意思是？", "options": ["我喝水。", "我喝咖啡。", "我吃飯。"], "answerIndex": 0, "explanation": "물을 마셔요＝喝水。"},
+        {"id": "L0504", "audioText": "옷이에요.", "question": "意思是？", "options": ["是衣服。", "是花。", "是錢。"], "answerIndex": 0, "explanation": "옷이에요 唸 [오시에요]。"}
+      ],
+      "drills": [
+        {"id": "D0501", "type": "substitution", "instruction": "聽示範句，把飲料換成提示詞（注意 을／를）。",
+         "model": {"korean": "저는 커피를 마셔요.", "chinese": "我喝咖啡。", "speechLevel": "polite"}, "thinkSeconds": 8,
+         "items": [
+           {"cue": "물", "answers": ["저는 물을 마셔요."], "chinese": "我喝水。"},
+           {"cue": "우유", "answers": ["저는 우유를 마셔요."], "chinese": "我喝牛奶。"},
+           {"cue": "차", "answers": ["저는 차를 마셔요."], "chinese": "我喝茶。"},
+           {"cue": "주스", "answers": ["저는 주스를 마셔요."], "chinese": "我喝果汁。"},
+           {"cue": "술（酒）", "answers": ["저는 술을 마셔요."], "chinese": "我喝酒。"}
+         ]},
+        {"id": "D0502", "type": "substitution", "instruction": "把食物換成提示詞（注意 을／를）。",
+         "model": {"korean": "저는 밥을 먹어요.", "chinese": "我吃飯。", "speechLevel": "polite"}, "thinkSeconds": 8,
+         "items": [
+           {"cue": "빵", "answers": ["저는 빵을 먹어요."], "chinese": "我吃麵包。"},
+           {"cue": "피자", "answers": ["저는 피자를 먹어요."], "chinese": "我吃披薩。"},
+           {"cue": "사과", "answers": ["저는 사과를 먹어요."], "chinese": "我吃蘋果。"},
+           {"cue": "두부", "answers": ["저는 두부를 먹어요."], "chinese": "我吃豆腐。"},
+           {"cue": "오이", "answers": ["저는 오이를 먹어요."], "chinese": "我吃小黃瓜。"}
+         ]},
+        {"id": "D0503", "type": "transformation", "instruction": "肯定 → 否定：在動詞前加「안」。",
+         "model": {"korean": "저는 물을 마셔요. → 저는 물을 안 마셔요.", "chinese": "我喝水。→ 我不喝水。", "speechLevel": "polite"}, "thinkSeconds": 8,
+         "items": [
+           {"cue": "저는 물을 마셔요.", "answers": ["저는 물을 안 마셔요."], "chinese": "我不喝水。"},
+           {"cue": "저는 커피를 마셔요.", "answers": ["저는 커피를 안 마셔요."], "chinese": "我不喝咖啡。"},
+           {"cue": "저는 밥을 먹어요.", "answers": ["저는 밥을 안 먹어요."], "chinese": "我不吃飯。"},
+           {"cue": "저는 빵을 먹어요.", "answers": ["저는 빵을 안 먹어요."], "chinese": "我不吃麵包。"},
+           {"cue": "저는 피자를 먹어요.", "answers": ["저는 피자를 안 먹어요."], "chinese": "我不吃披薩。"}
+         ]},
+        {"id": "D0504", "type": "transformation", "instruction": "肯定 → 否定：注意 이／가 的選擇。",
+         "model": {"korean": "책이에요. → 책이 아니에요.", "chinese": "是書。→ 不是書。", "speechLevel": "polite"}, "thinkSeconds": 7,
+         "items": [
+           {"cue": "책이에요.", "answers": ["책이 아니에요."], "chinese": "不是書。"},
+           {"cue": "물이에요.", "answers": ["물이 아니에요."], "chinese": "不是水。"},
+           {"cue": "집이에요.", "answers": ["집이 아니에요."], "chinese": "不是家。"},
+           {"cue": "돈이에요.", "answers": ["돈이 아니에요."], "chinese": "不是錢。"},
+           {"cue": "커피예요.", "answers": ["커피가 아니에요."], "chinese": "不是咖啡。"}
+         ]},
+        {"id": "D0505", "type": "questionAnswer", "instruction": "聽韓語問題，依提示直接回答。",
+         "model": {"korean": "뭐 마셔요? — 물을 마셔요.", "chinese": "喝什麼？——喝水。", "speechLevel": "polite"}, "thinkSeconds": 8,
+         "items": [
+           {"cue": "뭐 마셔요?（水）", "cueIsAudio": true, "answers": ["물을 마셔요.", "저는 물을 마셔요."], "chinese": "喝水。"},
+           {"cue": "뭐 먹어요?（麵包）", "cueIsAudio": true, "answers": ["빵을 먹어요.", "저는 빵을 먹어요."], "chinese": "吃麵包。"},
+           {"cue": "커피를 마셔요?（不喝）", "cueIsAudio": true, "answers": ["아니요, 커피를 안 마셔요.", "아니요, 안 마셔요."], "chinese": "不，不喝咖啡。"},
+           {"cue": "밥을 먹어요?（是）", "cueIsAudio": true, "answers": ["네, 밥을 먹어요.", "네, 먹어요."], "chinese": "對，吃飯。"},
+           {"cue": "이거 뭐예요?（書）", "cueIsAudio": true, "answers": ["책이에요.", "이거 책이에요."], "chinese": "是書。"}
+         ]},
+        {"id": "D0506", "type": "freeProduction", "instruction": "用「저는 …을/를 마셔요／먹어요」說出你今天吃喝了什麼（兩句）。",
+         "model": {"korean": "저는 밥을 먹어요. 저는 커피를 마셔요.", "chinese": "我吃飯。我喝咖啡。", "speechLevel": "polite"}, "thinkSeconds": 10,
+         "items": [
+           {"cue": "自由回答", "answers": ["저는 밥을 먹어요.", "저는 커피를 마셔요."], "chinese": "（參考答案）"}
+         ]}
+      ],
+      "speaking": {
+        "scenario": "早上和韓國室友聊早餐。AI 扮演室友。使用者會：을/를 마셔요／먹어요、안、이에요／예요、네／아니요。",
+        "speechLevel": "polite",
+        "offlineScript": [
+          {"cue": "뭐 먹어요?（提示：麵包）", "cueIsAudio": true, "answers": ["빵을 먹어요.", "저는 빵을 먹어요."], "chinese": "吃麵包。"},
+          {"cue": "커피를 마셔요?（提示：不，喝茶）", "cueIsAudio": true, "answers": ["아니요, 차를 마셔요.", "아니요, 저는 차를 마셔요."], "chinese": "不，喝茶。"},
+          {"cue": "이거 뭐예요?（提示：書）", "cueIsAudio": true, "answers": ["책이에요.", "이거 책이에요."], "chinese": "是書。"}
+        ]
+      },
+      "postTest": [
+        {"id": "Q0501", "skill": "phonemeDiscrimination", "kind": "listeningChoice", "prompt": "聽音選字", "audioText": "방", "options": ["반", "방", "밤"], "answerIndex": 1, "acceptedAnswers": null, "explanation": "收音 ㅇ（-ng）。"},
+        {"id": "Q0502", "skill": "grammar", "kind": "choice", "prompt": "「我喝水。」哪一句正確？", "audioText": null, "options": ["저는 물을 마셔요.", "저는 물를 마셔요.", "저는 물이 마셔요."], "answerIndex": 0, "acceptedAnswers": null, "explanation": "물 有收音，接 을。"},
+        {"id": "Q0503", "skill": "grammar", "kind": "choice", "prompt": "「是書。」哪一句正確？", "audioText": null, "options": ["책이에요.", "책예요.", "책이예요."], "answerIndex": 0, "acceptedAnswers": null, "explanation": "책 有收音，接 이에요。"},
+        {"id": "Q0504", "skill": "phonemeDiscrimination", "kind": "choice", "prompt": "「옷이」實際怎麼唸？", "audioText": null, "options": ["[오시]", "[오디]", "[옫이]"], "answerIndex": 0, "acceptedAnswers": null, "explanation": "連音：ㅅ 移到下一個字。"},
+        {"id": "Q0505", "skill": "grammar", "kind": "typing", "prompt": "用韓文寫：我不吃飯。", "audioText": null, "options": null, "answerIndex": null, "acceptedAnswers": ["저는 밥을 안 먹어요.", "밥을 안 먹어요."], "explanation": "안＋먹어요。"},
+        {"id": "Q0506", "skill": "speaking", "kind": "speaking", "prompt": "說出：我喝咖啡。", "audioText": null, "options": null, "answerIndex": null, "acceptedAnswers": ["저는 커피를 마셔요.", "커피를 마셔요."], "explanation": "저는 커피를 마셔요."}
+      ],
+      "completion": {"postTestPassRatio": 0.8, "drillAccuracy": 0.8, "requireVocabularyQuiz": true}
+    }
+  ]
+}
