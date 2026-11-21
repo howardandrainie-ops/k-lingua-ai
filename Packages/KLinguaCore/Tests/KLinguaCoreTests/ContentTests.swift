@@ -224,7 +224,7 @@ struct ContentTests {
     @Test("全部 12 單元開放：60 課，單字不重複")
     func wholeCourse() throws {
         let lib = try ContentLibrary.loadBundled()
-        #expect(lib.units.allSatisfy(\.available))
+        #expect(lib.units.allSatisfy { $0.available })
         #expect(lib.allLessons.count == 60)
         let words = lib.allVocabulary.map(\.korean)
         #expect(words.count >= 600)
