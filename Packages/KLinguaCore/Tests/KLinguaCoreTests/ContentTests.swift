@@ -189,6 +189,24 @@ struct ContentTests {
         #expect(u10.lessons.flatMap(\.vocabulary).allSatisfy { !earlier.contains($0.korean) })
     }
 
+    @Test("單元 11 聽力：每課 6 題聽力，廣播課用正式語體，轉述句型正確")
+    func unit11() throws {
+        let lib = try ContentLibrary.loadBundled()
+        let u11 = lib.units[10]
+        #expect(u11.number == 11)
+        #expect(u11.available)
+        #expect(u11.stage == .naturalSpeedListening)
+        #expect(u11.lessons.map(\.id) == ["U11L01", "U11L02", "U11L03", "U11L04", "U11L05"])
+        #expect(u11.lessons.allSatisfy { $0.listening.count >= 6 })
+        #expect(u11.lessons[2].grammar.allSatisfy { $0.speechLevel == .formal })
+        let answers = u11.lessons.flatMap(\.drills).flatMap(\.items).flatMap(\.answers)
+        #expect(answers.contains("민수 씨가 오늘 못 온다고 했어요."))   // 動詞 -(느)ㄴ다고
+        #expect(answers.contains("민수 씨가 학생이라고 했어요."))       // 名詞 -(이)라고
+        #expect(answers.contains("내일 춥대요."))                      // -대요 縮略
+        let earlier = Set(lib.units.prefix(10).flatMap(\.lessons).flatMap(\.vocabulary).map(\.korean))
+        #expect(u11.lessons.flatMap(\.vocabulary).allSatisfy { !earlier.contains($0.korean) })
+    }
+
     @Test("數字答案：韓文、阿拉伯數字、千分位、語音辨識結果都判為正確")
     func numberAnswersAcceptDigits() throws {
         let lib = try ContentLibrary.loadBundled()

@@ -3,7 +3,3590 @@
   "number": 11,
   "title": "聽力及自然語速",
   "stage": 6,
-  "summary": "自然語速下的音變、縮略與口語省略，影片與對話聽力訓練。",
-  "available": false,
-  "lessons": []
+  "summary": "口語縮略與助詞省略、-는데요／-거든요 的語氣、廣播與天氣預報（-겠습니다、-(으)시기 바랍니다）、電話與轉述（-다고 했어요、-대요）、填充詞與確認理解（-다고요?）。聽力題較多（每課 6 題）。",
+  "available": true,
+  "lessons": [
+    {
+      "id": "U11L01",
+      "title": "口語的縮略與省略",
+      "estimatedMinutes": 50,
+      "objectives": [
+        "聽懂代名詞＋助詞的縮略：이것은 → 이건、무엇을 → 뭘、저는 → 전",
+        "聽懂 근데、걔／얘／쟤、어떡해 等口語形式",
+        "知道口語常省略 을/를、이/가 等助詞",
+        "自己說話時也能自然地使用縮略"
+      ],
+      "vocabulary": [
+        {
+          "id": "V0556",
+          "korean": "이건",
+          "chinese": "這個（是）",
+          "romanization": "i-geon",
+          "partOfSpeech": "pronoun",
+          "tier": "S",
+          "frequencyRank": 323,
+          "example": {
+            "korean": "이건 뭐예요?",
+            "chinese": "這是什麼？",
+            "speechLevel": "polite"
+          },
+          "usage": "이것은 的縮略；그건、저건 同理。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0557",
+          "korean": "이게",
+          "chinese": "這個（主語）",
+          "romanization": "i-ge",
+          "partOfSpeech": "pronoun",
+          "tier": "S",
+          "frequencyRank": 324,
+          "example": {
+            "korean": "이게 제일 맛있어요.",
+            "chinese": "這個最好吃。",
+            "speechLevel": "polite"
+          },
+          "usage": "이것이 的縮略；그게、저게 同理。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0558",
+          "korean": "뭘",
+          "chinese": "什麼（受詞）",
+          "romanization": "mwol",
+          "partOfSpeech": "pronoun",
+          "tier": "S",
+          "frequencyRank": 325,
+          "example": {
+            "korean": "뭘 먹을까?",
+            "chinese": "要吃什麼？",
+            "speechLevel": "casual"
+          },
+          "usage": "무엇을 的縮略。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0559",
+          "korean": "전",
+          "chinese": "我（是）",
+          "romanization": "jeon",
+          "partOfSpeech": "pronoun",
+          "tier": "S",
+          "frequencyRank": 326,
+          "example": {
+            "korean": "전 괜찮아요.",
+            "chinese": "我沒關係。",
+            "speechLevel": "polite"
+          },
+          "usage": "저는 的縮略；半語是 난（나는）。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0560",
+          "korean": "근데",
+          "chinese": "可是；話說",
+          "romanization": "geun-de",
+          "partOfSpeech": "adverb",
+          "tier": "S",
+          "frequencyRank": 327,
+          "example": {
+            "korean": "근데 내일 뭐 해?",
+            "chinese": "話說明天要幹嘛？",
+            "speechLevel": "casual"
+          },
+          "usage": "그런데 的口語縮略，也常用來換話題。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0561",
+          "korean": "걔",
+          "chinese": "那個人（那孩子）",
+          "romanization": "gyae",
+          "partOfSpeech": "pronoun",
+          "tier": "A",
+          "frequencyRank": 193,
+          "example": {
+            "korean": "걔 진짜 웃겨.",
+            "chinese": "那傢伙真的很好笑。",
+            "speechLevel": "casual"
+          },
+          "usage": "그 아이 的縮略，指對話中提到的人；얘＝這個人、쟤＝那個人（遠處）。只對朋友說。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0562",
+          "korean": "어떡해",
+          "chinese": "怎麼辦",
+          "romanization": "eo-tteo-kae",
+          "pronunciation": "[어떠캐]",
+          "partOfSpeech": "expression",
+          "tier": "S",
+          "frequencyRank": 328,
+          "example": {
+            "korean": "어떡해! 지갑이 없어!",
+            "chinese": "怎麼辦！錢包不見了！",
+            "speechLevel": "casual"
+          },
+          "usage": "어떻게 해 的縮略。",
+          "commonMistake": "寫成 어떻해 是錯的。"
+        },
+        {
+          "id": "V0563",
+          "korean": "좀",
+          "chinese": "有點；稍微；請",
+          "romanization": "jom",
+          "partOfSpeech": "adverb",
+          "tier": "S",
+          "frequencyRank": 329,
+          "example": {
+            "korean": "좀 도와줄래?",
+            "chinese": "可以幫我一下嗎？",
+            "speechLevel": "casual"
+          },
+          "usage": "조금 的縮略；請求時加 좀 會比較委婉。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0564",
+          "korean": "그럼",
+          "chinese": "那麼；那樣的話",
+          "romanization": "geu-reom",
+          "partOfSpeech": "adverb",
+          "tier": "S",
+          "frequencyRank": 330,
+          "example": {
+            "korean": "그럼 내일 봐.",
+            "chinese": "那明天見。",
+            "speechLevel": "casual"
+          },
+          "usage": "그러면 的縮略。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0565",
+          "korean": "그니까",
+          "chinese": "所以說；就是說",
+          "romanization": "geu-ni-kka",
+          "partOfSpeech": "adverb",
+          "tier": "A",
+          "frequencyRank": 194,
+          "example": {
+            "korean": "그니까 내 말은…",
+            "chinese": "所以我的意思是……",
+            "speechLevel": "casual"
+          },
+          "usage": "그러니까 的口語縮略；也用來附和：그니까!（就是說啊！）",
+          "commonMistake": null
+        },
+        {
+          "id": "V0566",
+          "korean": "되게",
+          "chinese": "很；非常（口語）",
+          "romanization": "doe-ge",
+          "partOfSpeech": "adverb",
+          "tier": "A",
+          "frequencyRank": 195,
+          "example": {
+            "korean": "되게 맛있다!",
+            "chinese": "超好吃！",
+            "speechLevel": "casual"
+          },
+          "usage": "口語中當「非常」用，比 아주 更隨意。",
+          "commonMistake": null
+        }
+      ],
+      "pronunciation": [
+        {
+          "id": "P5101",
+          "title": "縮略形的發音",
+          "explanation": "이것은 → 이건、그것을 → 그걸、무엇을 → 뭘、저는 → 전、나는 → 난、그런데 → 근데、어떻게 해 → 어떡해 [어떠캐]。自然對話裡幾乎都用縮略形，聽到時要能馬上還原。",
+          "articulation": "縮略形唸得很短，常和下一個字連在一起：이건 뭐야 → [이건뭐야]。",
+          "chineseSpeakerPitfall": "只聽得懂完整形（이것은），一聽到 이건 就卡住。",
+          "samples": [
+            "이건",
+            "그걸",
+            "뭘",
+            "근데",
+            "어떡해"
+          ],
+          "minimalPairs": []
+        },
+        {
+          "id": "P5102",
+          "title": "口語中被省略的助詞",
+          "explanation": "說話時常省略 을/를、이/가：밥 먹었어?（밥을）、나 지금 가（나는）、이거 뭐야?（이것은）。少了助詞，句子會更短、更快，要靠語序和上下文理解。",
+          "articulation": "跟讀時不要自己補上助詞，模仿原句的節奏。",
+          "chineseSpeakerPitfall": "每句都把助詞說完整，聽起來像在念課本。",
+          "samples": [
+            "밥 먹었어?",
+            "나 지금 가",
+            "이거 뭐야?"
+          ],
+          "minimalPairs": []
+        }
+      ],
+      "grammar": [
+        {
+          "id": "G5101",
+          "title": "常見縮略形",
+          "pattern": "이것은→이건；이것이→이게；이것을→이걸；무엇을→뭘；저는→전；나는→난；그런데→근데；그러면→그럼；그 아이→걔",
+          "explanation": "代名詞和助詞合在一起時常縮略。這些縮略在自然對話、電視劇裡非常多，寫正式文章時才用完整形。그건、그게、그걸 和 저건、저게、저걸 也一樣。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "이건 제 거예요.",
+              "chinese": "這是我的。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "근데 걔 누구야?",
+              "chinese": "話說那個人是誰？",
+              "speechLevel": "casual"
+            }
+          ]
+        },
+        {
+          "id": "G5102",
+          "title": "助詞省略與口語語序",
+          "pattern": "口語常省略 은/는、이/가、을/를",
+          "explanation": "朋友之間：밥 먹었어?、나 배고파、이거 얼마야?。助詞省略後，靠語序（主語－受詞－動詞）和上下文判斷意思。但 에、에서、한테 等表示地點、對象的助詞比較少省略。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "나 배고파. 밥 먹자.",
+              "chinese": "我餓了，去吃飯吧。",
+              "speechLevel": "casual"
+            },
+            {
+              "korean": "너 그거 봤어?",
+              "chinese": "你看了那個嗎？",
+              "speechLevel": "casual"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "korean": "이건 뭐예요?",
+          "chinese": "這是什麼？",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "뭘 먹을까?",
+          "chinese": "要吃什麼？",
+          "speechLevel": "casual"
+        },
+        {
+          "korean": "근데 걔 누구야?",
+          "chinese": "話說那個人是誰？",
+          "speechLevel": "casual"
+        },
+        {
+          "korean": "어떡해! 늦었어!",
+          "chinese": "怎麼辦！遲到了！",
+          "speechLevel": "casual"
+        },
+        {
+          "korean": "전 괜찮아요.",
+          "chinese": "我沒關係。",
+          "speechLevel": "polite"
+        }
+      ],
+      "listening": [
+        {
+          "id": "L5101",
+          "audioText": "이건 뭐예요?",
+          "question": "「이건」是哪個詞的縮略？",
+          "options": [
+            "이것은",
+            "이것을",
+            "이것이"
+          ],
+          "answerIndex": 0,
+          "explanation": "이것은 → 이건。"
+        },
+        {
+          "id": "L5102",
+          "audioText": "뭘 먹을까?",
+          "question": "「뭘」是什麼意思？",
+          "options": [
+            "什麼（무엇을）",
+            "為什麼（왜）",
+            "哪裡（어디）"
+          ],
+          "answerIndex": 0,
+          "explanation": "무엇을 → 뭘。"
+        },
+        {
+          "id": "L5103",
+          "audioText": "근데 걔 누구야?",
+          "question": "說話的人在問什麼？",
+          "options": [
+            "話說那個人是誰？",
+            "為什麼那樣做？",
+            "那個東西是誰的？"
+          ],
+          "answerIndex": 0,
+          "explanation": "근데＝話說；걔＝那個人。"
+        },
+        {
+          "id": "L5104",
+          "audioText": "어떡해! 지갑이 없어!",
+          "question": "發生了什麼事？",
+          "options": [
+            "錢包不見了，很慌張",
+            "買了新錢包",
+            "錢包很貴"
+          ],
+          "answerIndex": 0,
+          "explanation": "어떡해＝怎麼辦。"
+        },
+        {
+          "id": "L5105",
+          "audioText": "나 배고파. 밥 먹자.",
+          "question": "說話的人想做什麼？",
+          "options": [
+            "去吃飯",
+            "去買東西",
+            "回家睡覺"
+          ],
+          "answerIndex": 0,
+          "explanation": "省略助詞的口語句子。"
+        },
+        {
+          "id": "L5106",
+          "audioText": "어떡해",
+          "question": "實際發音最接近哪一個？",
+          "options": [
+            "[어떠캐]",
+            "[어떡해]（照字）",
+            "[어떠개]"
+          ],
+          "answerIndex": 0,
+          "explanation": "ㄱ＋ㅎ 激音化。"
+        }
+      ],
+      "drills": [
+        {
+          "id": "D5101",
+          "type": "transformation",
+          "instruction": "完整形 → 口語縮略形。",
+          "model": {
+            "korean": "이것은 뭐예요? → 이건 뭐예요?",
+            "chinese": "這是什麼？",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 6,
+          "items": [
+            {
+              "cue": "그것은 제 거예요.",
+              "answers": [
+                "그건 제 거예요."
+              ],
+              "chinese": "那是我的。"
+            },
+            {
+              "cue": "무엇을 먹을까요?",
+              "answers": [
+                "뭘 먹을까요?"
+              ],
+              "chinese": "要吃什麼？"
+            },
+            {
+              "cue": "저는 괜찮아요.",
+              "answers": [
+                "전 괜찮아요."
+              ],
+              "chinese": "我沒關係。"
+            },
+            {
+              "cue": "이것이 제일 좋아요.",
+              "answers": [
+                "이게 제일 좋아요."
+              ],
+              "chinese": "這個最好。"
+            },
+            {
+              "cue": "그런데 내일 뭐 해요?",
+              "answers": [
+                "근데 내일 뭐 해요?"
+              ],
+              "chinese": "話說明天要做什麼？"
+            }
+          ]
+        },
+        {
+          "id": "D5102",
+          "type": "transformation",
+          "instruction": "口語縮略形 → 完整形（聽懂後還原）。",
+          "model": {
+            "korean": "저건 뭐야? → 저것은 뭐야?",
+            "chinese": "那是什麼？",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 6,
+          "items": [
+            {
+              "cue": "난 학생이야.",
+              "answers": [
+                "나는 학생이야."
+              ],
+              "chinese": "我是學生。"
+            },
+            {
+              "cue": "그걸 샀어?",
+              "answers": [
+                "그것을 샀어?"
+              ],
+              "chinese": "你買了那個嗎？"
+            },
+            {
+              "cue": "뭘 찾아?",
+              "answers": [
+                "무엇을 찾아?"
+              ],
+              "chinese": "在找什麼？"
+            },
+            {
+              "cue": "그럼 내일 봐.",
+              "answers": [
+                "그러면 내일 봐."
+              ],
+              "chinese": "那明天見。"
+            },
+            {
+              "cue": "어떡해?",
+              "answers": [
+                "어떻게 해?"
+              ],
+              "chinese": "怎麼辦？"
+            }
+          ]
+        },
+        {
+          "id": "D5103",
+          "type": "substitution",
+          "instruction": "用縮略形問「這／那／那（遠處）是什麼？」",
+          "model": {
+            "korean": "이건 뭐야?",
+            "chinese": "這是什麼？",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 5,
+          "items": [
+            {
+              "cue": "那個（靠近對方）",
+              "answers": [
+                "그건 뭐야?"
+              ],
+              "chinese": "那是什麼？"
+            },
+            {
+              "cue": "那個（遠處）",
+              "answers": [
+                "저건 뭐야?"
+              ],
+              "chinese": "那是什麼？"
+            },
+            {
+              "cue": "這個最好吃（主語）",
+              "answers": [
+                "이게 제일 맛있어."
+              ],
+              "chinese": "這個最好吃。"
+            },
+            {
+              "cue": "那個人是誰（걔）",
+              "answers": [
+                "걔 누구야?"
+              ],
+              "chinese": "那個人是誰？"
+            },
+            {
+              "cue": "要吃什麼（뭘）",
+              "answers": [
+                "뭘 먹을까?"
+              ],
+              "chinese": "要吃什麼？"
+            }
+          ]
+        },
+        {
+          "id": "D5104",
+          "type": "questionAnswer",
+          "instruction": "朋友用很口語的方式說話，依提示用半語回答。",
+          "model": {
+            "korean": "이거 뭐야? — 그거 선물이야.",
+            "chinese": "這是什麼？——那是禮物。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 6,
+          "items": [
+            {
+              "cue": "이거 뭐야?（那是我的）",
+              "cueIsAudio": true,
+              "answers": [
+                "그거 내 거야.",
+                "그건 내 거야."
+              ],
+              "chinese": "那是我的。"
+            },
+            {
+              "cue": "뭘 먹을까?（隨便，什麼都好——아무거나）",
+              "cueIsAudio": true,
+              "answers": [
+                "아무거나 좋아.",
+                "난 아무거나 좋아."
+              ],
+              "chinese": "什麼都好。"
+            },
+            {
+              "cue": "근데 걔 누구야?（我的朋友）",
+              "cueIsAudio": true,
+              "answers": [
+                "내 친구야.",
+                "걔 내 친구야."
+              ],
+              "chinese": "我的朋友。"
+            },
+            {
+              "cue": "어떡해! 버스 놓쳤어!（那搭計程車吧）",
+              "cueIsAudio": true,
+              "answers": [
+                "그럼 택시 타.",
+                "그럼 택시 타자."
+              ],
+              "chinese": "那搭計程車吧。"
+            },
+            {
+              "cue": "너 밥 먹었어?（嗯，吃了）",
+              "cueIsAudio": true,
+              "answers": [
+                "응, 먹었어.",
+                "응, 밥 먹었어."
+              ],
+              "chinese": "嗯，吃了。"
+            }
+          ]
+        },
+        {
+          "id": "D5105",
+          "type": "freeProduction",
+          "instruction": "用兩句很口語的半語和朋友聊天（至少用一個縮略形）。",
+          "model": {
+            "korean": "근데 이거 되게 맛있다! 뭘 넣었어?",
+            "chinese": "話說這個超好吃！你加了什麼？",
+            "speechLevel": "casual"
+          },
+          "thinkSeconds": 10,
+          "items": [
+            {
+              "cue": "自由回答",
+              "answers": [
+                "근데 이거 되게 맛있다!",
+                "뭘 넣었어?"
+              ],
+              "chinese": "（參考答案）"
+            }
+          ]
+        }
+      ],
+      "speaking": {
+        "scenario": "和韓國朋友逛便利商店，朋友說話很快、很口語。AI 扮演朋友。使用者會：聽懂 이건／뭘／근데／걔，用縮略形回應。",
+        "speechLevel": "casual",
+        "offlineScript": [
+          {
+            "cue": "뭘 살 거야?（提示：這個——指著零食，這個好吃嗎？）",
+            "cueIsAudio": true,
+            "answers": [
+              "이거 맛있어?",
+              "이게 맛있어?"
+            ],
+            "chinese": "這個好吃嗎？"
+          },
+          {
+            "cue": "응, 되게 맛있어. 근데 걔 아직 안 왔어?（提示：還沒，好像會遲到）",
+            "cueIsAudio": true,
+            "answers": [
+              "아직 안 왔어. 늦을 것 같아.",
+              "응, 아직. 늦을 것 같아."
+            ],
+            "chinese": "還沒來，好像會遲到。"
+          },
+          {
+            "cue": "어떡해, 영화 곧 시작하는데.（提示：那我們先去吧）",
+            "cueIsAudio": true,
+            "answers": [
+              "그럼 우리 먼저 가자.",
+              "그럼 먼저 가자."
+            ],
+            "chinese": "那我們先去吧。"
+          }
+        ]
+      },
+      "postTest": [
+        {
+          "id": "Q5101",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「무엇을」的口語縮略是？",
+          "audioText": null,
+          "options": [
+            "뭘",
+            "뭐가",
+            "뭔"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "무엇을 → 뭘。"
+        },
+        {
+          "id": "Q5102",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「저는 괜찮아요」的縮略說法是？",
+          "audioText": null,
+          "options": [
+            "전 괜찮아요.",
+            "저 괜찮아요?",
+            "제 괜찮아요."
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "저는 → 전。"
+        },
+        {
+          "id": "Q5103",
+          "skill": "listening",
+          "kind": "listeningChoice",
+          "prompt": "聽句子選意思",
+          "audioText": "그건 내 거야.",
+          "options": [
+            "那是我的。",
+            "那個我要了。",
+            "那不是我的。"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "그건＝그것은。"
+        },
+        {
+          "id": "Q5104",
+          "skill": "vocabulary",
+          "kind": "choice",
+          "prompt": "「근데」在對話中的作用是？",
+          "audioText": null,
+          "options": [
+            "可是／話說（換話題）",
+            "所以",
+            "那麼"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "그런데 的縮略：可是、話說。"
+        },
+        {
+          "id": "Q5105",
+          "skill": "grammar",
+          "kind": "typing",
+          "prompt": "用韓文寫（縮略形）：這是什麼？",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "이건 뭐예요?",
+            "이건 뭐야?"
+          ],
+          "explanation": "이건 뭐예요?"
+        },
+        {
+          "id": "Q5106",
+          "skill": "speaking",
+          "kind": "speaking",
+          "prompt": "用半語說：怎麼辦！",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "어떡해!",
+            "어떡해",
+            "어떡해?"
+          ],
+          "explanation": "어떡해!"
+        }
+      ],
+      "completion": {
+        "postTestPassRatio": 0.8,
+        "drillAccuracy": 0.8,
+        "requireVocabularyQuiz": true
+      }
+    },
+    {
+      "id": "U11L02",
+      "title": "自然語氣的句尾「-는데요」「-거든요」",
+      "estimatedMinutes": 50,
+      "objectives": [
+        "聽懂 -는데(요) 的三種用法：鋪陳背景、委婉、等對方回應",
+        "用 -거든(요) 說明理由：약속이 있거든요",
+        "聽出句尾語氣：說話者是在拒絕、解釋還是期待回應",
+        "用這兩個語尾讓自己的韓語聽起來更自然"
+      ],
+      "vocabulary": [
+        {
+          "id": "V0567",
+          "korean": "-는데요",
+          "chinese": "（委婉、鋪陳）…呢",
+          "romanization": "neun-de-yo",
+          "partOfSpeech": "expression",
+          "tier": "S",
+          "frequencyRank": 331,
+          "example": {
+            "korean": "지금 좀 바쁜데요.",
+            "chinese": "我現在有點忙耶……",
+            "speechLevel": "polite"
+          },
+          "usage": "動詞＋는데요、形容詞＋(으)ㄴ데요、名詞＋인데요。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0568",
+          "korean": "-거든요",
+          "chinese": "因為…嘛（說明理由）",
+          "romanization": "geo-deun-yo",
+          "partOfSpeech": "expression",
+          "tier": "S",
+          "frequencyRank": 332,
+          "example": {
+            "korean": "오늘 못 가요. 약속이 있거든요.",
+            "chinese": "今天不能去，因為有約了嘛。",
+            "speechLevel": "polite"
+          },
+          "usage": "語幹＋거든요；過去：-았/었거든요。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0569",
+          "korean": "사실",
+          "chinese": "其實",
+          "romanization": "sa-sil",
+          "partOfSpeech": "adverb",
+          "tier": "S",
+          "frequencyRank": 333,
+          "example": {
+            "korean": "사실 저 한국어 배우고 있거든요.",
+            "chinese": "其實我在學韓語嘛。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0570",
+          "korean": "혹시",
+          "chinese": "請問；該不會",
+          "romanization": "hok-si",
+          "pronunciation": "[혹씨]",
+          "partOfSpeech": "adverb",
+          "tier": "S",
+          "frequencyRank": 334,
+          "example": {
+            "korean": "혹시 시간 있으세요?",
+            "chinese": "請問您有時間嗎？",
+            "speechLevel": "polite"
+          },
+          "usage": "禮貌地提問前常加 혹시。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0571",
+          "korean": "어쩌면",
+          "chinese": "說不定",
+          "romanization": "eo-jjeo-myeon",
+          "partOfSpeech": "adverb",
+          "tier": "A",
+          "frequencyRank": 196,
+          "example": {
+            "korean": "어쩌면 늦을 수도 있어요.",
+            "chinese": "說不定會遲到。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0572",
+          "korean": "원래",
+          "chinese": "本來；原本",
+          "romanization": "wol-lae",
+          "pronunciation": "[월래]",
+          "partOfSpeech": "adverb",
+          "tier": "A",
+          "frequencyRank": 197,
+          "example": {
+            "korean": "원래 매운 거 잘 먹거든요.",
+            "chinese": "我本來就很能吃辣嘛。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0573",
+          "korean": "그래서요?",
+          "chinese": "然後呢？",
+          "romanization": "geu-rae-seo-yo",
+          "partOfSpeech": "expression",
+          "tier": "A",
+          "frequencyRank": 198,
+          "example": {
+            "korean": "아, 그래서요?",
+            "chinese": "喔，然後呢？",
+            "speechLevel": "polite"
+          },
+          "usage": "催對方繼續說。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0574",
+          "korean": "저기",
+          "chinese": "那個…（開口前）",
+          "romanization": "jeo-gi",
+          "partOfSpeech": "interjection",
+          "tier": "S",
+          "frequencyRank": 335,
+          "example": {
+            "korean": "저기, 혹시 이거 떨어뜨렸어요?",
+            "chinese": "那個，請問這是你掉的嗎？",
+            "speechLevel": "polite"
+          },
+          "usage": "叫住別人或開始說話前的發語詞。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0575",
+          "korean": "부탁",
+          "chinese": "請託",
+          "romanization": "bu-tak",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 199,
+          "example": {
+            "korean": "부탁이 있는데요.",
+            "chinese": "我有件事想拜託你……",
+            "speechLevel": "polite"
+          },
+          "usage": "부탁하다＝拜託。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0576",
+          "korean": "떨어뜨렸어요",
+          "chinese": "弄掉了",
+          "romanization": "tteo-reo-tteu-ryeo-sseo-yo",
+          "partOfSpeech": "verb",
+          "tier": "B",
+          "frequencyRank": 40,
+          "example": {
+            "korean": "휴대폰을 떨어뜨렸어요.",
+            "chinese": "手機掉了。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 떨어뜨리다。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0577",
+          "korean": "모르겠어요",
+          "chinese": "我不知道；不太懂",
+          "romanization": "mo-reu-ge-sseo-yo",
+          "pronunciation": "[모르게써요]",
+          "partOfSpeech": "expression",
+          "tier": "S",
+          "frequencyRank": 336,
+          "example": {
+            "korean": "잘 모르겠어요.",
+            "chinese": "我不太清楚。",
+            "speechLevel": "polite"
+          },
+          "usage": "比 몰라요 委婉。",
+          "commonMistake": null
+        }
+      ],
+      "pronunciation": [
+        {
+          "id": "P5201",
+          "title": "-는데요 的語調",
+          "explanation": "-는데요 的句尾語調決定意思：바쁜데요…↘（委婉拒絕，聲音拉長往下）；이거 뭔데요?↗（追問）。說話者常把 -는데 拉長，等你接話。",
+          "articulation": "聽到拉長的 -는데…，通常表示「後面還有話」或「委婉的拒絕」。",
+          "chineseSpeakerPitfall": "把 -는데요 當成普通陳述句，聽不出對方在拒絕。",
+          "samples": [
+            "지금 좀 바쁜데요…",
+            "부탁이 있는데요",
+            "제가 대만 사람인데요"
+          ],
+          "minimalPairs": []
+        },
+        {
+          "id": "P5202",
+          "title": "-거든요、혹시 的發音",
+          "explanation": "-거든요 → [거든뇨]（ㄴ 添加，口語常聽到）；먹거든요 → [먹꺼든뇨]；혹시 → [혹씨]；원래 → [월래]（流音化）。",
+          "articulation": "거 前面有收音 [ㄱ] [ㄷ] [ㅂ] 時變緊音 [꺼]。",
+          "chineseSpeakerPitfall": "唸成 [거든요] 分開，或 원래 唸 [원래]。",
+          "samples": [
+            "있거든요",
+            "먹거든요",
+            "혹시",
+            "원래"
+          ],
+          "minimalPairs": []
+        }
+      ],
+      "grammar": [
+        {
+          "id": "G5201",
+          "title": "-는데(요)：鋪陳背景、委婉、等回應",
+          "pattern": "動詞＋는데；形容詞＋(으)ㄴ데；名詞＋인데；過去＋었는데",
+          "explanation": "①鋪陳背景再說重點：제가 대만 사람인데요, 혹시 영어 메뉴 있어요?（我是台灣人，請問有英文菜單嗎？）②委婉地拒絕或表達不同意見，後半句不說出來：지금 좀 바쁜데요…（我現在有點忙……）③說出狀況，等對方回應：부탁이 있는데요.（我有件事想拜託……）",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "부탁이 있는데요.",
+              "chinese": "我有件事想拜託你……",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "지금 좀 바쁜데요…",
+              "chinese": "我現在有點忙耶……",
+              "speechLevel": "polite"
+            }
+          ]
+        },
+        {
+          "id": "G5202",
+          "title": "-거든(요)：說明理由",
+          "pattern": "語幹＋거든요；過去＋었거든요",
+          "explanation": "說明對方不知道的理由，語氣比 -아/어서 更口語、更自然：오늘 못 가요. 약속이 있거든요.（今天不能去，因為有約了。）、한국어 좀 해요. 사실 배우고 있거든요.（我會一點韓語，其實我在學嘛。）",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "오늘 못 가요. 약속이 있거든요.",
+              "chinese": "今天不能去，因為有約了。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "어제 못 잤거든요. 너무 피곤해요.",
+              "chinese": "我昨天沒睡嘛，好累。",
+              "speechLevel": "polite"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "korean": "저기, 부탁이 있는데요.",
+          "chinese": "那個，我有件事想拜託你……",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "지금 좀 바쁜데요.",
+          "chinese": "我現在有點忙耶。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "못 가요. 약속이 있거든요.",
+          "chinese": "不能去，因為有約了。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "혹시 시간 있으세요?",
+          "chinese": "請問您有時間嗎？",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "잘 모르겠어요.",
+          "chinese": "我不太清楚。",
+          "speechLevel": "polite"
+        }
+      ],
+      "listening": [
+        {
+          "id": "L5201",
+          "audioText": "지금 좀 바쁜데요…",
+          "question": "對方的意思最可能是？",
+          "options": [
+            "委婉地拒絕",
+            "很樂意幫忙",
+            "問你忙不忙"
+          ],
+          "answerIndex": 0,
+          "explanation": "-는데요 拉長＝委婉。"
+        },
+        {
+          "id": "L5202",
+          "audioText": "오늘 못 가요. 약속이 있거든요.",
+          "question": "為什麼不能去？",
+          "options": [
+            "因為有約",
+            "因為生病",
+            "因為太遠"
+          ],
+          "answerIndex": 0,
+          "explanation": "-거든요＝說明理由。"
+        },
+        {
+          "id": "L5203",
+          "audioText": "제가 대만 사람인데요, 혹시 영어 메뉴 있어요?",
+          "question": "說話的人想要什麼？",
+          "options": [
+            "英文菜單",
+            "台灣菜",
+            "推薦菜色"
+          ],
+          "answerIndex": 0,
+          "explanation": "-인데요 鋪陳背景，再問重點。"
+        },
+        {
+          "id": "L5204",
+          "audioText": "저기, 부탁이 있는데요.",
+          "question": "說話的人接下來要做什麼？",
+          "options": [
+            "拜託你一件事",
+            "道歉",
+            "道別"
+          ],
+          "answerIndex": 0,
+          "explanation": "부탁＝請託。"
+        },
+        {
+          "id": "L5205",
+          "audioText": "원래 매운 거 잘 먹거든요.",
+          "question": "意思是？",
+          "options": [
+            "我本來就很能吃辣嘛。",
+            "我原本不吃辣。",
+            "這個本來很辣。"
+          ],
+          "answerIndex": 0,
+          "explanation": "원래＝本來。"
+        },
+        {
+          "id": "L5206",
+          "audioText": "있거든요",
+          "question": "實際發音最接近哪一個？",
+          "options": [
+            "[읻꺼든뇨]",
+            "[이거든요]",
+            "[있거든요]（照字）"
+          ],
+          "answerIndex": 0,
+          "explanation": "收音後的 거 變緊音。"
+        }
+      ],
+      "drills": [
+        {
+          "id": "D5201",
+          "type": "transformation",
+          "instruction": "說明理由：A. B. → A. B-거든요.",
+          "model": {
+            "korean": "못 가요. 약속이 있어요. → 못 가요. 약속이 있거든요.",
+            "chinese": "不能去，因為有約了。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "피곤해요. 어제 늦게 잤어요.",
+              "answers": [
+                "피곤해요. 어제 늦게 잤거든요."
+              ],
+              "chinese": "好累，因為昨天很晚睡嘛。"
+            },
+            {
+              "cue": "한국어 좀 해요. 배우고 있어요.",
+              "answers": [
+                "한국어 좀 해요. 배우고 있거든요."
+              ],
+              "chinese": "會一點韓語，因為在學嘛。"
+            },
+            {
+              "cue": "이 식당 좋아요. 정말 맛있어요.",
+              "answers": [
+                "이 식당 좋아요. 정말 맛있거든요."
+              ],
+              "chinese": "這家店很好，因為真的很好吃。"
+            },
+            {
+              "cue": "커피 안 마셔요. 잠을 못 자요.",
+              "answers": [
+                "커피 안 마셔요. 잠을 못 자거든요."
+              ],
+              "chinese": "不喝咖啡，因為會睡不著。"
+            },
+            {
+              "cue": "택시 탔어요. 늦었어요.",
+              "answers": [
+                "택시 탔어요. 늦었거든요."
+              ],
+              "chinese": "搭了計程車，因為遲到了嘛。"
+            }
+          ]
+        },
+        {
+          "id": "D5202",
+          "type": "transformation",
+          "instruction": "委婉地說：改成 -는데요。",
+          "model": {
+            "korean": "지금 바빠요. → 지금 좀 바쁜데요.",
+            "chinese": "我現在有點忙耶。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "부탁이 있어요.",
+              "answers": [
+                "부탁이 있는데요."
+              ],
+              "chinese": "我有件事想拜託你。"
+            },
+            {
+              "cue": "그건 좀 비싸요.",
+              "answers": [
+                "그건 좀 비싼데요."
+              ],
+              "chinese": "那個有點貴耶。"
+            },
+            {
+              "cue": "저는 대만 사람이에요.",
+              "answers": [
+                "저는 대만 사람인데요."
+              ],
+              "chinese": "我是台灣人……"
+            },
+            {
+              "cue": "잘 모르겠어요.",
+              "answers": [
+                "잘 모르겠는데요."
+              ],
+              "chinese": "我不太清楚耶。"
+            },
+            {
+              "cue": "이거 제 자리예요.",
+              "answers": [
+                "이거 제 자리인데요."
+              ],
+              "chinese": "這是我的位子耶。"
+            }
+          ]
+        },
+        {
+          "id": "D5203",
+          "type": "substitution",
+          "instruction": "用「저기, … -는데요」開頭，再提出請求。",
+          "model": {
+            "korean": "저기, 부탁이 있는데요.",
+            "chinese": "那個，我有件事想拜託你。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "我是外國人",
+              "answers": [
+                "저기, 제가 외국인인데요."
+              ],
+              "chinese": "那個，我是外國人……"
+            },
+            {
+              "cue": "想問路",
+              "answers": [
+                "저기, 길 좀 물어보고 싶은데요."
+              ],
+              "chinese": "那個，我想問個路……"
+            },
+            {
+              "cue": "想訂位",
+              "answers": [
+                "저기, 예약하고 싶은데요."
+              ],
+              "chinese": "那個，我想訂位……"
+            },
+            {
+              "cue": "這是我的位子",
+              "answers": [
+                "저기, 여기 제 자리인데요."
+              ],
+              "chinese": "那個，這裡是我的位子……"
+            },
+            {
+              "cue": "手機掉了",
+              "answers": [
+                "저기, 휴대폰을 떨어뜨렸는데요."
+              ],
+              "chinese": "那個，我手機掉了……"
+            }
+          ]
+        },
+        {
+          "id": "D5204",
+          "type": "questionAnswer",
+          "instruction": "聽對方說話，依提示回應（用 -거든요 說理由）。",
+          "model": {
+            "korean": "왜 안 먹어요? — 배불러요. 아까 먹었거든요.",
+            "chinese": "為什麼不吃？——很飽，剛才吃過了嘛。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "왜 안 와요?（因為塞車）",
+              "cueIsAudio": true,
+              "answers": [
+                "길이 막히거든요.",
+                "지금 길이 막히거든요."
+              ],
+              "chinese": "因為塞車嘛。"
+            },
+            {
+              "cue": "한국어 잘하시네요!（其實在學）",
+              "cueIsAudio": true,
+              "answers": [
+                "사실 배우고 있거든요.",
+                "감사합니다. 사실 배우고 있거든요."
+              ],
+              "chinese": "其實我在學嘛。"
+            },
+            {
+              "cue": "오늘 저녁 같이 먹을래요?（委婉拒絕：今天有點……）",
+              "cueIsAudio": true,
+              "answers": [
+                "오늘은 좀 어려운데요.",
+                "오늘은 좀 바쁜데요."
+              ],
+              "chinese": "今天有點困難耶……"
+            },
+            {
+              "cue": "커피 드실래요?（不了，因為晚上會睡不著）",
+              "cueIsAudio": true,
+              "answers": [
+                "아니요, 괜찮아요. 잠을 못 자거든요.",
+                "괜찮아요. 잠을 못 자거든요."
+              ],
+              "chinese": "不了，因為會睡不著。"
+            },
+            {
+              "cue": "이 자리 비었어요?（委婉：這裡有人耶）",
+              "cueIsAudio": true,
+              "answers": [
+                "여기 사람 있는데요.",
+                "죄송한데요, 여기 사람 있어요."
+              ],
+              "chinese": "這裡有人耶。"
+            }
+          ]
+        },
+        {
+          "id": "D5205",
+          "type": "freeProduction",
+          "instruction": "委婉地拒絕朋友的邀約，並用 -거든요 說明理由。",
+          "model": {
+            "korean": "미안한데요, 오늘은 좀 어려워요. 내일 시험이 있거든요.",
+            "chinese": "不好意思，今天有點困難，因為明天有考試。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 10,
+          "items": [
+            {
+              "cue": "自由回答",
+              "answers": [
+                "미안한데요, 오늘은 좀 어려워요.",
+                "내일 시험이 있거든요."
+              ],
+              "chinese": "（參考答案）"
+            }
+          ]
+        }
+      ],
+      "speaking": {
+        "scenario": "在咖啡廳想坐窗邊的位子，但有人放了包包；之後店員邀你參加活動。AI 先扮演其他客人，再扮演店員。使用者會：저기、-는데요、-거든요、委婉拒絕。",
+        "speechLevel": "polite",
+        "offlineScript": [
+          {
+            "cue": "（提示：叫住對方，說這是你的位子，委婉地說）",
+            "cueIsAudio": true,
+            "answers": [
+              "저기, 여기 제 자리인데요.",
+              "저기요, 죄송한데요, 여기 제 자리인데요."
+            ],
+            "chinese": "那個，這裡是我的位子……"
+          },
+          {
+            "cue": "아, 죄송해요! 몰랐어요.（提示：沒關係）",
+            "cueIsAudio": true,
+            "answers": [
+              "괜찮아요.",
+              "아니에요, 괜찮아요."
+            ],
+            "chinese": "沒關係。"
+          },
+          {
+            "cue": "손님, 오늘 이벤트 참여하실래요? 십 분 정도 걸려요.（提示：委婉拒絕，因為朋友馬上要來）",
+            "cueIsAudio": true,
+            "answers": [
+              "죄송한데요, 괜찮아요. 친구가 곧 오거든요.",
+              "괜찮아요. 친구가 곧 오거든요."
+            ],
+            "chinese": "不好意思，不用了，因為朋友馬上就來。"
+          }
+        ]
+      },
+      "postTest": [
+        {
+          "id": "Q5201",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "朋友約你，你想委婉地拒絕，哪一句最自然？",
+          "audioText": null,
+          "options": [
+            "오늘은 좀 어려운데요…",
+            "오늘은 안 가요!",
+            "오늘은 갈게요."
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "-는데요 拉長＝委婉。"
+        },
+        {
+          "id": "Q5202",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「因為有約了嘛」怎麼說？",
+          "audioText": null,
+          "options": [
+            "약속이 있거든요.",
+            "약속이 있는데요?",
+            "약속이 있으면요."
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "語幹＋거든요。"
+        },
+        {
+          "id": "Q5203",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「我是台灣人……（鋪陳）」怎麼說？",
+          "audioText": null,
+          "options": [
+            "제가 대만 사람인데요.",
+            "제가 대만 사람는데요.",
+            "제가 대만 사람거든요?"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "名詞＋인데요。"
+        },
+        {
+          "id": "Q5204",
+          "skill": "listening",
+          "kind": "listeningChoice",
+          "prompt": "聽句子選理由",
+          "audioText": "커피 안 마셔요. 잠을 못 자거든요.",
+          "options": [
+            "因為喝了會睡不著",
+            "因為不喜歡咖啡",
+            "因為已經喝過了"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "-거든요 後面是理由。"
+        },
+        {
+          "id": "Q5205",
+          "skill": "grammar",
+          "kind": "typing",
+          "prompt": "用韓文寫：我有件事想拜託你……",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "부탁이 있는데요.",
+            "저기, 부탁이 있는데요."
+          ],
+          "explanation": "부탁이 있는데요."
+        },
+        {
+          "id": "Q5206",
+          "skill": "speaking",
+          "kind": "speaking",
+          "prompt": "說出：請問您有時間嗎？",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "혹시 시간 있으세요?",
+            "혹시 시간 있어요?"
+          ],
+          "explanation": "혹시 시간 있으세요?"
+        }
+      ],
+      "completion": {
+        "postTestPassRatio": 0.8,
+        "drillAccuracy": 0.8,
+        "requireVocabularyQuiz": true
+      }
+    },
+    {
+      "id": "U11L03",
+      "title": "聽廣播與天氣預報（正式語體）",
+      "estimatedMinutes": 55,
+      "objectives": [
+        "聽懂地鐵、機場、百貨公司的廣播",
+        "聽懂天氣預報：맑겠습니다、흐리겠습니다、비가 오겠습니다",
+        "認識正式語尾 -겠습니다（預測、宣告）與 -(으)시기 바랍니다（敬請）",
+        "從快速的正式語句中抓出關鍵字：時間、地點、數字"
+      ],
+      "vocabulary": [
+        {
+          "id": "V0578",
+          "korean": "안내",
+          "chinese": "廣播；說明",
+          "romanization": "an-nae",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 337,
+          "example": {
+            "korean": "안내 말씀 드리겠습니다.",
+            "chinese": "現在為您廣播。",
+            "speechLevel": "formal"
+          },
+          "usage": "안내 말씀 드리겠습니다＝廣播開頭的固定句。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0579",
+          "korean": "열차",
+          "chinese": "列車",
+          "romanization": "yeol-cha",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 200,
+          "example": {
+            "korean": "열차가 들어오고 있습니다.",
+            "chinese": "列車正在進站。",
+            "speechLevel": "formal"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0580",
+          "korean": "승강장",
+          "chinese": "月台",
+          "romanization": "seung-gang-jang",
+          "partOfSpeech": "noun",
+          "tier": "B",
+          "frequencyRank": 41,
+          "example": {
+            "korean": "승강장과 열차 사이가 넓습니다.",
+            "chinese": "月台和列車之間空隙較大。",
+            "speechLevel": "formal"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0581",
+          "korean": "맑겠습니다",
+          "chinese": "（天氣）會晴朗",
+          "romanization": "mal-get-seum-ni-da",
+          "pronunciation": "[막껟씀니다]",
+          "partOfSpeech": "expression",
+          "tier": "A",
+          "frequencyRank": 201,
+          "example": {
+            "korean": "내일은 전국이 맑겠습니다.",
+            "chinese": "明天全國天氣晴朗。",
+            "speechLevel": "formal"
+          },
+          "usage": "맑다＝晴朗。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0582",
+          "korean": "흐리겠습니다",
+          "chinese": "（天氣）會陰天",
+          "romanization": "heu-ri-get-seum-ni-da",
+          "pronunciation": "[흐리겓씀니다]",
+          "partOfSpeech": "expression",
+          "tier": "A",
+          "frequencyRank": 202,
+          "example": {
+            "korean": "오후에는 흐리겠습니다.",
+            "chinese": "下午會轉陰。",
+            "speechLevel": "formal"
+          },
+          "usage": "흐리다＝陰天。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0583",
+          "korean": "기온",
+          "chinese": "氣溫",
+          "romanization": "gi-on",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 203,
+          "example": {
+            "korean": "기온이 영하로 떨어지겠습니다.",
+            "chinese": "氣溫將降到零下。",
+            "speechLevel": "formal"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0584",
+          "korean": "영하",
+          "chinese": "零下",
+          "romanization": "yeong-ha",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 204,
+          "example": {
+            "korean": "아침 기온은 영하 오 도입니다.",
+            "chinese": "早上氣溫零下五度。",
+            "speechLevel": "formal"
+          },
+          "usage": "도＝度。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0585",
+          "korean": "도",
+          "chinese": "度",
+          "romanization": "do",
+          "partOfSpeech": "counter",
+          "tier": "S",
+          "frequencyRank": 338,
+          "example": {
+            "korean": "최고 기온은 이십 도입니다.",
+            "chinese": "最高氣溫二十度。",
+            "speechLevel": "formal"
+          },
+          "usage": "用漢字音數字：이십 도。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0586",
+          "korean": "바랍니다",
+          "chinese": "敬請；希望",
+          "romanization": "ba-ram-ni-da",
+          "pronunciation": "[바람니다]",
+          "partOfSpeech": "expression",
+          "tier": "A",
+          "frequencyRank": 205,
+          "example": {
+            "korean": "우산을 챙기시기 바랍니다.",
+            "chinese": "請記得帶傘。",
+            "speechLevel": "formal"
+          },
+          "usage": "-(으)시기 바랍니다＝敬請（廣播、公告常用）。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0587",
+          "korean": "미세먼지",
+          "chinese": "細懸浮微粒（PM）",
+          "romanization": "mi-se-meon-ji",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 206,
+          "example": {
+            "korean": "오늘은 미세먼지가 나쁘겠습니다.",
+            "chinese": "今天空氣品質不佳。",
+            "speechLevel": "formal"
+          },
+          "usage": "韓國天氣預報每天都會報。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0588",
+          "korean": "곧",
+          "chinese": "即將；馬上",
+          "romanization": "got",
+          "partOfSpeech": "adverb",
+          "tier": "S",
+          "frequencyRank": 339,
+          "example": {
+            "korean": "곧 출발하겠습니다.",
+            "chinese": "即將出發。",
+            "speechLevel": "formal"
+          },
+          "usage": "",
+          "commonMistake": null
+        }
+      ],
+      "pronunciation": [
+        {
+          "id": "P5301",
+          "title": "-겠습니다 的音變",
+          "explanation": "-겠습니다 → [-겓씀니다]：맑겠습니다 → [막껟씀니다]、흐리겠습니다 → [흐리겓씀니다]、출발하겠습니다 → [출바라겓씀니다]。廣播的速度快，常聽到的只有 [-겓씀니다] 的節奏。",
+          "articulation": "先抓 -겠습니다 前面的動詞或形容詞，那才是重點。",
+          "chineseSpeakerPitfall": "把注意力放在句尾，結果漏掉了前面的關鍵字。",
+          "samples": [
+            "맑겠습니다",
+            "흐리겠습니다",
+            "도착하겠습니다"
+          ],
+          "minimalPairs": []
+        },
+        {
+          "id": "P5302",
+          "title": "廣播中的數字與地名",
+          "explanation": "廣播用正式、清楚但快速的語調：이번 역은 시청, 시청역입니다（這站是市廳站，會說兩次）。天氣預報常說 영하 오 도、이십 도、강수 확률 칠십 퍼센트。",
+          "articulation": "練習只抓「地名、數字、天氣詞」三種關鍵字。",
+          "chineseSpeakerPitfall": "想聽懂每個字，結果跟不上速度。",
+          "samples": [
+            "이번 역은 시청역입니다",
+            "영하 오 도",
+            "이십 도"
+          ],
+          "minimalPairs": []
+        }
+      ],
+      "grammar": [
+        {
+          "id": "G5301",
+          "title": "-겠습니다（預測、宣告）",
+          "pattern": "語幹＋겠습니다",
+          "explanation": "天氣預報用來表示預測：내일은 비가 오겠습니다（明天會下雨）、기온이 떨어지겠습니다。廣播、主持時表示說話者的意圖或宣告：안내 말씀 드리겠습니다、곧 출발하겠습니다、잠시 후 도착하겠습니다。",
+          "speechLevel": "formal",
+          "examples": [
+            {
+              "korean": "내일은 전국에 비가 오겠습니다.",
+              "chinese": "明天全國會下雨。",
+              "speechLevel": "formal"
+            },
+            {
+              "korean": "잠시 후 인천국제공항에 도착하겠습니다.",
+              "chinese": "即將抵達仁川國際機場。",
+              "speechLevel": "formal"
+            }
+          ]
+        },
+        {
+          "id": "G5302",
+          "title": "-(으)시기 바랍니다（敬請…）",
+          "pattern": "語幹＋(으)시기 바랍니다",
+          "explanation": "公告、廣播請大家做某事的正式說法：안전선 뒤로 물러나 주시기 바랍니다（請退到安全線後方）、우산을 챙기시기 바랍니다（請記得帶傘）、휴대폰은 꺼 주시기 바랍니다（請關閉手機）。",
+          "speechLevel": "formal",
+          "examples": [
+            {
+              "korean": "우산을 챙기시기 바랍니다.",
+              "chinese": "請記得帶傘。",
+              "speechLevel": "formal"
+            },
+            {
+              "korean": "안전선 뒤로 물러나 주시기 바랍니다.",
+              "chinese": "請退到安全線後方。",
+              "speechLevel": "formal"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "korean": "안내 말씀 드리겠습니다.",
+          "chinese": "現在為您廣播。",
+          "speechLevel": "formal"
+        },
+        {
+          "korean": "열차가 들어오고 있습니다.",
+          "chinese": "列車正在進站。",
+          "speechLevel": "formal"
+        },
+        {
+          "korean": "내일은 맑겠습니다.",
+          "chinese": "明天會是晴天。",
+          "speechLevel": "formal"
+        },
+        {
+          "korean": "아침 기온은 영하 삼 도입니다.",
+          "chinese": "早上氣溫零下三度。",
+          "speechLevel": "formal"
+        },
+        {
+          "korean": "우산을 챙기시기 바랍니다.",
+          "chinese": "請記得帶傘。",
+          "speechLevel": "formal"
+        }
+      ],
+      "listening": [
+        {
+          "id": "L5301",
+          "audioText": "이번 역은 시청, 시청역입니다. 내리실 문은 오른쪽입니다.",
+          "question": "要從哪一邊下車？",
+          "options": [
+            "右邊",
+            "左邊",
+            "兩邊都可以"
+          ],
+          "answerIndex": 0,
+          "explanation": "내리실 문은 오른쪽＝下車門在右邊。"
+        },
+        {
+          "id": "L5302",
+          "audioText": "내일은 전국에 비가 오겠습니다. 우산을 챙기시기 바랍니다.",
+          "question": "明天天氣如何？",
+          "options": [
+            "全國會下雨",
+            "全國晴朗",
+            "會下雪"
+          ],
+          "answerIndex": 0,
+          "explanation": "비가 오겠습니다＝會下雨。"
+        },
+        {
+          "id": "L5303",
+          "audioText": "아침 기온은 영하 오 도, 낮 최고 기온은 칠 도입니다.",
+          "question": "早上幾度？",
+          "options": [
+            "零下五度",
+            "五度",
+            "七度"
+          ],
+          "answerIndex": 0,
+          "explanation": "영하＝零下。"
+        },
+        {
+          "id": "L5304",
+          "audioText": "잠시 후 인천국제공항에 도착하겠습니다.",
+          "question": "這是什麼廣播？",
+          "options": [
+            "飛機即將抵達仁川機場",
+            "飛機即將起飛",
+            "飛機延誤"
+          ],
+          "answerIndex": 0,
+          "explanation": "도착하겠습니다＝即將抵達。"
+        },
+        {
+          "id": "L5305",
+          "audioText": "오늘은 미세먼지가 나쁘겠습니다. 마스크를 쓰시기 바랍니다.",
+          "question": "廣播建議做什麼？",
+          "options": [
+            "戴口罩",
+            "帶傘",
+            "多穿衣服"
+          ],
+          "answerIndex": 0,
+          "explanation": "마스크를 쓰시기 바랍니다＝請戴口罩。"
+        },
+        {
+          "id": "L5306",
+          "audioText": "맑겠습니다",
+          "question": "實際發音最接近哪一個？",
+          "options": [
+            "[막껟씀니다]",
+            "[말겓습니다]",
+            "[맑겟습니다]（照字）"
+          ],
+          "answerIndex": 0,
+          "explanation": "ㄺ 唸 [ㄱ]，겠 變緊音，습니다 鼻音化。"
+        }
+      ],
+      "drills": [
+        {
+          "id": "D5301",
+          "type": "transformation",
+          "instruction": "改成天氣預報的說法：-겠습니다。",
+          "model": {
+            "korean": "내일 비가 와요. → 내일 비가 오겠습니다.",
+            "chinese": "明天會下雨。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "오후에 흐려요.",
+              "answers": [
+                "오후에 흐리겠습니다."
+              ],
+              "chinese": "下午會轉陰。"
+            },
+            {
+              "cue": "내일은 맑아요.",
+              "answers": [
+                "내일은 맑겠습니다."
+              ],
+              "chinese": "明天會是晴天。"
+            },
+            {
+              "cue": "기온이 떨어져요.",
+              "answers": [
+                "기온이 떨어지겠습니다."
+              ],
+              "chinese": "氣溫會下降。"
+            },
+            {
+              "cue": "주말에 눈이 와요.",
+              "answers": [
+                "주말에 눈이 오겠습니다."
+              ],
+              "chinese": "週末會下雪。"
+            },
+            {
+              "cue": "미세먼지가 나빠요.",
+              "answers": [
+                "미세먼지가 나쁘겠습니다."
+              ],
+              "chinese": "空氣品質會不佳。"
+            }
+          ]
+        },
+        {
+          "id": "D5302",
+          "type": "transformation",
+          "instruction": "改成廣播的請求：-(으)시기 바랍니다。",
+          "model": {
+            "korean": "우산을 챙기세요. → 우산을 챙기시기 바랍니다.",
+            "chinese": "請記得帶傘。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "마스크를 쓰세요.",
+              "answers": [
+                "마스크를 쓰시기 바랍니다."
+              ],
+              "chinese": "請戴口罩。"
+            },
+            {
+              "cue": "휴대폰을 꺼 주세요.",
+              "answers": [
+                "휴대폰을 꺼 주시기 바랍니다."
+              ],
+              "chinese": "請關閉手機。"
+            },
+            {
+              "cue": "자리에 앉으세요.",
+              "answers": [
+                "자리에 앉으시기 바랍니다."
+              ],
+              "chinese": "請就座。"
+            },
+            {
+              "cue": "조심하세요.",
+              "answers": [
+                "조심하시기 바랍니다."
+              ],
+              "chinese": "請小心。"
+            },
+            {
+              "cue": "안전선 뒤로 물러나 주세요.",
+              "answers": [
+                "안전선 뒤로 물러나 주시기 바랍니다."
+              ],
+              "chinese": "請退到安全線後方。"
+            }
+          ]
+        },
+        {
+          "id": "D5303",
+          "type": "substitution",
+          "instruction": "播報氣溫：… 기온은 N 도입니다（漢字音數字）。",
+          "model": {
+            "korean": "아침 기온은 영하 오 도입니다.",
+            "chinese": "早上氣溫零下五度。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 8,
+          "items": [
+            {
+              "cue": "早上 −3",
+              "answers": [
+                "아침 기온은 영하 삼 도입니다.",
+                "아침 기온은 영하 3도입니다."
+              ],
+              "chinese": "早上氣溫零下三度。"
+            },
+            {
+              "cue": "最高 25",
+              "answers": [
+                "최고 기온은 이십오 도입니다.",
+                "최고 기온은 25도입니다."
+              ],
+              "chinese": "最高氣溫二十五度。"
+            },
+            {
+              "cue": "早上 10",
+              "answers": [
+                "아침 기온은 십 도입니다.",
+                "아침 기온은 10도입니다."
+              ],
+              "chinese": "早上氣溫十度。"
+            },
+            {
+              "cue": "最高 32",
+              "answers": [
+                "최고 기온은 삼십이 도입니다.",
+                "최고 기온은 32도입니다."
+              ],
+              "chinese": "最高氣溫三十二度。"
+            },
+            {
+              "cue": "早上 −10",
+              "answers": [
+                "아침 기온은 영하 십 도입니다.",
+                "아침 기온은 영하 10도입니다."
+              ],
+              "chinese": "早上氣溫零下十度。"
+            }
+          ]
+        },
+        {
+          "id": "D5304",
+          "type": "questionAnswer",
+          "instruction": "聽完廣播或天氣預報，回答朋友的問題。",
+          "model": {
+            "korean": "내일 날씨 어때요? — 비가 온대요.",
+            "chinese": "明天天氣怎樣？——聽說會下雨。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "（廣播：이번 역은 강남역입니다）여기 무슨 역이에요?（江南站）",
+              "cueIsAudio": true,
+              "answers": [
+                "강남역이에요."
+              ],
+              "chinese": "是江南站。"
+            },
+            {
+              "cue": "（預報：내일 비가 오겠습니다）내일 우산 필요해요?（是，會下雨）",
+              "cueIsAudio": true,
+              "answers": [
+                "네, 비가 올 거예요.",
+                "네, 내일 비가 와요."
+              ],
+              "chinese": "需要，會下雨。"
+            },
+            {
+              "cue": "（預報：영하 오 도）아침에 추워요?（是，零下五度）",
+              "cueIsAudio": true,
+              "answers": [
+                "네, 영하 오 도예요.",
+                "네, 영하 5도예요."
+              ],
+              "chinese": "對，零下五度。"
+            },
+            {
+              "cue": "（廣播：내리실 문은 왼쪽입니다）어느 쪽으로 내려요?（左邊）",
+              "cueIsAudio": true,
+              "answers": [
+                "왼쪽으로 내려요.",
+                "왼쪽이에요."
+              ],
+              "chinese": "從左邊下車。"
+            },
+            {
+              "cue": "（預報：미세먼지가 나쁘겠습니다）마스크 써야 돼요?（是）",
+              "cueIsAudio": true,
+              "answers": [
+                "네, 써야 돼요.",
+                "네, 마스크 쓰세요."
+              ],
+              "chinese": "要，請戴口罩。"
+            }
+          ]
+        },
+        {
+          "id": "D5305",
+          "type": "freeProduction",
+          "instruction": "模仿天氣主播，用正式語體播報明天的天氣（兩句）。",
+          "model": {
+            "korean": "내일은 전국이 맑겠습니다. 아침 기온은 영하 삼 도입니다.",
+            "chinese": "明天全國晴朗，早上氣溫零下三度。",
+            "speechLevel": "formal"
+          },
+          "thinkSeconds": 10,
+          "items": [
+            {
+              "cue": "自由回答",
+              "answers": [
+                "내일은 전국이 맑겠습니다.",
+                "아침 기온은 영하 삼 도입니다.",
+                "아침 기온은 영하 3도입니다."
+              ],
+              "chinese": "（參考答案）"
+            }
+          ]
+        }
+      ],
+      "speaking": {
+        "scenario": "冬天早上，你和韓國室友一起聽了天氣預報，室友出門前問你內容。AI 先播報天氣，再扮演室友。使用者會：聽懂 -겠습니다 的預報，用해요體轉述。",
+        "speechLevel": "polite",
+        "offlineScript": [
+          {
+            "cue": "（天氣預報：오늘은 흐리고 오후부터 눈이 오겠습니다.）오늘 날씨 어때요?（提示：陰天，下午會下雪）",
+            "cueIsAudio": true,
+            "answers": [
+              "흐리고 오후에 눈이 올 거예요.",
+              "흐려요. 오후에 눈이 와요."
+            ],
+            "chinese": "陰天，下午會下雪。"
+          },
+          {
+            "cue": "（預報：아침 기온은 영하 칠 도입니다.）많이 추워요?（提示：對，零下七度）",
+            "cueIsAudio": true,
+            "answers": [
+              "네, 영하 칠 도예요.",
+              "네, 영하 7도예요."
+            ],
+            "chinese": "對，零下七度。"
+          },
+          {
+            "cue": "그럼 뭐 가져가야 돼요?（提示：帶傘，多穿一點——옷을 많이 입으세요）",
+            "cueIsAudio": true,
+            "answers": [
+              "우산 가져가세요. 옷도 많이 입으세요.",
+              "우산 챙기세요. 옷을 많이 입으세요."
+            ],
+            "chinese": "帶傘，多穿點衣服。"
+          }
+        ]
+      },
+      "postTest": [
+        {
+          "id": "Q5301",
+          "skill": "listening",
+          "kind": "listeningChoice",
+          "prompt": "聽天氣預報",
+          "audioText": "내일은 흐리고 오후에 비가 오겠습니다.",
+          "options": [
+            "明天陰天，下午下雨。",
+            "明天晴朗。",
+            "明天下雪。"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "흐리겠습니다＝會陰天。"
+        },
+        {
+          "id": "Q5302",
+          "skill": "listening",
+          "kind": "listeningChoice",
+          "prompt": "聽地鐵廣播",
+          "audioText": "이번 역은 시청역입니다. 이호선으로 환승하실 분은 이번 역에서 내리시기 바랍니다.",
+          "options": [
+            "要轉二號線的人請在這站下車。",
+            "二號線今天停駛。",
+            "下一站是市廳站。"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "환승＝轉乘。"
+        },
+        {
+          "id": "Q5303",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "天氣預報說「明天會是晴天」用哪一句？",
+          "audioText": null,
+          "options": [
+            "내일은 맑겠습니다.",
+            "내일은 맑았습니다.",
+            "내일은 맑으세요."
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "預測用 -겠습니다。"
+        },
+        {
+          "id": "Q5304",
+          "skill": "vocabulary",
+          "kind": "choice",
+          "prompt": "「영하 오 도」是多少度？",
+          "audioText": null,
+          "options": [
+            "−5°C",
+            "5°C",
+            "50°C"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "영하＝零下。"
+        },
+        {
+          "id": "Q5305",
+          "skill": "grammar",
+          "kind": "typing",
+          "prompt": "用韓文寫（廣播）：請記得帶傘。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "우산을 챙기시기 바랍니다."
+          ],
+          "explanation": "우산을 챙기시기 바랍니다."
+        },
+        {
+          "id": "Q5306",
+          "skill": "speaking",
+          "kind": "speaking",
+          "prompt": "說出：現在為您廣播。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "안내 말씀 드리겠습니다."
+          ],
+          "explanation": "안내 말씀 드리겠습니다."
+        }
+      ],
+      "completion": {
+        "postTestPassRatio": 0.8,
+        "drillAccuracy": 0.8,
+        "requireVocabularyQuiz": true
+      }
+    },
+    {
+      "id": "U11L04",
+      "title": "講電話與轉述「-다고 했어요」",
+      "estimatedMinutes": 55,
+      "objectives": [
+        "講電話：接電話、找人、對方不在、留言、打錯電話",
+        "用「-다고 했어요」轉述別人說的話",
+        "知道轉述的變化：動詞 -(느)ㄴ다고、形容詞 -다고、名詞 -(이)라고",
+        "聽懂沒有表情和手勢輔助的電話韓語"
+      ],
+      "vocabulary": [
+        {
+          "id": "V0589",
+          "korean": "여보세요",
+          "chinese": "喂（電話）",
+          "romanization": "yeo-bo-se-yo",
+          "partOfSpeech": "expression",
+          "tier": "S",
+          "frequencyRank": 340,
+          "example": {
+            "korean": "여보세요? 민수 씨 휴대폰이죠?",
+            "chinese": "喂？是民秀的手機吧？",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0590",
+          "korean": "바꿔 드릴게요",
+          "chinese": "我幫您轉接（換人聽）",
+          "romanization": "ba-kkwo deu-ril-ge-yo",
+          "pronunciation": "[바꿔 드릴께요]",
+          "partOfSpeech": "expression",
+          "tier": "A",
+          "frequencyRank": 207,
+          "example": {
+            "korean": "잠깐만요, 바꿔 드릴게요.",
+            "chinese": "請稍等，我請他來聽。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0591",
+          "korean": "자리",
+          "chinese": "座位；位子",
+          "romanization": "ja-ri",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 341,
+          "example": {
+            "korean": "지금 자리에 안 계세요.",
+            "chinese": "他現在不在座位上。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0592",
+          "korean": "남겨요",
+          "chinese": "留下",
+          "romanization": "nam-gyeo-yo",
+          "partOfSpeech": "verb",
+          "tier": "A",
+          "frequencyRank": 208,
+          "example": {
+            "korean": "메시지 남겨 드릴까요?",
+            "chinese": "要幫您留言嗎？",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 남기다。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0593",
+          "korean": "잘못",
+          "chinese": "錯；錯誤地",
+          "romanization": "jal-mot",
+          "pronunciation": "[잘몯]",
+          "partOfSpeech": "adverb",
+          "tier": "S",
+          "frequencyRank": 342,
+          "example": {
+            "korean": "전화 잘못 거셨어요.",
+            "chinese": "您打錯電話了。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0594",
+          "korean": "다시 걸게요",
+          "chinese": "我再打過來",
+          "romanization": "da-si geol-ge-yo",
+          "pronunciation": "[다시 걸께요]",
+          "partOfSpeech": "expression",
+          "tier": "A",
+          "frequencyRank": 209,
+          "example": {
+            "korean": "그럼 나중에 다시 걸게요.",
+            "chinese": "那我晚點再打。",
+            "speechLevel": "polite"
+          },
+          "usage": "걸다＝打（電話）。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0595",
+          "korean": "통화",
+          "chinese": "通話",
+          "romanization": "tong-hwa",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 210,
+          "example": {
+            "korean": "지금 통화 괜찮으세요?",
+            "chinese": "現在方便通話嗎？",
+            "speechLevel": "polite"
+          },
+          "usage": "통화하다＝講電話。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0596",
+          "korean": "전해 주세요",
+          "chinese": "請轉告",
+          "romanization": "jeon-hae ju-se-yo",
+          "partOfSpeech": "expression",
+          "tier": "A",
+          "frequencyRank": 211,
+          "example": {
+            "korean": "전화했다고 전해 주세요.",
+            "chinese": "請轉告他我打過電話。",
+            "speechLevel": "polite"
+          },
+          "usage": "전하다＝轉達。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0597",
+          "korean": "-다고 했어요",
+          "chinese": "（他）說…",
+          "romanization": "da-go hae-sseo-yo",
+          "partOfSpeech": "expression",
+          "tier": "S",
+          "frequencyRank": 343,
+          "example": {
+            "korean": "민수 씨가 늦는다고 했어요.",
+            "chinese": "民秀說他會晚到。",
+            "speechLevel": "polite"
+          },
+          "usage": "轉述別人的話。口語縮短為 -대요。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0598",
+          "korean": "-대요",
+          "chinese": "聽說…；他說…",
+          "romanization": "dae-yo",
+          "partOfSpeech": "expression",
+          "tier": "S",
+          "frequencyRank": 344,
+          "example": {
+            "korean": "내일 비가 온대요.",
+            "chinese": "聽說明天會下雨。",
+            "speechLevel": "polite"
+          },
+          "usage": "-다고 해요 的縮略，口語非常常用。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0599",
+          "korean": "연결",
+          "chinese": "連接；轉接",
+          "romanization": "yeon-gyeol",
+          "partOfSpeech": "noun",
+          "tier": "B",
+          "frequencyRank": 42,
+          "example": {
+            "korean": "담당자에게 연결해 드리겠습니다.",
+            "chinese": "為您轉接負責人。",
+            "speechLevel": "formal"
+          },
+          "usage": "客服電話常聽到。",
+          "commonMistake": null
+        }
+      ],
+      "pronunciation": [
+        {
+          "id": "P5401",
+          "title": "電話用語的音變",
+          "explanation": "바꿔 드릴게요 → [바꿔 드릴께요]、다시 걸게요 → [다시 걸께요]、잘못 거셨어요 → [잘몯 거셔써요]、통화 → [통화]。電話裡聽不到嘴型，音變更要熟悉。",
+          "articulation": "跟讀時想像對方看不到你，每個音都要清楚。",
+          "chineseSpeakerPitfall": "電話裡聲音變小、語速變快，就聽不懂。",
+          "samples": [
+            "바꿔 드릴게요",
+            "다시 걸게요",
+            "잘못 거셨어요"
+          ],
+          "minimalPairs": []
+        },
+        {
+          "id": "P5402",
+          "title": "-대요、-래요 的縮略",
+          "explanation": "-다고 해요 → -대요：온다고 해요 → 온대요、춥다고 해요 → 춥대요；-(이)라고 해요 → -(이)래요：학생이라고 해요 → 학생이래요。口語裡幾乎都用縮略形。",
+          "articulation": "聽到句尾 [대요]，通常是在轉述別人的話。",
+          "chineseSpeakerPitfall": "把 -대요 聽成 -대요 以外的東西，誤以為是說話者自己的意見。",
+          "samples": [
+            "온대요",
+            "춥대요",
+            "학생이래요"
+          ],
+          "minimalPairs": []
+        }
+      ],
+      "grammar": [
+        {
+          "id": "G5401",
+          "title": "-다고 했어요（轉述陳述句）",
+          "pattern": "動詞：-(느)ㄴ다고（간다고、먹는다고）；形容詞：-다고（춥다고）；名詞：-(이)라고（학생이라고）；過去：-았/었다고",
+          "explanation": "轉述別人說的話：민수 씨가 늦는다고 했어요（民秀說他會晚到）、날씨가 춥다고 했어요、내일 온다고 했어요、어제 갔다고 했어요、학생이라고 했어요。口語縮略：-대요（온대요、춥대요）、-(이)래요（학생이래요）。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "민수 씨가 오늘 못 온다고 했어요.",
+              "chinese": "民秀說他今天不能來。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "내일 비가 온대요.",
+              "chinese": "聽說明天會下雨。",
+              "speechLevel": "polite"
+            }
+          ]
+        },
+        {
+          "id": "G5402",
+          "title": "電話的固定說法",
+          "pattern": "여보세요；N 씨 계세요?；잠깐만요, 바꿔 드릴게요；지금 자리에 안 계세요；메시지 남겨 드릴까요?；전화 잘못 거셨어요",
+          "explanation": "打電話找人：여보세요? 민수 씨 계세요?。對方不在：지금 자리에 안 계세요. 메시지 남겨 드릴까요?。留言：전화했다고 전해 주세요（請轉告他我打過電話）。打錯：전화 잘못 거셨어요。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "여보세요? 김민수 씨 계세요?",
+              "chinese": "喂？請問金民秀在嗎？",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "지금 자리에 안 계세요. 메시지 남겨 드릴까요?",
+              "chinese": "他現在不在座位上，要幫您留言嗎？",
+              "speechLevel": "polite"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "korean": "여보세요? 민수 씨 계세요?",
+          "chinese": "喂？請問民秀在嗎？",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "잠깐만요, 바꿔 드릴게요.",
+          "chinese": "請稍等，我請他來聽。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "전화 잘못 거셨어요.",
+          "chinese": "您打錯電話了。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "민수 씨가 늦는다고 했어요.",
+          "chinese": "民秀說他會晚到。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "내일 비가 온대요.",
+          "chinese": "聽說明天會下雨。",
+          "speechLevel": "polite"
+        }
+      ],
+      "listening": [
+        {
+          "id": "L5401",
+          "audioText": "지금 자리에 안 계세요. 메시지 남겨 드릴까요?",
+          "question": "電話裡的人說什麼？",
+          "options": [
+            "他不在，要不要留言？",
+            "請稍等，我幫你轉接。",
+            "您打錯電話了。"
+          ],
+          "answerIndex": 0,
+          "explanation": "자리에 안 계세요＝不在座位上。"
+        },
+        {
+          "id": "L5402",
+          "audioText": "민수 씨가 오늘 못 온다고 했어요.",
+          "question": "民秀怎麼了？",
+          "options": [
+            "民秀說他今天不能來。",
+            "民秀說他會晚到。",
+            "民秀今天來了。"
+          ],
+          "answerIndex": 0,
+          "explanation": "못 온다고 했어요＝說不能來。"
+        },
+        {
+          "id": "L5403",
+          "audioText": "전화 잘못 거셨어요.",
+          "question": "對方的意思是？",
+          "options": [
+            "您打錯電話了。",
+            "請再打一次。",
+            "電話壞了。"
+          ],
+          "answerIndex": 0,
+          "explanation": "잘못 거셨어요＝打錯了。"
+        },
+        {
+          "id": "L5404",
+          "audioText": "내일 비가 온대요.",
+          "question": "說話的人在做什麼？",
+          "options": [
+            "轉述聽來的消息",
+            "說自己的看法",
+            "問明天天氣"
+          ],
+          "answerIndex": 0,
+          "explanation": "-대요＝聽說。"
+        },
+        {
+          "id": "L5405",
+          "audioText": "잠깐만요, 바꿔 드릴게요.",
+          "question": "接下來會發生什麼？",
+          "options": [
+            "換另一個人來聽電話",
+            "對方掛斷電話",
+            "對方會再打過來"
+          ],
+          "answerIndex": 0,
+          "explanation": "바꿔 드릴게요＝換人聽。"
+        },
+        {
+          "id": "L5406",
+          "audioText": "온대요",
+          "question": "「온대요」是哪個說法的縮略？",
+          "options": [
+            "온다고 해요",
+            "오는데요",
+            "오세요"
+          ],
+          "answerIndex": 0,
+          "explanation": "-다고 해요 → -대요。"
+        }
+      ],
+      "drills": [
+        {
+          "id": "D5401",
+          "type": "transformation",
+          "instruction": "轉述：민수 씨가 「…」 → 민수 씨가 …-다고 했어요。",
+          "model": {
+            "korean": "「늦어요.」→ 민수 씨가 늦는다고 했어요.",
+            "chinese": "民秀說他會晚到。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 8,
+          "items": [
+            {
+              "cue": "「오늘 못 와요.」",
+              "answers": [
+                "민수 씨가 오늘 못 온다고 했어요."
+              ],
+              "chinese": "民秀說他今天不能來。"
+            },
+            {
+              "cue": "「너무 추워요.」",
+              "answers": [
+                "민수 씨가 너무 춥다고 했어요."
+              ],
+              "chinese": "民秀說好冷。"
+            },
+            {
+              "cue": "「학생이에요.」",
+              "answers": [
+                "민수 씨가 학생이라고 했어요."
+              ],
+              "chinese": "民秀說他是學生。"
+            },
+            {
+              "cue": "「어제 부산에 갔어요.」",
+              "answers": [
+                "민수 씨가 어제 부산에 갔다고 했어요."
+              ],
+              "chinese": "民秀說他昨天去了釜山。"
+            },
+            {
+              "cue": "「김치를 좋아해요.」",
+              "answers": [
+                "민수 씨가 김치를 좋아한다고 했어요."
+              ],
+              "chinese": "民秀說他喜歡泡菜。"
+            }
+          ]
+        },
+        {
+          "id": "D5402",
+          "type": "transformation",
+          "instruction": "改成口語縮略：-다고 해요 → -대요。",
+          "model": {
+            "korean": "비가 온다고 해요. → 비가 온대요.",
+            "chinese": "聽說會下雨。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 6,
+          "items": [
+            {
+              "cue": "내일 춥다고 해요.",
+              "answers": [
+                "내일 춥대요."
+              ],
+              "chinese": "聽說明天很冷。"
+            },
+            {
+              "cue": "그 식당이 맛있다고 해요.",
+              "answers": [
+                "그 식당이 맛있대요."
+              ],
+              "chinese": "聽說那家餐廳很好吃。"
+            },
+            {
+              "cue": "민수 씨가 늦는다고 해요.",
+              "answers": [
+                "민수 씨가 늦는대요."
+              ],
+              "chinese": "聽說民秀會晚到。"
+            },
+            {
+              "cue": "지민 씨가 학생이라고 해요.",
+              "answers": [
+                "지민 씨가 학생이래요."
+              ],
+              "chinese": "聽說智敏是學生。"
+            },
+            {
+              "cue": "콘서트가 취소됐다고 해요.",
+              "answers": [
+                "콘서트가 취소됐대요."
+              ],
+              "chinese": "聽說演唱會取消了。"
+            }
+          ]
+        },
+        {
+          "id": "D5403",
+          "type": "substitution",
+          "instruction": "電話用語：依情境說出適當的句子。",
+          "model": {
+            "korean": "（接起電話）→ 여보세요?",
+            "chinese": "喂？",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 6,
+          "items": [
+            {
+              "cue": "（找金民秀）",
+              "answers": [
+                "김민수 씨 계세요?",
+                "여보세요? 김민수 씨 계세요?"
+              ],
+              "chinese": "請問金民秀在嗎？"
+            },
+            {
+              "cue": "（請對方稍等，換人聽）",
+              "answers": [
+                "잠깐만요, 바꿔 드릴게요."
+              ],
+              "chinese": "請稍等，我請他來聽。"
+            },
+            {
+              "cue": "（對方打錯了）",
+              "answers": [
+                "전화 잘못 거셨어요."
+              ],
+              "chinese": "您打錯電話了。"
+            },
+            {
+              "cue": "（說你晚點再打）",
+              "answers": [
+                "나중에 다시 걸게요.",
+                "그럼 나중에 다시 걸게요."
+              ],
+              "chinese": "我晚點再打。"
+            },
+            {
+              "cue": "（請轉告他你打過電話）",
+              "answers": [
+                "전화했다고 전해 주세요."
+              ],
+              "chinese": "請轉告他我打過電話。"
+            }
+          ]
+        },
+        {
+          "id": "D5404",
+          "type": "questionAnswer",
+          "instruction": "幫朋友接了電話，朋友回來後問你，用 -다고 했어요 轉述。",
+          "model": {
+            "korean": "누가 전화했어요? — 민수 씨가 전화했어요. 늦는다고 했어요.",
+            "chinese": "誰打來的？——民秀，他說會晚到。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 8,
+          "items": [
+            {
+              "cue": "민수 씨가 뭐라고 했어요?（他說今天不能來）",
+              "cueIsAudio": true,
+              "answers": [
+                "오늘 못 온다고 했어요.",
+                "민수 씨가 오늘 못 온다고 했어요."
+              ],
+              "chinese": "他說今天不能來。"
+            },
+            {
+              "cue": "내일 날씨 어떻대요?（聽說會下雨）",
+              "cueIsAudio": true,
+              "answers": [
+                "비가 온대요.",
+                "내일 비가 온대요."
+              ],
+              "chinese": "聽說會下雨。"
+            },
+            {
+              "cue": "지민 씨는 어디 있대요?（說在公司）",
+              "cueIsAudio": true,
+              "answers": [
+                "회사에 있다고 했어요.",
+                "회사에 있대요."
+              ],
+              "chinese": "她說在公司。"
+            },
+            {
+              "cue": "그 식당 어때요?（聽說很好吃）",
+              "cueIsAudio": true,
+              "answers": [
+                "맛있대요.",
+                "맛있다고 했어요."
+              ],
+              "chinese": "聽說很好吃。"
+            },
+            {
+              "cue": "선생님이 뭐라고 하셨어요?（說明天有考試）",
+              "cueIsAudio": true,
+              "answers": [
+                "내일 시험이 있다고 하셨어요.",
+                "내일 시험이 있대요."
+              ],
+              "chinese": "老師說明天有考試。"
+            }
+          ]
+        },
+        {
+          "id": "D5405",
+          "type": "freeProduction",
+          "instruction": "打電話到朋友公司找人，對方不在，請對方轉告。",
+          "model": {
+            "korean": "여보세요? 김민수 씨 계세요? … 그럼 전화했다고 전해 주세요.",
+            "chinese": "喂？請問金民秀在嗎？……那請轉告他我打過電話。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 10,
+          "items": [
+            {
+              "cue": "自由回答",
+              "answers": [
+                "여보세요? 김민수 씨 계세요?",
+                "전화했다고 전해 주세요."
+              ],
+              "chinese": "（參考答案）"
+            }
+          ]
+        }
+      ],
+      "speaking": {
+        "scenario": "打電話到韓國朋友的公司找人，他不在；之後把聽到的消息轉告另一個朋友。AI 先扮演公司同事，再扮演你的朋友。使用者會：電話用語、留言、-다고 했어요／-대요。",
+        "speechLevel": "polite",
+        "offlineScript": [
+          {
+            "cue": "네, 한국무역입니다.（提示：說喂，問金民秀在嗎）",
+            "cueIsAudio": true,
+            "answers": [
+              "여보세요? 김민수 씨 계세요?",
+              "김민수 씨 계세요?"
+            ],
+            "chinese": "喂？請問金民秀在嗎？"
+          },
+          {
+            "cue": "지금 회의 중이라서 자리에 안 계세요. 메시지 남겨 드릴까요?（提示：好，請轉告他你打過電話）",
+            "cueIsAudio": true,
+            "answers": [
+              "네, 전화했다고 전해 주세요.",
+              "네. 그럼 전화했다고 전해 주세요."
+            ],
+            "chinese": "好，請轉告他我打過電話。"
+          },
+          {
+            "cue": "（朋友問）민수 씨랑 통화했어요?（提示：沒有，他們說他在開會）",
+            "cueIsAudio": true,
+            "answers": [
+              "아니요, 회의 중이라고 했어요.",
+              "아니요, 회의 중이래요."
+            ],
+            "chinese": "沒有，說他在開會。"
+          }
+        ]
+      },
+      "postTest": [
+        {
+          "id": "Q5401",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "轉述：민수「오늘 못 와요」→ 민수 씨가 오늘 …",
+          "audioText": null,
+          "options": [
+            "못 온다고 했어요.",
+            "못 오다고 했어요.",
+            "못 와다고 했어요."
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "動詞現在：-(느)ㄴ다고。"
+        },
+        {
+          "id": "Q5402",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「聽說明天很冷」口語怎麼說？",
+          "audioText": null,
+          "options": [
+            "내일 춥대요.",
+            "내일 추운대요.",
+            "내일 춥다요."
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "-다고 해요 → -대요。"
+        },
+        {
+          "id": "Q5403",
+          "skill": "listening",
+          "kind": "listeningChoice",
+          "prompt": "聽電話選意思",
+          "audioText": "지금 회의 중이세요. 나중에 다시 전화해 주시겠어요?",
+          "options": [
+            "他在開會，請晚點再打。",
+            "他已經下班了。",
+            "我幫您轉接。"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "회의 중＝開會中。"
+        },
+        {
+          "id": "Q5404",
+          "skill": "vocabulary",
+          "kind": "choice",
+          "prompt": "「您打錯電話了」怎麼說？",
+          "audioText": null,
+          "options": [
+            "전화 잘못 거셨어요.",
+            "다시 걸게요.",
+            "바꿔 드릴게요."
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "잘못＝錯。"
+        },
+        {
+          "id": "Q5405",
+          "skill": "grammar",
+          "kind": "typing",
+          "prompt": "用韓文寫：民秀說他會晚到。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "민수 씨가 늦는다고 했어요.",
+            "민수 씨가 늦는대요."
+          ],
+          "explanation": "민수 씨가 늦는다고 했어요."
+        },
+        {
+          "id": "Q5406",
+          "skill": "speaking",
+          "kind": "speaking",
+          "prompt": "說出：喂？請問民秀在嗎？",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "여보세요? 민수 씨 계세요?",
+            "여보세요, 민수 씨 계세요?"
+          ],
+          "explanation": "여보세요? 민수 씨 계세요?"
+        }
+      ],
+      "completion": {
+        "postTestPassRatio": 0.8,
+        "drillAccuracy": 0.8,
+        "requireVocabularyQuiz": true
+      }
+    },
+    {
+      "id": "U11L05",
+      "title": "聽懂快速對話：填充詞與確認",
+      "estimatedMinutes": 55,
+      "objectives": [
+        "聽懂韓國人說話時的填充詞：음、그러니까、아무튼、약간、막、뭐랄까",
+        "沒聽懂時禮貌地請對方重複：네?、뭐라고요?、다시 한번 말씀해 주시겠어요?",
+        "用「-다고요?」重複對方的話來確認",
+        "綜合練習：在自然語速的對話中抓重點"
+      ],
+      "vocabulary": [
+        {
+          "id": "V0600",
+          "korean": "음",
+          "chinese": "嗯…（思考時）",
+          "romanization": "eum",
+          "partOfSpeech": "interjection",
+          "tier": "S",
+          "frequencyRank": 345,
+          "example": {
+            "korean": "음… 잘 모르겠어요.",
+            "chinese": "嗯……我不太清楚。",
+            "speechLevel": "polite"
+          },
+          "usage": "思考時拉長：음…、어…",
+          "commonMistake": null
+        },
+        {
+          "id": "V0601",
+          "korean": "아무튼",
+          "chinese": "總之；反正",
+          "romanization": "a-mu-teun",
+          "partOfSpeech": "adverb",
+          "tier": "A",
+          "frequencyRank": 212,
+          "example": {
+            "korean": "아무튼 내일 봐요.",
+            "chinese": "總之明天見。",
+            "speechLevel": "polite"
+          },
+          "usage": "把話題拉回重點時用。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0602",
+          "korean": "약간",
+          "chinese": "有點；稍微",
+          "romanization": "yak-gan",
+          "pronunciation": "[약깐]",
+          "partOfSpeech": "adverb",
+          "tier": "S",
+          "frequencyRank": 346,
+          "example": {
+            "korean": "약간 매워요.",
+            "chinese": "有點辣。",
+            "speechLevel": "polite"
+          },
+          "usage": "口語中常當「有點像…」用：약간 그런 느낌（有點那種感覺）。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0603",
+          "korean": "막",
+          "chinese": "就那樣；一直（口語）",
+          "romanization": "mak",
+          "partOfSpeech": "adverb",
+          "tier": "S",
+          "frequencyRank": 347,
+          "example": {
+            "korean": "막 뛰어갔어요.",
+            "chinese": "就一直跑過去。",
+            "speechLevel": "polite"
+          },
+          "usage": "口語的填充詞，常用來強調動作很激烈或隨便。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0604",
+          "korean": "뭐랄까",
+          "chinese": "該怎麼說呢",
+          "romanization": "mwo-ral-kka",
+          "partOfSpeech": "expression",
+          "tier": "A",
+          "frequencyRank": 213,
+          "example": {
+            "korean": "뭐랄까… 좀 특별해요.",
+            "chinese": "該怎麼說呢……有點特別。",
+            "speechLevel": "polite"
+          },
+          "usage": "找不到合適的詞時用。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0605",
+          "korean": "뭐라고요?",
+          "chinese": "你說什麼？",
+          "romanization": "mwo-ra-go-yo",
+          "partOfSpeech": "expression",
+          "tier": "S",
+          "frequencyRank": 348,
+          "example": {
+            "korean": "네? 뭐라고요?",
+            "chinese": "嗯？你說什麼？",
+            "speechLevel": "polite"
+          },
+          "usage": "沒聽清楚時說；語氣太強會像在質問。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0606",
+          "korean": "다시 한번",
+          "chinese": "再一次",
+          "romanization": "da-si han-beon",
+          "partOfSpeech": "adverb",
+          "tier": "S",
+          "frequencyRank": 349,
+          "example": {
+            "korean": "다시 한번 말씀해 주시겠어요?",
+            "chinese": "可以請您再說一次嗎？",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0607",
+          "korean": "그러니까",
+          "chinese": "所以；也就是說",
+          "romanization": "geu-reo-ni-kka",
+          "partOfSpeech": "adverb",
+          "tier": "S",
+          "frequencyRank": 350,
+          "example": {
+            "korean": "그러니까 내일 못 온다는 거죠?",
+            "chinese": "所以你是說明天不能來對吧？",
+            "speechLevel": "polite"
+          },
+          "usage": "整理對方的話、確認重點時用。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0608",
+          "korean": "무슨 뜻",
+          "chinese": "什麼意思",
+          "romanization": "mu-seun tteut",
+          "pronunciation": "[무슨 뜯]",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 214,
+          "example": {
+            "korean": "그게 무슨 뜻이에요?",
+            "chinese": "那是什麼意思？",
+            "speechLevel": "polite"
+          },
+          "usage": "뜻＝意思。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0609",
+          "korean": "이해했어요",
+          "chinese": "懂了",
+          "romanization": "i-hae-hae-sseo-yo",
+          "pronunciation": "[이해해써요]",
+          "partOfSpeech": "verb",
+          "tier": "S",
+          "frequencyRank": 351,
+          "example": {
+            "korean": "아, 이해했어요.",
+            "chinese": "喔，我懂了。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 이해하다；沒懂說 이해 못 했어요。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0610",
+          "korean": "알아들었어요",
+          "chinese": "聽懂了",
+          "romanization": "a-ra-deu-reo-sseo-yo",
+          "pronunciation": "[아라드러써요]",
+          "partOfSpeech": "verb",
+          "tier": "A",
+          "frequencyRank": 215,
+          "example": {
+            "korean": "다 알아들었어요.",
+            "chinese": "全部都聽懂了。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 알아듣다（ㄷ 不規則）；沒聽懂：못 알아들었어요。",
+          "commonMistake": null
+        }
+      ],
+      "pronunciation": [
+        {
+          "id": "P5501",
+          "title": "填充詞的語調",
+          "explanation": "填充詞通常拉長、聲音放低：음…、어…、그러니까…、뭐랄까…。聽到這些，表示對方在思考，後面才是重點。아무튼 則會把語調拉回來，接著說結論。",
+          "articulation": "練習時把填充詞當作「休息」，注意力留給後面的內容。",
+          "chineseSpeakerPitfall": "想把填充詞翻譯出來，結果漏掉真正的重點。",
+          "samples": [
+            "음…",
+            "그러니까…",
+            "뭐랄까…",
+            "아무튼"
+          ],
+          "minimalPairs": []
+        },
+        {
+          "id": "P5502",
+          "title": "-다고요? 的確認語調",
+          "explanation": "重複對方的話確認時，句尾 -다고요? 上揚：내일 온다고요?↗（你是說明天會來？）。如果語調往下 -다고요.↘，則是強調「我就說嘛」。",
+          "articulation": "確認時語氣溫和、上揚，聽起來是在請教。",
+          "chineseSpeakerPitfall": "語調太強或往下，聽起來像在不耐煩。",
+          "samples": [
+            "내일 온다고요?",
+            "못 간다고요?",
+            "학생이라고요?"
+          ],
+          "minimalPairs": []
+        }
+      ],
+      "grammar": [
+        {
+          "id": "G5501",
+          "title": "-다고요?（你是說…嗎？）",
+          "pattern": "轉述形＋요?：간다고요?、춥다고요?、학생이라고요?",
+          "explanation": "沒聽清楚或不敢相信時，重複對方的話確認：내일 못 온다고요?（你說明天不能來？）、벌써 갔다고요?（你說他已經走了？）。也可以用 그러니까 … -다는 거죠?（所以你是說…對吧？）整理重點。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "내일 못 온다고요?",
+              "chinese": "你是說明天不能來嗎？",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "그러니까 세 시에 만난다는 거죠?",
+              "chinese": "所以是三點見對吧？",
+              "speechLevel": "polite"
+            }
+          ]
+        },
+        {
+          "id": "G5502",
+          "title": "沒聽懂時的禮貌說法",
+          "pattern": "네?；뭐라고요?；다시 한번 말씀해 주시겠어요?；조금만 천천히 말해 주세요；그게 무슨 뜻이에요?",
+          "explanation": "沒聽清楚：네?（最短、最自然）、죄송한데 다시 한번 말씀해 주시겠어요?（最禮貌）。太快：조금만 천천히 말해 주세요。不懂某個詞：그게 무슨 뜻이에요?。懂了：아, 이해했어요／알아들었어요。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "죄송한데, 다시 한번 말씀해 주시겠어요?",
+              "chinese": "不好意思，可以請您再說一次嗎？",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "그게 무슨 뜻이에요?",
+              "chinese": "那是什麼意思？",
+              "speechLevel": "polite"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "korean": "음… 뭐랄까, 약간 특별해요.",
+          "chinese": "嗯……該怎麼說呢，有點特別。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "아무튼 내일 봐요.",
+          "chinese": "總之明天見。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "네? 뭐라고요?",
+          "chinese": "嗯？你說什麼？",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "다시 한번 말씀해 주시겠어요?",
+          "chinese": "可以請您再說一次嗎？",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "내일 못 온다고요?",
+          "chinese": "你是說明天不能來嗎？",
+          "speechLevel": "polite"
+        }
+      ],
+      "listening": [
+        {
+          "id": "L5501",
+          "audioText": "음… 그러니까, 아무튼 내일은 못 가요.",
+          "question": "說話的人的重點是？",
+          "options": [
+            "明天不能去",
+            "還在考慮",
+            "明天會去"
+          ],
+          "answerIndex": 0,
+          "explanation": "填充詞後面的 내일은 못 가요 才是重點。"
+        },
+        {
+          "id": "L5502",
+          "audioText": "뭐랄까… 약간 달콤한데 좀 매워요.",
+          "question": "那道菜是什麼味道？",
+          "options": [
+            "有點甜，但有點辣",
+            "非常辣",
+            "完全不甜"
+          ],
+          "answerIndex": 0,
+          "explanation": "약간＝有點；-는데＝但是。"
+        },
+        {
+          "id": "L5503",
+          "audioText": "내일 못 온다고요?",
+          "question": "說話的人在做什麼？",
+          "options": [
+            "確認對方是不是說明天不能來",
+            "說自己明天不能來",
+            "邀對方明天來"
+          ],
+          "answerIndex": 0,
+          "explanation": "-다고요?＝你是說…嗎？"
+        },
+        {
+          "id": "L5504",
+          "audioText": "죄송한데, 다시 한번 말씀해 주시겠어요?",
+          "question": "說話的人想要什麼？",
+          "options": [
+            "請對方再說一次",
+            "請對方說慢一點",
+            "請對方解釋意思"
+          ],
+          "answerIndex": 0,
+          "explanation": "다시 한번＝再一次。"
+        },
+        {
+          "id": "L5505",
+          "audioText": "그러니까 세 시까지 역 앞으로 오라는 거죠?",
+          "question": "說話的人在確認什麼？",
+          "options": [
+            "三點前到車站前面",
+            "三點在車站裡面",
+            "三點搭車"
+          ],
+          "answerIndex": 0,
+          "explanation": "그러니까…거죠?＝整理重點確認。"
+        },
+        {
+          "id": "L5506",
+          "audioText": "알아들었어요",
+          "question": "實際發音最接近哪一個？",
+          "options": [
+            "[아라드러써요]",
+            "[알아들어써요]（照字）",
+            "[아라드어써요]"
+          ],
+          "answerIndex": 0,
+          "explanation": "收音 ㄹ、ㄹ、ㅆ 都連到下一個字。"
+        }
+      ],
+      "drills": [
+        {
+          "id": "D5501",
+          "type": "transformation",
+          "instruction": "確認對方的話：…-다고요?",
+          "model": {
+            "korean": "내일 못 와요. → 내일 못 온다고요?",
+            "chinese": "你是說明天不能來？",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "벌써 갔어요.",
+              "answers": [
+                "벌써 갔다고요?"
+              ],
+              "chinese": "你是說已經走了？"
+            },
+            {
+              "cue": "너무 비싸요.",
+              "answers": [
+                "너무 비싸다고요?"
+              ],
+              "chinese": "你是說太貴了？"
+            },
+            {
+              "cue": "저 학생이에요.",
+              "answers": [
+                "학생이라고요?"
+              ],
+              "chinese": "你是說你是學生？"
+            },
+            {
+              "cue": "세 시에 만나요.",
+              "answers": [
+                "세 시에 만난다고요?"
+              ],
+              "chinese": "你是說三點見？"
+            },
+            {
+              "cue": "콘서트가 취소됐어요.",
+              "answers": [
+                "콘서트가 취소됐다고요?"
+              ],
+              "chinese": "你是說演唱會取消了？"
+            }
+          ]
+        },
+        {
+          "id": "D5502",
+          "type": "substitution",
+          "instruction": "沒聽懂時，依情況說出適當的請求。",
+          "model": {
+            "korean": "（沒聽清楚）→ 네? 뭐라고요?",
+            "chinese": "嗯？你說什麼？",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 6,
+          "items": [
+            {
+              "cue": "（禮貌地請對方再說一次）",
+              "answers": [
+                "다시 한번 말씀해 주시겠어요?",
+                "죄송한데, 다시 한번 말씀해 주시겠어요?"
+              ],
+              "chinese": "可以請您再說一次嗎？"
+            },
+            {
+              "cue": "（請對方說慢一點）",
+              "answers": [
+                "조금만 천천히 말해 주세요.",
+                "천천히 말해 주세요."
+              ],
+              "chinese": "請說慢一點。"
+            },
+            {
+              "cue": "（問某個詞的意思）",
+              "answers": [
+                "그게 무슨 뜻이에요?"
+              ],
+              "chinese": "那是什麼意思？"
+            },
+            {
+              "cue": "（說你懂了）",
+              "answers": [
+                "아, 이해했어요.",
+                "아, 알아들었어요."
+              ],
+              "chinese": "喔，我懂了。"
+            },
+            {
+              "cue": "（說你沒聽懂）",
+              "answers": [
+                "잘 못 알아들었어요.",
+                "죄송해요, 못 알아들었어요."
+              ],
+              "chinese": "我沒聽懂。"
+            }
+          ]
+        },
+        {
+          "id": "D5503",
+          "type": "transformation",
+          "instruction": "整理重點：그러니까 … -는 거죠?（確認約定）。",
+          "model": {
+            "korean": "세 시에 역 앞에서 만나요. → 그러니까 세 시에 역 앞에서 만나는 거죠?",
+            "chinese": "所以是三點在車站前見對吧？",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 9,
+          "items": [
+            {
+              "cue": "내일 일곱 시에 출발해요.",
+              "answers": [
+                "그러니까 내일 일곱 시에 출발하는 거죠?"
+              ],
+              "chinese": "所以是明天七點出發對吧？"
+            },
+            {
+              "cue": "이 버스를 타고 다음 역에서 내려요.",
+              "answers": [
+                "그러니까 이 버스를 타고 다음 역에서 내리는 거죠?"
+              ],
+              "chinese": "所以是搭這班公車，在下一站下車對吧？"
+            },
+            {
+              "cue": "금요일까지 숙제를 내요.",
+              "answers": [
+                "그러니까 금요일까지 숙제를 내는 거죠?"
+              ],
+              "chinese": "所以是星期五前交作業對吧？"
+            },
+            {
+              "cue": "민수 씨는 못 와요.",
+              "answers": [
+                "그러니까 민수 씨는 못 오는 거죠?"
+              ],
+              "chinese": "所以民秀不能來對吧？"
+            },
+            {
+              "cue": "카드로 계산해요.",
+              "answers": [
+                "그러니까 카드로 계산하는 거죠?"
+              ],
+              "chinese": "所以是刷卡付款對吧？"
+            }
+          ]
+        },
+        {
+          "id": "D5504",
+          "type": "questionAnswer",
+          "instruction": "對方說得很快、有很多填充詞，抓出重點後回應。",
+          "model": {
+            "korean": "음… 그러니까, 아무튼 내일은 못 가요. — 내일 못 온다고요?",
+            "chinese": "嗯……總之明天不能去。——你是說明天不能來？",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "어… 뭐랄까, 아무튼 오늘 회의는 취소됐어요.（確認：會議取消了？）",
+              "cueIsAudio": true,
+              "answers": [
+                "회의가 취소됐다고요?",
+                "오늘 회의가 취소됐다고요?"
+              ],
+              "chinese": "你是說會議取消了？"
+            },
+            {
+              "cue": "（對方說得太快，你沒聽懂）",
+              "cueIsAudio": true,
+              "answers": [
+                "죄송한데, 다시 한번 말씀해 주시겠어요?",
+                "조금만 천천히 말해 주세요."
+              ],
+              "chinese": "不好意思，可以再說一次嗎？"
+            },
+            {
+              "cue": "그 사람 약간 '츤데레'예요.（問這個詞的意思）",
+              "cueIsAudio": true,
+              "answers": [
+                "츤데레가 무슨 뜻이에요?",
+                "그게 무슨 뜻이에요?"
+              ],
+              "chinese": "那是什麼意思？"
+            },
+            {
+              "cue": "그러니까 세 시까지 오면 돼요. 알겠죠?（懂了）",
+              "cueIsAudio": true,
+              "answers": [
+                "네, 알아들었어요.",
+                "네, 이해했어요."
+              ],
+              "chinese": "好，懂了。"
+            },
+            {
+              "cue": "음… 막 사람이 많고, 약간 시끄러운 곳이에요.（確認：人很多又很吵？）",
+              "cueIsAudio": true,
+              "answers": [
+                "사람이 많고 시끄럽다고요?",
+                "사람이 많고 시끄러운 곳이라고요?"
+              ],
+              "chinese": "你是說人很多又很吵？"
+            }
+          ]
+        },
+        {
+          "id": "D5505",
+          "type": "freeProduction",
+          "instruction": "朋友用很快的語速說了約定，你用「그러니까…거죠?」整理重點並確認。",
+          "model": {
+            "korean": "그러니까 토요일 두 시에 홍대역 앞에서 만나는 거죠?",
+            "chinese": "所以是星期六兩點在弘大站前見對吧？",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 10,
+          "items": [
+            {
+              "cue": "自由回答",
+              "answers": [
+                "그러니까 토요일 두 시에 홍대역 앞에서 만나는 거죠?",
+                "그러니까 토요일 2시에 홍대역 앞에서 만나는 거죠?"
+              ],
+              "chinese": "（參考答案）"
+            }
+          ]
+        }
+      ],
+      "speaking": {
+        "scenario": "韓國同事用很快的語速、夾雜填充詞交代明天的行程。AI 扮演同事，說話快又有很多 음、그러니까、막。使用者會：請對方重複或放慢、-다고요?、그러니까…거죠? 確認重點。",
+        "speechLevel": "polite",
+        "offlineScript": [
+          {
+            "cue": "아, 그러니까 막 내일 아침에 음… 거래처 미팅이 갑자기 잡혀서요.（提示：沒聽懂，請他說慢一點）",
+            "cueIsAudio": true,
+            "answers": [
+              "조금만 천천히 말해 주세요.",
+              "죄송한데, 천천히 말해 주시겠어요?"
+            ],
+            "chinese": "請說慢一點。"
+          },
+          {
+            "cue": "아, 미안해요. 내일 아침 아홉 시에 거래처 미팅이 있어요.（提示：確認：明天早上九點有會議？）",
+            "cueIsAudio": true,
+            "answers": [
+              "내일 아침 아홉 시에 미팅이 있다고요?",
+              "내일 아침 9시에 미팅이 있다고요?"
+            ],
+            "chinese": "你是說明天早上九點有會議？"
+          },
+          {
+            "cue": "네. 그래서 여덟 시 반까지 회사 앞으로 오세요.（提示：整理重點：所以八點半到公司前面對吧？）",
+            "cueIsAudio": true,
+            "answers": [
+              "그러니까 여덟 시 반까지 회사 앞으로 가는 거죠?",
+              "그러니까 8시 반까지 회사 앞으로 가는 거죠?"
+            ],
+            "chinese": "所以八點半前到公司前面對吧？"
+          }
+        ]
+      },
+      "postTest": [
+        {
+          "id": "Q5501",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "對方說「내일 못 와요」，你想確認，怎麼說？",
+          "audioText": null,
+          "options": [
+            "내일 못 온다고요?",
+            "내일 못 와요?",
+            "내일 못 오세요?"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "-다고요?＝你是說…嗎？"
+        },
+        {
+          "id": "Q5502",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "最禮貌地請對方再說一次？",
+          "audioText": null,
+          "options": [
+            "다시 한번 말씀해 주시겠어요?",
+            "뭐라고?",
+            "또 말해."
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "다시 한번 말씀해 주시겠어요?"
+        },
+        {
+          "id": "Q5503",
+          "skill": "listening",
+          "kind": "listeningChoice",
+          "prompt": "聽句子抓重點",
+          "audioText": "음… 뭐랄까, 그러니까 아무튼 토요일은 안 돼요.",
+          "options": [
+            "星期六不行。",
+            "星期六可以。",
+            "還不知道星期六行不行。"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "填充詞後的重點：토요일은 안 돼요。"
+        },
+        {
+          "id": "Q5504",
+          "skill": "vocabulary",
+          "kind": "choice",
+          "prompt": "「아무튼」的作用是？",
+          "audioText": null,
+          "options": [
+            "總之（拉回重點）",
+            "因為",
+            "所以說"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "아무튼＝總之，把話題拉回重點。"
+        },
+        {
+          "id": "Q5505",
+          "skill": "grammar",
+          "kind": "typing",
+          "prompt": "用韓文寫：那是什麼意思？",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "그게 무슨 뜻이에요?"
+          ],
+          "explanation": "그게 무슨 뜻이에요?"
+        },
+        {
+          "id": "Q5506",
+          "skill": "speaking",
+          "kind": "speaking",
+          "prompt": "說出：請說慢一點。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "조금만 천천히 말해 주세요.",
+            "천천히 말해 주세요."
+          ],
+          "explanation": "조금만 천천히 말해 주세요."
+        }
+      ],
+      "completion": {
+        "postTestPassRatio": 0.8,
+        "drillAccuracy": 0.8,
+        "requireVocabularyQuiz": true
+      }
+    }
+  ]
 }
