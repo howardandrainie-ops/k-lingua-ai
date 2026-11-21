@@ -3,7 +3,3630 @@
   "number": 12,
   "title": "自由對話及實戰測驗",
   "stage": 7,
-  "summary": "綜合情境自由對話與日常溝通能力檢定。",
-  "available": false,
-  "lessons": []
+  "summary": "敘述經驗（-았/었을 때、-기 전에、-(으)ㄴ 후에）、表達意見（-다고 생각해요、-기 때문에）、建議與規則（-는 게 좋겠어요、-아/어야 해요、-(으)면 안 돼요）、計畫與夢想（-(으)려고 해요、-기로 했어요），最後以「韓國生活的一天」綜合情境與總測驗作結。",
+  "available": true,
+  "lessons": [
+    {
+      "id": "U12L01",
+      "title": "敘述經驗：「-았/었을 때」「-기 전에」「-(으)ㄴ 후에」",
+      "estimatedMinutes": 55,
+      "objectives": [
+        "用「-았/었을 때」說「…的時候」：한국에 갔을 때",
+        "用「-기 전에／-(으)ㄴ 후에」排列事情的先後",
+        "用 처음에、그다음에、마지막에 把經驗說成一段話",
+        "說出一段約 5 句的旅行經驗"
+      ],
+      "vocabulary": [
+        {
+          "id": "V0611",
+          "korean": "때",
+          "chinese": "時候",
+          "romanization": "ttae",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 352,
+          "example": {
+            "korean": "한국에 갔을 때 정말 좋았어요.",
+            "chinese": "去韓國的時候真的很開心。",
+            "speechLevel": "polite"
+          },
+          "usage": "-(으)ㄹ 때／-았/었을 때；名詞＋때：방학 때。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0612",
+          "korean": "기 전에",
+          "chinese": "（做…）之前",
+          "romanization": "gi jeo-ne",
+          "pronunciation": "[기 저네]",
+          "partOfSpeech": "expression",
+          "tier": "S",
+          "frequencyRank": 353,
+          "example": {
+            "korean": "자기 전에 책을 읽어요.",
+            "chinese": "睡前看書。",
+            "speechLevel": "polite"
+          },
+          "usage": "語幹＋기 전에；名詞＋전에：식사 전에。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0613",
+          "korean": "후에",
+          "chinese": "之後",
+          "romanization": "hu-e",
+          "partOfSpeech": "adverb",
+          "tier": "S",
+          "frequencyRank": 354,
+          "example": {
+            "korean": "밥을 먹은 후에 산책해요.",
+            "chinese": "吃完飯後散步。",
+            "speechLevel": "polite"
+          },
+          "usage": "-(으)ㄴ 후에；名詞＋후에：수업 후에。也說 -(으)ㄴ 다음에。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0614",
+          "korean": "처음에",
+          "chinese": "一開始",
+          "romanization": "cheo-eu-me",
+          "pronunciation": "[처으메]",
+          "partOfSpeech": "adverb",
+          "tier": "S",
+          "frequencyRank": 355,
+          "example": {
+            "korean": "처음에는 좀 어려웠어요.",
+            "chinese": "一開始有點難。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0615",
+          "korean": "그다음에",
+          "chinese": "接著；然後",
+          "romanization": "geu-da-eu-me",
+          "partOfSpeech": "adverb",
+          "tier": "S",
+          "frequencyRank": 356,
+          "example": {
+            "korean": "그다음에 명동에 갔어요.",
+            "chinese": "接著去了明洞。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0616",
+          "korean": "마지막에",
+          "chinese": "最後",
+          "romanization": "ma-ji-ma-ge",
+          "pronunciation": "[마지마게]",
+          "partOfSpeech": "adverb",
+          "tier": "A",
+          "frequencyRank": 216,
+          "example": {
+            "korean": "마지막에 선물을 샀어요.",
+            "chinese": "最後買了禮物。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0617",
+          "korean": "어렸을 때",
+          "chinese": "小時候",
+          "romanization": "eo-ryeo-sseul ttae",
+          "pronunciation": "[어려쓸 때]",
+          "partOfSpeech": "expression",
+          "tier": "A",
+          "frequencyRank": 217,
+          "example": {
+            "korean": "어렸을 때 서울에 살았어요.",
+            "chinese": "小時候住在首爾。",
+            "speechLevel": "polite"
+          },
+          "usage": "어리다（年紀小）＋-았/었을 때。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0618",
+          "korean": "여행지",
+          "chinese": "旅遊地點",
+          "romanization": "yeo-haeng-ji",
+          "partOfSpeech": "noun",
+          "tier": "B",
+          "frequencyRank": 43,
+          "example": {
+            "korean": "제일 좋았던 여행지는 부산이에요.",
+            "chinese": "最喜歡的旅遊地點是釜山。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0619",
+          "korean": "기억에 남아요",
+          "chinese": "印象深刻",
+          "romanization": "gi-eo-ge na-ma-yo",
+          "pronunciation": "[기어게 나마요]",
+          "partOfSpeech": "expression",
+          "tier": "A",
+          "frequencyRank": 218,
+          "example": {
+            "korean": "그 여행이 제일 기억에 남아요.",
+            "chinese": "那次旅行讓我印象最深。",
+            "speechLevel": "polite"
+          },
+          "usage": "남다＝留下。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0620",
+          "korean": "경험",
+          "chinese": "經驗",
+          "romanization": "gyeong-heom",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 357,
+          "example": {
+            "korean": "좋은 경험이었어요.",
+            "chinese": "是很好的經驗。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0621",
+          "korean": "구경했어요",
+          "chinese": "參觀；逛了",
+          "romanization": "gu-gyeong-hae-sseo-yo",
+          "partOfSpeech": "verb",
+          "tier": "A",
+          "frequencyRank": 219,
+          "example": {
+            "korean": "시장을 구경했어요.",
+            "chinese": "逛了市場。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 구경하다。",
+          "commonMistake": null
+        }
+      ],
+      "pronunciation": [
+        {
+          "id": "P5601",
+          "title": "-았/었을 때 的連音",
+          "explanation": "갔을 때 → [가쓸 때]、먹었을 때 → [머거쓸 때]、어렸을 때 → [어려쓸 때]：ㅆ 移到 을 前面；때 是緊音。",
+          "articulation": "-을 때 的 ㄹ 停一下，때 喉嚨繃緊。",
+          "chineseSpeakerPitfall": "唸成 [갔 을 때] 分開，或把 때 唸成送氣的 [태]。",
+          "samples": [
+            "갔을 때",
+            "먹었을 때",
+            "어렸을 때"
+          ],
+          "minimalPairs": []
+        },
+        {
+          "id": "P5602",
+          "title": "敘述時的節奏",
+          "explanation": "說一段經驗時，連接詞後面稍微停頓：처음에는 | 좀 어려웠어요. 그다음에 | 명동에 갔어요。句子之間停頓長一點，聽的人比較容易跟上。",
+          "articulation": "每個連接詞說清楚，當作段落的路標。",
+          "chineseSpeakerPitfall": "一口氣說完沒有停頓，聽的人抓不到順序。",
+          "samples": [
+            "처음에는",
+            "그다음에",
+            "마지막에"
+          ],
+          "minimalPairs": []
+        }
+      ],
+      "grammar": [
+        {
+          "id": "G5601",
+          "title": "-았/었을 때（…的時候，過去）／-(으)ㄹ 때",
+          "pattern": "過去的經驗：語幹＋았/었을 때；一般情況：語幹＋(으)ㄹ 때",
+          "explanation": "說過去某個時間點：한국에 갔을 때 친구를 만났어요（去韓國時見了朋友）、어렸을 때 서울에 살았어요。一般情況、習慣：시간이 있을 때 운동해요（有空的時候運動）、한국 음식을 먹을 때 김치가 필요해요。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "한국에 갔을 때 친구를 만났어요.",
+              "chinese": "去韓國的時候見了朋友。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "시간이 있을 때 운동해요.",
+              "chinese": "有空的時候運動。",
+              "speechLevel": "polite"
+            }
+          ]
+        },
+        {
+          "id": "G5602",
+          "title": "-기 전에（之前）／-(으)ㄴ 후에（之後）",
+          "pattern": "語幹＋기 전에；語幹＋(으)ㄴ 후에",
+          "explanation": "排列先後：자기 전에 이를 닦아요（睡前刷牙）、밥을 먹은 후에 커피를 마셔요（吃完飯後喝咖啡）、수업이 끝난 후에 만나요。名詞直接加：식사 전에、수업 후에。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "한국에 가기 전에 한국어를 배웠어요.",
+              "chinese": "去韓國之前學了韓語。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "수업이 끝난 후에 만나요.",
+              "chinese": "下課後見。",
+              "speechLevel": "polite"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "korean": "한국에 처음 갔을 때 정말 신기했어요.",
+          "chinese": "第一次去韓國時覺得很新奇。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "처음에는 좀 어려웠어요.",
+          "chinese": "一開始有點難。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "그다음에 시장을 구경했어요.",
+          "chinese": "接著逛了市場。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "자기 전에 한국 드라마를 봐요.",
+          "chinese": "睡前看韓劇。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "그 여행이 제일 기억에 남아요.",
+          "chinese": "那次旅行讓我印象最深。",
+          "speechLevel": "polite"
+        }
+      ],
+      "listening": [
+        {
+          "id": "L5601",
+          "audioText": "한국에 갔을 때 친구를 만났어요.",
+          "question": "什麼時候見到朋友？",
+          "options": [
+            "去韓國的時候",
+            "去韓國之前",
+            "回國之後"
+          ],
+          "answerIndex": 0,
+          "explanation": "-았/었을 때＝…的時候。"
+        },
+        {
+          "id": "L5602",
+          "audioText": "밥을 먹은 후에 커피를 마셔요.",
+          "question": "順序是？",
+          "options": [
+            "先吃飯，再喝咖啡",
+            "先喝咖啡，再吃飯",
+            "邊吃飯邊喝咖啡"
+          ],
+          "answerIndex": 0,
+          "explanation": "-(으)ㄴ 후에＝之後。"
+        },
+        {
+          "id": "L5603",
+          "audioText": "처음에는 힘들었어요. 그다음에는 재미있었어요.",
+          "question": "說話的人的感覺怎麼變化？",
+          "options": [
+            "一開始很辛苦，後來很有趣",
+            "一直都很有趣",
+            "一開始很有趣，後來很累"
+          ],
+          "answerIndex": 0,
+          "explanation": "처음에＝一開始；그다음에＝接著。"
+        },
+        {
+          "id": "L5604",
+          "audioText": "자기 전에 한국 드라마를 봐요.",
+          "question": "什麼時候看韓劇？",
+          "options": [
+            "睡覺前",
+            "睡醒後",
+            "吃飯時"
+          ],
+          "answerIndex": 0,
+          "explanation": "-기 전에＝之前。"
+        },
+        {
+          "id": "L5605",
+          "audioText": "어렸을 때 부산에 살았어요.",
+          "question": "說話的人什麼時候住在釜山？",
+          "options": [
+            "小時候",
+            "現在",
+            "去年"
+          ],
+          "answerIndex": 0,
+          "explanation": "어렸을 때＝小時候。"
+        },
+        {
+          "id": "L5606",
+          "audioText": "갔을 때",
+          "question": "實際發音最接近哪一個？",
+          "options": [
+            "[가쓸 때]",
+            "[갇을 때]",
+            "[가슬 태]"
+          ],
+          "answerIndex": 0,
+          "explanation": "ㅆ 移到下一個字，때 是緊音。"
+        }
+      ],
+      "drills": [
+        {
+          "id": "D5601",
+          "type": "transformation",
+          "instruction": "說「…的時候」：-았/었을 때。",
+          "model": {
+            "korean": "한국에 갔어요. → 한국에 갔을 때",
+            "chinese": "去韓國的時候",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "처음 만났어요.",
+              "answers": [
+                "처음 만났을 때"
+              ],
+              "chinese": "第一次見面的時候"
+            },
+            {
+              "cue": "어렸어요.",
+              "answers": [
+                "어렸을 때"
+              ],
+              "chinese": "小時候"
+            },
+            {
+              "cue": "대학생이었어요.",
+              "answers": [
+                "대학생이었을 때"
+              ],
+              "chinese": "大學生的時候"
+            },
+            {
+              "cue": "서울에 살았어요.",
+              "answers": [
+                "서울에 살았을 때"
+              ],
+              "chinese": "住在首爾的時候"
+            },
+            {
+              "cue": "콘서트에 갔어요.",
+              "answers": [
+                "콘서트에 갔을 때"
+              ],
+              "chinese": "去演唱會的時候"
+            }
+          ]
+        },
+        {
+          "id": "D5602",
+          "type": "transformation",
+          "instruction": "把兩件事排順序：A-(으)ㄴ 후에 B。",
+          "model": {
+            "korean": "밥을 먹어요. 커피를 마셔요. → 밥을 먹은 후에 커피를 마셔요.",
+            "chinese": "吃完飯後喝咖啡。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 8,
+          "items": [
+            {
+              "cue": "수업이 끝나요. 친구를 만나요.",
+              "answers": [
+                "수업이 끝난 후에 친구를 만나요."
+              ],
+              "chinese": "下課後見朋友。"
+            },
+            {
+              "cue": "운동해요. 샤워해요.",
+              "answers": [
+                "운동한 후에 샤워해요."
+              ],
+              "chinese": "運動後洗澡。"
+            },
+            {
+              "cue": "숙제를 해요. 게임을 해요.",
+              "answers": [
+                "숙제를 한 후에 게임을 해요."
+              ],
+              "chinese": "寫完作業後玩遊戲。"
+            },
+            {
+              "cue": "한국에 도착했어요. 호텔에 갔어요.",
+              "answers": [
+                "한국에 도착한 후에 호텔에 갔어요."
+              ],
+              "chinese": "抵達韓國後去了飯店。"
+            },
+            {
+              "cue": "영화를 봐요. 저녁을 먹어요.",
+              "answers": [
+                "영화를 본 후에 저녁을 먹어요."
+              ],
+              "chinese": "看完電影後吃晚餐。"
+            }
+          ]
+        },
+        {
+          "id": "D5603",
+          "type": "substitution",
+          "instruction": "說睡前或出門前的習慣：…-기 전에 …。",
+          "model": {
+            "korean": "자기 전에 책을 읽어요.",
+            "chinese": "睡前看書。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "睡前／看韓劇",
+              "answers": [
+                "자기 전에 한국 드라마를 봐요."
+              ],
+              "chinese": "睡前看韓劇。"
+            },
+            {
+              "cue": "出門前／喝咖啡",
+              "answers": [
+                "나가기 전에 커피를 마셔요."
+              ],
+              "chinese": "出門前喝咖啡。"
+            },
+            {
+              "cue": "吃飯前／洗手（손을 씻다）",
+              "answers": [
+                "밥을 먹기 전에 손을 씻어요."
+              ],
+              "chinese": "吃飯前洗手。"
+            },
+            {
+              "cue": "去韓國前／學韓語",
+              "answers": [
+                "한국에 가기 전에 한국어를 배웠어요."
+              ],
+              "chinese": "去韓國前學了韓語。"
+            },
+            {
+              "cue": "考試前／複習（복습하다）",
+              "answers": [
+                "시험 보기 전에 복습해요."
+              ],
+              "chinese": "考試前複習。"
+            }
+          ]
+        },
+        {
+          "id": "D5604",
+          "type": "questionAnswer",
+          "instruction": "朋友問你的旅行經驗，依提示回答。",
+          "model": {
+            "korean": "한국에 처음 갔을 때 어땠어요? — 정말 신기했어요.",
+            "chinese": "第一次去韓國時怎麼樣？——很新奇。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 8,
+          "items": [
+            {
+              "cue": "한국에 처음 갔을 때 어땠어요?（一開始有點難，後來很有趣）",
+              "cueIsAudio": true,
+              "answers": [
+                "처음에는 좀 어려웠어요. 그다음에는 재미있었어요.",
+                "처음에는 어려웠어요. 그런데 재미있었어요."
+              ],
+              "chinese": "一開始有點難，後來很有趣。"
+            },
+            {
+              "cue": "도착한 후에 뭐 했어요?（去了明洞）",
+              "cueIsAudio": true,
+              "answers": [
+                "명동에 갔어요.",
+                "도착한 후에 명동에 갔어요."
+              ],
+              "chinese": "去了明洞。"
+            },
+            {
+              "cue": "뭐가 제일 기억에 남아요?（市場）",
+              "cueIsAudio": true,
+              "answers": [
+                "시장이 제일 기억에 남아요.",
+                "시장 구경이 제일 기억에 남아요."
+              ],
+              "chinese": "市場最讓我印象深刻。"
+            },
+            {
+              "cue": "가기 전에 뭐 준비했어요?（學了韓語）",
+              "cueIsAudio": true,
+              "answers": [
+                "한국어를 배웠어요.",
+                "가기 전에 한국어를 배웠어요."
+              ],
+              "chinese": "學了韓語。"
+            },
+            {
+              "cue": "마지막에 뭐 했어요?（買了禮物）",
+              "cueIsAudio": true,
+              "answers": [
+                "선물을 샀어요.",
+                "마지막에 선물을 샀어요."
+              ],
+              "chinese": "買了禮物。"
+            }
+          ]
+        },
+        {
+          "id": "D5605",
+          "type": "freeProduction",
+          "instruction": "用 처음에／그다음에／마지막에 說一段旅行經驗（至少三句）。",
+          "model": {
+            "korean": "처음에 서울에 갔어요. 그다음에 부산에 갔어요. 마지막에 제주도에서 쉬었어요.",
+            "chinese": "先去首爾，接著去釜山，最後在濟州島休息。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 10,
+          "items": [
+            {
+              "cue": "自由回答",
+              "answers": [
+                "처음에 서울에 갔어요.",
+                "그다음에 부산에 갔어요.",
+                "마지막에 제주도에서 쉬었어요."
+              ],
+              "chinese": "（參考答案）"
+            }
+          ]
+        }
+      ],
+      "speaking": {
+        "scenario": "語言交換時，韓國朋友請你說說第一次去韓國的經驗。AI 扮演朋友，會一直追問細節。使用者會：-았/었을 때、-기 전에、-(으)ㄴ 후에、처음에／그다음에／마지막에。",
+        "speechLevel": "polite",
+        "offlineScript": [
+          {
+            "cue": "한국에 처음 갔을 때 어땠어요?（提示：一開始有點緊張，但是很有趣）",
+            "cueIsAudio": true,
+            "answers": [
+              "처음에는 좀 긴장했어요. 하지만 재미있었어요.",
+              "처음에는 긴장했어요. 그런데 정말 재미있었어요."
+            ],
+            "chinese": "一開始有點緊張，但是很有趣。"
+          },
+          {
+            "cue": "가기 전에 뭐 준비했어요?（提示：去之前學了三個月韓語）",
+            "cueIsAudio": true,
+            "answers": [
+              "가기 전에 한국어를 삼 개월 배웠어요.",
+              "가기 전에 한국어를 3개월 배웠어요.",
+              "한국어를 삼 개월 배웠어요.",
+              "한국어를 3개월 배웠어요."
+            ],
+            "chinese": "去之前學了三個月韓語。"
+          },
+          {
+            "cue": "뭐가 제일 기억에 남아요?（提示：吃完烤肉後逛了夜市——야시장）",
+            "cueIsAudio": true,
+            "answers": [
+              "불고기를 먹은 후에 야시장을 구경했어요.",
+              "불고기를 먹은 후에 야시장에 갔어요. 그게 제일 기억에 남아요."
+            ],
+            "chinese": "吃完烤肉後逛了夜市。"
+          }
+        ]
+      },
+      "postTest": [
+        {
+          "id": "Q5601",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「去韓國的時候」怎麼說？",
+          "audioText": null,
+          "options": [
+            "한국에 갔을 때",
+            "한국에 가기 때",
+            "한국에 간 때"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "過去的時間點：-았/었을 때。"
+        },
+        {
+          "id": "Q5602",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「吃完飯後」怎麼說？",
+          "audioText": null,
+          "options": [
+            "밥을 먹은 후에",
+            "밥을 먹는 후에",
+            "밥을 먹기 후에"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "-(으)ㄴ 후에。"
+        },
+        {
+          "id": "Q5603",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「睡覺前」怎麼說？",
+          "audioText": null,
+          "options": [
+            "자기 전에",
+            "잔 전에",
+            "자는 전에"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "語幹＋기 전에。"
+        },
+        {
+          "id": "Q5604",
+          "skill": "listening",
+          "kind": "listeningChoice",
+          "prompt": "聽一段經驗，選出正確的順序",
+          "audioText": "처음에 서울에 갔어요. 그다음에 부산에 갔어요. 마지막에 제주도에 갔어요.",
+          "options": [
+            "首爾 → 釜山 → 濟州島",
+            "釜山 → 首爾 → 濟州島",
+            "濟州島 → 釜山 → 首爾"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "처음에→그다음에→마지막에。"
+        },
+        {
+          "id": "Q5605",
+          "skill": "grammar",
+          "kind": "typing",
+          "prompt": "用韓文寫：小時候住在首爾。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "어렸을 때 서울에 살았어요."
+          ],
+          "explanation": "어렸을 때 서울에 살았어요."
+        },
+        {
+          "id": "Q5606",
+          "skill": "speaking",
+          "kind": "speaking",
+          "prompt": "說出：下課後見。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "수업이 끝난 후에 만나요.",
+            "수업 후에 만나요."
+          ],
+          "explanation": "수업이 끝난 후에 만나요."
+        }
+      ],
+      "completion": {
+        "postTestPassRatio": 0.8,
+        "drillAccuracy": 0.8,
+        "requireVocabularyQuiz": true
+      }
+    },
+    {
+      "id": "U12L02",
+      "title": "表達意見與理由：「-다고 생각해요」「-기 때문에」",
+      "estimatedMinutes": 55,
+      "objectives": [
+        "用「-다고 생각해요」說自己的看法",
+        "用「-기 때문에／N 때문에」說明理由",
+        "比較優缺點：장점、단점、반면에",
+        "禮貌地表示同意或不同意"
+      ],
+      "vocabulary": [
+        {
+          "id": "V0622",
+          "korean": "의견",
+          "chinese": "意見",
+          "romanization": "ui-gyeon",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 358,
+          "example": {
+            "korean": "제 의견은 달라요.",
+            "chinese": "我的意見不一樣。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0623",
+          "korean": "때문에",
+          "chinese": "因為",
+          "romanization": "ttae-mu-ne",
+          "pronunciation": "[때무네]",
+          "partOfSpeech": "expression",
+          "tier": "S",
+          "frequencyRank": 359,
+          "example": {
+            "korean": "비 때문에 못 갔어요.",
+            "chinese": "因為下雨沒去成。",
+            "speechLevel": "polite"
+          },
+          "usage": "語幹＋기 때문에；名詞＋때문에。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0624",
+          "korean": "장점",
+          "chinese": "優點",
+          "romanization": "jang-jeom",
+          "pronunciation": "[장쩜]",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 220,
+          "example": {
+            "korean": "장점이 많아요.",
+            "chinese": "優點很多。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0625",
+          "korean": "단점",
+          "chinese": "缺點",
+          "romanization": "dan-jeom",
+          "pronunciation": "[단쩜]",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 221,
+          "example": {
+            "korean": "단점도 있어요.",
+            "chinese": "也有缺點。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0626",
+          "korean": "중요해요",
+          "chinese": "重要",
+          "romanization": "jung-yo-hae-yo",
+          "partOfSpeech": "adjective",
+          "tier": "S",
+          "frequencyRank": 360,
+          "example": {
+            "korean": "건강이 제일 중요해요.",
+            "chinese": "健康最重要。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 중요하다。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0627",
+          "korean": "필요해요",
+          "chinese": "需要",
+          "romanization": "pi-ryo-hae-yo",
+          "pronunciation": "[피료해요]",
+          "partOfSpeech": "adjective",
+          "tier": "S",
+          "frequencyRank": 361,
+          "example": {
+            "korean": "연습이 필요해요.",
+            "chinese": "需要練習。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 필요하다。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0628",
+          "korean": "동의해요",
+          "chinese": "同意",
+          "romanization": "dong-ui-hae-yo",
+          "pronunciation": "[동이해요]",
+          "partOfSpeech": "verb",
+          "tier": "A",
+          "frequencyRank": 222,
+          "example": {
+            "korean": "저도 동의해요.",
+            "chinese": "我也同意。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 동의하다。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0629",
+          "korean": "반면에",
+          "chinese": "相反地；另一方面",
+          "romanization": "ban-myeo-ne",
+          "partOfSpeech": "adverb",
+          "tier": "B",
+          "frequencyRank": 44,
+          "example": {
+            "korean": "서울은 편리해요. 반면에 너무 복잡해요.",
+            "chinese": "首爾很方便，但另一方面太擁擠了。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0630",
+          "korean": "복잡해요",
+          "chinese": "複雜；擁擠",
+          "romanization": "bok-ja-pae-yo",
+          "pronunciation": "[복짜패요]",
+          "partOfSpeech": "adjective",
+          "tier": "A",
+          "frequencyRank": 223,
+          "example": {
+            "korean": "지하철이 너무 복잡해요.",
+            "chinese": "地鐵太擠了。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 복잡하다。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0631",
+          "korean": "왜냐하면",
+          "chinese": "因為（說明理由的開頭）",
+          "romanization": "wae-nya-ha-myeon",
+          "partOfSpeech": "adverb",
+          "tier": "A",
+          "frequencyRank": 224,
+          "example": {
+            "korean": "왜냐하면 재미있기 때문이에요.",
+            "chinese": "因為很有趣。",
+            "speechLevel": "polite"
+          },
+          "usage": "常和 -기 때문이에요 搭配。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0632",
+          "korean": "솔직히",
+          "chinese": "老實說",
+          "romanization": "sol-jji-ki",
+          "pronunciation": "[솔찌키]",
+          "partOfSpeech": "adverb",
+          "tier": "A",
+          "frequencyRank": 225,
+          "example": {
+            "korean": "솔직히 잘 모르겠어요.",
+            "chinese": "老實說我不太清楚。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        }
+      ],
+      "pronunciation": [
+        {
+          "id": "P5701",
+          "title": "장점、단점 的緊音",
+          "explanation": "漢字詞 점（點）在 ㅇ、ㄴ 收音後常唸緊音：장점 → [장쩜]、단점 → [단쩜]；복잡해요 → [복짜패요]（緊音化＋激音化）。",
+          "articulation": "這類漢字詞的緊音要一個一個記。",
+          "chineseSpeakerPitfall": "唸成平音 [장점]，雖然聽得懂但不自然。",
+          "samples": [
+            "장점",
+            "단점",
+            "복잡해요"
+          ],
+          "minimalPairs": []
+        },
+        {
+          "id": "P5702",
+          "title": "-기 때문에 的節奏",
+          "explanation": "-기 때문에 → [기 때무네]：때문에 的 ㄴ 連到 에。說理由時，-기 때문에 後面稍微停頓，再說結論。",
+          "articulation": "때 是緊音，不要送氣。",
+          "chineseSpeakerPitfall": "唸成 [기 태문에]。",
+          "samples": [
+            "재미있기 때문에",
+            "비 때문에",
+            "바쁘기 때문이에요"
+          ],
+          "minimalPairs": []
+        }
+      ],
+      "grammar": [
+        {
+          "id": "G5701",
+          "title": "-다고 생각해요（我認為…）",
+          "pattern": "動詞：-(느)ㄴ다고 생각해요；形容詞：-다고 생각해요；名詞：-(이)라고 생각해요",
+          "explanation": "表達看法：한국어가 재미있다고 생각해요、매일 연습해야 한다고 생각해요、좋은 경험이라고 생각해요。問別人：어떻게 생각해요?（你怎麼想？）。同意：저도 그렇게 생각해요；不同意（委婉）：글쎄요, 저는 조금 다르게 생각해요。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "한국어는 재미있다고 생각해요.",
+              "chinese": "我認為韓語很有趣。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "어떻게 생각해요?",
+              "chinese": "你怎麼想？",
+              "speechLevel": "polite"
+            }
+          ]
+        },
+        {
+          "id": "G5702",
+          "title": "-기 때문에／N 때문에（因為）",
+          "pattern": "語幹＋기 때문에；名詞＋때문에；句尾：-기 때문이에요",
+          "explanation": "說明理由，比 -아/어서 更強調原因：비싸기 때문에 안 샀어요、시간이 없기 때문에 못 가요、비 때문에 취소됐어요。回答「為什麼」：왜냐하면 재미있기 때문이에요。注意：-기 때문에 後面可以接請求或建議嗎？比較少用，-(으)니까 才常用於請求（之後的課程會學）。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "시간이 없기 때문에 못 가요.",
+              "chinese": "因為沒時間所以不能去。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "왜냐하면 재미있기 때문이에요.",
+              "chinese": "因為很有趣。",
+              "speechLevel": "polite"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "korean": "저는 서울이 좋다고 생각해요.",
+          "chinese": "我覺得首爾很好。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "왜냐하면 교통이 편리하기 때문이에요.",
+          "chinese": "因為交通很方便。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "반면에 너무 복잡해요.",
+          "chinese": "但另一方面太擁擠了。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "저도 동의해요.",
+          "chinese": "我也同意。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "솔직히 잘 모르겠어요.",
+          "chinese": "老實說我不太清楚。",
+          "speechLevel": "polite"
+        }
+      ],
+      "listening": [
+        {
+          "id": "L5701",
+          "audioText": "저는 한국어가 재미있다고 생각해요.",
+          "question": "說話的人在做什麼？",
+          "options": [
+            "表達自己的看法",
+            "轉述別人的話",
+            "問別人的意見"
+          ],
+          "answerIndex": 0,
+          "explanation": "-다고 생각해요＝我認為。"
+        },
+        {
+          "id": "L5702",
+          "audioText": "비 때문에 소풍이 취소됐어요.",
+          "question": "為什麼取消？",
+          "options": [
+            "因為下雨",
+            "因為人太少",
+            "因為太遠"
+          ],
+          "answerIndex": 0,
+          "explanation": "N 때문에＝因為 N。"
+        },
+        {
+          "id": "L5703",
+          "audioText": "서울은 편리해요. 반면에 너무 복잡해요.",
+          "question": "說話的人對首爾的看法是？",
+          "options": [
+            "方便，但太擁擠",
+            "又方便又安靜",
+            "不方便又擁擠"
+          ],
+          "answerIndex": 0,
+          "explanation": "반면에＝另一方面。"
+        },
+        {
+          "id": "L5704",
+          "audioText": "글쎄요, 저는 조금 다르게 생각해요.",
+          "question": "說話的人是？",
+          "options": [
+            "委婉地表示不同意",
+            "完全同意",
+            "沒有意見"
+          ],
+          "answerIndex": 0,
+          "explanation": "다르게 생각해요＝想法不同。"
+        },
+        {
+          "id": "L5705",
+          "audioText": "왜냐하면 시간이 없기 때문이에요.",
+          "question": "這句話在說什麼？",
+          "options": [
+            "理由：沒有時間",
+            "結論：要去",
+            "建議：多花時間"
+          ],
+          "answerIndex": 0,
+          "explanation": "-기 때문이에요＝因為。"
+        },
+        {
+          "id": "L5706",
+          "audioText": "장점",
+          "question": "實際發音最接近哪一個？",
+          "options": [
+            "[장쩜]",
+            "[장점]（平音）",
+            "[잔점]"
+          ],
+          "answerIndex": 0,
+          "explanation": "漢字詞 점 變緊音。"
+        }
+      ],
+      "drills": [
+        {
+          "id": "D5701",
+          "type": "transformation",
+          "instruction": "說看法：…-다고 생각해요（注意動詞、形容詞、名詞的變化）。",
+          "model": {
+            "korean": "한국어가 재미있어요. → 한국어가 재미있다고 생각해요.",
+            "chinese": "我認為韓語很有趣。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 8,
+          "items": [
+            {
+              "cue": "건강이 중요해요.",
+              "answers": [
+                "건강이 중요하다고 생각해요."
+              ],
+              "chinese": "我認為健康很重要。"
+            },
+            {
+              "cue": "매일 연습이 필요해요.",
+              "answers": [
+                "매일 연습이 필요하다고 생각해요."
+              ],
+              "chinese": "我認為每天都需要練習。"
+            },
+            {
+              "cue": "서울은 복잡해요.",
+              "answers": [
+                "서울은 복잡하다고 생각해요."
+              ],
+              "chinese": "我覺得首爾很擁擠。"
+            },
+            {
+              "cue": "좋은 경험이에요.",
+              "answers": [
+                "좋은 경험이라고 생각해요."
+              ],
+              "chinese": "我認為是很好的經驗。"
+            },
+            {
+              "cue": "한국 사람들은 친절해요.",
+              "answers": [
+                "한국 사람들은 친절하다고 생각해요."
+              ],
+              "chinese": "我覺得韓國人很親切。"
+            }
+          ]
+        },
+        {
+          "id": "D5702",
+          "type": "transformation",
+          "instruction": "說明理由：A-기 때문에 B。",
+          "model": {
+            "korean": "비싸요. 안 샀어요. → 비싸기 때문에 안 샀어요.",
+            "chinese": "因為很貴所以沒買。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 8,
+          "items": [
+            {
+              "cue": "시간이 없어요. 못 가요.",
+              "answers": [
+                "시간이 없기 때문에 못 가요."
+              ],
+              "chinese": "因為沒時間所以不能去。"
+            },
+            {
+              "cue": "재미있어요. 매일 봐요.",
+              "answers": [
+                "재미있기 때문에 매일 봐요."
+              ],
+              "chinese": "因為很有趣所以每天看。"
+            },
+            {
+              "cue": "교통이 편리해요. 서울이 좋아요.",
+              "answers": [
+                "교통이 편리하기 때문에 서울이 좋아요."
+              ],
+              "chinese": "因為交通方便所以喜歡首爾。"
+            },
+            {
+              "cue": "너무 복잡해요. 지하철을 안 타요.",
+              "answers": [
+                "너무 복잡하기 때문에 지하철을 안 타요."
+              ],
+              "chinese": "因為太擠所以不搭地鐵。"
+            },
+            {
+              "cue": "내일 시험이 있어요. 공부해야 해요.",
+              "answers": [
+                "내일 시험이 있기 때문에 공부해야 해요."
+              ],
+              "chinese": "因為明天有考試所以要讀書。"
+            }
+          ]
+        },
+        {
+          "id": "D5703",
+          "type": "substitution",
+          "instruction": "回應別人的意見（依提示的態度）。",
+          "model": {
+            "korean": "（同意）→ 저도 그렇게 생각해요.",
+            "chinese": "我也這麼想。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 6,
+          "items": [
+            {
+              "cue": "（完全同意）",
+              "answers": [
+                "저도 동의해요.",
+                "저도 그렇게 생각해요."
+              ],
+              "chinese": "我也同意。"
+            },
+            {
+              "cue": "（委婉地不同意）",
+              "answers": [
+                "글쎄요, 저는 조금 다르게 생각해요.",
+                "저는 조금 다르게 생각해요."
+              ],
+              "chinese": "嗯……我的想法有點不一樣。"
+            },
+            {
+              "cue": "（問對方的看法）",
+              "answers": [
+                "어떻게 생각해요?"
+              ],
+              "chinese": "你怎麼想？"
+            },
+            {
+              "cue": "（老實說不清楚）",
+              "answers": [
+                "솔직히 잘 모르겠어요."
+              ],
+              "chinese": "老實說我不太清楚。"
+            },
+            {
+              "cue": "（說有優點也有缺點）",
+              "answers": [
+                "장점도 있고 단점도 있어요."
+              ],
+              "chinese": "有優點也有缺點。"
+            }
+          ]
+        },
+        {
+          "id": "D5704",
+          "type": "questionAnswer",
+          "instruction": "語言交換時聊話題，依提示說出意見和理由。",
+          "model": {
+            "korean": "서울 어때요? — 좋다고 생각해요. 교통이 편리하기 때문이에요.",
+            "chinese": "首爾怎麼樣？——我覺得很好，因為交通方便。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 9,
+          "items": [
+            {
+              "cue": "한국어 공부 어때요?（我覺得很有趣，因為喜歡韓劇）",
+              "cueIsAudio": true,
+              "answers": [
+                "재미있다고 생각해요. 한국 드라마를 좋아하기 때문이에요.",
+                "재미있어요. 왜냐하면 한국 드라마를 좋아하기 때문이에요."
+              ],
+              "chinese": "我覺得很有趣，因為喜歡韓劇。"
+            },
+            {
+              "cue": "서울에서 살고 싶어요?（不太想，因為太擁擠）",
+              "cueIsAudio": true,
+              "answers": [
+                "별로요. 너무 복잡하기 때문이에요.",
+                "아니요, 너무 복잡하기 때문에 별로예요."
+              ],
+              "chinese": "不太想，因為太擁擠。"
+            },
+            {
+              "cue": "온라인 수업의 장점이 뭐예요?（可以在家上課）",
+              "cueIsAudio": true,
+              "answers": [
+                "집에서 들을 수 있어요.",
+                "집에서 수업을 들을 수 있는 게 장점이에요."
+              ],
+              "chinese": "可以在家上課。"
+            },
+            {
+              "cue": "저는 매일 공부해야 한다고 생각해요. 어떻게 생각해요?（同意）",
+              "cueIsAudio": true,
+              "answers": [
+                "저도 동의해요.",
+                "저도 그렇게 생각해요."
+              ],
+              "chinese": "我也同意。"
+            },
+            {
+              "cue": "왜 어제 안 왔어요?（因為下雨）",
+              "cueIsAudio": true,
+              "answers": [
+                "비 때문에 못 갔어요.",
+                "비가 왔기 때문에 못 갔어요."
+              ],
+              "chinese": "因為下雨沒去成。"
+            }
+          ]
+        },
+        {
+          "id": "D5705",
+          "type": "freeProduction",
+          "instruction": "說出你對「住在大城市」的看法：一個優點、一個缺點、你的結論。",
+          "model": {
+            "korean": "대도시는 교통이 편리해요. 반면에 너무 복잡해요. 그래도 저는 좋다고 생각해요.",
+            "chinese": "大城市交通方便，但太擁擠。不過我覺得還是不錯。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 10,
+          "items": [
+            {
+              "cue": "自由回答",
+              "answers": [
+                "대도시는 교통이 편리해요.",
+                "반면에 너무 복잡해요.",
+                "그래도 저는 좋다고 생각해요."
+              ],
+              "chinese": "（參考答案）"
+            }
+          ]
+        }
+      ],
+      "speaking": {
+        "scenario": "韓語課的小組討論：「在韓國留學好不好？」AI 扮演同學，會提出相反的意見。使用者會：-다고 생각해요、-기 때문에、장점／단점、同意與委婉反對。",
+        "speechLevel": "polite",
+        "offlineScript": [
+          {
+            "cue": "한국에서 유학하는 거 어떻게 생각해요?（提示：我認為很好，因為能每天說韓語）",
+            "cueIsAudio": true,
+            "answers": [
+              "좋다고 생각해요. 매일 한국어를 쓸 수 있기 때문이에요.",
+              "좋다고 생각해요. 왜냐하면 매일 한국어를 쓸 수 있기 때문이에요."
+            ],
+            "chinese": "我認為很好，因為可以每天用韓語。"
+          },
+          {
+            "cue": "근데 돈이 많이 들잖아요.（提示：對，這是缺點）",
+            "cueIsAudio": true,
+            "answers": [
+              "맞아요. 그게 단점이에요.",
+              "네, 그건 단점이에요."
+            ],
+            "chinese": "對，那是缺點。"
+          },
+          {
+            "cue": "그럼 결론은요?（提示：缺點也有，但我還是覺得優點更多）",
+            "cueIsAudio": true,
+            "answers": [
+              "단점도 있어요. 그래도 장점이 더 많다고 생각해요.",
+              "단점도 있지만 장점이 더 많다고 생각해요."
+            ],
+            "chinese": "也有缺點，但我還是認為優點比較多。"
+          }
+        ]
+      },
+      "postTest": [
+        {
+          "id": "Q5701",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「我認為健康很重要」怎麼說？",
+          "audioText": null,
+          "options": [
+            "건강이 중요하다고 생각해요.",
+            "건강이 중요한다고 생각해요.",
+            "건강이 중요해다고 생각해요."
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "形容詞＋다고 생각해요。"
+        },
+        {
+          "id": "Q5702",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「因為沒時間所以不能去」怎麼說？",
+          "audioText": null,
+          "options": [
+            "시간이 없기 때문에 못 가요.",
+            "시간이 없는 때문에 못 가요.",
+            "시간이 없어 때문에 못 가요."
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "語幹＋기 때문에。"
+        },
+        {
+          "id": "Q5703",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "委婉地表示不同意，哪一句最適合？",
+          "audioText": null,
+          "options": [
+            "글쎄요, 저는 조금 다르게 생각해요.",
+            "아니에요! 틀렸어요!",
+            "몰라요."
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "글쎄요＋다르게 생각해요。"
+        },
+        {
+          "id": "Q5704",
+          "skill": "listening",
+          "kind": "listeningChoice",
+          "prompt": "聽意見選出理由",
+          "audioText": "저는 부산이 좋아요. 왜냐하면 바다가 가깝기 때문이에요.",
+          "options": [
+            "因為離海很近",
+            "因為交通方便",
+            "因為食物好吃"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "-기 때문이에요 前面是理由。"
+        },
+        {
+          "id": "Q5705",
+          "skill": "grammar",
+          "kind": "typing",
+          "prompt": "用韓文寫：你怎麼想？",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "어떻게 생각해요?",
+            "어떻게 생각하세요?"
+          ],
+          "explanation": "어떻게 생각해요?"
+        },
+        {
+          "id": "Q5706",
+          "skill": "speaking",
+          "kind": "speaking",
+          "prompt": "說出：有優點也有缺點。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "장점도 있고 단점도 있어요."
+          ],
+          "explanation": "장점도 있고 단점도 있어요."
+        }
+      ],
+      "completion": {
+        "postTestPassRatio": 0.8,
+        "drillAccuracy": 0.8,
+        "requireVocabularyQuiz": true
+      }
+    },
+    {
+      "id": "U12L03",
+      "title": "建議與規則：「-는 게 좋겠어요」「-아/어야 해요」「-(으)면 안 돼요」",
+      "estimatedMinutes": 55,
+      "objectives": [
+        "用「-는 게 좋겠어요」給建議",
+        "用「-아/어야 해요／돼요」說必須做的事",
+        "用「-(으)면 안 돼요」說禁止的事，和「-아/어도 돼요」對比",
+        "給到韓國旅行的朋友實用建議"
+      ],
+      "vocabulary": [
+        {
+          "id": "V0633",
+          "korean": "좋겠어요",
+          "chinese": "最好；會比較好",
+          "romanization": "jo-ke-sseo-yo",
+          "pronunciation": "[조케써요]",
+          "partOfSpeech": "expression",
+          "tier": "S",
+          "frequencyRank": 362,
+          "example": {
+            "korean": "일찍 자는 게 좋겠어요.",
+            "chinese": "最好早點睡。",
+            "speechLevel": "polite"
+          },
+          "usage": "-는 게 좋겠어요＝建議。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0634",
+          "korean": "해야 돼요",
+          "chinese": "必須做",
+          "romanization": "hae-ya dwae-yo",
+          "partOfSpeech": "expression",
+          "tier": "S",
+          "frequencyRank": 363,
+          "example": {
+            "korean": "숙제를 해야 돼요.",
+            "chinese": "必須寫作業。",
+            "speechLevel": "polite"
+          },
+          "usage": "-아/어야 해요／돼요＝必須。口語多用 돼요。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0635",
+          "korean": "안 돼요",
+          "chinese": "不行；不可以",
+          "romanization": "an dwae-yo",
+          "partOfSpeech": "expression",
+          "tier": "S",
+          "frequencyRank": 364,
+          "example": {
+            "korean": "여기서 사진 찍으면 안 돼요.",
+            "chinese": "這裡不可以拍照。",
+            "speechLevel": "polite"
+          },
+          "usage": "-(으)면 안 돼요＝禁止。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0636",
+          "korean": "조언",
+          "chinese": "建議；忠告",
+          "romanization": "jo-eon",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 226,
+          "example": {
+            "korean": "조언 좀 해 주세요.",
+            "chinese": "請給我一點建議。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0637",
+          "korean": "규칙",
+          "chinese": "規則",
+          "romanization": "gyu-chik",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 227,
+          "example": {
+            "korean": "규칙을 지켜야 해요.",
+            "chinese": "必須遵守規則。",
+            "speechLevel": "polite"
+          },
+          "usage": "지키다＝遵守。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0638",
+          "korean": "챙기세요",
+          "chinese": "（記得）帶上",
+          "romanization": "chaeng-gi-se-yo",
+          "partOfSpeech": "expression",
+          "tier": "A",
+          "frequencyRank": 228,
+          "example": {
+            "korean": "여권 꼭 챙기세요.",
+            "chinese": "一定要帶護照。",
+            "speechLevel": "polite"
+          },
+          "usage": "챙기다＝準備好、帶上。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0639",
+          "korean": "꼭",
+          "chinese": "一定",
+          "romanization": "kkok",
+          "partOfSpeech": "adverb",
+          "tier": "S",
+          "frequencyRank": 365,
+          "example": {
+            "korean": "꼭 가 보세요.",
+            "chinese": "一定要去看看。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0640",
+          "korean": "미리",
+          "chinese": "事先；提前",
+          "romanization": "mi-ri",
+          "partOfSpeech": "adverb",
+          "tier": "S",
+          "frequencyRank": 366,
+          "example": {
+            "korean": "미리 예약하는 게 좋겠어요.",
+            "chinese": "最好提前預約。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0641",
+          "korean": "여권",
+          "chinese": "護照",
+          "romanization": "yeo-gwon",
+          "pronunciation": "[여꿘]",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 367,
+          "example": {
+            "korean": "여권을 잃어버리면 안 돼요.",
+            "chinese": "不可以弄丟護照。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0642",
+          "korean": "환전",
+          "chinese": "換錢；兌換",
+          "romanization": "hwan-jeon",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 229,
+          "example": {
+            "korean": "공항에서 환전했어요.",
+            "chinese": "在機場換了錢。",
+            "speechLevel": "polite"
+          },
+          "usage": "환전하다＝換外幣。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0643",
+          "korean": "팁",
+          "chinese": "小費",
+          "romanization": "tip",
+          "partOfSpeech": "noun",
+          "tier": "B",
+          "frequencyRank": 45,
+          "example": {
+            "korean": "한국에서는 팁을 안 줘도 돼요.",
+            "chinese": "在韓國不用給小費。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        }
+      ],
+      "pronunciation": [
+        {
+          "id": "P5801",
+          "title": "-는 게 좋겠어요 的音變",
+          "explanation": "좋겠어요 → [조케써요]（ㅎ＋ㄱ 激音化）；먹는 게 → [멍는 게]（鼻音化）；자는 게 → [자는 게]。",
+          "articulation": "좋 的 ㅎ 和 겠 的 ㄱ 合成 [ㅋ]。",
+          "chineseSpeakerPitfall": "唸成 [좋 겠어요]，把 ㅎ 分開唸。",
+          "samples": [
+            "좋겠어요",
+            "자는 게 좋겠어요",
+            "먹는 게 좋겠어요"
+          ],
+          "minimalPairs": []
+        },
+        {
+          "id": "P5802",
+          "title": "-아/어야 돼요、-(으)면 안 돼요",
+          "explanation": "가야 돼요 → [가야 돼요]、먹어야 돼요 → [머거야 돼요]、찍으면 안 돼요 → [찌그면 안 돼요]；여권 → [여꿘]（緊音）。",
+          "articulation": "돼요 一拍唸完，口語和 [되요] 同音，但寫法是 돼요。",
+          "chineseSpeakerPitfall": "把 돼요 寫成 되요（常見錯字）。",
+          "samples": [
+            "가야 돼요",
+            "먹어야 돼요",
+            "찍으면 안 돼요"
+          ],
+          "minimalPairs": []
+        }
+      ],
+      "grammar": [
+        {
+          "id": "G5801",
+          "title": "-는 게 좋겠어요（建議）",
+          "pattern": "動詞語幹＋는 게 좋겠어요；否定：-지 않는 게 좋겠어요",
+          "explanation": "委婉地建議：일찍 자는 게 좋겠어요（最好早點睡）、미리 예약하는 게 좋겠어요、택시보다 지하철을 타는 게 좋겠어요。不建議：밤늦게 혼자 다니지 않는 게 좋겠어요。也常說 -는 게 좋아요。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "미리 예약하는 게 좋겠어요.",
+              "chinese": "最好提前預約。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "지하철을 타는 게 좋겠어요.",
+              "chinese": "最好搭地鐵。",
+              "speechLevel": "polite"
+            }
+          ]
+        },
+        {
+          "id": "G5802",
+          "title": "-아/어야 해요（必須）／-(으)면 안 돼요（不可以）",
+          "pattern": "해요體去掉 요＋야 해요／돼요；語幹＋(으)면 안 돼요",
+          "explanation": "必須：여권을 챙겨야 해요、규칙을 지켜야 돼요、공부해야 돼요。不必：-지 않아도 돼요（팁을 안 줘도 돼요＝不用給小費）。禁止：여기서 담배 피우면 안 돼요、사진 찍으면 안 돼요。對比第 9 單元的 -아/어도 돼요（可以）。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "여권을 꼭 챙겨야 해요.",
+              "chinese": "一定要帶護照。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "여기서 사진 찍으면 안 돼요.",
+              "chinese": "這裡不可以拍照。",
+              "speechLevel": "polite"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "korean": "일찍 자는 게 좋겠어요.",
+          "chinese": "最好早點睡。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "여권을 꼭 챙겨야 해요.",
+          "chinese": "一定要帶護照。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "여기서 음식을 먹으면 안 돼요.",
+          "chinese": "這裡不可以吃東西。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "한국에서는 팁을 안 줘도 돼요.",
+          "chinese": "在韓國不用給小費。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "미리 환전하는 게 좋겠어요.",
+          "chinese": "最好事先換錢。",
+          "speechLevel": "polite"
+        }
+      ],
+      "listening": [
+        {
+          "id": "L5801",
+          "audioText": "미리 예약하는 게 좋겠어요.",
+          "question": "對方的建議是？",
+          "options": [
+            "提前預約",
+            "不用預約",
+            "到了再說"
+          ],
+          "answerIndex": 0,
+          "explanation": "-는 게 좋겠어요＝建議。"
+        },
+        {
+          "id": "L5802",
+          "audioText": "여기서 사진 찍으면 안 돼요.",
+          "question": "意思是？",
+          "options": [
+            "這裡不可以拍照。",
+            "這裡可以拍照。",
+            "請幫我拍照。"
+          ],
+          "answerIndex": 0,
+          "explanation": "-(으)면 안 돼요＝禁止。"
+        },
+        {
+          "id": "L5803",
+          "audioText": "여권을 꼭 챙겨야 해요.",
+          "question": "意思是？",
+          "options": [
+            "一定要帶護照。",
+            "不用帶護照。",
+            "護照不見了。"
+          ],
+          "answerIndex": 0,
+          "explanation": "-아/어야 해요＝必須。"
+        },
+        {
+          "id": "L5804",
+          "audioText": "한국에서는 팁을 안 줘도 돼요.",
+          "question": "在韓國要給小費嗎？",
+          "options": [
+            "不用",
+            "一定要",
+            "只有餐廳要"
+          ],
+          "answerIndex": 0,
+          "explanation": "-지 않아도／안 -아도 돼요＝不用。"
+        },
+        {
+          "id": "L5805",
+          "audioText": "밤늦게 혼자 다니지 않는 게 좋겠어요.",
+          "question": "對方的建議是？",
+          "options": [
+            "最好不要深夜一個人走動",
+            "最好晚上出門",
+            "最好和朋友一起住"
+          ],
+          "answerIndex": 0,
+          "explanation": "-지 않는 게 좋겠어요＝最好不要。"
+        },
+        {
+          "id": "L5806",
+          "audioText": "좋겠어요",
+          "question": "實際發音最接近哪一個？",
+          "options": [
+            "[조케써요]",
+            "[좋게써요]",
+            "[조게써요]"
+          ],
+          "answerIndex": 0,
+          "explanation": "ㅎ＋ㄱ 激音化。"
+        }
+      ],
+      "drills": [
+        {
+          "id": "D5801",
+          "type": "transformation",
+          "instruction": "給建議：…-는 게 좋겠어요。",
+          "model": {
+            "korean": "일찍 자요. → 일찍 자는 게 좋겠어요.",
+            "chinese": "最好早點睡。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "미리 예약해요.",
+              "answers": [
+                "미리 예약하는 게 좋겠어요."
+              ],
+              "chinese": "最好提前預約。"
+            },
+            {
+              "cue": "지하철을 타요.",
+              "answers": [
+                "지하철을 타는 게 좋겠어요."
+              ],
+              "chinese": "最好搭地鐵。"
+            },
+            {
+              "cue": "우산을 챙겨요.",
+              "answers": [
+                "우산을 챙기는 게 좋겠어요."
+              ],
+              "chinese": "最好帶傘。"
+            },
+            {
+              "cue": "공항에서 환전해요.",
+              "answers": [
+                "공항에서 환전하는 게 좋겠어요."
+              ],
+              "chinese": "最好在機場換錢。"
+            },
+            {
+              "cue": "병원에 가요.",
+              "answers": [
+                "병원에 가는 게 좋겠어요."
+              ],
+              "chinese": "最好去醫院。"
+            }
+          ]
+        },
+        {
+          "id": "D5802",
+          "type": "transformation",
+          "instruction": "說必須做的事：-아/어야 해요。",
+          "model": {
+            "korean": "여권을 챙겨요. → 여권을 챙겨야 해요.",
+            "chinese": "必須帶護照。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "숙제를 해요.",
+              "answers": [
+                "숙제를 해야 해요."
+              ],
+              "chinese": "必須寫作業。"
+            },
+            {
+              "cue": "규칙을 지켜요.",
+              "answers": [
+                "규칙을 지켜야 해요."
+              ],
+              "chinese": "必須遵守規則。"
+            },
+            {
+              "cue": "일찍 일어나요.",
+              "answers": [
+                "일찍 일어나야 해요."
+              ],
+              "chinese": "必須早起。"
+            },
+            {
+              "cue": "교통카드를 충전해요.",
+              "answers": [
+                "교통카드를 충전해야 해요."
+              ],
+              "chinese": "必須儲值交通卡。"
+            },
+            {
+              "cue": "신발을 벗어요.",
+              "answers": [
+                "신발을 벗어야 해요."
+              ],
+              "chinese": "必須脫鞋。"
+            }
+          ]
+        },
+        {
+          "id": "D5803",
+          "type": "substitution",
+          "instruction": "說規則：在這裡不可以…（-(으)면 안 돼요）。",
+          "model": {
+            "korean": "여기서 사진 찍으면 안 돼요.",
+            "chinese": "這裡不可以拍照。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "抽菸",
+              "answers": [
+                "여기서 담배 피우면 안 돼요."
+              ],
+              "chinese": "這裡不可以抽菸。"
+            },
+            {
+              "cue": "吃東西",
+              "answers": [
+                "여기서 음식을 먹으면 안 돼요."
+              ],
+              "chinese": "這裡不可以吃東西。"
+            },
+            {
+              "cue": "大聲說話（크게 말하다）",
+              "answers": [
+                "여기서 크게 말하면 안 돼요."
+              ],
+              "chinese": "這裡不可以大聲說話。"
+            },
+            {
+              "cue": "停車（주차하다）",
+              "answers": [
+                "여기서 주차하면 안 돼요."
+              ],
+              "chinese": "這裡不可以停車。"
+            },
+            {
+              "cue": "進去",
+              "answers": [
+                "여기 들어가면 안 돼요."
+              ],
+              "chinese": "這裡不可以進去。"
+            }
+          ]
+        },
+        {
+          "id": "D5804",
+          "type": "questionAnswer",
+          "instruction": "朋友要去韓國旅行，請你給建議。",
+          "model": {
+            "korean": "한국에 처음 가요. 뭘 준비해야 돼요? — 교통카드를 사는 게 좋겠어요.",
+            "chinese": "第一次去韓國，要準備什麼？——最好買張交通卡。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 8,
+          "items": [
+            {
+              "cue": "뭘 꼭 챙겨야 돼요?（護照）",
+              "cueIsAudio": true,
+              "answers": [
+                "여권을 꼭 챙겨야 돼요.",
+                "여권을 꼭 챙겨야 해요."
+              ],
+              "chinese": "一定要帶護照。"
+            },
+            {
+              "cue": "식당에서 팁 줘야 돼요?（不用）",
+              "cueIsAudio": true,
+              "answers": [
+                "아니요, 안 줘도 돼요.",
+                "아니요, 팁을 안 줘도 돼요."
+              ],
+              "chinese": "不用給。"
+            },
+            {
+              "cue": "공항에서 시내까지 어떻게 가는 게 좋아요?（最好搭地鐵）",
+              "cueIsAudio": true,
+              "answers": [
+                "지하철을 타는 게 좋겠어요.",
+                "공항철도를 타는 게 좋겠어요."
+              ],
+              "chinese": "最好搭地鐵。"
+            },
+            {
+              "cue": "궁에서 사진 찍어도 돼요?（可以，但裡面不可以）",
+              "cueIsAudio": true,
+              "answers": [
+                "네, 돼요. 하지만 안에서는 찍으면 안 돼요.",
+                "밖에서는 돼요. 안에서 찍으면 안 돼요."
+              ],
+              "chinese": "可以，但裡面不可以拍。"
+            },
+            {
+              "cue": "식당 예약해야 돼요?（最好提前預約）",
+              "cueIsAudio": true,
+              "answers": [
+                "미리 예약하는 게 좋겠어요.",
+                "네, 미리 예약하는 게 좋아요."
+              ],
+              "chinese": "最好提前預約。"
+            }
+          ]
+        },
+        {
+          "id": "D5805",
+          "type": "freeProduction",
+          "instruction": "給第一次去韓國的朋友三個建議（必須、最好、不可以各一）。",
+          "model": {
+            "korean": "여권을 꼭 챙겨야 해요. 미리 환전하는 게 좋겠어요. 지하철에서 음식을 먹으면 안 돼요.",
+            "chinese": "一定要帶護照，最好先換錢，地鐵上不可以吃東西。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 10,
+          "items": [
+            {
+              "cue": "自由回答",
+              "answers": [
+                "여권을 꼭 챙겨야 해요.",
+                "미리 환전하는 게 좋겠어요.",
+                "지하철에서 음식을 먹으면 안 돼요."
+              ],
+              "chinese": "（參考答案）"
+            }
+          ]
+        }
+      ],
+      "speaking": {
+        "scenario": "韓國朋友要第一次來台灣玩，請你給建議。AI 扮演朋友，會問很多問題。使用者會：-는 게 좋겠어요、-아/어야 해요、-(으)면 안 돼요、-아/어도 돼요。",
+        "speechLevel": "polite",
+        "offlineScript": [
+          {
+            "cue": "대만에 처음 가요. 뭘 준비해야 돼요?（提示：最好買一張悠遊卡——이지카드）",
+            "cueIsAudio": true,
+            "answers": [
+              "이지카드를 사는 게 좋겠어요.",
+              "교통카드를 사는 게 좋겠어요."
+            ],
+            "chinese": "最好買悠遊卡。"
+          },
+          {
+            "cue": "지하철에서 물 마셔도 돼요?（提示：不行，捷運裡不可以喝東西）",
+            "cueIsAudio": true,
+            "answers": [
+              "아니요, 지하철에서 마시면 안 돼요.",
+              "안 돼요. 지하철 안에서는 먹거나 마시면 안 돼요."
+            ],
+            "chinese": "不行，捷運裡不可以喝。"
+          },
+          {
+            "cue": "야시장은 꼭 가야 돼요?（提示：一定要去，最好晚上去）",
+            "cueIsAudio": true,
+            "answers": [
+              "네, 꼭 가 보세요. 밤에 가는 게 좋겠어요.",
+              "꼭 가야 해요! 밤에 가는 게 좋겠어요."
+            ],
+            "chinese": "一定要去，最好晚上去。"
+          }
+        ]
+      },
+      "postTest": [
+        {
+          "id": "Q5801",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「最好提前預約」怎麼說？",
+          "audioText": null,
+          "options": [
+            "미리 예약하는 게 좋겠어요.",
+            "미리 예약한 게 좋겠어요.",
+            "미리 예약해 게 좋겠어요."
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "動詞＋는 게 좋겠어요。"
+        },
+        {
+          "id": "Q5802",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「這裡不可以拍照」怎麼說？",
+          "audioText": null,
+          "options": [
+            "여기서 사진 찍으면 안 돼요.",
+            "여기서 사진 찍어도 돼요.",
+            "여기서 사진 찍어야 돼요."
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "-(으)면 안 돼요。"
+        },
+        {
+          "id": "Q5803",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「必須遵守規則」怎麼說？",
+          "audioText": null,
+          "options": [
+            "규칙을 지켜야 해요.",
+            "규칙을 지키면 안 돼요.",
+            "규칙을 지키는 게 안 돼요."
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "-아/어야 해요。"
+        },
+        {
+          "id": "Q5804",
+          "skill": "listening",
+          "kind": "listeningChoice",
+          "prompt": "聽建議選意思",
+          "audioText": "한국에서는 팁을 안 줘도 돼요.",
+          "options": [
+            "在韓國不用給小費。",
+            "在韓國一定要給小費。",
+            "在韓國不可以給小費。"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "안 줘도 돼요＝不用給。"
+        },
+        {
+          "id": "Q5805",
+          "skill": "grammar",
+          "kind": "typing",
+          "prompt": "用韓文寫：一定要帶護照。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "여권을 꼭 챙겨야 해요.",
+            "여권을 꼭 챙겨야 돼요."
+          ],
+          "explanation": "여권을 꼭 챙겨야 해요."
+        },
+        {
+          "id": "Q5806",
+          "skill": "speaking",
+          "kind": "speaking",
+          "prompt": "說出：最好早點睡。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "일찍 자는 게 좋겠어요.",
+            "일찍 자는 게 좋아요."
+          ],
+          "explanation": "일찍 자는 게 좋겠어요."
+        }
+      ],
+      "completion": {
+        "postTestPassRatio": 0.8,
+        "drillAccuracy": 0.8,
+        "requireVocabularyQuiz": true
+      }
+    },
+    {
+      "id": "U12L04",
+      "title": "計畫與夢想：「-(으)려고 해요」「-기로 했어요」",
+      "estimatedMinutes": 55,
+      "objectives": [
+        "用「-(으)려고 해요」說打算",
+        "用「-기로 했어요」說已經決定的事",
+        "談論學韓語的目標、夢想、未來計畫",
+        "整合時態：過去的經驗 → 現在 → 未來的計畫"
+      ],
+      "vocabulary": [
+        {
+          "id": "V0644",
+          "korean": "꿈",
+          "chinese": "夢想；夢",
+          "romanization": "kkum",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 368,
+          "example": {
+            "korean": "제 꿈은 한국에서 일하는 거예요.",
+            "chinese": "我的夢想是在韓國工作。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0645",
+          "korean": "목표",
+          "chinese": "目標",
+          "romanization": "mok-pyo",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 369,
+          "example": {
+            "korean": "올해 목표가 뭐예요?",
+            "chinese": "今年的目標是什麼？",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0646",
+          "korean": "계획을 세워요",
+          "chinese": "訂計畫",
+          "romanization": "gye-hoe-geul se-wo-yo",
+          "pronunciation": "[게훼글 세워요]",
+          "partOfSpeech": "expression",
+          "tier": "A",
+          "frequencyRank": 230,
+          "example": {
+            "korean": "여행 계획을 세웠어요.",
+            "chinese": "訂了旅行計畫。",
+            "speechLevel": "polite"
+          },
+          "usage": "세우다＝建立、訂定。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0647",
+          "korean": "유학",
+          "chinese": "留學",
+          "romanization": "yu-hak",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 231,
+          "example": {
+            "korean": "한국으로 유학을 가려고 해요.",
+            "chinese": "打算去韓國留學。",
+            "speechLevel": "polite"
+          },
+          "usage": "유학하다／유학 가다。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0648",
+          "korean": "취직",
+          "chinese": "就業；找到工作",
+          "romanization": "chwi-jik",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 232,
+          "example": {
+            "korean": "한국 회사에 취직하고 싶어요.",
+            "chinese": "想在韓國公司就業。",
+            "speechLevel": "polite"
+          },
+          "usage": "취직하다＝就業。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0649",
+          "korean": "이사",
+          "chinese": "搬家",
+          "romanization": "i-sa",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 233,
+          "example": {
+            "korean": "다음 달에 이사하기로 했어요.",
+            "chinese": "決定下個月搬家。",
+            "speechLevel": "polite"
+          },
+          "usage": "이사하다＝搬家（和 의사 醫生的發音要分清楚）。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0650",
+          "korean": "시험",
+          "chinese": "考試",
+          "romanization": "si-heom",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 370,
+          "example": {
+            "korean": "토픽 시험을 보려고 해요.",
+            "chinese": "打算考 TOPIK。",
+            "speechLevel": "polite"
+          },
+          "usage": "시험을 보다＝考試。TOPIK 是韓語能力檢定（토픽）。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0651",
+          "korean": "합격",
+          "chinese": "及格；考上",
+          "romanization": "hap-gyeok",
+          "pronunciation": "[합껵]",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 234,
+          "example": {
+            "korean": "시험에 합격했어요!",
+            "chinese": "考試及格了！",
+            "speechLevel": "polite"
+          },
+          "usage": "합격하다＝通過。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0652",
+          "korean": "열심히",
+          "chinese": "認真地",
+          "romanization": "yeol-sim-hi",
+          "pronunciation": "[열씨미]",
+          "partOfSpeech": "adverb",
+          "tier": "S",
+          "frequencyRank": 371,
+          "example": {
+            "korean": "열심히 공부할 거예요.",
+            "chinese": "會認真讀書。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0653",
+          "korean": "언젠가",
+          "chinese": "總有一天",
+          "romanization": "eon-jen-ga",
+          "partOfSpeech": "adverb",
+          "tier": "A",
+          "frequencyRank": 235,
+          "example": {
+            "korean": "언젠가 한국에서 살고 싶어요.",
+            "chinese": "總有一天想住在韓國。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0654",
+          "korean": "올해",
+          "chinese": "今年",
+          "romanization": "ol-hae",
+          "pronunciation": "[오래]",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 372,
+          "example": {
+            "korean": "올해 목표는 토픽 삼 급이에요.",
+            "chinese": "今年的目標是 TOPIK 三級。",
+            "speechLevel": "polite"
+          },
+          "usage": "작년＝去年、내년＝明年。",
+          "commonMistake": null
+        }
+      ],
+      "pronunciation": [
+        {
+          "id": "P5901",
+          "title": "-(으)려고 해요 的連音",
+          "explanation": "가려고 해요 → [가려고 해요]、먹으려고 해요 → [머그려고 해요]、배우려고 해요 → [배우려고 해요]；ㅎ 在 고 後面常弱化：[가려고 애요]。",
+          "articulation": "-(으)려고 的 려 從 [r] 滑到 ㅕ，一拍完成。",
+          "chineseSpeakerPitfall": "唸成 [먹 으려고]，把收音和 으 分開。",
+          "samples": [
+            "가려고 해요",
+            "먹으려고 해요",
+            "배우려고 해요"
+          ],
+          "minimalPairs": []
+        },
+        {
+          "id": "P5902",
+          "title": "열심히、합격、올해",
+          "explanation": "열심히 → [열씨미]（ㅅ 緊音化、ㅎ 弱化）；합격 → [합껵]（緊音化）；올해 → [오래]（ㅎ 弱化）。",
+          "articulation": "這幾個詞在談目標時很常用，整個詞背起來。",
+          "chineseSpeakerPitfall": "열심히 照字唸 [열심히]，聽起來很生硬。",
+          "samples": [
+            "열심히",
+            "합격",
+            "올해"
+          ],
+          "minimalPairs": []
+        }
+      ],
+      "grammar": [
+        {
+          "id": "G5901",
+          "title": "-(으)려고 해요（打算…）",
+          "pattern": "無收音或 ㄹ 收音＋려고 해요；有收音＋으려고 해요",
+          "explanation": "說還沒做、但有意圖的計畫：한국으로 유학을 가려고 해요、토픽 시험을 보려고 해요、김치를 만들려고 해요（ㄹ 語幹直接加 려고）。也可以說目的：한국어를 배우려고 한국 드라마를 봐요（為了學韓語看韓劇）。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "내년에 한국으로 유학을 가려고 해요.",
+              "chinese": "打算明年去韓國留學。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "한국어를 배우려고 드라마를 봐요.",
+              "chinese": "為了學韓語而看韓劇。",
+              "speechLevel": "polite"
+            }
+          ]
+        },
+        {
+          "id": "G5902",
+          "title": "-기로 했어요（決定…）",
+          "pattern": "語幹＋기로 했어요",
+          "explanation": "說已經決定或約好的事：다음 달에 이사하기로 했어요（決定下個月搬家）、친구랑 같이 여행하기로 했어요（和朋友約好一起旅行）。和 -(으)려고 해요 比較：-려고 해요 是打算，-기로 했어요 是已經決定。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "친구랑 같이 한국에 가기로 했어요.",
+              "chinese": "和朋友約好一起去韓國。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "매일 한 시간씩 공부하기로 했어요.",
+              "chinese": "決定每天讀一個小時。",
+              "speechLevel": "polite"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "korean": "제 꿈은 한국에서 일하는 거예요.",
+          "chinese": "我的夢想是在韓國工作。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "토픽 시험을 보려고 해요.",
+          "chinese": "打算考 TOPIK。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "매일 한 시간씩 공부하기로 했어요.",
+          "chinese": "決定每天讀一個小時。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "언젠가 한국에서 살고 싶어요.",
+          "chinese": "總有一天想住在韓國。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "올해 목표는 토픽 삼 급이에요.",
+          "chinese": "今年的目標是 TOPIK 三級。",
+          "speechLevel": "polite"
+        }
+      ],
+      "listening": [
+        {
+          "id": "L5901",
+          "audioText": "내년에 한국으로 유학을 가려고 해요.",
+          "question": "說話的人的計畫是？",
+          "options": [
+            "明年去韓國留學",
+            "已經在韓國留學",
+            "去年去韓國留學"
+          ],
+          "answerIndex": 0,
+          "explanation": "-(으)려고 해요＝打算。"
+        },
+        {
+          "id": "L5902",
+          "audioText": "친구랑 같이 여행하기로 했어요.",
+          "question": "意思是？",
+          "options": [
+            "和朋友約好一起旅行。",
+            "想和朋友旅行。",
+            "和朋友旅行過。"
+          ],
+          "answerIndex": 0,
+          "explanation": "-기로 했어요＝已經決定。"
+        },
+        {
+          "id": "L5903",
+          "audioText": "제 꿈은 한국 회사에 취직하는 거예요.",
+          "question": "說話的人的夢想是？",
+          "options": [
+            "在韓國公司工作",
+            "去韓國旅行",
+            "開一家公司"
+          ],
+          "answerIndex": 0,
+          "explanation": "취직＝就業。"
+        },
+        {
+          "id": "L5904",
+          "audioText": "토픽 시험에 합격했어요!",
+          "question": "發生了什麼？",
+          "options": [
+            "TOPIK 考試及格了",
+            "TOPIK 考試沒過",
+            "要去考 TOPIK"
+          ],
+          "answerIndex": 0,
+          "explanation": "합격＝及格。"
+        },
+        {
+          "id": "L5905",
+          "audioText": "한국어를 배우려고 매일 드라마를 봐요.",
+          "question": "為什麼每天看韓劇？",
+          "options": [
+            "為了學韓語",
+            "因為很無聊",
+            "因為朋友推薦"
+          ],
+          "answerIndex": 0,
+          "explanation": "-(으)려고＝為了。"
+        },
+        {
+          "id": "L5906",
+          "audioText": "열심히",
+          "question": "實際發音最接近哪一個？",
+          "options": [
+            "[열씨미]",
+            "[열심히]（照字）",
+            "[열시미]"
+          ],
+          "answerIndex": 0,
+          "explanation": "ㅅ 緊音化，ㅎ 弱化。"
+        }
+      ],
+      "drills": [
+        {
+          "id": "D5901",
+          "type": "transformation",
+          "instruction": "說打算：-(으)려고 해요。",
+          "model": {
+            "korean": "한국에 가요. → 한국에 가려고 해요.",
+            "chinese": "打算去韓國。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "토픽 시험을 봐요.",
+              "answers": [
+                "토픽 시험을 보려고 해요."
+              ],
+              "chinese": "打算考 TOPIK。"
+            },
+            {
+              "cue": "한국 회사에 취직해요.",
+              "answers": [
+                "한국 회사에 취직하려고 해요."
+              ],
+              "chinese": "打算在韓國公司就業。"
+            },
+            {
+              "cue": "김치를 만들어요.",
+              "answers": [
+                "김치를 만들려고 해요."
+              ],
+              "chinese": "打算做泡菜。"
+            },
+            {
+              "cue": "한국 소설을 읽어요.",
+              "answers": [
+                "한국 소설을 읽으려고 해요."
+              ],
+              "chinese": "打算讀韓國小說。"
+            },
+            {
+              "cue": "유학을 가요.",
+              "answers": [
+                "유학을 가려고 해요."
+              ],
+              "chinese": "打算去留學。"
+            }
+          ]
+        },
+        {
+          "id": "D5902",
+          "type": "transformation",
+          "instruction": "說已經決定：-기로 했어요。",
+          "model": {
+            "korean": "이사해요. → 이사하기로 했어요.",
+            "chinese": "決定搬家了。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "친구랑 같이 여행해요.",
+              "answers": [
+                "친구랑 같이 여행하기로 했어요."
+              ],
+              "chinese": "和朋友約好一起旅行。"
+            },
+            {
+              "cue": "매일 운동해요.",
+              "answers": [
+                "매일 운동하기로 했어요."
+              ],
+              "chinese": "決定每天運動。"
+            },
+            {
+              "cue": "한국어를 다시 배워요.",
+              "answers": [
+                "한국어를 다시 배우기로 했어요."
+              ],
+              "chinese": "決定重新學韓語。"
+            },
+            {
+              "cue": "내년에 한국에 가요.",
+              "answers": [
+                "내년에 한국에 가기로 했어요."
+              ],
+              "chinese": "決定明年去韓國。"
+            },
+            {
+              "cue": "술을 안 마셔요.",
+              "answers": [
+                "술을 안 마시기로 했어요."
+              ],
+              "chinese": "決定不喝酒了。"
+            }
+          ]
+        },
+        {
+          "id": "D5903",
+          "type": "substitution",
+          "instruction": "說夢想：제 꿈은 …-는 거예요。",
+          "model": {
+            "korean": "제 꿈은 한국에서 일하는 거예요.",
+            "chinese": "我的夢想是在韓國工作。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "住在韓國",
+              "answers": [
+                "제 꿈은 한국에서 사는 거예요."
+              ],
+              "chinese": "我的夢想是住在韓國。"
+            },
+            {
+              "cue": "去全世界旅行（세계 여행을 하다）",
+              "answers": [
+                "제 꿈은 세계 여행을 하는 거예요."
+              ],
+              "chinese": "我的夢想是環遊世界。"
+            },
+            {
+              "cue": "當韓語老師",
+              "answers": [
+                "제 꿈은 한국어 선생님이 되는 거예요."
+              ],
+              "chinese": "我的夢想是成為韓語老師。"
+            },
+            {
+              "cue": "看韓劇不用字幕（자막 없이 보다）",
+              "answers": [
+                "제 꿈은 자막 없이 한국 드라마를 보는 거예요."
+              ],
+              "chinese": "我的夢想是不看字幕看韓劇。"
+            },
+            {
+              "cue": "開咖啡廳（카페를 열다）",
+              "answers": [
+                "제 꿈은 카페를 여는 거예요."
+              ],
+              "chinese": "我的夢想是開咖啡廳。"
+            }
+          ]
+        },
+        {
+          "id": "D5904",
+          "type": "questionAnswer",
+          "instruction": "語言交換時朋友問你的目標和計畫，依提示回答。",
+          "model": {
+            "korean": "올해 목표가 뭐예요? — 토픽 삼 급이에요.",
+            "chinese": "今年的目標是什麼？——TOPIK 三級。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 8,
+          "items": [
+            {
+              "cue": "올해 목표가 뭐예요?（TOPIK 三級）",
+              "cueIsAudio": true,
+              "answers": [
+                "토픽 삼 급이에요.",
+                "토픽 3급이에요.",
+                "올해 목표는 토픽 삼 급이에요.",
+                "올해 목표는 토픽 3급이에요."
+              ],
+              "chinese": "TOPIK 三級。"
+            },
+            {
+              "cue": "왜 한국어를 배워요?（為了在韓國工作）",
+              "cueIsAudio": true,
+              "answers": [
+                "한국에서 일하려고 배워요.",
+                "한국 회사에 취직하려고 배워요."
+              ],
+              "chinese": "為了在韓國工作。"
+            },
+            {
+              "cue": "방학에 뭐 할 거예요?（和朋友約好去釜山）",
+              "cueIsAudio": true,
+              "answers": [
+                "친구랑 부산에 가기로 했어요.",
+                "친구하고 부산에 가기로 했어요."
+              ],
+              "chinese": "和朋友約好去釜山。"
+            },
+            {
+              "cue": "꿈이 뭐예요?（住在韓國）",
+              "cueIsAudio": true,
+              "answers": [
+                "제 꿈은 한국에서 사는 거예요.",
+                "한국에서 사는 거예요."
+              ],
+              "chinese": "住在韓國。"
+            },
+            {
+              "cue": "시험 결과 나왔어요?（是，及格了！）",
+              "cueIsAudio": true,
+              "answers": [
+                "네, 합격했어요!",
+                "네! 합격했어요."
+              ],
+              "chinese": "出來了，及格了！"
+            }
+          ]
+        },
+        {
+          "id": "D5905",
+          "type": "freeProduction",
+          "instruction": "說你學韓語的理由、今年的目標，以及已經決定的一個計畫。",
+          "model": {
+            "korean": "한국에서 일하려고 한국어를 배워요. 올해 목표는 토픽 삼 급이에요. 매일 한 시간씩 공부하기로 했어요.",
+            "chinese": "為了在韓國工作而學韓語。今年的目標是 TOPIK 三級。決定每天讀一個小時。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 10,
+          "items": [
+            {
+              "cue": "自由回答",
+              "answers": [
+                "한국에서 일하려고 한국어를 배워요.",
+                "올해 목표는 토픽 삼 급이에요.",
+                "올해 목표는 토픽 3급이에요.",
+                "매일 한 시간씩 공부하기로 했어요."
+              ],
+              "chinese": "（參考答案）"
+            }
+          ]
+        }
+      ],
+      "speaking": {
+        "scenario": "韓語補習班的期末面談，老師問你的學習成果與未來計畫。AI 扮演老師，使用禮貌語體。使用者會：-(으)려고 해요、-기로 했어요、꿈／목표、過去・現在・未來時態。",
+        "speechLevel": "polite",
+        "offlineScript": [
+          {
+            "cue": "왜 한국어를 배우기 시작했어요?（提示：因為喜歡韓劇，為了不看字幕看韓劇）",
+            "cueIsAudio": true,
+            "answers": [
+              "한국 드라마를 좋아해서 시작했어요. 자막 없이 보려고 배워요.",
+              "자막 없이 한국 드라마를 보려고 시작했어요."
+            ],
+            "chinese": "因為喜歡韓劇，為了不看字幕而開始學。"
+          },
+          {
+            "cue": "앞으로 계획이 있어요?（提示：打算明年考 TOPIK）",
+            "cueIsAudio": true,
+            "answers": [
+              "내년에 토픽 시험을 보려고 해요.",
+              "네, 내년에 토픽 시험을 보려고 해요."
+            ],
+            "chinese": "打算明年考 TOPIK。"
+          },
+          {
+            "cue": "좋네요! 그럼 공부는 어떻게 할 거예요?（提示：決定每天讀一個小時）",
+            "cueIsAudio": true,
+            "answers": [
+              "매일 한 시간씩 공부하기로 했어요.",
+              "매일 한 시간씩 공부할 거예요."
+            ],
+            "chinese": "決定每天讀一個小時。"
+          }
+        ]
+      },
+      "postTest": [
+        {
+          "id": "Q5901",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「打算考 TOPIK」怎麼說？",
+          "audioText": null,
+          "options": [
+            "토픽 시험을 보려고 해요.",
+            "토픽 시험을 보기로 해요?",
+            "토픽 시험을 볼려고 해요."
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "-(으)려고 해요＝打算。"
+        },
+        {
+          "id": "Q5902",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「和朋友約好一起旅行」怎麼說？",
+          "audioText": null,
+          "options": [
+            "친구랑 같이 여행하기로 했어요.",
+            "친구랑 같이 여행하려고 했어요?",
+            "친구랑 같이 여행하는 거예요."
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "-기로 했어요＝決定、約好。"
+        },
+        {
+          "id": "Q5903",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「我的夢想是住在韓國」怎麼說？",
+          "audioText": null,
+          "options": [
+            "제 꿈은 한국에서 사는 거예요.",
+            "제 꿈은 한국에서 살아요.",
+            "제 꿈이 한국에서 살기예요."
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "제 꿈은 …-는 거예요。"
+        },
+        {
+          "id": "Q5904",
+          "skill": "listening",
+          "kind": "listeningChoice",
+          "prompt": "聽計畫選意思",
+          "audioText": "아직 결정 안 했어요. 그래도 내년에 유학을 가려고 해요.",
+          "options": [
+            "還沒最後決定，但打算明年去留學。",
+            "已經決定明年去留學。",
+            "不想去留學。"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "-(으)려고 해요＝打算；아직＝還沒。"
+        },
+        {
+          "id": "Q5905",
+          "skill": "grammar",
+          "kind": "typing",
+          "prompt": "用韓文寫：今年的目標是什麼？",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "올해 목표가 뭐예요?",
+            "올해 목표는 뭐예요?"
+          ],
+          "explanation": "올해 목표가 뭐예요?"
+        },
+        {
+          "id": "Q5906",
+          "skill": "speaking",
+          "kind": "speaking",
+          "prompt": "說出：我會認真學習。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "열심히 공부할 거예요.",
+            "열심히 공부하겠습니다."
+          ],
+          "explanation": "열심히 공부할 거예요."
+        }
+      ],
+      "completion": {
+        "postTestPassRatio": 0.8,
+        "drillAccuracy": 0.8,
+        "requireVocabularyQuiz": true
+      }
+    },
+    {
+      "id": "U12L05",
+      "title": "實戰總測驗：韓國生活的一天",
+      "estimatedMinutes": 60,
+      "objectives": [
+        "綜合運用 12 個單元的句型，完成一天的韓國生活情境",
+        "依對象切換語體：正式（面試、廣播）、禮貌（店家、同事）、半語（朋友）",
+        "在不同情境中聽懂重點、快速回應",
+        "完成總測驗，檢視自己的弱項"
+      ],
+      "vocabulary": [
+        {
+          "id": "V0655",
+          "korean": "면접",
+          "chinese": "面試",
+          "romanization": "myeon-jeop",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 236,
+          "example": {
+            "korean": "내일 면접이 있어요.",
+            "chinese": "明天有面試。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0656",
+          "korean": "자기소개",
+          "chinese": "自我介紹",
+          "romanization": "ja-gi-so-gae",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 373,
+          "example": {
+            "korean": "자기소개 부탁드립니다.",
+            "chinese": "請自我介紹。",
+            "speechLevel": "formal"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0657",
+          "korean": "장단점",
+          "chinese": "優缺點",
+          "romanization": "jang-dan-jeom",
+          "pronunciation": "[장단쩜]",
+          "partOfSpeech": "noun",
+          "tier": "B",
+          "frequencyRank": 46,
+          "example": {
+            "korean": "본인의 장단점이 뭐예요?",
+            "chinese": "您的優缺點是什麼？",
+            "speechLevel": "polite"
+          },
+          "usage": "장점＋단점。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0658",
+          "korean": "성실해요",
+          "chinese": "認真；踏實",
+          "romanization": "seong-sil-hae-yo",
+          "pronunciation": "[성시래요]",
+          "partOfSpeech": "adjective",
+          "tier": "A",
+          "frequencyRank": 237,
+          "example": {
+            "korean": "저는 성실한 편이에요.",
+            "chinese": "我算是很認真的人。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 성실하다。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0659",
+          "korean": "편이에요",
+          "chinese": "算是…（的類型）",
+          "romanization": "pyeon-i-e-yo",
+          "pronunciation": "[펴니에요]",
+          "partOfSpeech": "expression",
+          "tier": "A",
+          "frequencyRank": 238,
+          "example": {
+            "korean": "저는 꼼꼼한 편이에요.",
+            "chinese": "我算是細心的人。",
+            "speechLevel": "polite"
+          },
+          "usage": "-(으)ㄴ/는 편이에요＝傾向於、算是。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0660",
+          "korean": "하루",
+          "chinese": "一天",
+          "romanization": "ha-ru",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 374,
+          "example": {
+            "korean": "오늘 하루 어땠어요?",
+            "chinese": "今天一天過得怎麼樣？",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0661",
+          "korean": "일정",
+          "chinese": "行程；日程",
+          "romanization": "il-jeong",
+          "pronunciation": "[일쩡]",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 239,
+          "example": {
+            "korean": "오늘 일정이 많아요.",
+            "chinese": "今天行程很多。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0662",
+          "korean": "퇴근",
+          "chinese": "下班",
+          "romanization": "toe-geun",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 375,
+          "example": {
+            "korean": "퇴근하고 친구를 만나요.",
+            "chinese": "下班後見朋友。",
+            "speechLevel": "polite"
+          },
+          "usage": "퇴근하다＝下班；출근＝上班。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0663",
+          "korean": "출근",
+          "chinese": "上班",
+          "romanization": "chul-geun",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 376,
+          "example": {
+            "korean": "아홉 시까지 출근해야 해요.",
+            "chinese": "九點前必須上班。",
+            "speechLevel": "polite"
+          },
+          "usage": "출근하다＝上班。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0664",
+          "korean": "뿌듯해요",
+          "chinese": "有成就感；欣慰",
+          "romanization": "ppu-deu-tae-yo",
+          "pronunciation": "[뿌드태요]",
+          "partOfSpeech": "adjective",
+          "tier": "B",
+          "frequencyRank": 47,
+          "example": {
+            "korean": "한국어로 면접을 봐서 뿌듯해요.",
+            "chinese": "用韓語面試了，很有成就感。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 뿌듯하다。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0665",
+          "korean": "수고했어",
+          "chinese": "辛苦了（半語）",
+          "romanization": "su-go-hae-sseo",
+          "pronunciation": "[수고해써]",
+          "partOfSpeech": "expression",
+          "tier": "A",
+          "frequencyRank": 240,
+          "example": {
+            "korean": "오늘 하루 수고했어!",
+            "chinese": "今天辛苦了！",
+            "speechLevel": "casual"
+          },
+          "usage": "對朋友、晚輩說；對長輩說 수고하셨습니다。",
+          "commonMistake": null
+        }
+      ],
+      "pronunciation": [
+        {
+          "id": "P6001",
+          "title": "綜合複習：整句的音變",
+          "explanation": "실례합니다 → [실레함니다]、먹고 싶어요 → [먹꼬 시퍼요]、같이 갈래? → [가치 갈래]、열심히 하겠습니다 → [열씨미 하겓씀니다]、잘 부탁드립니다 → [잘 부탁뜨림니다]。這些整句在一天中會反覆用到。",
+          "articulation": "不要一個字一個字唸，把整句當成一個單位跟讀。",
+          "chineseSpeakerPitfall": "單字發音都對，但整句沒有音變，聽起來仍像外國人。",
+          "samples": [
+            "실례합니다",
+            "먹고 싶어요",
+            "같이 갈래?",
+            "잘 부탁드립니다"
+          ],
+          "minimalPairs": []
+        },
+        {
+          "id": "P6002",
+          "title": "依對象切換語氣",
+          "explanation": "面試：速度稍慢、語尾清楚（-습니다）；店家：自然、有禮（-요）；朋友：輕快、語尾短（-아/어）。同一句「謝謝」：감사합니다／고마워요／고마워。",
+          "articulation": "切換語體時，連聲音的高低和速度也一起調整。",
+          "chineseSpeakerPitfall": "對朋友也用很正式的語調，聽起來有距離感。",
+          "samples": [
+            "감사합니다",
+            "고마워요",
+            "고마워"
+          ],
+          "minimalPairs": []
+        }
+      ],
+      "grammar": [
+        {
+          "id": "G6001",
+          "title": "-(으)ㄴ/는 편이에요（算是…）",
+          "pattern": "形容詞＋(으)ㄴ 편이에요；動詞＋는 편이에요",
+          "explanation": "委婉地描述自己的傾向，面試和自我介紹常用：저는 성실한 편이에요（我算是認真的人）、꼼꼼한 편이에요（算是細心）、일찍 일어나는 편이에요（算是早起的人）。比直接說「저는 성실해요」謙虛。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "저는 성실한 편이에요.",
+              "chinese": "我算是很認真的人。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "저는 일찍 일어나는 편이에요.",
+              "chinese": "我算是早起的人。",
+              "speechLevel": "polite"
+            }
+          ]
+        },
+        {
+          "id": "G6002",
+          "title": "依場合選擇語體（總整理）",
+          "pattern": "합쇼體（-습니다）：面試、簡報、廣播；해요體（-요）：店家、同事、陌生人；半語（-아/어）：熟朋友、晚輩",
+          "explanation": "同一件事三種說法：\n・面試：저는 대만에서 왔습니다。\n・對同事：저는 대만에서 왔어요。\n・對朋友：나 대만에서 왔어。\n說話對象決定語體，一段對話中最好保持一致；對方提議改說半語後才切換。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "저는 성실한 편입니다.",
+              "chinese": "我算是很認真的人。",
+              "speechLevel": "formal"
+            },
+            {
+              "korean": "오늘 하루 수고했어!",
+              "chinese": "今天辛苦了！",
+              "speechLevel": "casual"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "korean": "자기소개 부탁드립니다.",
+          "chinese": "請自我介紹。",
+          "speechLevel": "formal"
+        },
+        {
+          "korean": "저는 성실한 편이에요.",
+          "chinese": "我算是很認真的人。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "아홉 시까지 출근해야 해요.",
+          "chinese": "九點前必須上班。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "퇴근하고 친구를 만나요.",
+          "chinese": "下班後見朋友。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "오늘 하루 수고했어!",
+          "chinese": "今天辛苦了！",
+          "speechLevel": "casual"
+        }
+      ],
+      "listening": [
+        {
+          "id": "L6001",
+          "audioText": "자기소개 부탁드립니다.",
+          "question": "對方要你做什麼？",
+          "options": [
+            "自我介紹",
+            "填寫資料",
+            "等一下"
+          ],
+          "answerIndex": 0,
+          "explanation": "자기소개＝自我介紹。"
+        },
+        {
+          "id": "L6002",
+          "audioText": "본인의 장단점이 뭐예요?",
+          "question": "面試官在問什麼？",
+          "options": [
+            "你的優缺點是什麼？",
+            "你的興趣是什麼？",
+            "你為什麼來應徵？"
+          ],
+          "answerIndex": 0,
+          "explanation": "장단점＝優缺點。"
+        },
+        {
+          "id": "L6003",
+          "audioText": "이번 역은 강남, 강남역입니다. 내리실 문은 왼쪽입니다.",
+          "question": "要從哪邊下車？",
+          "options": [
+            "左邊",
+            "右邊",
+            "這站不能下車"
+          ],
+          "answerIndex": 0,
+          "explanation": "왼쪽＝左邊。"
+        },
+        {
+          "id": "L6004",
+          "audioText": "아메리카노 한 잔이요? 사천오백 원입니다.",
+          "question": "總共多少錢？",
+          "options": [
+            "4,500 元",
+            "1,500 元",
+            "45,000 元"
+          ],
+          "answerIndex": 0,
+          "explanation": "사천오백＝四千五百。"
+        },
+        {
+          "id": "L6005",
+          "audioText": "오늘 퇴근하고 뭐 해? 시간 되면 같이 밥 먹을래?",
+          "question": "朋友在做什麼？",
+          "options": [
+            "約你下班後一起吃飯",
+            "問你幾點下班",
+            "說他今天很忙"
+          ],
+          "answerIndex": 0,
+          "explanation": "-(으)ㄹ래?＝要不要？"
+        },
+        {
+          "id": "L6006",
+          "audioText": "내일은 비가 오겠습니다. 우산을 챙기시기 바랍니다.",
+          "question": "天氣預報說什麼？",
+          "options": [
+            "明天會下雨，請帶傘",
+            "明天晴天",
+            "今天會下雨"
+          ],
+          "answerIndex": 0,
+          "explanation": "비가 오겠습니다＝會下雨。"
+        }
+      ],
+      "drills": [
+        {
+          "id": "D6001",
+          "type": "transformation",
+          "instruction": "依對象改說法：把해요體改成面試用的합쇼體。",
+          "model": {
+            "korean": "저는 대만에서 왔어요. → 저는 대만에서 왔습니다.",
+            "chinese": "我來自台灣。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 8,
+          "items": [
+            {
+              "cue": "저는 성실한 편이에요.",
+              "answers": [
+                "저는 성실한 편입니다."
+              ],
+              "chinese": "我算是很認真的人。"
+            },
+            {
+              "cue": "한국어를 삼 년 동안 공부했어요.",
+              "answers": [
+                "한국어를 삼 년 동안 공부했습니다.",
+                "한국어를 3년 동안 공부했습니다."
+              ],
+              "chinese": "學了三年韓語。"
+            },
+            {
+              "cue": "열심히 할게요.",
+              "answers": [
+                "열심히 하겠습니다."
+              ],
+              "chinese": "我會努力的。"
+            },
+            {
+              "cue": "잘 부탁해요.",
+              "answers": [
+                "잘 부탁드립니다."
+              ],
+              "chinese": "請多多指教。"
+            },
+            {
+              "cue": "감사해요.",
+              "answers": [
+                "감사합니다."
+              ],
+              "chinese": "謝謝。"
+            }
+          ]
+        },
+        {
+          "id": "D6002",
+          "type": "transformation",
+          "instruction": "依對象改說法：把해요體改成對朋友說的半語。",
+          "model": {
+            "korean": "오늘 수고했어요. → 오늘 수고했어.",
+            "chinese": "今天辛苦了。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 6,
+          "items": [
+            {
+              "cue": "퇴근하고 뭐 해요?",
+              "answers": [
+                "퇴근하고 뭐 해?"
+              ],
+              "chinese": "下班後要幹嘛？"
+            },
+            {
+              "cue": "같이 밥 먹을래요?",
+              "answers": [
+                "같이 밥 먹을래?"
+              ],
+              "chinese": "要一起吃飯嗎？"
+            },
+            {
+              "cue": "저도 좋아요.",
+              "answers": [
+                "나도 좋아."
+              ],
+              "chinese": "我也好。"
+            },
+            {
+              "cue": "내일 봐요.",
+              "answers": [
+                "내일 봐."
+              ],
+              "chinese": "明天見。"
+            },
+            {
+              "cue": "고마워요.",
+              "answers": [
+                "고마워."
+              ],
+              "chinese": "謝啦。"
+            }
+          ]
+        },
+        {
+          "id": "D6003",
+          "type": "substitution",
+          "instruction": "面試回答：저는 …-(으)ㄴ/는 편이에요。",
+          "model": {
+            "korean": "저는 성실한 편이에요.",
+            "chinese": "我算是很認真的人。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "細心（꼼꼼하다）",
+              "answers": [
+                "저는 꼼꼼한 편이에요."
+              ],
+              "chinese": "我算是細心的人。"
+            },
+            {
+              "cue": "早起",
+              "answers": [
+                "저는 일찍 일어나는 편이에요."
+              ],
+              "chinese": "我算是早起的人。"
+            },
+            {
+              "cue": "個性好（성격이 좋다）",
+              "answers": [
+                "저는 성격이 좋은 편이에요."
+              ],
+              "chinese": "我算是個性好的人。"
+            },
+            {
+              "cue": "有點急性子（성격이 급하다）",
+              "answers": [
+                "저는 성격이 좀 급한 편이에요."
+              ],
+              "chinese": "我算是有點急性子。"
+            },
+            {
+              "cue": "很會跟人相處（사람들과 잘 지내다）",
+              "answers": [
+                "저는 사람들과 잘 지내는 편이에요."
+              ],
+              "chinese": "我算是很會跟人相處。"
+            }
+          ]
+        },
+        {
+          "id": "D6004",
+          "type": "questionAnswer",
+          "instruction": "韓國生活的一天：依情境和對象回應（注意語體）。",
+          "model": {
+            "korean": "（面試官）자기소개 부탁드립니다. — 안녕하십니까? 저는 …",
+            "chinese": "請自我介紹。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 8,
+          "items": [
+            {
+              "cue": "（面試官）자기소개 부탁드립니다.（說名字：지민、來自台灣）",
+              "cueIsAudio": true,
+              "answers": [
+                "안녕하십니까? 저는 지민이라고 합니다. 대만에서 왔습니다.",
+                "저는 지민이라고 합니다. 대만에서 왔습니다."
+              ],
+              "chinese": "您好，我叫智敏，來自台灣。"
+            },
+            {
+              "cue": "（面試官）왜 우리 회사에 지원했어요?（因為想在韓國工作）",
+              "cueIsAudio": true,
+              "answers": [
+                "한국에서 일하고 싶기 때문입니다.",
+                "한국에서 일하고 싶어서 지원했습니다."
+              ],
+              "chinese": "因為想在韓國工作。"
+            },
+            {
+              "cue": "（咖啡店員）뭐 드릴까요?（一杯冰美式——아이스 아메리카노）",
+              "cueIsAudio": true,
+              "answers": [
+                "아이스 아메리카노 한 잔 주세요.",
+                "아이스 아메리카노 하나 주세요."
+              ],
+              "chinese": "請給我一杯冰美式。"
+            },
+            {
+              "cue": "（同事）오늘 면접 어땠어요?（有點緊張，但很有成就感）",
+              "cueIsAudio": true,
+              "answers": [
+                "좀 긴장했어요. 그래도 뿌듯해요.",
+                "긴장했지만 뿌듯해요."
+              ],
+              "chinese": "有點緊張，但很有成就感。"
+            },
+            {
+              "cue": "（好朋友）오늘 하루 어땠어?（很累，但很開心——用半語）",
+              "cueIsAudio": true,
+              "answers": [
+                "피곤했어. 그래도 좋았어.",
+                "힘들었지만 재미있었어."
+              ],
+              "chinese": "很累，但很開心。"
+            }
+          ]
+        },
+        {
+          "id": "D6005",
+          "type": "freeProduction",
+          "instruction": "用三種語體各說一句「謝謝」和「辛苦了」：對面試官、對同事、對朋友。",
+          "model": {
+            "korean": "감사합니다. 수고하셨습니다. / 고마워요. 수고했어요. / 고마워. 수고했어.",
+            "chinese": "謝謝、辛苦了（正式／禮貌／半語）。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 10,
+          "items": [
+            {
+              "cue": "自由回答",
+              "answers": [
+                "감사합니다. 수고하셨습니다.",
+                "고마워요. 수고했어요.",
+                "고마워. 수고했어."
+              ],
+              "chinese": "（參考答案）"
+            }
+          ]
+        }
+      ],
+      "speaking": {
+        "scenario": "韓國生活的一天：早上在咖啡店點餐 → 上午到公司面試 → 晚上和朋友吃飯聊今天。AI 依序扮演店員、面試官、朋友，語體跟著改變。使用者會：依對象切換 해요體／합쇼體／半語，並綜合 12 個單元的句型。",
+        "speechLevel": "polite",
+        "offlineScript": [
+          {
+            "cue": "（咖啡店員）어서 오세요. 주문하시겠어요?（提示：一杯熱拿鐵——따뜻한 라떼，外帶）",
+            "cueIsAudio": true,
+            "answers": [
+              "따뜻한 라떼 한 잔 주세요. 포장해 주세요.",
+              "따뜻한 라떼 한 잔 포장해 주세요."
+            ],
+            "chinese": "請給我一杯熱拿鐵，外帶。"
+          },
+          {
+            "cue": "（面試官）본인의 장점이 뭐예요?（提示：用正式語體說：我算是很認真的人）",
+            "cueIsAudio": true,
+            "answers": [
+              "저는 성실한 편입니다.",
+              "저는 성실한 편이라고 생각합니다."
+            ],
+            "chinese": "我算是很認真的人。"
+          },
+          {
+            "cue": "（朋友）면접 잘 봤어? 수고했어!（提示：用半語：謝啦，好像考得不錯）",
+            "cueIsAudio": true,
+            "answers": [
+              "고마워! 잘 본 것 같아.",
+              "고마워. 잘 본 것 같아!"
+            ],
+            "chinese": "謝啦！好像考得不錯。"
+          }
+        ]
+      },
+      "postTest": [
+        {
+          "id": "Q6001",
+          "skill": "listening",
+          "kind": "listeningChoice",
+          "prompt": "聽廣播選意思",
+          "audioText": "이번 역은 서울역입니다. 내리실 문은 오른쪽입니다.",
+          "options": [
+            "這站首爾站，右邊下車。",
+            "下一站首爾站，左邊下車。",
+            "首爾站不停車。"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "내리실 문은 오른쪽＝右邊下車。"
+        },
+        {
+          "id": "Q6002",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "面試時說「我會努力的」，哪一句最適合？",
+          "audioText": null,
+          "options": [
+            "열심히 하겠습니다.",
+            "열심히 할게.",
+            "열심히 해요?"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "面試用합쇼體。"
+        },
+        {
+          "id": "Q6003",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "對好朋友說「明天見」，哪一句最自然？",
+          "audioText": null,
+          "options": [
+            "내일 봐.",
+            "내일 뵙겠습니다.",
+            "내일 보세요."
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "朋友之間用半語。"
+        },
+        {
+          "id": "Q6004",
+          "skill": "reading",
+          "kind": "choice",
+          "prompt": "閱讀：「저는 한국어를 배우려고 매일 드라마를 봐요. 내년에 토픽 시험을 보기로 했어요.」以下何者正確？",
+          "audioText": null,
+          "options": [
+            "說話者決定明年考 TOPIK。",
+            "說話者已經考過 TOPIK。",
+            "說話者不看韓劇。"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "-려고＝為了；-기로 했어요＝已決定。"
+        },
+        {
+          "id": "Q6005",
+          "skill": "vocabulary",
+          "kind": "choice",
+          "prompt": "「下班」的韓語是？",
+          "audioText": null,
+          "options": [
+            "퇴근",
+            "출근",
+            "면접"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "퇴근＝下班；출근＝上班。"
+        },
+        {
+          "id": "Q6006",
+          "skill": "listening",
+          "kind": "listeningChoice",
+          "prompt": "聽朋友的話選意思",
+          "audioText": "퇴근하고 시간 있으면 같이 저녁 먹을래?",
+          "options": [
+            "下班後有空的話要一起吃晚餐嗎？",
+            "下班後一起去上班嗎？",
+            "今天沒空吃晚餐。"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "-(으)ㄹ래?＝要不要；-면＝如果。"
+        },
+        {
+          "id": "Q6007",
+          "skill": "grammar",
+          "kind": "typing",
+          "prompt": "用韓文寫（面試）：請多多指教。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "잘 부탁드립니다.",
+            "앞으로 잘 부탁드립니다."
+          ],
+          "explanation": "잘 부탁드립니다."
+        },
+        {
+          "id": "Q6008",
+          "skill": "speaking",
+          "kind": "speaking",
+          "prompt": "用正式語體自我介紹一句：我來自台灣。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "저는 대만에서 왔습니다.",
+            "대만에서 왔습니다.",
+            "저는 대만 사람입니다."
+          ],
+          "explanation": "저는 대만에서 왔습니다."
+        }
+      ],
+      "completion": {
+        "postTestPassRatio": 0.75,
+        "drillAccuracy": 0.8,
+        "requireVocabularyQuiz": true
+      }
+    }
+  ]
 }

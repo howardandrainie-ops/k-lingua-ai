@@ -207,6 +207,33 @@ struct ContentTests {
         #expect(u11.lessons.flatMap(\.vocabulary).allSatisfy { !earlier.contains($0.korean) })
     }
 
+    @Test("單元 12 實戰：總測驗涵蓋多項能力，三種語體都有")
+    func unit12() throws {
+        let lib = try ContentLibrary.loadBundled()
+        let u12 = lib.units[11]
+        #expect(u12.number == 12)
+        #expect(u12.available)
+        #expect(u12.stage == .freeConversation)
+        #expect(u12.lessons.map(\.id) == ["U12L01", "U12L02", "U12L03", "U12L04", "U12L05"])
+        let finalTest = try #require(u12.lessons.last).postTest
+        #expect(Set(finalTest.map(\.skill)).isSuperset(of: [.listening, .grammar, .reading, .vocabulary, .speaking]))
+        let levels = Set(try #require(u12.lessons.last).grammar.flatMap(\.examples).compactMap(\.speechLevel))
+        #expect(levels.isSuperset(of: [.formal, .casual]))
+    }
+
+    @Test("全部 12 單元開放：60 課，單字不重複")
+    func wholeCourse() throws {
+        let lib = try ContentLibrary.loadBundled()
+        #expect(lib.units.allSatisfy(\.available))
+        #expect(lib.allLessons.count == 60)
+        let words = lib.allVocabulary.map(\.korean)
+        #expect(words.count >= 600)
+        #expect(Set(words).count == words.count, "有單字在不同單元重複出現")
+        // 每個課程階段至少有一個單元
+        let stages = Set(lib.units.map(\.stage))
+        #expect(stages.count >= 7)
+    }
+
     @Test("數字答案：韓文、阿拉伯數字、千分位、語音辨識結果都判為正確")
     func numberAnswersAcceptDigits() throws {
         let lib = try ContentLibrary.loadBundled()
