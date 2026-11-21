@@ -3,7 +3,3505 @@
   "number": 10,
   "title": "朋友聊天及社交",
   "stage": 5,
-  "summary": "반말 對話、語氣詞、網路用語、約見面、追星與粉絲交流。",
-  "available": false,
-  "lessons": []
+  "summary": "半語對話與語氣詞（-네、-지?、-잖아）、約見面（-(으)ㄹ래?、-(으)ㄹ까?、-자）、傳訊息與網路用語、追星與粉絲交流（-는 거 좋아해、-(으)ㄴ 적 있어）、說感覺與聚會（-(으)ㄴ/는 것 같아、-(으)면）。",
+  "available": true,
+  "lessons": [
+    {
+      "id": "U10L01",
+      "title": "朋友間的對話：語氣詞與「-네、-지?」",
+      "estimatedMinutes": 50,
+      "objectives": [
+        "用語氣詞回應朋友：진짜?、대박!、헐、아 그래?、맞아",
+        "用「-네」表達當下的發現或感嘆：맛있네!",
+        "用「-지?」向朋友確認：재미있지?",
+        "用「-잖아」說「你也知道的嘛」"
+      ],
+      "vocabulary": [
+        {
+          "id": "V0501",
+          "korean": "진짜?",
+          "chinese": "真的嗎？",
+          "romanization": "jin-jja",
+          "partOfSpeech": "interjection",
+          "tier": "S",
+          "frequencyRank": 293,
+          "example": {
+            "korean": "진짜? 대박!",
+            "chinese": "真的嗎？太扯了！",
+            "speechLevel": "casual"
+          },
+          "usage": "也可以說 정말?。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0502",
+          "korean": "대박",
+          "chinese": "超讚；太扯了",
+          "romanization": "dae-bak",
+          "partOfSpeech": "interjection",
+          "tier": "S",
+          "frequencyRank": 294,
+          "example": {
+            "korean": "이 노래 대박이야!",
+            "chinese": "這首歌超讚！",
+            "speechLevel": "casual"
+          },
+          "usage": "好事、壞事、驚訝都能用，看語氣。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0503",
+          "korean": "헐",
+          "chinese": "傻眼；不會吧",
+          "romanization": "heol",
+          "partOfSpeech": "interjection",
+          "tier": "A",
+          "frequencyRank": 173,
+          "example": {
+            "korean": "헐, 진짜?",
+            "chinese": "不會吧，真的嗎？",
+            "speechLevel": "casual"
+          },
+          "usage": "非常口語，只對朋友用。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0504",
+          "korean": "맞아",
+          "chinese": "對啊；沒錯",
+          "romanization": "ma-ja",
+          "pronunciation": "[마자]",
+          "partOfSpeech": "expression",
+          "tier": "S",
+          "frequencyRank": 295,
+          "example": {
+            "korean": "맞아, 나도 그렇게 생각해.",
+            "chinese": "對啊，我也這麼想。",
+            "speechLevel": "casual"
+          },
+          "usage": "맞아요 的半語。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0505",
+          "korean": "그래?",
+          "chinese": "是喔？；這樣啊？",
+          "romanization": "geu-rae",
+          "partOfSpeech": "expression",
+          "tier": "S",
+          "frequencyRank": 296,
+          "example": {
+            "korean": "아, 그래? 몰랐어.",
+            "chinese": "是喔？我都不知道。",
+            "speechLevel": "casual"
+          },
+          "usage": "그래요? 的半語。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0506",
+          "korean": "그냥",
+          "chinese": "就這樣；只是",
+          "romanization": "geu-nyang",
+          "partOfSpeech": "adverb",
+          "tier": "S",
+          "frequencyRank": 297,
+          "example": {
+            "korean": "그냥 집에 있었어.",
+            "chinese": "就待在家。",
+            "speechLevel": "casual"
+          },
+          "usage": "回答「在幹嘛」常用：그냥（沒什麼）。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0507",
+          "korean": "완전",
+          "chinese": "超；完全",
+          "romanization": "wan-jeon",
+          "partOfSpeech": "adverb",
+          "tier": "S",
+          "frequencyRank": 298,
+          "example": {
+            "korean": "완전 맛있어!",
+            "chinese": "超好吃！",
+            "speechLevel": "casual"
+          },
+          "usage": "口語中當「非常」用。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0508",
+          "korean": "심심해",
+          "chinese": "好無聊",
+          "romanization": "sim-sim-hae",
+          "partOfSpeech": "adjective",
+          "tier": "A",
+          "frequencyRank": 174,
+          "example": {
+            "korean": "너무 심심해.",
+            "chinese": "好無聊。",
+            "speechLevel": "casual"
+          },
+          "usage": "原形 심심하다（閒著沒事的無聊）。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0509",
+          "korean": "귀여워",
+          "chinese": "好可愛",
+          "romanization": "gwi-yeo-wo",
+          "partOfSpeech": "adjective",
+          "tier": "S",
+          "frequencyRank": 299,
+          "example": {
+            "korean": "강아지 진짜 귀여워!",
+            "chinese": "小狗真的好可愛！",
+            "speechLevel": "casual"
+          },
+          "usage": "原形 귀엽다（ㅂ 不規則）。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0510",
+          "korean": "웃겨",
+          "chinese": "好好笑",
+          "romanization": "ut-gyeo",
+          "pronunciation": "[욷껴]",
+          "partOfSpeech": "adjective",
+          "tier": "A",
+          "frequencyRank": 175,
+          "example": {
+            "korean": "이 영상 너무 웃겨.",
+            "chinese": "這個影片好好笑。",
+            "speechLevel": "casual"
+          },
+          "usage": "原形 웃기다。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0511",
+          "korean": "어때?",
+          "chinese": "怎麼樣？",
+          "romanization": "eo-ttae",
+          "partOfSpeech": "expression",
+          "tier": "S",
+          "frequencyRank": 300,
+          "example": {
+            "korean": "이거 어때?",
+            "chinese": "這個怎麼樣？",
+            "speechLevel": "casual"
+          },
+          "usage": "어때요? 的半語。",
+          "commonMistake": null
+        }
+      ],
+      "pronunciation": [
+        {
+          "id": "P4601",
+          "title": "語氣詞的語調",
+          "explanation": "語氣詞的意思靠語調：진짜?↗（驚訝地確認）／진짜.↘（真的啦）；대박!（興奮，聲音高）；헐…（傻眼，聲音拖長往下）。",
+          "articulation": "跟讀時誇張一點，韓國人說話的語調起伏比中文大。",
+          "chineseSpeakerPitfall": "用平平的語調說 대박，聽起來沒有感情。",
+          "samples": [
+            "진짜?",
+            "대박!",
+            "헐",
+            "아, 그래?"
+          ],
+          "minimalPairs": []
+        },
+        {
+          "id": "P4602",
+          "title": "-네、-지、-잖아 的連音",
+          "explanation": "맛있네 → [마신네]（ㅆ＋ㄴ 鼻音化）、좋네 → [존네]、재미있지? → [재미읻찌]、알잖아 → [알자나]。",
+          "articulation": "-네 前面的收音常鼻音化，-지 前面的收音讓 지 變緊音。",
+          "chineseSpeakerPitfall": "맛있네 照字唸 [맛있네]，聽起來不自然。",
+          "samples": [
+            "맛있네",
+            "좋네",
+            "재미있지?",
+            "알잖아"
+          ],
+          "minimalPairs": []
+        }
+      ],
+      "grammar": [
+        {
+          "id": "G4601",
+          "title": "-네（發現、感嘆）",
+          "pattern": "語幹＋네（半語）／네요（禮貌）",
+          "explanation": "當下發現某件事、表示感嘆時用：와, 맛있네!（哇，好好吃！）、벌써 열 시네（已經十點了耶）、한국어 잘하시네요（您韓語說得真好）。名詞：N(이)네。",
+          "speechLevel": "casual",
+          "examples": [
+            {
+              "korean": "와, 맛있네!",
+              "chinese": "哇，好好吃！",
+              "speechLevel": "casual"
+            },
+            {
+              "korean": "벌써 열 시네.",
+              "chinese": "已經十點了耶。",
+              "speechLevel": "casual"
+            }
+          ]
+        },
+        {
+          "id": "G4602",
+          "title": "-지?（對吧？）與 -잖아（你也知道嘛）",
+          "pattern": "語幹＋지?／죠?；語幹＋잖아／잖아요",
+          "explanation": "-지? 向對方確認自己認為對方也同意的事：재미있지?（很好玩吧？）、내일 시간 있지?。禮貌說法 -죠?：맛있죠?。-잖아 提醒對方已經知道的事，帶有「你也知道的嘛」的語氣：내가 말했잖아（我不是說過了嘛）。",
+          "speechLevel": "casual",
+          "examples": [
+            {
+              "korean": "이 영화 재미있지?",
+              "chinese": "這部電影很好看吧？",
+              "speechLevel": "casual"
+            },
+            {
+              "korean": "내가 말했잖아!",
+              "chinese": "我不是說過了嘛！",
+              "speechLevel": "casual"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "korean": "진짜? 대박!",
+          "chinese": "真的嗎？太扯了！",
+          "speechLevel": "casual"
+        },
+        {
+          "korean": "와, 이거 완전 맛있네!",
+          "chinese": "哇，這個超好吃！",
+          "speechLevel": "casual"
+        },
+        {
+          "korean": "이 노래 좋지?",
+          "chinese": "這首歌很好聽吧？",
+          "speechLevel": "casual"
+        },
+        {
+          "korean": "나 오늘 너무 심심해.",
+          "chinese": "我今天好無聊。",
+          "speechLevel": "casual"
+        },
+        {
+          "korean": "아, 그래? 몰랐어.",
+          "chinese": "是喔？我都不知道。",
+          "speechLevel": "casual"
+        }
+      ],
+      "listening": [
+        {
+          "id": "L4601",
+          "audioText": "헐, 진짜?",
+          "question": "說話的人是什麼感覺？",
+          "options": [
+            "很驚訝、不敢相信",
+            "很開心",
+            "很生氣"
+          ],
+          "answerIndex": 0,
+          "explanation": "헐＝傻眼、不敢相信。"
+        },
+        {
+          "id": "L4602",
+          "audioText": "와, 맛있네!",
+          "question": "說話的人在做什麼？",
+          "options": [
+            "吃到東西，感嘆很好吃",
+            "問好不好吃",
+            "說東西不好吃"
+          ],
+          "answerIndex": 0,
+          "explanation": "-네＝當下的發現、感嘆。"
+        },
+        {
+          "id": "L4603",
+          "audioText": "이 영화 재미있지?",
+          "question": "對方在做什麼？",
+          "options": [
+            "確認你也覺得好看",
+            "問你看過沒",
+            "說電影很無聊"
+          ],
+          "answerIndex": 0,
+          "explanation": "-지?＝對吧？"
+        },
+        {
+          "id": "L4604",
+          "audioText": "맛있네",
+          "question": "實際發音最接近哪一個？",
+          "options": [
+            "[마신네]",
+            "[마싣네]",
+            "[마시네]"
+          ],
+          "answerIndex": 0,
+          "explanation": "ㅆ 收音遇到 ㄴ 鼻音化。"
+        }
+      ],
+      "drills": [
+        {
+          "id": "D4601",
+          "type": "transformation",
+          "instruction": "改成感嘆：-아/어요 → -네（半語）。",
+          "model": {
+            "korean": "맛있어요. → 맛있네!",
+            "chinese": "好好吃！",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 6,
+          "items": [
+            {
+              "cue": "예뻐요.",
+              "answers": [
+                "예쁘네!"
+              ],
+              "chinese": "好漂亮！"
+            },
+            {
+              "cue": "비싸요.",
+              "answers": [
+                "비싸네!"
+              ],
+              "chinese": "好貴！"
+            },
+            {
+              "cue": "사람이 많아요.",
+              "answers": [
+                "사람이 많네!"
+              ],
+              "chinese": "人好多！"
+            },
+            {
+              "cue": "한국어 잘해요.",
+              "answers": [
+                "한국어 잘하네!"
+              ],
+              "chinese": "韓語說得真好！"
+            },
+            {
+              "cue": "벌써 열 시예요.",
+              "answers": [
+                "벌써 열 시네!"
+              ],
+              "chinese": "已經十點了耶！"
+            }
+          ]
+        },
+        {
+          "id": "D4602",
+          "type": "transformation",
+          "instruction": "改成確認：-아/어 → -지?",
+          "model": {
+            "korean": "재미있어. → 재미있지?",
+            "chinese": "很好玩吧？",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 6,
+          "items": [
+            {
+              "cue": "맛있어.",
+              "answers": [
+                "맛있지?"
+              ],
+              "chinese": "很好吃吧？"
+            },
+            {
+              "cue": "귀여워.",
+              "answers": [
+                "귀엽지?"
+              ],
+              "chinese": "很可愛吧？"
+            },
+            {
+              "cue": "내일 시간 있어.",
+              "answers": [
+                "내일 시간 있지?"
+              ],
+              "chinese": "明天有空吧？"
+            },
+            {
+              "cue": "이 노래 알아.",
+              "answers": [
+                "이 노래 알지?"
+              ],
+              "chinese": "你知道這首歌吧？"
+            },
+            {
+              "cue": "너도 가.",
+              "answers": [
+                "너도 가지?"
+              ],
+              "chinese": "你也會去吧？"
+            }
+          ]
+        },
+        {
+          "id": "D4603",
+          "type": "substitution",
+          "instruction": "用語氣詞回應朋友（依提示的心情）。",
+          "model": {
+            "korean": "（驚訝）→ 진짜?",
+            "chinese": "真的嗎？",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 5,
+          "items": [
+            {
+              "cue": "（太扯了／超厲害）",
+              "answers": [
+                "대박!",
+                "대박"
+              ],
+              "chinese": "太扯了！"
+            },
+            {
+              "cue": "（傻眼、不敢相信）",
+              "answers": [
+                "헐.",
+                "헐, 진짜?"
+              ],
+              "chinese": "不會吧。"
+            },
+            {
+              "cue": "（同意）",
+              "answers": [
+                "맞아.",
+                "맞아, 맞아."
+              ],
+              "chinese": "對啊。"
+            },
+            {
+              "cue": "（第一次聽說）",
+              "answers": [
+                "아, 그래?",
+                "그래?"
+              ],
+              "chinese": "是喔？"
+            },
+            {
+              "cue": "（覺得好笑）",
+              "answers": [
+                "너무 웃겨.",
+                "완전 웃겨."
+              ],
+              "chinese": "好好笑。"
+            }
+          ]
+        },
+        {
+          "id": "D4604",
+          "type": "questionAnswer",
+          "instruction": "朋友用半語跟你聊天，用半語回應。",
+          "model": {
+            "korean": "뭐 해? — 그냥 집에 있어.",
+            "chinese": "在幹嘛？——就待在家。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 6,
+          "items": [
+            {
+              "cue": "뭐 해?（沒什麼，就在家）",
+              "cueIsAudio": true,
+              "answers": [
+                "그냥 집에 있어.",
+                "그냥 있어."
+              ],
+              "chinese": "就待在家。"
+            },
+            {
+              "cue": "나 다음 달에 한국 가!（真的嗎？太好了）",
+              "cueIsAudio": true,
+              "answers": [
+                "진짜? 대박!",
+                "진짜? 좋겠다!"
+              ],
+              "chinese": "真的嗎？太好了！"
+            },
+            {
+              "cue": "이거 어때?（超可愛）",
+              "cueIsAudio": true,
+              "answers": [
+                "완전 귀여워!",
+                "진짜 귀여워!"
+              ],
+              "chinese": "超可愛！"
+            },
+            {
+              "cue": "이 노래 좋지?（對啊）",
+              "cueIsAudio": true,
+              "answers": [
+                "맞아, 완전 좋아.",
+                "응, 완전 좋아.",
+                "맞아."
+              ],
+              "chinese": "對啊，超好聽。"
+            },
+            {
+              "cue": "내가 어제 말했잖아.（是喔？我忘了）",
+              "cueIsAudio": true,
+              "answers": [
+                "아, 그래? 까먹었어.",
+                "그래? 까먹었어."
+              ],
+              "chinese": "是喔？我忘了。"
+            }
+          ]
+        },
+        {
+          "id": "D4605",
+          "type": "freeProduction",
+          "instruction": "朋友給你看一張小狗的照片，用兩句半語回應。",
+          "model": {
+            "korean": "헐, 완전 귀여워! 이름이 뭐야?",
+            "chinese": "哇，超可愛！牠叫什麼名字？",
+            "speechLevel": "casual"
+          },
+          "thinkSeconds": 10,
+          "items": [
+            {
+              "cue": "自由回答",
+              "answers": [
+                "완전 귀여워!",
+                "이름이 뭐야?",
+                "진짜 귀엽다!"
+              ],
+              "chinese": "（參考答案）"
+            }
+          ]
+        }
+      ],
+      "speaking": {
+        "scenario": "和韓國好朋友（同年，已經說半語）在 Kakao 視訊聊天。AI 扮演朋友，用很多語氣詞。使用者會：진짜?、대박、맞아、-네、-지?、半語。",
+        "speechLevel": "casual",
+        "offlineScript": [
+          {
+            "cue": "야, 뭐 해?（提示：沒什麼，就在家，很無聊）",
+            "cueIsAudio": true,
+            "answers": [
+              "그냥 집에 있어. 너무 심심해.",
+              "그냥 집에 있어. 심심해."
+            ],
+            "chinese": "就在家，好無聊。"
+          },
+          {
+            "cue": "나 어제 BTS 콘서트 갔어!（提示：真的嗎？太扯了！）",
+            "cueIsAudio": true,
+            "answers": [
+              "진짜? 대박!",
+              "헐, 진짜? 대박!"
+            ],
+            "chinese": "真的嗎？太扯了！"
+          },
+          {
+            "cue": "완전 좋았어. 너도 BTS 좋아하지?（提示：對啊，超喜歡）",
+            "cueIsAudio": true,
+            "answers": [
+              "맞아, 완전 좋아해.",
+              "응, 완전 좋아해!"
+            ],
+            "chinese": "對啊，超喜歡！"
+          }
+        ]
+      },
+      "postTest": [
+        {
+          "id": "Q4601",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "吃了一口，覺得好吃，對朋友感嘆「哇，好好吃！」",
+          "audioText": null,
+          "options": [
+            "와, 맛있네!",
+            "와, 맛있어요?",
+            "와, 맛있지요?"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "-네＝當下的感嘆。"
+        },
+        {
+          "id": "Q4602",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "向朋友確認「很好看吧？」",
+          "audioText": null,
+          "options": [
+            "재미있지?",
+            "재미있네?",
+            "재미있어요."
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "-지?＝對吧？"
+        },
+        {
+          "id": "Q4603",
+          "skill": "vocabulary",
+          "kind": "choice",
+          "prompt": "朋友說了一件很誇張的好消息，最自然的回應是？",
+          "audioText": null,
+          "options": [
+            "대박!",
+            "죄송합니다.",
+            "잘 먹겠습니다."
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "대박＝超讚、太扯了。"
+        },
+        {
+          "id": "Q4604",
+          "skill": "listening",
+          "kind": "listeningChoice",
+          "prompt": "聽句子選意思",
+          "audioText": "내가 말했잖아!",
+          "options": [
+            "我不是說過了嘛！",
+            "我會告訴你的！",
+            "你跟我說過嗎？"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "-잖아＝你也知道的嘛。"
+        },
+        {
+          "id": "Q4605",
+          "skill": "grammar",
+          "kind": "typing",
+          "prompt": "用韓文寫（半語）：超好吃！",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "완전 맛있어!",
+            "완전 맛있어.",
+            "진짜 맛있어!"
+          ],
+          "explanation": "완전 맛있어!"
+        },
+        {
+          "id": "Q4606",
+          "skill": "speaking",
+          "kind": "speaking",
+          "prompt": "用半語說：真的嗎？太扯了！",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "진짜? 대박!",
+            "진짜? 대박",
+            "헐, 진짜? 대박!"
+          ],
+          "explanation": "진짜? 대박!"
+        }
+      ],
+      "completion": {
+        "postTestPassRatio": 0.8,
+        "drillAccuracy": 0.8,
+        "requireVocabularyQuiz": true
+      }
+    },
+    {
+      "id": "U10L02",
+      "title": "約見面：「-(으)ㄹ래?」「-(으)ㄹ까?」「-자」",
+      "estimatedMinutes": 50,
+      "objectives": [
+        "用「-(으)ㄹ래(요)?」問對方想不想：같이 갈래?",
+        "用「-(으)ㄹ까(요)?」提議或商量：몇 시에 만날까?",
+        "用「-자」說「我們…吧」：같이 가자",
+        "決定時間地點、改時間、拒絕邀約"
+      ],
+      "vocabulary": [
+        {
+          "id": "V0512",
+          "korean": "시간 돼?",
+          "chinese": "有空嗎？",
+          "romanization": "si-gan dwae",
+          "partOfSpeech": "expression",
+          "tier": "S",
+          "frequencyRank": 301,
+          "example": {
+            "korean": "토요일에 시간 돼?",
+            "chinese": "星期六有空嗎？",
+            "speechLevel": "casual"
+          },
+          "usage": "禮貌說法：시간 돼요?／시간 있으세요?",
+          "commonMistake": null
+        },
+        {
+          "id": "V0513",
+          "korean": "약속",
+          "chinese": "約定；約會",
+          "romanization": "yak-sok",
+          "pronunciation": "[약쏙]",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 302,
+          "example": {
+            "korean": "오늘 약속 있어.",
+            "chinese": "今天有約。",
+            "speechLevel": "casual"
+          },
+          "usage": "약속을 잡다＝約時間。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0514",
+          "korean": "만나자",
+          "chinese": "見面吧",
+          "romanization": "man-na-ja",
+          "partOfSpeech": "expression",
+          "tier": "S",
+          "frequencyRank": 303,
+          "example": {
+            "korean": "내일 만나자!",
+            "chinese": "明天見面吧！",
+            "speechLevel": "casual"
+          },
+          "usage": "-자＝我們…吧（半語）。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0515",
+          "korean": "어디서",
+          "chinese": "在哪裡（口語）",
+          "romanization": "eo-di-seo",
+          "partOfSpeech": "pronoun",
+          "tier": "S",
+          "frequencyRank": 304,
+          "example": {
+            "korean": "어디서 만날까?",
+            "chinese": "要在哪裡見面？",
+            "speechLevel": "casual"
+          },
+          "usage": "어디에서 的縮寫。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0516",
+          "korean": "만날래?",
+          "chinese": "要見面嗎？",
+          "romanization": "man-nal-lae",
+          "partOfSpeech": "expression",
+          "tier": "S",
+          "frequencyRank": 305,
+          "example": {
+            "korean": "내일 만날래?",
+            "chinese": "明天要見面嗎？",
+            "speechLevel": "casual"
+          },
+          "usage": "-(으)ㄹ래?＝你想…嗎？",
+          "commonMistake": null
+        },
+        {
+          "id": "V0517",
+          "korean": "다음에",
+          "chinese": "下次",
+          "romanization": "da-eu-me",
+          "pronunciation": "[다으메]",
+          "partOfSpeech": "adverb",
+          "tier": "S",
+          "frequencyRank": 306,
+          "example": {
+            "korean": "미안, 다음에 보자.",
+            "chinese": "抱歉，下次見吧。",
+            "speechLevel": "casual"
+          },
+          "usage": "婉拒時常說 다음에 같이 가자。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0518",
+          "korean": "늦을 것 같아",
+          "chinese": "可能會遲到",
+          "romanization": "neu-jeul geot ga-ta",
+          "pronunciation": "[느즐 껃 가타]",
+          "partOfSpeech": "expression",
+          "tier": "A",
+          "frequencyRank": 176,
+          "example": {
+            "korean": "미안, 좀 늦을 것 같아.",
+            "chinese": "抱歉，我可能會晚一點。",
+            "speechLevel": "casual"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0519",
+          "korean": "먼저",
+          "chinese": "先",
+          "romanization": "meon-jeo",
+          "partOfSpeech": "adverb",
+          "tier": "S",
+          "frequencyRank": 307,
+          "example": {
+            "korean": "먼저 가 있어.",
+            "chinese": "你先去。",
+            "speechLevel": "casual"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0520",
+          "korean": "기다릴게",
+          "chinese": "我等你",
+          "romanization": "gi-da-ril-ge",
+          "pronunciation": "[기다릴께]",
+          "partOfSpeech": "expression",
+          "tier": "A",
+          "frequencyRank": 177,
+          "example": {
+            "korean": "카페에서 기다릴게.",
+            "chinese": "我在咖啡廳等你。",
+            "speechLevel": "casual"
+          },
+          "usage": "-(으)ㄹ게 的半語。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0521",
+          "korean": "바꿔요",
+          "chinese": "換；改",
+          "romanization": "ba-kkwo-yo",
+          "partOfSpeech": "verb",
+          "tier": "A",
+          "frequencyRank": 178,
+          "example": {
+            "korean": "시간을 바꿀까요?",
+            "chinese": "要改時間嗎？",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 바꾸다。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0522",
+          "korean": "갑자기",
+          "chinese": "突然",
+          "romanization": "gap-ja-gi",
+          "pronunciation": "[갑짜기]",
+          "partOfSpeech": "adverb",
+          "tier": "A",
+          "frequencyRank": 179,
+          "example": {
+            "korean": "갑자기 일이 생겼어.",
+            "chinese": "突然有事了。",
+            "speechLevel": "casual"
+          },
+          "usage": "",
+          "commonMistake": null
+        }
+      ],
+      "pronunciation": [
+        {
+          "id": "P4701",
+          "title": "-(으)ㄹ래、-(으)ㄹ까 的緊音",
+          "explanation": "ㄹ 後面的 래 不變，但 까 是緊音：갈래? → [갈래]、갈까? → [갈까]、먹을까? → [머글까]、기다릴게 → [기다릴께]。",
+          "articulation": "-ㄹ까 句尾上揚，是在徵求對方意見。",
+          "chineseSpeakerPitfall": "갈까 唸成送氣的 [갈카]。",
+          "samples": [
+            "갈래?",
+            "갈까?",
+            "먹을까?",
+            "기다릴게"
+          ],
+          "minimalPairs": []
+        },
+        {
+          "id": "P4702",
+          "title": "약속、갑자기",
+          "explanation": "약속 → [약쏙]、갑자기 → [갑짜기]：收音 [ㄱ] [ㅂ] 後面的 ㅅ ㅈ 變緊音。",
+          "articulation": "收音停住，下一個子音繃緊。",
+          "chineseSpeakerPitfall": "唸成 [야속]、[가바자기]。",
+          "samples": [
+            "약속",
+            "갑자기",
+            "늦을 것 같아"
+          ],
+          "minimalPairs": []
+        }
+      ],
+      "grammar": [
+        {
+          "id": "G4701",
+          "title": "-(으)ㄹ래(요)?（你想…嗎？）／-(으)ㄹ래(요)（我想…）",
+          "pattern": "無收音或 ㄹ 收音＋ㄹ래；有收音＋을래",
+          "explanation": "問對方的意願、邀約：같이 영화 볼래?（要一起看電影嗎？）、뭐 먹을래?（你想吃什麼？）。回答自己的選擇：나는 커피 마실래（我要喝咖啡）。對不熟的人加 요：같이 가실래요?（敬語更客氣）。",
+          "speechLevel": "casual",
+          "examples": [
+            {
+              "korean": "주말에 같이 영화 볼래?",
+              "chinese": "週末要一起看電影嗎？",
+              "speechLevel": "casual"
+            },
+            {
+              "korean": "나는 비빔밥 먹을래.",
+              "chinese": "我要吃拌飯。",
+              "speechLevel": "casual"
+            }
+          ]
+        },
+        {
+          "id": "G4702",
+          "title": "-(으)ㄹ까(요)?（我們要不要…？）與 -자（…吧）",
+          "pattern": "語幹＋(으)ㄹ까?／-(으)ㄹ까요?；語幹＋자",
+          "explanation": "-(으)ㄹ까? 和對方商量：몇 시에 만날까?（要幾點見？）、어디서 만날까?、뭐 먹을까?。-자 是半語的提議「我們…吧」：일곱 시에 만나자、같이 가자。禮貌說法是 -아/어요（같이 가요）或 -(으)ㅂ시다（正式，對長輩少用）。",
+          "speechLevel": "casual",
+          "examples": [
+            {
+              "korean": "몇 시에 만날까?",
+              "chinese": "要幾點見面？",
+              "speechLevel": "casual"
+            },
+            {
+              "korean": "일곱 시에 강남역에서 만나자.",
+              "chinese": "七點在江南站見吧。",
+              "speechLevel": "casual"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "korean": "토요일에 시간 돼?",
+          "chinese": "星期六有空嗎？",
+          "speechLevel": "casual"
+        },
+        {
+          "korean": "같이 밥 먹을래?",
+          "chinese": "要一起吃飯嗎？",
+          "speechLevel": "casual"
+        },
+        {
+          "korean": "어디서 만날까?",
+          "chinese": "要在哪裡見？",
+          "speechLevel": "casual"
+        },
+        {
+          "korean": "여섯 시에 만나자.",
+          "chinese": "六點見吧。",
+          "speechLevel": "casual"
+        },
+        {
+          "korean": "미안, 좀 늦을 것 같아.",
+          "chinese": "抱歉，我可能會晚一點。",
+          "speechLevel": "casual"
+        }
+      ],
+      "listening": [
+        {
+          "id": "L4701",
+          "audioText": "주말에 같이 영화 볼래?",
+          "question": "朋友在做什麼？",
+          "options": [
+            "邀你週末一起看電影",
+            "問你週末看了什麼電影",
+            "說他週末要看電影"
+          ],
+          "answerIndex": 0,
+          "explanation": "-(으)ㄹ래?＝要不要？"
+        },
+        {
+          "id": "L4702",
+          "audioText": "몇 시에 만날까?",
+          "question": "朋友在問什麼？",
+          "options": [
+            "要幾點見面？",
+            "現在幾點？",
+            "幾點到的？"
+          ],
+          "answerIndex": 0,
+          "explanation": "-(으)ㄹ까?＝商量。"
+        },
+        {
+          "id": "L4703",
+          "audioText": "미안, 갑자기 일이 생겼어. 다음에 보자.",
+          "question": "朋友的意思是？",
+          "options": [
+            "突然有事，改天再見。",
+            "會晚一點到。",
+            "已經到了。"
+          ],
+          "answerIndex": 0,
+          "explanation": "다음에 보자＝下次見。"
+        },
+        {
+          "id": "L4704",
+          "audioText": "약속",
+          "question": "實際發音最接近哪一個？",
+          "options": [
+            "[약쏙]",
+            "[야속]",
+            "[약속]（平音）"
+          ],
+          "answerIndex": 0,
+          "explanation": "收音 ㄱ 後的 ㅅ 變緊音。"
+        }
+      ],
+      "drills": [
+        {
+          "id": "D4701",
+          "type": "transformation",
+          "instruction": "邀約：改成 -(으)ㄹ래?",
+          "model": {
+            "korean": "같이 가. → 같이 갈래?",
+            "chinese": "要一起去嗎？",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 6,
+          "items": [
+            {
+              "cue": "같이 밥 먹어.",
+              "answers": [
+                "같이 밥 먹을래?"
+              ],
+              "chinese": "要一起吃飯嗎？"
+            },
+            {
+              "cue": "영화 봐.",
+              "answers": [
+                "영화 볼래?"
+              ],
+              "chinese": "要看電影嗎？"
+            },
+            {
+              "cue": "커피 마셔.",
+              "answers": [
+                "커피 마실래?"
+              ],
+              "chinese": "要喝咖啡嗎？"
+            },
+            {
+              "cue": "노래방 가.",
+              "answers": [
+                "노래방 갈래?"
+              ],
+              "chinese": "要去唱歌嗎？"
+            },
+            {
+              "cue": "같이 사진 찍어.",
+              "answers": [
+                "같이 사진 찍을래?"
+              ],
+              "chinese": "要一起拍照嗎？"
+            }
+          ]
+        },
+        {
+          "id": "D4702",
+          "type": "transformation",
+          "instruction": "商量：改成 -(으)ㄹ까?",
+          "model": {
+            "korean": "몇 시에 만나? → 몇 시에 만날까?",
+            "chinese": "要幾點見面？",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 6,
+          "items": [
+            {
+              "cue": "어디서 만나?",
+              "answers": [
+                "어디서 만날까?"
+              ],
+              "chinese": "要在哪裡見面？"
+            },
+            {
+              "cue": "뭐 먹어?",
+              "answers": [
+                "뭐 먹을까?"
+              ],
+              "chinese": "要吃什麼？"
+            },
+            {
+              "cue": "시간 바꿔?",
+              "answers": [
+                "시간 바꿀까?"
+              ],
+              "chinese": "要改時間嗎？"
+            },
+            {
+              "cue": "택시 타?",
+              "answers": [
+                "택시 탈까?"
+              ],
+              "chinese": "要搭計程車嗎？"
+            },
+            {
+              "cue": "내가 예약해?",
+              "answers": [
+                "내가 예약할까?"
+              ],
+              "chinese": "要我來訂位嗎？"
+            }
+          ]
+        },
+        {
+          "id": "D4703",
+          "type": "substitution",
+          "instruction": "決定：…에 만나자（依提示的時間地點）。",
+          "model": {
+            "korean": "일곱 시에 강남역에서 만나자.",
+            "chinese": "七點在江南站見吧。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "六點／弘大（홍대）",
+              "answers": [
+                "여섯 시에 홍대에서 만나자.",
+                "6시에 홍대에서 만나자."
+              ],
+              "chinese": "六點在弘大見吧。"
+            },
+            {
+              "cue": "兩點／咖啡廳",
+              "answers": [
+                "두 시에 카페에서 만나자.",
+                "2시에 카페에서 만나자."
+              ],
+              "chinese": "兩點在咖啡廳見吧。"
+            },
+            {
+              "cue": "星期六／明洞",
+              "answers": [
+                "토요일에 명동에서 만나자."
+              ],
+              "chinese": "星期六在明洞見吧。"
+            },
+            {
+              "cue": "明天／學校前面",
+              "answers": [
+                "내일 학교 앞에서 만나자."
+              ],
+              "chinese": "明天在學校前面見吧。"
+            },
+            {
+              "cue": "七點半／車站",
+              "answers": [
+                "일곱 시 반에 역에서 만나자.",
+                "7시 반에 역에서 만나자."
+              ],
+              "chinese": "七點半在車站見吧。"
+            }
+          ]
+        },
+        {
+          "id": "D4704",
+          "type": "questionAnswer",
+          "instruction": "朋友約你，依提示用半語回答。",
+          "model": {
+            "korean": "토요일에 시간 돼? — 응, 돼!",
+            "chinese": "星期六有空嗎？——有！",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 6,
+          "items": [
+            {
+              "cue": "토요일에 시간 돼?（有空）",
+              "cueIsAudio": true,
+              "answers": [
+                "응, 돼!",
+                "응, 시간 돼."
+              ],
+              "chinese": "有空！"
+            },
+            {
+              "cue": "같이 영화 볼래?（好啊）",
+              "cueIsAudio": true,
+              "answers": [
+                "좋아!",
+                "응, 좋아!",
+                "좋아, 보자!"
+              ],
+              "chinese": "好啊！"
+            },
+            {
+              "cue": "몇 시에 만날까?（七點）",
+              "cueIsAudio": true,
+              "answers": [
+                "일곱 시 어때?",
+                "7시 어때?",
+                "일곱 시에 만나자.",
+                "7시에 만나자."
+              ],
+              "chinese": "七點怎麼樣？"
+            },
+            {
+              "cue": "내일 밥 먹을래?（抱歉，明天有約，下次吧）",
+              "cueIsAudio": true,
+              "answers": [
+                "미안, 내일 약속 있어. 다음에 먹자.",
+                "미안, 약속 있어. 다음에 먹자."
+              ],
+              "chinese": "抱歉，明天有約，下次吧。"
+            },
+            {
+              "cue": "어디야? 나 도착했어.（抱歉，可能會晚一點）",
+              "cueIsAudio": true,
+              "answers": [
+                "미안, 좀 늦을 것 같아.",
+                "미안해, 좀 늦을 것 같아."
+              ],
+              "chinese": "抱歉，可能會晚一點。"
+            }
+          ]
+        },
+        {
+          "id": "D4705",
+          "type": "freeProduction",
+          "instruction": "傳訊息約朋友：問他有沒有空，再提議時間地點。",
+          "model": {
+            "korean": "토요일에 시간 돼? 두 시에 홍대에서 만나자!",
+            "chinese": "星期六有空嗎？兩點在弘大見吧！",
+            "speechLevel": "casual"
+          },
+          "thinkSeconds": 10,
+          "items": [
+            {
+              "cue": "自由回答",
+              "answers": [
+                "토요일에 시간 돼?",
+                "두 시에 홍대에서 만나자!",
+                "2시에 홍대에서 만나자!"
+              ],
+              "chinese": "（參考答案）"
+            }
+          ]
+        }
+      ],
+      "speaking": {
+        "scenario": "和韓國朋友約週末一起去弘大。AI 扮演朋友，用半語。中途朋友要改時間。使用者會：시간 돼?、-(으)ㄹ래?、-(으)ㄹ까?、-자、늦을 것 같아。",
+        "speechLevel": "casual",
+        "offlineScript": [
+          {
+            "cue": "주말에 뭐 해?（提示：沒事，問他要不要一起去弘大）",
+            "cueIsAudio": true,
+            "answers": [
+              "그냥 있어. 같이 홍대 갈래?",
+              "아무것도 안 해. 같이 홍대 갈래?"
+            ],
+            "chinese": "沒事。要一起去弘大嗎？"
+          },
+          {
+            "cue": "좋아! 몇 시에 만날까?（提示：兩點怎麼樣？）",
+            "cueIsAudio": true,
+            "answers": [
+              "두 시 어때?",
+              "2시 어때?",
+              "두 시에 만나자.",
+              "2시에 만나자."
+            ],
+            "chinese": "兩點怎麼樣？"
+          },
+          {
+            "cue": "아, 미안. 두 시는 좀 힘들어. 세 시 괜찮아?（提示：好，三點在弘大站見）",
+            "cueIsAudio": true,
+            "answers": [
+              "응, 괜찮아. 세 시에 홍대역에서 만나자.",
+              "응, 괜찮아. 3시에 홍대역에서 만나자.",
+              "좋아, 세 시에 만나자.",
+              "좋아, 3시에 만나자."
+            ],
+            "chinese": "好，三點在弘大站見。"
+          }
+        ]
+      },
+      "postTest": [
+        {
+          "id": "Q4701",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "邀朋友「要一起吃飯嗎？」",
+          "audioText": null,
+          "options": [
+            "같이 밥 먹을래?",
+            "같이 밥 먹었어?",
+            "같이 밥 먹네?"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "-(으)ㄹ래?＝要不要？"
+        },
+        {
+          "id": "Q4702",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "和朋友商量「要在哪裡見？」",
+          "audioText": null,
+          "options": [
+            "어디서 만날까?",
+            "어디서 만났어?",
+            "어디서 만나네?"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "-(으)ㄹ까?＝商量。"
+        },
+        {
+          "id": "Q4703",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「七點見吧」（半語）怎麼說？",
+          "audioText": null,
+          "options": [
+            "일곱 시에 만나자.",
+            "일곱 시에 만날래요.",
+            "칠 시에 만나자."
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "-자＝…吧。"
+        },
+        {
+          "id": "Q4704",
+          "skill": "listening",
+          "kind": "listeningChoice",
+          "prompt": "聽訊息選意思",
+          "audioText": "미안, 길이 막혀서 좀 늦을 것 같아.",
+          "options": [
+            "抱歉，塞車可能會晚一點。",
+            "抱歉，突然有事不能去。",
+            "我已經到了。"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "늦을 것 같아＝可能會遲到。"
+        },
+        {
+          "id": "Q4705",
+          "skill": "grammar",
+          "kind": "typing",
+          "prompt": "用韓文寫（半語）：星期六有空嗎？",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "토요일에 시간 돼?",
+            "토요일에 시간 있어?"
+          ],
+          "explanation": "토요일에 시간 돼?"
+        },
+        {
+          "id": "Q4706",
+          "skill": "speaking",
+          "kind": "speaking",
+          "prompt": "用半語說：抱歉，下次吧。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "미안, 다음에 보자.",
+            "미안해, 다음에 보자.",
+            "미안, 다음에 만나자."
+          ],
+          "explanation": "미안, 다음에 보자."
+        }
+      ],
+      "completion": {
+        "postTestPassRatio": 0.8,
+        "drillAccuracy": 0.8,
+        "requireVocabularyQuiz": true
+      }
+    },
+    {
+      "id": "U10L03",
+      "title": "傳訊息與網路用語",
+      "estimatedMinutes": 45,
+      "objectives": [
+        "看懂韓國人傳訊息常用的縮寫：ㅋㅋ、ㅎㅎ、ㅠㅠ、ㅇㅇ、ㄱㅅ、ㅇㅋ",
+        "知道常見的新造詞：카톡、단톡방、읽씹、인증샷",
+        "用半語寫短訊息：回覆、道謝、道歉、約定",
+        "知道什麼場合不能用網路用語"
+      ],
+      "vocabulary": [
+        {
+          "id": "V0523",
+          "korean": "카톡",
+          "chinese": "KakaoTalk（韓國通訊軟體）",
+          "romanization": "ka-tok",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 308,
+          "example": {
+            "korean": "카톡 보내!",
+            "chinese": "傳 Kakao 給我！",
+            "speechLevel": "casual"
+          },
+          "usage": "카카오톡 的縮寫；카톡해＝傳訊息給我。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0524",
+          "korean": "단톡방",
+          "chinese": "群組聊天室",
+          "romanization": "dan-tok-bang",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 180,
+          "example": {
+            "korean": "단톡방에 초대해 줘.",
+            "chinese": "把我拉進群組。",
+            "speechLevel": "casual"
+          },
+          "usage": "단체 카톡방 的縮寫。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0525",
+          "korean": "ㅋㅋ",
+          "chinese": "哈哈（笑）",
+          "romanization": "kk",
+          "partOfSpeech": "interjection",
+          "tier": "S",
+          "frequencyRank": 309,
+          "example": {
+            "korean": "ㅋㅋ 너무 웃겨",
+            "chinese": "哈哈好好笑",
+            "speechLevel": "casual"
+          },
+          "usage": "ㅋ 越多表示笑得越厲害；ㅎㅎ 是比較溫和的笑。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0526",
+          "korean": "ㅠㅠ",
+          "chinese": "哭哭（難過）",
+          "romanization": "yu-yu",
+          "partOfSpeech": "interjection",
+          "tier": "S",
+          "frequencyRank": 310,
+          "example": {
+            "korean": "시험 망했어 ㅠㅠ",
+            "chinese": "考試考砸了 嗚嗚",
+            "speechLevel": "casual"
+          },
+          "usage": "看起來像流眼淚的眼睛；也寫成 ㅜㅜ。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0527",
+          "korean": "ㅇㅇ",
+          "chinese": "嗯嗯（응응）",
+          "romanization": "eung-eung",
+          "partOfSpeech": "interjection",
+          "tier": "A",
+          "frequencyRank": 181,
+          "example": {
+            "korean": "ㅇㅇ 알았어",
+            "chinese": "嗯嗯知道了",
+            "speechLevel": "casual"
+          },
+          "usage": "只對很熟的人用，有時顯得冷淡。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0528",
+          "korean": "ㄱㅅ",
+          "chinese": "謝啦（감사）",
+          "romanization": "gam-sa",
+          "partOfSpeech": "interjection",
+          "tier": "B",
+          "frequencyRank": 35,
+          "example": {
+            "korean": "ㄱㅅㄱㅅ",
+            "chinese": "謝啦謝啦",
+            "speechLevel": "casual"
+          },
+          "usage": "감사 的子音縮寫；ㄳ 也常見。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0529",
+          "korean": "ㅇㅋ",
+          "chinese": "OK",
+          "romanization": "o-ke",
+          "partOfSpeech": "interjection",
+          "tier": "A",
+          "frequencyRank": 182,
+          "example": {
+            "korean": "ㅇㅋ 내일 봐",
+            "chinese": "OK 明天見",
+            "speechLevel": "casual"
+          },
+          "usage": "也寫成 ㅇㅋㅇㅋ、오키。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0530",
+          "korean": "읽씹",
+          "chinese": "已讀不回",
+          "romanization": "ik-ssip",
+          "pronunciation": "[익씹]",
+          "partOfSpeech": "noun",
+          "tier": "B",
+          "frequencyRank": 36,
+          "example": {
+            "korean": "왜 읽씹해?",
+            "chinese": "你幹嘛已讀不回？",
+            "speechLevel": "casual"
+          },
+          "usage": "읽고 씹다（讀了不理）的縮寫。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0531",
+          "korean": "인증샷",
+          "chinese": "打卡照；證明照",
+          "romanization": "in-jeung-syat",
+          "partOfSpeech": "noun",
+          "tier": "B",
+          "frequencyRank": 37,
+          "example": {
+            "korean": "인증샷 보내 줘!",
+            "chinese": "傳照片證明給我看！",
+            "speechLevel": "casual"
+          },
+          "usage": "인증（認證）＋shot。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0532",
+          "korean": "답장",
+          "chinese": "回覆",
+          "romanization": "dap-jang",
+          "pronunciation": "[답짱]",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 183,
+          "example": {
+            "korean": "답장이 없어.",
+            "chinese": "沒有回覆。",
+            "speechLevel": "casual"
+          },
+          "usage": "답장하다＝回訊息。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0533",
+          "korean": "이모티콘",
+          "chinese": "表情貼圖",
+          "romanization": "i-mo-ti-kon",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 184,
+          "example": {
+            "korean": "이모티콘 귀엽다!",
+            "chinese": "這個貼圖好可愛！",
+            "speechLevel": "casual"
+          },
+          "usage": "",
+          "commonMistake": null
+        }
+      ],
+      "pronunciation": [
+        {
+          "id": "P4801",
+          "title": "子音縮寫怎麼唸",
+          "explanation": "子音縮寫通常不唸出來，只寫在訊息裡。真的要唸時：ㅋㅋ 唸 [크크]、ㅎㅎ 唸 [흐흐]、ㅇㅋ 唸 [오케]、ㄱㅅ 唸 [감사]。",
+          "articulation": "對話中直接說原本的詞：응응、고마워、오케이。",
+          "chineseSpeakerPitfall": "在正式場合或對長輩說出 [크크]，會很失禮。",
+          "samples": [
+            "ㅋㅋ",
+            "ㅎㅎ",
+            "ㅇㅋ"
+          ],
+          "minimalPairs": []
+        },
+        {
+          "id": "P4802",
+          "title": "읽씹、답장 的緊音",
+          "explanation": "읽씹 → [익씹]（ㄺ 唸 [ㄱ]，後面的 ㅆ 本來就是緊音）；답장 → [답짱]、단톡방 → [단톡빵]（緊音化）。",
+          "articulation": "收音 [ㄱ] [ㅂ] 停住，下一個子音繃緊。",
+          "chineseSpeakerPitfall": "읽씹 唸成 [일씹]。",
+          "samples": [
+            "읽씹",
+            "답장",
+            "단톡방"
+          ],
+          "minimalPairs": []
+        }
+      ],
+      "grammar": [
+        {
+          "id": "G4801",
+          "title": "訊息常用的縮寫與符號",
+          "pattern": "ㅋㅋ／ㅎㅎ（笑）、ㅠㅠ（哭）、ㅇㅇ（嗯）、ㅇㅋ（OK）、ㄱㅅ（謝）",
+          "explanation": "韓國人傳訊息常用子音縮寫。ㅋㅋ 是最常見的笑；ㅎㅎ 比較溫和、有禮貌一點；ㅠㅠ 表示難過或感動。這些只能用在朋友之間，對上司、老師、客人傳訊息時要寫完整的禮貌句子。",
+          "speechLevel": "casual",
+          "examples": [
+            {
+              "korean": "ㅋㅋㅋ 진짜 웃겨",
+              "chinese": "哈哈哈真的好好笑",
+              "speechLevel": "casual"
+            },
+            {
+              "korean": "오늘 못 가 ㅠㅠ 미안",
+              "chinese": "今天不能去 嗚嗚 抱歉",
+              "speechLevel": "casual"
+            }
+          ]
+        },
+        {
+          "id": "G4802",
+          "title": "訊息的半語短句",
+          "pattern": "알았어／ㅇㅋ（知道了）；고마워（謝啦）；미안（抱歉）；나중에 연락할게（之後聯絡你）",
+          "explanation": "朋友間的訊息很短，常省略助詞：나 지금 출발（我現在出發）、도착하면 연락해（到了聯絡我）。-(으)ㄹ게 表示「我會…」：이따 전화할게（等一下打給你）、사진 보낼게（我傳照片給你）。",
+          "speechLevel": "casual",
+          "examples": [
+            {
+              "korean": "나 지금 출발!",
+              "chinese": "我現在出發！",
+              "speechLevel": "casual"
+            },
+            {
+              "korean": "이따 전화할게.",
+              "chinese": "等一下打給你。",
+              "speechLevel": "casual"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "korean": "카톡 보낼게!",
+          "chinese": "我傳 Kakao 給你！",
+          "speechLevel": "casual"
+        },
+        {
+          "korean": "ㅋㅋㅋ 대박",
+          "chinese": "哈哈哈太扯",
+          "speechLevel": "casual"
+        },
+        {
+          "korean": "ㅇㅋ 내일 봐",
+          "chinese": "OK 明天見",
+          "speechLevel": "casual"
+        },
+        {
+          "korean": "미안 답장 늦었어 ㅠㅠ",
+          "chinese": "抱歉太晚回 嗚嗚",
+          "speechLevel": "casual"
+        },
+        {
+          "korean": "단톡방에 사진 올렸어.",
+          "chinese": "我把照片上傳到群組了。",
+          "speechLevel": "casual"
+        }
+      ],
+      "listening": [
+        {
+          "id": "L4801",
+          "audioText": "카톡 보낼게!",
+          "question": "朋友的意思是？",
+          "options": [
+            "我會傳 Kakao 訊息給你！",
+            "我在等你的訊息！",
+            "我沒有 Kakao！"
+          ],
+          "answerIndex": 0,
+          "explanation": "-(으)ㄹ게＝我會…。"
+        },
+        {
+          "id": "L4802",
+          "audioText": "왜 읽씹해?",
+          "question": "朋友在抱怨什麼？",
+          "options": [
+            "你為什麼已讀不回？",
+            "你為什麼不接電話？",
+            "你為什麼還沒到？"
+          ],
+          "answerIndex": 0,
+          "explanation": "읽씹＝已讀不回。"
+        },
+        {
+          "id": "L4803",
+          "audioText": "단톡방에 초대해 줘.",
+          "question": "朋友請你做什麼？",
+          "options": [
+            "把他拉進群組",
+            "傳照片給他",
+            "打電話給他"
+          ],
+          "answerIndex": 0,
+          "explanation": "단톡방＝群組。"
+        },
+        {
+          "id": "L4804",
+          "audioText": "읽씹",
+          "question": "實際發音最接近哪一個？",
+          "options": [
+            "[익씹]",
+            "[일씹]",
+            "[읽씹]（照字）"
+          ],
+          "answerIndex": 0,
+          "explanation": "ㄺ 在子音前唸 [ㄱ]。"
+        }
+      ],
+      "drills": [
+        {
+          "id": "D4801",
+          "type": "transformation",
+          "instruction": "把縮寫還原成完整的話。",
+          "model": {
+            "korean": "ㄱㅅ → 감사",
+            "chinese": "謝謝",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 5,
+          "items": [
+            {
+              "cue": "ㅇㅋ",
+              "answers": [
+                "오케이",
+                "오케이.",
+                "OK"
+              ],
+              "chinese": "OK"
+            },
+            {
+              "cue": "ㅇㅇ",
+              "answers": [
+                "응응",
+                "응응."
+              ],
+              "chinese": "嗯嗯"
+            },
+            {
+              "cue": "카톡",
+              "answers": [
+                "카카오톡"
+              ],
+              "chinese": "KakaoTalk"
+            },
+            {
+              "cue": "단톡방",
+              "answers": [
+                "단체 카톡방",
+                "단체 톡방"
+              ],
+              "chinese": "群組聊天室"
+            },
+            {
+              "cue": "읽씹",
+              "answers": [
+                "읽고 씹다",
+                "읽고 씹었어"
+              ],
+              "chinese": "已讀不回"
+            }
+          ]
+        },
+        {
+          "id": "D4802",
+          "type": "transformation",
+          "instruction": "把禮貌的訊息改成傳給朋友的半語訊息。",
+          "model": {
+            "korean": "지금 출발해요. → 나 지금 출발!",
+            "chinese": "我現在出發！",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 6,
+          "items": [
+            {
+              "cue": "알겠어요.",
+              "answers": [
+                "알았어.",
+                "알겠어.",
+                "ㅇㅋ"
+              ],
+              "chinese": "知道了。"
+            },
+            {
+              "cue": "고마워요.",
+              "answers": [
+                "고마워.",
+                "ㄱㅅ"
+              ],
+              "chinese": "謝啦。"
+            },
+            {
+              "cue": "이따가 전화할게요.",
+              "answers": [
+                "이따 전화할게.",
+                "이따가 전화할게."
+              ],
+              "chinese": "等一下打給你。"
+            },
+            {
+              "cue": "사진 보낼게요.",
+              "answers": [
+                "사진 보낼게."
+              ],
+              "chinese": "我傳照片給你。"
+            },
+            {
+              "cue": "답장이 늦어서 미안해요.",
+              "answers": [
+                "답장 늦어서 미안.",
+                "답장 늦어서 미안해."
+              ],
+              "chinese": "抱歉太晚回。"
+            }
+          ]
+        },
+        {
+          "id": "D4803",
+          "type": "substitution",
+          "instruction": "用 -(으)ㄹ게 告訴朋友你會做什麼。",
+          "model": {
+            "korean": "이따 전화할게.",
+            "chinese": "等一下打給你。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 6,
+          "items": [
+            {
+              "cue": "傳照片",
+              "answers": [
+                "사진 보낼게."
+              ],
+              "chinese": "我傳照片給你。"
+            },
+            {
+              "cue": "到了聯絡",
+              "answers": [
+                "도착하면 연락할게."
+              ],
+              "chinese": "到了聯絡你。"
+            },
+            {
+              "cue": "拉進群組",
+              "answers": [
+                "단톡방에 초대할게."
+              ],
+              "chinese": "我拉你進群組。"
+            },
+            {
+              "cue": "在咖啡廳等",
+              "answers": [
+                "카페에서 기다릴게."
+              ],
+              "chinese": "我在咖啡廳等你。"
+            },
+            {
+              "cue": "先出發",
+              "answers": [
+                "먼저 출발할게."
+              ],
+              "chinese": "我先出發了。"
+            }
+          ]
+        },
+        {
+          "id": "D4804",
+          "type": "questionAnswer",
+          "instruction": "朋友傳訊息給你，用半語短訊息回覆。",
+          "model": {
+            "korean": "내일 7시 ㅇㅋ? — ㅇㅋ!",
+            "chinese": "明天七點 OK？——OK！",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 6,
+          "items": [
+            {
+              "cue": "내일 일곱 시 괜찮아?（OK）",
+              "cueIsAudio": true,
+              "answers": [
+                "ㅇㅋ",
+                "ㅇㅋ!",
+                "응, 괜찮아."
+              ],
+              "chinese": "OK！"
+            },
+            {
+              "cue": "사진 보냈어!（謝啦，好可愛）",
+              "cueIsAudio": true,
+              "answers": [
+                "ㄱㅅ! 완전 귀여워",
+                "고마워! 완전 귀여워."
+              ],
+              "chinese": "謝啦！超可愛。"
+            },
+            {
+              "cue": "왜 읽씹해?（抱歉，剛才在忙）",
+              "cueIsAudio": true,
+              "answers": [
+                "미안, 아까 바빴어.",
+                "미안 ㅠㅠ 아까 바빴어."
+              ],
+              "chinese": "抱歉，剛才在忙。"
+            },
+            {
+              "cue": "어디야?（我現在出發）",
+              "cueIsAudio": true,
+              "answers": [
+                "나 지금 출발!",
+                "지금 출발했어."
+              ],
+              "chinese": "我現在出發！"
+            },
+            {
+              "cue": "오늘 못 와?（嗯，抱歉 嗚嗚）",
+              "cueIsAudio": true,
+              "answers": [
+                "응, 미안 ㅠㅠ",
+                "응 미안해 ㅠㅠ"
+              ],
+              "chinese": "嗯，抱歉嗚嗚。"
+            }
+          ]
+        },
+        {
+          "id": "D4805",
+          "type": "freeProduction",
+          "instruction": "寫一則傳給好朋友的訊息：說你會晚到、到了再聯絡。",
+          "model": {
+            "korean": "미안 ㅠㅠ 좀 늦을 것 같아. 도착하면 연락할게!",
+            "chinese": "抱歉嗚嗚，可能會晚一點，到了聯絡你！",
+            "speechLevel": "casual"
+          },
+          "thinkSeconds": 10,
+          "items": [
+            {
+              "cue": "自由回答",
+              "answers": [
+                "미안 ㅠㅠ 좀 늦을 것 같아.",
+                "도착하면 연락할게!"
+              ],
+              "chinese": "（參考答案）"
+            }
+          ]
+        }
+      ],
+      "speaking": {
+        "scenario": "用 Kakao 和韓國朋友傳訊息，討論晚上的聚會。AI 扮演朋友，會用 ㅋㅋ、ㅇㅋ 等縮寫。使用者會：讀懂縮寫、用半語短句和 -(으)ㄹ게 回覆。",
+        "speechLevel": "casual",
+        "offlineScript": [
+          {
+            "cue": "오늘 저녁 7시 강남 ㅇㅋ?（提示：OK！）",
+            "cueIsAudio": true,
+            "answers": [
+              "ㅇㅋ!",
+              "ㅇㅋ",
+              "응, 좋아!"
+            ],
+            "chinese": "OK！"
+          },
+          {
+            "cue": "단톡방 만들었어 ㅋㅋ 초대할게~（提示：謝啦）",
+            "cueIsAudio": true,
+            "answers": [
+              "ㄱㅅ!",
+              "고마워!",
+              "ㄱㅅㄱㅅ"
+            ],
+            "chinese": "謝啦！"
+          },
+          {
+            "cue": "근데 너 어제 왜 읽씹했어? ㅠㅠ（提示：抱歉，昨天很累，很早就睡了）",
+            "cueIsAudio": true,
+            "answers": [
+              "미안 ㅠㅠ 어제 너무 피곤해서 일찍 잤어.",
+              "미안, 어제 피곤해서 일찍 잤어."
+            ],
+            "chinese": "抱歉，昨天太累很早就睡了。"
+          }
+        ]
+      },
+      "postTest": [
+        {
+          "id": "Q4801",
+          "skill": "vocabulary",
+          "kind": "choice",
+          "prompt": "訊息裡的「ㅋㅋㅋ」是什麼意思？",
+          "audioText": null,
+          "options": [
+            "哈哈哈（笑）",
+            "哭哭",
+            "OK"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "ㅋ＝笑聲。"
+        },
+        {
+          "id": "Q4802",
+          "skill": "vocabulary",
+          "kind": "choice",
+          "prompt": "「읽씹」是什麼意思？",
+          "audioText": null,
+          "options": [
+            "已讀不回",
+            "看完就刪",
+            "傳很多訊息"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "읽고 씹다＝讀了不理。"
+        },
+        {
+          "id": "Q4803",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "要傳訊息給公司的部長，下列哪一則最適合？",
+          "audioText": null,
+          "options": [
+            "부장님, 지금 출발했습니다.",
+            "ㅇㅋ 지금 출발!",
+            "ㅋㅋ 출발함"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "對上司不用縮寫。"
+        },
+        {
+          "id": "Q4804",
+          "skill": "listening",
+          "kind": "listeningChoice",
+          "prompt": "聽句子選意思",
+          "audioText": "도착하면 연락할게.",
+          "options": [
+            "到了會聯絡你。",
+            "請到了聯絡我。",
+            "已經到了。"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "-(으)ㄹ게＝我會…。"
+        },
+        {
+          "id": "Q4805",
+          "skill": "grammar",
+          "kind": "typing",
+          "prompt": "用韓文寫（半語）：我傳照片給你。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "사진 보낼게.",
+            "사진 보낼게!"
+          ],
+          "explanation": "사진 보낼게."
+        },
+        {
+          "id": "Q4806",
+          "skill": "speaking",
+          "kind": "speaking",
+          "prompt": "用半語說：等一下打給你。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "이따 전화할게.",
+            "이따가 전화할게."
+          ],
+          "explanation": "이따 전화할게."
+        }
+      ],
+      "completion": {
+        "postTestPassRatio": 0.8,
+        "drillAccuracy": 0.8,
+        "requireVocabularyQuiz": true
+      }
+    },
+    {
+      "id": "U10L04",
+      "title": "追星與粉絲交流：「-는 거 좋아해」「-(으)ㄴ 적 있어」",
+      "estimatedMinutes": 55,
+      "objectives": [
+        "用「V-는 거 좋아해(요)」說喜歡做的事",
+        "用「V-아/어 본 적 있어(요)?」問、說經驗",
+        "說出追星用語：최애、덕질、굿즈、티켓팅、팬미팅",
+        "和其他粉絲交流：누구 좋아해?、어느 노래 제일 좋아해?"
+      ],
+      "vocabulary": [
+        {
+          "id": "V0534",
+          "korean": "팬",
+          "chinese": "粉絲",
+          "romanization": "paen",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 311,
+          "example": {
+            "korean": "저는 아이유 팬이에요.",
+            "chinese": "我是 IU 的粉絲。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0535",
+          "korean": "최애",
+          "chinese": "最愛（本命）",
+          "romanization": "choe-ae",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 185,
+          "example": {
+            "korean": "너 최애 누구야?",
+            "chinese": "你的本命是誰？",
+            "speechLevel": "casual"
+          },
+          "usage": "최고로 애정하는（最喜愛的）縮寫。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0536",
+          "korean": "덕질",
+          "chinese": "追星；迷某樣東西",
+          "romanization": "deok-jil",
+          "pronunciation": "[덕찔]",
+          "partOfSpeech": "noun",
+          "tier": "B",
+          "frequencyRank": 38,
+          "example": {
+            "korean": "요즘 덕질하느라 바빠.",
+            "chinese": "最近忙著追星。",
+            "speechLevel": "casual"
+          },
+          "usage": "덕후（御宅族）＋-질。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0537",
+          "korean": "콘서트",
+          "chinese": "演唱會",
+          "romanization": "kon-seo-teu",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 312,
+          "example": {
+            "korean": "콘서트에 가 본 적 있어요?",
+            "chinese": "去過演唱會嗎？",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0538",
+          "korean": "티켓팅",
+          "chinese": "搶票",
+          "romanization": "ti-ket-ting",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 186,
+          "example": {
+            "korean": "티켓팅 성공했어!",
+            "chinese": "搶票成功了！",
+            "speechLevel": "casual"
+          },
+          "usage": "실패＝失敗。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0539",
+          "korean": "굿즈",
+          "chinese": "周邊商品",
+          "romanization": "gut-jeu",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 187,
+          "example": {
+            "korean": "굿즈를 많이 샀어요.",
+            "chinese": "買了很多周邊。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0540",
+          "korean": "팬미팅",
+          "chinese": "粉絲見面會",
+          "romanization": "paen-mi-ting",
+          "partOfSpeech": "noun",
+          "tier": "B",
+          "frequencyRank": 39,
+          "example": {
+            "korean": "팬미팅에 가고 싶어요.",
+            "chinese": "想去粉絲見面會。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0541",
+          "korean": "앨범",
+          "chinese": "專輯",
+          "romanization": "ael-beom",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 313,
+          "example": {
+            "korean": "새 앨범 들어 봤어?",
+            "chinese": "新專輯聽過了嗎？",
+            "speechLevel": "casual"
+          },
+          "usage": "새 앨범＝新專輯；컴백＝回歸。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0542",
+          "korean": "응원해요",
+          "chinese": "應援；支持",
+          "romanization": "eung-won-hae-yo",
+          "partOfSpeech": "verb",
+          "tier": "A",
+          "frequencyRank": 188,
+          "example": {
+            "korean": "항상 응원해요!",
+            "chinese": "永遠支持你！",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 응원하다。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0543",
+          "korean": "적",
+          "chinese": "（經驗的）時候",
+          "romanization": "jeok",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 314,
+          "example": {
+            "korean": "한국에 간 적이 있어요.",
+            "chinese": "我去過韓國。",
+            "speechLevel": "polite"
+          },
+          "usage": "只用在 -(으)ㄴ 적이 있다／없다。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0544",
+          "korean": "춤",
+          "chinese": "舞蹈",
+          "romanization": "chum",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 315,
+          "example": {
+            "korean": "춤을 잘 춰요.",
+            "chinese": "很會跳舞。",
+            "speechLevel": "polite"
+          },
+          "usage": "춤을 추다＝跳舞。",
+          "commonMistake": null
+        }
+      ],
+      "pronunciation": [
+        {
+          "id": "P4901",
+          "title": "-는 거 的鼻音化",
+          "explanation": "收音後面接 는 時鼻音化：듣는 거 → [든는 거]、먹는 거 → [멍는 거]、찍는 거 → [찡는 거]；沒有收音時不變：보는 거、하는 거。",
+          "articulation": "收音 [ㄷ]→[ㄴ]、[ㄱ]→[ㅇ]，舌位不變，氣從鼻子出去。",
+          "chineseSpeakerPitfall": "唸成 [듣는 거]、[먹는 거]，聽起來很生硬。",
+          "samples": [
+            "듣는 거",
+            "먹는 거",
+            "보는 거"
+          ],
+          "minimalPairs": []
+        },
+        {
+          "id": "P4902",
+          "title": "-(으)ㄴ 적 있어 的連音",
+          "explanation": "간 적 있어 → [간 저기써]、본 적 있어 → [본 저기써]、가 본 적이 있어요 → [가 본 저기 이써요]。",
+          "articulation": "적 和 있어 連在一起唸：[저기써]。",
+          "chineseSpeakerPitfall": "唸成 [적 있어] 分開。",
+          "samples": [
+            "가 본 적 있어?",
+            "먹어 본 적 있어요",
+            "본 적이 없어요"
+          ],
+          "minimalPairs": []
+        }
+      ],
+      "grammar": [
+        {
+          "id": "G4901",
+          "title": "V-는 거 좋아해(요)（喜歡做…）",
+          "pattern": "動詞語幹＋는 거（ㄹ 語幹去掉 ㄹ：만들다 → 만드는 거）",
+          "explanation": "把動詞變成名詞「做…這件事」：노래 듣는 거 좋아해요（喜歡聽歌）、춤추는 거 좋아해（喜歡跳舞）、사진 찍는 거 좋아해요。也可以說 -는 게 좋아요：콘서트 가는 게 제일 좋아요。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "저는 노래 듣는 거 좋아해요.",
+              "chinese": "我喜歡聽歌。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "콘서트 가는 거 제일 좋아해!",
+              "chinese": "最喜歡去演唱會！",
+              "speechLevel": "casual"
+            }
+          ]
+        },
+        {
+          "id": "G4902",
+          "title": "V-(으)ㄴ 적 있어요／없어요（做過／沒做過）",
+          "pattern": "動詞語幹＋(으)ㄴ 적 있어요；常和 -아/어 보다 一起：-아/어 본 적 있어요",
+          "explanation": "說經驗：한국에 간 적 있어요（去過韓國）、콘서트에 가 본 적 있어요?（去過演唱會嗎？）、팬미팅에 가 본 적이 없어요（沒去過粉絲見面會）。半語：가 본 적 있어?",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "콘서트에 가 본 적 있어요?",
+              "chinese": "你去過演唱會嗎？",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "아니요, 아직 가 본 적 없어요.",
+              "chinese": "沒有，還沒去過。",
+              "speechLevel": "polite"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "korean": "너 최애 누구야?",
+          "chinese": "你的本命是誰？",
+          "speechLevel": "casual"
+        },
+        {
+          "korean": "저는 춤추는 거 좋아해요.",
+          "chinese": "我喜歡跳舞。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "콘서트에 가 본 적 있어요?",
+          "chinese": "去過演唱會嗎？",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "티켓팅 실패했어 ㅠㅠ",
+          "chinese": "搶票失敗了 嗚嗚",
+          "speechLevel": "casual"
+        },
+        {
+          "korean": "새 앨범 너무 좋아요!",
+          "chinese": "新專輯好棒！",
+          "speechLevel": "polite"
+        }
+      ],
+      "listening": [
+        {
+          "id": "L4901",
+          "audioText": "너 최애 누구야?",
+          "question": "對方在問什麼？",
+          "options": [
+            "你最喜歡哪個偶像？",
+            "你喜歡哪首歌？",
+            "你最近好嗎？"
+          ],
+          "answerIndex": 0,
+          "explanation": "최애＝本命。"
+        },
+        {
+          "id": "L4902",
+          "audioText": "콘서트에 가 본 적 있어요?",
+          "question": "對方在問什麼？",
+          "options": [
+            "去過演唱會嗎？",
+            "要去演唱會嗎？",
+            "演唱會在哪裡？"
+          ],
+          "answerIndex": 0,
+          "explanation": "-(으)ㄴ 적 있어요＝做過。"
+        },
+        {
+          "id": "L4903",
+          "audioText": "티켓팅 성공했어!",
+          "question": "發生了什麼事？",
+          "options": [
+            "搶票成功了",
+            "搶票失敗了",
+            "演唱會取消了"
+          ],
+          "answerIndex": 0,
+          "explanation": "성공＝成功。"
+        },
+        {
+          "id": "L4904",
+          "audioText": "듣는 거",
+          "question": "實際發音最接近哪一個？",
+          "options": [
+            "[든는 거]",
+            "[듣는 거]（照字）",
+            "[드는 거]"
+          ],
+          "answerIndex": 0,
+          "explanation": "收音 ㄷ 遇到 ㄴ 變 [ㄴ]。"
+        }
+      ],
+      "drills": [
+        {
+          "id": "D4901",
+          "type": "transformation",
+          "instruction": "說喜歡做的事：V → V-는 거 좋아해요。",
+          "model": {
+            "korean": "노래를 들어요. → 노래 듣는 거 좋아해요.",
+            "chinese": "喜歡聽歌。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "춤을 춰요.",
+              "answers": [
+                "춤추는 거 좋아해요.",
+                "춤 추는 거 좋아해요."
+              ],
+              "chinese": "喜歡跳舞。"
+            },
+            {
+              "cue": "사진을 찍어요.",
+              "answers": [
+                "사진 찍는 거 좋아해요."
+              ],
+              "chinese": "喜歡拍照。"
+            },
+            {
+              "cue": "콘서트에 가요.",
+              "answers": [
+                "콘서트 가는 거 좋아해요.",
+                "콘서트에 가는 거 좋아해요."
+              ],
+              "chinese": "喜歡去演唱會。"
+            },
+            {
+              "cue": "굿즈를 사요.",
+              "answers": [
+                "굿즈 사는 거 좋아해요."
+              ],
+              "chinese": "喜歡買周邊。"
+            },
+            {
+              "cue": "케이크를 만들어요.",
+              "answers": [
+                "케이크 만드는 거 좋아해요."
+              ],
+              "chinese": "喜歡做蛋糕。"
+            }
+          ]
+        },
+        {
+          "id": "D4902",
+          "type": "transformation",
+          "instruction": "說經驗：-아/어 본 적 있어요。",
+          "model": {
+            "korean": "한국에 가요. → 한국에 가 본 적 있어요.",
+            "chinese": "去過韓國。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "콘서트에 가요.",
+              "answers": [
+                "콘서트에 가 본 적 있어요."
+              ],
+              "chinese": "去過演唱會。"
+            },
+            {
+              "cue": "팬미팅에 가요.",
+              "answers": [
+                "팬미팅에 가 본 적 있어요."
+              ],
+              "chinese": "去過粉絲見面會。"
+            },
+            {
+              "cue": "한복을 입어요.",
+              "answers": [
+                "한복을 입어 본 적 있어요."
+              ],
+              "chinese": "穿過韓服。"
+            },
+            {
+              "cue": "케이팝 춤을 배워요.",
+              "answers": [
+                "케이팝 춤을 배워 본 적 있어요."
+              ],
+              "chinese": "學過 K-pop 舞蹈。"
+            },
+            {
+              "cue": "떡볶이를 만들어요.",
+              "answers": [
+                "떡볶이를 만들어 본 적 있어요."
+              ],
+              "chinese": "做過辣炒年糕。"
+            }
+          ]
+        },
+        {
+          "id": "D4903",
+          "type": "substitution",
+          "instruction": "說自己是誰的粉絲、最喜歡哪首歌。",
+          "model": {
+            "korean": "저는 아이유 팬이에요.",
+            "chinese": "我是 IU 的粉絲。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 6,
+          "items": [
+            {
+              "cue": "BTS",
+              "answers": [
+                "저는 BTS 팬이에요.",
+                "저는 방탄소년단 팬이에요."
+              ],
+              "chinese": "我是 BTS 的粉絲。"
+            },
+            {
+              "cue": "BLACKPINK",
+              "answers": [
+                "저는 블랙핑크 팬이에요.",
+                "저는 BLACKPINK 팬이에요."
+              ],
+              "chinese": "我是 BLACKPINK 的粉絲。"
+            },
+            {
+              "cue": "SEVENTEEN",
+              "answers": [
+                "저는 세븐틴 팬이에요.",
+                "저는 SEVENTEEN 팬이에요."
+              ],
+              "chinese": "我是 SEVENTEEN 的粉絲。"
+            },
+            {
+              "cue": "NewJeans",
+              "answers": [
+                "저는 뉴진스 팬이에요.",
+                "저는 NewJeans 팬이에요."
+              ],
+              "chinese": "我是 NewJeans 的粉絲。"
+            },
+            {
+              "cue": "TWICE",
+              "answers": [
+                "저는 트와이스 팬이에요.",
+                "저는 TWICE 팬이에요."
+              ],
+              "chinese": "我是 TWICE 的粉絲。"
+            }
+          ]
+        },
+        {
+          "id": "D4904",
+          "type": "questionAnswer",
+          "instruction": "和其他粉絲聊天，依提示回答。",
+          "model": {
+            "korean": "최애 누구예요? — 지민이에요.",
+            "chinese": "本命是誰？——是智旻。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "콘서트에 가 본 적 있어요?（還沒去過）",
+              "cueIsAudio": true,
+              "answers": [
+                "아니요, 아직 가 본 적 없어요.",
+                "아직 가 본 적 없어요."
+              ],
+              "chinese": "還沒去過。"
+            },
+            {
+              "cue": "뭐 하는 거 좋아해요?（聽歌和跳舞）",
+              "cueIsAudio": true,
+              "answers": [
+                "노래 듣는 거하고 춤추는 거 좋아해요.",
+                "노래 듣는 거랑 춤추는 거 좋아해요."
+              ],
+              "chinese": "喜歡聽歌和跳舞。"
+            },
+            {
+              "cue": "티켓팅 했어요?（成功了！）",
+              "cueIsAudio": true,
+              "answers": [
+                "네, 성공했어요!",
+                "네, 티켓팅 성공했어요!"
+              ],
+              "chinese": "成功了！"
+            },
+            {
+              "cue": "새 앨범 들어 봤어요?（聽了，超棒）",
+              "cueIsAudio": true,
+              "answers": [
+                "네, 들어 봤어요. 완전 좋아요!",
+                "네, 완전 좋아요!"
+              ],
+              "chinese": "聽了，超棒！"
+            },
+            {
+              "cue": "굿즈 샀어요?（是，買了很多）",
+              "cueIsAudio": true,
+              "answers": [
+                "네, 많이 샀어요.",
+                "네, 굿즈를 많이 샀어요."
+              ],
+              "chinese": "買了很多。"
+            }
+          ]
+        },
+        {
+          "id": "D4905",
+          "type": "freeProduction",
+          "instruction": "向其他粉絲自我介紹：你是誰的粉絲、喜歡做什麼、做過什麼。",
+          "model": {
+            "korean": "저는 세븐틴 팬이에요. 춤추는 거 좋아해요. 콘서트에 가 본 적 있어요.",
+            "chinese": "我是 SEVENTEEN 的粉絲，喜歡跳舞，去過演唱會。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 10,
+          "items": [
+            {
+              "cue": "自由回答",
+              "answers": [
+                "저는 세븐틴 팬이에요.",
+                "춤추는 거 좋아해요.",
+                "콘서트에 가 본 적 있어요."
+              ],
+              "chinese": "（參考答案）"
+            }
+          ]
+        }
+      ],
+      "speaking": {
+        "scenario": "在首爾的演唱會場外排隊買周邊，和旁邊的韓國粉絲聊天。AI 扮演同齡的粉絲，用禮貌語體。使用者會：팬이에요、최애、-는 거 좋아해요、-(으)ㄴ 적 있어요、티켓팅。",
+        "speechLevel": "polite",
+        "offlineScript": [
+          {
+            "cue": "안녕하세요! 외국 분이세요? 최애가 누구예요?（提示：我是台灣人，本命是智旻——지민）",
+            "cueIsAudio": true,
+            "answers": [
+              "네, 대만 사람이에요. 최애는 지민이에요.",
+              "대만 사람이에요. 지민이 최애예요."
+            ],
+            "chinese": "我是台灣人，本命是智旻。"
+          },
+          {
+            "cue": "와! 콘서트에 와 본 적 있어요?（提示：沒有，這是第一次）",
+            "cueIsAudio": true,
+            "answers": [
+              "아니요, 처음이에요.",
+              "아니요, 이번이 처음이에요."
+            ],
+            "chinese": "沒有，這是第一次。"
+          },
+          {
+            "cue": "티켓팅 어려웠죠?（提示：對，很難，但是成功了）",
+            "cueIsAudio": true,
+            "answers": [
+              "네, 너무 어려웠어요. 하지만 성공했어요!",
+              "네, 어려웠어요. 그래도 성공했어요!"
+            ],
+            "chinese": "很難，但是成功了！"
+          }
+        ]
+      },
+      "postTest": [
+        {
+          "id": "Q4901",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「我喜歡聽歌。」怎麼說？",
+          "audioText": null,
+          "options": [
+            "노래 듣는 거 좋아해요.",
+            "노래 듣은 거 좋아해요.",
+            "노래 들는 거 좋아해요."
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "動詞語幹＋는 거。"
+        },
+        {
+          "id": "Q4902",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「你去過演唱會嗎？」怎麼說？",
+          "audioText": null,
+          "options": [
+            "콘서트에 가 본 적 있어요?",
+            "콘서트에 갈 적 있어요?",
+            "콘서트에 가는 적 있어요?"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "-아/어 본 적 있어요?"
+        },
+        {
+          "id": "Q4903",
+          "skill": "vocabulary",
+          "kind": "choice",
+          "prompt": "「최애」是什麼意思？",
+          "audioText": null,
+          "options": [
+            "最喜歡的偶像（本命）",
+            "最新的專輯",
+            "演唱會門票"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "최고로 애정하는＝最喜愛的。"
+        },
+        {
+          "id": "Q4904",
+          "skill": "listening",
+          "kind": "listeningChoice",
+          "prompt": "聽句子選意思",
+          "audioText": "팬미팅에 가 본 적 없어요.",
+          "options": [
+            "沒去過粉絲見面會。",
+            "想去粉絲見面會。",
+            "去過很多次粉絲見面會。"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "-(으)ㄴ 적 없어요＝沒做過。"
+        },
+        {
+          "id": "Q4905",
+          "skill": "grammar",
+          "kind": "typing",
+          "prompt": "用韓文寫：我喜歡跳舞。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "춤추는 거 좋아해요.",
+            "저는 춤추는 거 좋아해요.",
+            "춤 추는 거 좋아해요."
+          ],
+          "explanation": "춤추는 거 좋아해요."
+        },
+        {
+          "id": "Q4906",
+          "skill": "speaking",
+          "kind": "speaking",
+          "prompt": "用半語問：你的本命是誰？",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "너 최애 누구야?",
+            "최애 누구야?"
+          ],
+          "explanation": "너 최애 누구야?"
+        }
+      ],
+      "completion": {
+        "postTestPassRatio": 0.8,
+        "drillAccuracy": 0.8,
+        "requireVocabularyQuiz": true
+      }
+    },
+    {
+      "id": "U10L05",
+      "title": "說感覺與意見「-(으)ㄴ/는 것 같아」與「-(으)면」",
+      "estimatedMinutes": 55,
+      "objectives": [
+        "用「-(으)ㄴ/는 것 같아(요)」委婉地說感覺、意見",
+        "用「-(으)ㄹ 것 같아(요)」做推測：비가 올 것 같아",
+        "用「-(으)면」說條件：시간 있으면 같이 가자",
+        "參加朋友聚會：乾杯、續攤、分攤"
+      ],
+      "vocabulary": [
+        {
+          "id": "V0545",
+          "korean": "것 같아",
+          "chinese": "好像；我覺得",
+          "romanization": "geot ga-ta",
+          "pronunciation": "[걷 가타]",
+          "partOfSpeech": "expression",
+          "tier": "S",
+          "frequencyRank": 316,
+          "example": {
+            "korean": "맛있는 것 같아.",
+            "chinese": "好像很好吃。",
+            "speechLevel": "casual"
+          },
+          "usage": "委婉表達意見，比直接說更柔和。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0546",
+          "korean": "생각해요",
+          "chinese": "想；認為",
+          "romanization": "saeng-ga-kae-yo",
+          "pronunciation": "[생가캐요]",
+          "partOfSpeech": "verb",
+          "tier": "S",
+          "frequencyRank": 317,
+          "example": {
+            "korean": "저도 그렇게 생각해요.",
+            "chinese": "我也這麼想。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 생각하다。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0547",
+          "korean": "건배",
+          "chinese": "乾杯",
+          "romanization": "geon-bae",
+          "partOfSpeech": "interjection",
+          "tier": "S",
+          "frequencyRank": 318,
+          "example": {
+            "korean": "자, 건배!",
+            "chinese": "來，乾杯！",
+            "speechLevel": "casual"
+          },
+          "usage": "也常喊 짠!",
+          "commonMistake": null
+        },
+        {
+          "id": "V0548",
+          "korean": "한잔해요",
+          "chinese": "喝一杯",
+          "romanization": "han-jan-hae-yo",
+          "partOfSpeech": "verb",
+          "tier": "S",
+          "frequencyRank": 319,
+          "example": {
+            "korean": "오늘 한잔해요!",
+            "chinese": "今天喝一杯吧！",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 한잔하다（不一定是一杯）。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0549",
+          "korean": "이차",
+          "chinese": "續攤（第二攤）",
+          "romanization": "i-cha",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 189,
+          "example": {
+            "korean": "이차 갈래?",
+            "chinese": "要續攤嗎？",
+            "speechLevel": "casual"
+          },
+          "usage": "也寫成 2차；第一攤是 일차。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0550",
+          "korean": "모임",
+          "chinese": "聚會",
+          "romanization": "mo-im",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 320,
+          "example": {
+            "korean": "오늘 저녁에 모임이 있어요.",
+            "chinese": "今天晚上有聚會。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0551",
+          "korean": "나눠서 내요",
+          "chinese": "分攤（付錢）",
+          "romanization": "na-nwo-seo nae-yo",
+          "partOfSpeech": "expression",
+          "tier": "A",
+          "frequencyRank": 190,
+          "example": {
+            "korean": "우리 나눠서 내자.",
+            "chinese": "我們分攤吧。",
+            "speechLevel": "casual"
+          },
+          "usage": "也說 더치페이（各付各的）、N빵。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0552",
+          "korean": "쏠게",
+          "chinese": "我請客",
+          "romanization": "ssol-ge",
+          "pronunciation": "[쏠께]",
+          "partOfSpeech": "expression",
+          "tier": "A",
+          "frequencyRank": 191,
+          "example": {
+            "korean": "오늘은 내가 쏠게!",
+            "chinese": "今天我請客！",
+            "speechLevel": "casual"
+          },
+          "usage": "쏘다（射）的口語用法。禮貌說法：제가 살게요。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0553",
+          "korean": "분위기",
+          "chinese": "氣氛",
+          "romanization": "bu-nwi-gi",
+          "pronunciation": "[부뉘기]",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 192,
+          "example": {
+            "korean": "분위기가 좋은 것 같아요.",
+            "chinese": "氣氛好像很好。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0554",
+          "korean": "비",
+          "chinese": "雨",
+          "romanization": "bi",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 321,
+          "example": {
+            "korean": "비가 올 것 같아.",
+            "chinese": "好像要下雨了。",
+            "speechLevel": "casual"
+          },
+          "usage": "비가 오다＝下雨。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0555",
+          "korean": "그렇게",
+          "chinese": "那樣；那麼",
+          "romanization": "geu-reo-ke",
+          "pronunciation": "[그러케]",
+          "partOfSpeech": "adverb",
+          "tier": "S",
+          "frequencyRank": 322,
+          "example": {
+            "korean": "저도 그렇게 생각해요.",
+            "chinese": "我也這麼想。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        }
+      ],
+      "pronunciation": [
+        {
+          "id": "P5001",
+          "title": "것 같아 的連音與緊音",
+          "explanation": "것 같아 → [걷 가타]；-(으)ㄹ 것 같아 → [-(으)ㄹ 껃 가타]：ㄹ 後面的 것 變緊音。올 것 같아 → [올 껃 가타]。",
+          "articulation": "같아 的 ㅌ 移到 아 前面：[가타]。",
+          "chineseSpeakerPitfall": "唸成 [것 같아] 每個字分開，或把 같아 唸成 [가차]。",
+          "samples": [
+            "것 같아",
+            "올 것 같아",
+            "맛있는 것 같아요"
+          ],
+          "minimalPairs": []
+        },
+        {
+          "id": "P5002",
+          "title": "생각해요、그렇게 的激音化",
+          "explanation": "생각해요 → [생가캐요]、그렇게 → [그러케]、좋겠다 → [조켇따]：ㄱ 和 ㅎ 相遇變成 ㅋ。",
+          "articulation": "ㅎ 的氣加到 ㄱ 上，一個送氣音 [ㅋ]。",
+          "chineseSpeakerPitfall": "唸成 [생각 해요]，把 ㅎ 分開唸。",
+          "samples": [
+            "생각해요",
+            "그렇게",
+            "좋겠다"
+          ],
+          "minimalPairs": []
+        }
+      ],
+      "grammar": [
+        {
+          "id": "G5001",
+          "title": "-(으)ㄴ/는 것 같아(요)（好像；我覺得）",
+          "pattern": "動詞＋는 것 같아；形容詞＋(으)ㄴ 것 같아；있다／없다＋는 것 같아；推測未來＋(으)ㄹ 것 같아",
+          "explanation": "委婉地說感覺或意見，韓國人很常用：이 노래 좋은 것 같아（我覺得這首歌不錯）、사람이 많은 것 같아요（人好像很多）、분위기가 좋은 것 같아요、맛있는 것 같아。推測：비가 올 것 같아（好像要下雨）、늦을 것 같아（可能會遲到）。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "이 가게 분위기가 좋은 것 같아요.",
+              "chinese": "這家店的氣氛好像很好。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "비가 올 것 같아.",
+              "chinese": "好像要下雨了。",
+              "speechLevel": "casual"
+            }
+          ]
+        },
+        {
+          "id": "G5002",
+          "title": "-(으)면（如果…的話）",
+          "pattern": "無收音或 ㄹ 收音＋면；有收音＋으면",
+          "explanation": "說條件：시간 있으면 같이 가자（有空的話一起去吧）、비가 오면 집에 있을 거예요、도착하면 연락해。聚會常用：이차 가고 싶으면 말해（想續攤就說）。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "시간 있으면 같이 한잔해요.",
+              "chinese": "有空的話一起喝一杯吧。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "비가 오면 집에 있을 거야.",
+              "chinese": "下雨的話我會待在家。",
+              "speechLevel": "casual"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "korean": "이 노래 좋은 것 같아.",
+          "chinese": "我覺得這首歌不錯。",
+          "speechLevel": "casual"
+        },
+        {
+          "korean": "비가 올 것 같아요.",
+          "chinese": "好像要下雨了。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "시간 있으면 같이 가자.",
+          "chinese": "有空的話一起去吧。",
+          "speechLevel": "casual"
+        },
+        {
+          "korean": "자, 건배!",
+          "chinese": "來，乾杯！",
+          "speechLevel": "casual"
+        },
+        {
+          "korean": "오늘은 내가 쏠게!",
+          "chinese": "今天我請客！",
+          "speechLevel": "casual"
+        }
+      ],
+      "listening": [
+        {
+          "id": "L5001",
+          "audioText": "비가 올 것 같아.",
+          "question": "朋友的意思是？",
+          "options": [
+            "好像要下雨了。",
+            "正在下雨。",
+            "昨天下雨了。"
+          ],
+          "answerIndex": 0,
+          "explanation": "-(으)ㄹ 것 같아＝推測。"
+        },
+        {
+          "id": "L5002",
+          "audioText": "시간 있으면 같이 가자.",
+          "question": "朋友的意思是？",
+          "options": [
+            "有空的話一起去吧。",
+            "沒空就不要去。",
+            "一定要一起去。"
+          ],
+          "answerIndex": 0,
+          "explanation": "-(으)면＝如果。"
+        },
+        {
+          "id": "L5003",
+          "audioText": "오늘은 내가 쏠게!",
+          "question": "朋友的意思是？",
+          "options": [
+            "今天我請客！",
+            "今天我們分攤。",
+            "今天我不去。"
+          ],
+          "answerIndex": 0,
+          "explanation": "쏠게＝我請客。"
+        },
+        {
+          "id": "L5004",
+          "audioText": "올 것 같아",
+          "question": "實際發音最接近哪一個？",
+          "options": [
+            "[올 껃 가타]",
+            "[올 것 같아]（照字）",
+            "[오 걷 가차]"
+          ],
+          "answerIndex": 0,
+          "explanation": "ㄹ 後的 것 變緊音。"
+        }
+      ],
+      "drills": [
+        {
+          "id": "D5001",
+          "type": "transformation",
+          "instruction": "委婉地說：改成 -(으)ㄴ/는 것 같아요。",
+          "model": {
+            "korean": "맛있어요. → 맛있는 것 같아요.",
+            "chinese": "好像很好吃。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "사람이 많아요.",
+              "answers": [
+                "사람이 많은 것 같아요."
+              ],
+              "chinese": "人好像很多。"
+            },
+            {
+              "cue": "이 노래 좋아요.",
+              "answers": [
+                "이 노래 좋은 것 같아요."
+              ],
+              "chinese": "我覺得這首歌不錯。"
+            },
+            {
+              "cue": "분위기가 좋아요.",
+              "answers": [
+                "분위기가 좋은 것 같아요."
+              ],
+              "chinese": "氣氛好像很好。"
+            },
+            {
+              "cue": "조금 비싸요.",
+              "answers": [
+                "조금 비싼 것 같아요."
+              ],
+              "chinese": "好像有點貴。"
+            },
+            {
+              "cue": "친구가 집에 있어요.",
+              "answers": [
+                "친구가 집에 있는 것 같아요."
+              ],
+              "chinese": "朋友好像在家。"
+            }
+          ]
+        },
+        {
+          "id": "D5002",
+          "type": "transformation",
+          "instruction": "推測未來：-(으)ㄹ 것 같아요。",
+          "model": {
+            "korean": "비가 와요. → 비가 올 것 같아요.",
+            "chinese": "好像要下雨了。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "늦어요.",
+              "answers": [
+                "늦을 것 같아요."
+              ],
+              "chinese": "可能會遲到。"
+            },
+            {
+              "cue": "추워요.",
+              "answers": [
+                "추울 것 같아요."
+              ],
+              "chinese": "好像會很冷。"
+            },
+            {
+              "cue": "재미있어요.",
+              "answers": [
+                "재미있을 것 같아요."
+              ],
+              "chinese": "好像會很好玩。"
+            },
+            {
+              "cue": "사람이 많아요.",
+              "answers": [
+                "사람이 많을 것 같아요."
+              ],
+              "chinese": "人可能會很多。"
+            },
+            {
+              "cue": "못 가요.",
+              "answers": [
+                "못 갈 것 같아요."
+              ],
+              "chinese": "可能沒辦法去。"
+            }
+          ]
+        },
+        {
+          "id": "D5003",
+          "type": "substitution",
+          "instruction": "說條件：…-(으)면 같이 가자。",
+          "model": {
+            "korean": "시간 있으면 같이 가자.",
+            "chinese": "有空的話一起去吧。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "不忙的話",
+              "answers": [
+                "안 바쁘면 같이 가자."
+              ],
+              "chinese": "不忙的話一起去吧。"
+            },
+            {
+              "cue": "天氣好的話",
+              "answers": [
+                "날씨가 좋으면 같이 가자."
+              ],
+              "chinese": "天氣好的話一起去吧。"
+            },
+            {
+              "cue": "下班的話（퇴근하다）",
+              "answers": [
+                "퇴근하면 같이 가자."
+              ],
+              "chinese": "下班後一起去吧。"
+            },
+            {
+              "cue": "想去的話",
+              "answers": [
+                "가고 싶으면 같이 가자."
+              ],
+              "chinese": "想去的話一起去吧。"
+            },
+            {
+              "cue": "作業做完的話（숙제 다 하다）",
+              "answers": [
+                "숙제 다 하면 같이 가자."
+              ],
+              "chinese": "作業做完一起去吧。"
+            }
+          ]
+        },
+        {
+          "id": "D5004",
+          "type": "questionAnswer",
+          "instruction": "朋友聚會時，依提示用半語回應。",
+          "model": {
+            "korean": "이 가게 어때? — 분위기가 좋은 것 같아.",
+            "chinese": "這家店怎麼樣？——氣氛好像不錯。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "이 가게 어때?（氣氛好像不錯）",
+              "cueIsAudio": true,
+              "answers": [
+                "분위기가 좋은 것 같아.",
+                "분위기 좋은 것 같아."
+              ],
+              "chinese": "氣氛好像不錯。"
+            },
+            {
+              "cue": "자, 다 같이!（乾杯）",
+              "cueIsAudio": true,
+              "answers": [
+                "건배!",
+                "짠!"
+              ],
+              "chinese": "乾杯！"
+            },
+            {
+              "cue": "이차 갈래?（好像要下雨了，我要回家）",
+              "cueIsAudio": true,
+              "answers": [
+                "비가 올 것 같아. 나는 집에 갈게.",
+                "비 올 것 같아. 집에 갈게."
+              ],
+              "chinese": "好像要下雨，我要回家了。"
+            },
+            {
+              "cue": "계산 어떻게 할까?（我們分攤吧）",
+              "cueIsAudio": true,
+              "answers": [
+                "우리 나눠서 내자.",
+                "나눠서 내자."
+              ],
+              "chinese": "我們分攤吧。"
+            },
+            {
+              "cue": "다음 주에 또 만날까?（有空的話見吧）",
+              "cueIsAudio": true,
+              "answers": [
+                "시간 있으면 만나자.",
+                "응, 시간 되면 만나자."
+              ],
+              "chinese": "有空的話見吧。"
+            }
+          ]
+        },
+        {
+          "id": "D5005",
+          "type": "freeProduction",
+          "instruction": "聚會結束前，說你對今天的感覺，並約下次（用 -(으)면）。",
+          "model": {
+            "korean": "오늘 진짜 재미있었어. 다음에 시간 있으면 또 만나자!",
+            "chinese": "今天真的很開心。下次有空再見吧！",
+            "speechLevel": "casual"
+          },
+          "thinkSeconds": 10,
+          "items": [
+            {
+              "cue": "自由回答",
+              "answers": [
+                "오늘 진짜 재미있었어.",
+                "다음에 시간 있으면 또 만나자!"
+              ],
+              "chinese": "（參考答案）"
+            }
+          ]
+        }
+      ],
+      "speaking": {
+        "scenario": "和韓國朋友們在烤肉店聚會：乾杯、評論氣氛、討論續攤和分攤。AI 扮演朋友，用半語。使用者會：건배、-(으)ㄴ/는 것 같아、-(으)면、나눠서 내자／쏠게。",
+        "speechLevel": "casual",
+        "offlineScript": [
+          {
+            "cue": "자, 다 같이 건배!（提示：乾杯！）",
+            "cueIsAudio": true,
+            "answers": [
+              "건배!",
+              "짠!"
+            ],
+            "chinese": "乾杯！"
+          },
+          {
+            "cue": "여기 어때? 처음 와 봤지?（提示：對，第一次。氣氛好像很好）",
+            "cueIsAudio": true,
+            "answers": [
+              "응, 처음이야. 분위기가 좋은 것 같아.",
+              "응, 분위기 좋은 것 같아."
+            ],
+            "chinese": "嗯，第一次。氣氛好像很好。"
+          },
+          {
+            "cue": "이차 가고 싶으면 말해!（提示：今天有點累，下次有空再去吧）",
+            "cueIsAudio": true,
+            "answers": [
+              "오늘은 좀 피곤해. 다음에 시간 있으면 가자.",
+              "다음에 시간 있으면 가자."
+            ],
+            "chinese": "今天有點累，下次有空再去吧。"
+          }
+        ]
+      },
+      "postTest": [
+        {
+          "id": "Q5001",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "委婉地說「人好像很多」",
+          "audioText": null,
+          "options": [
+            "사람이 많은 것 같아요.",
+            "사람이 많는 것 같아요.",
+            "사람이 많을 것 같아요?"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "形容詞＋(으)ㄴ 것 같아요。"
+        },
+        {
+          "id": "Q5002",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「好像要下雨了」怎麼說？",
+          "audioText": null,
+          "options": [
+            "비가 올 것 같아요.",
+            "비가 오는 것 같아요?",
+            "비가 왔을 것 같아요."
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "推測未來＋(으)ㄹ 것 같아。"
+        },
+        {
+          "id": "Q5003",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「有空的話一起去吧」怎麼說？",
+          "audioText": null,
+          "options": [
+            "시간 있으면 같이 가자.",
+            "시간 있어서 같이 가자.",
+            "시간 있으니까요 같이 가자."
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "있다＋으면。"
+        },
+        {
+          "id": "Q5004",
+          "skill": "listening",
+          "kind": "listeningChoice",
+          "prompt": "聽句子選意思",
+          "audioText": "오늘은 우리 나눠서 내자.",
+          "options": [
+            "今天我們分攤吧。",
+            "今天我請客。",
+            "今天你請客。"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "나눠서 내자＝分攤吧。"
+        },
+        {
+          "id": "Q5005",
+          "skill": "grammar",
+          "kind": "typing",
+          "prompt": "用韓文寫：我也這麼想。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "저도 그렇게 생각해요.",
+            "나도 그렇게 생각해."
+          ],
+          "explanation": "저도 그렇게 생각해요."
+        },
+        {
+          "id": "Q5006",
+          "skill": "speaking",
+          "kind": "speaking",
+          "prompt": "用半語說：今天我請客！",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "오늘은 내가 쏠게!",
+            "오늘은 내가 쏠게.",
+            "오늘 내가 쏠게!"
+          ],
+          "explanation": "오늘은 내가 쏠게!"
+        }
+      ],
+      "completion": {
+        "postTestPassRatio": 0.8,
+        "drillAccuracy": 0.8,
+        "requireVocabularyQuiz": true
+      }
+    }
+  ]
 }
