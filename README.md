@@ -2,7 +2,7 @@
 
 原生 iOS App（Swift 6 / SwiftUI / SwiftData），以 FSI Pattern Drill、五格 SRS、Minimal Pairs 與 AI 情境對話為核心。
 
-> **版本 1.0（第六階段：交付）。** 程式在 GitHub Actions 上編譯，並在 iOS 模擬器通過 102 項單元測試、21 項整合測試與 4 個 UI 流程。**12 個單元、60 課教材全部完成（665 個單字、1198 題 Drill）**；尚未在 iPhone 實機執行，麥克風、語音辨識與 AI 真實連線也還沒測過。完整現況見 [Docs/DELIVERY.md](Docs/DELIVERY.md)。
+> **版本 1.0（第六階段：交付）。** 程式在 GitHub Actions 上編譯，並在 iOS 模擬器通過 110 項單元測試、24 項整合測試與 4 個 UI 流程。**12 個單元、60 課教材全部完成（665 個單字、1198 題 Drill）**；尚未在 iPhone 實機執行，麥克風、語音辨識與 AI 真實連線也還沒測過。完整現況見 [Docs/DELIVERY.md](Docs/DELIVERY.md)。
 
 <img src="Docs/screenshots/04-首頁.png" width="200"> <img src="Docs/screenshots/08-Drill回饋.png" width="200"> <img src="Docs/screenshots/15-能力報告.png" width="200">
 
@@ -64,8 +64,8 @@ k-lingua-ai/
 | 項目 | 狀態 |
 |---|---|
 | 專案結構 / pbxproj 引用完整性 / JSON | ✅ `Tools/validate_project.py` |
-| KLinguaCore 單元測試（102 項） | ✅ CI 上 `swift test` |
-| App 整合測試（21 項，SwiftData + 教材 + 鑰匙圈） | ✅ CI 上模擬器 `xcodebuild test` |
+| KLinguaCore 單元測試（110 項） | ✅ CI 上 `swift test` |
+| App 整合測試（24 項，SwiftData + 教材 + 鑰匙圈） | ✅ CI 上模擬器 `xcodebuild test` |
 | UI 端對端測試（4 個流程，含截圖） | ✅ CI 上模擬器 XCUITest |
 | iOS App 編譯（模擬器 + 實機，未簽章） | ✅ CI 上 `xcodebuild` |
 | iPhone 實機操作 | ⏳ 未測試（模擬器已通過；實機需要 Mac 與 Apple ID 安裝） |
