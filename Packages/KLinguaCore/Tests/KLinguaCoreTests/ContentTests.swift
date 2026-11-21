@@ -92,6 +92,25 @@ struct ContentTests {
         #expect(u5.lessons.flatMap(\.vocabulary).allSatisfy { !earlier.contains($0.korean) })
     }
 
+    @Test("單元 06 助詞反射訓練：語音問答題思考時間較短")
+    func unit06() throws {
+        let lib = try ContentLibrary.loadBundled()
+        let u6 = lib.units[5]
+        #expect(u6.number == 6)
+        #expect(u6.available)
+        #expect(u6.stage == .basicPatterns)
+        #expect(u6.lessons.map(\.id) == ["U06L01", "U06L02", "U06L03", "U06L04", "U06L05"])
+        let qa = u6.lessons.flatMap(\.drills).filter { $0.type == .questionAnswer }
+        #expect(qa.allSatisfy { $0.thinkSeconds <= 6 })
+        #expect(qa.flatMap(\.items).allSatisfy { $0.cueIsAudio == true })
+        let earlier = Set(lib.units.prefix(5).flatMap(\.lessons).flatMap(\.vocabulary).map(\.korean))
+        #expect(u6.lessons.flatMap(\.vocabulary).allSatisfy { !earlier.contains($0.korean) })
+        // (으)로：ㄹ 收音接 로
+        let answers = u6.lessons.flatMap(\.drills).flatMap(\.items).flatMap(\.answers)
+        #expect(answers.contains("지하철로 가요."))
+        #expect(!answers.contains { $0.contains("지하철으로") })
+    }
+
     @Test("數字答案：韓文、阿拉伯數字、千分位、語音辨識結果都判為正確")
     func numberAnswersAcceptDigits() throws {
         let lib = try ContentLibrary.loadBundled()

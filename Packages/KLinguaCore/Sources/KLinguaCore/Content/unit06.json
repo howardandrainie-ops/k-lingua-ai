@@ -3,7 +3,3399 @@
   "number": 6,
   "title": "基礎助詞及句型",
   "stage": 3,
-  "summary": "은/는、이/가、을/를、에、에서、도、하고 與基本句型的反射訓練。",
-  "available": false,
-  "lessons": []
+  "summary": "助詞反射訓練：은/는 vs 이/가、에 vs 에서、位置名詞，並加入 (으)로、에게/한테、의、만、보다、(이)랑、와/과，搭配交通、送禮、比較、季節等情境；思考時間較短、多用語音提問。",
+  "available": true,
+  "lessons": [
+    {
+      "id": "U06L01",
+      "title": "「은/는」和「이/가」：誰、什麼與描述",
+      "estimatedMinutes": 50,
+      "objectives": [
+        "分清楚 은/는（主題、對比）和 이/가（新資訊、回答「誰／什麼」）",
+        "用 누가、뭐가 提問，用 이/가 回答；저＋가 → 제가",
+        "用「N은/는 N이/가 形容詞」描述人的外表和個性",
+        "說身體不舒服：머리가 아파요"
+      ],
+      "vocabulary": [
+        {
+          "id": "V0278",
+          "korean": "누가",
+          "chinese": "誰（當主語）",
+          "romanization": "nu-ga",
+          "partOfSpeech": "pronoun",
+          "tier": "S",
+          "frequencyRank": 170,
+          "example": {
+            "korean": "누가 학생이에요?",
+            "chinese": "誰是學生？",
+            "speechLevel": "polite"
+          },
+          "usage": "누구＋가 → 누가。",
+          "commonMistake": "不要說 *누구가。"
+        },
+        {
+          "id": "V0279",
+          "korean": "키",
+          "chinese": "身高；個子",
+          "romanization": "ki",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 171,
+          "example": {
+            "korean": "저는 키가 커요.",
+            "chinese": "我個子高。",
+            "speechLevel": "polite"
+          },
+          "usage": "키가 커요＝個子高；키가 작아요＝個子矮。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0280",
+          "korean": "머리",
+          "chinese": "頭；頭髮",
+          "romanization": "meo-ri",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 172,
+          "example": {
+            "korean": "머리가 아파요.",
+            "chinese": "頭痛。",
+            "speechLevel": "polite"
+          },
+          "usage": "머리가 길어요＝頭髮長。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0281",
+          "korean": "눈",
+          "chinese": "眼睛；雪",
+          "romanization": "nun",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 173,
+          "example": {
+            "korean": "동생은 눈이 커요.",
+            "chinese": "弟弟眼睛很大。",
+            "speechLevel": "polite"
+          },
+          "usage": "眼睛和雪寫法相同。標準語「雪」是長音，但首爾口語多半不分，要看上下文。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0282",
+          "korean": "얼굴",
+          "chinese": "臉",
+          "romanization": "eol-gul",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 83,
+          "example": {
+            "korean": "얼굴이 작아요.",
+            "chinese": "臉很小。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0283",
+          "korean": "성격",
+          "chinese": "個性",
+          "romanization": "seong-gyeok",
+          "pronunciation": "[성껵]",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 84,
+          "example": {
+            "korean": "성격이 좋아요.",
+            "chinese": "個性很好。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0284",
+          "korean": "길어요",
+          "chinese": "長",
+          "romanization": "gi-reo-yo",
+          "pronunciation": "[기러요]",
+          "partOfSpeech": "adjective",
+          "tier": "A",
+          "frequencyRank": 85,
+          "example": {
+            "korean": "언니는 머리가 길어요.",
+            "chinese": "姊姊頭髮很長。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 길다。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0285",
+          "korean": "짧아요",
+          "chinese": "短",
+          "romanization": "jjal-ba-yo",
+          "pronunciation": "[짤바요]",
+          "partOfSpeech": "adjective",
+          "tier": "A",
+          "frequencyRank": 86,
+          "example": {
+            "korean": "형은 머리가 짧아요.",
+            "chinese": "哥哥頭髮很短。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 짧다。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0286",
+          "korean": "예뻐요",
+          "chinese": "漂亮",
+          "romanization": "ye-ppeo-yo",
+          "partOfSpeech": "adjective",
+          "tier": "S",
+          "frequencyRank": 174,
+          "example": {
+            "korean": "꽃이 예뻐요.",
+            "chinese": "花很漂亮。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 예쁘다（ㅡ 脫落）。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0287",
+          "korean": "친절해요",
+          "chinese": "親切",
+          "romanization": "chin-jeol-hae-yo",
+          "pronunciation": "[친저래요]",
+          "partOfSpeech": "adjective",
+          "tier": "A",
+          "frequencyRank": 87,
+          "example": {
+            "korean": "선생님은 친절해요.",
+            "chinese": "老師很親切。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 친절하다。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0288",
+          "korean": "아파요",
+          "chinese": "痛；不舒服",
+          "romanization": "a-pa-yo",
+          "partOfSpeech": "adjective",
+          "tier": "S",
+          "frequencyRank": 175,
+          "example": {
+            "korean": "어디가 아파요?",
+            "chinese": "哪裡不舒服？",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 아프다（ㅡ 脫落）。",
+          "commonMistake": null
+        }
+      ],
+      "pronunciation": [
+        {
+          "id": "P2601",
+          "title": "雙收音 ㄼ 與 성격 的緊音",
+          "explanation": "짧아요 → [짤바요]：ㄼ 接母音時，ㄹ 留下、ㅂ 移到下一個字。單獨唸 짧다 → [짤따]。성격 → [성껵]：漢字詞裡常見的緊音，要個別記。",
+          "articulation": "짤 的 ㄹ 舌尖輕碰上齒齦停住，바 再接上。",
+          "chineseSpeakerPitfall": "짧아요 唸成 [짜바요]，少了 ㄹ。",
+          "samples": [
+            "짧아요",
+            "성격",
+            "길어요"
+          ],
+          "minimalPairs": []
+        },
+        {
+          "id": "P2602",
+          "title": "눈（眼睛）與 눈（雪）",
+          "explanation": "標準語用母音長短區分：눈（眼睛）短音、눈ː（雪）長音。但現代首爾口語，特別是年輕人，大多已經不分長短，要靠上下文：눈이 커요（眼睛大）、눈이 와요（下雪）。",
+          "articulation": "跟讀時不需要刻意拉長；先把收音 ㄴ 唸清楚。",
+          "chineseSpeakerPitfall": "收音 ㄴ 唸成 ㅇ，눈 變成 [눙]。",
+          "samples": [
+            "눈이 커요",
+            "눈이 와요"
+          ],
+          "minimalPairs": []
+        }
+      ],
+      "grammar": [
+        {
+          "id": "G2601",
+          "title": "은/는 vs 이/가",
+          "pattern": "은/는：主題、對比；이/가：新資訊、回答「誰／什麼」、描述狀態",
+          "explanation": "問「誰／什麼」用 누가、뭐가，回答也用 이/가：누가 학생이에요? — 민수 씨가 학생이에요。介紹自己、比較兩個人用 은/는：저는 학생이에요. 동생은 회사원이에요。있어요／없어요、좋아요、아파요 這類描述狀態的句子常用 이/가：머리가 아파요。저＋가 要變成 제가：제가 할게요（我來）。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "누가 아파요? — 제가 아파요.",
+              "chinese": "誰不舒服？——我不舒服。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "저는 학생이에요. 동생은 회사원이에요.",
+              "chinese": "我是學生，弟弟是上班族。",
+              "speechLevel": "polite"
+            }
+          ]
+        },
+        {
+          "id": "G2602",
+          "title": "N은/는 N이/가 形容詞",
+          "pattern": "人（은/는）＋部位或特點（이/가）＋形容詞",
+          "explanation": "描述某個人的特點時，人用 은/는，特點用 이/가：저는 키가 커요（我個子高）、언니는 머리가 길어요（姊姊頭髮長）、선생님은 성격이 좋아요（老師個性好）。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "저는 키가 커요.",
+              "chinese": "我個子高。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "언니는 머리가 길어요.",
+              "chinese": "姊姊頭髮長。",
+              "speechLevel": "polite"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "korean": "누가 선생님이에요?",
+          "chinese": "誰是老師？",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "제가 학생이에요.",
+          "chinese": "我是學生。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "저는 머리가 아파요.",
+          "chinese": "我頭痛。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "동생은 눈이 커요.",
+          "chinese": "弟弟眼睛很大。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "선생님은 성격이 좋아요.",
+          "chinese": "老師個性很好。",
+          "speechLevel": "polite"
+        }
+      ],
+      "listening": [
+        {
+          "id": "L2601",
+          "audioText": "누가 선생님이에요?",
+          "question": "對方在問什麼？",
+          "options": [
+            "誰是老師？",
+            "老師在哪裡？",
+            "老師是哪國人？"
+          ],
+          "answerIndex": 0,
+          "explanation": "누가＝誰（主語）。"
+        },
+        {
+          "id": "L2602",
+          "audioText": "저는 머리가 아파요.",
+          "question": "意思是？",
+          "options": [
+            "我頭痛。",
+            "我頭髮很長。",
+            "我很忙。"
+          ],
+          "answerIndex": 0,
+          "explanation": "머리가 아파요＝頭痛。"
+        },
+        {
+          "id": "L2603",
+          "audioText": "짧아요",
+          "question": "實際發音最接近哪一個？",
+          "options": [
+            "[짤바요]",
+            "[짜바요]",
+            "[짤라요]"
+          ],
+          "answerIndex": 0,
+          "explanation": "ㄼ 接母音：ㄹ 留下，ㅂ 移到下一個字。"
+        },
+        {
+          "id": "L2604",
+          "audioText": "언니는 키가 커요. 저는 키가 작아요.",
+          "question": "誰比較高？",
+          "options": [
+            "姊姊",
+            "說話的人",
+            "一樣高"
+          ],
+          "answerIndex": 0,
+          "explanation": "언니는 키가 커요＝姊姊個子高。"
+        }
+      ],
+      "drills": [
+        {
+          "id": "D2601",
+          "type": "substitution",
+          "instruction": "描述人：N은/는 N이/가 形容詞（注意兩個助詞）。",
+          "model": {
+            "korean": "저는 키가 커요.",
+            "chinese": "我個子高。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "동생（個子矮）",
+              "answers": [
+                "동생은 키가 작아요."
+              ],
+              "chinese": "弟弟個子矮。"
+            },
+            {
+              "cue": "언니（頭髮長）",
+              "answers": [
+                "언니는 머리가 길어요."
+              ],
+              "chinese": "姊姊頭髮長。"
+            },
+            {
+              "cue": "형（頭髮短）",
+              "answers": [
+                "형은 머리가 짧아요."
+              ],
+              "chinese": "哥哥頭髮短。"
+            },
+            {
+              "cue": "친구（眼睛大）",
+              "answers": [
+                "친구는 눈이 커요."
+              ],
+              "chinese": "朋友眼睛大。"
+            },
+            {
+              "cue": "선생님（個性好）",
+              "answers": [
+                "선생님은 성격이 좋아요."
+              ],
+              "chinese": "老師個性好。"
+            }
+          ]
+        },
+        {
+          "id": "D2602",
+          "type": "transformation",
+          "instruction": "改成問「誰」：N이/가 … → 누가 …?",
+          "model": {
+            "korean": "민수 씨가 학생이에요. → 누가 학생이에요?",
+            "chinese": "民秀是學生。→ 誰是學生？",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 6,
+          "items": [
+            {
+              "cue": "지민 씨가 의사예요.",
+              "answers": [
+                "누가 의사예요?"
+              ],
+              "chinese": "誰是醫生？"
+            },
+            {
+              "cue": "동생이 아파요.",
+              "answers": [
+                "누가 아파요?"
+              ],
+              "chinese": "誰不舒服？"
+            },
+            {
+              "cue": "형이 요리를 잘해요.",
+              "answers": [
+                "누가 요리를 잘해요?"
+              ],
+              "chinese": "誰很會做菜？"
+            },
+            {
+              "cue": "엄마가 집에 있어요.",
+              "answers": [
+                "누가 집에 있어요?"
+              ],
+              "chinese": "誰在家？"
+            },
+            {
+              "cue": "언니가 키가 커요.",
+              "answers": [
+                "누가 키가 커요?"
+              ],
+              "chinese": "誰個子高？"
+            }
+          ]
+        },
+        {
+          "id": "D2603",
+          "type": "questionAnswer",
+          "instruction": "聽問題，馬上回答（注意 은/는、이/가）。",
+          "model": {
+            "korean": "누가 아파요? — 제가 아파요.",
+            "chinese": "誰不舒服？——我不舒服。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 6,
+          "items": [
+            {
+              "cue": "누가 학생이에요?（민수 씨）",
+              "cueIsAudio": true,
+              "answers": [
+                "민수 씨가 학생이에요."
+              ],
+              "chinese": "民秀是學生。"
+            },
+            {
+              "cue": "어디가 아파요?（頭）",
+              "cueIsAudio": true,
+              "answers": [
+                "머리가 아파요.",
+                "저는 머리가 아파요."
+              ],
+              "chinese": "頭痛。"
+            },
+            {
+              "cue": "뭐가 맛있어요?（拌飯）",
+              "cueIsAudio": true,
+              "answers": [
+                "비빔밥이 맛있어요."
+              ],
+              "chinese": "拌飯好吃。"
+            },
+            {
+              "cue": "누가 아파요?（我）",
+              "cueIsAudio": true,
+              "answers": [
+                "제가 아파요."
+              ],
+              "chinese": "我不舒服。"
+            },
+            {
+              "cue": "동생은 뭐 해요?（大學生）",
+              "cueIsAudio": true,
+              "answers": [
+                "동생은 대학생이에요.",
+                "대학생이에요."
+              ],
+              "chinese": "弟弟是大學生。"
+            },
+            {
+              "cue": "언니는 키가 커요?（是）",
+              "cueIsAudio": true,
+              "answers": [
+                "네, 언니는 키가 커요.",
+                "네, 커요.",
+                "네, 키가 커요."
+              ],
+              "chinese": "對，姊姊個子高。"
+            }
+          ]
+        },
+        {
+          "id": "D2604",
+          "type": "freeProduction",
+          "instruction": "描述一位家人或朋友的外表和個性（兩句）。",
+          "model": {
+            "korean": "우리 언니는 키가 커요. 그리고 성격이 좋아요.",
+            "chinese": "我姊姊個子高，而且個性好。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 10,
+          "items": [
+            {
+              "cue": "自由回答",
+              "answers": [
+                "우리 언니는 키가 커요.",
+                "그리고 성격이 좋아요."
+              ],
+              "chinese": "（參考答案）"
+            }
+          ]
+        }
+      ],
+      "speaking": {
+        "scenario": "和韓國朋友一起看你手機裡的家人照片，朋友問照片裡的人。AI 扮演朋友。使用者會：누가、이/가 回答、N은/는 N이/가 形容詞、아파요。",
+        "speechLevel": "polite",
+        "offlineScript": [
+          {
+            "cue": "이 사람이 누구예요?（提示：我哥哥）",
+            "cueIsAudio": true,
+            "answers": [
+              "제 형이에요.",
+              "우리 형이에요."
+            ],
+            "chinese": "是我哥哥。"
+          },
+          {
+            "cue": "형은 키가 커요?（提示：對，很高；頭髮短）",
+            "cueIsAudio": true,
+            "answers": [
+              "네, 키가 커요. 머리가 짧아요.",
+              "네, 형은 키가 커요. 그리고 머리가 짧아요."
+            ],
+            "chinese": "對，個子高，頭髮短。"
+          },
+          {
+            "cue": "얼굴이 안 좋아요. 어디가 아파요?（提示：我頭痛）",
+            "cueIsAudio": true,
+            "answers": [
+              "머리가 아파요.",
+              "저는 머리가 아파요."
+            ],
+            "chinese": "我頭痛。"
+          }
+        ]
+      },
+      "postTest": [
+        {
+          "id": "Q2601",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「誰是老師？」怎麼說？",
+          "audioText": null,
+          "options": [
+            "누가 선생님이에요?",
+            "누구는 선생님이에요?",
+            "누구가 선생님이에요?"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "누구＋가 → 누가。"
+        },
+        {
+          "id": "Q2602",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「我頭痛。」哪一句正確？",
+          "audioText": null,
+          "options": [
+            "저는 머리가 아파요.",
+            "저가 머리를 아파요.",
+            "저는 머리를 아파요."
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "人用 은/는，部位用 이/가。"
+        },
+        {
+          "id": "Q2603",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "回答「누가 아파요?」：「是我。」",
+          "audioText": null,
+          "options": [
+            "제가 아파요.",
+            "저가 아파요.",
+            "저는가 아파요."
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "저＋가 → 제가。"
+        },
+        {
+          "id": "Q2604",
+          "skill": "listening",
+          "kind": "listeningChoice",
+          "prompt": "聽句子選意思",
+          "audioText": "동생은 눈이 커요.",
+          "options": [
+            "弟弟／妹妹眼睛很大。",
+            "弟弟／妹妹個子很高。",
+            "下大雪了。"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "눈이 커요＝眼睛大。"
+        },
+        {
+          "id": "Q2605",
+          "skill": "grammar",
+          "kind": "typing",
+          "prompt": "用韓文寫（女生說）：姊姊頭髮很長。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "언니는 머리가 길어요.",
+            "우리 언니는 머리가 길어요.",
+            "제 언니는 머리가 길어요."
+          ],
+          "explanation": "언니는 머리가 길어요."
+        },
+        {
+          "id": "Q2606",
+          "skill": "speaking",
+          "kind": "speaking",
+          "prompt": "說出：誰不舒服？",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "누가 아파요?"
+          ],
+          "explanation": "누가 아파요?"
+        }
+      ],
+      "completion": {
+        "postTestPassRatio": 0.8,
+        "drillAccuracy": 0.8,
+        "requireVocabularyQuiz": true
+      }
+    },
+    {
+      "id": "U06L02",
+      "title": "「에」和「에서」與位置",
+      "estimatedMinutes": 50,
+      "objectives": [
+        "說出位置：앞、뒤、옆、안、밖、아래、사이、오른쪽、왼쪽、건너편",
+        "用「N 位置에 있어요」說東西在哪裡",
+        "快速選擇 에（在、去、住）或 에서（在…做動作）",
+        "在大樓、街上問路"
+      ],
+      "vocabulary": [
+        {
+          "id": "V0289",
+          "korean": "앞",
+          "chinese": "前面",
+          "romanization": "ap",
+          "pronunciation": "[압]，앞에 → [아페]",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 176,
+          "example": {
+            "korean": "역 앞에서 만나요.",
+            "chinese": "在車站前面見。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0290",
+          "korean": "뒤",
+          "chinese": "後面",
+          "romanization": "dwi",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 177,
+          "example": {
+            "korean": "공원이 회사 뒤에 있어요.",
+            "chinese": "公園在公司後面。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0291",
+          "korean": "옆",
+          "chinese": "旁邊",
+          "romanization": "yeop",
+          "pronunciation": "[엽]，옆에 → [여페]",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 178,
+          "example": {
+            "korean": "약국이 은행 옆에 있어요.",
+            "chinese": "藥局在銀行旁邊。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0292",
+          "korean": "안",
+          "chinese": "裡面",
+          "romanization": "an",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 179,
+          "example": {
+            "korean": "가방 안에 지갑이 있어요.",
+            "chinese": "包包裡有錢包。",
+            "speechLevel": "polite"
+          },
+          "usage": "和否定的 안（不）寫法一樣，看位置分辨。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0293",
+          "korean": "밖",
+          "chinese": "外面",
+          "romanization": "bak",
+          "pronunciation": "[박]，밖에 → [바께]",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 88,
+          "example": {
+            "korean": "밖이 추워요.",
+            "chinese": "外面很冷。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0294",
+          "korean": "아래",
+          "chinese": "下面",
+          "romanization": "a-rae",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 89,
+          "example": {
+            "korean": "개가 의자 아래에 있어요.",
+            "chinese": "狗在椅子下面。",
+            "speechLevel": "polite"
+          },
+          "usage": "口語也說 밑。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0295",
+          "korean": "사이",
+          "chinese": "中間；之間",
+          "romanization": "sa-i",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 90,
+          "example": {
+            "korean": "카페는 은행하고 약국 사이에 있어요.",
+            "chinese": "咖啡廳在銀行和藥局中間。",
+            "speechLevel": "polite"
+          },
+          "usage": "A하고 B 사이＝A 和 B 中間。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0296",
+          "korean": "오른쪽",
+          "chinese": "右邊",
+          "romanization": "o-reun-jjok",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 180,
+          "example": {
+            "korean": "화장실이 오른쪽에 있어요.",
+            "chinese": "洗手間在右邊。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0297",
+          "korean": "왼쪽",
+          "chinese": "左邊",
+          "romanization": "oen-jjok",
+          "pronunciation": "[왼쪽]，口語常唸 [웬쪽]",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 181,
+          "example": {
+            "korean": "출구는 왼쪽에 있어요.",
+            "chinese": "出口在左邊。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0298",
+          "korean": "건너편",
+          "chinese": "對面",
+          "romanization": "geon-neo-pyeon",
+          "partOfSpeech": "noun",
+          "tier": "B",
+          "frequencyRank": 26,
+          "example": {
+            "korean": "은행 건너편에 있어요.",
+            "chinese": "在銀行對面。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0299",
+          "korean": "건물",
+          "chinese": "建築物；大樓",
+          "romanization": "geon-mul",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 91,
+          "example": {
+            "korean": "건물 안에 카페가 있어요.",
+            "chinese": "大樓裡有咖啡廳。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        }
+      ],
+      "pronunciation": [
+        {
+          "id": "P2701",
+          "title": "位置名詞的連音",
+          "explanation": "앞、옆、밖 單獨唸時收音不爆破：[압]、[엽]、[박]。後面接 에 時恢復原音並移到下一個字：앞에 → [아페]、옆에 → [여페]、밖에 → [바께]、안에 → [아네]。",
+          "articulation": "앞에 的 ㅍ 要送氣：[아페]，不是 [아베]。",
+          "chineseSpeakerPitfall": "唸成 [압에]，把收音和 에 分開。",
+          "samples": [
+            "앞에",
+            "옆에",
+            "밖에",
+            "안에"
+          ],
+          "minimalPairs": []
+        },
+        {
+          "id": "P2702",
+          "title": "오른쪽、왼쪽 的緊音",
+          "explanation": "쪽 本身就是緊音 ㅉ：오른쪽、왼쪽。왼 的 ㅚ 口語常唸 [웬]。",
+          "articulation": "ㅉ 喉嚨繃緊、沒有氣流，聲音比 ㅈ 高。",
+          "chineseSpeakerPitfall": "쪽 唸成送氣的 [촉]。",
+          "samples": [
+            "오른쪽",
+            "왼쪽"
+          ],
+          "minimalPairs": []
+        }
+      ],
+      "grammar": [
+        {
+          "id": "G2701",
+          "title": "N 位置＋에 있어요",
+          "pattern": "東西이/가 ＋ 地點 位置名詞＋에 있어요",
+          "explanation": "說東西在哪裡：지갑이 가방 안에 있어요（錢包在包包裡）、약국이 은행 옆에 있어요（藥局在銀行旁邊）。A와 B 中間：A하고 B 사이에 있어요。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "약국이 은행 옆에 있어요.",
+              "chinese": "藥局在銀行旁邊。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "카페는 은행하고 약국 사이에 있어요.",
+              "chinese": "咖啡廳在銀行和藥局中間。",
+              "speechLevel": "polite"
+            }
+          ]
+        },
+        {
+          "id": "G2702",
+          "title": "에 和 에서 總整理",
+          "pattern": "에：있어요／없어요、가요、살아요、時間；에서：其他動作的地點",
+          "explanation": "存在（있어요／없어요）、去（가요）、住（살아요）、時間（세 시에）用 에；在某處「做」動作（먹어요、공부해요、만나요、일해요、쉬어요）用 에서。判斷方法：句子的動詞是不是一個「動作」。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "집에 있어요.",
+              "chinese": "在家。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "집에서 쉬어요.",
+              "chinese": "在家休息。",
+              "speechLevel": "polite"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "korean": "화장실이 오른쪽에 있어요.",
+          "chinese": "洗手間在右邊。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "역 앞에서 만나요.",
+          "chinese": "在車站前面見。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "가방 안에 지갑이 있어요.",
+          "chinese": "包包裡有錢包。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "은행 건너편에 카페가 있어요.",
+          "chinese": "銀行對面有咖啡廳。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "집에서 쉬어요.",
+          "chinese": "在家休息。",
+          "speechLevel": "polite"
+        }
+      ],
+      "listening": [
+        {
+          "id": "L2701",
+          "audioText": "은행 옆에 약국이 있어요.",
+          "question": "藥局在哪裡？",
+          "options": [
+            "銀行旁邊",
+            "銀行前面",
+            "銀行裡面"
+          ],
+          "answerIndex": 0,
+          "explanation": "옆＝旁邊。"
+        },
+        {
+          "id": "L2702",
+          "audioText": "가방 안에 지갑이 있어요.",
+          "question": "意思是？",
+          "options": [
+            "錢包在包包裡。",
+            "錢包在包包旁邊。",
+            "包包在錢包裡。"
+          ],
+          "answerIndex": 0,
+          "explanation": "안＝裡面。"
+        },
+        {
+          "id": "L2703",
+          "audioText": "옆에",
+          "question": "實際發音最接近哪一個？",
+          "options": [
+            "[여페]",
+            "[엽에]",
+            "[여베]"
+          ],
+          "answerIndex": 0,
+          "explanation": "ㅍ 移到下一個字，要送氣。"
+        },
+        {
+          "id": "L2704",
+          "audioText": "역 앞에서 만나요.",
+          "question": "意思是？",
+          "options": [
+            "在車站前面見。",
+            "在車站裡面見。",
+            "去車站。"
+          ],
+          "answerIndex": 0,
+          "explanation": "앞에서 만나요＝在前面見。"
+        }
+      ],
+      "drills": [
+        {
+          "id": "D2701",
+          "type": "substitution",
+          "instruction": "說位置：N이/가 地點 位置에 있어요。",
+          "model": {
+            "korean": "책이 책상 위에 있어요.",
+            "chinese": "書在書桌上。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 8,
+          "items": [
+            {
+              "cue": "지갑（包包裡）",
+              "answers": [
+                "지갑이 가방 안에 있어요."
+              ],
+              "chinese": "錢包在包包裡。"
+            },
+            {
+              "cue": "개（椅子下面）",
+              "answers": [
+                "개가 의자 아래에 있어요."
+              ],
+              "chinese": "狗在椅子下面。"
+            },
+            {
+              "cue": "약국（銀行旁邊）",
+              "answers": [
+                "약국이 은행 옆에 있어요."
+              ],
+              "chinese": "藥局在銀行旁邊。"
+            },
+            {
+              "cue": "카페（學校前面）",
+              "answers": [
+                "카페가 학교 앞에 있어요."
+              ],
+              "chinese": "咖啡廳在學校前面。"
+            },
+            {
+              "cue": "공원（公司後面）",
+              "answers": [
+                "공원이 회사 뒤에 있어요."
+              ],
+              "chinese": "公園在公司後面。"
+            }
+          ]
+        },
+        {
+          "id": "D2702",
+          "type": "transformation",
+          "instruction": "選 에 或 에서：依提示的動作說完整句子。",
+          "model": {
+            "korean": "카페（喝咖啡）→ 카페에서 커피를 마셔요.",
+            "chinese": "在咖啡廳喝咖啡。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 6,
+          "items": [
+            {
+              "cue": "학교（去）",
+              "answers": [
+                "학교에 가요."
+              ],
+              "chinese": "去學校。"
+            },
+            {
+              "cue": "학교（讀書）",
+              "answers": [
+                "학교에서 공부해요."
+              ],
+              "chinese": "在學校讀書。"
+            },
+            {
+              "cue": "집（在）",
+              "answers": [
+                "집에 있어요."
+              ],
+              "chinese": "在家。"
+            },
+            {
+              "cue": "집（休息）",
+              "answers": [
+                "집에서 쉬어요."
+              ],
+              "chinese": "在家休息。"
+            },
+            {
+              "cue": "서울（住）",
+              "answers": [
+                "서울에 살아요."
+              ],
+              "chinese": "住在首爾。"
+            },
+            {
+              "cue": "식당（吃飯）",
+              "answers": [
+                "식당에서 밥을 먹어요."
+              ],
+              "chinese": "在餐廳吃飯。"
+            }
+          ]
+        },
+        {
+          "id": "D2703",
+          "type": "questionAnswer",
+          "instruction": "聽問題，馬上回答（注意 에／에서）。",
+          "model": {
+            "korean": "어디에서 만나요? — 역 앞에서 만나요.",
+            "chinese": "在哪裡見？——在車站前面見。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 6,
+          "items": [
+            {
+              "cue": "화장실이 어디에 있어요?（左邊）",
+              "cueIsAudio": true,
+              "answers": [
+                "왼쪽에 있어요.",
+                "화장실이 왼쪽에 있어요.",
+                "화장실은 왼쪽에 있어요."
+              ],
+              "chinese": "在左邊。"
+            },
+            {
+              "cue": "어디에서 만나요?（車站前面）",
+              "cueIsAudio": true,
+              "answers": [
+                "역 앞에서 만나요."
+              ],
+              "chinese": "在車站前面見。"
+            },
+            {
+              "cue": "지갑이 어디에 있어요?（包包裡）",
+              "cueIsAudio": true,
+              "answers": [
+                "가방 안에 있어요.",
+                "지갑이 가방 안에 있어요."
+              ],
+              "chinese": "在包包裡。"
+            },
+            {
+              "cue": "은행이 어디에 있어요?（百貨公司對面）",
+              "cueIsAudio": true,
+              "answers": [
+                "백화점 건너편에 있어요.",
+                "은행은 백화점 건너편에 있어요."
+              ],
+              "chinese": "在百貨公司對面。"
+            },
+            {
+              "cue": "어디에 살아요?（首爾）",
+              "cueIsAudio": true,
+              "answers": [
+                "서울에 살아요.",
+                "저는 서울에 살아요."
+              ],
+              "chinese": "住在首爾。"
+            },
+            {
+              "cue": "어디에서 공부해요?（圖書館）",
+              "cueIsAudio": true,
+              "answers": [
+                "도서관에서 공부해요.",
+                "저는 도서관에서 공부해요."
+              ],
+              "chinese": "在圖書館讀書。"
+            }
+          ]
+        },
+        {
+          "id": "D2704",
+          "type": "freeProduction",
+          "instruction": "說你家附近有什麼（兩句）。",
+          "model": {
+            "korean": "우리 집 앞에 편의점이 있어요. 옆에 카페가 있어요.",
+            "chinese": "我家前面有便利商店，旁邊有咖啡廳。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 10,
+          "items": [
+            {
+              "cue": "自由回答",
+              "answers": [
+                "우리 집 앞에 편의점이 있어요.",
+                "옆에 카페가 있어요."
+              ],
+              "chinese": "（參考答案）"
+            }
+          ]
+        }
+      ],
+      "speaking": {
+        "scenario": "在韓國的辦公大樓裡迷路，向警衛問路。AI 扮演警衛。使用者會：어디에 있어요?、位置名詞、에／에서。",
+        "speechLevel": "polite",
+        "offlineScript": [
+          {
+            "cue": "뭐 찾아요?（提示：問洗手間在哪裡）",
+            "cueIsAudio": true,
+            "answers": [
+              "화장실이 어디에 있어요?",
+              "화장실은 어디에 있어요?"
+            ],
+            "chinese": "洗手間在哪裡？"
+          },
+          {
+            "cue": "화장실은 엘리베이터 옆에 있어요.（提示：再問便利商店在哪裡）",
+            "cueIsAudio": true,
+            "answers": [
+              "편의점은 어디에 있어요?",
+              "편의점이 어디에 있어요?"
+            ],
+            "chinese": "便利商店在哪裡？"
+          },
+          {
+            "cue": "편의점은 건물 밖에 있어요. 건너편이에요.（提示：謝謝）",
+            "cueIsAudio": true,
+            "answers": [
+              "감사합니다.",
+              "고마워요."
+            ],
+            "chinese": "謝謝。"
+          }
+        ]
+      },
+      "postTest": [
+        {
+          "id": "Q2701",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「在車站前面見。」哪一句正確？",
+          "audioText": null,
+          "options": [
+            "역 앞에서 만나요.",
+            "역 앞에 만나요.",
+            "역 앞을 만나요."
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "만나다 是動作，用 에서。"
+        },
+        {
+          "id": "Q2702",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「錢包在包包裡。」哪一句正確？",
+          "audioText": null,
+          "options": [
+            "지갑이 가방 안에 있어요.",
+            "지갑이 가방 안에서 있어요.",
+            "지갑을 가방 안에 있어요."
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "있어요 用 에。"
+        },
+        {
+          "id": "Q2703",
+          "skill": "vocabulary",
+          "kind": "choice",
+          "prompt": "「對面」是哪一個？",
+          "audioText": null,
+          "options": [
+            "건너편",
+            "옆",
+            "뒤"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "건너편＝對面。"
+        },
+        {
+          "id": "Q2704",
+          "skill": "listening",
+          "kind": "listeningChoice",
+          "prompt": "聽句子選位置",
+          "audioText": "카페는 은행하고 약국 사이에 있어요.",
+          "options": [
+            "咖啡廳在銀行和藥局中間。",
+            "咖啡廳在銀行旁邊。",
+            "銀行在咖啡廳和藥局中間。"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "사이＝中間。"
+        },
+        {
+          "id": "Q2705",
+          "skill": "grammar",
+          "kind": "typing",
+          "prompt": "用韓文寫：藥局在醫院旁邊。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "약국이 병원 옆에 있어요.",
+            "약국은 병원 옆에 있어요."
+          ],
+          "explanation": "약국이 병원 옆에 있어요."
+        },
+        {
+          "id": "Q2706",
+          "skill": "speaking",
+          "kind": "speaking",
+          "prompt": "說出：在家休息。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "집에서 쉬어요."
+          ],
+          "explanation": "집에서 쉬어요."
+        }
+      ],
+      "completion": {
+        "postTestPassRatio": 0.8,
+        "drillAccuracy": 0.8,
+        "requireVocabularyQuiz": true
+      }
+    },
+    {
+      "id": "U06L03",
+      "title": "「(으)로」與交通",
+      "estimatedMinutes": 50,
+      "objectives": [
+        "用「N(으)로」說交通工具：버스로、지하철로（ㄹ 收音接 로）",
+        "用「N(으)로 가요」說方向：오른쪽으로 가요",
+        "搭乘、下車、轉乘：N을/를 타요、N에서 내려요、N(으)로 갈아타요",
+        "在地鐵站問路"
+      ],
+      "vocabulary": [
+        {
+          "id": "V0300",
+          "korean": "택시",
+          "chinese": "計程車",
+          "romanization": "taek-si",
+          "pronunciation": "[택씨]",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 182,
+          "example": {
+            "korean": "택시로 가요.",
+            "chinese": "搭計程車去。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0301",
+          "korean": "자전거",
+          "chinese": "腳踏車",
+          "romanization": "ja-jeon-geo",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 92,
+          "example": {
+            "korean": "자전거로 회사에 가요.",
+            "chinese": "騎腳踏車去公司。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0302",
+          "korean": "비행기",
+          "chinese": "飛機",
+          "romanization": "bi-haeng-gi",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 93,
+          "example": {
+            "korean": "비행기로 한 시간 걸려요.",
+            "chinese": "搭飛機要一個小時。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0303",
+          "korean": "걸어서",
+          "chinese": "走路（去）",
+          "romanization": "geo-reo-seo",
+          "pronunciation": "[거러서]",
+          "partOfSpeech": "adverb",
+          "tier": "S",
+          "frequencyRank": 183,
+          "example": {
+            "korean": "학교에 걸어서 가요.",
+            "chinese": "走路去學校。",
+            "speechLevel": "polite"
+          },
+          "usage": "걷다（走）的變化。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0304",
+          "korean": "타요",
+          "chinese": "搭；騎",
+          "romanization": "ta-yo",
+          "partOfSpeech": "verb",
+          "tier": "S",
+          "frequencyRank": 184,
+          "example": {
+            "korean": "버스를 타요.",
+            "chinese": "搭公車。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 타다。交通工具用 을/를。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0305",
+          "korean": "내려요",
+          "chinese": "下（車）",
+          "romanization": "nae-ryeo-yo",
+          "partOfSpeech": "verb",
+          "tier": "A",
+          "frequencyRank": 94,
+          "example": {
+            "korean": "다음 역에서 내려요.",
+            "chinese": "在下一站下車。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 내리다。下車的地點用 에서。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0306",
+          "korean": "갈아타요",
+          "chinese": "轉乘",
+          "romanization": "ga-ra-ta-yo",
+          "pronunciation": "[가라타요]",
+          "partOfSpeech": "verb",
+          "tier": "A",
+          "frequencyRank": 95,
+          "example": {
+            "korean": "이호선으로 갈아타요.",
+            "chinese": "轉乘二號線。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 갈아타다。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0307",
+          "korean": "다음",
+          "chinese": "下一個",
+          "romanization": "da-eum",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 185,
+          "example": {
+            "korean": "다음 역에서 내려요.",
+            "chinese": "在下一站下車。",
+            "speechLevel": "polite"
+          },
+          "usage": "다음 주＝下週。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0308",
+          "korean": "출구",
+          "chinese": "出口",
+          "romanization": "chul-gu",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 96,
+          "example": {
+            "korean": "삼 번 출구로 나가요.",
+            "chinese": "從三號出口出去。",
+            "speechLevel": "polite"
+          },
+          "usage": "地鐵站出口都有號碼。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0309",
+          "korean": "정류장",
+          "chinese": "車站（公車）",
+          "romanization": "jeong-nyu-jang",
+          "pronunciation": "[정뉴장]",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 97,
+          "example": {
+            "korean": "버스 정류장이 어디에 있어요?",
+            "chinese": "公車站在哪裡？",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0310",
+          "korean": "호선",
+          "chinese": "（地鐵）號線",
+          "romanization": "ho-seon",
+          "partOfSpeech": "counter",
+          "tier": "B",
+          "frequencyRank": 27,
+          "example": {
+            "korean": "몇 호선이에요?",
+            "chinese": "幾號線？",
+            "speechLevel": "polite"
+          },
+          "usage": "用漢字音數字：일호선、이호선。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0311",
+          "korean": "이쪽",
+          "chinese": "這邊",
+          "romanization": "i-jjok",
+          "partOfSpeech": "pronoun",
+          "tier": "S",
+          "frequencyRank": 186,
+          "example": {
+            "korean": "이쪽으로 가요.",
+            "chinese": "往這邊走。",
+            "speechLevel": "polite"
+          },
+          "usage": "저쪽＝那邊。",
+          "commonMistake": null
+        }
+      ],
+      "pronunciation": [
+        {
+          "id": "P2801",
+          "title": "정류장、갈아타요 的音變",
+          "explanation": "정류장 → [정뉴장]：ㅇ 後面的 ㄹ 唸成 [ㄴ]（和 동료 [동뇨] 一樣）。갈아타요 → [가라타요]：收音 ㄹ 接母音移到下一個字。택시 → [택씨]：緊音化。",
+          "articulation": "看到「ㅇ／ㅁ＋ㄹ」就把 ㄹ 唸成 ㄴ。",
+          "chineseSpeakerPitfall": "정류장 唸成 [정류장]，聽起來很生硬。",
+          "samples": [
+            "정류장",
+            "갈아타요",
+            "택시"
+          ],
+          "minimalPairs": []
+        },
+        {
+          "id": "P2802",
+          "title": "(으)로 的連音",
+          "explanation": "으로 接在有收音的字後面會連音：이쪽으로 → [이쪼그로]、오른쪽으로 → [오른쪼그로]、이호선으로 → [이호서느로]。",
+          "articulation": "收音移到 으 前面，으로 唸輕一點。",
+          "chineseSpeakerPitfall": "唸成 [이쪽 으로]，中間停頓。",
+          "samples": [
+            "이쪽으로",
+            "오른쪽으로",
+            "이호선으로"
+          ],
+          "minimalPairs": []
+        }
+      ],
+      "grammar": [
+        {
+          "id": "G2801",
+          "title": "N(으)로（交通工具）",
+          "pattern": "有收音（ㄹ 除外）＋으로；無收音或收音 ㄹ＋로",
+          "explanation": "버스로、택시로、자전거로、비행기로；지하철 的收音是 ㄹ，所以接 로：지하철로。走路說 걸어서 가요。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "지하철로 가요.",
+              "chinese": "搭地鐵去。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "학교에 걸어서 가요.",
+              "chinese": "走路去學校。",
+              "speechLevel": "polite"
+            }
+          ]
+        },
+        {
+          "id": "G2802",
+          "title": "타요／내려요／갈아타요 與方向 (으)로",
+          "pattern": "N을/를 타요；N에서 내려요；N(으)로 갈아타요；方向(으)로 가요",
+          "explanation": "搭車：버스를 타요。在哪裡下車：다음 역에서 내려요。轉乘到哪一條線：이호선으로 갈아타요。往哪個方向：오른쪽으로 가요、이쪽으로 가요。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "다음 역에서 내려요.",
+              "chinese": "在下一站下車。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "오른쪽으로 가요.",
+              "chinese": "往右邊走。",
+              "speechLevel": "polite"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "korean": "회사에 지하철로 가요.",
+          "chinese": "搭地鐵去公司。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "버스를 타요.",
+          "chinese": "搭公車。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "다음 역에서 내려요.",
+          "chinese": "在下一站下車。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "이호선으로 갈아타요.",
+          "chinese": "轉乘二號線。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "이쪽으로 가요.",
+          "chinese": "往這邊走。",
+          "speechLevel": "polite"
+        }
+      ],
+      "listening": [
+        {
+          "id": "L2801",
+          "audioText": "지하철로 가요.",
+          "question": "怎麼去？",
+          "options": [
+            "搭地鐵",
+            "搭公車",
+            "走路"
+          ],
+          "answerIndex": 0,
+          "explanation": "지하철로＝搭地鐵。"
+        },
+        {
+          "id": "L2802",
+          "audioText": "다음 역에서 내려요.",
+          "question": "意思是？",
+          "options": [
+            "在下一站下車。",
+            "在下一站上車。",
+            "在下一站轉車。"
+          ],
+          "answerIndex": 0,
+          "explanation": "내려요＝下車。"
+        },
+        {
+          "id": "L2803",
+          "audioText": "오른쪽으로 가요.",
+          "question": "意思是？",
+          "options": [
+            "往右邊走。",
+            "在右邊。",
+            "往左邊走。"
+          ],
+          "answerIndex": 0,
+          "explanation": "(으)로＝往…方向。"
+        },
+        {
+          "id": "L2804",
+          "audioText": "정류장",
+          "question": "實際發音最接近哪一個？",
+          "options": [
+            "[정뉴장]",
+            "[정류장]（ㄹ 不變）",
+            "[전뉴장]"
+          ],
+          "answerIndex": 0,
+          "explanation": "ㅇ 後的 ㄹ 唸 [ㄴ]。"
+        }
+      ],
+      "drills": [
+        {
+          "id": "D2801",
+          "type": "substitution",
+          "instruction": "說交通工具：N(으)로 가요（注意 으로／로）。",
+          "model": {
+            "korean": "버스로 가요.",
+            "chinese": "搭公車去。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 6,
+          "items": [
+            {
+              "cue": "지하철",
+              "answers": [
+                "지하철로 가요."
+              ],
+              "chinese": "搭地鐵去。"
+            },
+            {
+              "cue": "택시",
+              "answers": [
+                "택시로 가요."
+              ],
+              "chinese": "搭計程車去。"
+            },
+            {
+              "cue": "자전거",
+              "answers": [
+                "자전거로 가요."
+              ],
+              "chinese": "騎腳踏車去。"
+            },
+            {
+              "cue": "비행기",
+              "answers": [
+                "비행기로 가요."
+              ],
+              "chinese": "搭飛機去。"
+            },
+            {
+              "cue": "배（船）",
+              "answers": [
+                "배로 가요."
+              ],
+              "chinese": "搭船去。"
+            }
+          ]
+        },
+        {
+          "id": "D2802",
+          "type": "transformation",
+          "instruction": "加上目的地：N에 交通(으)로 가요。",
+          "model": {
+            "korean": "회사（地鐵）→ 회사에 지하철로 가요.",
+            "chinese": "搭地鐵去公司。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 8,
+          "items": [
+            {
+              "cue": "학교（公車）",
+              "answers": [
+                "학교에 버스로 가요."
+              ],
+              "chinese": "搭公車去學校。"
+            },
+            {
+              "cue": "공항（計程車）",
+              "answers": [
+                "공항에 택시로 가요."
+              ],
+              "chinese": "搭計程車去機場。"
+            },
+            {
+              "cue": "제주도（飛機）",
+              "answers": [
+                "제주도에 비행기로 가요."
+              ],
+              "chinese": "搭飛機去濟州島。"
+            },
+            {
+              "cue": "공원（腳踏車）",
+              "answers": [
+                "공원에 자전거로 가요."
+              ],
+              "chinese": "騎腳踏車去公園。"
+            },
+            {
+              "cue": "병원（走路）",
+              "answers": [
+                "병원에 걸어서 가요."
+              ],
+              "chinese": "走路去醫院。"
+            }
+          ]
+        },
+        {
+          "id": "D2803",
+          "type": "questionAnswer",
+          "instruction": "聽問題，馬上回答。",
+          "model": {
+            "korean": "회사에 어떻게 가요? — 지하철로 가요.",
+            "chinese": "怎麼去公司？——搭地鐵。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 6,
+          "items": [
+            {
+              "cue": "회사에 어떻게 가요?（地鐵）",
+              "cueIsAudio": true,
+              "answers": [
+                "지하철로 가요.",
+                "회사에 지하철로 가요."
+              ],
+              "chinese": "搭地鐵去。"
+            },
+            {
+              "cue": "어디에서 내려요?（下一站）",
+              "cueIsAudio": true,
+              "answers": [
+                "다음 역에서 내려요."
+              ],
+              "chinese": "在下一站下車。"
+            },
+            {
+              "cue": "몇 호선으로 갈아타요?（二號線）",
+              "cueIsAudio": true,
+              "answers": [
+                "이호선으로 갈아타요.",
+                "2호선으로 갈아타요."
+              ],
+              "chinese": "轉乘二號線。"
+            },
+            {
+              "cue": "출구가 어디에 있어요?（右邊）",
+              "cueIsAudio": true,
+              "answers": [
+                "오른쪽에 있어요.",
+                "출구는 오른쪽에 있어요."
+              ],
+              "chinese": "在右邊。"
+            },
+            {
+              "cue": "택시로 가요?（不，走路去）",
+              "cueIsAudio": true,
+              "answers": [
+                "아니요, 걸어서 가요."
+              ],
+              "chinese": "不，走路去。"
+            }
+          ]
+        },
+        {
+          "id": "D2804",
+          "type": "freeProduction",
+          "instruction": "說你平常怎麼去公司或學校、要多久。",
+          "model": {
+            "korean": "회사에 지하철로 가요. 삼십 분 걸려요.",
+            "chinese": "搭地鐵去公司，要三十分鐘。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 10,
+          "items": [
+            {
+              "cue": "自由回答",
+              "answers": [
+                "회사에 지하철로 가요.",
+                "삼십 분 걸려요.",
+                "30분 걸려요."
+              ],
+              "chinese": "（參考答案）"
+            }
+          ]
+        }
+      ],
+      "speaking": {
+        "scenario": "在首爾地鐵站問站務員怎麼去明洞（명동）。AI 扮演站務員。使用者會：에 가요、(으)로 갈아타요、에서 내려요、출구。",
+        "speechLevel": "polite",
+        "offlineScript": [
+          {
+            "cue": "어디에 가요?（提示：去明洞 명동）",
+            "cueIsAudio": true,
+            "answers": [
+              "명동에 가요.",
+              "저는 명동에 가요."
+            ],
+            "chinese": "去明洞。"
+          },
+          {
+            "cue": "이호선을 타요. 그리고 시청역에서 사호선으로 갈아타요.（提示：問在哪裡下車）",
+            "cueIsAudio": true,
+            "answers": [
+              "어디에서 내려요?"
+            ],
+            "chinese": "在哪裡下車？"
+          },
+          {
+            "cue": "명동역에서 내려요. 육 번 출구로 나가요.（提示：謝謝）",
+            "cueIsAudio": true,
+            "answers": [
+              "감사합니다.",
+              "고마워요."
+            ],
+            "chinese": "謝謝。"
+          }
+        ]
+      },
+      "postTest": [
+        {
+          "id": "Q2801",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「搭地鐵去」哪一個正確？",
+          "audioText": null,
+          "options": [
+            "지하철로 가요.",
+            "지하철으로 가요.",
+            "지하철을로 가요."
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "收音 ㄹ 後面接 로。"
+        },
+        {
+          "id": "Q2802",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「搭公車」怎麼說？",
+          "audioText": null,
+          "options": [
+            "버스를 타요.",
+            "버스가 타요.",
+            "버스에서 타요."
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "타요 前面用 을/를。"
+        },
+        {
+          "id": "Q2803",
+          "skill": "phonemeDiscrimination",
+          "kind": "choice",
+          "prompt": "「갈아타요」實際怎麼唸？",
+          "audioText": null,
+          "options": [
+            "[가라타요]",
+            "[갈라타요]",
+            "[가아타요]"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "收音 ㄹ 移到下一個字。"
+        },
+        {
+          "id": "Q2804",
+          "skill": "listening",
+          "kind": "listeningChoice",
+          "prompt": "聽句子選意思",
+          "audioText": "공항에 택시로 가요. 한 시간 걸려요.",
+          "options": [
+            "搭計程車去機場，要一個小時。",
+            "搭公車去機場，要一個小時。",
+            "搭計程車去機場，一點出發。"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "택시로＝搭計程車；한 시간＝一個小時。"
+        },
+        {
+          "id": "Q2805",
+          "skill": "grammar",
+          "kind": "typing",
+          "prompt": "用韓文寫：走路去學校。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "학교에 걸어서 가요.",
+            "저는 학교에 걸어서 가요.",
+            "걸어서 학교에 가요."
+          ],
+          "explanation": "학교에 걸어서 가요."
+        },
+        {
+          "id": "Q2806",
+          "skill": "speaking",
+          "kind": "speaking",
+          "prompt": "說出：在下一站下車。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "다음 역에서 내려요."
+          ],
+          "explanation": "다음 역에서 내려요."
+        }
+      ],
+      "completion": {
+        "postTestPassRatio": 0.8,
+        "drillAccuracy": 0.8,
+        "requireVocabularyQuiz": true
+      }
+    },
+    {
+      "id": "U06L04",
+      "title": "「에게／한테」「의」與「만」",
+      "estimatedMinutes": 50,
+      "objectives": [
+        "用「N한테／에게」說給誰、打電話給誰、傳訊息給誰",
+        "用「N한테서 받아요」說從誰那裡收到",
+        "用「N의 N」說「…的」，知道 의 常唸 [에]",
+        "用「만」說「只」，並和 도（也）對比"
+      ],
+      "vocabulary": [
+        {
+          "id": "V0312",
+          "korean": "선물",
+          "chinese": "禮物",
+          "romanization": "seon-mul",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 187,
+          "example": {
+            "korean": "친구한테 선물을 줘요.",
+            "chinese": "送朋友禮物。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0313",
+          "korean": "줘요",
+          "chinese": "給",
+          "romanization": "jwo-yo",
+          "partOfSpeech": "verb",
+          "tier": "S",
+          "frequencyRank": 188,
+          "example": {
+            "korean": "동생한테 책을 줘요.",
+            "chinese": "給弟弟書。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 주다。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0314",
+          "korean": "받아요",
+          "chinese": "收到；接受",
+          "romanization": "ba-da-yo",
+          "pronunciation": "[바다요]",
+          "partOfSpeech": "verb",
+          "tier": "S",
+          "frequencyRank": 189,
+          "example": {
+            "korean": "친구한테서 선물을 받아요.",
+            "chinese": "從朋友那裡收到禮物。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 받다。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0315",
+          "korean": "보내요",
+          "chinese": "寄；傳送",
+          "romanization": "bo-nae-yo",
+          "partOfSpeech": "verb",
+          "tier": "S",
+          "frequencyRank": 190,
+          "example": {
+            "korean": "메시지를 보내요.",
+            "chinese": "傳訊息。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 보내다。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0316",
+          "korean": "편지",
+          "chinese": "信",
+          "romanization": "pyeon-ji",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 98,
+          "example": {
+            "korean": "부모님한테 편지를 보내요.",
+            "chinese": "寄信給父母。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0317",
+          "korean": "메시지",
+          "chinese": "訊息",
+          "romanization": "me-si-ji",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 191,
+          "example": {
+            "korean": "엄마한테 메시지를 보내요.",
+            "chinese": "傳訊息給媽媽。",
+            "speechLevel": "polite"
+          },
+          "usage": "也說 문자（簡訊）。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0318",
+          "korean": "가르쳐요",
+          "chinese": "教",
+          "romanization": "ga-reu-cheo-yo",
+          "pronunciation": "[가르처요]",
+          "partOfSpeech": "verb",
+          "tier": "A",
+          "frequencyRank": 99,
+          "example": {
+            "korean": "학생한테 한국어를 가르쳐요.",
+            "chinese": "教學生韓語。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 가르치다。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0319",
+          "korean": "부모님",
+          "chinese": "父母",
+          "romanization": "bu-mo-nim",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 192,
+          "example": {
+            "korean": "부모님한테 전화해요.",
+            "chinese": "打電話給父母。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0320",
+          "korean": "한테",
+          "chinese": "給（人）；對（人）（口語）",
+          "romanization": "han-te",
+          "partOfSpeech": "particle",
+          "tier": "S",
+          "frequencyRank": 193,
+          "example": {
+            "korean": "친구한테 전화해요.",
+            "chinese": "打電話給朋友。",
+            "speechLevel": "polite"
+          },
+          "usage": "接在人或動物後面。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0321",
+          "korean": "에게",
+          "chinese": "給（人）；對（人）（書面）",
+          "romanization": "e-ge",
+          "partOfSpeech": "particle",
+          "tier": "A",
+          "frequencyRank": 100,
+          "example": {
+            "korean": "선생님에게 편지를 보내요.",
+            "chinese": "寄信給老師。",
+            "speechLevel": "polite"
+          },
+          "usage": "和 한테 意思一樣，比較書面。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0322",
+          "korean": "의",
+          "chinese": "的",
+          "romanization": "ui",
+          "partOfSpeech": "particle",
+          "tier": "S",
+          "frequencyRank": 194,
+          "example": {
+            "korean": "선생님의 책이에요.",
+            "chinese": "是老師的書。",
+            "speechLevel": "polite"
+          },
+          "usage": "口語常省略：선생님 책。",
+          "commonMistake": "當「的」時唸 [에]。"
+        },
+        {
+          "id": "V0323",
+          "korean": "-만",
+          "chinese": "只；僅（助詞）",
+          "romanization": "man",
+          "partOfSpeech": "particle",
+          "tier": "S",
+          "frequencyRank": 195,
+          "example": {
+            "korean": "물만 마셔요.",
+            "chinese": "只喝水。",
+            "speechLevel": "polite"
+          },
+          "usage": "接在名詞後面，取代 이/가、을/를。和「萬」的 만 同音。",
+          "commonMistake": null
+        }
+      ],
+      "pronunciation": [
+        {
+          "id": "P2901",
+          "title": "所有格 의 唸 [에]",
+          "explanation": "의 當「的」用時，口語幾乎都唸 [에]：선생님의 책 → [선생니메 책]、친구의 집 → [친구에 집]。저의 → 제、나의 → 내 是固定縮寫。",
+          "articulation": "唸成 [에] 就好，不需要發 ㅢ 的雙母音。",
+          "chineseSpeakerPitfall": "照字唸 [의] 不算錯，但聽起來像在唸課文。",
+          "samples": [
+            "선생님의 책",
+            "친구의 집",
+            "한국의 겨울"
+          ],
+          "minimalPairs": []
+        },
+        {
+          "id": "P2902",
+          "title": "받아요、가르쳐요",
+          "explanation": "받아요 → [바다요]：收音 ㄷ 移到下一個字。가르쳐요 → [가르처요]：ㅈ、ㅊ、ㅉ 後面的 ㅕ 實際上唸 [ㅓ]。",
+          "articulation": "가르쳐요 不需要發出 [y] 的滑音。",
+          "chineseSpeakerPitfall": "받아요 唸成 [받 아요]，中間停頓。",
+          "samples": [
+            "받아요",
+            "가르쳐요",
+            "보내요"
+          ],
+          "minimalPairs": []
+        }
+      ],
+      "grammar": [
+        {
+          "id": "G2901",
+          "title": "N한테／에게（給、對某人）",
+          "pattern": "人＋한테（口語）／에게（書面）＋ 줘요・보내요・전화해요・가르쳐요",
+          "explanation": "動作的對象是人時用 한테 或 에게：친구한테 선물을 줘요、엄마한테 전화해요、학생에게 한국어를 가르쳐요。「從某人那裡」收到：N한테서／에게서 받아요，口語常省略 서：친구한테 받아요。地點不能用 한테：*학교한테 가요 ✗ → 학교에 가요。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "친구한테 선물을 줘요.",
+              "chinese": "送朋友禮物。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "친구한테서 선물을 받아요.",
+              "chinese": "從朋友那裡收到禮物。",
+              "speechLevel": "polite"
+            }
+          ]
+        },
+        {
+          "id": "G2902",
+          "title": "N의 N（的）與 N만（只）",
+          "pattern": "N의 N；N만（取代 이/가、을/를）",
+          "explanation": "의＝的：선생님의 책（老師的書），口語常省略成 선생님 책。만＝只，會取代 이/가、을/를：물을 마셔요 → 물만 마셔요（只喝水）、저만 학생이에요（只有我是學生）。和 도（也）對比：물도 마셔요（也喝水）。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "이거 선생님의 책이에요.",
+              "chinese": "這是老師的書。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "저는 물만 마셔요.",
+              "chinese": "我只喝水。",
+              "speechLevel": "polite"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "korean": "엄마한테 전화해요.",
+          "chinese": "打電話給媽媽。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "친구한테 선물을 줘요.",
+          "chinese": "送朋友禮物。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "선생님한테서 메시지를 받아요.",
+          "chinese": "收到老師的訊息。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "이거 동생의 가방이에요.",
+          "chinese": "這是弟弟的包包。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "주말에만 운동해요.",
+          "chinese": "只在週末運動。",
+          "speechLevel": "polite"
+        }
+      ],
+      "listening": [
+        {
+          "id": "L2901",
+          "audioText": "친구한테 선물을 줘요.",
+          "question": "意思是？",
+          "options": [
+            "送朋友禮物。",
+            "從朋友那裡收到禮物。",
+            "和朋友一起買禮物。"
+          ],
+          "answerIndex": 0,
+          "explanation": "한테 줘요＝給（某人）。"
+        },
+        {
+          "id": "L2902",
+          "audioText": "엄마한테 메시지를 보내요.",
+          "question": "意思是？",
+          "options": [
+            "傳訊息給媽媽。",
+            "媽媽傳訊息給我。",
+            "打電話給媽媽。"
+          ],
+          "answerIndex": 0,
+          "explanation": "보내요＝傳送。"
+        },
+        {
+          "id": "L2903",
+          "audioText": "저는 물만 마셔요.",
+          "question": "意思是？",
+          "options": [
+            "我只喝水。",
+            "我也喝水。",
+            "我不喝水。"
+          ],
+          "answerIndex": 0,
+          "explanation": "만＝只。"
+        },
+        {
+          "id": "L2904",
+          "audioText": "선생님의 책",
+          "question": "「의」在這裡實際怎麼唸？",
+          "options": [
+            "[에]",
+            "[의]",
+            "[이]"
+          ],
+          "answerIndex": 0,
+          "explanation": "所有格 의 口語唸 [에]。"
+        }
+      ],
+      "drills": [
+        {
+          "id": "D2901",
+          "type": "substitution",
+          "instruction": "說給誰禮物：N한테 선물을 줘요。",
+          "model": {
+            "korean": "친구한테 선물을 줘요.",
+            "chinese": "送朋友禮物。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 6,
+          "items": [
+            {
+              "cue": "엄마",
+              "answers": [
+                "엄마한테 선물을 줘요.",
+                "엄마에게 선물을 줘요."
+              ],
+              "chinese": "送媽媽禮物。"
+            },
+            {
+              "cue": "동생",
+              "answers": [
+                "동생한테 선물을 줘요.",
+                "동생에게 선물을 줘요."
+              ],
+              "chinese": "送弟弟禮物。"
+            },
+            {
+              "cue": "선생님",
+              "answers": [
+                "선생님한테 선물을 줘요.",
+                "선생님에게 선물을 줘요."
+              ],
+              "chinese": "送老師禮物。"
+            },
+            {
+              "cue": "남편",
+              "answers": [
+                "남편한테 선물을 줘요.",
+                "남편에게 선물을 줘요."
+              ],
+              "chinese": "送丈夫禮物。"
+            },
+            {
+              "cue": "부모님",
+              "answers": [
+                "부모님한테 선물을 줘요.",
+                "부모님에게 선물을 줘요."
+              ],
+              "chinese": "送父母禮物。"
+            }
+          ]
+        },
+        {
+          "id": "D2902",
+          "type": "transformation",
+          "instruction": "한테 → 에게（改成書面說法）。",
+          "model": {
+            "korean": "친구한테 줘요. → 친구에게 줘요.",
+            "chinese": "給朋友。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "동생한테 편지를 보내요.",
+              "answers": [
+                "동생에게 편지를 보내요."
+              ],
+              "chinese": "寄信給弟弟。"
+            },
+            {
+              "cue": "친구한테 전화해요.",
+              "answers": [
+                "친구에게 전화해요."
+              ],
+              "chinese": "打電話給朋友。"
+            },
+            {
+              "cue": "학생한테 한국어를 가르쳐요.",
+              "answers": [
+                "학생에게 한국어를 가르쳐요."
+              ],
+              "chinese": "教學生韓語。"
+            },
+            {
+              "cue": "부모님한테 메시지를 보내요.",
+              "answers": [
+                "부모님에게 메시지를 보내요."
+              ],
+              "chinese": "傳訊息給父母。"
+            },
+            {
+              "cue": "선생님한테 선물을 줘요.",
+              "answers": [
+                "선생님에게 선물을 줘요."
+              ],
+              "chinese": "送老師禮物。"
+            }
+          ]
+        },
+        {
+          "id": "D2903",
+          "type": "transformation",
+          "instruction": "도 → 만：把「也」改成「只」。",
+          "model": {
+            "korean": "물도 마셔요. → 물만 마셔요.",
+            "chinese": "也喝水。→ 只喝水。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 6,
+          "items": [
+            {
+              "cue": "빵도 먹어요.",
+              "answers": [
+                "빵만 먹어요."
+              ],
+              "chinese": "只吃麵包。"
+            },
+            {
+              "cue": "저도 학생이에요.",
+              "answers": [
+                "저만 학생이에요."
+              ],
+              "chinese": "只有我是學生。"
+            },
+            {
+              "cue": "커피도 좋아해요.",
+              "answers": [
+                "커피만 좋아해요."
+              ],
+              "chinese": "只喜歡咖啡。"
+            },
+            {
+              "cue": "주말에도 일해요.",
+              "answers": [
+                "주말에만 일해요."
+              ],
+              "chinese": "只在週末工作。"
+            },
+            {
+              "cue": "한국어도 공부해요.",
+              "answers": [
+                "한국어만 공부해요."
+              ],
+              "chinese": "只學韓語。"
+            }
+          ]
+        },
+        {
+          "id": "D2904",
+          "type": "questionAnswer",
+          "instruction": "聽問題，馬上回答。",
+          "model": {
+            "korean": "누구한테 전화해요? — 엄마한테 전화해요.",
+            "chinese": "打電話給誰？——打給媽媽。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 6,
+          "items": [
+            {
+              "cue": "누구한테 전화해요?（媽媽）",
+              "cueIsAudio": true,
+              "answers": [
+                "엄마한테 전화해요.",
+                "엄마에게 전화해요."
+              ],
+              "chinese": "打給媽媽。"
+            },
+            {
+              "cue": "선물을 누구한테서 받아요?（朋友）",
+              "cueIsAudio": true,
+              "answers": [
+                "친구한테서 받아요.",
+                "친구한테 받아요.",
+                "친구에게서 받아요."
+              ],
+              "chinese": "從朋友那裡收到。"
+            },
+            {
+              "cue": "뭐 마셔요?（只喝水）",
+              "cueIsAudio": true,
+              "answers": [
+                "물만 마셔요.",
+                "저는 물만 마셔요."
+              ],
+              "chinese": "只喝水。"
+            },
+            {
+              "cue": "누구한테 한국어를 가르쳐요?（學生）",
+              "cueIsAudio": true,
+              "answers": [
+                "학생한테 가르쳐요.",
+                "학생에게 가르쳐요.",
+                "학생한테 한국어를 가르쳐요."
+              ],
+              "chinese": "教學生。"
+            },
+            {
+              "cue": "이거 선생님의 책이에요?（是）",
+              "cueIsAudio": true,
+              "answers": [
+                "네, 선생님의 책이에요.",
+                "네, 선생님 책이에요."
+              ],
+              "chinese": "對，是老師的書。"
+            }
+          ]
+        },
+        {
+          "id": "D2905",
+          "type": "freeProduction",
+          "instruction": "說你常聯絡誰、怎麼聯絡（兩句）。",
+          "model": {
+            "korean": "매일 엄마한테 메시지를 보내요. 주말에 친구한테 전화해요.",
+            "chinese": "每天傳訊息給媽媽，週末打電話給朋友。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 10,
+          "items": [
+            {
+              "cue": "自由回答",
+              "answers": [
+                "매일 엄마한테 메시지를 보내요.",
+                "주말에 친구한테 전화해요."
+              ],
+              "chinese": "（參考答案）"
+            }
+          ]
+        }
+      ],
+      "speaking": {
+        "scenario": "朋友民秀（민수）的生日快到了，和另一個朋友討論要送什麼。AI 扮演朋友。使用者會：한테 줘요、만、도、의。",
+        "speechLevel": "polite",
+        "offlineScript": [
+          {
+            "cue": "다음 주에 민수 씨 생일이에요. 뭐 줘요?（提示：送書）",
+            "cueIsAudio": true,
+            "answers": [
+              "책을 줘요.",
+              "민수 씨한테 책을 줘요."
+            ],
+            "chinese": "送書。"
+          },
+          {
+            "cue": "카드도 보내요?（提示：不，只送禮物）",
+            "cueIsAudio": true,
+            "answers": [
+              "아니요, 선물만 줘요.",
+              "아니요, 선물만 보내요."
+            ],
+            "chinese": "不，只送禮物。"
+          },
+          {
+            "cue": "언제 줘요?（提示：星期六給他）",
+            "cueIsAudio": true,
+            "answers": [
+              "토요일에 줘요.",
+              "토요일에 민수 씨한테 줘요."
+            ],
+            "chinese": "星期六給他。"
+          }
+        ]
+      },
+      "postTest": [
+        {
+          "id": "Q2901",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「打電話給媽媽」口語怎麼說？",
+          "audioText": null,
+          "options": [
+            "엄마한테 전화해요.",
+            "엄마를 전화해요.",
+            "엄마에서 전화해요."
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "對象是人，用 한테。"
+        },
+        {
+          "id": "Q2902",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「我只喝咖啡。」哪一句正確？",
+          "audioText": null,
+          "options": [
+            "저는 커피만 마셔요.",
+            "저는 커피도 마셔요.",
+            "저는 커피를만 마셔요."
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "만 取代 을/를。"
+        },
+        {
+          "id": "Q2903",
+          "skill": "phonemeDiscrimination",
+          "kind": "choice",
+          "prompt": "「선생님의 책」的 의 通常唸成？",
+          "audioText": null,
+          "options": [
+            "[에]",
+            "[의]",
+            "[으]"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "所有格 의 唸 [에]。"
+        },
+        {
+          "id": "Q2904",
+          "skill": "listening",
+          "kind": "listeningChoice",
+          "prompt": "聽句子選意思",
+          "audioText": "동생한테 편지를 받아요.",
+          "options": [
+            "收到弟弟／妹妹的信。",
+            "寫信給弟弟／妹妹。",
+            "弟弟／妹妹收到我的信。"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "한테 받아요＝從…收到。"
+        },
+        {
+          "id": "Q2905",
+          "skill": "grammar",
+          "kind": "typing",
+          "prompt": "用韓文寫：送朋友禮物。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "친구한테 선물을 줘요.",
+            "친구에게 선물을 줘요."
+          ],
+          "explanation": "친구한테 선물을 줘요."
+        },
+        {
+          "id": "Q2906",
+          "skill": "speaking",
+          "kind": "speaking",
+          "prompt": "說出：傳訊息給媽媽。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "엄마한테 메시지를 보내요.",
+            "엄마에게 메시지를 보내요."
+          ],
+          "explanation": "엄마한테 메시지를 보내요."
+        }
+      ],
+      "completion": {
+        "postTestPassRatio": 0.8,
+        "drillAccuracy": 0.8,
+        "requireVocabularyQuiz": true
+      }
+    },
+    {
+      "id": "U06L05",
+      "title": "比較「보다・제일」與「和」的三種說法",
+      "estimatedMinutes": 55,
+      "objectives": [
+        "用「A보다 B이/가 더 …」比較兩樣東西",
+        "用「제일」說「最…」",
+        "區分「和」的三種說法：하고（通用）、(이)랑（口語）、와/과（書面）",
+        "說出四季，聊台灣和韓國的天氣"
+      ],
+      "vocabulary": [
+        {
+          "id": "V0324",
+          "korean": "보다",
+          "chinese": "比（比較）",
+          "romanization": "bo-da",
+          "partOfSpeech": "particle",
+          "tier": "S",
+          "frequencyRank": 196,
+          "example": {
+            "korean": "커피보다 차가 더 좋아요.",
+            "chinese": "比起咖啡，我更喜歡茶。",
+            "speechLevel": "polite"
+          },
+          "usage": "和「看」的 보다 同形，看用法分辨。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0325",
+          "korean": "제일",
+          "chinese": "最",
+          "romanization": "je-il",
+          "partOfSpeech": "adverb",
+          "tier": "S",
+          "frequencyRank": 197,
+          "example": {
+            "korean": "여름이 제일 더워요.",
+            "chinese": "夏天最熱。",
+            "speechLevel": "polite"
+          },
+          "usage": "也說 가장（較書面）。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0326",
+          "korean": "훨씬",
+          "chinese": "…得多",
+          "romanization": "hwol-ssin",
+          "partOfSpeech": "adverb",
+          "tier": "A",
+          "frequencyRank": 101,
+          "example": {
+            "korean": "서울이 훨씬 추워요.",
+            "chinese": "首爾冷得多。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0327",
+          "korean": "이랑",
+          "chinese": "和（口語）",
+          "romanization": "i-rang",
+          "partOfSpeech": "particle",
+          "tier": "S",
+          "frequencyRank": 198,
+          "example": {
+            "korean": "친구랑 영화를 봐요.",
+            "chinese": "和朋友看電影。",
+            "speechLevel": "polite"
+          },
+          "usage": "有收音＋이랑、無收音＋랑。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0328",
+          "korean": "와 / 과",
+          "chinese": "和（書面）",
+          "romanization": "wa / gwa",
+          "partOfSpeech": "particle",
+          "tier": "A",
+          "frequencyRank": 102,
+          "example": {
+            "korean": "책과 잡지",
+            "chinese": "書和雜誌",
+            "speechLevel": "polite"
+          },
+          "usage": "無收音＋와、有收音＋과（和 은/는 相反方向，要小心）。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0329",
+          "korean": "같아요",
+          "chinese": "一樣；好像",
+          "romanization": "ga-ta-yo",
+          "pronunciation": "[가타요]",
+          "partOfSpeech": "adjective",
+          "tier": "S",
+          "frequencyRank": 199,
+          "example": {
+            "korean": "이거하고 저거는 같아요.",
+            "chinese": "這個和那個一樣。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 같다。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0330",
+          "korean": "달라요",
+          "chinese": "不一樣",
+          "romanization": "dal-la-yo",
+          "partOfSpeech": "adjective",
+          "tier": "S",
+          "frequencyRank": 200,
+          "example": {
+            "korean": "한국하고 대만은 달라요.",
+            "chinese": "韓國和台灣不一樣。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 다르다（르 不規則）。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0331",
+          "korean": "계절",
+          "chinese": "季節",
+          "romanization": "gye-jeol",
+          "pronunciation": "[게절]",
+          "partOfSpeech": "noun",
+          "tier": "B",
+          "frequencyRank": 28,
+          "example": {
+            "korean": "어느 계절이 제일 좋아요?",
+            "chinese": "你最喜歡哪個季節？",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0332",
+          "korean": "봄",
+          "chinese": "春天",
+          "romanization": "bom",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 201,
+          "example": {
+            "korean": "봄이 따뜻해요.",
+            "chinese": "春天很溫暖。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0333",
+          "korean": "여름",
+          "chinese": "夏天",
+          "romanization": "yeo-reum",
+          "pronunciation": "여름이 → [여르미]",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 202,
+          "example": {
+            "korean": "대만 여름은 너무 더워요.",
+            "chinese": "台灣的夏天好熱。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0334",
+          "korean": "가을",
+          "chinese": "秋天",
+          "romanization": "ga-eul",
+          "pronunciation": "가을이 → [가으리]",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 203,
+          "example": {
+            "korean": "가을이 제일 좋아요.",
+            "chinese": "我最喜歡秋天。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0335",
+          "korean": "겨울",
+          "chinese": "冬天",
+          "romanization": "gyeo-ul",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 204,
+          "example": {
+            "korean": "한국 겨울은 추워요.",
+            "chinese": "韓國的冬天很冷。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        }
+      ],
+      "pronunciation": [
+        {
+          "id": "P3001",
+          "title": "같아요 vs 같이",
+          "explanation": "같아요 → [가타요]：ㅌ 後面接 아，只是連音，不是口蓋音化。對比第 2 單元的 같이 → [가치]：只有接 이 時才變成 [ㅊ]。",
+          "articulation": "先找下一個字的母音：是 이 → ㅊ；不是 이 → 照原音 ㅌ。",
+          "chineseSpeakerPitfall": "看到 같 就一律唸 [가치]，같아요 變成 [가차요]。",
+          "samples": [
+            "같아요",
+            "같이"
+          ],
+          "minimalPairs": [
+            {
+              "a": "같아요",
+              "b": "같이요",
+              "contrast": "[가타요]／[가치요]"
+            }
+          ]
+        },
+        {
+          "id": "P3002",
+          "title": "季節的連音",
+          "explanation": "여름이 → [여르미]、가을에 → [가으레]、겨울은 → [겨우른]、봄에 → [보메]：收音都移到下一個字。",
+          "articulation": "季節後面常接 에（在…）或 은/는（說到…），一口氣連著唸。",
+          "chineseSpeakerPitfall": "季節和助詞分開唸 [여름 이]。",
+          "samples": [
+            "여름이",
+            "가을에",
+            "겨울은",
+            "봄에"
+          ],
+          "minimalPairs": []
+        }
+      ],
+      "grammar": [
+        {
+          "id": "G3001",
+          "title": "A보다 B이/가 더 …／N이/가 제일 …",
+          "pattern": "A보다 B이/가 더＋形容詞；N이/가 제일＋形容詞",
+          "explanation": "보다 接在「被比較的對象」後面：커피보다 차가 더 좋아요（比起咖啡，茶更好＝我更喜歡茶）、한국 겨울이 대만 겨울보다 훨씬 추워요。最：여름이 제일 더워요、저는 가을이 제일 좋아요。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "커피보다 차가 더 좋아요.",
+              "chinese": "比起咖啡，我更喜歡茶。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "저는 가을이 제일 좋아요.",
+              "chinese": "我最喜歡秋天。",
+              "speechLevel": "polite"
+            }
+          ]
+        },
+        {
+          "id": "G3002",
+          "title": "「和」的三種說法",
+          "pattern": "하고（通用）；(이)랑（口語，有收音＋이랑）；와/과（書面，無收音＋와、有收音＋과）",
+          "explanation": "三個意思一樣，差在場合：친구하고／친구랑 영화를 봐요（說話）；책과 잡지、봄과 가을（文章、標題）。注意 와/과 的方向：沒有收音用 와（커피와 차），有收音用 과（물과 빵）。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "친구랑 영화를 봐요.",
+              "chinese": "和朋友看電影。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "물과 빵",
+              "chinese": "水和麵包",
+              "speechLevel": "polite"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "korean": "저는 여름보다 겨울이 더 좋아요.",
+          "chinese": "比起夏天，我更喜歡冬天。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "어느 계절이 제일 좋아요?",
+          "chinese": "你最喜歡哪個季節？",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "동생이랑 살아요.",
+          "chinese": "和弟弟一起住。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "한국하고 대만은 달라요.",
+          "chinese": "韓國和台灣不一樣。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "서울이 타이베이보다 훨씬 추워요.",
+          "chinese": "首爾比台北冷得多。",
+          "speechLevel": "polite"
+        }
+      ],
+      "listening": [
+        {
+          "id": "L3001",
+          "audioText": "저는 여름보다 겨울이 더 좋아요.",
+          "question": "說話的人比較喜歡哪個季節？",
+          "options": [
+            "冬天",
+            "夏天",
+            "一樣喜歡"
+          ],
+          "answerIndex": 0,
+          "explanation": "보다 前面是被比較的（夏天），더 좋아요 的是冬天。"
+        },
+        {
+          "id": "L3002",
+          "audioText": "어느 계절이 제일 좋아요?",
+          "question": "對方在問什麼？",
+          "options": [
+            "最喜歡哪個季節？",
+            "現在是什麼季節？",
+            "季節不一樣嗎？"
+          ],
+          "answerIndex": 0,
+          "explanation": "제일＝最。"
+        },
+        {
+          "id": "L3003",
+          "audioText": "친구랑 영화를 봐요.",
+          "question": "意思是？",
+          "options": [
+            "和朋友看電影。",
+            "朋友在看電影。",
+            "一個人看電影。"
+          ],
+          "answerIndex": 0,
+          "explanation": "랑＝和。"
+        },
+        {
+          "id": "L3004",
+          "audioText": "같아요",
+          "question": "實際發音最接近哪一個？",
+          "options": [
+            "[가타요]",
+            "[가차요]",
+            "[가다요]"
+          ],
+          "answerIndex": 0,
+          "explanation": "ㅌ 接 아 只連音，不變 ㅊ。"
+        }
+      ],
+      "drills": [
+        {
+          "id": "D3001",
+          "type": "substitution",
+          "instruction": "比較：A보다 B이/가 더 좋아요（注意 이／가）。",
+          "model": {
+            "korean": "커피보다 차가 더 좋아요.",
+            "chinese": "比起咖啡，我更喜歡茶。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "夏天／冬天",
+              "answers": [
+                "여름보다 겨울이 더 좋아요."
+              ],
+              "chinese": "比起夏天，更喜歡冬天。"
+            },
+            {
+              "cue": "泡麵／飯捲",
+              "answers": [
+                "라면보다 김밥이 더 좋아요."
+              ],
+              "chinese": "比起泡麵，更喜歡飯捲。"
+            },
+            {
+              "cue": "公車／地鐵",
+              "answers": [
+                "버스보다 지하철이 더 좋아요."
+              ],
+              "chinese": "比起公車，更喜歡地鐵。"
+            },
+            {
+              "cue": "電影／音樂",
+              "answers": [
+                "영화보다 음악이 더 좋아요."
+              ],
+              "chinese": "比起電影，更喜歡音樂。"
+            },
+            {
+              "cue": "春天／秋天",
+              "answers": [
+                "봄보다 가을이 더 좋아요."
+              ],
+              "chinese": "比起春天，更喜歡秋天。"
+            }
+          ]
+        },
+        {
+          "id": "D3002",
+          "type": "transformation",
+          "instruction": "하고 → (이)랑：改成更口語的說法。",
+          "model": {
+            "korean": "친구하고 영화를 봐요. → 친구랑 영화를 봐요.",
+            "chinese": "和朋友看電影。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 6,
+          "items": [
+            {
+              "cue": "동생하고 살아요.",
+              "answers": [
+                "동생이랑 살아요."
+              ],
+              "chinese": "和弟弟一起住。"
+            },
+            {
+              "cue": "커피하고 빵을 사요.",
+              "answers": [
+                "커피랑 빵을 사요."
+              ],
+              "chinese": "買咖啡和麵包。"
+            },
+            {
+              "cue": "언니하고 여행해요.",
+              "answers": [
+                "언니랑 여행해요."
+              ],
+              "chinese": "和姊姊旅行。"
+            },
+            {
+              "cue": "남편하고 운동해요.",
+              "answers": [
+                "남편이랑 운동해요."
+              ],
+              "chinese": "和丈夫運動。"
+            },
+            {
+              "cue": "우유하고 빵을 먹어요.",
+              "answers": [
+                "우유랑 빵을 먹어요."
+              ],
+              "chinese": "吃牛奶和麵包。"
+            }
+          ]
+        },
+        {
+          "id": "D3003",
+          "type": "transformation",
+          "instruction": "하고 → 와／과：改成書面說法（注意方向）。",
+          "model": {
+            "korean": "커피하고 차 → 커피와 차",
+            "chinese": "咖啡和茶",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 6,
+          "items": [
+            {
+              "cue": "물하고 빵",
+              "answers": [
+                "물과 빵"
+              ],
+              "chinese": "水和麵包"
+            },
+            {
+              "cue": "책하고 잡지",
+              "answers": [
+                "책과 잡지"
+              ],
+              "chinese": "書和雜誌"
+            },
+            {
+              "cue": "가을하고 겨울",
+              "answers": [
+                "가을과 겨울"
+              ],
+              "chinese": "秋天和冬天"
+            },
+            {
+              "cue": "여름하고 겨울",
+              "answers": [
+                "여름과 겨울"
+              ],
+              "chinese": "夏天和冬天"
+            },
+            {
+              "cue": "우유하고 주스",
+              "answers": [
+                "우유와 주스"
+              ],
+              "chinese": "牛奶和果汁"
+            }
+          ]
+        },
+        {
+          "id": "D3004",
+          "type": "questionAnswer",
+          "instruction": "聽問題，馬上回答。",
+          "model": {
+            "korean": "어느 계절이 제일 좋아요? — 가을이 제일 좋아요.",
+            "chinese": "最喜歡哪個季節？——最喜歡秋天。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 6,
+          "items": [
+            {
+              "cue": "어느 계절이 제일 좋아요?（秋天）",
+              "cueIsAudio": true,
+              "answers": [
+                "가을이 제일 좋아요.",
+                "저는 가을이 제일 좋아요."
+              ],
+              "chinese": "最喜歡秋天。"
+            },
+            {
+              "cue": "커피하고 차, 뭐가 더 좋아요?（茶）",
+              "cueIsAudio": true,
+              "answers": [
+                "차가 더 좋아요.",
+                "커피보다 차가 더 좋아요."
+              ],
+              "chinese": "更喜歡茶。"
+            },
+            {
+              "cue": "누구랑 살아요?（家人）",
+              "cueIsAudio": true,
+              "answers": [
+                "가족이랑 살아요.",
+                "가족하고 살아요.",
+                "가족이랑 같이 살아요."
+              ],
+              "chinese": "和家人住。"
+            },
+            {
+              "cue": "한국 겨울이 대만 겨울보다 추워요?（是，冷得多）",
+              "cueIsAudio": true,
+              "answers": [
+                "네, 훨씬 추워요.",
+                "네, 한국 겨울이 훨씬 추워요."
+              ],
+              "chinese": "對，冷得多。"
+            },
+            {
+              "cue": "이거하고 저거는 같아요?（不，不一樣）",
+              "cueIsAudio": true,
+              "answers": [
+                "아니요, 달라요."
+              ],
+              "chinese": "不，不一樣。"
+            }
+          ]
+        },
+        {
+          "id": "D3005",
+          "type": "freeProduction",
+          "instruction": "比較兩個季節，說你比較喜歡哪一個、最喜歡哪一個。",
+          "model": {
+            "korean": "여름보다 겨울이 더 좋아요. 저는 겨울이 제일 좋아요.",
+            "chinese": "比起夏天更喜歡冬天，我最喜歡冬天。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 10,
+          "items": [
+            {
+              "cue": "自由回答",
+              "answers": [
+                "여름보다 겨울이 더 좋아요.",
+                "저는 겨울이 제일 좋아요."
+              ],
+              "chinese": "（參考答案）"
+            }
+          ]
+        }
+      ],
+      "speaking": {
+        "scenario": "和韓國朋友聊台灣和韓國的天氣、季節。AI 扮演朋友。使用者會：보다、제일、훨씬、(이)랑、같아요／달라요。",
+        "speechLevel": "polite",
+        "offlineScript": [
+          {
+            "cue": "대만은 겨울이 추워요?（提示：不，台灣冬天比韓國溫暖得多）",
+            "cueIsAudio": true,
+            "answers": [
+              "아니요, 한국보다 훨씬 따뜻해요.",
+              "아니요, 대만 겨울은 한국보다 훨씬 따뜻해요."
+            ],
+            "chinese": "不，比韓國溫暖得多。"
+          },
+          {
+            "cue": "어느 계절이 제일 좋아요?（提示：秋天）",
+            "cueIsAudio": true,
+            "answers": [
+              "가을이 제일 좋아요.",
+              "저는 가을이 제일 좋아요."
+            ],
+            "chinese": "最喜歡秋天。"
+          },
+          {
+            "cue": "저도요! 가을에 누구랑 여행해요?（提示：和家人）",
+            "cueIsAudio": true,
+            "answers": [
+              "가족이랑 여행해요.",
+              "가족하고 여행해요.",
+              "가족이랑 같이 여행해요."
+            ],
+            "chinese": "和家人旅行。"
+          }
+        ]
+      },
+      "postTest": [
+        {
+          "id": "Q3001",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「比起咖啡，我更喜歡茶。」哪一句正確？",
+          "audioText": null,
+          "options": [
+            "커피보다 차가 더 좋아요.",
+            "차보다 커피가 더 좋아요.",
+            "커피가 차보다 더 좋아요."
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "보다 接在被比較的咖啡後面。"
+        },
+        {
+          "id": "Q3002",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "口語「和弟弟一起住」，哪一個正確？",
+          "audioText": null,
+          "options": [
+            "동생이랑 살아요.",
+            "동생랑 살아요.",
+            "동생과랑 살아요."
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "동생 有收音，接 이랑。"
+        },
+        {
+          "id": "Q3003",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "書面「書和雜誌」，哪一個正確？",
+          "audioText": null,
+          "options": [
+            "책과 잡지",
+            "책와 잡지",
+            "책이랑과 잡지"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "책 有收音，接 과。"
+        },
+        {
+          "id": "Q3004",
+          "skill": "listening",
+          "kind": "listeningChoice",
+          "prompt": "聽句子選意思",
+          "audioText": "저는 봄이 제일 좋아요.",
+          "options": [
+            "最喜歡春天。",
+            "最喜歡夏天。",
+            "不喜歡春天。"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "봄＝春天；제일＝最。"
+        },
+        {
+          "id": "Q3005",
+          "skill": "grammar",
+          "kind": "typing",
+          "prompt": "用韓文寫：冬天比夏天冷。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "겨울이 여름보다 더 추워요.",
+            "겨울이 여름보다 추워요.",
+            "여름보다 겨울이 더 추워요.",
+            "여름보다 겨울이 추워요."
+          ],
+          "explanation": "겨울이 여름보다 더 추워요。"
+        },
+        {
+          "id": "Q3006",
+          "skill": "speaking",
+          "kind": "speaking",
+          "prompt": "說出：你最喜歡哪個季節？",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "어느 계절이 제일 좋아요?"
+          ],
+          "explanation": "어느 계절이 제일 좋아요?"
+        }
+      ],
+      "completion": {
+        "postTestPassRatio": 0.8,
+        "drillAccuracy": 0.8,
+        "requireVocabularyQuiz": true
+      }
+    }
+  ]
 }
