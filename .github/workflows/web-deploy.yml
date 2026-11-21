@@ -1,0 +1,73 @@
+name: Web App Test & Deploy
+
+# 網頁版：單元測試 → 端對端測試（WebKit = Safari 引擎、Chromium）→ 建置 → 部署到 GitHub Pages
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'web/**'
+      - 'Packages/KLinguaCore/Sources/KLinguaCore/Content/**'
+      - '.github/workflows/web-deploy.yml'
+  pull_request:
+    paths:
+      - 'web/**'
+      - 'Packages/KLinguaCore/Sources/KLinguaCore/Content/**'
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: 測試與建置
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: web
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+      - run: npm ci
+      - name: 型別檢查
+        run: npx tsc --noEmit -p .
+      - name: 單元與整合測試
+        run: npx vitest run
+      - name: 安裝測試瀏覽器
+        run: npx playwright install --with-deps chromium webkit
+      - name: 端對端測試
+        run: npx playwright test
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: playwright-results
+          path: web/test-results
+          retention-days: 7
+      - name: 正式建置
+        run: npm run build
+      - uses: actions/upload-pages-artifact@v3
+        if: github.event_name != 'pull_request'
+        with:
+          path: web/dist
+
+  deploy:
+    name: 部署到 GitHub Pages
+    needs: test
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

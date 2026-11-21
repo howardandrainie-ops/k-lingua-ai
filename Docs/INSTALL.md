@@ -2,6 +2,8 @@
 
 這個 App 沒有上架 App Store，要用 Xcode 自己安裝。**一定需要一台 Mac**；Windows 不能安裝 iOS App。
 
+> 沒有 Mac？改用**網頁版**：用 Safari 打開 https://howardandrainie-ops.github.io/k-lingua-ai/ 加入主畫面即可，不需要簽章、不會過期。見 [WEB_APP.md](WEB_APP.md)。
+
 ## 需要準備
 
 | 項目 | 需求 |
@@ -20,7 +22,6 @@
   ```
   git clone https://github.com/howardandrainie-ops/k-lingua-ai.git
   ```
-  這是私人倉庫，Mac 上需要先登入 GitHub（例如 `gh auth login`）。
 - **下載 ZIP**：在 GitHub 網頁按 **Code › Download ZIP**，解壓縮。
 
 ## 第二步：開啟專案並設定簽章

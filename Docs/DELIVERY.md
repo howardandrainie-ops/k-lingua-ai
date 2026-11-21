@@ -12,11 +12,16 @@ App 的程式、資料庫、課程引擎、SRS、語音、AI 和報告都已完�
 - **還沒在真正的 iPhone 上執行過。**
 - **麥克風、語音辨識與 AI 真實連線還沒測過。**
 
+## 網頁版（2026-11-21 新增）
+
+不需要 Mac 或簽章的網頁版已完成並部署到 https://howardandrainie-ops.github.io/k-lingua-ai/ ，用同一份教材，核心邏輯從 KLinguaCore 移植並沿用相同測試案例。在 WebKit（Safari 引擎）與 Chromium 上有端對端測試。和 iOS 版的差異：沒有每日提醒、API Key 沒有鑰匙圈加密、語音辨識依瀏覽器而定（可改用 OpenAI／Gemini 語音辨識）。詳見 [WEB_APP.md](WEB_APP.md)。
+
 ## 文件索引
 
 | 文件 | 內容 |
 |---|---|
 | [README.md](../README.md) | 專案簡介、功能、驗證狀態 |
+| [WEB_APP.md](WEB_APP.md) | **網頁版（PWA）**：加入 iPhone 主畫面、電腦使用、備份、語音辨識與限制 |
 | [INSTALL.md](INSTALL.md) | 用 Mac 和 Xcode 安裝到 iPhone 的完整步驟、常見問題 |
 | [API_SETUP.md](API_SETUP.md) | Claude、OpenAI、Gemini 金鑰設定、安全性、傳送內容 |
 | [STAGE5_TEST_REPORT.md](STAGE5_TEST_REPORT.md) | 整合測試報告與模擬器截圖 |

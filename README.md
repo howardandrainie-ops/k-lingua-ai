@@ -1,6 +1,9 @@
-# K-LINGUA AI — 個人化韓語特訓系統（iOS）
+# K-LINGUA AI — 個人化韓語特訓系統
 
-原生 iOS App（Swift 6 / SwiftUI / SwiftData），以 FSI Pattern Drill、五格 SRS、Minimal Pairs 與 AI 情境對話為核心。
+以 FSI Pattern Drill、五格 SRS、Minimal Pairs 與 AI 情境對話為核心的韓語訓練 App。有兩個版本，共用同一份教材：
+
+- **網頁版（PWA）**：https://howardandrainie-ops.github.io/k-lingua-ai/ ——用 Safari 加入 iPhone 主畫面就能用，不需要簽章、不會過期、可離線；電腦瀏覽器也能用。見 [Docs/WEB_APP.md](Docs/WEB_APP.md)。
+- **iOS 原生版**（Swift 6 / SwiftUI / SwiftData）：需要 Mac + Xcode 安裝，見下文。
 
 > **版本 1.0（第六階段：交付）。** 程式在 GitHub Actions 上編譯，並在 iOS 模擬器通過 110 項單元測試、24 項整合測試與 4 個 UI 流程。**12 個單元、60 課教材全部完成（665 個單字、1198 題 Drill）**；尚未在 iPhone 實機執行，麥克風、語音辨識與 AI 真實連線也還沒測過。完整現況見 [Docs/DELIVERY.md](Docs/DELIVERY.md)。
 
@@ -10,7 +13,8 @@
 
 | 我想… | 看這份 |
 |---|---|
-| 把 App 裝到 iPhone | [Docs/INSTALL.md](Docs/INSTALL.md)（需要 Mac + Xcode） |
+| **不用 Mac，直接在 iPhone／電腦上用** | [Docs/WEB_APP.md](Docs/WEB_APP.md)（網頁版，加入主畫面） |
+| 把原生 App 裝到 iPhone | [Docs/INSTALL.md](Docs/INSTALL.md)（需要 Mac + Xcode） |
 | 啟用 AI 情境對話 | [Docs/API_SETUP.md](Docs/API_SETUP.md)（選用，可以不設定） |
 | 了解哪些功能完成、哪些沒有 | [Docs/DELIVERY.md](Docs/DELIVERY.md) |
 | 看測試結果與截圖 | [Docs/STAGE5_TEST_REPORT.md](Docs/STAGE5_TEST_REPORT.md) |
@@ -54,12 +58,13 @@ k-lingua-ai/
 ├── KLinguaTests/               App 整合測試（swift-testing）
 ├── KLinguaUITests/             模擬器 UI 測試（XCUITest）
 ├── Tools/validate_project.py   不需 Xcode 的結構檢查
+├── web/                        網頁版（TypeScript + Preact + IndexedDB，PWA），見 Docs/WEB_APP.md
 └── Docs/                       安裝、API 設定、交付總結、測試報告、截圖
 ```
 
 ## 驗證狀態
 
-每次推送都會由 GitHub Actions（macOS 15、Xcode 16.4）自動編譯與測試，見 `.github/workflows/ios-build.yml`。
+每次推送都會由 GitHub Actions（macOS 15、Xcode 16.4）自動編譯與測試，見 `.github/workflows/ios-build.yml`。網頁版另由 `.github/workflows/web-deploy.yml` 測試（Vitest 136 項＋Playwright 在 WebKit／Chromium 上的端對端流程）並部署到 GitHub Pages，詳見 [Docs/WEB_APP.md](Docs/WEB_APP.md#驗證方式)。
 
 | 項目 | 狀態 |
 |---|---|

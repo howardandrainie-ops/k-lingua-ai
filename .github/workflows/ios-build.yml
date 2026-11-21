@@ -2,7 +2,14 @@ name: iOS Build & Test
 
 on:
   push:
+    # 只改網頁版時不需要跑 macOS 編譯
+    paths-ignore:
+      - 'web/**'
+      - '.github/workflows/web-deploy.yml'
+      - 'Docs/WEB_APP.md'
   pull_request:
+    paths-ignore:
+      - 'web/**'
   workflow_dispatch:
 
 concurrency:
