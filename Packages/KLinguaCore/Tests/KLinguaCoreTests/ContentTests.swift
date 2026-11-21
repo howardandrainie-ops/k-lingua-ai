@@ -129,6 +129,29 @@ struct ContentTests {
         #expect(u7.lessons.flatMap(\.vocabulary).allSatisfy { !earlier.contains($0.korean) })
     }
 
+    @Test("單元 08 敬語：三種語體都有，自己的動作不加敬語")
+    func unit08() throws {
+        let lib = try ContentLibrary.loadBundled()
+        let u8 = lib.units[7]
+        #expect(u8.number == 8)
+        #expect(u8.available)
+        #expect(u8.lessons.map(\.id) == ["U08L01", "U08L02", "U08L03", "U08L04", "U08L05"])
+        // 半語課的情境對話與文法使用 반말
+        let banmal = u8.lessons[3]
+        #expect(banmal.speaking.speechLevel == .casual)
+        #expect(banmal.grammar.allSatisfy { $0.speechLevel == .casual })
+        // 說「我」的句子不能加主體敬語（*저는 … 가세요）
+        let answers = u8.lessons.flatMap(\.drills).flatMap(\.items).flatMap(\.answers)
+            + u8.lessons.flatMap(\.speaking.offlineScript).flatMap(\.answers)
+        for a in answers where a.hasPrefix("저는") || a.hasPrefix("제가") {
+            #expect(!a.contains("세요") && !a.contains("셨어요"), "\(a)")
+        }
+        #expect(answers.contains("사세요."))       // ㄹ 脫落
+        #expect(answers.contains("하셨어요."))
+        let earlier = Set(lib.units.prefix(7).flatMap(\.lessons).flatMap(\.vocabulary).map(\.korean))
+        #expect(u8.lessons.flatMap(\.vocabulary).allSatisfy { !earlier.contains($0.korean) })
+    }
+
     @Test("數字答案：韓文、阿拉伯數字、千分位、語音辨識結果都判為正確")
     func numberAnswersAcceptDigits() throws {
         let lib = try ContentLibrary.loadBundled()

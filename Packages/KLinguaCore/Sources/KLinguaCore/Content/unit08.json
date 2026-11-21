@@ -3,7 +3,3474 @@
   "number": 8,
   "title": "敬語及日常表達",
   "stage": 4,
-  "summary": "합쇼체／해요체／반말 的選擇、主體敬語 -(으)시-、稱謂與年齡文化。",
-  "available": false,
-  "lessons": []
+  "summary": "主體敬語 -(으)시-（-(으)세요、-(으)셨어요）、特殊敬語（드세요、주무세요、계세요、연세、댁、께／드려요）、請求與禁止（-지 마세요）、半語（반말）、稱謂與年齡文化、日常場合用語，以及 합쇼體／해요體／半語的選擇。",
+  "available": true,
+  "lessons": [
+    {
+      "id": "U08L01",
+      "title": "主體敬語「-(으)세요」",
+      "estimatedMinutes": 50,
+      "objectives": [
+        "理解主體敬語 -(으)시-：說「長輩、客人、上司」做的事時要加敬語",
+        "變出 -(으)세요：가세요、읽으세요、사세요（ㄹ 脫落）",
+        "名詞的敬語：선생님이세요?、의사세요?",
+        "用敬語問長輩：어디 가세요?、뭐 하세요?"
+      ],
+      "vocabulary": [
+        {
+          "id": "V0391",
+          "korean": "이분",
+          "chinese": "這位（敬語）",
+          "romanization": "i-bun",
+          "partOfSpeech": "pronoun",
+          "tier": "S",
+          "frequencyRank": 236,
+          "example": {
+            "korean": "이분이 사장님이세요.",
+            "chinese": "這位是老闆。",
+            "speechLevel": "polite"
+          },
+          "usage": "분 是 사람 的敬語：이분、저분、몇 분（和「分鐘」的 분 同字）。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0392",
+          "korean": "하세요",
+          "chinese": "做（敬語）",
+          "romanization": "ha-se-yo",
+          "partOfSpeech": "verb",
+          "tier": "S",
+          "frequencyRank": 237,
+          "example": {
+            "korean": "무슨 일을 하세요?",
+            "chinese": "您做什麼工作？",
+            "speechLevel": "polite"
+          },
+          "usage": "하다 → 하세요。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0393",
+          "korean": "가세요",
+          "chinese": "去（敬語）",
+          "romanization": "ga-se-yo",
+          "partOfSpeech": "verb",
+          "tier": "S",
+          "frequencyRank": 238,
+          "example": {
+            "korean": "어디 가세요?",
+            "chinese": "您去哪裡？",
+            "speechLevel": "polite"
+          },
+          "usage": "가다 → 가세요。也可以當「請走」：안녕히 가세요。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0394",
+          "korean": "오세요",
+          "chinese": "來（敬語）",
+          "romanization": "o-se-yo",
+          "partOfSpeech": "verb",
+          "tier": "S",
+          "frequencyRank": 239,
+          "example": {
+            "korean": "언제 오세요?",
+            "chinese": "您什麼時候來？",
+            "speechLevel": "polite"
+          },
+          "usage": "오다 → 오세요。어서 오세요＝歡迎光臨。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0395",
+          "korean": "사세요",
+          "chinese": "住（敬語）",
+          "romanization": "sa-se-yo",
+          "partOfSpeech": "verb",
+          "tier": "A",
+          "frequencyRank": 125,
+          "example": {
+            "korean": "어디에 사세요?",
+            "chinese": "您住在哪裡？",
+            "speechLevel": "polite"
+          },
+          "usage": "살다 → 사세요（ㄹ 脫落）。也是 사다（買）的敬語，看上下文。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0396",
+          "korean": "아세요",
+          "chinese": "知道（敬語）",
+          "romanization": "a-se-yo",
+          "partOfSpeech": "verb",
+          "tier": "A",
+          "frequencyRank": 126,
+          "example": {
+            "korean": "이 사람을 아세요?",
+            "chinese": "您認識這個人嗎？",
+            "speechLevel": "polite"
+          },
+          "usage": "알다 → 아세요（ㄹ 脫落）。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0397",
+          "korean": "바쁘세요",
+          "chinese": "忙（敬語）",
+          "romanization": "ba-ppeu-se-yo",
+          "partOfSpeech": "adjective",
+          "tier": "A",
+          "frequencyRank": 127,
+          "example": {
+            "korean": "요즘 바쁘세요?",
+            "chinese": "您最近忙嗎？",
+            "speechLevel": "polite"
+          },
+          "usage": "形容詞也能加 -(으)시-。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0398",
+          "korean": "사장님",
+          "chinese": "老闆；社長",
+          "romanization": "sa-jang-nim",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 240,
+          "example": {
+            "korean": "사장님, 안녕하세요?",
+            "chinese": "老闆好。",
+            "speechLevel": "polite"
+          },
+          "usage": "對店家老闆也常這樣稱呼。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0399",
+          "korean": "손님",
+          "chinese": "客人",
+          "romanization": "son-nim",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 241,
+          "example": {
+            "korean": "손님, 뭐 찾으세요?",
+            "chinese": "客人，您在找什麼？",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0400",
+          "korean": "께서",
+          "chinese": "（敬語的主語助詞）",
+          "romanization": "kke-seo",
+          "partOfSpeech": "particle",
+          "tier": "B",
+          "frequencyRank": 31,
+          "example": {
+            "korean": "할머니께서 오세요.",
+            "chinese": "奶奶來了。",
+            "speechLevel": "polite"
+          },
+          "usage": "께서 是 이/가 的敬語，用在非常尊敬的人身上。日常說 할머니가 오세요 也可以。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0401",
+          "korean": "이세요",
+          "chinese": "是（敬語）",
+          "romanization": "i-se-yo",
+          "partOfSpeech": "expression",
+          "tier": "S",
+          "frequencyRank": 242,
+          "example": {
+            "korean": "선생님이세요?",
+            "chinese": "您是老師嗎？",
+            "speechLevel": "polite"
+          },
+          "usage": "有收音＋이세요、無收音＋세요：의사세요?",
+          "commonMistake": null
+        }
+      ],
+      "pronunciation": [
+        {
+          "id": "P3601",
+          "title": "-(으)세요 的連音",
+          "explanation": "有收音的語幹加 으세요 時連音：읽으세요 → [일그세요]、앉으세요 → [안즈세요]、찾으세요 → [차즈세요]、선생님이세요 → [선생니미세요]。",
+          "articulation": "收音移到 으 前面，으 唸短而輕。",
+          "chineseSpeakerPitfall": "唸成 [읽 으세요] 分開。",
+          "samples": [
+            "읽으세요",
+            "앉으세요",
+            "찾으세요",
+            "선생님이세요"
+          ],
+          "minimalPairs": []
+        },
+        {
+          "id": "P3602",
+          "title": "敬語句尾的語調",
+          "explanation": "敬語問句句尾上揚但不要太高：어디 가세요?↗；對長輩說話時語速稍慢、聲音柔和，比文法本身更能表現禮貌。",
+          "articulation": "세요 的 요 輕輕上揚，不要拉長。",
+          "chineseSpeakerPitfall": "語尾拉長或聲音太高，聽起來像在撒嬌或不耐煩。",
+          "samples": [
+            "어디 가세요?",
+            "뭐 하세요?",
+            "바쁘세요?"
+          ],
+          "minimalPairs": []
+        }
+      ],
+      "grammar": [
+        {
+          "id": "G3601",
+          "title": "-(으)시- ＋ 어요 → -(으)세요",
+          "pattern": "無收音＋세요；有收音＋으세요；ㄹ 語幹：ㄹ 脫落＋세요",
+          "explanation": "說長輩、客人、上司等「需要尊敬的人」做的事時，動詞加 -(으)시-，해요體變成 -(으)세요：가다 → 가세요、하다 → 하세요、읽다 → 읽으세요、앉다 → 앉으세요、살다 → 사세요、만들다 → 만드세요。說自己的事不能加：저는 회사에 가요（不是 *가세요）。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "선생님은 어디 가세요?",
+              "chinese": "老師您去哪裡？",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "할머니는 신문을 읽으세요.",
+              "chinese": "奶奶在看報紙。",
+              "speechLevel": "polite"
+            }
+          ]
+        },
+        {
+          "id": "G3602",
+          "title": "名詞＋(이)세요；이/가 → 께서",
+          "pattern": "有收音＋이세요、無收音＋세요；非常尊敬時主語用 께서",
+          "explanation": "名詞的敬語：선생님이세요?（您是老師嗎？）、의사세요?。對很尊敬的人，主語的 이/가 可以換成 께서：할머니께서 오세요。日常對話用 이/가 加 -(으)세요 就足夠禮貌。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "혹시 한국 분이세요?",
+              "chinese": "請問您是韓國人嗎？",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "할머니께서 오세요.",
+              "chinese": "奶奶來了。",
+              "speechLevel": "polite"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "korean": "어디 가세요?",
+          "chinese": "您去哪裡？",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "무슨 일을 하세요?",
+          "chinese": "您做什麼工作？",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "어디에 사세요?",
+          "chinese": "您住在哪裡？",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "선생님이세요?",
+          "chinese": "您是老師嗎？",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "요즘 바쁘세요?",
+          "chinese": "您最近忙嗎？",
+          "speechLevel": "polite"
+        }
+      ],
+      "listening": [
+        {
+          "id": "L3601",
+          "audioText": "어디 가세요?",
+          "question": "說話的人是在對誰說？",
+          "options": [
+            "長輩或不熟的人",
+            "很熟的朋友",
+            "自己"
+          ],
+          "answerIndex": 0,
+          "explanation": "가세요 是敬語。"
+        },
+        {
+          "id": "L3602",
+          "audioText": "저분이 사장님이세요.",
+          "question": "意思是？",
+          "options": [
+            "那位是老闆。",
+            "我是老闆。",
+            "老闆不在。"
+          ],
+          "answerIndex": 0,
+          "explanation": "분＝位；이세요＝是（敬語）。"
+        },
+        {
+          "id": "L3603",
+          "audioText": "어디에 사세요?",
+          "question": "對方在問什麼？",
+          "options": [
+            "您住在哪裡？",
+            "您在哪裡買？",
+            "您要去哪裡？"
+          ],
+          "answerIndex": 0,
+          "explanation": "살다 → 사세요。"
+        },
+        {
+          "id": "L3604",
+          "audioText": "읽으세요",
+          "question": "實際發音最接近哪一個？",
+          "options": [
+            "[일그세요]",
+            "[이그세요]",
+            "[읽으세요]（分開）"
+          ],
+          "answerIndex": 0,
+          "explanation": "ㄺ 接母音：ㄹ 留下，ㄱ 移到下一個字。"
+        }
+      ],
+      "drills": [
+        {
+          "id": "D3601",
+          "type": "transformation",
+          "instruction": "改成敬語：해요體 → -(으)세요。",
+          "model": {
+            "korean": "가요 → 가세요",
+            "chinese": "去（敬語）",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "해요",
+              "answers": [
+                "하세요."
+              ],
+              "chinese": "做"
+            },
+            {
+              "cue": "읽어요",
+              "answers": [
+                "읽으세요."
+              ],
+              "chinese": "讀"
+            },
+            {
+              "cue": "살아요",
+              "answers": [
+                "사세요."
+              ],
+              "chinese": "住"
+            },
+            {
+              "cue": "만들어요",
+              "answers": [
+                "만드세요."
+              ],
+              "chinese": "做；製作"
+            },
+            {
+              "cue": "앉아요",
+              "answers": [
+                "앉으세요."
+              ],
+              "chinese": "坐"
+            },
+            {
+              "cue": "바빠요",
+              "answers": [
+                "바쁘세요."
+              ],
+              "chinese": "忙"
+            }
+          ]
+        },
+        {
+          "id": "D3602",
+          "type": "transformation",
+          "instruction": "對長輩說：把問句改成敬語。",
+          "model": {
+            "korean": "어디 가요? → 어디 가세요?",
+            "chinese": "您去哪裡？",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "뭐 해요?",
+              "answers": [
+                "뭐 하세요?"
+              ],
+              "chinese": "您在做什麼？"
+            },
+            {
+              "cue": "어디에 살아요?",
+              "answers": [
+                "어디에 사세요?"
+              ],
+              "chinese": "您住在哪裡？"
+            },
+            {
+              "cue": "요즘 바빠요?",
+              "answers": [
+                "요즘 바쁘세요?"
+              ],
+              "chinese": "您最近忙嗎？"
+            },
+            {
+              "cue": "이 사람을 알아요?",
+              "answers": [
+                "이 사람을 아세요?"
+              ],
+              "chinese": "您認識這個人嗎？"
+            },
+            {
+              "cue": "선생님이에요?",
+              "answers": [
+                "선생님이세요?"
+              ],
+              "chinese": "您是老師嗎？"
+            }
+          ]
+        },
+        {
+          "id": "D3603",
+          "type": "substitution",
+          "instruction": "說長輩在做的事：할머니는 … -(으)세요。",
+          "model": {
+            "korean": "할머니는 신문을 읽으세요.",
+            "chinese": "奶奶在看報紙。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 8,
+          "items": [
+            {
+              "cue": "看電視",
+              "answers": [
+                "할머니는 텔레비전을 보세요."
+              ],
+              "chinese": "奶奶在看電視。"
+            },
+            {
+              "cue": "做飯捲",
+              "answers": [
+                "할머니는 김밥을 만드세요."
+              ],
+              "chinese": "奶奶在做飯捲。"
+            },
+            {
+              "cue": "在公園散步",
+              "answers": [
+                "할머니는 공원에서 걸으세요."
+              ],
+              "chinese": "奶奶在公園散步。"
+            },
+            {
+              "cue": "聽音樂",
+              "answers": [
+                "할머니는 음악을 들으세요."
+              ],
+              "chinese": "奶奶在聽音樂。"
+            },
+            {
+              "cue": "打電話",
+              "answers": [
+                "할머니는 전화하세요."
+              ],
+              "chinese": "奶奶在打電話。"
+            }
+          ]
+        },
+        {
+          "id": "D3604",
+          "type": "questionAnswer",
+          "instruction": "長輩問你問題：回答時說自己的事，不要加敬語。",
+          "model": {
+            "korean": "어디 가세요? — 회사에 가요.",
+            "chinese": "您去哪裡？——我去公司。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "어디 가세요?（去學校）",
+              "cueIsAudio": true,
+              "answers": [
+                "학교에 가요.",
+                "저는 학교에 가요."
+              ],
+              "chinese": "我去學校。"
+            },
+            {
+              "cue": "무슨 일을 하세요?（工程師）",
+              "cueIsAudio": true,
+              "answers": [
+                "엔지니어예요.",
+                "저는 엔지니어예요."
+              ],
+              "chinese": "我是工程師。"
+            },
+            {
+              "cue": "어디에 사세요?（台北）",
+              "cueIsAudio": true,
+              "answers": [
+                "타이베이에 살아요.",
+                "저는 타이베이에 살아요."
+              ],
+              "chinese": "我住在台北。"
+            },
+            {
+              "cue": "요즘 바쁘세요?（是，很忙）",
+              "cueIsAudio": true,
+              "answers": [
+                "네, 바빠요.",
+                "네, 좀 바빠요.",
+                "네, 요즘 바빠요."
+              ],
+              "chinese": "對，很忙。"
+            },
+            {
+              "cue": "한국 사람이세요?（不，台灣人）",
+              "cueIsAudio": true,
+              "answers": [
+                "아니요, 대만 사람이에요.",
+                "아니요, 저는 대만 사람이에요."
+              ],
+              "chinese": "不，我是台灣人。"
+            }
+          ]
+        },
+        {
+          "id": "D3605",
+          "type": "freeProduction",
+          "instruction": "在電梯遇到公司的部長，用敬語問兩個問題。",
+          "model": {
+            "korean": "안녕하세요? 어디 가세요? 요즘 바쁘세요?",
+            "chinese": "您好，您去哪裡？最近忙嗎？",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 10,
+          "items": [
+            {
+              "cue": "自由回答",
+              "answers": [
+                "어디 가세요?",
+                "요즘 바쁘세요?"
+              ],
+              "chinese": "（參考答案）"
+            }
+          ]
+        }
+      ],
+      "speaking": {
+        "scenario": "在社區公園遇到韓國鄰居奶奶，奶奶親切地和你聊天。AI 扮演奶奶。使用者會：對奶奶用 -(으)세요；回答自己的事不用敬語。",
+        "speechLevel": "polite",
+        "offlineScript": [
+          {
+            "cue": "어머, 안녕하세요. 어디 가요?（提示：去超市，再問奶奶去哪裡）",
+            "cueIsAudio": true,
+            "answers": [
+              "마트에 가요. 할머니는 어디 가세요?",
+              "마트에 가요. 어디 가세요?"
+            ],
+            "chinese": "我去超市。奶奶您去哪裡？"
+          },
+          {
+            "cue": "나는 공원에 가요. 학생이에요?（提示：不，是上班族）",
+            "cueIsAudio": true,
+            "answers": [
+              "아니요, 회사원이에요.",
+              "아니요, 저는 회사원이에요."
+            ],
+            "chinese": "不，我是上班族。"
+          },
+          {
+            "cue": "그래요? 어디에서 일해요?（提示：在銀行工作，再問奶奶住哪裡）",
+            "cueIsAudio": true,
+            "answers": [
+              "은행에서 일해요. 할머니는 어디에 사세요?",
+              "은행에서 일해요. 어디에 사세요?"
+            ],
+            "chinese": "在銀行工作。奶奶您住在哪裡？"
+          }
+        ]
+      },
+      "postTest": [
+        {
+          "id": "Q3601",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "對老師說「您住在哪裡？」哪一句正確？",
+          "audioText": null,
+          "options": [
+            "어디에 사세요?",
+            "어디에 살으세요?",
+            "어디에 살아세요?"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "살다 → 사세요（ㄹ 脫落）。"
+        },
+        {
+          "id": "Q3602",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "說自己的事「我去公司」，哪一句正確？",
+          "audioText": null,
+          "options": [
+            "저는 회사에 가요.",
+            "저는 회사에 가세요.",
+            "저께서 회사에 가요."
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "自己的動作不加敬語。"
+        },
+        {
+          "id": "Q3603",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「읽다」的 -(으)세요 形是？",
+          "audioText": null,
+          "options": [
+            "읽으세요",
+            "읽세요",
+            "일세요"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "有收音＋으세요。"
+        },
+        {
+          "id": "Q3604",
+          "skill": "listening",
+          "kind": "listeningChoice",
+          "prompt": "聽句子選意思",
+          "audioText": "저분은 의사세요.",
+          "options": [
+            "那位是醫生。",
+            "我是醫生。",
+            "那個人想看醫生。"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "분＝位；의사세요＝是醫生（敬語）。"
+        },
+        {
+          "id": "Q3605",
+          "skill": "grammar",
+          "kind": "typing",
+          "prompt": "用韓文寫（對長輩）：您在做什麼？",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "뭐 하세요?",
+            "지금 뭐 하세요?"
+          ],
+          "explanation": "뭐 하세요?"
+        },
+        {
+          "id": "Q3606",
+          "skill": "speaking",
+          "kind": "speaking",
+          "prompt": "說出（對長輩）：您最近忙嗎？",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "요즘 바쁘세요?"
+          ],
+          "explanation": "요즘 바쁘세요?"
+        }
+      ],
+      "completion": {
+        "postTestPassRatio": 0.8,
+        "drillAccuracy": 0.8,
+        "requireVocabularyQuiz": true
+      }
+    },
+    {
+      "id": "U08L02",
+      "title": "特殊敬語：드세요、주무세요、계세요",
+      "estimatedMinutes": 55,
+      "objectives": [
+        "記住有專用敬語的動詞：드시다（吃、喝）、주무시다（睡）、계시다（在）、말씀하시다（說）",
+        "記住敬語名詞：연세（年紀）、댁（家）、생신（生日）、말씀（話）",
+        "用 께（給長輩）和 드려요（謙讓：給）",
+        "問長輩年紀、住處、身體狀況"
+      ],
+      "vocabulary": [
+        {
+          "id": "V0402",
+          "korean": "드세요",
+          "chinese": "吃；喝（敬語）",
+          "romanization": "deu-se-yo",
+          "partOfSpeech": "verb",
+          "tier": "S",
+          "frequencyRank": 243,
+          "example": {
+            "korean": "많이 드세요.",
+            "chinese": "請多吃一點。",
+            "speechLevel": "polite"
+          },
+          "usage": "먹다、마시다 的敬語是 드시다。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0403",
+          "korean": "주무세요",
+          "chinese": "睡（敬語）",
+          "romanization": "ju-mu-se-yo",
+          "partOfSpeech": "verb",
+          "tier": "A",
+          "frequencyRank": 128,
+          "example": {
+            "korean": "안녕히 주무세요.",
+            "chinese": "晚安（對長輩）。",
+            "speechLevel": "polite"
+          },
+          "usage": "자다 的敬語是 주무시다。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0404",
+          "korean": "계세요",
+          "chinese": "在（敬語）",
+          "romanization": "gye-se-yo",
+          "pronunciation": "[게세요]",
+          "partOfSpeech": "verb",
+          "tier": "S",
+          "frequencyRank": 244,
+          "example": {
+            "korean": "사장님 계세요?",
+            "chinese": "老闆在嗎？",
+            "speechLevel": "polite"
+          },
+          "usage": "（人）있다 的敬語是 계시다。擁有東西則說 있으세요：시간 있으세요?",
+          "commonMistake": null
+        },
+        {
+          "id": "V0405",
+          "korean": "말씀",
+          "chinese": "話（敬語）",
+          "romanization": "mal-sseum",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 129,
+          "example": {
+            "korean": "말씀하세요.",
+            "chinese": "您請說。",
+            "speechLevel": "polite"
+          },
+          "usage": "말 的敬語；말씀하시다＝說（敬語）。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0406",
+          "korean": "연세",
+          "chinese": "年紀（敬語）",
+          "romanization": "yeon-se",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 130,
+          "example": {
+            "korean": "연세가 어떻게 되세요?",
+            "chinese": "請問您貴庚？",
+            "speechLevel": "polite"
+          },
+          "usage": "나이 的敬語。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0407",
+          "korean": "댁",
+          "chinese": "府上（家的敬語）",
+          "romanization": "daek",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 131,
+          "example": {
+            "korean": "댁이 어디세요?",
+            "chinese": "請問您府上在哪裡？",
+            "speechLevel": "polite"
+          },
+          "usage": "집 的敬語。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0408",
+          "korean": "생신",
+          "chinese": "壽辰（生日的敬語）",
+          "romanization": "saeng-sin",
+          "partOfSpeech": "noun",
+          "tier": "B",
+          "frequencyRank": 32,
+          "example": {
+            "korean": "할머니 생신이에요.",
+            "chinese": "是奶奶的生日。",
+            "speechLevel": "polite"
+          },
+          "usage": "생일 的敬語。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0409",
+          "korean": "께",
+          "chinese": "給（長輩）",
+          "romanization": "kke",
+          "partOfSpeech": "particle",
+          "tier": "A",
+          "frequencyRank": 132,
+          "example": {
+            "korean": "선생님께 선물을 드려요.",
+            "chinese": "送禮物給老師。",
+            "speechLevel": "polite"
+          },
+          "usage": "에게／한테 的敬語。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0410",
+          "korean": "드려요",
+          "chinese": "給；呈上（謙讓）",
+          "romanization": "deu-ryeo-yo",
+          "partOfSpeech": "verb",
+          "tier": "A",
+          "frequencyRank": 133,
+          "example": {
+            "korean": "부모님께 용돈을 드려요.",
+            "chinese": "給父母零用錢。",
+            "speechLevel": "polite"
+          },
+          "usage": "주다 的謙讓語：給長輩東西時用。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0411",
+          "korean": "편찮으세요",
+          "chinese": "身體不適（敬語）",
+          "romanization": "pyeon-cha-neu-se-yo",
+          "pronunciation": "[편차느세요]",
+          "partOfSpeech": "adjective",
+          "tier": "B",
+          "frequencyRank": 33,
+          "example": {
+            "korean": "어디 편찮으세요?",
+            "chinese": "您哪裡不舒服？",
+            "speechLevel": "polite"
+          },
+          "usage": "아프다 的敬語（說長輩生病）。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0412",
+          "korean": "잡수세요",
+          "chinese": "吃（更尊敬，老一輩用）",
+          "romanization": "jap-su-se-yo",
+          "pronunciation": "[잡쑤세요]",
+          "partOfSpeech": "verb",
+          "tier": "C",
+          "frequencyRank": 2,
+          "example": {
+            "korean": "진지 잡수세요.",
+            "chinese": "請用餐（對祖父母）。",
+            "speechLevel": "polite"
+          },
+          "usage": "對祖父母等非常年長的人；日常用 드세요 即可。",
+          "commonMistake": null
+        }
+      ],
+      "pronunciation": [
+        {
+          "id": "P3701",
+          "title": "편찮으세요、말씀 的音變",
+          "explanation": "편찮으세요 → [편차느세요]（ㄶ 的 ㅎ 不發音，ㄴ 移到下一個字）；말씀 → [말씀]；잡수세요 → [잡쑤세요]（緊音化）。",
+          "articulation": "看到 ㄶ、ㅀ 接母音，ㅎ 一律不唸。",
+          "chineseSpeakerPitfall": "편찮으세요 唸成 [편찬흐세요]。",
+          "samples": [
+            "편찮으세요",
+            "말씀",
+            "잡수세요"
+          ],
+          "minimalPairs": []
+        },
+        {
+          "id": "P3702",
+          "title": "연세、댁 的發音",
+          "explanation": "연세 → [연세]：收音 ㄴ 要清楚，不要唸成 [영세]。댁 → [댁]：收音 ㄱ 不爆破；댁이 → [대기]。",
+          "articulation": "ㄴ 舌尖抵上齒齦、ㅇ 舌根抵住，兩者位置不同。",
+          "chineseSpeakerPitfall": "연세 和 영세（零細）會混淆。",
+          "samples": [
+            "연세",
+            "댁이",
+            "생신"
+          ],
+          "minimalPairs": []
+        }
+      ],
+      "grammar": [
+        {
+          "id": "G3701",
+          "title": "有專用敬語的動詞",
+          "pattern": "먹다・마시다 → 드세요；자다 → 주무세요；（人）있다 → 계세요；말하다 → 말씀하세요；아프다 → 편찮으세요",
+          "explanation": "這幾個動詞不是加 -(으)시-，而是換成另一個詞：할머니, 진지 드세요（奶奶請用餐）、안녕히 주무세요（晚安）、사장님 계세요?（老闆在嗎？）。注意：「有時間嗎？」是擁有，用 시간 있으세요?，不是 *계세요。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "저녁 드셨어요?",
+              "chinese": "您吃過晚餐了嗎？",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "안녕히 주무세요.",
+              "chinese": "晚安（對長輩）。",
+              "speechLevel": "polite"
+            }
+          ]
+        },
+        {
+          "id": "G3702",
+          "title": "敬語名詞與 께／드려요",
+          "pattern": "나이 → 연세；집 → 댁；생일 → 생신；말 → 말씀；에게 → 께；주다 → 드리다",
+          "explanation": "說長輩的東西時換成敬語名詞：할아버지 연세가 어떻게 되세요?。給長輩東西時，對象用 께、動詞用謙讓語 드려요：선생님께 선물을 드려요。給朋友、晚輩則說 친구한테 선물을 줘요。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "선생님께 선물을 드려요.",
+              "chinese": "送禮物給老師。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "연세가 어떻게 되세요?",
+              "chinese": "請問您貴庚？",
+              "speechLevel": "polite"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "korean": "많이 드세요.",
+          "chinese": "請多吃一點。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "사장님 계세요?",
+          "chinese": "老闆在嗎？",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "안녕히 주무세요.",
+          "chinese": "晚安。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "부모님께 전화를 드려요.",
+          "chinese": "打電話給父母。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "어디 편찮으세요?",
+          "chinese": "您哪裡不舒服？",
+          "speechLevel": "polite"
+        }
+      ],
+      "listening": [
+        {
+          "id": "L3701",
+          "audioText": "많이 드세요.",
+          "question": "對方的意思是？",
+          "options": [
+            "請多吃一點。",
+            "請多喝水。",
+            "請多休息。"
+          ],
+          "answerIndex": 0,
+          "explanation": "드세요＝吃、喝（敬語）。"
+        },
+        {
+          "id": "L3702",
+          "audioText": "사장님 계세요?",
+          "question": "對方在問什麼？",
+          "options": [
+            "老闆在嗎？",
+            "老闆好嗎？",
+            "老闆去哪裡？"
+          ],
+          "answerIndex": 0,
+          "explanation": "계세요＝在（敬語）。"
+        },
+        {
+          "id": "L3703",
+          "audioText": "할머니께 선물을 드려요.",
+          "question": "意思是？",
+          "options": [
+            "送禮物給奶奶。",
+            "奶奶送我禮物。",
+            "和奶奶買禮物。"
+          ],
+          "answerIndex": 0,
+          "explanation": "께＝給（長輩）；드려요＝給（謙讓）。"
+        },
+        {
+          "id": "L3704",
+          "audioText": "편찮으세요",
+          "question": "實際發音最接近哪一個？",
+          "options": [
+            "[편차느세요]",
+            "[편찬흐세요]",
+            "[편차너세요]"
+          ],
+          "answerIndex": 0,
+          "explanation": "ㄶ 的 ㅎ 不發音。"
+        }
+      ],
+      "drills": [
+        {
+          "id": "D3701",
+          "type": "transformation",
+          "instruction": "換成專用敬語（說長輩的動作）。",
+          "model": {
+            "korean": "할머니가 밥을 먹어요. → 할머니가 진지를 드세요.",
+            "chinese": "奶奶在用餐。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 8,
+          "items": [
+            {
+              "cue": "할아버지가 자요.",
+              "answers": [
+                "할아버지가 주무세요.",
+                "할아버지께서 주무세요."
+              ],
+              "chinese": "爺爺在睡覺。"
+            },
+            {
+              "cue": "사장님이 사무실에 있어요.",
+              "answers": [
+                "사장님이 사무실에 계세요.",
+                "사장님께서 사무실에 계세요."
+              ],
+              "chinese": "老闆在辦公室。"
+            },
+            {
+              "cue": "선생님이 커피를 마셔요.",
+              "answers": [
+                "선생님이 커피를 드세요.",
+                "선생님께서 커피를 드세요."
+              ],
+              "chinese": "老師在喝咖啡。"
+            },
+            {
+              "cue": "할머니가 아파요.",
+              "answers": [
+                "할머니가 편찮으세요.",
+                "할머니께서 편찮으세요."
+              ],
+              "chinese": "奶奶身體不舒服。"
+            },
+            {
+              "cue": "선생님이 말해요.",
+              "answers": [
+                "선생님이 말씀하세요.",
+                "선생님께서 말씀하세요."
+              ],
+              "chinese": "老師在說話。"
+            }
+          ]
+        },
+        {
+          "id": "D3702",
+          "type": "transformation",
+          "instruction": "換成敬語名詞（問長輩）。",
+          "model": {
+            "korean": "나이가 어떻게 돼요? → 연세가 어떻게 되세요?",
+            "chinese": "請問您貴庚？",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "집이 어디예요?",
+              "answers": [
+                "댁이 어디세요?"
+              ],
+              "chinese": "請問您府上在哪裡？"
+            },
+            {
+              "cue": "생일이 언제예요?",
+              "answers": [
+                "생신이 언제세요?"
+              ],
+              "chinese": "請問您的生日是什麼時候？"
+            },
+            {
+              "cue": "이름이 뭐예요?",
+              "answers": [
+                "성함이 어떻게 되세요?",
+                "성함이 뭐예요?"
+              ],
+              "chinese": "請問您貴姓大名？"
+            },
+            {
+              "cue": "시간 있어요?",
+              "answers": [
+                "시간 있으세요?"
+              ],
+              "chinese": "請問您有時間嗎？"
+            },
+            {
+              "cue": "밥 먹었어요?",
+              "answers": [
+                "식사하셨어요?",
+                "진지 드셨어요?"
+              ],
+              "chinese": "您吃過飯了嗎？"
+            }
+          ]
+        },
+        {
+          "id": "D3703",
+          "type": "substitution",
+          "instruction": "給長輩東西：N께 N을/를 드려요。",
+          "model": {
+            "korean": "선생님께 선물을 드려요.",
+            "chinese": "送禮物給老師。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 8,
+          "items": [
+            {
+              "cue": "부모님／零用錢（용돈）",
+              "answers": [
+                "부모님께 용돈을 드려요."
+              ],
+              "chinese": "給父母零用錢。"
+            },
+            {
+              "cue": "할머니／花",
+              "answers": [
+                "할머니께 꽃을 드려요."
+              ],
+              "chinese": "送花給奶奶。"
+            },
+            {
+              "cue": "사장님／咖啡",
+              "answers": [
+                "사장님께 커피를 드려요."
+              ],
+              "chinese": "給老闆咖啡。"
+            },
+            {
+              "cue": "할아버지／信",
+              "answers": [
+                "할아버지께 편지를 드려요."
+              ],
+              "chinese": "寫信給爺爺。"
+            },
+            {
+              "cue": "선생님／書",
+              "answers": [
+                "선생님께 책을 드려요."
+              ],
+              "chinese": "給老師書。"
+            }
+          ]
+        },
+        {
+          "id": "D3704",
+          "type": "questionAnswer",
+          "instruction": "對長輩說話：聽情境，用敬語回應。",
+          "model": {
+            "korean": "（吃飯前請長輩先吃）— 많이 드세요.",
+            "chinese": "請多吃一點。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "（晚上對奶奶道晚安）",
+              "cueIsAudio": true,
+              "answers": [
+                "안녕히 주무세요."
+              ],
+              "chinese": "晚安。"
+            },
+            {
+              "cue": "（到店裡找老闆）",
+              "cueIsAudio": true,
+              "answers": [
+                "사장님 계세요?"
+              ],
+              "chinese": "老闆在嗎？"
+            },
+            {
+              "cue": "（請老師先說）",
+              "cueIsAudio": true,
+              "answers": [
+                "말씀하세요.",
+                "먼저 말씀하세요."
+              ],
+              "chinese": "您請說。"
+            },
+            {
+              "cue": "（問爺爺哪裡不舒服）",
+              "cueIsAudio": true,
+              "answers": [
+                "어디 편찮으세요?"
+              ],
+              "chinese": "您哪裡不舒服？"
+            },
+            {
+              "cue": "（請長輩多吃一點）",
+              "cueIsAudio": true,
+              "answers": [
+                "많이 드세요."
+              ],
+              "chinese": "請多吃一點。"
+            }
+          ]
+        },
+        {
+          "id": "D3705",
+          "type": "freeProduction",
+          "instruction": "去朋友家拜訪，對朋友的媽媽說兩句有禮貌的話。",
+          "model": {
+            "korean": "안녕하세요? 이거 선물이에요. 어머님, 많이 드세요.",
+            "chinese": "您好，這是禮物。伯母請多吃。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 10,
+          "items": [
+            {
+              "cue": "自由回答",
+              "answers": [
+                "안녕하세요?",
+                "이거 선물이에요.",
+                "많이 드세요."
+              ],
+              "chinese": "（參考答案）"
+            }
+          ]
+        }
+      ],
+      "speaking": {
+        "scenario": "到韓國朋友家吃飯，朋友的爺爺也在。AI 扮演爺爺，會問你一些問題。使用者會：드세요、계세요、연세、께／드려요。",
+        "speechLevel": "polite",
+        "offlineScript": [
+          {
+            "cue": "어서 와요. 밥 먹었어요?（提示：還沒吃，再問爺爺吃了嗎）",
+            "cueIsAudio": true,
+            "answers": [
+              "아직 안 먹었어요. 할아버지는 식사하셨어요?",
+              "아니요, 아직 안 먹었어요. 진지 드셨어요?"
+            ],
+            "chinese": "還沒。爺爺您吃過了嗎？"
+          },
+          {
+            "cue": "나도 아직이에요. 같이 먹어요.（提示：這是禮物，送給爺爺）",
+            "cueIsAudio": true,
+            "answers": [
+              "이거 선물이에요. 할아버지께 드려요.",
+              "할아버지, 이거 선물이에요."
+            ],
+            "chinese": "這是要給爺爺的禮物。"
+          },
+          {
+            "cue": "고마워요. 많이 먹어요.（提示：爺爺也請多吃）",
+            "cueIsAudio": true,
+            "answers": [
+              "할아버지도 많이 드세요.",
+              "네, 할아버지도 많이 드세요."
+            ],
+            "chinese": "爺爺您也請多吃。"
+          }
+        ]
+      },
+      "postTest": [
+        {
+          "id": "Q3701",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "對奶奶說「請吃飯」，哪一句最適合？",
+          "audioText": null,
+          "options": [
+            "진지 드세요.",
+            "밥 먹으세요.",
+            "밥 먹어요."
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "먹다 的敬語是 드시다。"
+        },
+        {
+          "id": "Q3702",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「老闆在嗎？」怎麼說？",
+          "audioText": null,
+          "options": [
+            "사장님 계세요?",
+            "사장님 있어요?",
+            "사장님 있으세요?"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "（人）있다 → 계시다。"
+        },
+        {
+          "id": "Q3703",
+          "skill": "vocabulary",
+          "kind": "choice",
+          "prompt": "「나이」的敬語是？",
+          "audioText": null,
+          "options": [
+            "연세",
+            "성함",
+            "댁"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "나이 → 연세。"
+        },
+        {
+          "id": "Q3704",
+          "skill": "listening",
+          "kind": "listeningChoice",
+          "prompt": "聽句子選意思",
+          "audioText": "할아버지께서 주무세요.",
+          "options": [
+            "爺爺在睡覺。",
+            "爺爺在吃飯。",
+            "爺爺不在家。"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "주무세요＝睡（敬語）。"
+        },
+        {
+          "id": "Q3705",
+          "skill": "grammar",
+          "kind": "typing",
+          "prompt": "用韓文寫：送禮物給老師。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "선생님께 선물을 드려요."
+          ],
+          "explanation": "선생님께 선물을 드려요."
+        },
+        {
+          "id": "Q3706",
+          "skill": "speaking",
+          "kind": "speaking",
+          "prompt": "說出（對長輩）：晚安。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "안녕히 주무세요."
+          ],
+          "explanation": "안녕히 주무세요."
+        }
+      ],
+      "completion": {
+        "postTestPassRatio": 0.8,
+        "drillAccuracy": 0.8,
+        "requireVocabularyQuiz": true
+      }
+    },
+    {
+      "id": "U08L03",
+      "title": "過去敬語「-(으)셨어요」、請求與禁止",
+      "estimatedMinutes": 55,
+      "objectives": [
+        "用 -(으)셨어요 問長輩過去的事：주말에 뭐 하셨어요?",
+        "用 -(으)세요 禮貌地請別人做：앉으세요、들어오세요",
+        "用 -지 마세요 說「請不要」：걱정하지 마세요",
+        "聽懂公共場所的告示與廣播"
+      ],
+      "vocabulary": [
+        {
+          "id": "V0413",
+          "korean": "들어오세요",
+          "chinese": "請進",
+          "romanization": "deu-reo-o-se-yo",
+          "pronunciation": "[드러오세요]",
+          "partOfSpeech": "expression",
+          "tier": "S",
+          "frequencyRank": 245,
+          "example": {
+            "korean": "네, 들어오세요.",
+            "chinese": "好，請進。",
+            "speechLevel": "polite"
+          },
+          "usage": "들어오다＝進來。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0414",
+          "korean": "잠깐만",
+          "chinese": "稍等；一下下",
+          "romanization": "jam-kkan-man",
+          "partOfSpeech": "adverb",
+          "tier": "S",
+          "frequencyRank": 246,
+          "example": {
+            "korean": "잠깐만 기다리세요.",
+            "chinese": "請稍等。",
+            "speechLevel": "polite"
+          },
+          "usage": "잠깐만요＝等一下（口語）。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0415",
+          "korean": "걱정하지 마세요",
+          "chinese": "請不要擔心",
+          "romanization": "geok-jeong-ha-ji ma-se-yo",
+          "pronunciation": "[걱쩡하지 마세요]",
+          "partOfSpeech": "expression",
+          "tier": "S",
+          "frequencyRank": 247,
+          "example": {
+            "korean": "걱정하지 마세요.",
+            "chinese": "請不要擔心。",
+            "speechLevel": "polite"
+          },
+          "usage": "걱정＝擔心。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0416",
+          "korean": "마세요",
+          "chinese": "請不要（-지 마세요）",
+          "romanization": "ma-se-yo",
+          "partOfSpeech": "expression",
+          "tier": "S",
+          "frequencyRank": 248,
+          "example": {
+            "korean": "여기에서 사진 찍지 마세요.",
+            "chinese": "請不要在這裡拍照。",
+            "speechLevel": "polite"
+          },
+          "usage": "動詞語幹＋지 마세요。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0417",
+          "korean": "조심하세요",
+          "chinese": "請小心",
+          "romanization": "jo-sim-ha-se-yo",
+          "partOfSpeech": "expression",
+          "tier": "A",
+          "frequencyRank": 134,
+          "example": {
+            "korean": "길 조심하세요.",
+            "chinese": "路上小心。",
+            "speechLevel": "polite"
+          },
+          "usage": "조심하다＝小心。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0418",
+          "korean": "담배",
+          "chinese": "香菸",
+          "romanization": "dam-bae",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 135,
+          "example": {
+            "korean": "여기에서 담배를 피우지 마세요.",
+            "chinese": "請不要在這裡抽菸。",
+            "speechLevel": "polite"
+          },
+          "usage": "담배를 피우다＝抽菸。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0419",
+          "korean": "들어가요",
+          "chinese": "進去",
+          "romanization": "deu-reo-ga-yo",
+          "pronunciation": "[드러가요]",
+          "partOfSpeech": "verb",
+          "tier": "A",
+          "frequencyRank": 136,
+          "example": {
+            "korean": "안으로 들어가요.",
+            "chinese": "進去裡面。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 들어가다。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0420",
+          "korean": "나가요",
+          "chinese": "出去",
+          "romanization": "na-ga-yo",
+          "partOfSpeech": "verb",
+          "tier": "S",
+          "frequencyRank": 249,
+          "example": {
+            "korean": "밖으로 나가요.",
+            "chinese": "出去外面。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 나가다。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0421",
+          "korean": "식사",
+          "chinese": "用餐（較正式）",
+          "romanization": "sik-sa",
+          "pronunciation": "[식싸]",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 137,
+          "example": {
+            "korean": "식사하셨어요?",
+            "chinese": "您用過餐了嗎？",
+            "speechLevel": "polite"
+          },
+          "usage": "식사하다＝用餐。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0422",
+          "korean": "주말 잘 보내세요",
+          "chinese": "週末愉快",
+          "romanization": "ju-mal jal bo-nae-se-yo",
+          "partOfSpeech": "expression",
+          "tier": "A",
+          "frequencyRank": 138,
+          "example": {
+            "korean": "주말 잘 보내세요.",
+            "chinese": "週末愉快。",
+            "speechLevel": "polite"
+          },
+          "usage": "보내다＝度過。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0423",
+          "korean": "푹 쉬세요",
+          "chinese": "好好休息",
+          "romanization": "puk swi-se-yo",
+          "partOfSpeech": "expression",
+          "tier": "A",
+          "frequencyRank": 139,
+          "example": {
+            "korean": "오늘은 푹 쉬세요.",
+            "chinese": "今天好好休息。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        }
+      ],
+      "pronunciation": [
+        {
+          "id": "P3801",
+          "title": "-(으)셨어요 的發音",
+          "explanation": "-(으)셨어요 → [-(으)셔써요]：하셨어요 → [하셔써요]、가셨어요 → [가셔써요]、읽으셨어요 → [일그셔써요]。",
+          "articulation": "셨 的 ㅆ 移到 어 前面，唸緊音 [써]。",
+          "chineseSpeakerPitfall": "唸成 [하셨 어요] 或 [하셔서요]。",
+          "samples": [
+            "하셨어요",
+            "가셨어요",
+            "드셨어요"
+          ],
+          "minimalPairs": []
+        },
+        {
+          "id": "P3802",
+          "title": "-지 마세요 的緊音",
+          "explanation": "收音 [ㄱ] [ㄷ] [ㅂ] 後的 지 變緊音：찍지 마세요 → [찍찌 마세요]、먹지 마세요 → [먹찌 마세요]；걱정 → [걱쩡]。沒有收音時不變：가지 마세요。",
+          "articulation": "收音停住，지 喉嚨繃緊。",
+          "chineseSpeakerPitfall": "唸成 [찍지 마세요]（지 不變緊），聽起來不自然。",
+          "samples": [
+            "찍지 마세요",
+            "먹지 마세요",
+            "걱정하지 마세요"
+          ],
+          "minimalPairs": []
+        }
+      ],
+      "grammar": [
+        {
+          "id": "G3801",
+          "title": "-(으)셨어요（過去敬語）",
+          "pattern": "-(으)세요 的過去：가셨어요、하셨어요、읽으셨어요；特殊：드셨어요、주무셨어요、계셨어요",
+          "explanation": "問長輩過去做了什麼：주말에 뭐 하셨어요?、어제 잘 주무셨어요?（昨晚睡得好嗎？）、식사하셨어요?（吃過飯了嗎？，常當問候語）。回答說自己的事用一般過去式：네, 먹었어요。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "주말에 뭐 하셨어요?",
+              "chinese": "您週末做了什麼？",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "잘 주무셨어요?",
+              "chinese": "您睡得好嗎？",
+              "speechLevel": "polite"
+            }
+          ]
+        },
+        {
+          "id": "G3802",
+          "title": "-(으)세요（請…）與 -지 마세요（請不要…）",
+          "pattern": "請求：-(으)세요；禁止：語幹＋지 마세요",
+          "explanation": "-(으)세요 除了敬語陳述，也是禮貌的請求：여기 앉으세요（請坐這裡）、들어오세요（請進）、잠깐만 기다리세요（請稍等）。請不要：語幹＋지 마세요：걱정하지 마세요、사진 찍지 마세요、들어가지 마세요。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "여기 앉으세요.",
+              "chinese": "請坐這裡。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "걱정하지 마세요.",
+              "chinese": "請不要擔心。",
+              "speechLevel": "polite"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "korean": "식사하셨어요?",
+          "chinese": "您吃過飯了嗎？",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "어제 어디 가셨어요?",
+          "chinese": "您昨天去哪裡了？",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "들어오세요.",
+          "chinese": "請進。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "잠깐만 기다리세요.",
+          "chinese": "請稍等。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "여기에서 사진 찍지 마세요.",
+          "chinese": "請不要在這裡拍照。",
+          "speechLevel": "polite"
+        }
+      ],
+      "listening": [
+        {
+          "id": "L3801",
+          "audioText": "여기에서 사진 찍지 마세요.",
+          "question": "這是什麼意思？",
+          "options": [
+            "請不要在這裡拍照。",
+            "請在這裡拍照。",
+            "請幫我拍照。"
+          ],
+          "answerIndex": 0,
+          "explanation": "-지 마세요＝請不要。"
+        },
+        {
+          "id": "L3802",
+          "audioText": "주말에 뭐 하셨어요?",
+          "question": "對方在問什麼？",
+          "options": [
+            "您週末做了什麼？",
+            "您週末要做什麼？",
+            "您週末在做什麼？"
+          ],
+          "answerIndex": 0,
+          "explanation": "-(으)셨어요＝過去敬語。"
+        },
+        {
+          "id": "L3803",
+          "audioText": "잠깐만 기다리세요.",
+          "question": "意思是？",
+          "options": [
+            "請稍等。",
+            "請進。",
+            "請慢走。"
+          ],
+          "answerIndex": 0,
+          "explanation": "잠깐만＝稍等。"
+        },
+        {
+          "id": "L3804",
+          "audioText": "하셨어요",
+          "question": "實際發音最接近哪一個？",
+          "options": [
+            "[하셔써요]",
+            "[하셔서요]",
+            "[하셛어요]"
+          ],
+          "answerIndex": 0,
+          "explanation": "ㅆ 移到下一個字，唸緊音。"
+        }
+      ],
+      "drills": [
+        {
+          "id": "D3801",
+          "type": "transformation",
+          "instruction": "改成過去敬語：-(으)셨어요。",
+          "model": {
+            "korean": "가세요 → 가셨어요",
+            "chinese": "去了（敬語）",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "하세요",
+              "answers": [
+                "하셨어요."
+              ],
+              "chinese": "做了"
+            },
+            {
+              "cue": "읽으세요",
+              "answers": [
+                "읽으셨어요."
+              ],
+              "chinese": "讀了"
+            },
+            {
+              "cue": "드세요",
+              "answers": [
+                "드셨어요."
+              ],
+              "chinese": "吃了；喝了"
+            },
+            {
+              "cue": "주무세요",
+              "answers": [
+                "주무셨어요."
+              ],
+              "chinese": "睡了"
+            },
+            {
+              "cue": "오세요",
+              "answers": [
+                "오셨어요."
+              ],
+              "chinese": "來了"
+            }
+          ]
+        },
+        {
+          "id": "D3802",
+          "type": "transformation",
+          "instruction": "請不要：-지 마세요。",
+          "model": {
+            "korean": "사진을 찍어요. → 사진 찍지 마세요.",
+            "chinese": "請不要拍照。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "걱정해요.",
+              "answers": [
+                "걱정하지 마세요."
+              ],
+              "chinese": "請不要擔心。"
+            },
+            {
+              "cue": "들어가요.",
+              "answers": [
+                "들어가지 마세요."
+              ],
+              "chinese": "請不要進去。"
+            },
+            {
+              "cue": "담배를 피워요.",
+              "answers": [
+                "담배를 피우지 마세요.",
+                "담배 피우지 마세요."
+              ],
+              "chinese": "請不要抽菸。"
+            },
+            {
+              "cue": "늦게 와요.",
+              "answers": [
+                "늦게 오지 마세요."
+              ],
+              "chinese": "請不要晚來。"
+            },
+            {
+              "cue": "여기에서 먹어요.",
+              "answers": [
+                "여기에서 먹지 마세요."
+              ],
+              "chinese": "請不要在這裡吃東西。"
+            }
+          ]
+        },
+        {
+          "id": "D3803",
+          "type": "substitution",
+          "instruction": "禮貌地請對方做：-(으)세요。",
+          "model": {
+            "korean": "여기 앉으세요.",
+            "chinese": "請坐這裡。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "進來",
+              "answers": [
+                "들어오세요."
+              ],
+              "chinese": "請進。"
+            },
+            {
+              "cue": "稍等",
+              "answers": [
+                "잠깐만 기다리세요."
+              ],
+              "chinese": "請稍等。"
+            },
+            {
+              "cue": "小心",
+              "answers": [
+                "조심하세요."
+              ],
+              "chinese": "請小心。"
+            },
+            {
+              "cue": "好好休息",
+              "answers": [
+                "푹 쉬세요."
+              ],
+              "chinese": "好好休息。"
+            },
+            {
+              "cue": "週末愉快",
+              "answers": [
+                "주말 잘 보내세요."
+              ],
+              "chinese": "週末愉快。"
+            }
+          ]
+        },
+        {
+          "id": "D3804",
+          "type": "questionAnswer",
+          "instruction": "長輩用過去敬語問你，用一般過去式回答。",
+          "model": {
+            "korean": "식사하셨어요? — 네, 먹었어요.",
+            "chinese": "您吃過飯了嗎？——吃過了。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "식사하셨어요?（吃過了）",
+              "cueIsAudio": true,
+              "answers": [
+                "네, 먹었어요.",
+                "네, 식사했어요."
+              ],
+              "chinese": "吃過了。"
+            },
+            {
+              "cue": "주말에 뭐 하셨어요?（看了電影）",
+              "cueIsAudio": true,
+              "answers": [
+                "영화를 봤어요.",
+                "주말에 영화를 봤어요."
+              ],
+              "chinese": "看了電影。"
+            },
+            {
+              "cue": "어제 잘 주무셨어요?（是）",
+              "cueIsAudio": true,
+              "answers": [
+                "네, 잘 잤어요."
+              ],
+              "chinese": "睡得很好。"
+            },
+            {
+              "cue": "（客人來了，請他進來坐）",
+              "cueIsAudio": true,
+              "answers": [
+                "들어오세요. 여기 앉으세요.",
+                "어서 오세요. 여기 앉으세요."
+              ],
+              "chinese": "請進，請坐這裡。"
+            },
+            {
+              "cue": "（朋友很擔心，安慰他）",
+              "cueIsAudio": true,
+              "answers": [
+                "걱정하지 마세요."
+              ],
+              "chinese": "請不要擔心。"
+            }
+          ]
+        },
+        {
+          "id": "D3805",
+          "type": "freeProduction",
+          "instruction": "下班時對要先離開的部長說兩句道別的話。",
+          "model": {
+            "korean": "오늘 수고 많으셨어요. 주말 잘 보내세요.",
+            "chinese": "今天辛苦了。週末愉快。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 10,
+          "items": [
+            {
+              "cue": "自由回答",
+              "answers": [
+                "주말 잘 보내세요.",
+                "푹 쉬세요.",
+                "조심히 가세요."
+              ],
+              "chinese": "（參考答案）"
+            }
+          ]
+        }
+      ],
+      "speaking": {
+        "scenario": "你在韓國公司當實習生，部長走進會議室。AI 扮演部長。使用者會：-(으)세요 請求、-(으)셨어요、-지 마세요。",
+        "speechLevel": "polite",
+        "offlineScript": [
+          {
+            "cue": "똑똑. 들어가도 돼요?（提示：請進，請坐這裡）",
+            "cueIsAudio": true,
+            "answers": [
+              "네, 들어오세요. 여기 앉으세요.",
+              "들어오세요. 여기 앉으세요."
+            ],
+            "chinese": "請進，請坐這裡。"
+          },
+          {
+            "cue": "고마워요. 점심 먹었어요?（提示：吃過了，再問部長吃了嗎）",
+            "cueIsAudio": true,
+            "answers": [
+              "네, 먹었어요. 부장님은 식사하셨어요?",
+              "네, 먹었어요. 식사하셨어요?"
+            ],
+            "chinese": "吃過了。部長您吃了嗎？"
+          },
+          {
+            "cue": "아직이요. 회의가 좀 늦게 끝날 거예요.（提示：請不要擔心，請慢慢來）",
+            "cueIsAudio": true,
+            "answers": [
+              "걱정하지 마세요.",
+              "걱정하지 마세요. 천천히 하세요."
+            ],
+            "chinese": "請不要擔心。"
+          }
+        ]
+      },
+      "postTest": [
+        {
+          "id": "Q3801",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "問長輩「您週末做了什麼？」",
+          "audioText": null,
+          "options": [
+            "주말에 뭐 하셨어요?",
+            "주말에 뭐 했어요?",
+            "주말에 뭐 하세요?"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "-(으)셨어요＝過去敬語。"
+        },
+        {
+          "id": "Q3802",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「請不要擔心。」怎麼說？",
+          "audioText": null,
+          "options": [
+            "걱정하지 마세요.",
+            "걱정 마셨어요.",
+            "걱정하세요."
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "語幹＋지 마세요。"
+        },
+        {
+          "id": "Q3803",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「먹다」的過去敬語是？",
+          "audioText": null,
+          "options": [
+            "드셨어요",
+            "먹으셨어요?",
+            "드세었어요"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "먹다 → 드시다 → 드셨어요。"
+        },
+        {
+          "id": "Q3804",
+          "skill": "listening",
+          "kind": "listeningChoice",
+          "prompt": "聽廣播選意思",
+          "audioText": "여기는 들어가지 마세요.",
+          "options": [
+            "請不要進去這裡。",
+            "請進來這裡。",
+            "這裡是入口。"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "들어가지 마세요＝請不要進去。"
+        },
+        {
+          "id": "Q3805",
+          "skill": "grammar",
+          "kind": "typing",
+          "prompt": "用韓文寫：請稍等。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "잠깐만 기다리세요.",
+            "잠깐만 기다려 주세요.",
+            "잠깐만요."
+          ],
+          "explanation": "잠깐만 기다리세요."
+        },
+        {
+          "id": "Q3806",
+          "skill": "speaking",
+          "kind": "speaking",
+          "prompt": "說出：您吃過飯了嗎？",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "식사하셨어요?",
+            "진지 드셨어요?"
+          ],
+          "explanation": "식사하셨어요?"
+        }
+      ],
+      "completion": {
+        "postTestPassRatio": 0.8,
+        "drillAccuracy": 0.8,
+        "requireVocabularyQuiz": true
+      }
+    },
+    {
+      "id": "U08L04",
+      "title": "朋友之間的半語（반말）",
+      "estimatedMinutes": 55,
+      "objectives": [
+        "把해요體變成半語：去掉「요」（가요 → 가、먹었어요 → 먹었어）",
+        "名詞的半語：학생이야／친구야、아니야",
+        "改稱呼：저 → 나、제가 → 내가、네 → 응、아니요 → 아니",
+        "用名字叫朋友：민수야、지민아"
+      ],
+      "vocabulary": [
+        {
+          "id": "V0424",
+          "korean": "응",
+          "chinese": "嗯（半語的「是」）",
+          "romanization": "eung",
+          "partOfSpeech": "interjection",
+          "tier": "S",
+          "frequencyRank": 250,
+          "example": {
+            "korean": "응, 알아.",
+            "chinese": "嗯，我知道。",
+            "speechLevel": "casual"
+          },
+          "usage": "네 的半語。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0425",
+          "korean": "아니",
+          "chinese": "不（半語）",
+          "romanization": "a-ni",
+          "partOfSpeech": "interjection",
+          "tier": "S",
+          "frequencyRank": 251,
+          "example": {
+            "korean": "아니, 안 가.",
+            "chinese": "不，我不去。",
+            "speechLevel": "casual"
+          },
+          "usage": "아니요 的半語。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0426",
+          "korean": "나",
+          "chinese": "我（半語）",
+          "romanization": "na",
+          "partOfSpeech": "pronoun",
+          "tier": "S",
+          "frequencyRank": 252,
+          "example": {
+            "korean": "나도 좋아.",
+            "chinese": "我也喜歡。",
+            "speechLevel": "casual"
+          },
+          "usage": "저 的半語。나＋가 → 내가、나의 → 내。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0427",
+          "korean": "너",
+          "chinese": "你（半語）",
+          "romanization": "neo",
+          "partOfSpeech": "pronoun",
+          "tier": "S",
+          "frequencyRank": 253,
+          "example": {
+            "korean": "너 뭐 해?",
+            "chinese": "你在幹嘛？",
+            "speechLevel": "casual"
+          },
+          "usage": "只對很熟的朋友或晚輩用。네가 口語唸 [니가]。",
+          "commonMistake": "韓語很少直接說「你」，對不熟的人不要用 너，也避免用 당신。"
+        },
+        {
+          "id": "V0428",
+          "korean": "내가",
+          "chinese": "我（主語，半語）",
+          "romanization": "nae-ga",
+          "partOfSpeech": "pronoun",
+          "tier": "S",
+          "frequencyRank": 254,
+          "example": {
+            "korean": "내가 할게.",
+            "chinese": "我來做。",
+            "speechLevel": "casual"
+          },
+          "usage": "제가 的半語。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0429",
+          "korean": "뭐 해?",
+          "chinese": "在幹嘛？",
+          "romanization": "mwo hae",
+          "partOfSpeech": "expression",
+          "tier": "S",
+          "frequencyRank": 255,
+          "example": {
+            "korean": "지금 뭐 해?",
+            "chinese": "你現在在幹嘛？",
+            "speechLevel": "casual"
+          },
+          "usage": "뭐 해요? 的半語。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0430",
+          "korean": "고마워",
+          "chinese": "謝啦",
+          "romanization": "go-ma-wo",
+          "partOfSpeech": "expression",
+          "tier": "S",
+          "frequencyRank": 256,
+          "example": {
+            "korean": "진짜 고마워.",
+            "chinese": "真的謝啦。",
+            "speechLevel": "casual"
+          },
+          "usage": "고마워요 的半語。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0431",
+          "korean": "미안해",
+          "chinese": "抱歉",
+          "romanization": "mi-an-hae",
+          "pronunciation": "[미아내]",
+          "partOfSpeech": "expression",
+          "tier": "S",
+          "frequencyRank": 257,
+          "example": {
+            "korean": "늦어서 미안해.",
+            "chinese": "抱歉遲到了。",
+            "speechLevel": "casual"
+          },
+          "usage": "미안해요 的半語。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0432",
+          "korean": "괜찮아",
+          "chinese": "沒關係",
+          "romanization": "gwaen-cha-na",
+          "pronunciation": "[괜차나]",
+          "partOfSpeech": "expression",
+          "tier": "S",
+          "frequencyRank": 258,
+          "example": {
+            "korean": "괜찮아, 걱정하지 마.",
+            "chinese": "沒關係，別擔心。",
+            "speechLevel": "casual"
+          },
+          "usage": "괜찮아요 的半語。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0433",
+          "korean": "야",
+          "chinese": "喂；嘿（叫朋友）",
+          "romanization": "ya",
+          "partOfSpeech": "interjection",
+          "tier": "A",
+          "frequencyRank": 140,
+          "example": {
+            "korean": "야, 어디야?",
+            "chinese": "喂，你在哪？",
+            "speechLevel": "casual"
+          },
+          "usage": "只對很熟的朋友用，對長輩非常不禮貌。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0434",
+          "korean": "밥 먹었어?",
+          "chinese": "吃飯了沒？",
+          "romanization": "bap meo-geo-sseo",
+          "pronunciation": "[밤 머거써]",
+          "partOfSpeech": "expression",
+          "tier": "S",
+          "frequencyRank": 259,
+          "example": {
+            "korean": "밥 먹었어?",
+            "chinese": "吃飯了沒？",
+            "speechLevel": "casual"
+          },
+          "usage": "朋友間常用的問候。",
+          "commonMistake": null
+        }
+      ],
+      "pronunciation": [
+        {
+          "id": "P3901",
+          "title": "네가 唸 [니가]",
+          "explanation": "「你」的主語形 네가 和「我」的 내가 在口語中幾乎同音，所以韓國人把 네가 唸成 [니가]，甚至寫成 니가。聽到 [니가] 就是「你」。",
+          "articulation": "[니가] 的 니 清楚發 [i]。",
+          "chineseSpeakerPitfall": "把 네가 照字唸，對方可能以為你說「我」。",
+          "samples": [
+            "내가",
+            "네가",
+            "너"
+          ],
+          "minimalPairs": []
+        },
+        {
+          "id": "P3902",
+          "title": "밥 먹었어 的鼻音化",
+          "explanation": "밥 먹었어? → [밤 머거써]：收音 ㅂ 遇到 ㅁ 變成 ㅁ。같이 가 → [가치 가]、뭐 해 → [뭐 해]。",
+          "articulation": "半語的句子短，音變更明顯，整句連著唸。",
+          "chineseSpeakerPitfall": "唸成 [밥 먹었어]，每個字分開。",
+          "samples": [
+            "밥 먹었어?",
+            "같이 가",
+            "괜찮아"
+          ],
+          "minimalPairs": []
+        }
+      ],
+      "grammar": [
+        {
+          "id": "G3901",
+          "title": "半語：해요體去掉「요」",
+          "pattern": "가요 → 가；먹어요 → 먹어；했어요 → 했어；갈 거예요 → 갈 거야；-(으)세요 → -아/어",
+          "explanation": "大部分的半語就是把해요體最後的「요」拿掉：뭐 해요? → 뭐 해?、밥 먹었어요? → 밥 먹었어?、같이 가요 → 같이 가。名詞：이에요 → 이야（학생이야）、예요 → 야（친구야）、아니에요 → 아니야。朋友間邀約常用 -자：같이 가자（一起去吧）、영화 보자。",
+          "speechLevel": "casual",
+          "examples": [
+            {
+              "korean": "지금 뭐 해?",
+              "chinese": "你現在在幹嘛？",
+              "speechLevel": "casual"
+            },
+            {
+              "korean": "나는 학생이야.",
+              "chinese": "我是學生。",
+              "speechLevel": "casual"
+            }
+          ]
+        },
+        {
+          "id": "G3902",
+          "title": "半語的稱呼與回答",
+          "pattern": "저 → 나；제가 → 내가；제 → 내；네 → 응；아니요 → 아니；名字＋아/야",
+          "explanation": "叫朋友名字：有收音＋아（지민아）、無收音＋야（민수야）。什麼時候用半語：同年齡的朋友（동갑）、小時候的朋友、家人、年紀比你小而且熟的人。第一次見面、對長輩、工作場合都不要用。",
+          "speechLevel": "casual",
+          "examples": [
+            {
+              "korean": "민수야, 밥 먹었어?",
+              "chinese": "民秀，吃飯了沒？",
+              "speechLevel": "casual"
+            },
+            {
+              "korean": "응, 내가 먼저 먹었어.",
+              "chinese": "嗯，我先吃了。",
+              "speechLevel": "casual"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "korean": "뭐 해?",
+          "chinese": "在幹嘛？",
+          "speechLevel": "casual"
+        },
+        {
+          "korean": "응, 알아.",
+          "chinese": "嗯，我知道。",
+          "speechLevel": "casual"
+        },
+        {
+          "korean": "나도 같이 가.",
+          "chinese": "我也一起去。",
+          "speechLevel": "casual"
+        },
+        {
+          "korean": "지민아, 고마워.",
+          "chinese": "智敏，謝啦。",
+          "speechLevel": "casual"
+        },
+        {
+          "korean": "괜찮아, 걱정하지 마.",
+          "chinese": "沒關係，別擔心。",
+          "speechLevel": "casual"
+        }
+      ],
+      "listening": [
+        {
+          "id": "L3901",
+          "audioText": "지금 뭐 해?",
+          "question": "這句話是對誰說的？",
+          "options": [
+            "很熟的朋友",
+            "公司的上司",
+            "第一次見面的人"
+          ],
+          "answerIndex": 0,
+          "explanation": "去掉 요 的半語。"
+        },
+        {
+          "id": "L3902",
+          "audioText": "응, 나도 좋아.",
+          "question": "意思是？",
+          "options": [
+            "嗯，我也喜歡。",
+            "不，我不喜歡。",
+            "你也喜歡嗎？"
+          ],
+          "answerIndex": 0,
+          "explanation": "응＝嗯；나＝我。"
+        },
+        {
+          "id": "L3903",
+          "audioText": "민수야, 밥 먹었어?",
+          "question": "說話的人在做什麼？",
+          "options": [
+            "叫朋友並問他吃飯了沒",
+            "請朋友吃飯",
+            "說自己吃過了"
+          ],
+          "answerIndex": 0,
+          "explanation": "민수야＝叫名字。"
+        },
+        {
+          "id": "L3904",
+          "audioText": "밥 먹었어",
+          "question": "實際發音最接近哪一個？",
+          "options": [
+            "[밤 머거써]",
+            "[밥 먹어써]",
+            "[바 머거써]"
+          ],
+          "answerIndex": 0,
+          "explanation": "ㅂ 遇到 ㅁ 變 ㅁ。"
+        }
+      ],
+      "drills": [
+        {
+          "id": "D3901",
+          "type": "transformation",
+          "instruction": "해요體 → 半語：去掉「요」。",
+          "model": {
+            "korean": "뭐 해요? → 뭐 해?",
+            "chinese": "在幹嘛？",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 6,
+          "items": [
+            {
+              "cue": "밥 먹었어요?",
+              "answers": [
+                "밥 먹었어?"
+              ],
+              "chinese": "吃飯了沒？"
+            },
+            {
+              "cue": "같이 가요.",
+              "answers": [
+                "같이 가."
+              ],
+              "chinese": "一起去吧。"
+            },
+            {
+              "cue": "고마워요.",
+              "answers": [
+                "고마워."
+              ],
+              "chinese": "謝啦。"
+            },
+            {
+              "cue": "내일 뭐 할 거예요?",
+              "answers": [
+                "내일 뭐 할 거야?"
+              ],
+              "chinese": "明天要幹嘛？"
+            },
+            {
+              "cue": "괜찮아요.",
+              "answers": [
+                "괜찮아."
+              ],
+              "chinese": "沒關係。"
+            }
+          ]
+        },
+        {
+          "id": "D3902",
+          "type": "transformation",
+          "instruction": "名詞的半語：이에요／예요 → 이야／야。",
+          "model": {
+            "korean": "학생이에요. → 학생이야.",
+            "chinese": "是學生。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 6,
+          "items": [
+            {
+              "cue": "친구예요.",
+              "answers": [
+                "친구야."
+              ],
+              "chinese": "是朋友。"
+            },
+            {
+              "cue": "제 동생이에요.",
+              "answers": [
+                "내 동생이야."
+              ],
+              "chinese": "是我弟弟。"
+            },
+            {
+              "cue": "회사원이에요.",
+              "answers": [
+                "회사원이야."
+              ],
+              "chinese": "是上班族。"
+            },
+            {
+              "cue": "아니에요.",
+              "answers": [
+                "아니야."
+              ],
+              "chinese": "不是。"
+            },
+            {
+              "cue": "제 가방이에요.",
+              "answers": [
+                "내 가방이야."
+              ],
+              "chinese": "是我的包包。"
+            }
+          ]
+        },
+        {
+          "id": "D3903",
+          "type": "substitution",
+          "instruction": "叫朋友的名字問「在幹嘛？」：名字＋아/야, 뭐 해?",
+          "model": {
+            "korean": "민수야, 뭐 해?",
+            "chinese": "民秀，在幹嘛？",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 6,
+          "items": [
+            {
+              "cue": "지민",
+              "answers": [
+                "지민아, 뭐 해?"
+              ],
+              "chinese": "智敏，在幹嘛？"
+            },
+            {
+              "cue": "수지",
+              "answers": [
+                "수지야, 뭐 해?"
+              ],
+              "chinese": "秀智，在幹嘛？"
+            },
+            {
+              "cue": "현우",
+              "answers": [
+                "현우야, 뭐 해?"
+              ],
+              "chinese": "賢宇，在幹嘛？"
+            },
+            {
+              "cue": "서연",
+              "answers": [
+                "서연아, 뭐 해?"
+              ],
+              "chinese": "瑞妍，在幹嘛？"
+            },
+            {
+              "cue": "준호",
+              "answers": [
+                "준호야, 뭐 해?"
+              ],
+              "chinese": "俊浩，在幹嘛？"
+            }
+          ]
+        },
+        {
+          "id": "D3904",
+          "type": "questionAnswer",
+          "instruction": "朋友用半語問你，用半語回答。",
+          "model": {
+            "korean": "뭐 해? — 숙제해.",
+            "chinese": "在幹嘛？——在寫作業。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 6,
+          "items": [
+            {
+              "cue": "뭐 해?（看電視）",
+              "cueIsAudio": true,
+              "answers": [
+                "텔레비전 봐.",
+                "텔레비전 보고 있어."
+              ],
+              "chinese": "在看電視。"
+            },
+            {
+              "cue": "밥 먹었어?（嗯，吃了）",
+              "cueIsAudio": true,
+              "answers": [
+                "응, 먹었어."
+              ],
+              "chinese": "嗯，吃了。"
+            },
+            {
+              "cue": "내일 같이 영화 볼래?（好啊）",
+              "cueIsAudio": true,
+              "answers": [
+                "응, 좋아.",
+                "좋아."
+              ],
+              "chinese": "好啊。"
+            },
+            {
+              "cue": "이거 네 거야?（不，是朋友的）",
+              "cueIsAudio": true,
+              "answers": [
+                "아니, 친구 거야."
+              ],
+              "chinese": "不，是朋友的。"
+            },
+            {
+              "cue": "미안해, 늦었어.（沒關係）",
+              "cueIsAudio": true,
+              "answers": [
+                "괜찮아.",
+                "괜찮아, 걱정하지 마."
+              ],
+              "chinese": "沒關係。"
+            }
+          ]
+        },
+        {
+          "id": "D3905",
+          "type": "freeProduction",
+          "instruction": "傳訊息約好朋友週末出去（用半語，兩句）。",
+          "model": {
+            "korean": "주말에 뭐 해? 같이 영화 보자.",
+            "chinese": "週末要幹嘛？一起看電影吧。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 10,
+          "items": [
+            {
+              "cue": "自由回答",
+              "answers": [
+                "주말에 뭐 해?",
+                "같이 영화 볼래?",
+                "같이 영화 보자."
+              ],
+              "chinese": "（參考答案）"
+            }
+          ]
+        }
+      ],
+      "speaking": {
+        "scenario": "和同年的韓國朋友（已經說好可以用半語）聊天、約時間。AI 扮演朋友，全程使用半語。使用者會：去掉 요、응／아니、나／내가、名字＋아/야。",
+        "speechLevel": "casual",
+        "offlineScript": [
+          {
+            "cue": "야, 지금 뭐 해?（提示：在家休息）",
+            "cueIsAudio": true,
+            "answers": [
+              "집에서 쉬어.",
+              "집에서 쉬고 있어."
+            ],
+            "chinese": "在家休息。"
+          },
+          {
+            "cue": "밥 먹었어?（提示：還沒）",
+            "cueIsAudio": true,
+            "answers": [
+              "아니, 아직 안 먹었어.",
+              "아직 안 먹었어."
+            ],
+            "chinese": "還沒吃。"
+          },
+          {
+            "cue": "그럼 같이 먹자! 내가 살게.（提示：真的嗎？謝啦）",
+            "cueIsAudio": true,
+            "answers": [
+              "진짜? 고마워.",
+              "고마워!"
+            ],
+            "chinese": "真的嗎？謝啦。"
+          }
+        ]
+      },
+      "postTest": [
+        {
+          "id": "Q3901",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「밥 먹었어요?」的半語是？",
+          "audioText": null,
+          "options": [
+            "밥 먹었어?",
+            "밥 먹었어요.",
+            "밥 먹었니요?"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "去掉 요。"
+        },
+        {
+          "id": "Q3902",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「是朋友。」的半語是？",
+          "audioText": null,
+          "options": [
+            "친구야.",
+            "친구이야.",
+            "친구아."
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "친구 沒有收音 → 야。"
+        },
+        {
+          "id": "Q3903",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "叫朋友「智敏（지민）」怎麼叫？",
+          "audioText": null,
+          "options": [
+            "지민아",
+            "지민야",
+            "지민이야"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "有收音＋아。"
+        },
+        {
+          "id": "Q3904",
+          "skill": "listening",
+          "kind": "listeningChoice",
+          "prompt": "聽句子選情境",
+          "audioText": "야, 너 어디야?",
+          "options": [
+            "對很熟的朋友說",
+            "對老師說",
+            "對客人說"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "半語只用在熟的朋友、晚輩。"
+        },
+        {
+          "id": "Q3905",
+          "skill": "grammar",
+          "kind": "typing",
+          "prompt": "用韓文寫（半語）：沒關係。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "괜찮아.",
+            "괜찮아!"
+          ],
+          "explanation": "괜찮아."
+        },
+        {
+          "id": "Q3906",
+          "skill": "speaking",
+          "kind": "speaking",
+          "prompt": "用半語說：你在幹嘛？",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "뭐 해?",
+            "지금 뭐 해?",
+            "너 뭐 해?"
+          ],
+          "explanation": "뭐 해?"
+        }
+      ],
+      "completion": {
+        "postTestPassRatio": 0.8,
+        "drillAccuracy": 0.8,
+        "requireVocabularyQuiz": true
+      }
+    },
+    {
+      "id": "U08L05",
+      "title": "稱謂、年齡文化與場合用語",
+      "estimatedMinutes": 50,
+      "objectives": [
+        "理解韓國的年齡文化：問出生年、동갑、선배／후배",
+        "依關係選稱呼：선생님、사장님、N 씨、언니／오빠、이모",
+        "知道什麼時候、怎麼轉換成半語：말 편하게 하세요、말 놓을까요?",
+        "說出吃飯、下班、進出門的固定用語"
+      ],
+      "vocabulary": [
+        {
+          "id": "V0435",
+          "korean": "동갑",
+          "chinese": "同年；同歲",
+          "romanization": "dong-gap",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 141,
+          "example": {
+            "korean": "우리 동갑이에요!",
+            "chinese": "我們同年耶！",
+            "speechLevel": "polite"
+          },
+          "usage": "同年的人通常很快就改用半語。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0436",
+          "korean": "선배",
+          "chinese": "前輩；學長姊",
+          "romanization": "seon-bae",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 260,
+          "example": {
+            "korean": "학교 선배예요.",
+            "chinese": "是學校的學長姊。",
+            "speechLevel": "polite"
+          },
+          "usage": "對前輩說話用敬語。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0437",
+          "korean": "후배",
+          "chinese": "後輩；學弟妹",
+          "romanization": "hu-bae",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 142,
+          "example": {
+            "korean": "회사 후배예요.",
+            "chinese": "是公司的後輩。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0438",
+          "korean": "년생",
+          "chinese": "…年出生",
+          "romanization": "nyeon-saeng",
+          "partOfSpeech": "counter",
+          "tier": "A",
+          "frequencyRank": 143,
+          "example": {
+            "korean": "몇 년생이에요?",
+            "chinese": "你是哪一年出生的？",
+            "speechLevel": "polite"
+          },
+          "usage": "韓國人常用出生年來確認年齡關係：구십오 년생（95 年生）。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0439",
+          "korean": "이모",
+          "chinese": "阿姨（也用來叫餐廳的阿姨）",
+          "romanization": "i-mo",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 144,
+          "example": {
+            "korean": "이모, 여기 물 좀 주세요.",
+            "chinese": "阿姨，這裡請給我水。",
+            "speechLevel": "polite"
+          },
+          "usage": "原意是媽媽的姊妹；在小吃店叫女店員很常見。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0440",
+          "korean": "잘 먹겠습니다",
+          "chinese": "我要開動了",
+          "romanization": "jal meok-get-seum-ni-da",
+          "pronunciation": "[잘 먹껟씀니다]",
+          "partOfSpeech": "expression",
+          "tier": "S",
+          "frequencyRank": 261,
+          "example": {
+            "korean": "잘 먹겠습니다!",
+            "chinese": "我要開動了！",
+            "speechLevel": "formal"
+          },
+          "usage": "吃飯前說，特別是別人請客時。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0441",
+          "korean": "잘 먹었습니다",
+          "chinese": "謝謝招待；吃飽了",
+          "romanization": "jal meo-geot-seum-ni-da",
+          "pronunciation": "[잘 머걷씀니다]",
+          "partOfSpeech": "expression",
+          "tier": "S",
+          "frequencyRank": 262,
+          "example": {
+            "korean": "잘 먹었습니다.",
+            "chinese": "謝謝招待。",
+            "speechLevel": "formal"
+          },
+          "usage": "吃完飯說。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0442",
+          "korean": "수고하셨습니다",
+          "chinese": "辛苦了",
+          "romanization": "su-go-ha-syeot-seum-ni-da",
+          "pronunciation": "[수고하셛씀니다]",
+          "partOfSpeech": "expression",
+          "tier": "S",
+          "frequencyRank": 263,
+          "example": {
+            "korean": "오늘도 수고하셨습니다.",
+            "chinese": "今天也辛苦了。",
+            "speechLevel": "formal"
+          },
+          "usage": "下班、工作結束時說。對上司說 수고하셨습니다 沒問題，但不要說 *수고하세요 給上司。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0443",
+          "korean": "실례합니다",
+          "chinese": "不好意思（打擾了）",
+          "romanization": "sil-lye-ham-ni-da",
+          "pronunciation": "[실레함니다]",
+          "partOfSpeech": "expression",
+          "tier": "S",
+          "frequencyRank": 264,
+          "example": {
+            "korean": "실례합니다, 화장실이 어디예요?",
+            "chinese": "不好意思，請問洗手間在哪裡？",
+            "speechLevel": "formal"
+          },
+          "usage": "叫住陌生人、進入別人的空間時說。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0444",
+          "korean": "다녀오겠습니다",
+          "chinese": "我出門了",
+          "romanization": "da-nyeo-o-get-seum-ni-da",
+          "pronunciation": "[다녀오겓씀니다]",
+          "partOfSpeech": "expression",
+          "tier": "A",
+          "frequencyRank": 145,
+          "example": {
+            "korean": "엄마, 다녀오겠습니다!",
+            "chinese": "媽，我出門了！",
+            "speechLevel": "formal"
+          },
+          "usage": "出門時對家人說；回來時說 다녀왔습니다。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0445",
+          "korean": "편하게",
+          "chinese": "輕鬆地；自在地",
+          "romanization": "pyeon-ha-ge",
+          "partOfSpeech": "adverb",
+          "tier": "A",
+          "frequencyRank": 146,
+          "example": {
+            "korean": "말 편하게 하세요.",
+            "chinese": "說話輕鬆一點（用半語也可以）。",
+            "speechLevel": "polite"
+          },
+          "usage": "말 편하게 하세요＝您可以對我說半語。",
+          "commonMistake": null
+        }
+      ],
+      "pronunciation": [
+        {
+          "id": "P4001",
+          "title": "場合用語的音變總整理",
+          "explanation": "잘 먹겠습니다 → [잘 먹껟씀니다]、잘 먹었습니다 → [잘 머걷씀니다]、수고하셨습니다 → [수고하셛씀니다]、실례합니다 → [실레함니다]（ㅖ 唸 [ㅔ]、ㅂ 鼻音化）。",
+          "articulation": "這些話每天都會說，把整句當成一個詞背起來。",
+          "chineseSpeakerPitfall": "照字一個一個唸，會很像在讀課本。",
+          "samples": [
+            "잘 먹겠습니다",
+            "잘 먹었습니다",
+            "수고하셨습니다",
+            "실례합니다"
+          ],
+          "minimalPairs": []
+        },
+        {
+          "id": "P4002",
+          "title": "동갑、년생",
+          "explanation": "동갑 → [동갑]，동갑이에요 → [동가비에요]；구십오 년생 → [구시보 년생]。",
+          "articulation": "收音 ㅂ 接母音移到下一個字：[동가비에요]。",
+          "chineseSpeakerPitfall": "동갑 唸成 [동가]，漏掉收音。",
+          "samples": [
+            "동갑이에요",
+            "몇 년생이에요?"
+          ],
+          "minimalPairs": []
+        }
+      ],
+      "grammar": [
+        {
+          "id": "G4001",
+          "title": "依關係選擇語體和稱呼",
+          "pattern": "長輩、上司、客人 → 합쇼體／해요體＋-(으)시-；同事、陌生人 → 해요體＋N 씨；熟朋友、晚輩 → 半語＋名字",
+          "explanation": "韓國人很在意年齡，第一次見面常問 몇 년생이에요?、나이가 어떻게 돼요?。比自己大的熟人：男生叫 형／누나、女生叫 오빠／언니；學校或公司的前輩叫 선배（님）；店家老闆叫 사장님；小吃店的阿姨叫 이모。對同事不要直接叫名字，要說「名字＋씨」，對上司說「職稱＋님」：부장님、과장님。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "저는 구십오 년생이에요.",
+              "chinese": "我是 95 年生的。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "우리 동갑이에요! 말 편하게 해요.",
+              "chinese": "我們同年耶！說話輕鬆一點吧。",
+              "speechLevel": "polite"
+            }
+          ]
+        },
+        {
+          "id": "G4002",
+          "title": "什麼時候改用半語",
+          "pattern": "年長的一方先提議：말 편하게 하세요／말 놓을까요?",
+          "explanation": "通常由年紀大或地位高的一方先提議：말 편하게 하세요（您跟我說半語就好）、우리 말 놓을까요?（我們要不要改說半語？）。同年的人互相提議也可以。對方沒有提議前，繼續用해요體比較安全。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "말 편하게 하세요.",
+              "chinese": "說話輕鬆一點（可以說半語）。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "우리 말 놓을까요?",
+              "chinese": "我們要不要改說半語？",
+              "speechLevel": "polite"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "korean": "몇 년생이에요?",
+          "chinese": "你是哪一年出生的？",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "우리 동갑이에요!",
+          "chinese": "我們同年耶！",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "잘 먹겠습니다!",
+          "chinese": "我要開動了！",
+          "speechLevel": "formal"
+        },
+        {
+          "korean": "오늘도 수고하셨습니다.",
+          "chinese": "今天也辛苦了。",
+          "speechLevel": "formal"
+        },
+        {
+          "korean": "실례합니다.",
+          "chinese": "不好意思。",
+          "speechLevel": "formal"
+        }
+      ],
+      "listening": [
+        {
+          "id": "L4001",
+          "audioText": "잘 먹겠습니다!",
+          "question": "這句話在什麼時候說？",
+          "options": [
+            "吃飯前",
+            "吃飯後",
+            "出門時"
+          ],
+          "answerIndex": 0,
+          "explanation": "먹겠습니다＝要吃了。"
+        },
+        {
+          "id": "L4002",
+          "audioText": "오늘도 수고하셨습니다.",
+          "question": "這句話在什麼時候說？",
+          "options": [
+            "下班、工作結束時",
+            "早上見面時",
+            "道歉時"
+          ],
+          "answerIndex": 0,
+          "explanation": "수고하셨습니다＝辛苦了。"
+        },
+        {
+          "id": "L4003",
+          "audioText": "우리 동갑이에요! 말 편하게 해요.",
+          "question": "對方的意思是？",
+          "options": [
+            "我們同年，說半語吧。",
+            "我們不同年，要用敬語。",
+            "請說慢一點。"
+          ],
+          "answerIndex": 0,
+          "explanation": "동갑＝同年；말 편하게＝說半語。"
+        },
+        {
+          "id": "L4004",
+          "audioText": "실례합니다",
+          "question": "實際發音最接近哪一個？",
+          "options": [
+            "[실레함니다]",
+            "[실례합니다]（不變）",
+            "[시레함니다]"
+          ],
+          "answerIndex": 0,
+          "explanation": "ㅖ 唸 [ㅔ]，ㅂ 鼻音化。"
+        }
+      ],
+      "drills": [
+        {
+          "id": "D4001",
+          "type": "substitution",
+          "instruction": "依情境說場合用語。",
+          "model": {
+            "korean": "（吃飯前）→ 잘 먹겠습니다.",
+            "chinese": "我要開動了。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 6,
+          "items": [
+            {
+              "cue": "吃完飯",
+              "answers": [
+                "잘 먹었습니다."
+              ],
+              "chinese": "謝謝招待。"
+            },
+            {
+              "cue": "下班時對同事",
+              "answers": [
+                "수고하셨습니다."
+              ],
+              "chinese": "辛苦了。"
+            },
+            {
+              "cue": "叫住陌生人問路",
+              "answers": [
+                "실례합니다."
+              ],
+              "chinese": "不好意思。"
+            },
+            {
+              "cue": "出門時對家人",
+              "answers": [
+                "다녀오겠습니다."
+              ],
+              "chinese": "我出門了。"
+            },
+            {
+              "cue": "回到家",
+              "answers": [
+                "다녀왔습니다."
+              ],
+              "chinese": "我回來了。"
+            }
+          ]
+        },
+        {
+          "id": "D4002",
+          "type": "transformation",
+          "instruction": "依對象改說法：朋友（半語） → 長輩（敬語）。",
+          "model": {
+            "korean": "밥 먹었어? → 식사하셨어요?",
+            "chinese": "吃飯了沒？→ 您吃過飯了嗎？",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 8,
+          "items": [
+            {
+              "cue": "뭐 해?",
+              "answers": [
+                "뭐 하세요?"
+              ],
+              "chinese": "您在做什麼？"
+            },
+            {
+              "cue": "어디 가?",
+              "answers": [
+                "어디 가세요?"
+              ],
+              "chinese": "您去哪裡？"
+            },
+            {
+              "cue": "잘 자.",
+              "answers": [
+                "안녕히 주무세요."
+              ],
+              "chinese": "晚安。"
+            },
+            {
+              "cue": "고마워.",
+              "answers": [
+                "감사합니다.",
+                "고맙습니다."
+              ],
+              "chinese": "謝謝您。"
+            },
+            {
+              "cue": "많이 먹어.",
+              "answers": [
+                "많이 드세요."
+              ],
+              "chinese": "請多吃一點。"
+            }
+          ]
+        },
+        {
+          "id": "D4003",
+          "type": "transformation",
+          "instruction": "依對象改說法：長輩（敬語） → 朋友（半語）。",
+          "model": {
+            "korean": "어디 가세요? → 어디 가?",
+            "chinese": "去哪裡？",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 6,
+          "items": [
+            {
+              "cue": "식사하셨어요?",
+              "answers": [
+                "밥 먹었어?"
+              ],
+              "chinese": "吃飯了沒？"
+            },
+            {
+              "cue": "안녕히 주무세요.",
+              "answers": [
+                "잘 자."
+              ],
+              "chinese": "晚安。"
+            },
+            {
+              "cue": "감사합니다.",
+              "answers": [
+                "고마워."
+              ],
+              "chinese": "謝啦。"
+            },
+            {
+              "cue": "죄송합니다.",
+              "answers": [
+                "미안해."
+              ],
+              "chinese": "抱歉。"
+            },
+            {
+              "cue": "뭐 하세요?",
+              "answers": [
+                "뭐 해?"
+              ],
+              "chinese": "在幹嘛？"
+            }
+          ]
+        },
+        {
+          "id": "D4004",
+          "type": "questionAnswer",
+          "instruction": "認識新朋友：聽問題，依提示回答。",
+          "model": {
+            "korean": "몇 년생이에요? — 구십오 년생이에요.",
+            "chinese": "你是哪一年出生的？——95 年生的。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "몇 년생이에요?（95 年生）",
+              "cueIsAudio": true,
+              "answers": [
+                "구십오 년생이에요.",
+                "95년생이에요.",
+                "저는 구십오 년생이에요."
+              ],
+              "chinese": "95 年生的。"
+            },
+            {
+              "cue": "저도 구십오 년생이에요!（我們同年耶）",
+              "cueIsAudio": true,
+              "answers": [
+                "우리 동갑이에요!",
+                "와, 우리 동갑이에요!"
+              ],
+              "chinese": "我們同年耶！"
+            },
+            {
+              "cue": "우리 말 놓을까요?（好啊——用半語回答）",
+              "cueIsAudio": true,
+              "answers": [
+                "응, 좋아!",
+                "좋아!",
+                "그래, 좋아!"
+              ],
+              "chinese": "好啊！"
+            },
+            {
+              "cue": "이분은 누구예요?（學校的學長姊）",
+              "cueIsAudio": true,
+              "answers": [
+                "학교 선배예요.",
+                "제 학교 선배예요."
+              ],
+              "chinese": "是學校的學長姊。"
+            },
+            {
+              "cue": "（在小吃店叫阿姨要水）",
+              "cueIsAudio": true,
+              "answers": [
+                "이모, 여기 물 좀 주세요.",
+                "이모, 물 좀 주세요."
+              ],
+              "chinese": "阿姨，請給我水。"
+            }
+          ]
+        },
+        {
+          "id": "D4005",
+          "type": "freeProduction",
+          "instruction": "請同事吃飯：吃飯前、吃完後各說一句，再對同事說「辛苦了」。",
+          "model": {
+            "korean": "잘 먹겠습니다! … 잘 먹었습니다. 오늘 수고하셨습니다.",
+            "chinese": "我要開動了！……謝謝招待。今天辛苦了。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 10,
+          "items": [
+            {
+              "cue": "自由回答",
+              "answers": [
+                "잘 먹겠습니다.",
+                "잘 먹었습니다.",
+                "수고하셨습니다."
+              ],
+              "chinese": "（參考答案）"
+            }
+          ]
+        }
+      ],
+      "speaking": {
+        "scenario": "在韓國的聚餐上認識一位新同事，發現彼此同年，聊著聊著改用半語。AI 扮演同事，前兩句用해요體，最後改用半語。使用者會：몇 년생、동갑、말 편하게、半語。",
+        "speechLevel": "polite",
+        "offlineScript": [
+          {
+            "cue": "실례지만 몇 년생이에요?（提示：95 年生）",
+            "cueIsAudio": true,
+            "answers": [
+              "구십오 년생이에요.",
+              "95년생이에요.",
+              "저는 구십오 년생이에요."
+            ],
+            "chinese": "95 年生的。"
+          },
+          {
+            "cue": "어? 저도 구십오 년생이에요!（提示：我們同年耶，要不要說半語？）",
+            "cueIsAudio": true,
+            "answers": [
+              "우리 동갑이에요! 말 놓을까요?",
+              "동갑이에요! 우리 말 편하게 해요."
+            ],
+            "chinese": "我們同年耶！要不要說半語？"
+          },
+          {
+            "cue": "좋아! 그럼 이제 말 놓자. 다음에 같이 밥 먹을래?（提示：用半語回答：好啊）",
+            "cueIsAudio": true,
+            "answers": [
+              "응, 좋아!",
+              "좋아! 같이 먹자."
+            ],
+            "chinese": "好啊！"
+          }
+        ]
+      },
+      "postTest": [
+        {
+          "id": "Q4001",
+          "skill": "vocabulary",
+          "kind": "choice",
+          "prompt": "吃完別人請的飯，要說什麼？",
+          "audioText": null,
+          "options": [
+            "잘 먹었습니다.",
+            "잘 먹겠습니다.",
+            "다녀오겠습니다."
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "吃完說 잘 먹었습니다。"
+        },
+        {
+          "id": "Q4002",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "第一次見面的同事，怎麼稱呼最恰當？",
+          "audioText": null,
+          "options": [
+            "지민 씨",
+            "지민아",
+            "너"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "同事用「名字＋씨」。"
+        },
+        {
+          "id": "Q4003",
+          "skill": "vocabulary",
+          "kind": "choice",
+          "prompt": "「同年」的韓語是？",
+          "audioText": null,
+          "options": [
+            "동갑",
+            "선배",
+            "후배"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "동갑＝同年。"
+        },
+        {
+          "id": "Q4004",
+          "skill": "listening",
+          "kind": "listeningChoice",
+          "prompt": "聽句子選意思",
+          "audioText": "말 편하게 하세요.",
+          "options": [
+            "您可以對我說半語。",
+            "請說慢一點。",
+            "請說韓語。"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "말 편하게 하세요＝可以對我說半語。"
+        },
+        {
+          "id": "Q4005",
+          "skill": "grammar",
+          "kind": "typing",
+          "prompt": "用韓文寫：今天也辛苦了。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "오늘도 수고하셨습니다.",
+            "오늘도 수고하셨어요.",
+            "수고하셨습니다."
+          ],
+          "explanation": "오늘도 수고하셨습니다."
+        },
+        {
+          "id": "Q4006",
+          "skill": "speaking",
+          "kind": "speaking",
+          "prompt": "說出：我要開動了。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "잘 먹겠습니다."
+          ],
+          "explanation": "잘 먹겠습니다."
+        }
+      ],
+      "completion": {
+        "postTestPassRatio": 0.8,
+        "drillAccuracy": 0.8,
+        "requireVocabularyQuiz": true
+      }
+    }
+  ]
 }
