@@ -100,6 +100,8 @@ struct StudyStoreIntegrationTests {
         #expect(result.startUnitNumber == 4)
         store.applyPlacement(result, sectionScores: scores)
         #expect(store.currentLesson?.id == "U04L01")
+        // 第 5 單元已開放，但起點在第 4 單元，不能被跳過
+        #expect(store.library.units[4].lessons.allSatisfy { store.status(of: $0) == .notStarted })
         let earlier = store.library.units.prefix(3).flatMap(\.lessons)
         #expect(earlier.allSatisfy { store.status(of: $0) == .skippedByTest })
     }

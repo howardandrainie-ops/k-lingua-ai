@@ -3,7 +3,3403 @@
   "number": 5,
   "title": "數字、時間、日期",
   "stage": 2,
-  "summary": "漢字音數字與固有數字、價錢、時間、日期、星期與量詞。",
-  "available": false,
-  "lessons": []
+  "summary": "漢字音數字（價錢、電話、分鐘、日期）與固有數字（數量、點、年齡、小時）、量詞、時間、星期、日期與「從…到…」。含數字的答案同時接受韓文與阿拉伯數字。",
+  "available": true,
+  "lessons": [
+    {
+      "id": "U05L01",
+      "title": "漢字音數字、價錢與電話號碼",
+      "estimatedMinutes": 55,
+      "objectives": [
+        "唸出漢字音數字 0–10、百、千、萬",
+        "用「얼마예요?」問價錢，用「N 원이에요」回答",
+        "唸電話號碼：010-1234-5678",
+        "掌握數字的音變：십육 → [심뉵]、십만 → [심만]"
+      ],
+      "vocabulary": [
+        {
+          "id": "V0220",
+          "korean": "일 이 삼 사 오",
+          "chinese": "一、二、三、四、五（漢字音）",
+          "romanization": "il i sam sa o",
+          "partOfSpeech": "numeral",
+          "tier": "S",
+          "frequencyRank": 120,
+          "example": {
+            "korean": "일, 이, 삼, 사, 오.",
+            "chinese": "一、二、三、四、五。",
+            "speechLevel": "polite"
+          },
+          "usage": "漢字音數字用在價錢、電話、日期、分鐘。일 也是「工作」，이 也是「這」，靠上下文分辨。",
+          "commonMistake": "사（四）和 십（十）的 ㅅ 不送氣。"
+        },
+        {
+          "id": "V0221",
+          "korean": "육 칠 팔 구 십",
+          "chinese": "六、七、八、九、十（漢字音）",
+          "romanization": "yuk chil pal gu sip",
+          "partOfSpeech": "numeral",
+          "tier": "S",
+          "frequencyRank": 121,
+          "example": {
+            "korean": "육, 칠, 팔, 구, 십.",
+            "chinese": "六、七、八、九、十。",
+            "speechLevel": "polite"
+          },
+          "usage": "11＝십일、20＝이십、99＝구십구。",
+          "commonMistake": "육 在 십 後面唸 [뉵]：십육 → [심뉵]。"
+        },
+        {
+          "id": "V0222",
+          "korean": "공",
+          "chinese": "零",
+          "romanization": "gong",
+          "partOfSpeech": "numeral",
+          "tier": "S",
+          "frequencyRank": 122,
+          "example": {
+            "korean": "공일공이에요.",
+            "chinese": "是 010。",
+            "speechLevel": "polite"
+          },
+          "usage": "電話號碼的 0 唸 공；數學上的 0 唸 영。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0223",
+          "korean": "백",
+          "chinese": "百",
+          "romanization": "baek",
+          "partOfSpeech": "numeral",
+          "tier": "S",
+          "frequencyRank": 123,
+          "example": {
+            "korean": "백 원이에요.",
+            "chinese": "一百元。",
+            "speechLevel": "polite"
+          },
+          "usage": "100 直接說 백，不說 일백。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0224",
+          "korean": "천",
+          "chinese": "千",
+          "romanization": "cheon",
+          "partOfSpeech": "numeral",
+          "tier": "S",
+          "frequencyRank": 124,
+          "example": {
+            "korean": "천 원이에요.",
+            "chinese": "一千元。",
+            "speechLevel": "polite"
+          },
+          "usage": "1000 直接說 천。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0225",
+          "korean": "만",
+          "chinese": "萬",
+          "romanization": "man",
+          "partOfSpeech": "numeral",
+          "tier": "S",
+          "frequencyRank": 125,
+          "example": {
+            "korean": "만 원이에요.",
+            "chinese": "一萬元。",
+            "speechLevel": "polite"
+          },
+          "usage": "韓國以「萬」為單位，和中文一樣：3만＝三萬。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0226",
+          "korean": "원",
+          "chinese": "韓元（元）",
+          "romanization": "won",
+          "partOfSpeech": "counter",
+          "tier": "S",
+          "frequencyRank": 126,
+          "example": {
+            "korean": "오천 원이에요.",
+            "chinese": "五千元。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0227",
+          "korean": "얼마",
+          "chinese": "多少（錢）",
+          "romanization": "eol-ma",
+          "partOfSpeech": "pronoun",
+          "tier": "S",
+          "frequencyRank": 127,
+          "example": {
+            "korean": "이거 얼마예요?",
+            "chinese": "這個多少錢？",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0228",
+          "korean": "전화번호",
+          "chinese": "電話號碼",
+          "romanization": "jeon-hwa-beon-ho",
+          "pronunciation": "[전화번호]，口語常唸 [저놔버노]",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 128,
+          "example": {
+            "korean": "전화번호가 뭐예요?",
+            "chinese": "電話號碼是多少？",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0229",
+          "korean": "번",
+          "chinese": "號；次",
+          "romanization": "beon",
+          "partOfSpeech": "counter",
+          "tier": "S",
+          "frequencyRank": 129,
+          "example": {
+            "korean": "몇 번이에요?",
+            "chinese": "幾號？",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0230",
+          "korean": "몇",
+          "chinese": "幾",
+          "romanization": "myeot",
+          "pronunciation": "[멷]",
+          "partOfSpeech": "pronoun",
+          "tier": "S",
+          "frequencyRank": 130,
+          "example": {
+            "korean": "몇 번이에요?",
+            "chinese": "幾號？",
+            "speechLevel": "polite"
+          },
+          "usage": "몇＋量詞：몇 번、몇 시、몇 개。",
+          "commonMistake": "몇 後面的子音會變緊音：몇 번 → [멷뻔]。"
+        }
+      ],
+      "pronunciation": [
+        {
+          "id": "P2101",
+          "title": "數字裡的音變",
+          "explanation": "十幾的數字常有音變：십일 → [시빌]（連音）、십육 → [심뉵]（加 ㄴ 再鼻音化）、십만 → [심만]、백만 → [뱅만]（鼻音化）、육십 → [육씹]（緊音化）。",
+          "articulation": "一個數字一口氣唸完，音變自然就出來。",
+          "chineseSpeakerPitfall": "一個字一個字分開唸（십．육），聽起來像在報號碼而不是說數字。",
+          "samples": [
+            "십일",
+            "십육",
+            "십만",
+            "백만",
+            "육십"
+          ],
+          "minimalPairs": []
+        },
+        {
+          "id": "P2102",
+          "title": "電話號碼的唸法",
+          "explanation": "電話號碼一個數字一個數字唸，0 唸 공，連字號唸 에：010-1234-5678 → 공일공에 일이삼사에 오육칠팔。",
+          "articulation": "에 唸輕一點，像停頓一下。",
+          "chineseSpeakerPitfall": "把 0 唸成 영 也聽得懂，但電話號碼習慣唸 공。",
+          "samples": [
+            "공일공",
+            "일이삼사",
+            "오육칠팔"
+          ],
+          "minimalPairs": []
+        }
+      ],
+      "grammar": [
+        {
+          "id": "G2101",
+          "title": "漢字音數字的組合",
+          "pattern": "十位＋個位：십일（11）、이십（20）、이십오（25）；百、千、萬 同理",
+          "explanation": "和中文的組合方式一樣：이십삼＝二十三、삼백＝三百、오천＝五千、이만＝兩萬。100、1000、10000 前面不加 일：백、천、만。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "이십삼",
+              "chinese": "二十三",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "삼만 오천 원",
+              "chinese": "三萬五千元",
+              "speechLevel": "polite"
+            }
+          ]
+        },
+        {
+          "id": "G2102",
+          "title": "N 얼마예요?／N 원이에요",
+          "pattern": "N 얼마예요?（N 多少錢？）— N 원이에요（N 元）",
+          "explanation": "問價錢：이거 얼마예요?。回答：數字＋원이에요。원 有收音，所以接 이에요。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "이거 얼마예요?",
+              "chinese": "這個多少錢？",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "삼천 원이에요.",
+              "chinese": "三千元。",
+              "speechLevel": "polite"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "korean": "이거 얼마예요?",
+          "chinese": "這個多少錢？",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "오천 원이에요.",
+          "chinese": "五千元。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "전화번호가 뭐예요?",
+          "chinese": "電話號碼是多少？",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "공일공에 일이삼사에 오육칠팔이에요.",
+          "chinese": "是 010-1234-5678。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "만 원이에요.",
+          "chinese": "一萬元。",
+          "speechLevel": "polite"
+        }
+      ],
+      "listening": [
+        {
+          "id": "L2101",
+          "audioText": "이거 얼마예요?",
+          "question": "對方在問什麼？",
+          "options": [
+            "多少錢？",
+            "幾點？",
+            "電話號碼？"
+          ],
+          "answerIndex": 0,
+          "explanation": "얼마＝多少（錢）。"
+        },
+        {
+          "id": "L2102",
+          "audioText": "삼천 원이에요.",
+          "question": "價錢是？",
+          "options": [
+            "3,000 元",
+            "300 元",
+            "30,000 元"
+          ],
+          "answerIndex": 0,
+          "explanation": "삼천＝三千。"
+        },
+        {
+          "id": "L2103",
+          "audioText": "십육",
+          "question": "實際發音最接近哪一個？",
+          "options": [
+            "[심뉵]",
+            "[시뷱]",
+            "[십육]（分開）"
+          ],
+          "answerIndex": 0,
+          "explanation": "십육 → [심뉵]。"
+        },
+        {
+          "id": "L2104",
+          "audioText": "만 오천 원이에요.",
+          "question": "價錢是？",
+          "options": [
+            "15,000 元",
+            "5,000 元",
+            "50,000 元"
+          ],
+          "answerIndex": 0,
+          "explanation": "만（一萬）＋오천（五千）。"
+        }
+      ],
+      "drills": [
+        {
+          "id": "D2101",
+          "type": "substitution",
+          "instruction": "說出價錢：N 원이에요。",
+          "model": {
+            "korean": "천 원이에요.",
+            "chinese": "一千元。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "500",
+              "answers": [
+                "오백 원이에요.",
+                "500원이에요."
+              ],
+              "chinese": "五百元。"
+            },
+            {
+              "cue": "3,000",
+              "answers": [
+                "삼천 원이에요.",
+                "3000원이에요."
+              ],
+              "chinese": "三千元。"
+            },
+            {
+              "cue": "10,000",
+              "answers": [
+                "만 원이에요.",
+                "10000원이에요."
+              ],
+              "chinese": "一萬元。"
+            },
+            {
+              "cue": "4,500",
+              "answers": [
+                "사천오백 원이에요.",
+                "4500원이에요."
+              ],
+              "chinese": "四千五百元。"
+            },
+            {
+              "cue": "25,000",
+              "answers": [
+                "이만 오천 원이에요.",
+                "이만오천 원이에요.",
+                "25000원이에요."
+              ],
+              "chinese": "兩萬五千元。"
+            }
+          ]
+        },
+        {
+          "id": "D2102",
+          "type": "transformation",
+          "instruction": "把阿拉伯數字唸成韓文（漢字音）。",
+          "model": {
+            "korean": "15 → 십오",
+            "chinese": "十五",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 6,
+          "items": [
+            {
+              "cue": "11",
+              "answers": [
+                "십일",
+                "11"
+              ],
+              "chinese": "十一"
+            },
+            {
+              "cue": "16",
+              "answers": [
+                "십육",
+                "16"
+              ],
+              "chinese": "十六"
+            },
+            {
+              "cue": "20",
+              "answers": [
+                "이십",
+                "20"
+              ],
+              "chinese": "二十"
+            },
+            {
+              "cue": "38",
+              "answers": [
+                "삼십팔",
+                "38"
+              ],
+              "chinese": "三十八"
+            },
+            {
+              "cue": "100",
+              "answers": [
+                "백",
+                "100"
+              ],
+              "chinese": "一百"
+            }
+          ]
+        },
+        {
+          "id": "D2103",
+          "type": "questionAnswer",
+          "instruction": "聽韓語問題，依提示回答。",
+          "model": {
+            "korean": "이거 얼마예요? — 천 원이에요.",
+            "chinese": "這個多少錢？——一千元。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 8,
+          "items": [
+            {
+              "cue": "이거 얼마예요?（2,000 元）",
+              "cueIsAudio": true,
+              "answers": [
+                "이천 원이에요.",
+                "2000원이에요."
+              ],
+              "chinese": "兩千元。"
+            },
+            {
+              "cue": "커피 얼마예요?（4,500 元）",
+              "cueIsAudio": true,
+              "answers": [
+                "사천오백 원이에요.",
+                "4500원이에요."
+              ],
+              "chinese": "四千五百元。"
+            },
+            {
+              "cue": "전화번호가 뭐예요?（010-1234-5678）",
+              "cueIsAudio": true,
+              "answers": [
+                "공일공에 일이삼사에 오육칠팔이에요.",
+                "공일공 일이삼사 오육칠팔이에요.",
+                "010-1234-5678이에요.",
+                "01012345678이에요."
+              ],
+              "chinese": "010-1234-5678。"
+            },
+            {
+              "cue": "몇 번이에요?（3 號）",
+              "cueIsAudio": true,
+              "answers": [
+                "삼 번이에요.",
+                "3번이에요."
+              ],
+              "chinese": "3 號。"
+            },
+            {
+              "cue": "김밥 얼마예요?（3,000 元）",
+              "cueIsAudio": true,
+              "answers": [
+                "삼천 원이에요.",
+                "3000원이에요."
+              ],
+              "chinese": "三千元。"
+            }
+          ]
+        },
+        {
+          "id": "D2104",
+          "type": "freeProduction",
+          "instruction": "問一樣東西的價錢，再說出價錢。",
+          "model": {
+            "korean": "이거 얼마예요? 만 원이에요.",
+            "chinese": "這個多少錢？一萬元。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 10,
+          "items": [
+            {
+              "cue": "自由回答",
+              "answers": [
+                "이거 얼마예요?",
+                "만 원이에요.",
+                "10000원이에요."
+              ],
+              "chinese": "（參考答案）"
+            }
+          ]
+        }
+      ],
+      "speaking": {
+        "scenario": "在韓國市場買東西問價錢，最後和店家交換電話號碼。AI 扮演店家老闆。使用者會：얼마예요?、N 원이에요、電話號碼的唸法。",
+        "speechLevel": "polite",
+        "offlineScript": [
+          {
+            "cue": "어서 오세요!（提示：問這個多少錢）",
+            "cueIsAudio": true,
+            "answers": [
+              "이거 얼마예요?",
+              "얼마예요?"
+            ],
+            "chinese": "這個多少錢？"
+          },
+          {
+            "cue": "오천 원이에요. 두 개는 만 원이에요.（提示：價錢是多少？重複一次一個的價錢）",
+            "cueIsAudio": true,
+            "answers": [
+              "오천 원이에요?",
+              "5000원이에요?"
+            ],
+            "chinese": "五千元嗎？"
+          },
+          {
+            "cue": "네. 전화번호가 뭐예요?（提示：010-2345-6789）",
+            "cueIsAudio": true,
+            "answers": [
+              "공일공에 이삼사오에 육칠팔구예요.",
+              "공일공 이삼사오 육칠팔구예요.",
+              "010-2345-6789예요.",
+              "01023456789예요."
+            ],
+            "chinese": "010-2345-6789。"
+          }
+        ]
+      },
+      "postTest": [
+        {
+          "id": "Q2101",
+          "skill": "vocabulary",
+          "kind": "choice",
+          "prompt": "「10,000 元」怎麼說？",
+          "audioText": null,
+          "options": [
+            "만 원",
+            "일만 원",
+            "십천 원"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "10000 直接說 만，不加 일。"
+        },
+        {
+          "id": "Q2102",
+          "skill": "listening",
+          "kind": "listeningChoice",
+          "prompt": "聽價錢",
+          "audioText": "칠천오백 원이에요.",
+          "options": [
+            "7,500 元",
+            "7,050 元",
+            "75,000 元"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "칠천오백＝七千五百。"
+        },
+        {
+          "id": "Q2103",
+          "skill": "phonemeDiscrimination",
+          "kind": "choice",
+          "prompt": "「십만」實際怎麼唸？",
+          "audioText": null,
+          "options": [
+            "[심만]",
+            "[십만]（不變）",
+            "[시만]"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "收音 ㅂ 遇到 ㅁ 變成 ㅁ。"
+        },
+        {
+          "id": "Q2104",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「這個多少錢？」怎麼說？",
+          "audioText": null,
+          "options": [
+            "이거 얼마예요?",
+            "이거 몇이에요?",
+            "이거 뭐예요?"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "얼마＝多少（錢）。"
+        },
+        {
+          "id": "Q2105",
+          "skill": "grammar",
+          "kind": "typing",
+          "prompt": "用韓文寫數字（漢字音）：25",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "이십오",
+            "25"
+          ],
+          "explanation": "이십오。"
+        },
+        {
+          "id": "Q2106",
+          "skill": "speaking",
+          "kind": "speaking",
+          "prompt": "說出：三千元。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "삼천 원이에요.",
+            "3000원이에요.",
+            "삼천 원",
+            "3000원"
+          ],
+          "explanation": "삼천 원이에요."
+        }
+      ],
+      "completion": {
+        "postTestPassRatio": 0.8,
+        "drillAccuracy": 0.8,
+        "requireVocabularyQuiz": true
+      }
+    },
+    {
+      "id": "U05L02",
+      "title": "固有數字與量詞「個、位、杯、瓶」",
+      "estimatedMinutes": 55,
+      "objectives": [
+        "唸出固有數字 1–10（하나～열）",
+        "數東西：한 개、두 명、세 잔、네 병",
+        "知道固有數字在量詞前會變形：하나 → 한、둘 → 두、셋 → 세、넷 → 네",
+        "點餐：N 한 잔 주세요、N 하나 더 주세요"
+      ],
+      "vocabulary": [
+        {
+          "id": "V0231",
+          "korean": "하나 둘 셋 넷 다섯",
+          "chinese": "一、二、三、四、五（固有數字）",
+          "romanization": "ha-na dul set net da-seot",
+          "partOfSpeech": "numeral",
+          "tier": "S",
+          "frequencyRank": 131,
+          "example": {
+            "korean": "하나, 둘, 셋, 넷, 다섯.",
+            "chinese": "一、二、三、四、五。",
+            "speechLevel": "polite"
+          },
+          "usage": "固有數字用在數東西、人數、時（幾點）、年齡。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0232",
+          "korean": "여섯 일곱 여덟 아홉 열",
+          "chinese": "六、七、八、九、十（固有數字）",
+          "romanization": "yeo-seot il-gop yeo-deol a-hop yeol",
+          "partOfSpeech": "numeral",
+          "tier": "S",
+          "frequencyRank": 132,
+          "example": {
+            "korean": "여섯, 일곱, 여덟, 아홉, 열.",
+            "chinese": "六、七、八、九、十。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": "여덟 唸 [여덜]，ㅂ 不發音。"
+        },
+        {
+          "id": "V0233",
+          "korean": "한 두 세 네",
+          "chinese": "一、二、三、四（接量詞時）",
+          "romanization": "han du se ne",
+          "partOfSpeech": "numeral",
+          "tier": "S",
+          "frequencyRank": 133,
+          "example": {
+            "korean": "사과 두 개 주세요.",
+            "chinese": "請給我兩個蘋果。",
+            "speechLevel": "polite"
+          },
+          "usage": "하나、둘、셋、넷 後面接量詞時變成 한、두、세、네。",
+          "commonMistake": "不要說 *하나 개、*둘 명。"
+        },
+        {
+          "id": "V0234",
+          "korean": "한 개",
+          "chinese": "一個（東西的量詞 개）",
+          "romanization": "han gae",
+          "partOfSpeech": "counter",
+          "tier": "S",
+          "frequencyRank": 134,
+          "example": {
+            "korean": "사과 한 개 주세요.",
+            "chinese": "請給我一個蘋果。",
+            "speechLevel": "polite"
+          },
+          "usage": "개 是東西的量詞：두 개、세 개。（狗也叫 개，靠上下文分辨。）",
+          "commonMistake": null
+        },
+        {
+          "id": "V0235",
+          "korean": "명",
+          "chinese": "位；個（人）",
+          "romanization": "myeong",
+          "partOfSpeech": "counter",
+          "tier": "S",
+          "frequencyRank": 135,
+          "example": {
+            "korean": "몇 명이에요?",
+            "chinese": "幾位？",
+            "speechLevel": "polite"
+          },
+          "usage": "餐廳店員常問：몇 분이세요?（幾位？，敬語）",
+          "commonMistake": null
+        },
+        {
+          "id": "V0236",
+          "korean": "잔",
+          "chinese": "杯",
+          "romanization": "jan",
+          "partOfSpeech": "counter",
+          "tier": "S",
+          "frequencyRank": 136,
+          "example": {
+            "korean": "커피 한 잔 주세요.",
+            "chinese": "請給我一杯咖啡。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0237",
+          "korean": "병",
+          "chinese": "瓶",
+          "romanization": "byeong",
+          "partOfSpeech": "counter",
+          "tier": "A",
+          "frequencyRank": 76,
+          "example": {
+            "korean": "물 한 병 주세요.",
+            "chinese": "請給我一瓶水。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0238",
+          "korean": "마리",
+          "chinese": "隻；條（動物）",
+          "romanization": "ma-ri",
+          "partOfSpeech": "counter",
+          "tier": "A",
+          "frequencyRank": 77,
+          "example": {
+            "korean": "개 두 마리가 있어요.",
+            "chinese": "有兩隻狗。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0239",
+          "korean": "권",
+          "chinese": "本（書）",
+          "romanization": "gwon",
+          "partOfSpeech": "counter",
+          "tier": "B",
+          "frequencyRank": 25,
+          "example": {
+            "korean": "책 세 권을 사요.",
+            "chinese": "買三本書。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0240",
+          "korean": "더",
+          "chinese": "再；更",
+          "romanization": "deo",
+          "partOfSpeech": "adverb",
+          "tier": "S",
+          "frequencyRank": 137,
+          "example": {
+            "korean": "하나 더 주세요.",
+            "chinese": "請再給我一個。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0241",
+          "korean": "모두",
+          "chinese": "全部；一共",
+          "romanization": "mo-du",
+          "partOfSpeech": "adverb",
+          "tier": "S",
+          "frequencyRank": 138,
+          "example": {
+            "korean": "모두 얼마예요?",
+            "chinese": "一共多少錢？",
+            "speechLevel": "polite"
+          },
+          "usage": "也說 전부。",
+          "commonMistake": null
+        }
+      ],
+      "pronunciation": [
+        {
+          "id": "P2201",
+          "title": "固有數字的收音",
+          "explanation": "셋 [섿]、다섯 [다섣]、여섯 [여섣]：收音 ㅅ 唸 [ㄷ]。여덟 → [여덜]（ㄼ 只唸 ㄹ）。後面接量詞時常有緊音化：다섯 개 → [다섣 깨]、여섯 잔 → [여섣 짠]。",
+          "articulation": "收音 [ㄷ] 停住不放開，下一個子音自然繃緊。",
+          "chineseSpeakerPitfall": "여덟 唸成 [여덥]，或在 셋 後面多加母音唸成 [세스]。",
+          "samples": [
+            "셋",
+            "다섯",
+            "여섯",
+            "여덟",
+            "다섯 개"
+          ],
+          "minimalPairs": []
+        },
+        {
+          "id": "P2202",
+          "title": "量詞的連音與鼻音化",
+          "explanation": "몇 명 → [면명]（鼻音化）、몇 개 → [멷깨]（緊音化）、한 잔 → [한 잔]、세 병 → [세 병]。",
+          "articulation": "몇 的收音 [ㄷ] 遇到 ㅁ 變 [ㄴ]，遇到 ㄱ ㄷ ㅂ ㅅ ㅈ 則讓它們變緊音。",
+          "chineseSpeakerPitfall": "몇 명 唸成 [며 명] 或 [멷 명]，韓國人說話時一定會唸成 [면명]。",
+          "samples": [
+            "몇 명",
+            "몇 개",
+            "몇 잔"
+          ],
+          "minimalPairs": []
+        }
+      ],
+      "grammar": [
+        {
+          "id": "G2201",
+          "title": "名詞＋數字＋量詞",
+          "pattern": "N 한 개、N 두 명、N 세 잔（名詞在前，數量在後）",
+          "explanation": "韓語的順序是「東西＋數量＋量詞」：사과 세 개（三個蘋果）、커피 두 잔（兩杯咖啡）、학생 다섯 명（五個學生）。一到四要用 한、두、세、네；二十要用 스무（스무 개）。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "커피 두 잔 주세요.",
+              "chinese": "請給我兩杯咖啡。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "학생이 다섯 명 있어요.",
+              "chinese": "有五個學生。",
+              "speechLevel": "polite"
+            }
+          ]
+        },
+        {
+          "id": "G2202",
+          "title": "몇＋量詞?／N 더 주세요",
+          "pattern": "몇 개예요?（幾個？）；N 하나 더 주세요（再給我一個 N）",
+          "explanation": "問數量：몇 개예요?、몇 명이에요?。加點：하나 더 주세요（再一個）、물 한 병 더 주세요（再一瓶水）。結帳：모두 얼마예요?（一共多少？）",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "몇 명이에요? — 두 명이에요.",
+              "chinese": "幾位？——兩位。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "물 한 병 더 주세요.",
+              "chinese": "請再給我一瓶水。",
+              "speechLevel": "polite"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "korean": "커피 한 잔 주세요.",
+          "chinese": "請給我一杯咖啡。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "몇 명이에요?",
+          "chinese": "幾位？",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "세 명이에요.",
+          "chinese": "三位。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "사과 다섯 개 주세요.",
+          "chinese": "請給我五個蘋果。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "모두 얼마예요?",
+          "chinese": "一共多少錢？",
+          "speechLevel": "polite"
+        }
+      ],
+      "listening": [
+        {
+          "id": "L2201",
+          "audioText": "몇 명이에요?",
+          "question": "對方在問什麼？",
+          "options": [
+            "幾位？",
+            "幾個？",
+            "幾點？"
+          ],
+          "answerIndex": 0,
+          "explanation": "명＝人的量詞。"
+        },
+        {
+          "id": "L2202",
+          "audioText": "커피 두 잔 주세요.",
+          "question": "對方要什麼？",
+          "options": [
+            "兩杯咖啡",
+            "一杯咖啡",
+            "兩瓶咖啡"
+          ],
+          "answerIndex": 0,
+          "explanation": "두 잔＝兩杯。"
+        },
+        {
+          "id": "L2203",
+          "audioText": "여덟",
+          "question": "實際發音最接近哪一個？",
+          "options": [
+            "[여덜]",
+            "[여덥]",
+            "[여더]"
+          ],
+          "answerIndex": 0,
+          "explanation": "ㄼ 只唸 ㄹ。"
+        },
+        {
+          "id": "L2204",
+          "audioText": "사과 네 개하고 물 한 병 주세요.",
+          "question": "對方要什麼？",
+          "options": [
+            "四個蘋果和一瓶水",
+            "四個蘋果和一杯水",
+            "一個蘋果和四瓶水"
+          ],
+          "answerIndex": 0,
+          "explanation": "네 개＝四個；한 병＝一瓶。"
+        }
+      ],
+      "drills": [
+        {
+          "id": "D2201",
+          "type": "substitution",
+          "instruction": "點飲料：依提示說出數量（注意 한、두、세、네）。",
+          "model": {
+            "korean": "커피 한 잔 주세요.",
+            "chinese": "請給我一杯咖啡。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 8,
+          "items": [
+            {
+              "cue": "커피 2 杯",
+              "answers": [
+                "커피 두 잔 주세요.",
+                "커피 2잔 주세요."
+              ],
+              "chinese": "請給我兩杯咖啡。"
+            },
+            {
+              "cue": "물 1 瓶",
+              "answers": [
+                "물 한 병 주세요.",
+                "물 1병 주세요."
+              ],
+              "chinese": "請給我一瓶水。"
+            },
+            {
+              "cue": "주스 3 杯",
+              "answers": [
+                "주스 세 잔 주세요.",
+                "주스 3잔 주세요."
+              ],
+              "chinese": "請給我三杯果汁。"
+            },
+            {
+              "cue": "맥주 4 瓶",
+              "answers": [
+                "맥주 네 병 주세요.",
+                "맥주 4병 주세요."
+              ],
+              "chinese": "請給我四瓶啤酒。"
+            },
+            {
+              "cue": "차 5 杯",
+              "answers": [
+                "차 다섯 잔 주세요.",
+                "차 5잔 주세요."
+              ],
+              "chinese": "請給我五杯茶。"
+            }
+          ]
+        },
+        {
+          "id": "D2202",
+          "type": "transformation",
+          "instruction": "數字變形：하나 → 한 개、둘 → 두 개……",
+          "model": {
+            "korean": "하나 → 한 개",
+            "chinese": "一個",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 6,
+          "items": [
+            {
+              "cue": "둘（個）",
+              "answers": [
+                "두 개",
+                "2개"
+              ],
+              "chinese": "兩個"
+            },
+            {
+              "cue": "셋（位）",
+              "answers": [
+                "세 명",
+                "3명"
+              ],
+              "chinese": "三位"
+            },
+            {
+              "cue": "넷（杯）",
+              "answers": [
+                "네 잔",
+                "4잔"
+              ],
+              "chinese": "四杯"
+            },
+            {
+              "cue": "다섯（本）",
+              "answers": [
+                "다섯 권",
+                "5권"
+              ],
+              "chinese": "五本"
+            },
+            {
+              "cue": "열（隻）",
+              "answers": [
+                "열 마리",
+                "10마리"
+              ],
+              "chinese": "十隻"
+            }
+          ]
+        },
+        {
+          "id": "D2203",
+          "type": "questionAnswer",
+          "instruction": "聽店員的問題，依提示回答。",
+          "model": {
+            "korean": "몇 명이에요? — 두 명이에요.",
+            "chinese": "幾位？——兩位。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 8,
+          "items": [
+            {
+              "cue": "몇 명이에요?（3 位）",
+              "cueIsAudio": true,
+              "answers": [
+                "세 명이에요.",
+                "3명이에요."
+              ],
+              "chinese": "三位。"
+            },
+            {
+              "cue": "뭐 드릴까요?（兩杯咖啡）",
+              "cueIsAudio": true,
+              "answers": [
+                "커피 두 잔 주세요.",
+                "커피 2잔 주세요."
+              ],
+              "chinese": "請給我兩杯咖啡。"
+            },
+            {
+              "cue": "사과 몇 개 사요?（5 個）",
+              "cueIsAudio": true,
+              "answers": [
+                "다섯 개 사요.",
+                "사과 다섯 개 사요.",
+                "5개 사요."
+              ],
+              "chinese": "買五個。"
+            },
+            {
+              "cue": "더 필요해요?（再一瓶水）",
+              "cueIsAudio": true,
+              "answers": [
+                "물 한 병 더 주세요.",
+                "물 1병 더 주세요."
+              ],
+              "chinese": "請再給我一瓶水。"
+            },
+            {
+              "cue": "개가 몇 마리 있어요?（2 隻）",
+              "cueIsAudio": true,
+              "answers": [
+                "두 마리 있어요.",
+                "2마리 있어요.",
+                "개가 두 마리 있어요."
+              ],
+              "chinese": "有兩隻。"
+            }
+          ]
+        },
+        {
+          "id": "D2204",
+          "type": "freeProduction",
+          "instruction": "在咖啡廳點兩種東西，並問一共多少錢。",
+          "model": {
+            "korean": "커피 한 잔하고 빵 두 개 주세요. 모두 얼마예요?",
+            "chinese": "請給我一杯咖啡和兩個麵包。一共多少錢？",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 10,
+          "items": [
+            {
+              "cue": "自由回答",
+              "answers": [
+                "커피 한 잔하고 빵 두 개 주세요.",
+                "커피 1잔하고 빵 2개 주세요.",
+                "모두 얼마예요?"
+              ],
+              "chinese": "（參考答案）"
+            }
+          ]
+        }
+      ],
+      "speaking": {
+        "scenario": "和朋友一起到韓式炸雞店，點餐、加點、結帳。AI 扮演店員。使用者會：몇 명、한／두／세、잔／병／개、더 주세요、모두 얼마예요?。",
+        "speechLevel": "polite",
+        "offlineScript": [
+          {
+            "cue": "어서 오세요. 몇 분이세요?（提示：三位）",
+            "cueIsAudio": true,
+            "answers": [
+              "세 명이에요.",
+              "3명이에요."
+            ],
+            "chinese": "三位。"
+          },
+          {
+            "cue": "뭐 드릴까요?（提示：啤酒兩瓶，可樂一瓶——콜라）",
+            "cueIsAudio": true,
+            "answers": [
+              "맥주 두 병하고 콜라 한 병 주세요.",
+              "맥주 2병하고 콜라 1병 주세요."
+            ],
+            "chinese": "請給我兩瓶啤酒和一瓶可樂。"
+          },
+          {
+            "cue": "여기 있어요.（提示：請再給一瓶水，然後問一共多少錢）",
+            "cueIsAudio": true,
+            "answers": [
+              "물 한 병 더 주세요. 모두 얼마예요?",
+              "물 1병 더 주세요. 모두 얼마예요?",
+              "모두 얼마예요?"
+            ],
+            "chinese": "請再給一瓶水。一共多少錢？"
+          }
+        ]
+      },
+      "postTest": [
+        {
+          "id": "Q2201",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「兩杯咖啡」怎麼說？",
+          "audioText": null,
+          "options": [
+            "커피 두 잔",
+            "커피 둘 잔",
+            "커피 이 잔"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "둘 接量詞變成 두。"
+        },
+        {
+          "id": "Q2202",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "數人要用哪一個量詞？",
+          "audioText": null,
+          "options": [
+            "명",
+            "개",
+            "마리"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "명＝人。"
+        },
+        {
+          "id": "Q2203",
+          "skill": "listening",
+          "kind": "listeningChoice",
+          "prompt": "聽句子選數量",
+          "audioText": "학생이 다섯 명 있어요.",
+          "options": [
+            "五個學生",
+            "四個學生",
+            "五本書"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "다섯 명＝五位。"
+        },
+        {
+          "id": "Q2204",
+          "skill": "phonemeDiscrimination",
+          "kind": "choice",
+          "prompt": "「몇 명」實際怎麼唸？",
+          "audioText": null,
+          "options": [
+            "[면명]",
+            "[멷명]",
+            "[며명]"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "몇 的收音遇到 ㅁ 變 [ㄴ]。"
+        },
+        {
+          "id": "Q2205",
+          "skill": "grammar",
+          "kind": "typing",
+          "prompt": "用韓文寫：請給我一杯咖啡。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "커피 한 잔 주세요.",
+            "커피 1잔 주세요."
+          ],
+          "explanation": "커피 한 잔 주세요."
+        },
+        {
+          "id": "Q2206",
+          "skill": "speaking",
+          "kind": "speaking",
+          "prompt": "說出：一共多少錢？",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "모두 얼마예요?",
+            "전부 얼마예요?"
+          ],
+          "explanation": "모두 얼마예요?"
+        }
+      ],
+      "completion": {
+        "postTestPassRatio": 0.8,
+        "drillAccuracy": 0.8,
+        "requireVocabularyQuiz": true
+      }
+    },
+    {
+      "id": "U05L03",
+      "title": "時間：幾點幾分",
+      "estimatedMinutes": 55,
+      "objectives": [
+        "說出時間：「點」用固有數字、「分」用漢字音數字（세 시 삼십 분）",
+        "問時間：지금 몇 시예요?",
+        "用「時間＋에」說幾點做什麼",
+        "說出上午、下午、早上、中午、晚上"
+      ],
+      "vocabulary": [
+        {
+          "id": "V0242",
+          "korean": "시",
+          "chinese": "點（時）",
+          "romanization": "si",
+          "partOfSpeech": "counter",
+          "tier": "S",
+          "frequencyRank": 139,
+          "example": {
+            "korean": "세 시예요.",
+            "chinese": "三點。",
+            "speechLevel": "polite"
+          },
+          "usage": "前面用固有數字：한 시、두 시、열두 시。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0243",
+          "korean": "분",
+          "chinese": "分",
+          "romanization": "bun",
+          "partOfSpeech": "counter",
+          "tier": "S",
+          "frequencyRank": 140,
+          "example": {
+            "korean": "십 분이에요.",
+            "chinese": "十分。",
+            "speechLevel": "polite"
+          },
+          "usage": "前面用漢字音數字：오 분、삼십 분。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0244",
+          "korean": "반",
+          "chinese": "半",
+          "romanization": "ban",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 141,
+          "example": {
+            "korean": "두 시 반이에요.",
+            "chinese": "兩點半。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0245",
+          "korean": "지금",
+          "chinese": "現在",
+          "romanization": "ji-geum",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 142,
+          "example": {
+            "korean": "지금 몇 시예요?",
+            "chinese": "現在幾點？",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0246",
+          "korean": "오전",
+          "chinese": "上午",
+          "romanization": "o-jeon",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 143,
+          "example": {
+            "korean": "오전 열 시예요.",
+            "chinese": "上午十點。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0247",
+          "korean": "오후",
+          "chinese": "下午",
+          "romanization": "o-hu",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 144,
+          "example": {
+            "korean": "오후 세 시에 만나요.",
+            "chinese": "下午三點見。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0248",
+          "korean": "아침",
+          "chinese": "早上；早餐",
+          "romanization": "a-chim",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 145,
+          "example": {
+            "korean": "아침 일곱 시에 일어나요.",
+            "chinese": "早上七點起床。",
+            "speechLevel": "polite"
+          },
+          "usage": "아침＝早上，也是早餐。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0249",
+          "korean": "점심",
+          "chinese": "中午；午餐",
+          "romanization": "jeom-sim",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 146,
+          "example": {
+            "korean": "점심을 먹어요.",
+            "chinese": "吃午餐。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0250",
+          "korean": "저녁",
+          "chinese": "晚上；晚餐",
+          "romanization": "jeo-nyeok",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 147,
+          "example": {
+            "korean": "저녁 여섯 시에 집에 가요.",
+            "chinese": "晚上六點回家。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0251",
+          "korean": "일어나요",
+          "chinese": "起床",
+          "romanization": "i-reo-na-yo",
+          "pronunciation": "[이러나요]",
+          "partOfSpeech": "verb",
+          "tier": "S",
+          "frequencyRank": 148,
+          "example": {
+            "korean": "여섯 시에 일어나요.",
+            "chinese": "六點起床。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 일어나다。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0252",
+          "korean": "자요",
+          "chinese": "睡覺",
+          "romanization": "ja-yo",
+          "partOfSpeech": "verb",
+          "tier": "S",
+          "frequencyRank": 149,
+          "example": {
+            "korean": "열한 시에 자요.",
+            "chinese": "十一點睡覺。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 자다。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0253",
+          "korean": "시작해요",
+          "chinese": "開始",
+          "romanization": "si-ja-kae-yo",
+          "pronunciation": "[시자캐요]",
+          "partOfSpeech": "verb",
+          "tier": "A",
+          "frequencyRank": 78,
+          "example": {
+            "korean": "수업이 아홉 시에 시작해요.",
+            "chinese": "課九點開始。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 시작하다。",
+          "commonMistake": null
+        }
+      ],
+      "pronunciation": [
+        {
+          "id": "P2301",
+          "title": "몇 시 與 時間的連音",
+          "explanation": "몇 시 → [멷씨]、여섯 시 → [여섣씨]、다섯 시 → [다섣씨]（緊音化）；열 시 → [열씨]；세 시 반이에요 → [세 시 바니에요]（連音）。",
+          "articulation": "時間是一個整體，數字和 시、분 連在一起唸。",
+          "chineseSpeakerPitfall": "몇 시 唸成 [며 시]，或 여섯 시 唸成 [여서 시]。",
+          "samples": [
+            "몇 시",
+            "여섯 시",
+            "열 시",
+            "세 시 반"
+          ],
+          "minimalPairs": []
+        },
+        {
+          "id": "P2302",
+          "title": "십 분、삼십 분",
+          "explanation": "分鐘的 분 前面若是 십，常唸成緊音：십 분 → [십뿐]、삼십 분 → [삼십뿐]。",
+          "articulation": "십 的收音 ㅂ 停住，분 的 ㅂ 繃緊。",
+          "chineseSpeakerPitfall": "唸成 [시 분]，漏掉收音。",
+          "samples": [
+            "십 분",
+            "삼십 분",
+            "사십오 분"
+          ],
+          "minimalPairs": []
+        }
+      ],
+      "grammar": [
+        {
+          "id": "G2301",
+          "title": "N시 N분（時間的讀法）",
+          "pattern": "固有數字＋시；漢字音數字＋분",
+          "explanation": "「點」用固有數字：한 시、두 시、세 시、네 시、다섯 시……열한 시、열두 시；「分」用漢字音數字：오 분、십 분、삼십 분。例：3:30＝세 시 삼십 분 或 세 시 반；10:15＝열 시 십오 분。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "지금 세 시 삼십 분이에요.",
+              "chinese": "現在三點三十分。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "열두 시 반이에요.",
+              "chinese": "十二點半。",
+              "speechLevel": "polite"
+            }
+          ]
+        },
+        {
+          "id": "G2302",
+          "title": "時間＋에 ＋ 動作",
+          "pattern": "N시에 ＋ 動詞",
+          "explanation": "說「幾點做什麼」時，時間後面加 에：일곱 시에 일어나요（七點起床）、오후 두 시에 만나요（下午兩點見）。지금、오늘、내일 後面不加 에。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "아침 일곱 시에 일어나요.",
+              "chinese": "早上七點起床。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "오후 두 시에 만나요.",
+              "chinese": "下午兩點見。",
+              "speechLevel": "polite"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "korean": "지금 몇 시예요?",
+          "chinese": "現在幾點？",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "두 시 반이에요.",
+          "chinese": "兩點半。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "아침 여섯 시에 일어나요.",
+          "chinese": "早上六點起床。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "저녁 일곱 시에 만나요.",
+          "chinese": "晚上七點見。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "열한 시에 자요.",
+          "chinese": "十一點睡覺。",
+          "speechLevel": "polite"
+        }
+      ],
+      "listening": [
+        {
+          "id": "L2301",
+          "audioText": "지금 몇 시예요?",
+          "question": "對方在問什麼？",
+          "options": [
+            "現在幾點？",
+            "多少錢？",
+            "幾位？"
+          ],
+          "answerIndex": 0,
+          "explanation": "몇 시＝幾點。"
+        },
+        {
+          "id": "L2302",
+          "audioText": "네 시 십오 분이에요.",
+          "question": "現在是？",
+          "options": [
+            "4:15",
+            "4:50",
+            "10:04"
+          ],
+          "answerIndex": 0,
+          "explanation": "네 시＝四點；십오 분＝十五分。"
+        },
+        {
+          "id": "L2303",
+          "audioText": "오후 일곱 시 반에 만나요.",
+          "question": "幾點見面？",
+          "options": [
+            "下午 7:30",
+            "上午 7:30",
+            "下午 1:30"
+          ],
+          "answerIndex": 0,
+          "explanation": "오후＝下午；반＝半。"
+        },
+        {
+          "id": "L2304",
+          "audioText": "몇 시",
+          "question": "實際發音最接近哪一個？",
+          "options": [
+            "[멷씨]",
+            "[며시]",
+            "[몇 시]（不變）"
+          ],
+          "answerIndex": 0,
+          "explanation": "몇 的收音後面 ㅅ 變緊音。"
+        }
+      ],
+      "drills": [
+        {
+          "id": "D2301",
+          "type": "transformation",
+          "instruction": "把時間唸成韓文（點用固有數字、分用漢字音）。",
+          "model": {
+            "korean": "3:00 → 세 시",
+            "chinese": "三點",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "1:00",
+              "answers": [
+                "한 시",
+                "1시"
+              ],
+              "chinese": "一點"
+            },
+            {
+              "cue": "4:30",
+              "answers": [
+                "네 시 삼십 분",
+                "네 시 반",
+                "4시 30분",
+                "4시 반"
+              ],
+              "chinese": "四點半"
+            },
+            {
+              "cue": "7:10",
+              "answers": [
+                "일곱 시 십 분",
+                "7시 10분"
+              ],
+              "chinese": "七點十分"
+            },
+            {
+              "cue": "10:15",
+              "answers": [
+                "열 시 십오 분",
+                "10시 15분"
+              ],
+              "chinese": "十點十五分"
+            },
+            {
+              "cue": "12:45",
+              "answers": [
+                "열두 시 사십오 분",
+                "12시 45분"
+              ],
+              "chinese": "十二點四十五分"
+            }
+          ]
+        },
+        {
+          "id": "D2302",
+          "type": "substitution",
+          "instruction": "說出幾點起床：N시에 일어나요。",
+          "model": {
+            "korean": "일곱 시에 일어나요.",
+            "chinese": "七點起床。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "6:00",
+              "answers": [
+                "여섯 시에 일어나요.",
+                "6시에 일어나요."
+              ],
+              "chinese": "六點起床。"
+            },
+            {
+              "cue": "8:00",
+              "answers": [
+                "여덟 시에 일어나요.",
+                "8시에 일어나요."
+              ],
+              "chinese": "八點起床。"
+            },
+            {
+              "cue": "5:30",
+              "answers": [
+                "다섯 시 반에 일어나요.",
+                "다섯 시 삼십 분에 일어나요.",
+                "5시 반에 일어나요.",
+                "5시 30분에 일어나요."
+              ],
+              "chinese": "五點半起床。"
+            },
+            {
+              "cue": "9:00",
+              "answers": [
+                "아홉 시에 일어나요.",
+                "9시에 일어나요."
+              ],
+              "chinese": "九點起床。"
+            },
+            {
+              "cue": "11:00",
+              "answers": [
+                "열한 시에 일어나요.",
+                "11시에 일어나요."
+              ],
+              "chinese": "十一點起床。"
+            }
+          ]
+        },
+        {
+          "id": "D2303",
+          "type": "questionAnswer",
+          "instruction": "聽韓語問題，依提示回答。",
+          "model": {
+            "korean": "지금 몇 시예요? — 세 시예요.",
+            "chinese": "現在幾點？——三點。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 8,
+          "items": [
+            {
+              "cue": "지금 몇 시예요?（2:30）",
+              "cueIsAudio": true,
+              "answers": [
+                "두 시 반이에요.",
+                "두 시 삼십 분이에요.",
+                "2시 반이에요.",
+                "2시 30분이에요."
+              ],
+              "chinese": "兩點半。"
+            },
+            {
+              "cue": "몇 시에 자요?（11 點）",
+              "cueIsAudio": true,
+              "answers": [
+                "열한 시에 자요.",
+                "11시에 자요."
+              ],
+              "chinese": "十一點睡。"
+            },
+            {
+              "cue": "수업이 몇 시에 시작해요?（上午 9 點）",
+              "cueIsAudio": true,
+              "answers": [
+                "오전 아홉 시에 시작해요.",
+                "아홉 시에 시작해요.",
+                "오전 9시에 시작해요.",
+                "9시에 시작해요."
+              ],
+              "chinese": "上午九點開始。"
+            },
+            {
+              "cue": "몇 시에 만나요?（下午 6 點）",
+              "cueIsAudio": true,
+              "answers": [
+                "오후 여섯 시에 만나요.",
+                "여섯 시에 만나요.",
+                "오후 6시에 만나요.",
+                "6시에 만나요."
+              ],
+              "chinese": "下午六點見。"
+            },
+            {
+              "cue": "점심을 몇 시에 먹어요?（12 點）",
+              "cueIsAudio": true,
+              "answers": [
+                "열두 시에 먹어요.",
+                "12시에 먹어요.",
+                "열두 시에 점심을 먹어요."
+              ],
+              "chinese": "十二點吃。"
+            }
+          ]
+        },
+        {
+          "id": "D2304",
+          "type": "freeProduction",
+          "instruction": "說你早上幾點起床、晚上幾點睡覺。",
+          "model": {
+            "korean": "아침 일곱 시에 일어나요. 밤 열한 시에 자요.",
+            "chinese": "早上七點起床。晚上十一點睡覺。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 10,
+          "items": [
+            {
+              "cue": "自由回答",
+              "answers": [
+                "아침 일곱 시에 일어나요.",
+                "아침 7시에 일어나요.",
+                "열한 시에 자요.",
+                "11시에 자요."
+              ],
+              "chinese": "（參考答案）"
+            }
+          ]
+        }
+      ],
+      "speaking": {
+        "scenario": "和韓國朋友約時間見面。AI 扮演朋友，問你幾點方便、幾點下班。使用者會：몇 시、N시 N분、時間＋에、오전／오후。",
+        "speechLevel": "polite",
+        "offlineScript": [
+          {
+            "cue": "내일 몇 시에 만나요?（提示：下午 3 點）",
+            "cueIsAudio": true,
+            "answers": [
+              "오후 세 시에 만나요.",
+              "세 시에 만나요.",
+              "오후 3시에 만나요.",
+              "3시에 만나요."
+            ],
+            "chinese": "下午三點見。"
+          },
+          {
+            "cue": "세 시는 조금 어려워요. 네 시 반 괜찮아요?（提示：好，4:30 見）",
+            "cueIsAudio": true,
+            "answers": [
+              "네, 네 시 반에 만나요.",
+              "좋아요, 네 시 반에 만나요.",
+              "네, 4시 반에 만나요.",
+              "좋아요, 4시 반에 만나요."
+            ],
+            "chinese": "好，四點半見。"
+          },
+          {
+            "cue": "지금 몇 시예요?（提示：現在 1:15）",
+            "cueIsAudio": true,
+            "answers": [
+              "지금 한 시 십오 분이에요.",
+              "한 시 십오 분이에요.",
+              "지금 1시 15분이에요.",
+              "1시 15분이에요."
+            ],
+            "chinese": "現在一點十五分。"
+          }
+        ]
+      },
+      "postTest": [
+        {
+          "id": "Q2301",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「三點」怎麼說？",
+          "audioText": null,
+          "options": [
+            "세 시",
+            "삼 시",
+            "셋 시"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "點用固有數字：세 시。"
+        },
+        {
+          "id": "Q2302",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「十分」怎麼說？",
+          "audioText": null,
+          "options": [
+            "십 분",
+            "열 분",
+            "열 시"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "分用漢字音數字：십 분。"
+        },
+        {
+          "id": "Q2303",
+          "skill": "listening",
+          "kind": "listeningChoice",
+          "prompt": "聽時間",
+          "audioText": "오전 열 시 반에 시작해요.",
+          "options": [
+            "上午 10:30",
+            "下午 10:30",
+            "上午 1:30"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "열 시 반＝十點半。"
+        },
+        {
+          "id": "Q2304",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「七點起床」哪一句正確？",
+          "audioText": null,
+          "options": [
+            "일곱 시에 일어나요.",
+            "일곱 시를 일어나요.",
+            "칠 시에 일어나요."
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "時間後面加 에。"
+        },
+        {
+          "id": "Q2305",
+          "skill": "grammar",
+          "kind": "typing",
+          "prompt": "用韓文寫：現在兩點半。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "지금 두 시 반이에요.",
+            "두 시 반이에요.",
+            "지금 2시 반이에요.",
+            "2시 반이에요.",
+            "지금 두 시 삼십 분이에요.",
+            "지금 2시 30분이에요."
+          ],
+          "explanation": "지금 두 시 반이에요."
+        },
+        {
+          "id": "Q2306",
+          "skill": "speaking",
+          "kind": "speaking",
+          "prompt": "說出：現在幾點？",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "지금 몇 시예요?",
+            "몇 시예요?"
+          ],
+          "explanation": "지금 몇 시예요?"
+        }
+      ],
+      "completion": {
+        "postTestPassRatio": 0.8,
+        "drillAccuracy": 0.8,
+        "requireVocabularyQuiz": true
+      }
+    },
+    {
+      "id": "U05L04",
+      "title": "日期與星期",
+      "estimatedMinutes": 55,
+      "objectives": [
+        "說出月份和日期（漢字音數字），注意 6 月＝유월、10 月＝시월",
+        "說出星期一到星期日",
+        "問日期：오늘 몇 월 며칠이에요?、생일이 언제예요?",
+        "用「N요일에」說哪天做什麼"
+      ],
+      "vocabulary": [
+        {
+          "id": "V0254",
+          "korean": "월",
+          "chinese": "月",
+          "romanization": "wol",
+          "partOfSpeech": "counter",
+          "tier": "S",
+          "frequencyRank": 150,
+          "example": {
+            "korean": "오늘은 삼월 오일이에요.",
+            "chinese": "今天是三月五日。",
+            "speechLevel": "polite"
+          },
+          "usage": "6 月＝유월、10 月＝시월（去掉收音）。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0255",
+          "korean": "며칠",
+          "chinese": "幾號",
+          "romanization": "myeo-chil",
+          "partOfSpeech": "pronoun",
+          "tier": "S",
+          "frequencyRank": 151,
+          "example": {
+            "korean": "오늘 며칠이에요?",
+            "chinese": "今天幾號？",
+            "speechLevel": "polite"
+          },
+          "usage": "寫成 며칠，不是 *몇일。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0256",
+          "korean": "요일",
+          "chinese": "星期",
+          "romanization": "yo-il",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 152,
+          "example": {
+            "korean": "오늘 무슨 요일이에요?",
+            "chinese": "今天星期幾？",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0257",
+          "korean": "월요일",
+          "chinese": "星期一",
+          "romanization": "wo-ryo-il",
+          "pronunciation": "[워료일]",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 153,
+          "example": {
+            "korean": "월요일에 회사에 가요.",
+            "chinese": "星期一去公司。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0258",
+          "korean": "화요일",
+          "chinese": "星期二",
+          "romanization": "hwa-yo-il",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 154,
+          "example": {
+            "korean": "화요일에 수업이 있어요.",
+            "chinese": "星期二有課。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0259",
+          "korean": "수요일",
+          "chinese": "星期三",
+          "romanization": "su-yo-il",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 155,
+          "example": {
+            "korean": "수요일에 만나요.",
+            "chinese": "星期三見。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0260",
+          "korean": "목요일",
+          "chinese": "星期四",
+          "romanization": "mo-gyo-il",
+          "pronunciation": "[모교일]",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 156,
+          "example": {
+            "korean": "목요일에 운동해요.",
+            "chinese": "星期四運動。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0261",
+          "korean": "금요일",
+          "chinese": "星期五",
+          "romanization": "geu-myo-il",
+          "pronunciation": "[그묘일]",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 157,
+          "example": {
+            "korean": "금요일 저녁에 만나요.",
+            "chinese": "星期五晚上見。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0262",
+          "korean": "토요일",
+          "chinese": "星期六",
+          "romanization": "to-yo-il",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 158,
+          "example": {
+            "korean": "토요일에 쉬어요.",
+            "chinese": "星期六休息。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0263",
+          "korean": "일요일",
+          "chinese": "星期日",
+          "romanization": "i-ryo-il",
+          "pronunciation": "[이료일]",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 159,
+          "example": {
+            "korean": "일요일에 집에 있어요.",
+            "chinese": "星期日在家。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0264",
+          "korean": "어제",
+          "chinese": "昨天",
+          "romanization": "eo-je",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 160,
+          "example": {
+            "korean": "어제, 오늘, 내일",
+            "chinese": "昨天、今天、明天",
+            "speechLevel": "polite"
+          },
+          "usage": "說昨天發生的事要用過去式，第 7 單元會學。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0265",
+          "korean": "언제",
+          "chinese": "什麼時候",
+          "romanization": "eon-je",
+          "partOfSpeech": "pronoun",
+          "tier": "S",
+          "frequencyRank": 161,
+          "example": {
+            "korean": "생일이 언제예요?",
+            "chinese": "你的生日是什麼時候？",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0266",
+          "korean": "쉬어요",
+          "chinese": "休息",
+          "romanization": "swi-eo-yo",
+          "partOfSpeech": "verb",
+          "tier": "A",
+          "frequencyRank": 79,
+          "example": {
+            "korean": "일요일에 쉬어요.",
+            "chinese": "星期日休息。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 쉬다。",
+          "commonMistake": null
+        }
+      ],
+      "pronunciation": [
+        {
+          "id": "P2401",
+          "title": "星期的連音",
+          "explanation": "월요일 → [워료일]、목요일 → [모교일]、금요일 → [그묘일]、일요일 → [이료일]：收音都移到 요 前面。",
+          "articulation": "收音當下一個字的開頭，요일 兩個字唸得輕快。",
+          "chineseSpeakerPitfall": "一個字一個字唸 [월．요．일]，聽起來像在拼字。",
+          "samples": [
+            "월요일",
+            "목요일",
+            "금요일",
+            "일요일"
+          ],
+          "minimalPairs": []
+        },
+        {
+          "id": "P2402",
+          "title": "月份與日期：유월、시월、며칠",
+          "explanation": "6 月不是 [육월] 而是 유월；10 月不是 [십월] 而是 시월（去掉收音）。其他月份照規則連音：일월 → [이뤌]、삼월 → [사뭘]、칠월 → [치뤌]。며칠 是一個詞，唸 [며칠]。",
+          "articulation": "유월、시월 要特別記，其他都是「數字＋월」。",
+          "chineseSpeakerPitfall": "說成 육월、십월，韓國人聽得懂，但會知道你是外國人。",
+          "samples": [
+            "유월",
+            "시월",
+            "삼월",
+            "며칠"
+          ],
+          "minimalPairs": []
+        }
+      ],
+      "grammar": [
+        {
+          "id": "G2401",
+          "title": "N월 N일（日期）",
+          "pattern": "漢字音數字＋월；漢字音數字＋일",
+          "explanation": "月和日都用漢字音數字：삼월 십오일（3 月 15 日）、유월 이십일（6 月 20 日）、시월 구일（10 月 9 日）。問：오늘 몇 월 며칠이에요?（今天幾月幾號？）。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "오늘 몇 월 며칠이에요?",
+              "chinese": "今天幾月幾號？",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "시월 구일이에요.",
+              "chinese": "10 月 9 日。",
+              "speechLevel": "polite"
+            }
+          ]
+        },
+        {
+          "id": "G2402",
+          "title": "N요일에 ＋ 動作",
+          "pattern": "星期＋에 ＋ 動詞",
+          "explanation": "和時間一樣，星期、日期後面加 에 表示「在那天」：토요일에 쉬어요、오월 오일에 여행해요。問：무슨 요일이에요?（星期幾？）、언제 만나요?（什麼時候見？）",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "토요일에 쉬어요.",
+              "chinese": "星期六休息。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "생일이 언제예요? — 칠월 칠일이에요.",
+              "chinese": "生日什麼時候？——7 月 7 日。",
+              "speechLevel": "polite"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "korean": "오늘 몇 월 며칠이에요?",
+          "chinese": "今天幾月幾號？",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "오늘 무슨 요일이에요?",
+          "chinese": "今天星期幾？",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "금요일에 만나요.",
+          "chinese": "星期五見。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "생일이 언제예요?",
+          "chinese": "你的生日是什麼時候？",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "유월 이십일이에요.",
+          "chinese": "6 月 20 日。",
+          "speechLevel": "polite"
+        }
+      ],
+      "listening": [
+        {
+          "id": "L2401",
+          "audioText": "오늘 무슨 요일이에요?",
+          "question": "對方在問什麼？",
+          "options": [
+            "今天星期幾？",
+            "今天幾號？",
+            "今天幾點？"
+          ],
+          "answerIndex": 0,
+          "explanation": "무슨 요일＝星期幾。"
+        },
+        {
+          "id": "L2402",
+          "audioText": "시월 삼일이에요.",
+          "question": "日期是？",
+          "options": [
+            "10 月 3 日",
+            "3 月 10 日",
+            "4 月 3 日"
+          ],
+          "answerIndex": 0,
+          "explanation": "시월＝10 月。"
+        },
+        {
+          "id": "L2403",
+          "audioText": "목요일에 운동해요.",
+          "question": "哪天運動？",
+          "options": [
+            "星期四",
+            "星期五",
+            "星期日"
+          ],
+          "answerIndex": 0,
+          "explanation": "목요일＝星期四。"
+        },
+        {
+          "id": "L2404",
+          "audioText": "유월",
+          "question": "這是幾月？",
+          "options": [
+            "6 月",
+            "7 月",
+            "10 月"
+          ],
+          "answerIndex": 0,
+          "explanation": "6 月唸 유월。"
+        }
+      ],
+      "drills": [
+        {
+          "id": "D2401",
+          "type": "transformation",
+          "instruction": "把日期唸成韓文。",
+          "model": {
+            "korean": "3/5 → 삼월 오일",
+            "chinese": "3 月 5 日",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "1/1",
+              "answers": [
+                "일월 일일",
+                "1월 1일"
+              ],
+              "chinese": "1 月 1 日"
+            },
+            {
+              "cue": "6/20",
+              "answers": [
+                "유월 이십일",
+                "6월 20일"
+              ],
+              "chinese": "6 月 20 日"
+            },
+            {
+              "cue": "10/9",
+              "answers": [
+                "시월 구일",
+                "10월 9일"
+              ],
+              "chinese": "10 月 9 日"
+            },
+            {
+              "cue": "12/25",
+              "answers": [
+                "십이월 이십오일",
+                "12월 25일"
+              ],
+              "chinese": "12 月 25 日"
+            },
+            {
+              "cue": "8/15",
+              "answers": [
+                "팔월 십오일",
+                "8월 15일"
+              ],
+              "chinese": "8 月 15 日"
+            }
+          ]
+        },
+        {
+          "id": "D2402",
+          "type": "substitution",
+          "instruction": "說出星期幾做什麼：N요일에 …",
+          "model": {
+            "korean": "월요일에 회사에 가요.",
+            "chinese": "星期一去公司。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "星期二／運動",
+              "answers": [
+                "화요일에 운동해요."
+              ],
+              "chinese": "星期二運動。"
+            },
+            {
+              "cue": "星期三／見朋友（친구를 만나요）",
+              "answers": [
+                "수요일에 친구를 만나요."
+              ],
+              "chinese": "星期三見朋友。"
+            },
+            {
+              "cue": "星期五／看電影",
+              "answers": [
+                "금요일에 영화를 봐요."
+              ],
+              "chinese": "星期五看電影。"
+            },
+            {
+              "cue": "星期六／休息",
+              "answers": [
+                "토요일에 쉬어요."
+              ],
+              "chinese": "星期六休息。"
+            },
+            {
+              "cue": "星期日／在家",
+              "answers": [
+                "일요일에 집에 있어요."
+              ],
+              "chinese": "星期日在家。"
+            }
+          ]
+        },
+        {
+          "id": "D2403",
+          "type": "questionAnswer",
+          "instruction": "聽韓語問題，依提示回答。",
+          "model": {
+            "korean": "생일이 언제예요? — 칠월 칠일이에요.",
+            "chinese": "生日是什麼時候？——7 月 7 日。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 8,
+          "items": [
+            {
+              "cue": "오늘 몇 월 며칠이에요?（5 月 8 日）",
+              "cueIsAudio": true,
+              "answers": [
+                "오월 팔일이에요.",
+                "5월 8일이에요."
+              ],
+              "chinese": "5 月 8 日。"
+            },
+            {
+              "cue": "오늘 무슨 요일이에요?（星期三）",
+              "cueIsAudio": true,
+              "answers": [
+                "수요일이에요.",
+                "오늘은 수요일이에요."
+              ],
+              "chinese": "星期三。"
+            },
+            {
+              "cue": "생일이 언제예요?（10 月 2 日）",
+              "cueIsAudio": true,
+              "answers": [
+                "시월 이일이에요.",
+                "10월 2일이에요."
+              ],
+              "chinese": "10 月 2 日。"
+            },
+            {
+              "cue": "언제 쉬어요?（星期日）",
+              "cueIsAudio": true,
+              "answers": [
+                "일요일에 쉬어요."
+              ],
+              "chinese": "星期日休息。"
+            },
+            {
+              "cue": "금요일에 만나요?（不，星期六）",
+              "cueIsAudio": true,
+              "answers": [
+                "아니요, 토요일에 만나요."
+              ],
+              "chinese": "不，星期六見。"
+            }
+          ]
+        },
+        {
+          "id": "D2404",
+          "type": "freeProduction",
+          "instruction": "說出你的生日，以及你哪一天休息。",
+          "model": {
+            "korean": "제 생일은 사월 십일이에요. 일요일에 쉬어요.",
+            "chinese": "我的生日是 4 月 10 日。星期日休息。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 10,
+          "items": [
+            {
+              "cue": "自由回答",
+              "answers": [
+                "제 생일은 사월 십일이에요.",
+                "제 생일은 4월 10일이에요.",
+                "일요일에 쉬어요."
+              ],
+              "chinese": "（參考答案）"
+            }
+          ]
+        }
+      ],
+      "speaking": {
+        "scenario": "和韓國朋友聊生日，並約下次見面的日子。AI 扮演朋友。使用者會：몇 월 며칠、언제、무슨 요일、N요일에。",
+        "speechLevel": "polite",
+        "offlineScript": [
+          {
+            "cue": "생일이 언제예요?（提示：6 月 15 日）",
+            "cueIsAudio": true,
+            "answers": [
+              "유월 십오일이에요.",
+              "제 생일은 유월 십오일이에요.",
+              "6월 15일이에요.",
+              "제 생일은 6월 15일이에요."
+            ],
+            "chinese": "6 月 15 日。"
+          },
+          {
+            "cue": "와, 다음 주예요! 무슨 요일이에요?（提示：星期五）",
+            "cueIsAudio": true,
+            "answers": [
+              "금요일이에요."
+            ],
+            "chinese": "星期五。"
+          },
+          {
+            "cue": "그럼 금요일에 만나요?（提示：不，星期六見）",
+            "cueIsAudio": true,
+            "answers": [
+              "아니요, 토요일에 만나요.",
+              "토요일에 만나요."
+            ],
+            "chinese": "不，星期六見。"
+          }
+        ]
+      },
+      "postTest": [
+        {
+          "id": "Q2401",
+          "skill": "vocabulary",
+          "kind": "choice",
+          "prompt": "「6 月」怎麼說？",
+          "audioText": null,
+          "options": [
+            "유월",
+            "육월",
+            "여섯 월"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "6 月是 유월。"
+        },
+        {
+          "id": "Q2402",
+          "skill": "vocabulary",
+          "kind": "choice",
+          "prompt": "「星期四」是哪一個？",
+          "audioText": null,
+          "options": [
+            "목요일",
+            "금요일",
+            "수요일"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "목요일＝星期四。"
+        },
+        {
+          "id": "Q2403",
+          "skill": "listening",
+          "kind": "listeningChoice",
+          "prompt": "聽日期",
+          "audioText": "십이월 이십오일이에요.",
+          "options": [
+            "12 月 25 日",
+            "2 月 25 日",
+            "12 月 15 日"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "십이월 이십오일＝12 月 25 日。"
+        },
+        {
+          "id": "Q2404",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「幾號？」的正確寫法是？",
+          "audioText": null,
+          "options": [
+            "며칠",
+            "몇일",
+            "몇 일"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "며칠，不是 몇일。"
+        },
+        {
+          "id": "Q2405",
+          "skill": "grammar",
+          "kind": "typing",
+          "prompt": "用韓文寫：星期六休息。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "토요일에 쉬어요."
+          ],
+          "explanation": "토요일에 쉬어요."
+        },
+        {
+          "id": "Q2406",
+          "skill": "speaking",
+          "kind": "speaking",
+          "prompt": "說出：你的生日是什麼時候？",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "생일이 언제예요?"
+          ],
+          "explanation": "생일이 언제예요?"
+        }
+      ],
+      "completion": {
+        "postTestPassRatio": 0.8,
+        "drillAccuracy": 0.8,
+        "requireVocabularyQuiz": true
+      }
+    },
+    {
+      "id": "U05L05",
+      "title": "年齡、時間長度與「從…到…」",
+      "estimatedMinutes": 55,
+      "objectives": [
+        "用固有數字說年齡：스물다섯 살",
+        "說時間長度：두 시간、삼십 분 걸려요",
+        "用「N부터 N까지」說從幾點到幾點、從哪天到哪天",
+        "整合本單元：數字、時間、日期、量詞"
+      ],
+      "vocabulary": [
+        {
+          "id": "V0267",
+          "korean": "살",
+          "chinese": "歲",
+          "romanization": "sal",
+          "partOfSpeech": "counter",
+          "tier": "S",
+          "frequencyRank": 162,
+          "example": {
+            "korean": "스무 살이에요.",
+            "chinese": "二十歲。",
+            "speechLevel": "polite"
+          },
+          "usage": "前面用固有數字。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0268",
+          "korean": "나이",
+          "chinese": "年齡",
+          "romanization": "na-i",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 163,
+          "example": {
+            "korean": "나이가 어떻게 돼요?",
+            "chinese": "你幾歲？",
+            "speechLevel": "polite"
+          },
+          "usage": "對長輩問：연세가 어떻게 되세요?",
+          "commonMistake": null
+        },
+        {
+          "id": "V0269",
+          "korean": "스물",
+          "chinese": "二十（固有數字）",
+          "romanization": "seu-mul",
+          "partOfSpeech": "numeral",
+          "tier": "S",
+          "frequencyRank": 164,
+          "example": {
+            "korean": "스물다섯 살이에요.",
+            "chinese": "二十五歲。",
+            "speechLevel": "polite"
+          },
+          "usage": "接量詞時變成 스무：스무 살、스무 개。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0270",
+          "korean": "서른",
+          "chinese": "三十（固有數字）",
+          "romanization": "seo-reun",
+          "partOfSpeech": "numeral",
+          "tier": "A",
+          "frequencyRank": 80,
+          "example": {
+            "korean": "서른 살이에요.",
+            "chinese": "三十歲。",
+            "speechLevel": "polite"
+          },
+          "usage": "40＝마흔、50＝쉰。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0271",
+          "korean": "시간",
+          "chinese": "小時；時間",
+          "romanization": "si-gan",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 165,
+          "example": {
+            "korean": "두 시간 공부해요.",
+            "chinese": "讀兩個小時的書。",
+            "speechLevel": "polite"
+          },
+          "usage": "「幾小時」用固有數字：한 시간、두 시간。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0272",
+          "korean": "부터",
+          "chinese": "從…",
+          "romanization": "bu-teo",
+          "partOfSpeech": "particle",
+          "tier": "S",
+          "frequencyRank": 166,
+          "example": {
+            "korean": "아홉 시부터 일해요.",
+            "chinese": "從九點開始工作。",
+            "speechLevel": "polite"
+          },
+          "usage": "時間的起點。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0273",
+          "korean": "까지",
+          "chinese": "到…",
+          "romanization": "kka-ji",
+          "partOfSpeech": "particle",
+          "tier": "S",
+          "frequencyRank": 167,
+          "example": {
+            "korean": "여섯 시까지 일해요.",
+            "chinese": "工作到六點。",
+            "speechLevel": "polite"
+          },
+          "usage": "時間或地點的終點。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0274",
+          "korean": "주말",
+          "chinese": "週末",
+          "romanization": "ju-mal",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 168,
+          "example": {
+            "korean": "주말에 쉬어요.",
+            "chinese": "週末休息。",
+            "speechLevel": "polite"
+          },
+          "usage": "평일＝平日。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0275",
+          "korean": "매일",
+          "chinese": "每天",
+          "romanization": "mae-il",
+          "partOfSpeech": "adverb",
+          "tier": "S",
+          "frequencyRank": 169,
+          "example": {
+            "korean": "매일 한국어를 공부해요.",
+            "chinese": "每天學韓語。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0276",
+          "korean": "일주일",
+          "chinese": "一週",
+          "romanization": "il-ju-il",
+          "pronunciation": "[일쭈일]",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 81,
+          "example": {
+            "korean": "일주일에 세 번 운동해요.",
+            "chinese": "一週運動三次。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0277",
+          "korean": "걸려요",
+          "chinese": "花（時間）",
+          "romanization": "geol-lyeo-yo",
+          "partOfSpeech": "verb",
+          "tier": "A",
+          "frequencyRank": 82,
+          "example": {
+            "korean": "회사까지 삼십 분 걸려요.",
+            "chinese": "到公司要三十分鐘。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 걸리다。",
+          "commonMistake": null
+        }
+      ],
+      "pronunciation": [
+        {
+          "id": "P2501",
+          "title": "年齡與時間長度的音變",
+          "explanation": "스물다섯 살 → [스물다섣 쌀]、열 살 → [열 쌀]（緊音化）；두 시간、세 시간 不變；일주일 → [일쭈일]。",
+          "articulation": "數字和量詞連在一起唸：다섯 살 不要在中間停頓。",
+          "chineseSpeakerPitfall": "살 唸成平音 [살]，在 열、다섯 後面韓國人會唸成 [쌀]。",
+          "samples": [
+            "스물다섯 살",
+            "열 살",
+            "일주일"
+          ],
+          "minimalPairs": []
+        },
+        {
+          "id": "P2502",
+          "title": "부터／까지 的語調",
+          "explanation": "「A부터 B까지」通常一口氣說完，부터 後面稍微停一下：아홉 시부터 | 여섯 시까지。까지 的 ㄲ 是緊音。",
+          "articulation": "까 喉嚨繃緊、沒有氣流，聲音比平音高。",
+          "chineseSpeakerPitfall": "까지 唸成送氣的 [카지]。",
+          "samples": [
+            "부터",
+            "까지",
+            "아홉 시부터 여섯 시까지"
+          ],
+          "minimalPairs": []
+        }
+      ],
+      "grammar": [
+        {
+          "id": "G2501",
+          "title": "N부터 N까지（從…到…）",
+          "pattern": "時間／日期＋부터 … 時間／日期＋까지",
+          "explanation": "부터 表示起點、까지 表示終點：아홉 시부터 여섯 시까지 일해요（從九點工作到六點）、월요일부터 금요일까지（星期一到星期五）。地點的「從」通常用 에서：집에서 회사까지（從家到公司）。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "아홉 시부터 여섯 시까지 일해요.",
+              "chinese": "從九點工作到六點。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "월요일부터 금요일까지 회사에 가요.",
+              "chinese": "星期一到星期五去公司。",
+              "speechLevel": "polite"
+            }
+          ]
+        },
+        {
+          "id": "G2502",
+          "title": "固有數字：年齡與時間長度",
+          "pattern": "固有數字＋살（歲）；固有數字＋시간（小時）；N 걸려요（花多少時間）",
+          "explanation": "年齡和「幾個小時」都用固有數字：스물다섯 살、두 시간。스물 接量詞變 스무：스무 살。分鐘仍用漢字音：삼십 분。花多少時間：회사까지 한 시간 걸려요。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "저는 스물다섯 살이에요.",
+              "chinese": "我二十五歲。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "집에서 회사까지 한 시간 걸려요.",
+              "chinese": "從家到公司要一個小時。",
+              "speechLevel": "polite"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "korean": "몇 살이에요?",
+          "chinese": "你幾歲？",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "스물여덟 살이에요.",
+          "chinese": "二十八歲。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "아홉 시부터 여섯 시까지 일해요.",
+          "chinese": "從九點工作到六點。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "매일 한 시간 운동해요.",
+          "chinese": "每天運動一個小時。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "회사까지 삼십 분 걸려요.",
+          "chinese": "到公司要三十分鐘。",
+          "speechLevel": "polite"
+        }
+      ],
+      "listening": [
+        {
+          "id": "L2501",
+          "audioText": "스물세 살이에요.",
+          "question": "對方幾歲？",
+          "options": [
+            "23 歲",
+            "33 歲",
+            "20 歲"
+          ],
+          "answerIndex": 0,
+          "explanation": "스물세＝二十三。"
+        },
+        {
+          "id": "L2502",
+          "audioText": "열 시부터 네 시까지 일해요.",
+          "question": "工作時間是？",
+          "options": [
+            "10 點到 4 點",
+            "4 點到 10 點",
+            "10 點到 14 點"
+          ],
+          "answerIndex": 0,
+          "explanation": "부터＝從；까지＝到。"
+        },
+        {
+          "id": "L2503",
+          "audioText": "회사까지 한 시간 걸려요.",
+          "question": "到公司要多久？",
+          "options": [
+            "一個小時",
+            "一點",
+            "十分鐘"
+          ],
+          "answerIndex": 0,
+          "explanation": "한 시간＝一個小時。"
+        },
+        {
+          "id": "L2504",
+          "audioText": "주말에 쉬어요.",
+          "question": "什麼時候休息？",
+          "options": [
+            "週末",
+            "每天",
+            "星期一"
+          ],
+          "answerIndex": 0,
+          "explanation": "주말＝週末。"
+        }
+      ],
+      "drills": [
+        {
+          "id": "D2501",
+          "type": "substitution",
+          "instruction": "說年齡：N 살이에요（固有數字）。",
+          "model": {
+            "korean": "스무 살이에요.",
+            "chinese": "二十歲。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "21",
+              "answers": [
+                "스물한 살이에요.",
+                "21살이에요."
+              ],
+              "chinese": "二十一歲。"
+            },
+            {
+              "cue": "25",
+              "answers": [
+                "스물다섯 살이에요.",
+                "25살이에요."
+              ],
+              "chinese": "二十五歲。"
+            },
+            {
+              "cue": "30",
+              "answers": [
+                "서른 살이에요.",
+                "30살이에요."
+              ],
+              "chinese": "三十歲。"
+            },
+            {
+              "cue": "18",
+              "answers": [
+                "열여덟 살이에요.",
+                "18살이에요."
+              ],
+              "chinese": "十八歲。"
+            },
+            {
+              "cue": "32",
+              "answers": [
+                "서른두 살이에요.",
+                "32살이에요."
+              ],
+              "chinese": "三十二歲。"
+            }
+          ]
+        },
+        {
+          "id": "D2502",
+          "type": "substitution",
+          "instruction": "說工作時間：A부터 B까지 일해요。",
+          "model": {
+            "korean": "아홉 시부터 여섯 시까지 일해요.",
+            "chinese": "從九點工作到六點。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 8,
+          "items": [
+            {
+              "cue": "8–5",
+              "answers": [
+                "여덟 시부터 다섯 시까지 일해요.",
+                "8시부터 5시까지 일해요."
+              ],
+              "chinese": "從八點工作到五點。"
+            },
+            {
+              "cue": "10–7",
+              "answers": [
+                "열 시부터 일곱 시까지 일해요.",
+                "10시부터 7시까지 일해요."
+              ],
+              "chinese": "從十點工作到七點。"
+            },
+            {
+              "cue": "星期一–星期五",
+              "answers": [
+                "월요일부터 금요일까지 일해요."
+              ],
+              "chinese": "星期一到星期五工作。"
+            },
+            {
+              "cue": "1–4",
+              "answers": [
+                "한 시부터 네 시까지 일해요.",
+                "1시부터 4시까지 일해요."
+              ],
+              "chinese": "從一點工作到四點。"
+            },
+            {
+              "cue": "星期二–星期六",
+              "answers": [
+                "화요일부터 토요일까지 일해요."
+              ],
+              "chinese": "星期二到星期六工作。"
+            }
+          ]
+        },
+        {
+          "id": "D2503",
+          "type": "transformation",
+          "instruction": "說要花多少時間：N 걸려요。",
+          "model": {
+            "korean": "회사（30 分） → 회사까지 삼십 분 걸려요.",
+            "chinese": "到公司要三十分鐘。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 8,
+          "items": [
+            {
+              "cue": "학교（1 小時）",
+              "answers": [
+                "학교까지 한 시간 걸려요.",
+                "학교까지 1시간 걸려요."
+              ],
+              "chinese": "到學校要一個小時。"
+            },
+            {
+              "cue": "공항（2 小時）",
+              "answers": [
+                "공항까지 두 시간 걸려요.",
+                "공항까지 2시간 걸려요."
+              ],
+              "chinese": "到機場要兩個小時。"
+            },
+            {
+              "cue": "역（10 分）",
+              "answers": [
+                "역까지 십 분 걸려요.",
+                "역까지 10분 걸려요."
+              ],
+              "chinese": "到車站要十分鐘。"
+            },
+            {
+              "cue": "병원（20 分）",
+              "answers": [
+                "병원까지 이십 분 걸려요.",
+                "병원까지 20분 걸려요."
+              ],
+              "chinese": "到醫院要二十分鐘。"
+            },
+            {
+              "cue": "서울（3 小時）",
+              "answers": [
+                "서울까지 세 시간 걸려요.",
+                "서울까지 3시간 걸려요."
+              ],
+              "chinese": "到首爾要三個小時。"
+            }
+          ]
+        },
+        {
+          "id": "D2504",
+          "type": "questionAnswer",
+          "instruction": "聽韓語問題，依提示回答。",
+          "model": {
+            "korean": "몇 살이에요? — 스물다섯 살이에요.",
+            "chinese": "你幾歲？——二十五歲。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 8,
+          "items": [
+            {
+              "cue": "몇 살이에요?（27 歲）",
+              "cueIsAudio": true,
+              "answers": [
+                "스물일곱 살이에요.",
+                "27살이에요."
+              ],
+              "chinese": "二十七歲。"
+            },
+            {
+              "cue": "몇 시부터 몇 시까지 일해요?（9–6）",
+              "cueIsAudio": true,
+              "answers": [
+                "아홉 시부터 여섯 시까지 일해요.",
+                "9시부터 6시까지 일해요."
+              ],
+              "chinese": "從九點到六點。"
+            },
+            {
+              "cue": "회사까지 얼마나 걸려요?（40 分）",
+              "cueIsAudio": true,
+              "answers": [
+                "사십 분 걸려요.",
+                "40분 걸려요.",
+                "회사까지 사십 분 걸려요."
+              ],
+              "chinese": "要四十分鐘。"
+            },
+            {
+              "cue": "매일 운동해요?（不，一週兩次）",
+              "cueIsAudio": true,
+              "answers": [
+                "아니요, 일주일에 두 번 운동해요.",
+                "아니요, 일주일에 2번 운동해요."
+              ],
+              "chinese": "不，一週運動兩次。"
+            },
+            {
+              "cue": "주말에 뭐 해요?（休息）",
+              "cueIsAudio": true,
+              "answers": [
+                "쉬어요.",
+                "주말에 쉬어요."
+              ],
+              "chinese": "休息。"
+            }
+          ]
+        },
+        {
+          "id": "D2505",
+          "type": "freeProduction",
+          "instruction": "說你的工作或上課時間，以及通勤要多久。",
+          "model": {
+            "korean": "아홉 시부터 여섯 시까지 일해요. 회사까지 삼십 분 걸려요.",
+            "chinese": "從九點工作到六點。到公司要三十分鐘。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 10,
+          "items": [
+            {
+              "cue": "自由回答",
+              "answers": [
+                "아홉 시부터 여섯 시까지 일해요.",
+                "9시부터 6시까지 일해요.",
+                "회사까지 삼십 분 걸려요.",
+                "회사까지 30분 걸려요."
+              ],
+              "chinese": "（參考答案）"
+            }
+          ]
+        }
+      ],
+      "speaking": {
+        "scenario": "韓國語言交換朋友問你的日常作息：年齡、工作時間、通勤、週末。AI 扮演朋友。使用者會：N 살、부터／까지、N 걸려요、주말、매일。",
+        "speechLevel": "polite",
+        "offlineScript": [
+          {
+            "cue": "실례지만 몇 살이에요?（提示：28 歲）",
+            "cueIsAudio": true,
+            "answers": [
+              "스물여덟 살이에요.",
+              "저는 스물여덟 살이에요.",
+              "28살이에요."
+            ],
+            "chinese": "二十八歲。"
+          },
+          {
+            "cue": "몇 시부터 몇 시까지 일해요?（提示：9 點到 6 點）",
+            "cueIsAudio": true,
+            "answers": [
+              "아홉 시부터 여섯 시까지 일해요.",
+              "9시부터 6시까지 일해요."
+            ],
+            "chinese": "從九點到六點。"
+          },
+          {
+            "cue": "회사까지 얼마나 걸려요?（提示：一個小時）",
+            "cueIsAudio": true,
+            "answers": [
+              "한 시간 걸려요.",
+              "회사까지 한 시간 걸려요.",
+              "1시간 걸려요."
+            ],
+            "chinese": "要一個小時。"
+          }
+        ]
+      },
+      "postTest": [
+        {
+          "id": "Q2501",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「二十歲」怎麼說？",
+          "audioText": null,
+          "options": [
+            "스무 살",
+            "스물 살",
+            "이십 살"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "스물 接量詞變 스무。"
+        },
+        {
+          "id": "Q2502",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「從九點到六點」怎麼說？",
+          "audioText": null,
+          "options": [
+            "아홉 시부터 여섯 시까지",
+            "아홉 시까지 여섯 시부터",
+            "구 시부터 육 시까지"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "부터＝從；까지＝到。"
+        },
+        {
+          "id": "Q2503",
+          "skill": "listening",
+          "kind": "listeningChoice",
+          "prompt": "聽句子選意思",
+          "audioText": "매일 두 시간 공부해요.",
+          "options": [
+            "每天讀兩個小時。",
+            "每天兩點讀書。",
+            "一週讀兩次。"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "두 시간＝兩個小時。"
+        },
+        {
+          "id": "Q2504",
+          "skill": "vocabulary",
+          "kind": "choice",
+          "prompt": "「兩個小時」怎麼說？",
+          "audioText": null,
+          "options": [
+            "두 시간",
+            "이 시간",
+            "두 시"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "小時用固有數字：두 시간。"
+        },
+        {
+          "id": "Q2505",
+          "skill": "grammar",
+          "kind": "typing",
+          "prompt": "用韓文寫：到公司要三十分鐘。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "회사까지 삼십 분 걸려요.",
+            "회사까지 30분 걸려요."
+          ],
+          "explanation": "회사까지 삼십 분 걸려요."
+        },
+        {
+          "id": "Q2506",
+          "skill": "speaking",
+          "kind": "speaking",
+          "prompt": "說出：我二十五歲。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "저는 스물다섯 살이에요.",
+            "스물다섯 살이에요.",
+            "저는 25살이에요.",
+            "25살이에요."
+          ],
+          "explanation": "저는 스물다섯 살이에요."
+        }
+      ],
+      "completion": {
+        "postTestPassRatio": 0.8,
+        "drillAccuracy": 0.8,
+        "requireVocabularyQuiz": true
+      }
+    }
+  ]
 }

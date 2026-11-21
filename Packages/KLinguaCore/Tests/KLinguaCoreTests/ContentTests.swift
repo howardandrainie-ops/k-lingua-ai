@@ -80,6 +80,40 @@ struct ContentTests {
         #expect(u4.lessons.flatMap(\.vocabulary).allSatisfy { !earlier.contains($0.korean) })
     }
 
+    @Test("單元 05 數字：5 課，單字不和前面重複")
+    func unit05() throws {
+        let lib = try ContentLibrary.loadBundled()
+        let u5 = lib.units[4]
+        #expect(u5.number == 5)
+        #expect(u5.available)
+        #expect(u5.lessons.map(\.id) == ["U05L01", "U05L02", "U05L03", "U05L04", "U05L05"])
+        #expect(u5.lessons.flatMap(\.vocabulary).count >= 50)
+        let earlier = Set(lib.units.prefix(4).flatMap(\.lessons).flatMap(\.vocabulary).map(\.korean))
+        #expect(u5.lessons.flatMap(\.vocabulary).allSatisfy { !earlier.contains($0.korean) })
+    }
+
+    @Test("數字答案：韓文、阿拉伯數字、千分位、語音辨識結果都判為正確")
+    func numberAnswersAcceptDigits() throws {
+        let lib = try ContentLibrary.loadBundled()
+        let drills = try #require(lib.lesson(id: "U05L03")).drills + (try #require(lib.lesson(id: "U05L01"))).drills
+        let time = try #require(drills.first { $0.id == "D2301" }?.items.first { $0.cue == "4:30" })
+        for typed in ["네 시 삼십 분", "4시 30분", "4시 반"] {
+            let g = DrillGrader.grade(response: typed, answers: time.answers, responseSeconds: 2, timeLimit: 7)
+            #expect(g.verdict.isAcceptable, "\(typed)")
+        }
+        let price = try #require(drills.first { $0.id == "D2101" }?.items.first { $0.cue == "3,000" })
+        let typedComma = DrillGrader.grade(response: "3,000원이에요.", answers: price.answers, responseSeconds: 2, timeLimit: 7)
+        #expect(typedComma.verdict.isAcceptable)
+        // iOS 語音辨識常輸出阿拉伯數字、沒有空格
+        let spoken = SpeechAnswerGrader.grade(transcripts: ["3000원이에요"], answers: price.answers, responseSeconds: 2, timeLimit: 7)
+        #expect(spoken.verdict == .correct)
+        // 每一題含數字提示的 Drill，都同時提供韓文與阿拉伯數字答案
+        let unit5Items = lib.units[4].lessons.flatMap(\.drills).flatMap(\.items)
+        for item in unit5Items where item.answers.contains(where: { $0.contains(where: \.isNumber) }) {
+            #expect(item.answers.contains { !$0.contains(where: \.isNumber) }, "\(item.cue) 缺少韓文寫法")
+        }
+    }
+
     @Test("못 해요／못해요 兩種寫法都接受")
     func spacingVariantsAccepted() throws {
         let lib = try ContentLibrary.loadBundled()
