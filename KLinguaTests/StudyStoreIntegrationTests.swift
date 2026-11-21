@@ -270,6 +270,57 @@ struct StudyStoreIntegrationTests {
         #expect(count(DailyLearningRecord.self) == 1)
     }
 
+    // MARK: - 每日提醒與連續學習
+
+    @Test func remindersAreOffByDefaultAndRoundTrip() {
+        #expect(store.reminderTime(.morning) == nil)
+        #expect(store.reminderTime(.evening) == nil)
+        #expect(store.reminderPlan().isEmpty)
+        store.setReminder(.morning, time: ReminderTime(hour: 7, minute: 30))
+        store.setReminder(.evening, time: .defaultEvening)
+        #expect(store.reminderTime(.morning) == ReminderTime(hour: 7, minute: 30))
+        #expect(store.reminderTime(.evening) == .defaultEvening)
+        store.setReminder(.morning, time: nil)
+        #expect(store.reminderTime(.morning) == nil)
+    }
+
+    @Test func reminderPlanReflectsStudyState() throws {
+        placeBeginner()
+        let cal = Calendar.current
+        let morning = try #require(cal.date(bySettingHour: 6, minute: 0, second: 0, of: Date()))
+        store.setReminder(.morning, time: .defaultMorning)
+        store.setReminder(.evening, time: .defaultEvening)
+        store.introduceNewWords(count: 5, at: morning)
+
+        // 今天還沒練習：今天早上的提醒會寫出目前課程與到期卡數
+        let before = store.reminderPlan(now: morning)
+        #expect(before.count == 14)
+        let first = try #require(before.first)
+        #expect(cal.isDate(first.fireDate, inSameDayAs: morning))
+        #expect(first.body.contains("基本母音"))
+        #expect(first.body.contains("20 張"))
+
+        // 練習之後：今天早上的提醒取消
+        store.logActivity(.srsReview, seconds: 300, reviews: 20, at: morning)
+        let after = store.reminderPlan(now: morning)
+        #expect(!after.contains { $0.slot == .morning && cal.isDate($0.fireDate, inSameDayAs: morning) })
+    }
+
+    @Test func studyStreakCountsConsecutiveDays() throws {
+        let cal = Calendar.current
+        let now = Date()
+        #expect(store.studyStreak(at: now) == 0)
+        for offset in [-2, -1] {
+            let day = try #require(cal.date(byAdding: .day, value: offset, to: now))
+            store.logActivity(.patternDrill, seconds: 600, at: day)
+        }
+        // 今天還沒練：從昨天往回算
+        #expect(store.studyStreak(at: now) == 2)
+        store.logActivity(.patternDrill, seconds: 60, at: now)
+        #expect(store.studyStreak(at: now) == 3)
+        #expect(store.reminderContext(at: now).studiedToday)
+    }
+
     // MARK: - 發音紀錄
 
     @Test func pronunciationRecordCountsTowardsPronunciationSkill() {

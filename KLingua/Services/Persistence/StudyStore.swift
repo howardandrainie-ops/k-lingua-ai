@@ -487,6 +487,45 @@ final class StudyStore {
         save()
     }
 
+    // MARK: - 每日提醒與連續學習
+
+    /// 提醒時間；nil 表示關閉。存在 UserProfile.morningReminder／eveningReminder（只取時、分）。
+    func reminderTime(_ slot: ReminderSlot) -> ReminderTime? {
+        let p = profile()
+        let date = slot == .morning ? p.morningReminder : p.eveningReminder
+        return date.map { ReminderTime($0) }
+    }
+
+    func setReminder(_ slot: ReminderSlot, time: ReminderTime?) {
+        let date = time.flatMap {
+            Calendar.current.date(bySettingHour: $0.hour, minute: $0.minute, second: 0, of: Date(timeIntervalSinceReferenceDate: 0))
+        }
+        let p = profile()
+        switch slot {
+        case .morning: p.morningReminder = date
+        case .evening: p.eveningReminder = date
+        }
+        save()
+    }
+
+    /// 連續學習天數（有學習時間紀錄的日子）
+    func studyStreak(at now: Date = Date()) -> Int {
+        let records = (try? context.fetch(FetchDescriptor<DailyLearningRecord>())) ?? []
+        return StudyStreak.days(studyDays: records.filter { $0.studiedSeconds > 0 }.map(\.day), now: now)
+    }
+
+    func reminderContext(at now: Date = Date()) -> ReminderContext {
+        ReminderContext(dueReviews: dueSchedules(at: now).count,
+                        studiedToday: (todayRecord(at: now)?.studiedSeconds ?? 0) > 0,
+                        streakDays: studyStreak(at: now),
+                        currentLessonTitle: currentLesson?.title)
+    }
+
+    func reminderPlan(now: Date = Date()) -> [PlannedReminder] {
+        ReminderPlanner.plan(morning: reminderTime(.morning), evening: reminderTime(.evening),
+                             context: reminderContext(at: now), now: now)
+    }
+
     func save() {
         revision += 1
         do { try context.save() } catch { assertionFailure("SwiftData save failed: \(error)") }

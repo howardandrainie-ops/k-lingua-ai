@@ -4,6 +4,36 @@ import KLinguaCore
 struct SettingsView: View {
     @Environment(StudyStore.self) private var store
     @State private var confirmRetake = false
+    @State private var permissionAlert = false
+    private var reminders: ReminderScheduler { ReminderScheduler.shared }
+
+    private static func date(for time: ReminderTime) -> Date {
+        Calendar.current.date(bySettingHour: time.hour, minute: time.minute, second: 0, of: Date()) ?? Date()
+    }
+
+    private func reschedule() {
+        Task { await reminders.reschedule(using: store) }
+    }
+
+    /// 開啟提醒時才詢問通知權限；被拒絕就不開啟，並提示到系統設定。
+    private func setReminder(_ slot: ReminderSlot, on: Bool) {
+        guard on else {
+            store.setReminder(slot, time: nil)
+            reschedule()
+            return
+        }
+        Task {
+            if reminders.permission != .granted {
+                let granted = await reminders.requestPermission()
+                guard granted else {
+                    permissionAlert = true
+                    return
+                }
+            }
+            store.setReminder(slot, time: slot == .morning ? .defaultMorning : .defaultEvening)
+            await reminders.reschedule(using: store)
+        }
+    }
 
     private let minuteOptions = [10, 15, 20, 30, 45, 60, 90]
 
@@ -46,6 +76,28 @@ struct SettingsView: View {
                 Text("發音回饋是「語音辨識比對」：只能知道辨識器把你的聲音聽成什麼字，不是發音評分。錄音只存在這台裝置，最多保留最近 200 個。")
             }
 
+            Section {
+                ForEach(ReminderSlot.allCases, id: \.self) { slot in
+                    Toggle(slot.title, isOn: Binding(get: { store.reminderTime(slot) != nil },
+                                                    set: { on in setReminder(slot, on: on) }))
+                    if let time = store.reminderTime(slot) {
+                        DatePicker("時間", selection: Binding(get: { Self.date(for: time) },
+                                                             set: { store.setReminder(slot, time: ReminderTime($0)); reschedule() }),
+                                   displayedComponents: .hourAndMinute)
+                    }
+                }
+                if reminders.permission == .denied {
+                    Text("通知權限已關閉，提醒不會出現。").foregroundStyle(.secondary)
+                    Button("到「設定」開啟通知") { openAppSettings() }
+                } else if reminders.scheduledCount > 0 {
+                    LabeledContent("已排定", value: "未來 7 天共 \(reminders.scheduledCount) 則")
+                }
+            } header: {
+                Text("每日提醒")
+            } footer: {
+                Text("早上提醒今天的課程與到期的單字卡；晚上若今天還沒練習、或還有到期的卡片才會提醒。今天已經練習過就不會再催你。通知只在這台 iPhone 上排程，不經過網路。")
+            }
+
             Section("能力診斷") {
                 if let date = profile.diagnosticCompletedAt {
                     LabeledContent("上次診斷", value: date.formatted(date: .abbreviated, time: .shortened))
@@ -80,6 +132,13 @@ struct SettingsView: View {
             }
         }
         .navigationTitle("設定")
+        .task { await reminders.refreshPermission() }
+        .alert("無法開啟提醒", isPresented: $permissionAlert) {
+            Button("到「設定」開啟") { openAppSettings() }
+            Button("取消", role: .cancel) {}
+        } message: {
+            Text("需要允許 K-LINGUA 傳送通知，才能收到每日提醒。")
+        }
         .confirmationDialog("重新做診斷測驗？", isPresented: $confirmRetake, titleVisibility: .visible) {
             Button("開始") { store.restartDiagnostic() }
             Button("取消", role: .cancel) {}

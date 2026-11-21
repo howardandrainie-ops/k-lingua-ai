@@ -5,6 +5,7 @@ import KLinguaCore
 struct KLinguaApp: App {
     @State private var store: StudyStore?
     @State private var startupError: String?
+    @Environment(\.scenePhase) private var scenePhase
 
     init() {
         let launch = LaunchOptions(arguments: ProcessInfo.processInfo.arguments)
@@ -22,7 +23,15 @@ struct KLinguaApp: App {
     var body: some Scene {
         WindowGroup {
             if let store {
-                RootView().environment(store)
+                RootView()
+                    .environment(store)
+                    // 離開 App 時依最新的學習狀態重排每日提醒（今天練過就不再催促、到期卡數更新）
+                    .onChange(of: scenePhase) { _, phase in
+                        if phase == .background {
+                            Task { await ReminderScheduler.shared.reschedule(using: store) }
+                        }
+                    }
+                    .task { await ReminderScheduler.shared.reschedule(using: store) }
             } else {
                 ContentUnavailableView {
                     Label("無法啟動", systemImage: "exclamationmark.triangle")
@@ -49,6 +58,7 @@ struct LaunchOptions {
     @MainActor
     func apply(to store: StudyStore) {
         guard uiTesting else { return }
+        ReminderScheduler.shared.disabled = true
         store.setPreferSpeechInput(false)
         if placedAsBeginner {
             let scores = QuizScoring.sectionScores(store.library.diagnostic, correctIDs: [])

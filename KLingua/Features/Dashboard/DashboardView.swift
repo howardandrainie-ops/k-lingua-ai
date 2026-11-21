@@ -24,6 +24,10 @@ struct DashboardView: View {
             Section("今天") {
                 LabeledContent("每日目標", value: "\(profile.dailyMinutes) 分鐘")
                 LabeledContent("今日已練習", value: formatMinutes(record?.studiedSeconds ?? 0))
+                let streak = store.studyStreak(at: now)
+                if streak > 0 {
+                    LabeledContent("連續學習", value: "\(streak) 天")
+                }
                 LabeledContent("今日課表", value: "\(plan.filter { done.contains($0.activity) }.count) / \(plan.count) 項完成")
                 if let record, record.newWords + record.reviews > 0 {
                     LabeledContent("新單字／複習", value: "\(record.newWords) ／ \(record.reviews)")
