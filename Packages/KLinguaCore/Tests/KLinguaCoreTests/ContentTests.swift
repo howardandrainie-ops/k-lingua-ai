@@ -152,6 +152,25 @@ struct ContentTests {
         #expect(u8.lessons.flatMap(\.vocabulary).allSatisfy { !earlier.contains($0.korean) })
     }
 
+    @Test("單元 09 實戰情境：-아/어서 前不加過去式、含數字答案都有韓文寫法")
+    func unit09() throws {
+        let lib = try ContentLibrary.loadBundled()
+        let u9 = lib.units[8]
+        #expect(u9.number == 9)
+        #expect(u9.available)
+        #expect(u9.stage == .dailyConversation)
+        #expect(u9.lessons.map(\.id) == ["U09L01", "U09L02", "U09L03", "U09L04", "U09L05"])
+        let items = u9.lessons.flatMap(\.drills).flatMap(\.items) + u9.lessons.flatMap(\.speaking.offlineScript)
+        let answers = items.flatMap(\.answers)
+        #expect(answers.contains("길을 잃어서 늦었어요."))
+        #expect(!answers.contains { $0.contains("었어서") || $0.contains("았어서") || $0.contains("했어서") })
+        for item in items where item.answers.contains(where: { $0.contains(where: \.isNumber) }) {
+            #expect(item.answers.contains { !$0.contains(where: \.isNumber) }, "\(item.cue) 缺少韓文寫法")
+        }
+        let earlier = Set(lib.units.prefix(8).flatMap(\.lessons).flatMap(\.vocabulary).map(\.korean))
+        #expect(u9.lessons.flatMap(\.vocabulary).allSatisfy { !earlier.contains($0.korean) })
+    }
+
     @Test("數字答案：韓文、阿拉伯數字、千分位、語音辨識結果都判為正確")
     func numberAnswersAcceptDigits() throws {
         let lib = try ContentLibrary.loadBundled()

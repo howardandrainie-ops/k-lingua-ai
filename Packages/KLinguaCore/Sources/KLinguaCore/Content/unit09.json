@@ -3,7 +3,3423 @@
   "number": 9,
   "title": "餐廳、購物、交通",
   "stage": 5,
-  "summary": "點餐、結帳、殺價、試穿、計程車、地鐵、問路等實戰情境。",
-  "available": false,
-  "lessons": []
+  "summary": "點餐（-(으)ㄹ게요）、結帳與殺價（-아/어도 돼요?）、試穿與比較（-아/어 보다、-(으)ㄴ 거）、計程車與車票（-(으)ㄹ 수 있어요）、問路與遺失物（-아/어서）等實戰情境。",
+  "available": true,
+  "lessons": [
+    {
+      "id": "U09L01",
+      "title": "餐廳點餐「-(으)ㄹ게요」",
+      "estimatedMinutes": 50,
+      "objectives": [
+        "叫店員、看菜單、點餐：여기요、메뉴 주세요、N(으)로 할게요",
+        "用「-(으)ㄹ게요」說自己決定要做的事",
+        "提出要求：덜 맵게 해 주세요、반찬 더 주세요",
+        "回答內用還是外帶"
+      ],
+      "vocabulary": [
+        {
+          "id": "V0446",
+          "korean": "여기요",
+          "chinese": "（叫店員）不好意思",
+          "romanization": "yeo-gi-yo",
+          "partOfSpeech": "expression",
+          "tier": "S",
+          "frequencyRank": 265,
+          "example": {
+            "korean": "여기요! 메뉴 주세요.",
+            "chinese": "不好意思！請給我菜單。",
+            "speechLevel": "polite"
+          },
+          "usage": "也說 저기요。韓國餐廳習慣大聲叫店員。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0447",
+          "korean": "메뉴",
+          "chinese": "菜單",
+          "romanization": "me-nyu",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 266,
+          "example": {
+            "korean": "메뉴 좀 보여 주세요.",
+            "chinese": "請讓我看一下菜單。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0448",
+          "korean": "주문",
+          "chinese": "點餐；訂購",
+          "romanization": "ju-mun",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 267,
+          "example": {
+            "korean": "주문할게요.",
+            "chinese": "我要點餐。",
+            "speechLevel": "polite"
+          },
+          "usage": "주문하다＝點餐。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0449",
+          "korean": "추천",
+          "chinese": "推薦",
+          "romanization": "chu-cheon",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 147,
+          "example": {
+            "korean": "뭐가 맛있어요? 추천해 주세요.",
+            "chinese": "什麼好吃？請推薦一下。",
+            "speechLevel": "polite"
+          },
+          "usage": "추천하다＝推薦。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0450",
+          "korean": "반찬",
+          "chinese": "小菜",
+          "romanization": "ban-chan",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 148,
+          "example": {
+            "korean": "반찬 좀 더 주세요.",
+            "chinese": "請再給我一點小菜。",
+            "speechLevel": "polite"
+          },
+          "usage": "韓國餐廳的小菜通常免費續。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0451",
+          "korean": "포장",
+          "chinese": "打包；外帶",
+          "romanization": "po-jang",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 268,
+          "example": {
+            "korean": "포장해 주세요.",
+            "chinese": "請幫我打包。",
+            "speechLevel": "polite"
+          },
+          "usage": "內用說 여기서 먹을게요。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0452",
+          "korean": "맵게",
+          "chinese": "辣一點",
+          "romanization": "maep-ge",
+          "pronunciation": "[맵께]",
+          "partOfSpeech": "adverb",
+          "tier": "A",
+          "frequencyRank": 149,
+          "example": {
+            "korean": "안 맵게 해 주세요.",
+            "chinese": "請不要辣。",
+            "speechLevel": "polite"
+          },
+          "usage": "덜 맵게＝少辣一點；더 맵게＝辣一點。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0453",
+          "korean": "덜",
+          "chinese": "少一點；不那麼",
+          "romanization": "deol",
+          "partOfSpeech": "adverb",
+          "tier": "A",
+          "frequencyRank": 150,
+          "example": {
+            "korean": "덜 맵게 해 주세요.",
+            "chinese": "請少辣一點。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0454",
+          "korean": "인분",
+          "chinese": "人份",
+          "romanization": "in-bun",
+          "partOfSpeech": "counter",
+          "tier": "A",
+          "frequencyRank": 151,
+          "example": {
+            "korean": "불고기 이 인분 주세요.",
+            "chinese": "請給我兩人份的烤肉。",
+            "speechLevel": "polite"
+          },
+          "usage": "烤肉店常要點兩人份以上；用漢字音數字。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0455",
+          "korean": "불고기",
+          "chinese": "烤肉（醬燒牛肉）",
+          "romanization": "bul-go-gi",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 152,
+          "example": {
+            "korean": "불고기를 먹어 봤어요.",
+            "chinese": "吃過烤肉。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0456",
+          "korean": "된장찌개",
+          "chinese": "大醬湯",
+          "romanization": "doen-jang-jji-gae",
+          "partOfSpeech": "noun",
+          "tier": "B",
+          "frequencyRank": 34,
+          "example": {
+            "korean": "된장찌개 하나 주세요.",
+            "chinese": "請給我一份大醬湯。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        }
+      ],
+      "pronunciation": [
+        {
+          "id": "P4101",
+          "title": "-(으)ㄹ게요 的緊音",
+          "explanation": "ㄹ 後面的 게 變緊音：할게요 → [할께요]、먹을게요 → [머글께요]、갈게요 → [갈께요]。",
+          "articulation": "ㄹ 停住，喉嚨繃緊唸 [께]。",
+          "chineseSpeakerPitfall": "唸成平音 [할게요]，聽起來不像母語者。",
+          "samples": [
+            "할게요",
+            "먹을게요",
+            "주문할게요"
+          ],
+          "minimalPairs": []
+        },
+        {
+          "id": "P4102",
+          "title": "餐廳用語的音變",
+          "explanation": "맵게 → [맵께]（緊音化）、이 인분 → [이 인분]、된장찌개 → [된장찌개]；반찬 좀 더 주세요 說快時 좀 很輕。",
+          "articulation": "點餐時語速快，整句連著唸：[반찬 좀 더 주세요]。",
+          "chineseSpeakerPitfall": "每個字一樣重，聽起來很生硬。",
+          "samples": [
+            "맵게",
+            "반찬 좀 더 주세요",
+            "포장해 주세요"
+          ],
+          "minimalPairs": []
+        }
+      ],
+      "grammar": [
+        {
+          "id": "G4101",
+          "title": "V-(으)ㄹ게요（我來…；我決定…）",
+          "pattern": "無收音或 ㄹ 收音＋ㄹ게요；有收音＋을게요",
+          "explanation": "說自己當場決定、答應對方的事：주문할게요（我要點餐）、비빔밥으로 할게요（我要拌飯）、여기서 먹을게요（我要內用）、이따가 전화할게요（我等一下打給你）。只能用在「我」的動作，不能用來問別人。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "비빔밥으로 할게요.",
+              "chinese": "我要拌飯。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "여기서 먹을게요.",
+              "chinese": "我要內用。",
+              "speechLevel": "polite"
+            }
+          ]
+        },
+        {
+          "id": "G4102",
+          "title": "N(으)로 할게요／N 주세요；-게 해 주세요",
+          "pattern": "N(으)로 할게요＝我選 N；形容詞＋게 해 주세요＝請弄得…",
+          "explanation": "點餐：N 주세요 或 N(으)로 할게요（從選項中選）。數量：불고기 이 인분、된장찌개 하나。要求做法：안 맵게 해 주세요、덜 맵게 해 주세요、따뜻하게 해 주세요。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "불고기 이 인분 주세요.",
+              "chinese": "請給我兩人份的烤肉。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "덜 맵게 해 주세요.",
+              "chinese": "請少辣一點。",
+              "speechLevel": "polite"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "korean": "여기요! 주문할게요.",
+          "chinese": "不好意思！我要點餐。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "뭐가 맛있어요? 추천해 주세요.",
+          "chinese": "什麼好吃？請推薦。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "된장찌개로 할게요.",
+          "chinese": "我要大醬湯。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "안 맵게 해 주세요.",
+          "chinese": "請不要辣。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "남은 거 포장해 주세요.",
+          "chinese": "剩下的請幫我打包。",
+          "speechLevel": "polite"
+        }
+      ],
+      "listening": [
+        {
+          "id": "L4101",
+          "audioText": "여기서 드세요? 포장하세요?",
+          "question": "店員在問什麼？",
+          "options": [
+            "內用還是外帶？",
+            "要不要辣？",
+            "幾位？"
+          ],
+          "answerIndex": 0,
+          "explanation": "포장＝外帶。"
+        },
+        {
+          "id": "L4102",
+          "audioText": "불고기 삼 인분 주세요.",
+          "question": "客人點了什麼？",
+          "options": [
+            "三人份烤肉",
+            "三碗大醬湯",
+            "烤肉和三份小菜"
+          ],
+          "answerIndex": 0,
+          "explanation": "삼 인분＝三人份。"
+        },
+        {
+          "id": "L4103",
+          "audioText": "덜 맵게 해 주세요.",
+          "question": "客人的要求是？",
+          "options": [
+            "少辣一點",
+            "辣一點",
+            "不要放小菜"
+          ],
+          "answerIndex": 0,
+          "explanation": "덜＝少一點。"
+        },
+        {
+          "id": "L4104",
+          "audioText": "할게요",
+          "question": "實際發音最接近哪一個？",
+          "options": [
+            "[할께요]",
+            "[할게요]（平音）",
+            "[하게요]"
+          ],
+          "answerIndex": 0,
+          "explanation": "ㄹ 後的 게 變緊音。"
+        }
+      ],
+      "drills": [
+        {
+          "id": "D4101",
+          "type": "substitution",
+          "instruction": "點餐：N(으)로 할게요（注意 으로／로）。",
+          "model": {
+            "korean": "비빔밥으로 할게요.",
+            "chinese": "我要拌飯。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "된장찌개",
+              "answers": [
+                "된장찌개로 할게요."
+              ],
+              "chinese": "我要大醬湯。"
+            },
+            {
+              "cue": "불고기",
+              "answers": [
+                "불고기로 할게요."
+              ],
+              "chinese": "我要烤肉。"
+            },
+            {
+              "cue": "김밥",
+              "answers": [
+                "김밥으로 할게요."
+              ],
+              "chinese": "我要飯捲。"
+            },
+            {
+              "cue": "라면",
+              "answers": [
+                "라면으로 할게요."
+              ],
+              "chinese": "我要泡麵。"
+            },
+            {
+              "cue": "커피",
+              "answers": [
+                "커피로 할게요."
+              ],
+              "chinese": "我要咖啡。"
+            }
+          ]
+        },
+        {
+          "id": "D4102",
+          "type": "transformation",
+          "instruction": "改成當場決定的說法：-(으)ㄹ게요。",
+          "model": {
+            "korean": "주문해요. → 주문할게요.",
+            "chinese": "我要點餐。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 6,
+          "items": [
+            {
+              "cue": "여기서 먹어요.",
+              "answers": [
+                "여기서 먹을게요."
+              ],
+              "chinese": "我要內用。"
+            },
+            {
+              "cue": "포장해요.",
+              "answers": [
+                "포장할게요."
+              ],
+              "chinese": "我要外帶。"
+            },
+            {
+              "cue": "이따가 전화해요.",
+              "answers": [
+                "이따가 전화할게요."
+              ],
+              "chinese": "我等一下打給你。"
+            },
+            {
+              "cue": "제가 계산해요.",
+              "answers": [
+                "제가 계산할게요."
+              ],
+              "chinese": "我來付錢。"
+            },
+            {
+              "cue": "물을 마셔요.",
+              "answers": [
+                "물을 마실게요."
+              ],
+              "chinese": "我喝水就好。"
+            }
+          ]
+        },
+        {
+          "id": "D4103",
+          "type": "substitution",
+          "instruction": "提出要求：… 해 주세요／… 주세요。",
+          "model": {
+            "korean": "안 맵게 해 주세요.",
+            "chinese": "請不要辣。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "少辣一點",
+              "answers": [
+                "덜 맵게 해 주세요."
+              ],
+              "chinese": "請少辣一點。"
+            },
+            {
+              "cue": "再給一點小菜",
+              "answers": [
+                "반찬 좀 더 주세요."
+              ],
+              "chinese": "請再給我一點小菜。"
+            },
+            {
+              "cue": "打包",
+              "answers": [
+                "포장해 주세요."
+              ],
+              "chinese": "請幫我打包。"
+            },
+            {
+              "cue": "推薦",
+              "answers": [
+                "추천해 주세요."
+              ],
+              "chinese": "請推薦一下。"
+            },
+            {
+              "cue": "菜單",
+              "answers": [
+                "메뉴 주세요.",
+                "메뉴 좀 주세요."
+              ],
+              "chinese": "請給我菜單。"
+            }
+          ]
+        },
+        {
+          "id": "D4104",
+          "type": "questionAnswer",
+          "instruction": "聽店員的話，依提示回答。",
+          "model": {
+            "korean": "뭐 드릴까요? — 비빔밥 주세요.",
+            "chinese": "要點什麼？——請給我拌飯。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "몇 분이세요?（兩位）",
+              "cueIsAudio": true,
+              "answers": [
+                "두 명이에요.",
+                "2명이에요."
+              ],
+              "chinese": "兩位。"
+            },
+            {
+              "cue": "뭐 드릴까요?（兩人份烤肉）",
+              "cueIsAudio": true,
+              "answers": [
+                "불고기 이 인분 주세요.",
+                "불고기 2인분 주세요."
+              ],
+              "chinese": "請給我兩人份的烤肉。"
+            },
+            {
+              "cue": "맵게 해 드릴까요?（不要辣）",
+              "cueIsAudio": true,
+              "answers": [
+                "아니요, 안 맵게 해 주세요.",
+                "안 맵게 해 주세요."
+              ],
+              "chinese": "請不要辣。"
+            },
+            {
+              "cue": "여기서 드세요?（外帶）",
+              "cueIsAudio": true,
+              "answers": [
+                "아니요, 포장할게요.",
+                "포장해 주세요."
+              ],
+              "chinese": "我要外帶。"
+            },
+            {
+              "cue": "더 필요한 거 있으세요?（再一點小菜）",
+              "cueIsAudio": true,
+              "answers": [
+                "반찬 좀 더 주세요."
+              ],
+              "chinese": "請再給我一點小菜。"
+            }
+          ]
+        },
+        {
+          "id": "D4105",
+          "type": "freeProduction",
+          "instruction": "在韓式餐廳點兩道菜，並提出一個要求。",
+          "model": {
+            "korean": "된장찌개 하나하고 불고기 이 인분 주세요. 덜 맵게 해 주세요.",
+            "chinese": "請給我一份大醬湯和兩人份烤肉，少辣一點。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 10,
+          "items": [
+            {
+              "cue": "自由回答",
+              "answers": [
+                "된장찌개 하나하고 불고기 이 인분 주세요.",
+                "된장찌개 하나하고 불고기 2인분 주세요.",
+                "덜 맵게 해 주세요."
+              ],
+              "chinese": "（參考答案）"
+            }
+          ]
+        }
+      ],
+      "speaking": {
+        "scenario": "在首爾的韓式家庭餐廳點餐。AI 扮演店員。使用者會：여기요、N(으)로 할게요、인분、맵게／덜 맵게、포장。",
+        "speechLevel": "polite",
+        "offlineScript": [
+          {
+            "cue": "어서 오세요. 주문하시겠어요?（提示：問什麼好吃，請他推薦）",
+            "cueIsAudio": true,
+            "answers": [
+              "뭐가 맛있어요? 추천해 주세요.",
+              "추천해 주세요."
+            ],
+            "chinese": "什麼好吃？請推薦。"
+          },
+          {
+            "cue": "된장찌개가 맛있어요. 좀 매워요.（提示：好，要大醬湯，請少辣）",
+            "cueIsAudio": true,
+            "answers": [
+              "된장찌개로 할게요. 덜 맵게 해 주세요.",
+              "그럼 된장찌개로 할게요. 덜 맵게 해 주세요."
+            ],
+            "chinese": "我要大醬湯，請少辣一點。"
+          },
+          {
+            "cue": "네. 여기서 드세요?（提示：對，內用）",
+            "cueIsAudio": true,
+            "answers": [
+              "네, 여기서 먹을게요.",
+              "여기서 먹을게요."
+            ],
+            "chinese": "對，我要內用。"
+          }
+        ]
+      },
+      "postTest": [
+        {
+          "id": "Q4101",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「我要大醬湯。」點餐時怎麼說？",
+          "audioText": null,
+          "options": [
+            "된장찌개로 할게요.",
+            "된장찌개을 할게요.",
+            "된장찌개가 할게요."
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "N(으)로 할게요。"
+        },
+        {
+          "id": "Q4102",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「我要內用。」怎麼說？",
+          "audioText": null,
+          "options": [
+            "여기서 먹을게요.",
+            "여기서 먹게요.",
+            "여기서 먹을까요."
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "有收音＋을게요。"
+        },
+        {
+          "id": "Q4103",
+          "skill": "vocabulary",
+          "kind": "choice",
+          "prompt": "「外帶；打包」是哪一個？",
+          "audioText": null,
+          "options": [
+            "포장",
+            "주문",
+            "반찬"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "포장＝外帶。"
+        },
+        {
+          "id": "Q4104",
+          "skill": "listening",
+          "kind": "listeningChoice",
+          "prompt": "聽客人的要求",
+          "audioText": "안 맵게 해 주세요.",
+          "options": [
+            "請不要辣。",
+            "請辣一點。",
+            "請快一點。"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "안 맵게＝不要辣。"
+        },
+        {
+          "id": "Q4105",
+          "skill": "grammar",
+          "kind": "typing",
+          "prompt": "用韓文寫：請再給我一點小菜。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "반찬 좀 더 주세요.",
+            "반찬 더 주세요."
+          ],
+          "explanation": "반찬 좀 더 주세요."
+        },
+        {
+          "id": "Q4106",
+          "skill": "speaking",
+          "kind": "speaking",
+          "prompt": "說出：不好意思！我要點餐。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "여기요! 주문할게요.",
+            "여기요, 주문할게요.",
+            "저기요, 주문할게요."
+          ],
+          "explanation": "여기요! 주문할게요."
+        }
+      ],
+      "completion": {
+        "postTestPassRatio": 0.8,
+        "drillAccuracy": 0.8,
+        "requireVocabularyQuiz": true
+      }
+    },
+    {
+      "id": "U09L02",
+      "title": "結帳、刷卡與市場殺價",
+      "estimatedMinutes": 50,
+      "objectives": [
+        "結帳：계산해 주세요、카드 돼요?、영수증 주세요",
+        "用「-아/어도 돼요?」詢問可不可以",
+        "分開付或一起付：따로／같이 계산해 주세요",
+        "在傳統市場殺價：좀 깎아 주세요、좀 싸게 해 주세요"
+      ],
+      "vocabulary": [
+        {
+          "id": "V0457",
+          "korean": "계산",
+          "chinese": "結帳",
+          "romanization": "gye-san",
+          "pronunciation": "[게산]",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 269,
+          "example": {
+            "korean": "계산해 주세요.",
+            "chinese": "請幫我結帳。",
+            "speechLevel": "polite"
+          },
+          "usage": "계산하다＝結帳、付錢。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0458",
+          "korean": "카드",
+          "chinese": "信用卡；卡",
+          "romanization": "ka-deu",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 270,
+          "example": {
+            "korean": "카드 돼요?",
+            "chinese": "可以刷卡嗎？",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0459",
+          "korean": "현금",
+          "chinese": "現金",
+          "romanization": "hyeon-geum",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 153,
+          "example": {
+            "korean": "현금으로 할게요.",
+            "chinese": "我付現金。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0460",
+          "korean": "영수증",
+          "chinese": "收據",
+          "romanization": "yeong-su-jeung",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 154,
+          "example": {
+            "korean": "영수증 주세요.",
+            "chinese": "請給我收據。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0461",
+          "korean": "따로",
+          "chinese": "分開",
+          "romanization": "tta-ro",
+          "partOfSpeech": "adverb",
+          "tier": "A",
+          "frequencyRank": 155,
+          "example": {
+            "korean": "따로 계산해 주세요.",
+            "chinese": "請分開結帳。",
+            "speechLevel": "polite"
+          },
+          "usage": "一起付說 같이 계산해 주세요。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0462",
+          "korean": "깎아 주세요",
+          "chinese": "請算便宜一點",
+          "romanization": "kka-kka ju-se-yo",
+          "pronunciation": "[까까 주세요]",
+          "partOfSpeech": "expression",
+          "tier": "A",
+          "frequencyRank": 156,
+          "example": {
+            "korean": "좀 깎아 주세요.",
+            "chinese": "請算便宜一點。",
+            "speechLevel": "polite"
+          },
+          "usage": "깎다＝削、殺價。在傳統市場可以試試，百貨公司不行。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0463",
+          "korean": "싸게",
+          "chinese": "便宜地",
+          "romanization": "ssa-ge",
+          "partOfSpeech": "adverb",
+          "tier": "A",
+          "frequencyRank": 157,
+          "example": {
+            "korean": "좀 싸게 해 주세요.",
+            "chinese": "請算便宜一點。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0464",
+          "korean": "시장",
+          "chinese": "市場",
+          "romanization": "si-jang",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 271,
+          "example": {
+            "korean": "시장에서 과일을 샀어요.",
+            "chinese": "在市場買了水果。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0465",
+          "korean": "봉투",
+          "chinese": "袋子",
+          "romanization": "bong-tu",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 158,
+          "example": {
+            "korean": "봉투 필요하세요?",
+            "chinese": "需要袋子嗎？",
+            "speechLevel": "polite"
+          },
+          "usage": "韓國很多店的袋子要另外付費。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0466",
+          "korean": "돼요",
+          "chinese": "可以；行",
+          "romanization": "dwae-yo",
+          "partOfSpeech": "verb",
+          "tier": "S",
+          "frequencyRank": 272,
+          "example": {
+            "korean": "카드 돼요?",
+            "chinese": "可以刷卡嗎？",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 되다。-아/어도 돼요?＝可以…嗎？",
+          "commonMistake": null
+        },
+        {
+          "id": "V0467",
+          "korean": "서비스",
+          "chinese": "（免費）招待；贈送",
+          "romanization": "seo-bi-seu",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 159,
+          "example": {
+            "korean": "이건 서비스예요.",
+            "chinese": "這是招待的。",
+            "speechLevel": "polite"
+          },
+          "usage": "韓國店家說 서비스 是「免費送的」。",
+          "commonMistake": null
+        }
+      ],
+      "pronunciation": [
+        {
+          "id": "P4201",
+          "title": "계산、깎아 주세요",
+          "explanation": "계산 → [게산]（ㅖ 唸 [ㅔ]）；깎아 → [까까]：雙收音 ㄲ 接母音整個移到下一個字。",
+          "articulation": "ㄲ 緊音：喉嚨繃緊、沒有氣流。",
+          "chineseSpeakerPitfall": "깎아 唸成 [깍아] 或送氣的 [카카]。",
+          "samples": [
+            "계산해 주세요",
+            "깎아 주세요",
+            "현금으로"
+          ],
+          "minimalPairs": []
+        },
+        {
+          "id": "P4202",
+          "title": "-아/어도 돼요 的連音",
+          "explanation": "-아/어도 돼요 通常一口氣說完：앉아도 돼요? → [안자도 돼요]、찍어도 돼요? → [찌거도 돼요]。돼요 和 되요 發音相同，但正確寫法是 돼요。",
+          "articulation": "돼 唸 [ㅙ]，口語和 [ㅞ] 幾乎一樣。",
+          "chineseSpeakerPitfall": "唸成 [되어요] 兩拍。",
+          "samples": [
+            "앉아도 돼요?",
+            "찍어도 돼요?",
+            "카드 돼요?"
+          ],
+          "minimalPairs": []
+        }
+      ],
+      "grammar": [
+        {
+          "id": "G4201",
+          "title": "V-아/어도 돼요?（可以…嗎？）",
+          "pattern": "해요體的 요 換成 도 돼요：앉아요 → 앉아도 돼요?",
+          "explanation": "詢問許可：여기 앉아도 돼요?（可以坐這裡嗎？）、사진 찍어도 돼요?、카드로 계산해도 돼요?。回答：네, 돼요／네, -아/어도 돼요（可以）；아니요, 안 돼요（不行）。口語簡短說法：카드 돼요?（能刷卡嗎？）",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "카드로 계산해도 돼요?",
+              "chinese": "可以刷卡結帳嗎？",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "여기 앉아도 돼요?",
+              "chinese": "可以坐這裡嗎？",
+              "speechLevel": "polite"
+            }
+          ]
+        },
+        {
+          "id": "G4202",
+          "title": "結帳與殺價的說法",
+          "pattern": "계산해 주세요；따로／같이 계산해 주세요；좀 깎아 주세요／좀 싸게 해 주세요",
+          "explanation": "結帳：계산해 주세요。分開付：따로 계산해 주세요；一起付：같이 계산해 주세요。付款方式：카드로 할게요／현금으로 할게요。在傳統市場可以殺價：좀 깎아 주세요、좀 싸게 해 주세요；店家多送一點叫 서비스 或 덤。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "따로 계산해 주세요.",
+              "chinese": "請分開結帳。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "두 개 사면 좀 깎아 주세요.",
+              "chinese": "買兩個的話算便宜一點吧。",
+              "speechLevel": "polite"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "korean": "계산해 주세요.",
+          "chinese": "請幫我結帳。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "카드 돼요?",
+          "chinese": "可以刷卡嗎？",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "영수증 주세요.",
+          "chinese": "請給我收據。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "좀 싸게 해 주세요.",
+          "chinese": "請算便宜一點。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "봉투 필요하세요?",
+          "chinese": "需要袋子嗎？",
+          "speechLevel": "polite"
+        }
+      ],
+      "listening": [
+        {
+          "id": "L4201",
+          "audioText": "따로 계산해 드릴까요?",
+          "question": "店員在問什麼？",
+          "options": [
+            "要分開結帳嗎？",
+            "要刷卡嗎？",
+            "要收據嗎？"
+          ],
+          "answerIndex": 0,
+          "explanation": "따로＝分開。"
+        },
+        {
+          "id": "L4202",
+          "audioText": "카드 돼요?",
+          "question": "客人在問什麼？",
+          "options": [
+            "可以刷卡嗎？",
+            "卡片在哪裡？",
+            "要買卡嗎？"
+          ],
+          "answerIndex": 0,
+          "explanation": "돼요＝可以。"
+        },
+        {
+          "id": "L4203",
+          "audioText": "이건 서비스예요.",
+          "question": "老闆的意思是？",
+          "options": [
+            "這個是免費送的。",
+            "這個要另外付錢。",
+            "這是服務費。"
+          ],
+          "answerIndex": 0,
+          "explanation": "서비스＝招待。"
+        },
+        {
+          "id": "L4204",
+          "audioText": "깎아 주세요",
+          "question": "實際發音最接近哪一個？",
+          "options": [
+            "[까까 주세요]",
+            "[깍아 주세요]",
+            "[카카 주세요]"
+          ],
+          "answerIndex": 0,
+          "explanation": "ㄲ 收音整個移到下一個字。"
+        }
+      ],
+      "drills": [
+        {
+          "id": "D4201",
+          "type": "transformation",
+          "instruction": "詢問許可：-아/어도 돼요?",
+          "model": {
+            "korean": "여기 앉아요. → 여기 앉아도 돼요?",
+            "chinese": "可以坐這裡嗎？",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "사진 찍어요.",
+              "answers": [
+                "사진 찍어도 돼요?"
+              ],
+              "chinese": "可以拍照嗎？"
+            },
+            {
+              "cue": "카드로 계산해요.",
+              "answers": [
+                "카드로 계산해도 돼요?"
+              ],
+              "chinese": "可以刷卡結帳嗎？"
+            },
+            {
+              "cue": "이거 먹어요.",
+              "answers": [
+                "이거 먹어도 돼요?"
+              ],
+              "chinese": "可以吃這個嗎？"
+            },
+            {
+              "cue": "창문 열어요.",
+              "answers": [
+                "창문 열어도 돼요?"
+              ],
+              "chinese": "可以開窗嗎？"
+            },
+            {
+              "cue": "화장실 써요.",
+              "answers": [
+                "화장실 써도 돼요?"
+              ],
+              "chinese": "可以用洗手間嗎？"
+            }
+          ]
+        },
+        {
+          "id": "D4202",
+          "type": "substitution",
+          "instruction": "說付款方式：N(으)로 할게요。",
+          "model": {
+            "korean": "카드로 할게요.",
+            "chinese": "我刷卡。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 6,
+          "items": [
+            {
+              "cue": "現金",
+              "answers": [
+                "현금으로 할게요."
+              ],
+              "chinese": "我付現金。"
+            },
+            {
+              "cue": "分開付",
+              "answers": [
+                "따로 계산할게요."
+              ],
+              "chinese": "我們分開付。"
+            },
+            {
+              "cue": "一起付",
+              "answers": [
+                "같이 계산할게요."
+              ],
+              "chinese": "我們一起付。"
+            },
+            {
+              "cue": "我付",
+              "answers": [
+                "제가 계산할게요."
+              ],
+              "chinese": "我來付。"
+            },
+            {
+              "cue": "要收據",
+              "answers": [
+                "영수증 주세요."
+              ],
+              "chinese": "請給我收據。"
+            }
+          ]
+        },
+        {
+          "id": "D4203",
+          "type": "questionAnswer",
+          "instruction": "結帳時聽店員的話，依提示回答。",
+          "model": {
+            "korean": "카드 돼요? — 네, 돼요.",
+            "chinese": "可以刷卡嗎？——可以。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "같이 계산하세요?（不，分開）",
+              "cueIsAudio": true,
+              "answers": [
+                "아니요, 따로 계산해 주세요.",
+                "따로 계산해 주세요."
+              ],
+              "chinese": "不，請分開結帳。"
+            },
+            {
+              "cue": "봉투 필요하세요?（不用）",
+              "cueIsAudio": true,
+              "answers": [
+                "아니요, 괜찮아요.",
+                "아니요, 필요 없어요."
+              ],
+              "chinese": "不用了。"
+            },
+            {
+              "cue": "영수증 드릴까요?（是）",
+              "cueIsAudio": true,
+              "answers": [
+                "네, 주세요.",
+                "네, 영수증 주세요."
+              ],
+              "chinese": "好，請給我。"
+            },
+            {
+              "cue": "만 오천 원이에요.（問可以刷卡嗎）",
+              "cueIsAudio": true,
+              "answers": [
+                "카드 돼요?",
+                "카드로 계산해도 돼요?"
+              ],
+              "chinese": "可以刷卡嗎？"
+            },
+            {
+              "cue": "사과 한 개에 이천 원이에요.（殺價）",
+              "cueIsAudio": true,
+              "answers": [
+                "좀 깎아 주세요.",
+                "좀 싸게 해 주세요."
+              ],
+              "chinese": "請算便宜一點。"
+            }
+          ]
+        },
+        {
+          "id": "D4204",
+          "type": "freeProduction",
+          "instruction": "在傳統市場買兩樣東西，問價錢並殺價。",
+          "model": {
+            "korean": "이거 얼마예요? 두 개 살게요. 좀 깎아 주세요.",
+            "chinese": "這個多少錢？我買兩個，算便宜一點吧。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 10,
+          "items": [
+            {
+              "cue": "自由回答",
+              "answers": [
+                "이거 얼마예요?",
+                "두 개 살게요.",
+                "좀 깎아 주세요."
+              ],
+              "chinese": "（參考答案）"
+            }
+          ]
+        }
+      ],
+      "speaking": {
+        "scenario": "在南大門市場買水果，和老闆殺價。AI 扮演市場阿姨。使用者會：얼마예요、깎아 주세요、-아/어도 돼요?、카드／현금。",
+        "speechLevel": "polite",
+        "offlineScript": [
+          {
+            "cue": "어서 와요! 사과 맛있어요.（提示：問一個多少錢）",
+            "cueIsAudio": true,
+            "answers": [
+              "사과 한 개에 얼마예요?",
+              "이거 얼마예요?",
+              "사과 얼마예요?"
+            ],
+            "chinese": "蘋果一個多少錢？"
+          },
+          {
+            "cue": "한 개에 이천 원이에요.（提示：買五個，請算便宜一點）",
+            "cueIsAudio": true,
+            "answers": [
+              "다섯 개 살게요. 좀 깎아 주세요.",
+              "5개 살게요. 좀 깎아 주세요.",
+              "다섯 개 살게요. 좀 싸게 해 주세요.",
+              "5개 살게요. 좀 싸게 해 주세요."
+            ],
+            "chinese": "我買五個，算便宜一點吧。"
+          },
+          {
+            "cue": "그럼 팔천 원만 주세요. 하나는 서비스!（提示：謝謝，問可以刷卡嗎）",
+            "cueIsAudio": true,
+            "answers": [
+              "감사합니다. 카드 돼요?",
+              "고마워요. 카드로 계산해도 돼요?"
+            ],
+            "chinese": "謝謝！可以刷卡嗎？"
+          }
+        ]
+      },
+      "postTest": [
+        {
+          "id": "Q4201",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「可以拍照嗎？」怎麼說？",
+          "audioText": null,
+          "options": [
+            "사진 찍어도 돼요?",
+            "사진 찍어 돼요?",
+            "사진 찍고 돼요?"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "찍어요 → 찍어도 돼요?"
+        },
+        {
+          "id": "Q4202",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「請分開結帳。」怎麼說？",
+          "audioText": null,
+          "options": [
+            "따로 계산해 주세요.",
+            "같이 계산해 주세요.",
+            "따로 주문해 주세요."
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "따로＝分開。"
+        },
+        {
+          "id": "Q4203",
+          "skill": "vocabulary",
+          "kind": "choice",
+          "prompt": "店家說「서비스예요」是什麼意思？",
+          "audioText": null,
+          "options": [
+            "免費送的",
+            "要付服務費",
+            "服務很好"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "서비스＝免費招待。"
+        },
+        {
+          "id": "Q4204",
+          "skill": "listening",
+          "kind": "listeningChoice",
+          "prompt": "聽句子選意思",
+          "audioText": "현금으로 할게요. 영수증 주세요.",
+          "options": [
+            "付現金，請給收據。",
+            "刷卡，請給收據。",
+            "付現金，不用收據。"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "현금으로＝用現金。"
+        },
+        {
+          "id": "Q4205",
+          "skill": "grammar",
+          "kind": "typing",
+          "prompt": "用韓文寫：請算便宜一點。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "좀 깎아 주세요.",
+            "깎아 주세요.",
+            "좀 싸게 해 주세요."
+          ],
+          "explanation": "좀 깎아 주세요."
+        },
+        {
+          "id": "Q4206",
+          "skill": "speaking",
+          "kind": "speaking",
+          "prompt": "說出：可以刷卡嗎？",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "카드 돼요?",
+            "카드로 계산해도 돼요?"
+          ],
+          "explanation": "카드 돼요?"
+        }
+      ],
+      "completion": {
+        "postTestPassRatio": 0.8,
+        "drillAccuracy": 0.8,
+        "requireVocabularyQuiz": true
+      }
+    },
+    {
+      "id": "U09L03",
+      "title": "買衣服：試穿「-아/어 보다」與「大一點的」",
+      "estimatedMinutes": 55,
+      "objectives": [
+        "用「-아/어 봐도 돼요?」請求試穿、試吃",
+        "用「形容詞＋-(으)ㄴ 거」說「…的（東西）」：큰 거、다른 색",
+        "問尺寸和顏色：다른 색 있어요?、더 큰 사이즈 있어요?",
+        "換貨、退貨、問折扣"
+      ],
+      "vocabulary": [
+        {
+          "id": "V0468",
+          "korean": "입어 봐요",
+          "chinese": "試穿（衣服）",
+          "romanization": "i-beo bwa-yo",
+          "pronunciation": "[이버 봐요]",
+          "partOfSpeech": "verb",
+          "tier": "S",
+          "frequencyRank": 273,
+          "example": {
+            "korean": "이거 입어 봐도 돼요?",
+            "chinese": "這件可以試穿嗎？",
+            "speechLevel": "polite"
+          },
+          "usage": "입다＝穿（衣服）＋-아/어 보다＝試著做。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0469",
+          "korean": "신어 봐요",
+          "chinese": "試穿（鞋子）",
+          "romanization": "si-neo bwa-yo",
+          "pronunciation": "[시너 봐요]",
+          "partOfSpeech": "verb",
+          "tier": "A",
+          "frequencyRank": 160,
+          "example": {
+            "korean": "신발 신어 봐도 돼요?",
+            "chinese": "鞋子可以試穿嗎？",
+            "speechLevel": "polite"
+          },
+          "usage": "신다＝穿（鞋、襪）。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0470",
+          "korean": "사이즈",
+          "chinese": "尺寸",
+          "romanization": "sa-i-jeu",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 274,
+          "example": {
+            "korean": "더 큰 사이즈 있어요?",
+            "chinese": "有大一點的尺寸嗎？",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0471",
+          "korean": "색깔",
+          "chinese": "顏色",
+          "romanization": "saek-kkal",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 275,
+          "example": {
+            "korean": "다른 색깔 있어요?",
+            "chinese": "有別的顏色嗎？",
+            "speechLevel": "polite"
+          },
+          "usage": "也說 색。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0472",
+          "korean": "신발",
+          "chinese": "鞋子",
+          "romanization": "sin-bal",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 276,
+          "example": {
+            "korean": "신발이 좀 작아요.",
+            "chinese": "鞋子有點小。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0473",
+          "korean": "바지",
+          "chinese": "褲子",
+          "romanization": "ba-ji",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 277,
+          "example": {
+            "korean": "바지가 길어요.",
+            "chinese": "褲子太長了。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0474",
+          "korean": "치마",
+          "chinese": "裙子",
+          "romanization": "chi-ma",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 161,
+          "example": {
+            "korean": "이 치마 예뻐요.",
+            "chinese": "這件裙子很漂亮。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0475",
+          "korean": "교환",
+          "chinese": "換貨",
+          "romanization": "gyo-hwan",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 162,
+          "example": {
+            "korean": "교환할 수 있어요?",
+            "chinese": "可以換貨嗎？",
+            "speechLevel": "polite"
+          },
+          "usage": "교환하다＝換。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0476",
+          "korean": "환불",
+          "chinese": "退款",
+          "romanization": "hwan-bul",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 163,
+          "example": {
+            "korean": "환불해 주세요.",
+            "chinese": "請退款給我。",
+            "speechLevel": "polite"
+          },
+          "usage": "환불하다＝退款。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0477",
+          "korean": "할인",
+          "chinese": "折扣",
+          "romanization": "ha-rin",
+          "pronunciation": "[하린]",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 164,
+          "example": {
+            "korean": "할인돼요?",
+            "chinese": "有折扣嗎？",
+            "speechLevel": "polite"
+          },
+          "usage": "삼십 퍼센트 할인＝打七折（減 30%）。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0478",
+          "korean": "어울려요",
+          "chinese": "適合；相配",
+          "romanization": "eo-ul-lyeo-yo",
+          "partOfSpeech": "verb",
+          "tier": "A",
+          "frequencyRank": 165,
+          "example": {
+            "korean": "잘 어울려요.",
+            "chinese": "很適合你。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 어울리다。",
+          "commonMistake": null
+        }
+      ],
+      "pronunciation": [
+        {
+          "id": "P4301",
+          "title": "-아/어 봐요 的連音",
+          "explanation": "입어 봐요 → [이버 봐요]、신어 봐요 → [시너 봐요]、먹어 봐요 → [머거 봐요]：收音移到 어 前面，봐요 一拍唸完。",
+          "articulation": "봐 是 ㅗ＋ㅏ 的縮約，嘴唇先圓再張大。",
+          "chineseSpeakerPitfall": "唸成 [입 어 보아요]，每個字分開。",
+          "samples": [
+            "입어 봐요",
+            "신어 봐요",
+            "먹어 봐요"
+          ],
+          "minimalPairs": []
+        },
+        {
+          "id": "P4302",
+          "title": "색깔、할인、환불",
+          "explanation": "색깔 → [색깔]：ㄲ 本來就是緊音；할인 → [하린]：收音 ㄹ 接母音；환불 → [환불]：ㅎ 不弱化（在字首）。",
+          "articulation": "할인 的 ㄹ 彈舌一次：[하린]。",
+          "chineseSpeakerPitfall": "할인 唸成 [할 인]，中間停頓。",
+          "samples": [
+            "색깔",
+            "할인",
+            "환불"
+          ],
+          "minimalPairs": []
+        }
+      ],
+      "grammar": [
+        {
+          "id": "G4301",
+          "title": "V-아/어 보다（試著…）",
+          "pattern": "해요體去掉 요＋봐요／봐도 돼요?／보세요",
+          "explanation": "-아/어 보다 表示「試著做」：입어 봐도 돼요?（可以試穿嗎？）、먹어 보세요（吃吃看）、한번 신어 볼게요（我試穿一下）。過去式 -아/어 봤어요 表示「做過」：한국 음식을 먹어 봤어요（吃過韓國菜）。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "이거 입어 봐도 돼요?",
+              "chinese": "這件可以試穿嗎？",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "불고기를 먹어 봤어요.",
+              "chinese": "吃過烤肉。",
+              "speechLevel": "polite"
+            }
+          ]
+        },
+        {
+          "id": "G4302",
+          "title": "形容詞＋-(으)ㄴ 거（…的東西）",
+          "pattern": "無收音＋ㄴ 거（큰 거、싼 거）；有收音＋은 거（작은 거）；있다／없다＋는 거",
+          "explanation": "形容詞放在名詞前面要變形：크다 → 큰 거（大的）、싸다 → 싼 거（便宜的）、예쁘다 → 예쁜 치마、작다 → 작은 사이즈、맛있다 → 맛있는 거。거＝東西，口語常用：더 큰 거 있어요?（有更大的嗎？）、다른 거 보여 주세요（請給我看別的）。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "더 큰 거 있어요?",
+              "chinese": "有大一點的嗎？",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "좀 싼 거 보여 주세요.",
+              "chinese": "請給我看便宜一點的。",
+              "speechLevel": "polite"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "korean": "이거 입어 봐도 돼요?",
+          "chinese": "這件可以試穿嗎？",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "좀 작아요. 더 큰 사이즈 있어요?",
+          "chinese": "有點小，有大一點的尺寸嗎？",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "다른 색깔 있어요?",
+          "chinese": "有別的顏色嗎？",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "잘 어울려요!",
+          "chinese": "很適合你！",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "환불할 수 있어요?",
+          "chinese": "可以退款嗎？",
+          "speechLevel": "polite"
+        }
+      ],
+      "listening": [
+        {
+          "id": "L4301",
+          "audioText": "탈의실은 저쪽이에요. 입어 보세요.",
+          "question": "店員的意思是？",
+          "options": [
+            "更衣室在那邊，請試穿。",
+            "請不要試穿。",
+            "這件沒有你的尺寸。"
+          ],
+          "answerIndex": 0,
+          "explanation": "입어 보세요＝請試穿看看。"
+        },
+        {
+          "id": "L4302",
+          "audioText": "더 큰 사이즈 있어요?",
+          "question": "客人在問什麼？",
+          "options": [
+            "有大一點的尺寸嗎？",
+            "有別的顏色嗎？",
+            "有折扣嗎？"
+          ],
+          "answerIndex": 0,
+          "explanation": "큰＝大的。"
+        },
+        {
+          "id": "L4303",
+          "audioText": "이 바지는 삼십 퍼센트 할인이에요.",
+          "question": "這條褲子怎麼了？",
+          "options": [
+            "打七折（減 30%）",
+            "賣三萬元",
+            "只剩三件"
+          ],
+          "answerIndex": 0,
+          "explanation": "할인＝折扣。"
+        },
+        {
+          "id": "L4304",
+          "audioText": "할인",
+          "question": "實際發音最接近哪一個？",
+          "options": [
+            "[하린]",
+            "[할린]",
+            "[하닌]"
+          ],
+          "answerIndex": 0,
+          "explanation": "收音 ㄹ 移到下一個字。"
+        }
+      ],
+      "drills": [
+        {
+          "id": "D4301",
+          "type": "transformation",
+          "instruction": "請求試穿或試吃：-아/어 봐도 돼요?",
+          "model": {
+            "korean": "입어요. → 입어 봐도 돼요?",
+            "chinese": "可以試穿嗎？",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "신어요.（鞋子）",
+              "answers": [
+                "신어 봐도 돼요?"
+              ],
+              "chinese": "可以試穿嗎？"
+            },
+            {
+              "cue": "먹어요.（試吃）",
+              "answers": [
+                "먹어 봐도 돼요?"
+              ],
+              "chinese": "可以試吃嗎？"
+            },
+            {
+              "cue": "써요.（帽子）",
+              "answers": [
+                "써 봐도 돼요?"
+              ],
+              "chinese": "可以戴戴看嗎？"
+            },
+            {
+              "cue": "마셔요.（試喝）",
+              "answers": [
+                "마셔 봐도 돼요?"
+              ],
+              "chinese": "可以試喝嗎？"
+            },
+            {
+              "cue": "들어요.（試聽）",
+              "answers": [
+                "들어 봐도 돼요?"
+              ],
+              "chinese": "可以試聽嗎？"
+            }
+          ]
+        },
+        {
+          "id": "D4302",
+          "type": "substitution",
+          "instruction": "問有沒有別的：더 …-(으)ㄴ 거 있어요?",
+          "model": {
+            "korean": "더 큰 거 있어요?",
+            "chinese": "有大一點的嗎？",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "小",
+              "answers": [
+                "더 작은 거 있어요?"
+              ],
+              "chinese": "有小一點的嗎？"
+            },
+            {
+              "cue": "便宜",
+              "answers": [
+                "더 싼 거 있어요?"
+              ],
+              "chinese": "有便宜一點的嗎？"
+            },
+            {
+              "cue": "長",
+              "answers": [
+                "더 긴 거 있어요?"
+              ],
+              "chinese": "有長一點的嗎？"
+            },
+            {
+              "cue": "短",
+              "answers": [
+                "더 짧은 거 있어요?"
+              ],
+              "chinese": "有短一點的嗎？"
+            },
+            {
+              "cue": "漂亮",
+              "answers": [
+                "더 예쁜 거 있어요?"
+              ],
+              "chinese": "有更漂亮的嗎？"
+            }
+          ]
+        },
+        {
+          "id": "D4303",
+          "type": "transformation",
+          "instruction": "做過嗎：-아/어 봤어요（經驗）。",
+          "model": {
+            "korean": "불고기를 먹어요. → 불고기를 먹어 봤어요.",
+            "chinese": "吃過烤肉。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "한국에 가요.",
+              "answers": [
+                "한국에 가 봤어요."
+              ],
+              "chinese": "去過韓國。"
+            },
+            {
+              "cue": "한복을 입어요.",
+              "answers": [
+                "한복을 입어 봤어요."
+              ],
+              "chinese": "穿過韓服。"
+            },
+            {
+              "cue": "김치를 만들어요.",
+              "answers": [
+                "김치를 만들어 봤어요."
+              ],
+              "chinese": "做過泡菜。"
+            },
+            {
+              "cue": "케이팝을 들어요.",
+              "answers": [
+                "케이팝을 들어 봤어요."
+              ],
+              "chinese": "聽過 K-pop。"
+            },
+            {
+              "cue": "지하철을 타요.",
+              "answers": [
+                "지하철을 타 봤어요."
+              ],
+              "chinese": "搭過地鐵。"
+            }
+          ]
+        },
+        {
+          "id": "D4304",
+          "type": "questionAnswer",
+          "instruction": "在服飾店，聽店員的話依提示回答。",
+          "model": {
+            "korean": "사이즈 괜찮아요? — 좀 작아요.",
+            "chinese": "尺寸可以嗎？——有點小。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "뭐 찾으세요?（褲子）",
+              "cueIsAudio": true,
+              "answers": [
+                "바지 찾아요.",
+                "바지요."
+              ],
+              "chinese": "我在找褲子。"
+            },
+            {
+              "cue": "사이즈 괜찮아요?（有點小，問有沒有大一點的）",
+              "cueIsAudio": true,
+              "answers": [
+                "좀 작아요. 더 큰 거 있어요?",
+                "좀 작아요. 더 큰 사이즈 있어요?"
+              ],
+              "chinese": "有點小，有大一點的嗎？"
+            },
+            {
+              "cue": "이 색깔 어때요?（問有沒有別的顏色）",
+              "cueIsAudio": true,
+              "answers": [
+                "다른 색깔 있어요?",
+                "다른 색 있어요?"
+              ],
+              "chinese": "有別的顏色嗎？"
+            },
+            {
+              "cue": "입어 보세요. 잘 어울려요!（好，我買這件）",
+              "cueIsAudio": true,
+              "answers": [
+                "그럼 이거 살게요.",
+                "이거 살게요."
+              ],
+              "chinese": "那我買這件。"
+            },
+            {
+              "cue": "영수증 있으세요?（是，想換貨）",
+              "cueIsAudio": true,
+              "answers": [
+                "네, 교환하고 싶어요.",
+                "네, 교환할 수 있어요?"
+              ],
+              "chinese": "有，我想換貨。"
+            }
+          ]
+        },
+        {
+          "id": "D4305",
+          "type": "freeProduction",
+          "instruction": "在服飾店試穿後，說尺寸不合，並問有沒有別的。",
+          "model": {
+            "korean": "입어 봤어요. 좀 커요. 더 작은 거 있어요?",
+            "chinese": "試穿了，有點大。有小一點的嗎？",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 10,
+          "items": [
+            {
+              "cue": "自由回答",
+              "answers": [
+                "입어 봤어요.",
+                "좀 커요.",
+                "더 작은 거 있어요?"
+              ],
+              "chinese": "（參考答案）"
+            }
+          ]
+        }
+      ],
+      "speaking": {
+        "scenario": "在明洞的服飾店買衣服。AI 扮演店員。使用者會：입어 봐도 돼요?、더 큰／작은 거、다른 색깔、할인、살게요。",
+        "speechLevel": "polite",
+        "offlineScript": [
+          {
+            "cue": "어서 오세요. 찾으시는 거 있으세요?（提示：看著一件裙子，問可以試穿嗎）",
+            "cueIsAudio": true,
+            "answers": [
+              "이거 입어 봐도 돼요?",
+              "이 치마 입어 봐도 돼요?"
+            ],
+            "chinese": "這件可以試穿嗎？"
+          },
+          {
+            "cue": "네, 입어 보세요. 어때요?（提示：有點小，問有沒有大一點的）",
+            "cueIsAudio": true,
+            "answers": [
+              "좀 작아요. 더 큰 거 있어요?",
+              "좀 작아요. 더 큰 사이즈 있어요?"
+            ],
+            "chinese": "有點小，有大一點的嗎？"
+          },
+          {
+            "cue": "여기 있어요. 지금 이십 퍼센트 할인이에요.（提示：很好，我買這件）",
+            "cueIsAudio": true,
+            "answers": [
+              "좋아요. 이거 살게요.",
+              "그럼 이거 살게요."
+            ],
+            "chinese": "好，我買這件。"
+          }
+        ]
+      },
+      "postTest": [
+        {
+          "id": "Q4301",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「這件可以試穿嗎？」怎麼說？",
+          "audioText": null,
+          "options": [
+            "이거 입어 봐도 돼요?",
+            "이거 입고 봐도 돼요?",
+            "이거 입을 봐도 돼요?"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "입다＋-아/어 보다＋-아/어도 돼요。"
+        },
+        {
+          "id": "Q4302",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「有小一點的嗎？」怎麼說？",
+          "audioText": null,
+          "options": [
+            "더 작은 거 있어요?",
+            "더 작는 거 있어요?",
+            "더 작아 거 있어요?"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "작다 → 작은。"
+        },
+        {
+          "id": "Q4303",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「吃過烤肉」怎麼說？",
+          "audioText": null,
+          "options": [
+            "불고기를 먹어 봤어요.",
+            "불고기를 먹어 봐요.",
+            "불고기를 먹을 봤어요."
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "-아/어 봤어요＝做過。"
+        },
+        {
+          "id": "Q4304",
+          "skill": "listening",
+          "kind": "listeningChoice",
+          "prompt": "聽句子選意思",
+          "audioText": "그 색깔이 잘 어울려요.",
+          "options": [
+            "那個顏色很適合你。",
+            "那個顏色有折扣。",
+            "那個顏色賣完了。"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "어울려요＝適合。"
+        },
+        {
+          "id": "Q4305",
+          "skill": "grammar",
+          "kind": "typing",
+          "prompt": "用韓文寫：有別的顏色嗎？",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "다른 색깔 있어요?",
+            "다른 색 있어요?"
+          ],
+          "explanation": "다른 색깔 있어요?"
+        },
+        {
+          "id": "Q4306",
+          "skill": "speaking",
+          "kind": "speaking",
+          "prompt": "說出：鞋子可以試穿嗎？",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "신발 신어 봐도 돼요?",
+            "이거 신어 봐도 돼요?",
+            "신어 봐도 돼요?"
+          ],
+          "explanation": "신발 신어 봐도 돼요?"
+        }
+      ],
+      "completion": {
+        "postTestPassRatio": 0.8,
+        "drillAccuracy": 0.8,
+        "requireVocabularyQuiz": true
+      }
+    },
+    {
+      "id": "U09L04",
+      "title": "計程車、交通卡與「能不能」",
+      "estimatedMinutes": 50,
+      "objectives": [
+        "搭計程車：N까지 가 주세요、여기서 세워 주세요",
+        "用「-(으)ㄹ 수 있어요／없어요」說能不能",
+        "儲值交通卡、轉乘、買車票",
+        "聽懂地鐵廣播的關鍵字"
+      ],
+      "vocabulary": [
+        {
+          "id": "V0479",
+          "korean": "기사님",
+          "chinese": "司機先生",
+          "romanization": "gi-sa-nim",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 278,
+          "example": {
+            "korean": "기사님, 여기서 세워 주세요.",
+            "chinese": "司機先生，請在這裡停車。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0480",
+          "korean": "세워 주세요",
+          "chinese": "請停車",
+          "romanization": "se-wo ju-se-yo",
+          "partOfSpeech": "expression",
+          "tier": "S",
+          "frequencyRank": 279,
+          "example": {
+            "korean": "저 앞에서 세워 주세요.",
+            "chinese": "請在前面停車。",
+            "speechLevel": "polite"
+          },
+          "usage": "세우다＝停（車）。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0481",
+          "korean": "교통카드",
+          "chinese": "交通卡",
+          "romanization": "gyo-tong-ka-deu",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 280,
+          "example": {
+            "korean": "교통카드를 충전해요.",
+            "chinese": "儲值交通卡。",
+            "speechLevel": "polite"
+          },
+          "usage": "T-money 等。上下車都要刷，轉乘才有優惠。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0482",
+          "korean": "충전",
+          "chinese": "儲值；充電",
+          "romanization": "chung-jeon",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 166,
+          "example": {
+            "korean": "만 원 충전해 주세요.",
+            "chinese": "請幫我儲值一萬元。",
+            "speechLevel": "polite"
+          },
+          "usage": "충전하다＝儲值、充電。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0483",
+          "korean": "환승",
+          "chinese": "轉乘",
+          "romanization": "hwan-seung",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 167,
+          "example": {
+            "korean": "여기서 환승하세요.",
+            "chinese": "請在這裡轉乘。",
+            "speechLevel": "polite"
+          },
+          "usage": "地鐵廣播常聽到：환승하실 분은…",
+          "commonMistake": null
+        },
+        {
+          "id": "V0484",
+          "korean": "표",
+          "chinese": "票",
+          "romanization": "pyo",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 281,
+          "example": {
+            "korean": "부산 가는 표 한 장 주세요.",
+            "chinese": "請給我一張去釜山的票。",
+            "speechLevel": "polite"
+          },
+          "usage": "장＝張（票、紙的量詞）。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0485",
+          "korean": "기차",
+          "chinese": "火車",
+          "romanization": "gi-cha",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 282,
+          "example": {
+            "korean": "기차로 부산에 가요.",
+            "chinese": "搭火車去釜山。",
+            "speechLevel": "polite"
+          },
+          "usage": "高鐵叫 KTX。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0486",
+          "korean": "출발해요",
+          "chinese": "出發",
+          "romanization": "chul-bal-hae-yo",
+          "pronunciation": "[출바래요]",
+          "partOfSpeech": "verb",
+          "tier": "S",
+          "frequencyRank": 283,
+          "example": {
+            "korean": "기차가 세 시에 출발해요.",
+            "chinese": "火車三點出發。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 출발하다。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0487",
+          "korean": "도착해요",
+          "chinese": "抵達",
+          "romanization": "do-cha-kae-yo",
+          "pronunciation": "[도차캐요]",
+          "partOfSpeech": "verb",
+          "tier": "S",
+          "frequencyRank": 284,
+          "example": {
+            "korean": "다섯 시에 도착해요.",
+            "chinese": "五點抵達。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 도착하다。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0488",
+          "korean": "수 있어요",
+          "chinese": "能；可以（-(으)ㄹ 수 있어요）",
+          "romanization": "su i-sseo-yo",
+          "pronunciation": "[쑤 이써요]",
+          "partOfSpeech": "expression",
+          "tier": "S",
+          "frequencyRank": 285,
+          "example": {
+            "korean": "카드로 낼 수 있어요?",
+            "chinese": "可以用卡付嗎？",
+            "speechLevel": "polite"
+          },
+          "usage": "語幹＋(으)ㄹ 수 있어요／없어요。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0489",
+          "korean": "막혀요",
+          "chinese": "（路）塞",
+          "romanization": "ma-kyeo-yo",
+          "pronunciation": "[마켜요]",
+          "partOfSpeech": "verb",
+          "tier": "A",
+          "frequencyRank": 168,
+          "example": {
+            "korean": "길이 많이 막혀요.",
+            "chinese": "路上很塞。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 막히다。",
+          "commonMistake": null
+        }
+      ],
+      "pronunciation": [
+        {
+          "id": "P4401",
+          "title": "-(으)ㄹ 수 있어요 的緊音",
+          "explanation": "ㄹ 後的 수 變緊音：갈 수 있어요 → [갈 쑤 이써요]、먹을 수 없어요 → [머글 쑤 업써요]。",
+          "articulation": "ㄹ 停住，喉嚨繃緊唸 [쑤]。",
+          "chineseSpeakerPitfall": "唸成平音 [갈 수]，聽起來像外國腔。",
+          "samples": [
+            "갈 수 있어요",
+            "먹을 수 없어요",
+            "할 수 있어요"
+          ],
+          "minimalPairs": []
+        },
+        {
+          "id": "P4402",
+          "title": "출발、도착、막혀요 的音變",
+          "explanation": "출발해요 → [출바래요]（ㅎ 弱化）、도착해요 → [도차캐요]（激音化）、막혀요 → [마켜요]（激音化）。",
+          "articulation": "ㄱ＋ㅎ 合成一個送氣音 ㅋ。",
+          "chineseSpeakerPitfall": "도착해요 唸成 [도착 해요]，把 ㅎ 單獨唸出來。",
+          "samples": [
+            "출발해요",
+            "도착해요",
+            "막혀요"
+          ],
+          "minimalPairs": []
+        }
+      ],
+      "grammar": [
+        {
+          "id": "G4401",
+          "title": "V-(으)ㄹ 수 있어요／없어요（能／不能）",
+          "pattern": "無收音或 ㄹ 收音＋ㄹ 수 있어요；有收音＋을 수 있어요",
+          "explanation": "表示能力或可能性：한국어를 할 수 있어요（會說韓語）、카드로 낼 수 있어요?（可以用卡付嗎？）、오늘은 갈 수 없어요（今天不能去）。不能也可以說 못 가요。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "여기서 환승할 수 있어요?",
+              "chinese": "可以在這裡轉乘嗎？",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "오늘은 갈 수 없어요.",
+              "chinese": "今天不能去。",
+              "speechLevel": "polite"
+            }
+          ]
+        },
+        {
+          "id": "G4402",
+          "title": "計程車與車票用語",
+          "pattern": "N까지 가 주세요；N에서 세워 주세요；N 가는 표 한 장 주세요",
+          "explanation": "上計程車告訴司機目的地：명동까지 가 주세요。要下車：여기서 세워 주세요／저 앞에서 내려 주세요。買票：부산 가는 표 두 장 주세요、몇 시에 출발해요?、몇 시에 도착해요?",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "서울역까지 가 주세요.",
+              "chinese": "請到首爾站。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "부산 가는 표 한 장 주세요.",
+              "chinese": "請給我一張去釜山的票。",
+              "speechLevel": "polite"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "korean": "명동까지 가 주세요.",
+          "chinese": "請到明洞。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "여기서 세워 주세요.",
+          "chinese": "請在這裡停車。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "교통카드 충전해 주세요.",
+          "chinese": "請幫我儲值交通卡。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "카드로 낼 수 있어요?",
+          "chinese": "可以用卡付嗎？",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "기차가 몇 시에 출발해요?",
+          "chinese": "火車幾點出發？",
+          "speechLevel": "polite"
+        }
+      ],
+      "listening": [
+        {
+          "id": "L4401",
+          "audioText": "어디까지 가세요?",
+          "question": "司機在問什麼？",
+          "options": [
+            "要去哪裡？",
+            "要在哪裡下車？",
+            "要怎麼付錢？"
+          ],
+          "answerIndex": 0,
+          "explanation": "까지＝到。"
+        },
+        {
+          "id": "L4402",
+          "audioText": "이번 역은 시청역입니다. 일호선으로 환승하실 분은 이번 역에서 내리십시오.",
+          "question": "廣播的意思是？",
+          "options": [
+            "這站是市廳站，要轉一號線的人請在這站下車。",
+            "下一站是市廳站。",
+            "一號線暫停營運。"
+          ],
+          "answerIndex": 0,
+          "explanation": "환승＝轉乘。"
+        },
+        {
+          "id": "L4403",
+          "audioText": "길이 많이 막혀요.",
+          "question": "司機的意思是？",
+          "options": [
+            "路上很塞。",
+            "路很遠。",
+            "這條路不能走。"
+          ],
+          "answerIndex": 0,
+          "explanation": "막혀요＝塞。"
+        },
+        {
+          "id": "L4404",
+          "audioText": "갈 수 있어요",
+          "question": "實際發音最接近哪一個？",
+          "options": [
+            "[갈 쑤 이써요]",
+            "[갈 수 있어요]（不變）",
+            "[가 쑤 이써요]"
+          ],
+          "answerIndex": 0,
+          "explanation": "ㄹ 後的 수 變緊音。"
+        }
+      ],
+      "drills": [
+        {
+          "id": "D4401",
+          "type": "substitution",
+          "instruction": "告訴司機目的地：N까지 가 주세요。",
+          "model": {
+            "korean": "명동까지 가 주세요.",
+            "chinese": "請到明洞。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 6,
+          "items": [
+            {
+              "cue": "首爾站（서울역）",
+              "answers": [
+                "서울역까지 가 주세요."
+              ],
+              "chinese": "請到首爾站。"
+            },
+            {
+              "cue": "機場",
+              "answers": [
+                "공항까지 가 주세요."
+              ],
+              "chinese": "請到機場。"
+            },
+            {
+              "cue": "這個地址（이 주소）",
+              "answers": [
+                "이 주소까지 가 주세요."
+              ],
+              "chinese": "請到這個地址。"
+            },
+            {
+              "cue": "飯店（호텔）",
+              "answers": [
+                "호텔까지 가 주세요."
+              ],
+              "chinese": "請到飯店。"
+            },
+            {
+              "cue": "百貨公司",
+              "answers": [
+                "백화점까지 가 주세요."
+              ],
+              "chinese": "請到百貨公司。"
+            }
+          ]
+        },
+        {
+          "id": "D4402",
+          "type": "transformation",
+          "instruction": "改成「能不能」：-(으)ㄹ 수 있어요?",
+          "model": {
+            "korean": "카드로 내요. → 카드로 낼 수 있어요?",
+            "chinese": "可以用卡付嗎？",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "여기서 환승해요.",
+              "answers": [
+                "여기서 환승할 수 있어요?"
+              ],
+              "chinese": "可以在這裡轉乘嗎？"
+            },
+            {
+              "cue": "한국어를 해요.",
+              "answers": [
+                "한국어를 할 수 있어요?"
+              ],
+              "chinese": "會說韓語嗎？"
+            },
+            {
+              "cue": "지금 표를 사요.",
+              "answers": [
+                "지금 표를 살 수 있어요?"
+              ],
+              "chinese": "現在可以買票嗎？"
+            },
+            {
+              "cue": "김치를 먹어요.",
+              "answers": [
+                "김치를 먹을 수 있어요?"
+              ],
+              "chinese": "能吃泡菜嗎？"
+            },
+            {
+              "cue": "내일 와요.",
+              "answers": [
+                "내일 올 수 있어요?"
+              ],
+              "chinese": "明天能來嗎？"
+            }
+          ]
+        },
+        {
+          "id": "D4403",
+          "type": "transformation",
+          "instruction": "改成不能：-(으)ㄹ 수 없어요。",
+          "model": {
+            "korean": "갈 수 있어요. → 갈 수 없어요.",
+            "chinese": "能去。→ 不能去。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "오늘 만날 수 있어요.",
+              "answers": [
+                "오늘 만날 수 없어요."
+              ],
+              "chinese": "今天不能見面。"
+            },
+            {
+              "cue": "여기서 사진을 찍을 수 있어요.",
+              "answers": [
+                "여기서 사진을 찍을 수 없어요."
+              ],
+              "chinese": "這裡不能拍照。"
+            },
+            {
+              "cue": "카드로 낼 수 있어요.",
+              "answers": [
+                "카드로 낼 수 없어요."
+              ],
+              "chinese": "不能用卡付。"
+            },
+            {
+              "cue": "매운 음식을 먹을 수 있어요.",
+              "answers": [
+                "매운 음식을 먹을 수 없어요."
+              ],
+              "chinese": "不能吃辣的食物。"
+            },
+            {
+              "cue": "운전할 수 있어요.",
+              "answers": [
+                "운전할 수 없어요."
+              ],
+              "chinese": "不會開車。"
+            }
+          ]
+        },
+        {
+          "id": "D4404",
+          "type": "questionAnswer",
+          "instruction": "在計程車上或車站，依提示回答。",
+          "model": {
+            "korean": "어디까지 가세요? — 명동까지 가 주세요.",
+            "chinese": "要去哪裡？——請到明洞。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "어디까지 가세요?（首爾站）",
+              "cueIsAudio": true,
+              "answers": [
+                "서울역까지 가 주세요."
+              ],
+              "chinese": "請到首爾站。"
+            },
+            {
+              "cue": "어디에서 내리세요?（在這裡停車）",
+              "cueIsAudio": true,
+              "answers": [
+                "여기서 세워 주세요.",
+                "여기서 내려 주세요."
+              ],
+              "chinese": "請在這裡停車。"
+            },
+            {
+              "cue": "몇 장 드릴까요?（兩張）",
+              "cueIsAudio": true,
+              "answers": [
+                "두 장 주세요.",
+                "2장 주세요."
+              ],
+              "chinese": "請給我兩張。"
+            },
+            {
+              "cue": "얼마 충전해 드릴까요?（一萬元）",
+              "cueIsAudio": true,
+              "answers": [
+                "만 원 충전해 주세요.",
+                "10000원 충전해 주세요."
+              ],
+              "chinese": "請儲值一萬元。"
+            },
+            {
+              "cue": "기차가 몇 시에 도착해요?（五點半）",
+              "cueIsAudio": true,
+              "answers": [
+                "다섯 시 반에 도착해요.",
+                "5시 반에 도착해요.",
+                "다섯 시 삼십 분에 도착해요.",
+                "5시 30분에 도착해요."
+              ],
+              "chinese": "五點半抵達。"
+            }
+          ]
+        },
+        {
+          "id": "D4405",
+          "type": "freeProduction",
+          "instruction": "在火車站買一張去釜山的票，並問出發時間。",
+          "model": {
+            "korean": "부산 가는 표 한 장 주세요. 몇 시에 출발해요?",
+            "chinese": "請給我一張去釜山的票。幾點出發？",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 10,
+          "items": [
+            {
+              "cue": "自由回答",
+              "answers": [
+                "부산 가는 표 한 장 주세요.",
+                "몇 시에 출발해요?"
+              ],
+              "chinese": "（參考答案）"
+            }
+          ]
+        }
+      ],
+      "speaking": {
+        "scenario": "從飯店搭計程車去首爾站，再買火車票去釜山。AI 先扮演計程車司機，再扮演售票員。使用者會：까지 가 주세요、세워 주세요、-(으)ㄹ 수 있어요?、표、출발／도착。",
+        "speechLevel": "polite",
+        "offlineScript": [
+          {
+            "cue": "어디까지 가세요?（提示：請到首爾站）",
+            "cueIsAudio": true,
+            "answers": [
+              "서울역까지 가 주세요."
+            ],
+            "chinese": "請到首爾站。"
+          },
+          {
+            "cue": "길이 좀 막혀요. 삼십 분쯤 걸려요.（提示：沒關係，問可以刷卡嗎）",
+            "cueIsAudio": true,
+            "answers": [
+              "괜찮아요. 카드로 낼 수 있어요?",
+              "괜찮아요. 카드 돼요?"
+            ],
+            "chinese": "沒關係。可以刷卡嗎？"
+          },
+          {
+            "cue": "（到了售票窗口）어디 가세요?（提示：請給我一張去釜山的票）",
+            "cueIsAudio": true,
+            "answers": [
+              "부산 가는 표 한 장 주세요."
+            ],
+            "chinese": "請給我一張去釜山的票。"
+          }
+        ]
+      },
+      "postTest": [
+        {
+          "id": "Q4401",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「請到明洞。」對計程車司機怎麼說？",
+          "audioText": null,
+          "options": [
+            "명동까지 가 주세요.",
+            "명동에서 가 주세요.",
+            "명동을 가 주세요."
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "N까지 가 주세요。"
+        },
+        {
+          "id": "Q4402",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「可以用卡付嗎？」怎麼說？",
+          "audioText": null,
+          "options": [
+            "카드로 낼 수 있어요?",
+            "카드로 내을 수 있어요?",
+            "카드를 낼 수 있어요?"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "내다（付）→ 낼 수 있어요?"
+        },
+        {
+          "id": "Q4403",
+          "skill": "vocabulary",
+          "kind": "choice",
+          "prompt": "地鐵廣播的「환승」是什麼意思？",
+          "audioText": null,
+          "options": [
+            "轉乘",
+            "下車",
+            "終點站"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "환승＝轉乘。"
+        },
+        {
+          "id": "Q4404",
+          "skill": "listening",
+          "kind": "listeningChoice",
+          "prompt": "聽句子選意思",
+          "audioText": "기차는 세 시 십 분에 출발해요.",
+          "options": [
+            "火車三點十分出發。",
+            "火車三點十分抵達。",
+            "火車晚了十分鐘。"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "출발해요＝出發。"
+        },
+        {
+          "id": "Q4405",
+          "skill": "grammar",
+          "kind": "typing",
+          "prompt": "用韓文寫：請在這裡停車。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "여기서 세워 주세요.",
+            "여기에서 세워 주세요.",
+            "여기서 내려 주세요."
+          ],
+          "explanation": "여기서 세워 주세요."
+        },
+        {
+          "id": "Q4406",
+          "skill": "speaking",
+          "kind": "speaking",
+          "prompt": "說出：我會說一點韓語。（조금）",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "한국어를 조금 할 수 있어요.",
+            "한국어 조금 할 수 있어요."
+          ],
+          "explanation": "한국어를 조금 할 수 있어요."
+        }
+      ],
+      "completion": {
+        "postTestPassRatio": 0.8,
+        "drillAccuracy": 0.8,
+        "requireVocabularyQuiz": true
+      }
+    },
+    {
+      "id": "U09L05",
+      "title": "問路、遺失物與「因為…所以」",
+      "estimatedMinutes": 55,
+      "objectives": [
+        "問路：N에 어떻게 가요?、여기서 멀어요?",
+        "用「-아/어서」說原因：길을 잃어서 늦었어요",
+        "說出問題：잃어버렸어요、놓고 내렸어요、고장 났어요",
+        "向警察、服務台求助"
+      ],
+      "vocabulary": [
+        {
+          "id": "V0490",
+          "korean": "어떻게",
+          "chinese": "怎麼；如何",
+          "romanization": "eo-tteo-ke",
+          "pronunciation": "[어떠케]",
+          "partOfSpeech": "adverb",
+          "tier": "S",
+          "frequencyRank": 286,
+          "example": {
+            "korean": "명동에 어떻게 가요?",
+            "chinese": "明洞怎麼去？",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0491",
+          "korean": "멀어요",
+          "chinese": "遠",
+          "romanization": "meo-reo-yo",
+          "pronunciation": "[머러요]",
+          "partOfSpeech": "adjective",
+          "tier": "S",
+          "frequencyRank": 287,
+          "example": {
+            "korean": "여기서 멀어요?",
+            "chinese": "離這裡遠嗎？",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 멀다。近＝가까워요。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0492",
+          "korean": "가까워요",
+          "chinese": "近",
+          "romanization": "ga-kka-wo-yo",
+          "partOfSpeech": "adjective",
+          "tier": "S",
+          "frequencyRank": 288,
+          "example": {
+            "korean": "역이 가까워요.",
+            "chinese": "車站很近。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 가깝다（ㅂ 不規則）。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0493",
+          "korean": "쭉",
+          "chinese": "一直（往前）",
+          "romanization": "jjuk",
+          "partOfSpeech": "adverb",
+          "tier": "A",
+          "frequencyRank": 169,
+          "example": {
+            "korean": "쭉 가세요.",
+            "chinese": "請一直往前走。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0494",
+          "korean": "길",
+          "chinese": "路",
+          "romanization": "gil",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 289,
+          "example": {
+            "korean": "길을 잃었어요.",
+            "chinese": "我迷路了。",
+            "speechLevel": "polite"
+          },
+          "usage": "길을 잃다＝迷路。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0495",
+          "korean": "잃어버렸어요",
+          "chinese": "弄丟了",
+          "romanization": "i-reo-beo-ryeo-sseo-yo",
+          "pronunciation": "[이러버려써요]",
+          "partOfSpeech": "verb",
+          "tier": "S",
+          "frequencyRank": 290,
+          "example": {
+            "korean": "지갑을 잃어버렸어요.",
+            "chinese": "我把錢包弄丟了。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 잃어버리다。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0496",
+          "korean": "놓고 내렸어요",
+          "chinese": "忘在車上了",
+          "romanization": "no-ko nae-ryeo-sseo-yo",
+          "pronunciation": "[노코 내려써요]",
+          "partOfSpeech": "expression",
+          "tier": "A",
+          "frequencyRank": 170,
+          "example": {
+            "korean": "택시에 가방을 놓고 내렸어요.",
+            "chinese": "把包包忘在計程車上了。",
+            "speechLevel": "polite"
+          },
+          "usage": "놓다＝放。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0497",
+          "korean": "고장 났어요",
+          "chinese": "壞了",
+          "romanization": "go-jang na-sseo-yo",
+          "pronunciation": "[고장 나써요]",
+          "partOfSpeech": "expression",
+          "tier": "A",
+          "frequencyRank": 171,
+          "example": {
+            "korean": "휴대폰이 고장 났어요.",
+            "chinese": "手機壞了。",
+            "speechLevel": "polite"
+          },
+          "usage": "고장＝故障。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0498",
+          "korean": "경찰서",
+          "chinese": "警察局",
+          "romanization": "gyeong-chal-seo",
+          "pronunciation": "[경찰써]",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 172,
+          "example": {
+            "korean": "경찰서가 어디에 있어요?",
+            "chinese": "警察局在哪裡？",
+            "speechLevel": "polite"
+          },
+          "usage": "派出所叫 파출소。緊急電話 112。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0499",
+          "korean": "찾아요",
+          "chinese": "找",
+          "romanization": "cha-ja-yo",
+          "pronunciation": "[차자요]",
+          "partOfSpeech": "verb",
+          "tier": "S",
+          "frequencyRank": 291,
+          "example": {
+            "korean": "지갑을 찾아요.",
+            "chinese": "在找錢包。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 찾다。也有「領（錢）」的意思。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0500",
+          "korean": "늦었어요",
+          "chinese": "遲到了；晚了",
+          "romanization": "neu-jeo-sseo-yo",
+          "pronunciation": "[느저써요]",
+          "partOfSpeech": "verb",
+          "tier": "S",
+          "frequencyRank": 292,
+          "example": {
+            "korean": "길이 막혀서 늦었어요.",
+            "chinese": "因為塞車所以遲到了。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 늦다。",
+          "commonMistake": null
+        }
+      ],
+      "pronunciation": [
+        {
+          "id": "P4501",
+          "title": "어떻게、잃어버렸어요 的 ㅎ",
+          "explanation": "어떻게 → [어떠케]（ㅎ＋ㄱ 激音化）；잃어버렸어요 → [이러버려써요]（ㅀ 的 ㅎ 不發音）；놓고 → [노코]（ㅎ＋ㄱ 激音化）。",
+          "articulation": "ㅎ 遇到 ㄱ 合成 ㅋ；遇到母音就消失。",
+          "chineseSpeakerPitfall": "어떻게 唸成 [어떡게]。",
+          "samples": [
+            "어떻게",
+            "잃어버렸어요",
+            "놓고"
+          ],
+          "minimalPairs": []
+        },
+        {
+          "id": "P4502",
+          "title": "-아/어서 的連音",
+          "explanation": "-아/어서 接在語幹後連音：늦어서 → [느저서]、잃어서 → [이러서]、막혀서 → [마켜서]、아파서 → [아파서]。",
+          "articulation": "整個詞一口氣唸，서 輕輕帶過。",
+          "chineseSpeakerPitfall": "唸成 [늦 어서]，中間停頓。",
+          "samples": [
+            "늦어서",
+            "막혀서",
+            "아파서"
+          ],
+          "minimalPairs": []
+        }
+      ],
+      "grammar": [
+        {
+          "id": "G4501",
+          "title": "V/A-아/어서（因為…所以）",
+          "pattern": "해요體去掉 요＋서：늦어요 → 늦어서",
+          "explanation": "-아/어서 說明原因：길이 막혀서 늦었어요（因為塞車所以遲到）、아파서 못 가요（因為生病不能去）、비싸서 안 샀어요（因為太貴沒買）。注意：-아/어서 前面不加過去式（✗ 늦었어서），時態放在句尾。名詞：N이라서／라서（학생이라서）。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "길을 잃어서 늦었어요.",
+              "chinese": "因為迷路所以遲到了。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "너무 비싸서 안 샀어요.",
+              "chinese": "因為太貴所以沒買。",
+              "speechLevel": "polite"
+            }
+          ]
+        },
+        {
+          "id": "G4502",
+          "title": "問路與求助",
+          "pattern": "N에 어떻게 가요?；N에서 멀어요?；N을/를 잃어버렸어요；도와주세요",
+          "explanation": "問路：명동에 어떻게 가요?、여기서 멀어요?。指路常聽到：쭉 가세요（一直走）、오른쪽으로 가세요、건너편에 있어요。遇到問題：지갑을 잃어버렸어요、택시에 가방을 놓고 내렸어요、휴대폰이 고장 났어요、도와주세요。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "명동에 어떻게 가요?",
+              "chinese": "明洞怎麼去？",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "지갑을 잃어버렸어요. 도와주세요.",
+              "chinese": "我把錢包弄丟了，請幫幫我。",
+              "speechLevel": "polite"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "korean": "경복궁에 어떻게 가요?",
+          "chinese": "景福宮怎麼去？",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "쭉 가세요. 오른쪽에 있어요.",
+          "chinese": "一直走，在右邊。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "여기서 멀어요?",
+          "chinese": "離這裡遠嗎？",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "휴대폰을 잃어버렸어요.",
+          "chinese": "我把手機弄丟了。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "길이 막혀서 늦었어요.",
+          "chinese": "因為塞車所以遲到了。",
+          "speechLevel": "polite"
+        }
+      ],
+      "listening": [
+        {
+          "id": "L4501",
+          "audioText": "쭉 가세요. 은행 옆에 있어요.",
+          "question": "要怎麼走？",
+          "options": [
+            "一直走，在銀行旁邊。",
+            "右轉，在銀行對面。",
+            "搭車去銀行。"
+          ],
+          "answerIndex": 0,
+          "explanation": "쭉＝一直。"
+        },
+        {
+          "id": "L4502",
+          "audioText": "걸어서 오 분이에요. 가까워요.",
+          "question": "目的地遠嗎？",
+          "options": [
+            "很近，走路五分鐘。",
+            "很遠，要搭車。",
+            "走路五十分鐘。"
+          ],
+          "answerIndex": 0,
+          "explanation": "가까워요＝近。"
+        },
+        {
+          "id": "L4503",
+          "audioText": "택시에 가방을 놓고 내렸어요.",
+          "question": "發生了什麼事？",
+          "options": [
+            "把包包忘在計程車上。",
+            "包包被偷了。",
+            "在計程車上買了包包。"
+          ],
+          "answerIndex": 0,
+          "explanation": "놓고 내렸어요＝忘在車上。"
+        },
+        {
+          "id": "L4504",
+          "audioText": "어떻게",
+          "question": "實際發音最接近哪一個？",
+          "options": [
+            "[어떠케]",
+            "[어떡게]",
+            "[어떠게]"
+          ],
+          "answerIndex": 0,
+          "explanation": "ㅎ＋ㄱ 合成 ㅋ。"
+        }
+      ],
+      "drills": [
+        {
+          "id": "D4501",
+          "type": "substitution",
+          "instruction": "問路：N에 어떻게 가요?",
+          "model": {
+            "korean": "명동에 어떻게 가요?",
+            "chinese": "明洞怎麼去？",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 6,
+          "items": [
+            {
+              "cue": "景福宮（경복궁）",
+              "answers": [
+                "경복궁에 어떻게 가요?"
+              ],
+              "chinese": "景福宮怎麼去？"
+            },
+            {
+              "cue": "首爾站",
+              "answers": [
+                "서울역에 어떻게 가요?"
+              ],
+              "chinese": "首爾站怎麼去？"
+            },
+            {
+              "cue": "警察局",
+              "answers": [
+                "경찰서에 어떻게 가요?"
+              ],
+              "chinese": "警察局怎麼去？"
+            },
+            {
+              "cue": "機場",
+              "answers": [
+                "공항에 어떻게 가요?"
+              ],
+              "chinese": "機場怎麼去？"
+            },
+            {
+              "cue": "這家飯店",
+              "answers": [
+                "이 호텔에 어떻게 가요?"
+              ],
+              "chinese": "這家飯店怎麼去？"
+            }
+          ]
+        },
+        {
+          "id": "D4502",
+          "type": "transformation",
+          "instruction": "說原因：A-아/어서 B（把兩句合成一句）。",
+          "model": {
+            "korean": "길이 막혀요. 늦었어요. → 길이 막혀서 늦었어요.",
+            "chinese": "因為塞車所以遲到了。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 9,
+          "items": [
+            {
+              "cue": "아파요. 못 가요.",
+              "answers": [
+                "아파서 못 가요."
+              ],
+              "chinese": "因為生病不能去。"
+            },
+            {
+              "cue": "너무 비싸요. 안 샀어요.",
+              "answers": [
+                "너무 비싸서 안 샀어요."
+              ],
+              "chinese": "因為太貴所以沒買。"
+            },
+            {
+              "cue": "길을 잃었어요. 늦었어요.",
+              "answers": [
+                "길을 잃어서 늦었어요."
+              ],
+              "chinese": "因為迷路所以遲到了。"
+            },
+            {
+              "cue": "배고파요. 라면을 먹었어요.",
+              "answers": [
+                "배고파서 라면을 먹었어요."
+              ],
+              "chinese": "因為肚子餓吃了泡麵。"
+            },
+            {
+              "cue": "피곤해요. 일찍 잤어요.",
+              "answers": [
+                "피곤해서 일찍 잤어요."
+              ],
+              "chinese": "因為很累所以早睡了。"
+            }
+          ]
+        },
+        {
+          "id": "D4503",
+          "type": "substitution",
+          "instruction": "說出遺失或故障：N을/를 잃어버렸어요／N이/가 고장 났어요。",
+          "model": {
+            "korean": "지갑을 잃어버렸어요.",
+            "chinese": "我把錢包弄丟了。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "手機（遺失）",
+              "answers": [
+                "휴대폰을 잃어버렸어요."
+              ],
+              "chinese": "我把手機弄丟了。"
+            },
+            {
+              "cue": "護照（여권，遺失）",
+              "answers": [
+                "여권을 잃어버렸어요."
+              ],
+              "chinese": "我把護照弄丟了。"
+            },
+            {
+              "cue": "交通卡（遺失）",
+              "answers": [
+                "교통카드를 잃어버렸어요."
+              ],
+              "chinese": "我把交通卡弄丟了。"
+            },
+            {
+              "cue": "手機（故障）",
+              "answers": [
+                "휴대폰이 고장 났어요."
+              ],
+              "chinese": "手機壞了。"
+            },
+            {
+              "cue": "電腦（故障）",
+              "answers": [
+                "컴퓨터가 고장 났어요."
+              ],
+              "chinese": "電腦壞了。"
+            }
+          ]
+        },
+        {
+          "id": "D4504",
+          "type": "questionAnswer",
+          "instruction": "向路人或警察求助，依提示回答。",
+          "model": {
+            "korean": "무슨 일이에요? — 지갑을 잃어버렸어요.",
+            "chinese": "怎麼了？——我把錢包弄丟了。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "무슨 일이에요?（把錢包弄丟了）",
+              "cueIsAudio": true,
+              "answers": [
+                "지갑을 잃어버렸어요."
+              ],
+              "chinese": "我把錢包弄丟了。"
+            },
+            {
+              "cue": "어디에서 잃어버렸어요?（忘在計程車上了）",
+              "cueIsAudio": true,
+              "answers": [
+                "택시에 놓고 내렸어요.",
+                "택시에서 잃어버렸어요."
+              ],
+              "chinese": "忘在計程車上了。"
+            },
+            {
+              "cue": "왜 늦었어요?（因為塞車）",
+              "cueIsAudio": true,
+              "answers": [
+                "길이 막혀서 늦었어요.",
+                "길이 막혀서요."
+              ],
+              "chinese": "因為塞車。"
+            },
+            {
+              "cue": "여기서 멀어요?（不，很近）",
+              "cueIsAudio": true,
+              "answers": [
+                "아니요, 가까워요.",
+                "아니요, 안 멀어요."
+              ],
+              "chinese": "不，很近。"
+            },
+            {
+              "cue": "명동에 어떻게 가요?（搭地鐵四號線）",
+              "cueIsAudio": true,
+              "answers": [
+                "지하철 사호선을 타세요.",
+                "지하철 4호선을 타세요.",
+                "사호선을 타세요.",
+                "4호선을 타세요."
+              ],
+              "chinese": "請搭地鐵四號線。"
+            }
+          ]
+        },
+        {
+          "id": "D4505",
+          "type": "freeProduction",
+          "instruction": "向警察說明你遺失了什麼、在哪裡遺失的，並請求幫忙。",
+          "model": {
+            "korean": "지갑을 잃어버렸어요. 택시에 놓고 내렸어요. 도와주세요.",
+            "chinese": "我把錢包弄丟了，忘在計程車上。請幫幫我。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 10,
+          "items": [
+            {
+              "cue": "自由回答",
+              "answers": [
+                "지갑을 잃어버렸어요.",
+                "택시에 놓고 내렸어요.",
+                "도와주세요."
+              ],
+              "chinese": "（參考答案）"
+            }
+          ]
+        }
+      ],
+      "speaking": {
+        "scenario": "旅行時把包包忘在計程車上，到派出所求助。AI 扮演警察。使用者會：잃어버렸어요、놓고 내렸어요、-아/어서、도와주세요、時間與數字。",
+        "speechLevel": "polite",
+        "offlineScript": [
+          {
+            "cue": "무슨 일이세요?（提示：把包包忘在計程車上了）",
+            "cueIsAudio": true,
+            "answers": [
+              "택시에 가방을 놓고 내렸어요.",
+              "가방을 잃어버렸어요. 택시에 놓고 내렸어요."
+            ],
+            "chinese": "我把包包忘在計程車上了。"
+          },
+          {
+            "cue": "언제 택시에서 내렸어요?（提示：三十分鐘前，在首爾站下車）",
+            "cueIsAudio": true,
+            "answers": [
+              "삼십 분 전에 서울역에서 내렸어요.",
+              "30분 전에 서울역에서 내렸어요."
+            ],
+            "chinese": "三十分鐘前在首爾站下車。"
+          },
+          {
+            "cue": "카드로 계산했어요?（提示：對，因為用卡付，可以查得到吧？——찾을 수 있어요?）",
+            "cueIsAudio": true,
+            "answers": [
+              "네, 카드로 계산했어요. 찾을 수 있어요?",
+              "네. 찾을 수 있어요?"
+            ],
+            "chinese": "對，用卡付的。找得到嗎？"
+          }
+        ]
+      },
+      "postTest": [
+        {
+          "id": "Q4501",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「因為塞車所以遲到了。」哪一句正確？",
+          "audioText": null,
+          "options": [
+            "길이 막혀서 늦었어요.",
+            "길이 막혔어서 늦었어요.",
+            "길이 막혀서 늦어요?"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "-아/어서 前面不加過去式。"
+        },
+        {
+          "id": "Q4502",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「明洞怎麼去？」怎麼說？",
+          "audioText": null,
+          "options": [
+            "명동에 어떻게 가요?",
+            "명동에 어디 가요?",
+            "명동이 뭐 가요?"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "어떻게＝怎麼。"
+        },
+        {
+          "id": "Q4503",
+          "skill": "vocabulary",
+          "kind": "choice",
+          "prompt": "「我把手機弄丟了」用哪個動詞？",
+          "audioText": null,
+          "options": [
+            "잃어버렸어요",
+            "고장 났어요",
+            "찾았어요"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "잃어버리다＝弄丟。"
+        },
+        {
+          "id": "Q4504",
+          "skill": "listening",
+          "kind": "listeningChoice",
+          "prompt": "聽指路選意思",
+          "audioText": "쭉 가세요. 그리고 왼쪽으로 가세요.",
+          "options": [
+            "一直走，然後往左走。",
+            "一直走，然後往右走。",
+            "往回走。"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "쭉＝一直；왼쪽＝左邊。"
+        },
+        {
+          "id": "Q4505",
+          "skill": "grammar",
+          "kind": "typing",
+          "prompt": "用韓文寫：因為生病不能去。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "아파서 못 가요.",
+            "아파서 갈 수 없어요."
+          ],
+          "explanation": "아파서 못 가요."
+        },
+        {
+          "id": "Q4506",
+          "skill": "speaking",
+          "kind": "speaking",
+          "prompt": "說出：我把錢包弄丟了。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "지갑을 잃어버렸어요."
+          ],
+          "explanation": "지갑을 잃어버렸어요."
+        }
+      ],
+      "completion": {
+        "postTestPassRatio": 0.8,
+        "drillAccuracy": 0.8,
+        "requireVocabularyQuiz": true
+      }
+    }
+  ]
 }
