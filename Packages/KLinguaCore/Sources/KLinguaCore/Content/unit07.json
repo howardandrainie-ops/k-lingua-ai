@@ -3,7 +3,3486 @@
   "number": 7,
   "title": "動詞、形容詞及時態",
   "stage": 4,
-  "summary": "현재・과거・미래時態、否定、-고 싶다、-아/어 주세요。",
-  "available": false,
-  "lessons": []
+  "summary": "해요體變化與不規則動詞、過去式 -았/었어요、未來與推測 -(으)ㄹ 거예요、進行 -고 있어요、長否定 -지 않아요、-고 싶어요、-아/어 주세요，以及 그래서／하지만。",
+  "available": true,
+  "lessons": [
+    {
+      "id": "U07L01",
+      "title": "動詞的해요體與不規則變化",
+      "estimatedMinutes": 55,
+      "objectives": [
+        "從原形（-다）自己變出해요體：가다 → 가요、배우다 → 배워요、마시다 → 마셔요",
+        "掌握母音縮約：ㅗ＋아 → ㅘ、ㅜ＋어 → ㅝ、ㅣ＋어 → ㅕ、ㅡ 脫落",
+        "認識不規則：ㄷ（듣다 → 들어요）、르（모르다 → 몰라요）",
+        "學會 11 個高頻動詞"
+      ],
+      "vocabulary": [
+        {
+          "id": "V0336",
+          "korean": "와요",
+          "chinese": "來",
+          "romanization": "wa-yo",
+          "partOfSpeech": "verb",
+          "tier": "S",
+          "frequencyRank": 205,
+          "example": {
+            "korean": "친구가 집에 와요.",
+            "chinese": "朋友來我家。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 오다（ㅗ＋아요 → 와요）。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0337",
+          "korean": "배워요",
+          "chinese": "學",
+          "romanization": "bae-wo-yo",
+          "partOfSpeech": "verb",
+          "tier": "S",
+          "frequencyRank": 206,
+          "example": {
+            "korean": "한국어를 배워요.",
+            "chinese": "學韓語。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 배우다（ㅜ＋어요 → 워요）。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0338",
+          "korean": "써요",
+          "chinese": "寫；用",
+          "romanization": "sseo-yo",
+          "partOfSpeech": "verb",
+          "tier": "S",
+          "frequencyRank": 207,
+          "example": {
+            "korean": "편지를 써요.",
+            "chinese": "寫信。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 쓰다（ㅡ 脫落）。也有「使用」的意思：컴퓨터를 써요。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0339",
+          "korean": "기다려요",
+          "chinese": "等",
+          "romanization": "gi-da-ryeo-yo",
+          "partOfSpeech": "verb",
+          "tier": "S",
+          "frequencyRank": 208,
+          "example": {
+            "korean": "친구를 기다려요.",
+            "chinese": "等朋友。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 기다리다（ㅣ＋어요 → 려요）。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0340",
+          "korean": "만들어요",
+          "chinese": "做；製作",
+          "romanization": "man-deu-reo-yo",
+          "pronunciation": "[만드러요]",
+          "partOfSpeech": "verb",
+          "tier": "A",
+          "frequencyRank": 103,
+          "example": {
+            "korean": "김밥을 만들어요.",
+            "chinese": "做飯捲。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 만들다。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0341",
+          "korean": "들어요",
+          "chinese": "聽",
+          "romanization": "deu-reo-yo",
+          "pronunciation": "[드러요]",
+          "partOfSpeech": "verb",
+          "tier": "S",
+          "frequencyRank": 209,
+          "example": {
+            "korean": "음악을 들어요.",
+            "chinese": "聽音樂。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 듣다（ㄷ 不規則：ㄷ → ㄹ）。",
+          "commonMistake": "不要說 *듣어요。"
+        },
+        {
+          "id": "V0342",
+          "korean": "열어요",
+          "chinese": "打開",
+          "romanization": "yeo-reo-yo",
+          "pronunciation": "[여러요]",
+          "partOfSpeech": "verb",
+          "tier": "A",
+          "frequencyRank": 104,
+          "example": {
+            "korean": "문을 열어요.",
+            "chinese": "開門。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 열다。문＝門。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0343",
+          "korean": "닫아요",
+          "chinese": "關上",
+          "romanization": "da-da-yo",
+          "pronunciation": "[다다요]",
+          "partOfSpeech": "verb",
+          "tier": "A",
+          "frequencyRank": 105,
+          "example": {
+            "korean": "창문을 닫아요.",
+            "chinese": "關窗戶。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 닫다（規則變化）。창문＝窗戶。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0344",
+          "korean": "알아요",
+          "chinese": "知道；認識",
+          "romanization": "a-ra-yo",
+          "pronunciation": "[아라요]",
+          "partOfSpeech": "verb",
+          "tier": "S",
+          "frequencyRank": 210,
+          "example": {
+            "korean": "그 사람을 알아요.",
+            "chinese": "我認識那個人。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 알다。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0345",
+          "korean": "몰라요",
+          "chinese": "不知道",
+          "romanization": "mol-la-yo",
+          "partOfSpeech": "verb",
+          "tier": "S",
+          "frequencyRank": 211,
+          "example": {
+            "korean": "잘 몰라요.",
+            "chinese": "我不太清楚。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 모르다（르 不規則 → 몰라요）。",
+          "commonMistake": "不要說 *안 알아요，用 몰라요。"
+        },
+        {
+          "id": "V0346",
+          "korean": "걸어요",
+          "chinese": "走路",
+          "romanization": "geo-reo-yo",
+          "pronunciation": "[거러요]",
+          "partOfSpeech": "verb",
+          "tier": "A",
+          "frequencyRank": 106,
+          "example": {
+            "korean": "공원에서 걸어요.",
+            "chinese": "在公園散步。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 걷다（ㄷ 不規則）。第 6 單元的 걸어서＝走路（去）。",
+          "commonMistake": null
+        }
+      ],
+      "pronunciation": [
+        {
+          "id": "P3101",
+          "title": "縮約後的雙母音：와요、배워요、기다려요",
+          "explanation": "ㅗ＋아 → ㅘ（와요、봐요）、ㅜ＋어 → ㅝ（배워요）、ㅣ＋어 → ㅕ（기다려요、마셔요）。縮約後是一個音節，一拍唸完。",
+          "articulation": "ㅘ：嘴唇先圓再張大；ㅝ：嘴唇先圓再半張；ㅕ：從 [i] 快速滑到 ㅓ。",
+          "chineseSpeakerPitfall": "唸成兩拍 [오아요]、[배우어요]。",
+          "samples": [
+            "와요",
+            "봐요",
+            "배워요",
+            "기다려요"
+          ],
+          "minimalPairs": []
+        },
+        {
+          "id": "P3102",
+          "title": "알아요 與 몰라요 的 ㄹ",
+          "explanation": "알아요 → [아라요]（ㄹ 連到下一個字，彈舌）；몰라요 → [몰라요]（兩個 ㄹ 連在一起，舌尖貼久一點，像長的「l」）。",
+          "articulation": "[아라요] 的 ㄹ 輕輕彈一下；[몰라요] 的 ㄹㄹ 舌尖貼住不彈。",
+          "chineseSpeakerPitfall": "兩個字的 ㄹ 唸成一樣，聽起來會很像。",
+          "samples": [
+            "알아요",
+            "몰라요",
+            "만들어요"
+          ],
+          "minimalPairs": [
+            {
+              "a": "알아요",
+              "b": "몰라요",
+              "contrast": "知道／不知道"
+            }
+          ]
+        }
+      ],
+      "grammar": [
+        {
+          "id": "G3101",
+          "title": "動詞的해요體：母音規則與縮約",
+          "pattern": "語幹最後的母音 ㅏ ㅗ → -아요；其他 → -어요；하다 → 해요",
+          "explanation": "去掉原形的 다 得到語幹，再看最後一個母音：가다 → 가요（ㅏ＋아 合併）、오다 → 와요（ㅗ＋아 → ㅘ）、먹다 → 먹어요、배우다 → 배워요（ㅜ＋어 → ㅝ）、마시다 → 마셔요（ㅣ＋어 → ㅕ）、쓰다 → 써요（ㅡ 脫落）、공부하다 → 공부해요。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "한국어를 배워요.",
+              "chinese": "學韓語。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "친구를 기다려요.",
+              "chinese": "等朋友。",
+              "speechLevel": "polite"
+            }
+          ]
+        },
+        {
+          "id": "G3102",
+          "title": "常見不規則：ㄷ、르",
+          "pattern": "ㄷ 不規則：듣다 → 들어요、걷다 → 걸어요；르 不規則：모르다 → 몰라요、다르다 → 달라요",
+          "explanation": "ㄷ 不規則：語幹的 ㄷ 遇到母音變成 ㄹ（但 닫다 → 닫아요 是規則的，要個別記）。르 不規則：르 前面加一個 ㄹ，再接 라／러：모르다 → 몰라요、부르다 → 불러요（唱）。ㄹ 結尾的 만들다、알다、살다、열다 是規則的：만들어요、알아요。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "음악을 들어요.",
+              "chinese": "聽音樂。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "잘 몰라요.",
+              "chinese": "我不太清楚。",
+              "speechLevel": "polite"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "korean": "친구가 와요.",
+          "chinese": "朋友來了。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "매일 음악을 들어요.",
+          "chinese": "每天聽音樂。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "저는 한국어를 배워요.",
+          "chinese": "我學韓語。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "잘 몰라요.",
+          "chinese": "我不太清楚。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "공원에서 걸어요.",
+          "chinese": "在公園散步。",
+          "speechLevel": "polite"
+        }
+      ],
+      "listening": [
+        {
+          "id": "L3101",
+          "audioText": "음악을 들어요.",
+          "question": "意思是？",
+          "options": [
+            "聽音樂。",
+            "做音樂。",
+            "買音樂。"
+          ],
+          "answerIndex": 0,
+          "explanation": "들어요＝聽（듣다）。"
+        },
+        {
+          "id": "L3102",
+          "audioText": "잘 몰라요.",
+          "question": "意思是？",
+          "options": [
+            "我不太清楚。",
+            "我很了解。",
+            "我很會。"
+          ],
+          "answerIndex": 0,
+          "explanation": "몰라요＝不知道。"
+        },
+        {
+          "id": "L3103",
+          "audioText": "친구를 기다려요.",
+          "question": "意思是？",
+          "options": [
+            "等朋友。",
+            "見朋友。",
+            "教朋友。"
+          ],
+          "answerIndex": 0,
+          "explanation": "기다려요＝等。"
+        },
+        {
+          "id": "L3104",
+          "audioText": "몰라요",
+          "question": "你聽到的是哪一個？",
+          "options": [
+            "몰라요（不知道）",
+            "알아요（知道）"
+          ],
+          "answerIndex": 0,
+          "explanation": "ㄹㄹ 舌尖貼住：[몰라요]。"
+        }
+      ],
+      "drills": [
+        {
+          "id": "D3101",
+          "type": "transformation",
+          "instruction": "原形 → 해요體（規則動詞）。",
+          "model": {
+            "korean": "가다 → 가요",
+            "chinese": "去",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "오다",
+              "answers": [
+                "와요."
+              ],
+              "chinese": "來"
+            },
+            {
+              "cue": "배우다",
+              "answers": [
+                "배워요."
+              ],
+              "chinese": "學"
+            },
+            {
+              "cue": "기다리다",
+              "answers": [
+                "기다려요."
+              ],
+              "chinese": "等"
+            },
+            {
+              "cue": "쓰다",
+              "answers": [
+                "써요."
+              ],
+              "chinese": "寫"
+            },
+            {
+              "cue": "만들다",
+              "answers": [
+                "만들어요."
+              ],
+              "chinese": "做"
+            },
+            {
+              "cue": "열다",
+              "answers": [
+                "열어요."
+              ],
+              "chinese": "打開"
+            }
+          ]
+        },
+        {
+          "id": "D3102",
+          "type": "transformation",
+          "instruction": "原形 → 해요體（不規則動詞）。",
+          "model": {
+            "korean": "듣다 → 들어요",
+            "chinese": "聽",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "걷다",
+              "answers": [
+                "걸어요."
+              ],
+              "chinese": "走路"
+            },
+            {
+              "cue": "모르다",
+              "answers": [
+                "몰라요."
+              ],
+              "chinese": "不知道"
+            },
+            {
+              "cue": "다르다",
+              "answers": [
+                "달라요."
+              ],
+              "chinese": "不一樣"
+            },
+            {
+              "cue": "닫다（規則）",
+              "answers": [
+                "닫아요."
+              ],
+              "chinese": "關上"
+            },
+            {
+              "cue": "알다",
+              "answers": [
+                "알아요."
+              ],
+              "chinese": "知道"
+            }
+          ]
+        },
+        {
+          "id": "D3103",
+          "type": "substitution",
+          "instruction": "把動作換成提示詞（注意 을／를）。",
+          "model": {
+            "korean": "저는 한국어를 배워요.",
+            "chinese": "我學韓語。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 8,
+          "items": [
+            {
+              "cue": "音樂／聽",
+              "answers": [
+                "저는 음악을 들어요."
+              ],
+              "chinese": "我聽音樂。"
+            },
+            {
+              "cue": "信／寫",
+              "answers": [
+                "저는 편지를 써요."
+              ],
+              "chinese": "我寫信。"
+            },
+            {
+              "cue": "飯捲／做",
+              "answers": [
+                "저는 김밥을 만들어요."
+              ],
+              "chinese": "我做飯捲。"
+            },
+            {
+              "cue": "朋友／等",
+              "answers": [
+                "저는 친구를 기다려요."
+              ],
+              "chinese": "我等朋友。"
+            },
+            {
+              "cue": "門／開",
+              "answers": [
+                "저는 문을 열어요."
+              ],
+              "chinese": "我開門。"
+            }
+          ]
+        },
+        {
+          "id": "D3104",
+          "type": "questionAnswer",
+          "instruction": "聽問題，依提示回答。",
+          "model": {
+            "korean": "뭐 배워요? — 한국어를 배워요.",
+            "chinese": "學什麼？——學韓語。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "뭐 배워요?（韓語）",
+              "cueIsAudio": true,
+              "answers": [
+                "한국어를 배워요.",
+                "저는 한국어를 배워요."
+              ],
+              "chinese": "學韓語。"
+            },
+            {
+              "cue": "그 사람을 알아요?（不知道）",
+              "cueIsAudio": true,
+              "answers": [
+                "아니요, 몰라요.",
+                "아니요, 잘 몰라요."
+              ],
+              "chinese": "不，不認識。"
+            },
+            {
+              "cue": "누구를 기다려요?（朋友）",
+              "cueIsAudio": true,
+              "answers": [
+                "친구를 기다려요."
+              ],
+              "chinese": "等朋友。"
+            },
+            {
+              "cue": "집에서 뭐 해요?（聽音樂）",
+              "cueIsAudio": true,
+              "answers": [
+                "음악을 들어요.",
+                "집에서 음악을 들어요."
+              ],
+              "chinese": "聽音樂。"
+            },
+            {
+              "cue": "친구가 언제 와요?（明天）",
+              "cueIsAudio": true,
+              "answers": [
+                "내일 와요.",
+                "친구가 내일 와요."
+              ],
+              "chinese": "明天來。"
+            }
+          ]
+        },
+        {
+          "id": "D3105",
+          "type": "freeProduction",
+          "instruction": "說兩件你平常會做的事。",
+          "model": {
+            "korean": "저는 매일 음악을 들어요. 주말에 공원에서 걸어요.",
+            "chinese": "我每天聽音樂，週末在公園散步。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 10,
+          "items": [
+            {
+              "cue": "自由回答",
+              "answers": [
+                "저는 매일 음악을 들어요.",
+                "주말에 공원에서 걸어요."
+              ],
+              "chinese": "（參考答案）"
+            }
+          ]
+        }
+      ],
+      "speaking": {
+        "scenario": "在咖啡廳等朋友時，旁邊的韓國人和你聊起來。AI 扮演對方。使用者會：기다려요、배워요、들어요、몰라요。",
+        "speechLevel": "polite",
+        "offlineScript": [
+          {
+            "cue": "누구를 기다려요?（提示：等朋友）",
+            "cueIsAudio": true,
+            "answers": [
+              "친구를 기다려요."
+            ],
+            "chinese": "等朋友。"
+          },
+          {
+            "cue": "한국어를 잘해요! 어디에서 배워요?（提示：在家用 app 學——앱으로）",
+            "cueIsAudio": true,
+            "answers": [
+              "집에서 앱으로 배워요.",
+              "집에서 배워요."
+            ],
+            "chinese": "在家用 app 學。"
+          },
+          {
+            "cue": "이 카페 이름을 알아요?（提示：不知道）",
+            "cueIsAudio": true,
+            "answers": [
+              "아니요, 몰라요.",
+              "아니요, 잘 몰라요."
+            ],
+            "chinese": "不，我不知道。"
+          }
+        ]
+      },
+      "postTest": [
+        {
+          "id": "Q3101",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「배우다」的해요體是？",
+          "audioText": null,
+          "options": [
+            "배워요",
+            "배우어요",
+            "배와요"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "ㅜ＋어요 → 워요。"
+        },
+        {
+          "id": "Q3102",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「듣다（聽）」的해요體是？",
+          "audioText": null,
+          "options": [
+            "들어요",
+            "듣어요",
+            "들러요"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "ㄷ 不規則：ㄷ → ㄹ。"
+        },
+        {
+          "id": "Q3103",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「我不知道。」怎麼說最自然？",
+          "audioText": null,
+          "options": [
+            "몰라요.",
+            "안 알아요.",
+            "알지 않아요?"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "不知道用 몰라요，不說 안 알아요。"
+        },
+        {
+          "id": "Q3104",
+          "skill": "listening",
+          "kind": "listeningChoice",
+          "prompt": "聽句子選意思",
+          "audioText": "친구한테 편지를 써요.",
+          "options": [
+            "寫信給朋友。",
+            "收到朋友的信。",
+            "讀朋友的信。"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "써요＝寫。"
+        },
+        {
+          "id": "Q3105",
+          "skill": "grammar",
+          "kind": "typing",
+          "prompt": "用韓文寫：做飯捲。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "김밥을 만들어요.",
+            "저는 김밥을 만들어요."
+          ],
+          "explanation": "김밥을 만들어요."
+        },
+        {
+          "id": "Q3106",
+          "skill": "speaking",
+          "kind": "speaking",
+          "prompt": "說出：我在學韓語。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "한국어를 배워요.",
+            "저는 한국어를 배워요."
+          ],
+          "explanation": "한국어를 배워요."
+        }
+      ],
+      "completion": {
+        "postTestPassRatio": 0.8,
+        "drillAccuracy": 0.8,
+        "requireVocabularyQuiz": true
+      }
+    },
+    {
+      "id": "U07L02",
+      "title": "過去式「-았/었어요」",
+      "estimatedMinutes": 55,
+      "objectives": [
+        "把해요體變成過去式：가요 → 갔어요、먹어요 → 먹었어요、해요 → 했어요",
+        "說「是…（過去）」：학생이었어요／의사였어요",
+        "用 어제、지난주、작년、아까 說過去的事",
+        "用 벌써（已經）、아직 안（還沒）回答"
+      ],
+      "vocabulary": [
+        {
+          "id": "V0347",
+          "korean": "지난주",
+          "chinese": "上週",
+          "romanization": "ji-nan-ju",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 212,
+          "example": {
+            "korean": "지난주에 영화를 봤어요.",
+            "chinese": "上週看了電影。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0348",
+          "korean": "아까",
+          "chinese": "剛才",
+          "romanization": "a-kka",
+          "partOfSpeech": "adverb",
+          "tier": "A",
+          "frequencyRank": 107,
+          "example": {
+            "korean": "아까 밥을 먹었어요.",
+            "chinese": "剛才吃過飯了。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0349",
+          "korean": "작년",
+          "chinese": "去年",
+          "romanization": "jang-nyeon",
+          "pronunciation": "[장년]",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 108,
+          "example": {
+            "korean": "작년에 한국에 갔어요.",
+            "chinese": "去年去了韓國。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0350",
+          "korean": "전에",
+          "chinese": "以前",
+          "romanization": "jeo-ne",
+          "pronunciation": "[저네]",
+          "partOfSpeech": "adverb",
+          "tier": "S",
+          "frequencyRank": 213,
+          "example": {
+            "korean": "전에 서울에 살았어요.",
+            "chinese": "以前住在首爾。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0351",
+          "korean": "벌써",
+          "chinese": "已經",
+          "romanization": "beol-sseo",
+          "partOfSpeech": "adverb",
+          "tier": "A",
+          "frequencyRank": 109,
+          "example": {
+            "korean": "벌써 끝났어요.",
+            "chinese": "已經結束了。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0352",
+          "korean": "아직",
+          "chinese": "還；尚未",
+          "romanization": "a-jik",
+          "partOfSpeech": "adverb",
+          "tier": "S",
+          "frequencyRank": 214,
+          "example": {
+            "korean": "아직 안 먹었어요.",
+            "chinese": "還沒吃。",
+            "speechLevel": "polite"
+          },
+          "usage": "아직 안 ＋ 過去式＝還沒…。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0353",
+          "korean": "끝나요",
+          "chinese": "結束",
+          "romanization": "kkeun-na-yo",
+          "pronunciation": "[끈나요]",
+          "partOfSpeech": "verb",
+          "tier": "S",
+          "frequencyRank": 215,
+          "example": {
+            "korean": "수업이 다섯 시에 끝나요.",
+            "chinese": "課五點結束。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 끝나다。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0354",
+          "korean": "일찍",
+          "chinese": "早（早早地）",
+          "romanization": "il-jjik",
+          "partOfSpeech": "adverb",
+          "tier": "A",
+          "frequencyRank": 110,
+          "example": {
+            "korean": "오늘 일찍 일어났어요.",
+            "chinese": "今天很早起床。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0355",
+          "korean": "늦게",
+          "chinese": "晚（很晚地）",
+          "romanization": "neut-ge",
+          "pronunciation": "[늗께]",
+          "partOfSpeech": "adverb",
+          "tier": "A",
+          "frequencyRank": 111,
+          "example": {
+            "korean": "어제 늦게 잤어요.",
+            "chinese": "昨天很晚睡。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0356",
+          "korean": "많이",
+          "chinese": "很多地",
+          "romanization": "ma-ni",
+          "pronunciation": "[마니]",
+          "partOfSpeech": "adverb",
+          "tier": "S",
+          "frequencyRank": 216,
+          "example": {
+            "korean": "많이 먹었어요.",
+            "chinese": "吃了很多。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0357",
+          "korean": "처음",
+          "chinese": "第一次；起初",
+          "romanization": "cheo-eum",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 217,
+          "example": {
+            "korean": "한국에 처음 갔어요.",
+            "chinese": "第一次去韓國。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        }
+      ],
+      "pronunciation": [
+        {
+          "id": "P3201",
+          "title": "過去式 -ㅆ어요 的連音",
+          "explanation": "過去式的收音 ㅆ 接 어요 時連音：갔어요 → [가써요]、했어요 → [해써요]、먹었어요 → [머거써요]、봤어요 → [봐써요]。",
+          "articulation": "ㅆ 移到 어 前面，唸成緊音 [써]。",
+          "chineseSpeakerPitfall": "唸成 [갇어요] 或把 ㅆ 唸成平音 [가서요]。",
+          "samples": [
+            "갔어요",
+            "했어요",
+            "먹었어요",
+            "봤어요"
+          ],
+          "minimalPairs": []
+        },
+        {
+          "id": "P3202",
+          "title": "작년、끝나요、늦게 的音變",
+          "explanation": "작년 → [장년]、끝나요 → [끈나요]（鼻音化）；늦게 → [늗께]（緊音化）；많이 → [마니]（ㅎ 脫落）。",
+          "articulation": "先把收音換成代表音，再看下一個字：ㄴ ㅁ → 鼻音化；ㄱ ㄷ ㅂ ㅅ ㅈ → 緊音。",
+          "chineseSpeakerPitfall": "照字唸 [작년]、[끝나요]，聽起來不自然。",
+          "samples": [
+            "작년",
+            "끝나요",
+            "늦게",
+            "많이"
+          ],
+          "minimalPairs": []
+        }
+      ],
+      "grammar": [
+        {
+          "id": "G3201",
+          "title": "過去式 -았/었어요",
+          "pattern": "해요體的 요 換成 ㅆ어요：가요 → 갔어요、먹어요 → 먹었어요、해요 → 했어요",
+          "explanation": "最簡單的方法：先變出해요體，把最後的「요」去掉，加上「ㅆ어요」。가요 → 갔어요、와요 → 왔어요、마셔요 → 마셨어요、들어요 → 들었어요、몰라요 → 몰랐어요、더워요 → 더웠어요。否定：안 갔어요、못 갔어요。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "어제 영화를 봤어요.",
+              "chinese": "昨天看了電影。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "작년에 한국에 갔어요.",
+              "chinese": "去年去了韓國。",
+              "speechLevel": "polite"
+            }
+          ]
+        },
+        {
+          "id": "G3202",
+          "title": "N이었어요/였어요；벌써／아직 안",
+          "pattern": "有收音＋이었어요；無收音＋였어요；벌써 V-았어요（已經）／아직 안 V-았어요（還沒）",
+          "explanation": "名詞的過去：학생이었어요（以前是學生）、의사였어요。問「吃了嗎？」：밥 먹었어요? — 네, 벌써 먹었어요（已經吃了）／아니요, 아직 안 먹었어요（還沒吃）。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "전에 학생이었어요.",
+              "chinese": "以前是學生。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "아직 안 먹었어요.",
+              "chinese": "還沒吃。",
+              "speechLevel": "polite"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "korean": "어제 친구를 만났어요.",
+          "chinese": "昨天見了朋友。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "지난주에 바빴어요.",
+          "chinese": "上週很忙。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "아침에 커피를 마셨어요.",
+          "chinese": "早上喝了咖啡。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "밥 먹었어요?",
+          "chinese": "吃飯了嗎？",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "아직 안 먹었어요.",
+          "chinese": "還沒吃。",
+          "speechLevel": "polite"
+        }
+      ],
+      "listening": [
+        {
+          "id": "L3201",
+          "audioText": "어제 영화를 봤어요.",
+          "question": "什麼時候看電影？",
+          "options": [
+            "昨天",
+            "今天",
+            "明天"
+          ],
+          "answerIndex": 0,
+          "explanation": "봤어요＝看了（過去）。"
+        },
+        {
+          "id": "L3202",
+          "audioText": "아직 안 먹었어요.",
+          "question": "意思是？",
+          "options": [
+            "還沒吃。",
+            "已經吃了。",
+            "不想吃。"
+          ],
+          "answerIndex": 0,
+          "explanation": "아직 안＋過去式＝還沒。"
+        },
+        {
+          "id": "L3203",
+          "audioText": "갔어요",
+          "question": "實際發音最接近哪一個？",
+          "options": [
+            "[가써요]",
+            "[가서요]",
+            "[갇어요]"
+          ],
+          "answerIndex": 0,
+          "explanation": "ㅆ 移到下一個字，唸緊音。"
+        },
+        {
+          "id": "L3204",
+          "audioText": "전에 선생님이었어요.",
+          "question": "意思是？",
+          "options": [
+            "以前是老師。",
+            "現在是老師。",
+            "以後要當老師。"
+          ],
+          "answerIndex": 0,
+          "explanation": "이었어요＝是（過去）。"
+        }
+      ],
+      "drills": [
+        {
+          "id": "D3201",
+          "type": "transformation",
+          "instruction": "現在 → 過去：해요體的 요 換成 ㅆ어요。",
+          "model": {
+            "korean": "가요 → 갔어요",
+            "chinese": "去了",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "먹어요.",
+              "answers": [
+                "먹었어요."
+              ],
+              "chinese": "吃了"
+            },
+            {
+              "cue": "해요.",
+              "answers": [
+                "했어요."
+              ],
+              "chinese": "做了"
+            },
+            {
+              "cue": "마셔요.",
+              "answers": [
+                "마셨어요."
+              ],
+              "chinese": "喝了"
+            },
+            {
+              "cue": "와요.",
+              "answers": [
+                "왔어요."
+              ],
+              "chinese": "來了"
+            },
+            {
+              "cue": "들어요.",
+              "answers": [
+                "들었어요."
+              ],
+              "chinese": "聽了"
+            },
+            {
+              "cue": "바빠요.",
+              "answers": [
+                "바빴어요."
+              ],
+              "chinese": "很忙（過去）"
+            }
+          ]
+        },
+        {
+          "id": "D3202",
+          "type": "transformation",
+          "instruction": "改成昨天發生的事：加上 어제，動詞改過去式。",
+          "model": {
+            "korean": "친구를 만나요. → 어제 친구를 만났어요.",
+            "chinese": "昨天見了朋友。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 8,
+          "items": [
+            {
+              "cue": "영화를 봐요.",
+              "answers": [
+                "어제 영화를 봤어요."
+              ],
+              "chinese": "昨天看了電影。"
+            },
+            {
+              "cue": "한국어를 공부해요.",
+              "answers": [
+                "어제 한국어를 공부했어요."
+              ],
+              "chinese": "昨天學了韓語。"
+            },
+            {
+              "cue": "집에서 쉬어요.",
+              "answers": [
+                "어제 집에서 쉬었어요."
+              ],
+              "chinese": "昨天在家休息。"
+            },
+            {
+              "cue": "일찍 자요.",
+              "answers": [
+                "어제 일찍 잤어요."
+              ],
+              "chinese": "昨天很早睡。"
+            },
+            {
+              "cue": "김밥을 만들어요.",
+              "answers": [
+                "어제 김밥을 만들었어요."
+              ],
+              "chinese": "昨天做了飯捲。"
+            }
+          ]
+        },
+        {
+          "id": "D3203",
+          "type": "substitution",
+          "instruction": "說以前的身分：전에 N이었어요/였어요（注意有沒有收音）。",
+          "model": {
+            "korean": "전에 학생이었어요.",
+            "chinese": "以前是學生。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "회사원",
+              "answers": [
+                "전에 회사원이었어요."
+              ],
+              "chinese": "以前是上班族。"
+            },
+            {
+              "cue": "의사",
+              "answers": [
+                "전에 의사였어요."
+              ],
+              "chinese": "以前是醫生。"
+            },
+            {
+              "cue": "가수",
+              "answers": [
+                "전에 가수였어요."
+              ],
+              "chinese": "以前是歌手。"
+            },
+            {
+              "cue": "선생님",
+              "answers": [
+                "전에 선생님이었어요."
+              ],
+              "chinese": "以前是老師。"
+            },
+            {
+              "cue": "요리사",
+              "answers": [
+                "전에 요리사였어요."
+              ],
+              "chinese": "以前是廚師。"
+            }
+          ]
+        },
+        {
+          "id": "D3204",
+          "type": "questionAnswer",
+          "instruction": "聽問題，用過去式回答。",
+          "model": {
+            "korean": "어제 뭐 했어요? — 영화를 봤어요.",
+            "chinese": "昨天做了什麼？——看了電影。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "어제 뭐 했어요?（看電影）",
+              "cueIsAudio": true,
+              "answers": [
+                "영화를 봤어요.",
+                "어제 영화를 봤어요."
+              ],
+              "chinese": "看了電影。"
+            },
+            {
+              "cue": "밥 먹었어요?（還沒）",
+              "cueIsAudio": true,
+              "answers": [
+                "아니요, 아직 안 먹었어요.",
+                "아직 안 먹었어요."
+              ],
+              "chinese": "還沒吃。"
+            },
+            {
+              "cue": "숙제 했어요?（已經做了）",
+              "cueIsAudio": true,
+              "answers": [
+                "네, 벌써 했어요.",
+                "네, 했어요."
+              ],
+              "chinese": "已經做了。"
+            },
+            {
+              "cue": "주말에 어디 갔어요?（釜山——부산）",
+              "cueIsAudio": true,
+              "answers": [
+                "부산에 갔어요.",
+                "주말에 부산에 갔어요."
+              ],
+              "chinese": "去了釜山。"
+            },
+            {
+              "cue": "어제 몇 시에 잤어요?（很晚，12 點）",
+              "cueIsAudio": true,
+              "answers": [
+                "열두 시에 잤어요.",
+                "12시에 잤어요.",
+                "늦게 잤어요. 열두 시에 잤어요."
+              ],
+              "chinese": "十二點睡的。"
+            }
+          ]
+        },
+        {
+          "id": "D3205",
+          "type": "freeProduction",
+          "instruction": "說你昨天做了哪兩件事。",
+          "model": {
+            "korean": "어제 친구를 만났어요. 그리고 같이 영화를 봤어요.",
+            "chinese": "昨天見了朋友，然後一起看了電影。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 10,
+          "items": [
+            {
+              "cue": "自由回答",
+              "answers": [
+                "어제 친구를 만났어요.",
+                "그리고 같이 영화를 봤어요."
+              ],
+              "chinese": "（參考答案）"
+            }
+          ]
+        }
+      ],
+      "speaking": {
+        "scenario": "星期一早上，韓國同事問你週末過得怎麼樣。AI 扮演同事。使用者會：過去式、어제／주말에、벌써／아직 안。",
+        "speechLevel": "polite",
+        "offlineScript": [
+          {
+            "cue": "주말에 뭐 했어요?（提示：和朋友看了電影）",
+            "cueIsAudio": true,
+            "answers": [
+              "친구하고 영화를 봤어요.",
+              "친구랑 영화를 봤어요.",
+              "주말에 친구하고 영화를 봤어요."
+            ],
+            "chinese": "和朋友看了電影。"
+          },
+          {
+            "cue": "재미있었어요?（提示：對，很有趣）",
+            "cueIsAudio": true,
+            "answers": [
+              "네, 재미있었어요.",
+              "네, 너무 재미있었어요.",
+              "네, 정말 재미있었어요."
+            ],
+            "chinese": "對，很有趣。"
+          },
+          {
+            "cue": "아침 먹었어요?（提示：還沒吃）",
+            "cueIsAudio": true,
+            "answers": [
+              "아니요, 아직 안 먹었어요.",
+              "아직 안 먹었어요."
+            ],
+            "chinese": "還沒吃。"
+          }
+        ]
+      },
+      "postTest": [
+        {
+          "id": "Q3201",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「먹어요」的過去式是？",
+          "audioText": null,
+          "options": [
+            "먹었어요",
+            "먹았어요",
+            "먹어었요"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "요 → ㅆ어요。"
+        },
+        {
+          "id": "Q3202",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「以前是醫生。」怎麼說？",
+          "audioText": null,
+          "options": [
+            "의사였어요.",
+            "의사이었어요.",
+            "의사었어요."
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "의사 沒有收音，接 였어요。"
+        },
+        {
+          "id": "Q3203",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「還沒吃。」怎麼說？",
+          "audioText": null,
+          "options": [
+            "아직 안 먹었어요.",
+            "벌써 먹었어요.",
+            "아직 먹어요."
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "아직 안＋過去式。"
+        },
+        {
+          "id": "Q3204",
+          "skill": "listening",
+          "kind": "listeningChoice",
+          "prompt": "聽句子選意思",
+          "audioText": "작년에 처음 한국에 갔어요.",
+          "options": [
+            "去年第一次去韓國。",
+            "明年第一次去韓國。",
+            "去年去了很多次韓國。"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "작년＝去年；갔어요＝去了。"
+        },
+        {
+          "id": "Q3205",
+          "skill": "grammar",
+          "kind": "typing",
+          "prompt": "用韓文寫：昨天見了朋友。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "어제 친구를 만났어요."
+          ],
+          "explanation": "어제 친구를 만났어요."
+        },
+        {
+          "id": "Q3206",
+          "skill": "speaking",
+          "kind": "speaking",
+          "prompt": "說出：你昨天做了什麼？",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "어제 뭐 했어요?"
+          ],
+          "explanation": "어제 뭐 했어요?"
+        }
+      ],
+      "completion": {
+        "postTestPassRatio": 0.8,
+        "drillAccuracy": 0.8,
+        "requireVocabularyQuiz": true
+      }
+    },
+    {
+      "id": "U07L03",
+      "title": "未來與計畫「-(으)ㄹ 거예요」",
+      "estimatedMinutes": 55,
+      "objectives": [
+        "用「-(으)ㄹ 거예요」說計畫：갈 거예요、먹을 거예요",
+        "知道 ㄹ 語幹（만들다 → 만들 거예요）和 ㄷ 不規則（듣다 → 들을 거예요）",
+        "用「-(으)ㄹ 거예요」做推測：아마 바쁠 거예요",
+        "用 이따가、나중에、다음 주、내년 說未來"
+      ],
+      "vocabulary": [
+        {
+          "id": "V0358",
+          "korean": "다음 주",
+          "chinese": "下週",
+          "romanization": "da-eum ju",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 218,
+          "example": {
+            "korean": "다음 주에 여행할 거예요.",
+            "chinese": "下週要去旅行。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0359",
+          "korean": "내년",
+          "chinese": "明年",
+          "romanization": "nae-nyeon",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 112,
+          "example": {
+            "korean": "내년에 한국에 갈 거예요.",
+            "chinese": "明年要去韓國。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0360",
+          "korean": "이따가",
+          "chinese": "等一下（今天稍晚）",
+          "romanization": "i-tta-ga",
+          "partOfSpeech": "adverb",
+          "tier": "S",
+          "frequencyRank": 219,
+          "example": {
+            "korean": "이따가 전화할 거예요.",
+            "chinese": "等一下會打電話。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0361",
+          "korean": "나중에",
+          "chinese": "以後；之後",
+          "romanization": "na-jung-e",
+          "partOfSpeech": "adverb",
+          "tier": "S",
+          "frequencyRank": 220,
+          "example": {
+            "korean": "나중에 연락해요.",
+            "chinese": "之後再聯絡。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0362",
+          "korean": "아마",
+          "chinese": "大概；可能",
+          "romanization": "a-ma",
+          "partOfSpeech": "adverb",
+          "tier": "S",
+          "frequencyRank": 221,
+          "example": {
+            "korean": "아마 바쁠 거예요.",
+            "chinese": "大概會很忙。",
+            "speechLevel": "polite"
+          },
+          "usage": "常和 -(으)ㄹ 거예요 一起用。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0363",
+          "korean": "계획",
+          "chinese": "計畫",
+          "romanization": "gye-hoek",
+          "pronunciation": "[계획]，口語常唸 [게훽]",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 113,
+          "example": {
+            "korean": "주말 계획이 있어요?",
+            "chinese": "週末有計畫嗎？",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0364",
+          "korean": "휴가",
+          "chinese": "休假",
+          "romanization": "hyu-ga",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 114,
+          "example": {
+            "korean": "다음 달에 휴가예요.",
+            "chinese": "下個月休假。",
+            "speechLevel": "polite"
+          },
+          "usage": "上班族的休假；學生的放假叫 방학。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0365",
+          "korean": "방학",
+          "chinese": "（學校）放假",
+          "romanization": "bang-hak",
+          "partOfSpeech": "noun",
+          "tier": "A",
+          "frequencyRank": 115,
+          "example": {
+            "korean": "방학에 뭐 할 거예요?",
+            "chinese": "放假要做什麼？",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0366",
+          "korean": "준비해요",
+          "chinese": "準備",
+          "romanization": "jun-bi-hae-yo",
+          "partOfSpeech": "verb",
+          "tier": "A",
+          "frequencyRank": 116,
+          "example": {
+            "korean": "여행을 준비해요.",
+            "chinese": "準備旅行。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 준비하다。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0367",
+          "korean": "예약해요",
+          "chinese": "預約；訂",
+          "romanization": "ye-ya-kae-yo",
+          "pronunciation": "[예야캐요]",
+          "partOfSpeech": "verb",
+          "tier": "A",
+          "frequencyRank": 117,
+          "example": {
+            "korean": "식당을 예약할 거예요.",
+            "chinese": "要訂餐廳。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 예약하다。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0368",
+          "korean": "쇼핑해요",
+          "chinese": "購物",
+          "romanization": "syo-ping-hae-yo",
+          "partOfSpeech": "verb",
+          "tier": "S",
+          "frequencyRank": 222,
+          "example": {
+            "korean": "백화점에서 쇼핑해요.",
+            "chinese": "在百貨公司購物。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 쇼핑하다。",
+          "commonMistake": null
+        }
+      ],
+      "pronunciation": [
+        {
+          "id": "P3301",
+          "title": "-(으)ㄹ 거예요 的緊音",
+          "explanation": "ㄹ 後面的 거 唸成緊音：갈 거예요 → [갈 꺼예요]、먹을 거예요 → [머글 꺼예요]、할 거예요 → [할 꺼예요]。口語常縮成 [갈 꺼에요]。",
+          "articulation": "ㄹ 停住後，喉嚨繃緊唸 [꺼]。",
+          "chineseSpeakerPitfall": "唸成平音 [갈 거예요]，聽起來像在一個字一個字讀。",
+          "samples": [
+            "갈 거예요",
+            "먹을 거예요",
+            "할 거예요"
+          ],
+          "minimalPairs": []
+        },
+        {
+          "id": "P3302",
+          "title": "이따가、나중에",
+          "explanation": "이따가 的 ㄸ 是緊音；나중에 → [나중에]，收音 ㅇ 不連音。",
+          "articulation": "ㄸ 舌尖抵上齒齦、喉嚨繃緊，不送氣。",
+          "chineseSpeakerPitfall": "이따가 唸成 [이타가]（送氣）。",
+          "samples": [
+            "이따가",
+            "나중에"
+          ],
+          "minimalPairs": []
+        }
+      ],
+      "grammar": [
+        {
+          "id": "G3301",
+          "title": "V-(으)ㄹ 거예요（將要、打算）",
+          "pattern": "無收音或 ㄹ 收音＋ㄹ 거예요；有收音＋을 거예요",
+          "explanation": "가다 → 갈 거예요、하다 → 할 거예요、보다 → 볼 거예요；먹다 → 먹을 거예요、읽다 → 읽을 거예요；ㄹ 語幹直接加 거예요：만들다 → 만들 거예요、살다 → 살 거예요；ㄷ 不規則：듣다 → 들을 거예요、걷다 → 걸을 거예요。問：뭐 할 거예요?（要做什麼？）",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "다음 주에 부산에 갈 거예요.",
+              "chinese": "下週要去釜山。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "저녁에 김밥을 만들 거예요.",
+              "chinese": "晚上要做飯捲。",
+              "speechLevel": "polite"
+            }
+          ]
+        },
+        {
+          "id": "G3302",
+          "title": "推測：아마 … -(으)ㄹ 거예요",
+          "pattern": "아마 ＋ 形容詞/動詞-(으)ㄹ 거예요",
+          "explanation": "說別人或還沒發生的事，表示推測：아마 바쁠 거예요（大概會很忙）、내일은 추울 거예요（明天應該會冷，ㅂ 不規則：춥다 → 추울）、민수 씨는 집에 있을 거예요。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "아마 바쁠 거예요.",
+              "chinese": "大概會很忙。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "내일은 추울 거예요.",
+              "chinese": "明天應該會很冷。",
+              "speechLevel": "polite"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "korean": "주말에 뭐 할 거예요?",
+          "chinese": "週末要做什麼？",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "친구하고 쇼핑할 거예요.",
+          "chinese": "要和朋友去購物。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "내년에 한국어를 더 배울 거예요.",
+          "chinese": "明年要再多學韓語。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "이따가 전화할 거예요.",
+          "chinese": "等一下會打電話。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "아마 바쁠 거예요.",
+          "chinese": "大概會很忙。",
+          "speechLevel": "polite"
+        }
+      ],
+      "listening": [
+        {
+          "id": "L3301",
+          "audioText": "주말에 뭐 할 거예요?",
+          "question": "對方在問什麼？",
+          "options": [
+            "週末要做什麼？",
+            "週末做了什麼？",
+            "週末在做什麼？"
+          ],
+          "answerIndex": 0,
+          "explanation": "할 거예요＝要做（未來）。"
+        },
+        {
+          "id": "L3302",
+          "audioText": "다음 주에 부산에 갈 거예요.",
+          "question": "什麼時候去釜山？",
+          "options": [
+            "下週",
+            "上週",
+            "這週"
+          ],
+          "answerIndex": 0,
+          "explanation": "다음 주＝下週。"
+        },
+        {
+          "id": "L3303",
+          "audioText": "갈 거예요",
+          "question": "實際發音最接近哪一個？",
+          "options": [
+            "[갈 꺼예요]",
+            "[가 거예요]",
+            "[갈 거예요]（平音）"
+          ],
+          "answerIndex": 0,
+          "explanation": "ㄹ 後的 거 變緊音。"
+        },
+        {
+          "id": "L3304",
+          "audioText": "아마 집에 있을 거예요.",
+          "question": "說話的人是什麼意思？",
+          "options": [
+            "推測：大概在家。",
+            "確定：一定在家。",
+            "計畫：我要在家。"
+          ],
+          "answerIndex": 0,
+          "explanation": "아마＋-(으)ㄹ 거예요＝推測。"
+        }
+      ],
+      "drills": [
+        {
+          "id": "D3301",
+          "type": "transformation",
+          "instruction": "現在 → 未來：-(으)ㄹ 거예요（注意有沒有收音）。",
+          "model": {
+            "korean": "가요 → 갈 거예요",
+            "chinese": "要去",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "먹다",
+              "answers": [
+                "먹을 거예요."
+              ],
+              "chinese": "要吃"
+            },
+            {
+              "cue": "보다",
+              "answers": [
+                "볼 거예요."
+              ],
+              "chinese": "要看"
+            },
+            {
+              "cue": "공부하다",
+              "answers": [
+                "공부할 거예요."
+              ],
+              "chinese": "要讀書"
+            },
+            {
+              "cue": "만들다",
+              "answers": [
+                "만들 거예요."
+              ],
+              "chinese": "要做"
+            },
+            {
+              "cue": "듣다",
+              "answers": [
+                "들을 거예요."
+              ],
+              "chinese": "要聽"
+            },
+            {
+              "cue": "읽다",
+              "answers": [
+                "읽을 거예요."
+              ],
+              "chinese": "要讀"
+            }
+          ]
+        },
+        {
+          "id": "D3302",
+          "type": "substitution",
+          "instruction": "說週末計畫：주말에 … -(으)ㄹ 거예요。",
+          "model": {
+            "korean": "주말에 영화를 볼 거예요.",
+            "chinese": "週末要看電影。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 8,
+          "items": [
+            {
+              "cue": "購物",
+              "answers": [
+                "주말에 쇼핑할 거예요."
+              ],
+              "chinese": "週末要去購物。"
+            },
+            {
+              "cue": "見朋友",
+              "answers": [
+                "주말에 친구를 만날 거예요."
+              ],
+              "chinese": "週末要見朋友。"
+            },
+            {
+              "cue": "在家休息",
+              "answers": [
+                "주말에 집에서 쉴 거예요."
+              ],
+              "chinese": "週末要在家休息。"
+            },
+            {
+              "cue": "做飯捲",
+              "answers": [
+                "주말에 김밥을 만들 거예요."
+              ],
+              "chinese": "週末要做飯捲。"
+            },
+            {
+              "cue": "去釜山（부산）",
+              "answers": [
+                "주말에 부산에 갈 거예요."
+              ],
+              "chinese": "週末要去釜山。"
+            }
+          ]
+        },
+        {
+          "id": "D3303",
+          "type": "transformation",
+          "instruction": "改成推測：아마 … -(으)ㄹ 거예요。",
+          "model": {
+            "korean": "바빠요. → 아마 바쁠 거예요.",
+            "chinese": "大概會很忙。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "추워요.",
+              "answers": [
+                "아마 추울 거예요."
+              ],
+              "chinese": "大概會很冷。"
+            },
+            {
+              "cue": "집에 있어요.",
+              "answers": [
+                "아마 집에 있을 거예요."
+              ],
+              "chinese": "大概在家。"
+            },
+            {
+              "cue": "맛있어요.",
+              "answers": [
+                "아마 맛있을 거예요."
+              ],
+              "chinese": "大概很好吃。"
+            },
+            {
+              "cue": "비싸요.",
+              "answers": [
+                "아마 비쌀 거예요."
+              ],
+              "chinese": "大概很貴。"
+            },
+            {
+              "cue": "재미있어요.",
+              "answers": [
+                "아마 재미있을 거예요."
+              ],
+              "chinese": "大概很有趣。"
+            }
+          ]
+        },
+        {
+          "id": "D3304",
+          "type": "questionAnswer",
+          "instruction": "聽問題，用未來式回答。",
+          "model": {
+            "korean": "주말에 뭐 할 거예요? — 쇼핑할 거예요.",
+            "chinese": "週末要做什麼？——要去購物。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "주말에 뭐 할 거예요?（看電影）",
+              "cueIsAudio": true,
+              "answers": [
+                "영화를 볼 거예요.",
+                "주말에 영화를 볼 거예요."
+              ],
+              "chinese": "要看電影。"
+            },
+            {
+              "cue": "방학에 어디 갈 거예요?（韓國）",
+              "cueIsAudio": true,
+              "answers": [
+                "한국에 갈 거예요.",
+                "방학에 한국에 갈 거예요."
+              ],
+              "chinese": "要去韓國。"
+            },
+            {
+              "cue": "언제 전화할 거예요?（等一下）",
+              "cueIsAudio": true,
+              "answers": [
+                "이따가 전화할 거예요."
+              ],
+              "chinese": "等一下打。"
+            },
+            {
+              "cue": "식당 예약했어요?（還沒，明天要訂）",
+              "cueIsAudio": true,
+              "answers": [
+                "아니요, 내일 예약할 거예요.",
+                "아직 안 했어요. 내일 예약할 거예요."
+              ],
+              "chinese": "還沒，明天要訂。"
+            },
+            {
+              "cue": "민수 씨는 지금 어디에 있어요?（推測：大概在公司）",
+              "cueIsAudio": true,
+              "answers": [
+                "아마 회사에 있을 거예요."
+              ],
+              "chinese": "大概在公司。"
+            }
+          ]
+        },
+        {
+          "id": "D3305",
+          "type": "freeProduction",
+          "instruction": "說你下次放假或週末的兩個計畫。",
+          "model": {
+            "korean": "주말에 친구를 만날 거예요. 그리고 같이 쇼핑할 거예요.",
+            "chinese": "週末要見朋友，然後一起去購物。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 10,
+          "items": [
+            {
+              "cue": "自由回答",
+              "answers": [
+                "주말에 친구를 만날 거예요.",
+                "그리고 같이 쇼핑할 거예요."
+              ],
+              "chinese": "（參考答案）"
+            }
+          ]
+        }
+      ],
+      "speaking": {
+        "scenario": "和韓國朋友聊暑假的旅行計畫。AI 扮演朋友。使用者會：-(으)ㄹ 거예요、다음 주／방학、예약하다、아마。",
+        "speechLevel": "polite",
+        "offlineScript": [
+          {
+            "cue": "방학에 뭐 할 거예요?（提示：要去濟州島 제주도）",
+            "cueIsAudio": true,
+            "answers": [
+              "제주도에 갈 거예요.",
+              "방학에 제주도에 갈 거예요."
+            ],
+            "chinese": "要去濟州島。"
+          },
+          {
+            "cue": "호텔은 예약했어요?（提示：還沒，下週要訂）",
+            "cueIsAudio": true,
+            "answers": [
+              "아니요, 다음 주에 예약할 거예요.",
+              "아직 안 했어요. 다음 주에 예약할 거예요."
+            ],
+            "chinese": "還沒，下週要訂。"
+          },
+          {
+            "cue": "제주도 날씨는 어때요?（提示：大概會很熱）",
+            "cueIsAudio": true,
+            "answers": [
+              "아마 더울 거예요.",
+              "아마 많이 더울 거예요."
+            ],
+            "chinese": "大概會很熱。"
+          }
+        ]
+      },
+      "postTest": [
+        {
+          "id": "Q3301",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「먹다」的未來式是？",
+          "audioText": null,
+          "options": [
+            "먹을 거예요",
+            "먹ㄹ 거예요",
+            "먹을 거이에요"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "有收音＋을 거예요。"
+        },
+        {
+          "id": "Q3302",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「만들다（做）」的未來式是？",
+          "audioText": null,
+          "options": [
+            "만들 거예요",
+            "만들을 거예요",
+            "만드를 거예요"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "ㄹ 語幹直接加 거예요。"
+        },
+        {
+          "id": "Q3303",
+          "skill": "listening",
+          "kind": "listeningChoice",
+          "prompt": "聽句子判斷時態",
+          "audioText": "내일 친구하고 쇼핑할 거예요.",
+          "options": [
+            "未來：明天要去購物。",
+            "過去：昨天去購物了。",
+            "現在：正在購物。"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "할 거예요＝未來。"
+        },
+        {
+          "id": "Q3304",
+          "skill": "phonemeDiscrimination",
+          "kind": "choice",
+          "prompt": "「할 거예요」實際怎麼唸？",
+          "audioText": null,
+          "options": [
+            "[할 꺼예요]",
+            "[하 거예요]",
+            "[할 커예요]"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "ㄹ 後的 거 變緊音。"
+        },
+        {
+          "id": "Q3305",
+          "skill": "grammar",
+          "kind": "typing",
+          "prompt": "用韓文寫：明年要去韓國。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "내년에 한국에 갈 거예요."
+          ],
+          "explanation": "내년에 한국에 갈 거예요."
+        },
+        {
+          "id": "Q3306",
+          "skill": "speaking",
+          "kind": "speaking",
+          "prompt": "說出：週末要做什麼？",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "주말에 뭐 할 거예요?"
+          ],
+          "explanation": "주말에 뭐 할 거예요?"
+        }
+      ],
+      "completion": {
+        "postTestPassRatio": 0.8,
+        "drillAccuracy": 0.8,
+        "requireVocabularyQuiz": true
+      }
+    },
+    {
+      "id": "U07L04",
+      "title": "正在「-고 있어요」與否定「-지 않아요」",
+      "estimatedMinutes": 50,
+      "objectives": [
+        "用「-고 있어요」說正在做的事、最近在做的事",
+        "用「-지 않아요」做否定，和「안」的說法互換",
+        "知道 공부하다 類動詞的短否定：공부 안 해요（不是 *안 공부해요）",
+        "說出家事和日常活動"
+      ],
+      "vocabulary": [
+        {
+          "id": "V0369",
+          "korean": "요즘",
+          "chinese": "最近",
+          "romanization": "yo-jeum",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 223,
+          "example": {
+            "korean": "요즘 한국어를 배우고 있어요.",
+            "chinese": "最近在學韓語。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0370",
+          "korean": "청소해요",
+          "chinese": "打掃",
+          "romanization": "cheong-so-hae-yo",
+          "partOfSpeech": "verb",
+          "tier": "A",
+          "frequencyRank": 118,
+          "example": {
+            "korean": "주말에 청소해요.",
+            "chinese": "週末打掃。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 청소하다。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0371",
+          "korean": "빨래해요",
+          "chinese": "洗衣服",
+          "romanization": "ppal-lae-hae-yo",
+          "partOfSpeech": "verb",
+          "tier": "B",
+          "frequencyRank": 29,
+          "example": {
+            "korean": "일요일에 빨래해요.",
+            "chinese": "星期日洗衣服。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 빨래하다。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0372",
+          "korean": "설거지해요",
+          "chinese": "洗碗",
+          "romanization": "seol-geo-ji-hae-yo",
+          "partOfSpeech": "verb",
+          "tier": "B",
+          "frequencyRank": 30,
+          "example": {
+            "korean": "남편이 설거지해요.",
+            "chinese": "丈夫洗碗。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 설거지하다。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0373",
+          "korean": "운전해요",
+          "chinese": "開車",
+          "romanization": "un-jeon-hae-yo",
+          "partOfSpeech": "verb",
+          "tier": "A",
+          "frequencyRank": 119,
+          "example": {
+            "korean": "운전하고 있어요.",
+            "chinese": "正在開車。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 운전하다。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0374",
+          "korean": "샤워해요",
+          "chinese": "洗澡（淋浴）",
+          "romanization": "sya-wo-hae-yo",
+          "partOfSpeech": "verb",
+          "tier": "A",
+          "frequencyRank": 120,
+          "example": {
+            "korean": "지금 샤워하고 있어요.",
+            "chinese": "正在洗澡。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 샤워하다。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0375",
+          "korean": "이야기해요",
+          "chinese": "聊天；說話",
+          "romanization": "i-ya-gi-hae-yo",
+          "partOfSpeech": "verb",
+          "tier": "S",
+          "frequencyRank": 224,
+          "example": {
+            "korean": "친구하고 이야기해요.",
+            "chinese": "和朋友聊天。",
+            "speechLevel": "polite"
+          },
+          "usage": "口語常說 얘기해요。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0376",
+          "korean": "노래해요",
+          "chinese": "唱歌",
+          "romanization": "no-rae-hae-yo",
+          "partOfSpeech": "verb",
+          "tier": "A",
+          "frequencyRank": 121,
+          "example": {
+            "korean": "노래방에서 노래해요.",
+            "chinese": "在 KTV 唱歌。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 노래하다。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0377",
+          "korean": "텔레비전",
+          "chinese": "電視",
+          "romanization": "tel-le-bi-jeon",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 225,
+          "example": {
+            "korean": "텔레비전을 봐요.",
+            "chinese": "看電視。",
+            "speechLevel": "polite"
+          },
+          "usage": "口語常說 티비（TV）。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0378",
+          "korean": "음식",
+          "chinese": "食物；菜",
+          "romanization": "eum-sik",
+          "partOfSpeech": "noun",
+          "tier": "S",
+          "frequencyRank": 226,
+          "example": {
+            "korean": "한국 음식을 좋아해요.",
+            "chinese": "我喜歡韓國菜。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0379",
+          "korean": "별로",
+          "chinese": "不太（接否定）",
+          "romanization": "byeol-lo",
+          "partOfSpeech": "adverb",
+          "tier": "A",
+          "frequencyRank": 122,
+          "example": {
+            "korean": "별로 안 좋아해요.",
+            "chinese": "不太喜歡。",
+            "speechLevel": "polite"
+          },
+          "usage": "一定和否定一起用：별로 안／별로 -지 않아요。",
+          "commonMistake": null
+        }
+      ],
+      "pronunciation": [
+        {
+          "id": "P3401",
+          "title": "-고 있어요 的緊音與連音",
+          "explanation": "收音 [ㄱ] [ㄷ] [ㅂ] 後面的 고 變緊音：먹고 있어요 → [먹꼬 이써요]、읽고 있어요 → [일꼬 이써요]、듣고 있어요 → [듣꼬 이써요]。沒有收音時不變：보고 있어요 → [보고 이써요]。",
+          "articulation": "있어요 一律唸 [이써요]。",
+          "chineseSpeakerPitfall": "唸成 [먹고 있어요]，고 沒有變緊、있어요 沒有連音。",
+          "samples": [
+            "먹고 있어요",
+            "읽고 있어요",
+            "보고 있어요"
+          ],
+          "minimalPairs": []
+        },
+        {
+          "id": "P3402",
+          "title": "-지 않아요 的 ㅎ 脫落",
+          "explanation": "않아요 的 ㅎ 不發音：가지 않아요 → [가지 아나요]、먹지 않아요 → [먹찌 아나요]（收音後的 지 變緊音）。",
+          "articulation": "않 的 ㄴ 移到 아 前面，ㅎ 完全不唸。",
+          "chineseSpeakerPitfall": "唸成 [안하요]。",
+          "samples": [
+            "가지 않아요",
+            "먹지 않아요",
+            "좋지 않아요"
+          ],
+          "minimalPairs": []
+        }
+      ],
+      "grammar": [
+        {
+          "id": "G3401",
+          "title": "V-고 있어요（正在…；最近在…）",
+          "pattern": "語幹＋고 있어요",
+          "explanation": "去掉 다 加 고 있어요：보다 → 보고 있어요、먹다 → 먹고 있어요、공부하다 → 공부하고 있어요。可以表示「現在正在做」：지금 샤워하고 있어요；也可以表示「最近持續在做」：요즘 한국어를 배우고 있어요。問：지금 뭐 하고 있어요?",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "지금 텔레비전을 보고 있어요.",
+              "chinese": "正在看電視。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "요즘 한국어를 배우고 있어요.",
+              "chinese": "最近在學韓語。",
+              "speechLevel": "polite"
+            }
+          ]
+        },
+        {
+          "id": "G3402",
+          "title": "V-지 않아요（不…，長否定）",
+          "pattern": "語幹＋지 않아요＝안 ＋ 해요體",
+          "explanation": "가지 않아요＝안 가요；먹지 않아요＝안 먹어요。長否定稍微正式、語氣委婉。注意 名詞＋하다 的短否定要把 안 放在中間：공부 안 해요、청소 안 해요（不能說 *안 공부해요）；長否定則照常：공부하지 않아요。별로（不太）一定接否定：별로 안 좋아해요。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "저는 고기를 먹지 않아요.",
+              "chinese": "我不吃肉。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "주말에는 공부 안 해요.",
+              "chinese": "週末不讀書。",
+              "speechLevel": "polite"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "korean": "지금 뭐 하고 있어요?",
+          "chinese": "你現在在做什麼？",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "친구하고 이야기하고 있어요.",
+          "chinese": "正在和朋友聊天。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "요즘 운동하고 있어요.",
+          "chinese": "最近在運動。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "커피를 마시지 않아요.",
+          "chinese": "我不喝咖啡。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "한국 음식을 별로 안 좋아해요?",
+          "chinese": "你不太喜歡韓國菜嗎？",
+          "speechLevel": "polite"
+        }
+      ],
+      "listening": [
+        {
+          "id": "L3401",
+          "audioText": "지금 샤워하고 있어요.",
+          "question": "對方現在在做什麼？",
+          "options": [
+            "正在洗澡。",
+            "正在洗碗。",
+            "正在打掃。"
+          ],
+          "answerIndex": 0,
+          "explanation": "샤워하고 있어요＝正在洗澡。"
+        },
+        {
+          "id": "L3402",
+          "audioText": "요즘 한국어를 배우고 있어요.",
+          "question": "意思是？",
+          "options": [
+            "最近在學韓語。",
+            "明天要學韓語。",
+            "以前學過韓語。"
+          ],
+          "answerIndex": 0,
+          "explanation": "요즘＋-고 있어요＝最近持續在做。"
+        },
+        {
+          "id": "L3403",
+          "audioText": "고기를 먹지 않아요.",
+          "question": "意思是？",
+          "options": [
+            "不吃肉。",
+            "正在吃肉。",
+            "很想吃肉。"
+          ],
+          "answerIndex": 0,
+          "explanation": "-지 않아요＝不…。"
+        },
+        {
+          "id": "L3404",
+          "audioText": "먹고 있어요",
+          "question": "實際發音最接近哪一個？",
+          "options": [
+            "[먹꼬 이써요]",
+            "[먹고 있어요]（不變）",
+            "[머고 이써요]"
+          ],
+          "answerIndex": 0,
+          "explanation": "收音 ㄱ 後的 고 變緊音。"
+        }
+      ],
+      "drills": [
+        {
+          "id": "D3401",
+          "type": "substitution",
+          "instruction": "說正在做的事：지금 … -고 있어요。",
+          "model": {
+            "korean": "지금 텔레비전을 보고 있어요.",
+            "chinese": "正在看電視。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "打掃",
+              "answers": [
+                "지금 청소하고 있어요."
+              ],
+              "chinese": "正在打掃。"
+            },
+            {
+              "cue": "吃飯",
+              "answers": [
+                "지금 밥을 먹고 있어요."
+              ],
+              "chinese": "正在吃飯。"
+            },
+            {
+              "cue": "洗碗",
+              "answers": [
+                "지금 설거지하고 있어요."
+              ],
+              "chinese": "正在洗碗。"
+            },
+            {
+              "cue": "開車",
+              "answers": [
+                "지금 운전하고 있어요."
+              ],
+              "chinese": "正在開車。"
+            },
+            {
+              "cue": "聽音樂",
+              "answers": [
+                "지금 음악을 듣고 있어요."
+              ],
+              "chinese": "正在聽音樂。"
+            }
+          ]
+        },
+        {
+          "id": "D3402",
+          "type": "transformation",
+          "instruction": "안 → -지 않아요（改成長否定）。",
+          "model": {
+            "korean": "안 가요. → 가지 않아요.",
+            "chinese": "不去。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "고기를 안 먹어요.",
+              "answers": [
+                "고기를 먹지 않아요."
+              ],
+              "chinese": "不吃肉。"
+            },
+            {
+              "cue": "커피를 안 마셔요.",
+              "answers": [
+                "커피를 마시지 않아요."
+              ],
+              "chinese": "不喝咖啡。"
+            },
+            {
+              "cue": "주말에 공부 안 해요.",
+              "answers": [
+                "주말에 공부하지 않아요."
+              ],
+              "chinese": "週末不讀書。"
+            },
+            {
+              "cue": "오늘은 안 추워요.",
+              "answers": [
+                "오늘은 춥지 않아요."
+              ],
+              "chinese": "今天不冷。"
+            },
+            {
+              "cue": "텔레비전을 안 봐요.",
+              "answers": [
+                "텔레비전을 보지 않아요."
+              ],
+              "chinese": "不看電視。"
+            }
+          ]
+        },
+        {
+          "id": "D3403",
+          "type": "transformation",
+          "instruction": "改成短否定：注意 名詞＋하다 的 안 要放中間。",
+          "model": {
+            "korean": "청소해요. → 청소 안 해요.",
+            "chinese": "不打掃。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "공부해요.",
+              "answers": [
+                "공부 안 해요."
+              ],
+              "chinese": "不讀書。"
+            },
+            {
+              "cue": "운동해요.",
+              "answers": [
+                "운동 안 해요."
+              ],
+              "chinese": "不運動。"
+            },
+            {
+              "cue": "빨래해요.",
+              "answers": [
+                "빨래 안 해요."
+              ],
+              "chinese": "不洗衣服。"
+            },
+            {
+              "cue": "쇼핑해요.",
+              "answers": [
+                "쇼핑 안 해요."
+              ],
+              "chinese": "不購物。"
+            },
+            {
+              "cue": "좋아해요.",
+              "answers": [
+                "안 좋아해요."
+              ],
+              "chinese": "不喜歡（좋아하다 不是 名詞＋하다）。"
+            }
+          ]
+        },
+        {
+          "id": "D3404",
+          "type": "questionAnswer",
+          "instruction": "聽問題，依提示回答。",
+          "model": {
+            "korean": "지금 뭐 하고 있어요? — 청소하고 있어요.",
+            "chinese": "你在做什麼？——在打掃。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "지금 뭐 하고 있어요?（洗碗）",
+              "cueIsAudio": true,
+              "answers": [
+                "설거지하고 있어요.",
+                "지금 설거지하고 있어요."
+              ],
+              "chinese": "在洗碗。"
+            },
+            {
+              "cue": "요즘 뭐 배우고 있어요?（韓語）",
+              "cueIsAudio": true,
+              "answers": [
+                "한국어를 배우고 있어요.",
+                "요즘 한국어를 배우고 있어요."
+              ],
+              "chinese": "在學韓語。"
+            },
+            {
+              "cue": "커피 마셔요?（不喝）",
+              "cueIsAudio": true,
+              "answers": [
+                "아니요, 마시지 않아요.",
+                "아니요, 안 마셔요.",
+                "아니요, 커피를 마시지 않아요."
+              ],
+              "chinese": "不，我不喝。"
+            },
+            {
+              "cue": "한국 음식 좋아해요?（不太喜歡）",
+              "cueIsAudio": true,
+              "answers": [
+                "아니요, 별로 안 좋아해요.",
+                "별로 안 좋아해요.",
+                "아니요, 별로 좋아하지 않아요."
+              ],
+              "chinese": "不太喜歡。"
+            },
+            {
+              "cue": "주말에 운동해요?（不運動）",
+              "cueIsAudio": true,
+              "answers": [
+                "아니요, 운동 안 해요.",
+                "아니요, 운동하지 않아요."
+              ],
+              "chinese": "不，我不運動。"
+            }
+          ]
+        },
+        {
+          "id": "D3405",
+          "type": "freeProduction",
+          "instruction": "說你最近在做的事，以及一件你不做的事。",
+          "model": {
+            "korean": "요즘 한국어를 배우고 있어요. 텔레비전은 보지 않아요.",
+            "chinese": "最近在學韓語，不看電視。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 10,
+          "items": [
+            {
+              "cue": "自由回答",
+              "answers": [
+                "요즘 한국어를 배우고 있어요.",
+                "텔레비전은 보지 않아요."
+              ],
+              "chinese": "（參考答案）"
+            }
+          ]
+        }
+      ],
+      "speaking": {
+        "scenario": "韓國朋友打電話給你，問你在做什麼、最近怎麼樣。AI 扮演朋友。使用者會：-고 있어요、요즘、-지 않아요、별로。",
+        "speechLevel": "polite",
+        "offlineScript": [
+          {
+            "cue": "여보세요? 지금 뭐 하고 있어요?（提示：正在打掃）",
+            "cueIsAudio": true,
+            "answers": [
+              "청소하고 있어요.",
+              "지금 청소하고 있어요."
+            ],
+            "chinese": "在打掃。"
+          },
+          {
+            "cue": "요즘 뭐 해요?（提示：最近在學韓語）",
+            "cueIsAudio": true,
+            "answers": [
+              "요즘 한국어를 배우고 있어요.",
+              "한국어를 배우고 있어요."
+            ],
+            "chinese": "最近在學韓語。"
+          },
+          {
+            "cue": "이따가 같이 술 마셔요?（提示：我不喝酒——술）",
+            "cueIsAudio": true,
+            "answers": [
+              "저는 술을 마시지 않아요.",
+              "저는 술을 안 마셔요.",
+              "미안해요, 술을 마시지 않아요."
+            ],
+            "chinese": "我不喝酒。"
+          }
+        ]
+      },
+      "postTest": [
+        {
+          "id": "Q3401",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「正在吃飯。」怎麼說？",
+          "audioText": null,
+          "options": [
+            "밥을 먹고 있어요.",
+            "밥을 먹어 있어요.",
+            "밥을 먹을 있어요."
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "語幹＋고 있어요。"
+        },
+        {
+          "id": "Q3402",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「不讀書」的短否定是？",
+          "audioText": null,
+          "options": [
+            "공부 안 해요",
+            "안 공부해요",
+            "공부해요 안"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "名詞＋하다：안 放中間。"
+        },
+        {
+          "id": "Q3403",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「안 가요」的長否定是？",
+          "audioText": null,
+          "options": [
+            "가지 않아요",
+            "가지 안아요",
+            "안 가지 않아요"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "語幹＋지 않아요。"
+        },
+        {
+          "id": "Q3404",
+          "skill": "listening",
+          "kind": "listeningChoice",
+          "prompt": "聽句子選意思",
+          "audioText": "지금 운전하고 있어요. 이따가 전화할게요.",
+          "options": [
+            "正在開車，等一下打電話。",
+            "正在打電話，等一下開車。",
+            "不會開車。"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "운전하고 있어요＝正在開車。"
+        },
+        {
+          "id": "Q3405",
+          "skill": "grammar",
+          "kind": "typing",
+          "prompt": "用韓文寫：最近在學韓語。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "요즘 한국어를 배우고 있어요.",
+            "요즘 한국어를 공부하고 있어요."
+          ],
+          "explanation": "요즘 한국어를 배우고 있어요."
+        },
+        {
+          "id": "Q3406",
+          "skill": "speaking",
+          "kind": "speaking",
+          "prompt": "說出：你現在在做什麼？",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "지금 뭐 하고 있어요?",
+            "뭐 하고 있어요?"
+          ],
+          "explanation": "지금 뭐 하고 있어요?"
+        }
+      ],
+      "completion": {
+        "postTestPassRatio": 0.8,
+        "drillAccuracy": 0.8,
+        "requireVocabularyQuiz": true
+      }
+    },
+    {
+      "id": "U07L05",
+      "title": "想要「-고 싶어요」與請求「-아/어 주세요」",
+      "estimatedMinutes": 55,
+      "objectives": [
+        "用「-고 싶어요」說想做什麼，問別人：뭐 하고 싶어요?",
+        "用「-아/어 주세요」請別人幫忙：천천히 말해 주세요",
+        "用 그래서（所以）、하지만（但是）連接句子",
+        "綜合複習本單元的現在、過去、未來、否定"
+      ],
+      "vocabulary": [
+        {
+          "id": "V0380",
+          "korean": "-고 싶어요",
+          "chinese": "想（做）",
+          "romanization": "go si-peo-yo",
+          "pronunciation": "[고 시퍼요]",
+          "partOfSpeech": "expression",
+          "tier": "S",
+          "frequencyRank": 227,
+          "example": {
+            "korean": "한국에 가고 싶어요.",
+            "chinese": "想去韓國。",
+            "speechLevel": "polite"
+          },
+          "usage": "語幹＋고 싶어요。說別人想要時用 -고 싶어해요。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0381",
+          "korean": "주세요",
+          "chinese": "請給我；請（幫我）",
+          "romanization": "ju-se-yo",
+          "partOfSpeech": "expression",
+          "tier": "S",
+          "frequencyRank": 228,
+          "example": {
+            "korean": "천천히 말해 주세요.",
+            "chinese": "請說慢一點。",
+            "speechLevel": "polite"
+          },
+          "usage": "N 주세요＝請給我 N；V-아/어 주세요＝請幫我做 V。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0382",
+          "korean": "천천히",
+          "chinese": "慢慢地",
+          "romanization": "cheon-cheon-hi",
+          "pronunciation": "[천천이]",
+          "partOfSpeech": "adverb",
+          "tier": "S",
+          "frequencyRank": 229,
+          "example": {
+            "korean": "천천히 말해 주세요.",
+            "chinese": "請說慢一點。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0383",
+          "korean": "다시",
+          "chinese": "再一次",
+          "romanization": "da-si",
+          "partOfSpeech": "adverb",
+          "tier": "S",
+          "frequencyRank": 230,
+          "example": {
+            "korean": "다시 말해 주세요.",
+            "chinese": "請再說一次。",
+            "speechLevel": "polite"
+          },
+          "usage": "",
+          "commonMistake": null
+        },
+        {
+          "id": "V0384",
+          "korean": "말해요",
+          "chinese": "說",
+          "romanization": "mal-hae-yo",
+          "pronunciation": "[마래요]",
+          "partOfSpeech": "verb",
+          "tier": "S",
+          "frequencyRank": 231,
+          "example": {
+            "korean": "한국어로 말해요.",
+            "chinese": "用韓語說。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 말하다。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0385",
+          "korean": "도와요",
+          "chinese": "幫忙",
+          "romanization": "do-wa-yo",
+          "partOfSpeech": "verb",
+          "tier": "A",
+          "frequencyRank": 123,
+          "example": {
+            "korean": "친구를 도와요.",
+            "chinese": "幫朋友。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 돕다（ㅂ 不規則）。請求：도와주세요。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0386",
+          "korean": "찍어요",
+          "chinese": "拍（照）",
+          "romanization": "jji-geo-yo",
+          "pronunciation": "[찌거요]",
+          "partOfSpeech": "verb",
+          "tier": "A",
+          "frequencyRank": 124,
+          "example": {
+            "korean": "사진을 찍어요.",
+            "chinese": "拍照。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 찍다。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0387",
+          "korean": "놀아요",
+          "chinese": "玩；出去玩",
+          "romanization": "no-ra-yo",
+          "pronunciation": "[노라요]",
+          "partOfSpeech": "verb",
+          "tier": "S",
+          "frequencyRank": 232,
+          "example": {
+            "korean": "친구하고 놀아요.",
+            "chinese": "和朋友出去玩。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 놀다。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0388",
+          "korean": "배고파요",
+          "chinese": "肚子餓",
+          "romanization": "bae-go-pa-yo",
+          "partOfSpeech": "adjective",
+          "tier": "S",
+          "frequencyRank": 233,
+          "example": {
+            "korean": "배고파요. 밥 먹고 싶어요.",
+            "chinese": "肚子餓了，想吃飯。",
+            "speechLevel": "polite"
+          },
+          "usage": "原形 배고프다。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0389",
+          "korean": "그래서",
+          "chinese": "所以",
+          "romanization": "geu-rae-seo",
+          "partOfSpeech": "adverb",
+          "tier": "S",
+          "frequencyRank": 234,
+          "example": {
+            "korean": "배고파요. 그래서 라면을 먹었어요.",
+            "chinese": "肚子餓，所以吃了泡麵。",
+            "speechLevel": "polite"
+          },
+          "usage": "放在第二句的開頭。",
+          "commonMistake": null
+        },
+        {
+          "id": "V0390",
+          "korean": "하지만",
+          "chinese": "但是",
+          "romanization": "ha-ji-man",
+          "partOfSpeech": "adverb",
+          "tier": "S",
+          "frequencyRank": 235,
+          "example": {
+            "korean": "비싸요. 하지만 맛있어요.",
+            "chinese": "很貴，但是好吃。",
+            "speechLevel": "polite"
+          },
+          "usage": "口語也常用 그런데、근데。",
+          "commonMistake": null
+        }
+      ],
+      "pronunciation": [
+        {
+          "id": "P3501",
+          "title": "-고 싶어요 的連音與緊音",
+          "explanation": "싶어요 → [시퍼요]；收音後的 고 變緊音：먹고 싶어요 → [먹꼬 시퍼요]、읽고 싶어요 → [일꼬 시퍼요]；沒有收音時不變：가고 싶어요 → [가고 시퍼요]。",
+          "articulation": "ㅍ 移到 어 前面，要送氣：[퍼]。",
+          "chineseSpeakerPitfall": "唸成 [싶 어요]，或 ㅍ 不送氣唸成 [시버요]。",
+          "samples": [
+            "가고 싶어요",
+            "먹고 싶어요",
+            "보고 싶어요"
+          ],
+          "minimalPairs": []
+        },
+        {
+          "id": "P3502",
+          "title": "말해요、천천히 的 ㅎ 弱化",
+          "explanation": "말해요 → [마래요]、천천히 → [천천이]、도와주세요 → [도와주세요]。ㅎ 在 ㄴ、ㄹ 後面口語幾乎不唸。",
+          "articulation": "ㄹ 直接連到後面的母音：[마래요]。",
+          "chineseSpeakerPitfall": "말해요 用力唸出 ㅎ，聽起來像兩個字。",
+          "samples": [
+            "말해요",
+            "천천히",
+            "말해 주세요"
+          ],
+          "minimalPairs": []
+        }
+      ],
+      "grammar": [
+        {
+          "id": "G3501",
+          "title": "V-고 싶어요（想…）",
+          "pattern": "語幹＋고 싶어요；第三人稱：-고 싶어해요",
+          "explanation": "가다 → 가고 싶어요、먹다 → 먹고 싶어요、쉬다 → 쉬고 싶어요。問：뭐 하고 싶어요?（想做什麼？）。說別人想要：동생은 한국에 가고 싶어해요。否定：가고 싶지 않아요（不想去）或 안 가고 싶어요。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "한국에 가고 싶어요.",
+              "chinese": "想去韓國。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "배고파요. 밥 먹고 싶어요.",
+              "chinese": "肚子餓了，想吃飯。",
+              "speechLevel": "polite"
+            }
+          ]
+        },
+        {
+          "id": "G3502",
+          "title": "V-아/어 주세요（請幫我…）",
+          "pattern": "해요體的 요 換成 주세요：말해요 → 말해 주세요",
+          "explanation": "先變出해요體，去掉 요，加上 주세요：말해요 → 말해 주세요（請說）、기다려요 → 기다려 주세요（請等一下）、찍어요 → 찍어 주세요（請幫我拍）、도와요 → 도와주세요（請幫我）。學韓語最實用的兩句：천천히 말해 주세요、다시 말해 주세요。",
+          "speechLevel": "polite",
+          "examples": [
+            {
+              "korean": "천천히 말해 주세요.",
+              "chinese": "請說慢一點。",
+              "speechLevel": "polite"
+            },
+            {
+              "korean": "사진 좀 찍어 주세요.",
+              "chinese": "請幫我拍張照。",
+              "speechLevel": "polite"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "korean": "뭐 하고 싶어요?",
+          "chinese": "你想做什麼？",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "제주도에 가고 싶어요.",
+          "chinese": "想去濟州島。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "다시 말해 주세요.",
+          "chinese": "請再說一次。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "잠깐만 기다려 주세요.",
+          "chinese": "請稍等一下。",
+          "speechLevel": "polite"
+        },
+        {
+          "korean": "배고파요. 그래서 김밥을 샀어요.",
+          "chinese": "肚子餓，所以買了飯捲。",
+          "speechLevel": "polite"
+        }
+      ],
+      "listening": [
+        {
+          "id": "L3501",
+          "audioText": "천천히 말해 주세요.",
+          "question": "對方的意思是？",
+          "options": [
+            "請說慢一點。",
+            "請再說一次。",
+            "請說韓語。"
+          ],
+          "answerIndex": 0,
+          "explanation": "천천히＝慢慢地。"
+        },
+        {
+          "id": "L3502",
+          "audioText": "제주도에 가고 싶어요.",
+          "question": "意思是？",
+          "options": [
+            "想去濟州島。",
+            "去過濟州島。",
+            "要去濟州島。"
+          ],
+          "answerIndex": 0,
+          "explanation": "-고 싶어요＝想。"
+        },
+        {
+          "id": "L3503",
+          "audioText": "사진 좀 찍어 주세요.",
+          "question": "對方要你做什麼？",
+          "options": [
+            "幫忙拍照",
+            "看照片",
+            "傳照片"
+          ],
+          "answerIndex": 0,
+          "explanation": "찍어 주세요＝請幫我拍。"
+        },
+        {
+          "id": "L3504",
+          "audioText": "비싸요. 하지만 맛있어요.",
+          "question": "意思是？",
+          "options": [
+            "很貴，但是好吃。",
+            "很貴，所以不吃。",
+            "便宜又好吃。"
+          ],
+          "answerIndex": 0,
+          "explanation": "하지만＝但是。"
+        }
+      ],
+      "drills": [
+        {
+          "id": "D3501",
+          "type": "substitution",
+          "instruction": "說想做的事：… -고 싶어요。",
+          "model": {
+            "korean": "한국에 가고 싶어요.",
+            "chinese": "想去韓國。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "休息",
+              "answers": [
+                "쉬고 싶어요."
+              ],
+              "chinese": "想休息。"
+            },
+            {
+              "cue": "吃拌飯",
+              "answers": [
+                "비빔밥을 먹고 싶어요."
+              ],
+              "chinese": "想吃拌飯。"
+            },
+            {
+              "cue": "看電影",
+              "answers": [
+                "영화를 보고 싶어요."
+              ],
+              "chinese": "想看電影。"
+            },
+            {
+              "cue": "學韓語",
+              "answers": [
+                "한국어를 배우고 싶어요."
+              ],
+              "chinese": "想學韓語。"
+            },
+            {
+              "cue": "和朋友出去玩",
+              "answers": [
+                "친구하고 놀고 싶어요."
+              ],
+              "chinese": "想和朋友出去玩。"
+            }
+          ]
+        },
+        {
+          "id": "D3502",
+          "type": "transformation",
+          "instruction": "請求：해요體 → -아/어 주세요。",
+          "model": {
+            "korean": "말해요 → 말해 주세요",
+            "chinese": "請說",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "기다려요",
+              "answers": [
+                "기다려 주세요."
+              ],
+              "chinese": "請等一下"
+            },
+            {
+              "cue": "찍어요",
+              "answers": [
+                "찍어 주세요."
+              ],
+              "chinese": "請幫我拍"
+            },
+            {
+              "cue": "도와요",
+              "answers": [
+                "도와주세요."
+              ],
+              "chinese": "請幫我"
+            },
+            {
+              "cue": "열어요",
+              "answers": [
+                "열어 주세요."
+              ],
+              "chinese": "請打開"
+            },
+            {
+              "cue": "써요",
+              "answers": [
+                "써 주세요."
+              ],
+              "chinese": "請寫下來"
+            }
+          ]
+        },
+        {
+          "id": "D3503",
+          "type": "transformation",
+          "instruction": "用 그래서／하지만 連接兩句（依提示）。",
+          "model": {
+            "korean": "배고파요.（所以）라면을 먹었어요. → 배고파요. 그래서 라면을 먹었어요.",
+            "chinese": "肚子餓，所以吃了泡麵。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 9,
+          "items": [
+            {
+              "cue": "비싸요.（但是）맛있어요.",
+              "answers": [
+                "비싸요. 하지만 맛있어요."
+              ],
+              "chinese": "很貴，但是好吃。"
+            },
+            {
+              "cue": "피곤해요.（所以）일찍 잘 거예요.",
+              "answers": [
+                "피곤해요. 그래서 일찍 잘 거예요."
+              ],
+              "chinese": "很累，所以要早點睡。"
+            },
+            {
+              "cue": "한국어가 어려워요.（但是）재미있어요.",
+              "answers": [
+                "한국어가 어려워요. 하지만 재미있어요."
+              ],
+              "chinese": "韓語很難，但是很有趣。"
+            },
+            {
+              "cue": "비가 와요.（所以）집에 있어요.",
+              "answers": [
+                "비가 와요. 그래서 집에 있어요."
+              ],
+              "chinese": "下雨，所以待在家。"
+            },
+            {
+              "cue": "바빠요.（但是）운동하고 싶어요.",
+              "answers": [
+                "바빠요. 하지만 운동하고 싶어요."
+              ],
+              "chinese": "很忙，但是想運動。"
+            }
+          ]
+        },
+        {
+          "id": "D3504",
+          "type": "questionAnswer",
+          "instruction": "聽對方說的話，依提示回應。",
+          "model": {
+            "korean": "뭐 하고 싶어요? — 쉬고 싶어요.",
+            "chinese": "想做什麼？——想休息。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 7,
+          "items": [
+            {
+              "cue": "뭐 하고 싶어요?（想去韓國）",
+              "cueIsAudio": true,
+              "answers": [
+                "한국에 가고 싶어요."
+              ],
+              "chinese": "想去韓國。"
+            },
+            {
+              "cue": "（對方說太快，請他慢一點）",
+              "cueIsAudio": true,
+              "answers": [
+                "천천히 말해 주세요.",
+                "좀 천천히 말해 주세요."
+              ],
+              "chinese": "請說慢一點。"
+            },
+            {
+              "cue": "（沒聽清楚，請他再說一次）",
+              "cueIsAudio": true,
+              "answers": [
+                "다시 말해 주세요.",
+                "다시 한 번 말해 주세요."
+              ],
+              "chinese": "請再說一次。"
+            },
+            {
+              "cue": "배고파요?（是，想吃飯）",
+              "cueIsAudio": true,
+              "answers": [
+                "네, 배고파요. 밥 먹고 싶어요.",
+                "네, 밥 먹고 싶어요."
+              ],
+              "chinese": "對，想吃飯。"
+            },
+            {
+              "cue": "주말에 뭐 했어요?（和朋友出去玩了）",
+              "cueIsAudio": true,
+              "answers": [
+                "친구하고 놀았어요.",
+                "친구랑 놀았어요."
+              ],
+              "chinese": "和朋友出去玩了。"
+            }
+          ]
+        },
+        {
+          "id": "D3505",
+          "type": "freeProduction",
+          "instruction": "說一件你想做的事和原因（用 그래서）。",
+          "model": {
+            "korean": "요즘 너무 바빠요. 그래서 쉬고 싶어요.",
+            "chinese": "最近太忙了，所以想休息。",
+            "speechLevel": "polite"
+          },
+          "thinkSeconds": 10,
+          "items": [
+            {
+              "cue": "自由回答",
+              "answers": [
+                "요즘 너무 바빠요.",
+                "그래서 쉬고 싶어요."
+              ],
+              "chinese": "（參考答案）"
+            }
+          ]
+        }
+      ],
+      "speaking": {
+        "scenario": "在首爾的景點想請路人幫忙拍照，順便聊聊旅行。AI 扮演路人，說話稍快。使用者會：-아/어 주세요、천천히／다시 말해 주세요、-고 싶어요、過去式。",
+        "speechLevel": "polite",
+        "offlineScript": [
+          {
+            "cue": "（提示：請對方幫你拍照）",
+            "cueIsAudio": true,
+            "answers": [
+              "사진 좀 찍어 주세요.",
+              "사진 찍어 주세요.",
+              "죄송하지만 사진 좀 찍어 주세요."
+            ],
+            "chinese": "請幫我拍張照。"
+          },
+          {
+            "cue": "네! 어디에서 왔어요? 여기 처음이에요?（提示：說太快了，請他說慢一點）",
+            "cueIsAudio": true,
+            "answers": [
+              "천천히 말해 주세요.",
+              "좀 천천히 말해 주세요."
+            ],
+            "chinese": "請說慢一點。"
+          },
+          {
+            "cue": "아, 미안해요. 서울에서 어디 가고 싶어요?（提示：想去明洞 명동）",
+            "cueIsAudio": true,
+            "answers": [
+              "명동에 가고 싶어요."
+            ],
+            "chinese": "想去明洞。"
+          }
+        ]
+      },
+      "postTest": [
+        {
+          "id": "Q3501",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「想吃拌飯。」怎麼說？",
+          "audioText": null,
+          "options": [
+            "비빔밥을 먹고 싶어요.",
+            "비빔밥을 먹어 싶어요.",
+            "비빔밥을 먹을 싶어요."
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "語幹＋고 싶어요。"
+        },
+        {
+          "id": "Q3502",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「請等一下。」怎麼說？",
+          "audioText": null,
+          "options": [
+            "기다려 주세요.",
+            "기다리 주세요.",
+            "기다리고 주세요."
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "기다려요 → 기다려 주세요。"
+        },
+        {
+          "id": "Q3503",
+          "skill": "grammar",
+          "kind": "choice",
+          "prompt": "「很貴，但是好吃。」中間用哪個詞？",
+          "audioText": null,
+          "options": [
+            "하지만",
+            "그래서",
+            "그리고"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "하지만＝但是。"
+        },
+        {
+          "id": "Q3504",
+          "skill": "listening",
+          "kind": "listeningChoice",
+          "prompt": "聽句子判斷時態",
+          "audioText": "어제 친구하고 놀았어요. 내일도 놀고 싶어요.",
+          "options": [
+            "昨天和朋友玩了，明天也想玩。",
+            "昨天想和朋友玩，但沒玩成。",
+            "明天要和朋友玩。"
+          ],
+          "answerIndex": 0,
+          "acceptedAnswers": null,
+          "explanation": "놀았어요＝過去；놀고 싶어요＝想要。"
+        },
+        {
+          "id": "Q3505",
+          "skill": "grammar",
+          "kind": "typing",
+          "prompt": "用韓文寫：請再說一次。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "다시 말해 주세요.",
+            "다시 한 번 말해 주세요."
+          ],
+          "explanation": "다시 말해 주세요."
+        },
+        {
+          "id": "Q3506",
+          "skill": "speaking",
+          "kind": "speaking",
+          "prompt": "說出：請說慢一點。",
+          "audioText": null,
+          "options": null,
+          "answerIndex": null,
+          "acceptedAnswers": [
+            "천천히 말해 주세요.",
+            "좀 천천히 말해 주세요."
+          ],
+          "explanation": "천천히 말해 주세요."
+        }
+      ],
+      "completion": {
+        "postTestPassRatio": 0.8,
+        "drillAccuracy": 0.8,
+        "requireVocabularyQuiz": true
+      }
+    }
+  ]
 }

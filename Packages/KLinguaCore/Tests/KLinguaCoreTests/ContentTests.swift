@@ -111,6 +111,24 @@ struct ContentTests {
         #expect(!answers.contains { $0.contains("지하철으로") })
     }
 
+    @Test("單元 07 時態：現在、過去、未來、進行都有練習")
+    func unit07() throws {
+        let lib = try ContentLibrary.loadBundled()
+        let u7 = lib.units[6]
+        #expect(u7.number == 7)
+        #expect(u7.available)
+        #expect(u7.lessons.map(\.id) == ["U07L01", "U07L02", "U07L03", "U07L04", "U07L05"])
+        let answers = Set(u7.lessons.flatMap(\.drills).flatMap(\.items).flatMap(\.answers))
+        #expect(answers.contains("먹었어요."))          // 過去
+        #expect(answers.contains("만들 거예요."))       // 未來（ㄹ 語幹）
+        #expect(answers.contains("들을 거예요."))       // 未來（ㄷ 不規則）
+        #expect(answers.contains("지금 청소하고 있어요.")) // 進行
+        #expect(answers.contains("공부 안 해요."))      // 名詞＋하다 的短否定
+        #expect(!answers.contains { $0.contains("안 공부해요") })
+        let earlier = Set(lib.units.prefix(6).flatMap(\.lessons).flatMap(\.vocabulary).map(\.korean))
+        #expect(u7.lessons.flatMap(\.vocabulary).allSatisfy { !earlier.contains($0.korean) })
+    }
+
     @Test("數字答案：韓文、阿拉伯數字、千分位、語音辨識結果都判為正確")
     func numberAnswersAcceptDigits() throws {
         let lib = try ContentLibrary.loadBundled()

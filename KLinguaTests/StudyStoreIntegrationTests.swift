@@ -45,12 +45,21 @@ struct StudyStoreIntegrationTests {
     }
 
     @Test func placementBeyondAvailableContentDoesNotSkipCurrentLesson() throws {
-        // 全部答對 → 建議的單元超過目前已開放的教材，停在最後一個已開放的課
-        let d = store.library.diagnostic
-        let ids = Set(d.sections.flatMap(\.questions).map(\.id))
-        let scores = QuizScoring.sectionScores(d, correctIDs: ids)
+        // 只開放第 1–6 單元的教材庫：全部答對 → 建議第 7 單元，但尚未開放，停在最後一個已開放的課
+        let full = try ContentLibrary.loadBundled()
+        let trimmed = ContentLibrary(units: full.units.map { unit in
+            guard unit.number >= 7 else { return unit }
+            var closed = unit
+            closed.available = false
+            closed.lessons = []
+            return closed
+        }, diagnostic: full.diagnostic)
+        let store = StudyStore(container: try PersistenceSchema.makeContainer(inMemory: true), library: trimmed)
+
+        let d = trimmed.diagnostic
+        let scores = QuizScoring.sectionScores(d, correctIDs: Set(d.sections.flatMap(\.questions).map(\.id)))
         let result = PlacementEngine.place(scores)
-        let lastOpenUnit = try #require(store.library.units.last { $0.available })
+        let lastOpenUnit = try #require(trimmed.units.last { $0.available })
         #expect(result.startUnitNumber > lastOpenUnit.number)
         store.applyPlacement(result, sectionScores: scores)
         let last = try #require(store.availableLessons.last)
@@ -58,6 +67,19 @@ struct StudyStoreIntegrationTests {
         #expect(current.id == last.id)
         #expect(store.status(of: current) == .notStarted)
         let earlier = store.availableLessons.filter { $0.id != last.id }
+        #expect(earlier.allSatisfy { store.status(of: $0) == .skippedByTest })
+    }
+
+    @Test func allCorrectPlacementStartsAtUnitSeven() throws {
+        // 診斷全對 → 從第 7 單元（時態）開始，第 1–6 單元標為已跳過
+        let d = store.library.diagnostic
+        let scores = QuizScoring.sectionScores(d, correctIDs: Set(d.sections.flatMap(\.questions).map(\.id)))
+        let result = PlacementEngine.place(scores)
+        #expect(result.startUnitNumber == 7)
+        store.applyPlacement(result, sectionScores: scores)
+        #expect(store.currentLesson?.id == "U07L01")
+        #expect(store.status(of: try #require(store.currentLesson)) == .notStarted)
+        let earlier = store.library.units.prefix(6).flatMap(\.lessons)
         #expect(earlier.allSatisfy { store.status(of: $0) == .skippedByTest })
     }
 
